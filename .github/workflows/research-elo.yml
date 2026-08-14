@@ -1,0 +1,98 @@
+name: Research Portfolio Elo
+
+on:
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "Issue number to evaluate"
+        required: true
+        type: string
+  issues:
+    types: [opened, edited, reopened]
+
+permissions:
+  contents: write
+  issues: write
+  copilot-requests: write
+
+concurrency:
+  group: research-portfolio-elo
+  cancel-in-progress: false
+
+jobs:
+  evaluate:
+    if: ${{ github.event_name == 'workflow_dispatch' || (github.event.issue.user.login == github.repository_owner && startsWith(github.event.issue.title, '[Idea]')) }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+
+      - name: Install GitHub Copilot CLI
+        run: npm install -g @github/copilot
+
+      - name: Resolve issue number
+        id: issue
+        env:
+          MANUAL: ${{ inputs.issue_number }}
+          EVENT: ${{ github.event.issue.number }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "number=$MANUAL" >> "$GITHUB_OUTPUT"
+          else
+            echo "number=$EVENT" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Prepare comparisons
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python scripts/research_elo.py prepare \
+            --issue "${{ steps.issue.outputs.number }}" \
+            --prompt-file /tmp/research-prompt.txt \
+            --context-file /tmp/research-context.json
+
+      - name: Judge research ideas
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          copilot -p "$(cat /tmp/research-prompt.txt)" --no-ask-user > /tmp/research-result.txt
+          cat /tmp/research-result.txt
+
+      - name: Apply ratings and comment on issue
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python scripts/research_elo.py apply \
+            --issue "${{ steps.issue.outputs.number }}" \
+            --context-file /tmp/research-context.json \
+            --result-file /tmp/research-result.txt
+
+      - name: Update README leaderboard
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python scripts/render_research_elo.py
+
+      - name: Commit rating state
+        run: |
+          if git diff --quiet -- .research-elo/ratings.json README.md; then
+            echo "No repository changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .research-elo/ratings.json README.md
+          git commit -m "Update research portfolio ranking"
+          git push
