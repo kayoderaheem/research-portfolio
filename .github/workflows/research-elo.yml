@@ -66,7 +66,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
-          copilot -p "$(cat /tmp/research-prompt.txt)" --no-ask-user > /tmp/research-result.txt
+          copilot --yolo -p "$(cat /tmp/research-prompt.txt)" > /tmp/research-result.txt
           cat /tmp/research-result.txt
 
       - name: Apply ratings and comment on issue
