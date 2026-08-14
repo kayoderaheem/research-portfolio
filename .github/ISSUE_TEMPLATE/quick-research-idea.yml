@@ -1,0 +1,58 @@
+name: Quick Research Idea
+description: Capture a research direction before it is fully developed
+title: "[Idea] "
+body:
+  - type: textarea
+    id: observation
+    attributes:
+      label: Observation / trigger
+      description: What did you notice before proposing an explanation or method?
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Scientific problem
+      description: What unresolved biological or computational problem does this expose?
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Core research question
+      description: State one question that could be answered empirically.
+    validations:
+      required: true
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Hypothesis
+      description: What non-obvious claim could be supported or rejected?
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Why it matters
+      description: What scientific or translational consequence would follow if this is resolved?
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Data readiness
+      description: Which datasets could actually test the question? Note important missing modalities or labels.
+  - type: textarea
+    id: risk
+    attributes:
+      label: Biggest uncertainty / assumption
+      description: Which assumption is most likely to kill the project?
+    validations:
+      required: true
+  - type: textarea
+    id: test
+    attributes:
+      label: Cheapest discriminating test
+      description: What is the earliest experiment or analysis that could change your mind?
+    validations:
+      required: true
