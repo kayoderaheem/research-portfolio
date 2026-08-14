@@ -1,0 +1,93 @@
+name: Research Idea — Deep Evaluation
+description: Evaluate whether an idea deserves substantial research time
+title: "[Idea] "
+body:
+  - type: textarea
+    id: observation
+    attributes:
+      label: Observation
+      description: What empirical or conceptual observation motivated this idea?
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Scientific problem and gap
+      description: What is unresolved, why does it matter, and why might it remain unsolved?
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Research question
+      description: State the question as precisely as possible.
+    validations:
+      required: true
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Hypothesis and competing explanation
+      description: State the main hypothesis and at least one plausible alternative.
+    validations:
+      required: true
+  - type: textarea
+    id: predictions
+    attributes:
+      label: Falsifiable predictions
+      description: What should be observed if the hypothesis is correct? What result would weaken or reject it?
+    validations:
+      required: true
+  - type: textarea
+    id: novelty
+    attributes:
+      label: Novelty and competitive position
+      description: What would be differentiated from existing work? What literature must be checked before claiming novelty?
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Data readiness and identifiability
+      description: Which datasets, modalities, labels, sample sizes, and splits are available? Can they actually identify the claimed effect?
+    validations:
+      required: true
+  - type: textarea
+    id: baselines
+    attributes:
+      label: Strong baselines
+      description: What classical, statistical, or existing deep-learning approaches must be compared?
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation plan
+      description: What independent cohort, orthogonal assay, perturbation, or external benchmark would make the result credible?
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Highest-risk assumptions
+      description: Rank the assumptions most likely to invalidate the project.
+    validations:
+      required: true
+  - type: textarea
+    id: first_test
+    attributes:
+      label: Earliest go / no-go test
+      description: Design the cheapest analysis that tests the highest-risk assumption.
+    validations:
+      required: true
+  - type: textarea
+    id: contribution
+    attributes:
+      label: Minimum publishable contribution
+      description: If the ambitious hypothesis fails, what scientifically useful result could still remain?
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision tree and pivots
+      description: Specify continue, pivot, park, and kill conditions.
+    validations:
+      required: true
