@@ -1,11 +1,26 @@
 name: Quick Research Idea
-description: Capture a research direction before it is fully developed
+description: Capture a competing scientific problem before committing to a method
 title: "[Idea] "
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Start with the scientific problem. Do not include patient identifiers, protected health information, credentials, or sensitive unpublished data in this public issue.
+  - type: dropdown
+    id: project_type
+    attributes:
+      label: Project type
+      options:
+        - Biological discovery
+        - Computational or measurement technology
+        - Precision-medicine translation
+        - Hybrid
+    validations:
+      required: true
   - type: textarea
     id: observation
     attributes:
-      label: Observation / trigger
+      label: Observation or trigger
       description: What did you notice before proposing an explanation or method?
     validations:
       required: true
@@ -13,7 +28,7 @@ body:
     id: problem
     attributes:
       label: Scientific problem
-      description: What unresolved biological or computational problem does this expose?
+      description: What consequential biological, computational, or clinical problem remains unresolved?
     validations:
       required: true
   - type: textarea
@@ -26,33 +41,40 @@ body:
   - type: textarea
     id: hypothesis
     attributes:
-      label: Hypothesis
-      description: What non-obvious claim could be supported or rejected?
+      label: Hypothesis and alternative
+      description: What non-obvious claim could be rejected, and what competing explanation is plausible?
     validations:
       required: true
   - type: textarea
     id: impact
     attributes:
-      label: Why it matters
-      description: What scientific or translational consequence would follow if this is resolved?
+      label: Optimization function
+      description: What does impact mean here—learning, generality, use, irreplaceability, or patient value?
+    validations:
+      required: true
+  - type: textarea
+    id: anchor
+    attributes:
+      label: Fixed anchor and floating choices
+      description: Name the one element that must stay fixed and the methods, cohorts, modalities, or applications that may change.
     validations:
       required: true
   - type: textarea
     id: data
     attributes:
       label: Data readiness
-      description: Which datasets could actually test the question? Note important missing modalities or labels.
+      description: Which datasets can test the question? State the unit of independence, likely leakage risks, and missing labels or modalities.
   - type: textarea
     id: risk
     attributes:
-      label: Biggest uncertainty / assumption
-      description: Which assumption is most likely to kill the project?
+      label: Highest-risk assumption
+      description: Which assumption is most likely to change the decision, and when could it read out?
     validations:
       required: true
   - type: textarea
     id: test
     attributes:
       label: Cheapest discriminating test
-      description: What is the earliest experiment or analysis that could change your mind?
+      description: What is the earliest analysis or experiment that would trigger continue, refine, pivot, park, or stop?
     validations:
       required: true

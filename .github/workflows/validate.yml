@@ -1,0 +1,40 @@
+name: Validate Portfolio
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+      - name: Smoke-test website
+        run: |
+          python -m http.server 8000 --bind 127.0.0.1 >/tmp/portfolio-server.log 2>&1 &
+          server_pid=$!
+          trap 'kill $server_pid' EXIT
+          python - <<'PY'
+          import time
+          import urllib.request
+          for _ in range(20):
+              try:
+                  with urllib.request.urlopen('http://127.0.0.1:8000/', timeout=2) as response:
+                      assert response.status == 200
+                      assert b'Choose the problem' in response.read()
+                  break
+              except Exception:
+                  time.sleep(0.25)
+          else:
+              raise SystemExit('Website did not start')
+          PY

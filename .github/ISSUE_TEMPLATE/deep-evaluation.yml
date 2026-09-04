@@ -1,7 +1,23 @@
-name: Research Idea — Deep Evaluation
-description: Evaluate whether an idea deserves substantial research time
+name: Research Idea - Deep Evaluation
+description: Decide whether a scientific problem deserves substantial research time
 title: "[Idea] "
 body:
+  - type: markdown
+    attributes:
+      value: |
+        This form makes the decision tree reviewable before substantial execution. Do not include patient identifiers, protected health information, credentials, or sensitive unpublished data in this public issue.
+  - type: dropdown
+    id: project_type
+    attributes:
+      label: Primary optimization function
+      description: Choose the lens by which impact should be evaluated.
+      options:
+        - Discovery - learning and generality
+        - Technology - breadth and irreplaceability
+        - Precision medicine - credible patient or clinical value
+        - Hybrid - define the trade-off below
+    validations:
+      required: true
   - type: textarea
     id: observation
     attributes:
@@ -20,74 +36,108 @@ body:
     id: question
     attributes:
       label: Research question
-      description: State the question as precisely as possible.
+      description: State one primary question precisely enough to be answered.
     validations:
       required: true
   - type: textarea
     id: hypothesis
     attributes:
-      label: Hypothesis and competing explanation
-      description: State the main hypothesis and at least one plausible alternative.
+      label: Hypothesis and competing explanations
+      description: State the main claim and at least one plausible alternative.
     validations:
       required: true
   - type: textarea
     id: predictions
     attributes:
       label: Falsifiable predictions
-      description: What should be observed if the hypothesis is correct? What result would weaken or reject it?
+      description: What should be observed if the hypothesis is correct? What would weaken or reject it?
     validations:
       required: true
   - type: textarea
-    id: novelty
+    id: impact
     attributes:
-      label: Novelty and competitive position
-      description: What would be differentiated from existing work? What literature must be checked before claiming novelty?
+      label: Impact criteria
+      description: Define the two or three outcomes by which the project should be judged.
+    validations:
+      required: true
+  - type: textarea
+    id: competition
+    attributes:
+      label: Competitive position
+      description: What literature must be checked, what is differentiated, and what edge exists in data, expertise, access, or timing?
+    validations:
+      required: true
+  - type: textarea
+    id: parameters
+    attributes:
+      label: Fixed and floating parameters
+      description: Fix one anchor. List the model, dataset, cohort, assay, modality, endpoint, or application choices that can float.
+    validations:
+      required: true
+  - type: textarea
+    id: assumptions
+    attributes:
+      label: Assumption chain
+      description: List biological-reality and technical-capability assumptions. Give each a risk level and time-to-readout.
+      placeholder: |
+        1. Assumption — biological/technical — risk — readout time — test
+        2. Assumption — biological/technical — risk — readout time — test
     validations:
       required: true
   - type: textarea
     id: data
     attributes:
       label: Data readiness and identifiability
-      description: Which datasets, modalities, labels, sample sizes, and splits are available? Can they actually identify the claimed effect?
+      description: State cohorts, modalities, labels, sample sizes, independence unit, likely leakage paths, and whether the data can identify the claimed effect.
     validations:
       required: true
   - type: textarea
     id: baselines
     attributes:
-      label: Strong baselines
-      description: What classical, statistical, or existing deep-learning approaches must be compared?
+      label: Strong baselines and negative controls
+      description: Which simple, statistical, and established methods must be matched or beaten? What negative controls expose shortcuts?
     validations:
       required: true
   - type: textarea
     id: validation
     attributes:
       label: Validation plan
-      description: What independent cohort, orthogonal assay, perturbation, or external benchmark would make the result credible?
-    validations:
-      required: true
-  - type: textarea
-    id: risk
-    attributes:
-      label: Highest-risk assumptions
-      description: Rank the assumptions most likely to invalidate the project.
+      description: Define held-out units, independent cohorts, calibration or uncertainty checks, subgroup analyses, and orthogonal biological evidence.
     validations:
       required: true
   - type: textarea
     id: first_test
     attributes:
       label: Earliest go / no-go test
-      description: Design the cheapest analysis that tests the highest-risk assumption.
+      description: Design the cheapest credible test of the highest-risk assumption, with a pre-specified decision threshold.
     validations:
       required: true
   - type: textarea
-    id: contribution
+    id: tree
     attributes:
-      label: Minimum publishable contribution
-      description: If the ambitious hypothesis fails, what scientifically useful result could still remain?
-  - type: textarea
-    id: decision
-    attributes:
-      label: Decision tree and pivots
-      description: Specify continue, pivot, park, and kill conditions.
+      label: Decision tree
+      description: State what you will do if the first test is positive, ambiguous, or negative.
+      placeholder: |
+        Positive -> Continue by...
+        Ambiguous -> Refine by floating...
+        Negative -> Pivot, park, or stop because...
     validations:
       required: true
+  - type: textarea
+    id: residual_value
+    attributes:
+      label: Value under failure
+      description: If the favored hypothesis fails, what reusable dataset, negative result, mechanism, benchmark, or alternative question remains?
+    validations:
+      required: true
+  - type: checkboxes
+    id: readiness
+    attributes:
+      label: Readiness check
+      options:
+        - label: I compared this problem with at least one alternative idea.
+          required: true
+        - label: I defined evidence that would stop further optimization.
+          required: true
+        - label: I removed sensitive or patient-identifiable information.
+          required: true

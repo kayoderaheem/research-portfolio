@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kayode Raheem's problem-choice portfolio for computational biology and precision medicine research.">
+  <meta name="theme-color" content="#10231d">
+  <meta property="og:title" content="Research Portfolio | Kayode Raheem">
+  <meta property="og:description" content="Choose the scientific problem before optimizing the model.">
+  <meta property="og:type" content="website">
+  <title>Research Portfolio | Kayode Raheem</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Research Portfolio home">
+      <img src="assets/mark.svg" alt="" width="36" height="36">
+      <span>Research Portfolio</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Toggle navigation</span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      <a href="#portfolio">Ideas</a>
+      <a href="#framework">Framework</a>
+      <a href="#decision-tree">Decision tree</a>
+      <a href="#workflow">How it works</a>
+      <a class="nav-cta" href="https://github.com/kayoderaheem/research-portfolio/issues/new/choose">Propose an idea</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> Computational biology · Precision medicine</p>
+        <h1>Choose the problem<br>before optimizing<br><em>the model.</em></h1>
+        <p class="hero-lede">A living portfolio for selecting consequential research questions, exposing assumptions early, and designing the shortest credible path from idea to evidence.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://github.com/kayoderaheem/research-portfolio/issues/new?template=deep-evaluation.yml">Evaluate a research idea <span aria-hidden="true">↗</span></a>
+          <a class="button button-quiet" href="#framework">Explore the framework</a>
+        </div>
+        <p class="hero-note">Adapted for bioinformatics from Michael A. Fischbach’s problem-choice framework.</p>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="A research idea moving through evidence-based decisions">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="signal-card signal-question">
+          <span class="signal-label">Scientific question</span>
+          <strong>What must be true?</strong>
+        </div>
+        <div class="signal-card signal-test">
+          <span class="signal-label">Earliest readout</span>
+          <strong>What changes the decision?</strong>
+        </div>
+        <div class="signal-card signal-path">
+          <span class="signal-label">Branch</span>
+          <strong>Continue · Pivot · Park</strong>
+        </div>
+        <div class="hero-node" aria-hidden="true"><span></span></div>
+        <div class="axis axis-x"><span>Likelihood of success</span></div>
+        <div class="axis axis-y"><span>Potential impact</span></div>
+      </div>
+    </section>
+
+    <section class="metrics-band" aria-label="Portfolio summary">
+      <div class="section-shell metrics-grid">
+        <div><strong id="idea-count">0</strong><span>Open ideas</span></div>
+        <div><strong id="evaluated-count">0</strong><span>Compared ideas</span></div>
+        <div><strong id="decision-count">0</strong><span>Recorded decisions</span></div>
+        <div class="metric-principle"><span class="pulse"></span><p>Problem first. Method flexible. Evidence decides.</p></div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section section-shell">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow"><span></span> Live portfolio</p>
+          <h2>Ideas under consideration</h2>
+        </div>
+        <p>Each candidate begins as a question, not a favored technique. Comparative ratings organize attention; they do not replace scientific judgment.</p>
+      </div>
+
+      <div id="portfolio-status" class="status-note" role="status">Loading current research ideas…</div>
+      <div id="idea-grid" class="idea-grid" aria-live="polite"></div>
+
+      <div class="portfolio-actions reveal">
+        <a class="button button-primary" href="https://github.com/kayoderaheem/research-portfolio/issues/new?template=quick-research-idea.yml">Capture a quick idea <span aria-hidden="true">↗</span></a>
+        <a class="text-link" href="https://github.com/kayoderaheem/research-portfolio/issues">View all ideas on GitHub <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section id="framework" class="section framework-section">
+      <div class="section-shell">
+        <div class="section-heading light reveal">
+          <div>
+            <p class="eyebrow"><span></span> Problem-choice framework</p>
+            <h2>Good projects are designed<br>before they are executed.</h2>
+          </div>
+          <p>The workflow converts scientific taste into visible choices that can be challenged, improved, and revisited.</p>
+        </div>
+
+        <div class="framework-grid">
+          <article class="framework-card reveal">
+            <span class="step">01</span>
+            <h3>Generate in parallel</h3>
+            <p>Develop several candidate problems before committing. Compare them while changing direction is still inexpensive.</p>
+            <span class="card-tag">Avoid first-idea bias</span>
+          </article>
+          <article class="framework-card reveal">
+            <span class="step">02</span>
+            <h3>Name the objective</h3>
+            <p>Decide what impact means: biological learning, generality, clinical utility, broad use, or an irreplaceable capability.</p>
+            <span class="card-tag">Make values explicit</span>
+          </article>
+          <article class="framework-card reveal">
+            <span class="step">03</span>
+            <h3>Fix one anchor</h3>
+            <p>Hold the core question or unique capability fixed. Let the model, dataset, assay, and application compete to serve it.</p>
+            <span class="card-tag">Prevent method lock-in</span>
+          </article>
+          <article class="framework-card reveal">
+            <span class="step">04</span>
+            <h3>Map every assumption</h3>
+            <p>Score each scientific and technical assumption by risk and time-to-readout. Long, fragile chains need redesign.</p>
+            <span class="card-tag">Risk × time</span>
+          </article>
+          <article class="framework-card reveal">
+            <span class="step">05</span>
+            <h3>Test the weakest link</h3>
+            <p>Run the cheapest discriminating experiment early—even an imperfect prototype—before investing in scale.</p>
+            <span class="card-tag">Earliest go / no-go</span>
+          </article>
+          <article class="framework-card reveal">
+            <span class="step">06</span>
+            <h3>Revisit the tree</h3>
+            <p>Alternate focused execution with detached review. A negative result should reveal the strongest next branch.</p>
+            <span class="card-tag">Execute ↔ evaluate</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="decision-tree" class="section section-shell decision-section">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow"><span></span> Decision tree</p>
+          <h2>Plan more than one<br>useful future.</h2>
+        </div>
+        <p>Select an outcome to see how the project changes. The goal stays visible while methods and scope remain negotiable.</p>
+      </div>
+
+      <div class="decision-layout">
+        <div class="tree-board reveal" aria-label="Interactive scientific decision tree">
+          <div class="tree-root tree-node">
+            <span>Fixed anchor</span>
+            <strong>Mechanistic question</strong>
+            <small>What insight must the project deliver?</small>
+          </div>
+          <div class="tree-stem" aria-hidden="true"></div>
+          <div class="tree-test tree-node">
+            <span>Cheapest discriminating test</span>
+            <strong>Does the signal survive strict validation?</strong>
+          </div>
+          <div class="tree-branches" aria-hidden="true"></div>
+          <div class="outcome-grid" role="group" aria-label="Choose a possible result">
+            <button class="outcome outcome-positive is-active" type="button" data-outcome="positive">
+              <span>Signal holds</span><strong>Continue</strong><small>Scale with independent validation</small>
+            </button>
+            <button class="outcome outcome-mixed" type="button" data-outcome="mixed">
+              <span>Context-specific</span><strong>Refine</strong><small>Float cohort, endpoint, or modality</small>
+            </button>
+            <button class="outcome outcome-negative" type="button" data-outcome="negative">
+              <span>Signal fails</span><strong>Pivot</strong><small>Use failure to test an alternative cause</small>
+            </button>
+          </div>
+        </div>
+
+        <aside id="outcome-detail" class="outcome-detail reveal" aria-live="polite">
+          <span class="detail-kicker">Selected branch · Continue</span>
+          <h3>Earn the right to scale.</h3>
+          <p>The initial signal is promising, but the claim should now survive stronger baselines, leakage-resistant validation, calibration checks, and an independent cohort.</p>
+          <ul>
+            <li>Freeze the primary endpoint before expansion.</li>
+            <li>Compare against simple and established methods.</li>
+            <li>Quantify uncertainty and subgroup stability.</li>
+            <li>Seek orthogonal biological evidence.</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section assumption-section">
+      <div class="section-shell assumption-layout">
+        <div class="assumption-copy reveal">
+          <p class="eyebrow"><span></span> Assumption analysis</p>
+          <h2>Make hidden risk visible.</h2>
+          <p>A project is only as strong as the assumptions connecting its starting point to its final claim. Record both scientific assumptions and technical capabilities.</p>
+          <a class="text-link" href="https://github.com/kayoderaheem/research-portfolio/issues/new?template=deep-evaluation.yml">Open the full evaluation template <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="assumption-table-wrap reveal">
+          <table class="assumption-table">
+            <caption>Example risk register for a precision-medicine study</caption>
+            <thead><tr><th>Assumption</th><th>Risk</th><th>Readout</th><th>First test</th></tr></thead>
+            <tbody>
+              <tr><td>Treatment signal is not cohort leakage</td><td><span class="risk high">High</span></td><td>1 week</td><td>Patient-level split audit</td></tr>
+              <tr><td>Signal transfers across institutions</td><td><span class="risk high">High</span></td><td>3 weeks</td><td>External cohort holdout</td></tr>
+              <tr><td>Complex model adds real value</td><td><span class="risk medium">Medium</span></td><td>4 days</td><td>Strong linear baseline</td></tr>
+              <tr><td>Markers reflect plausible biology</td><td><span class="risk medium">Medium</span></td><td>2 weeks</td><td>Pathway and literature check</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="workflow" class="section section-shell workflow-section">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow"><span></span> Working system</p>
+          <h2>From intuition to<br>a recorded decision.</h2>
+        </div>
+        <p>GitHub Issues hold the scientific reasoning. Automation compares mature ideas and republishes the portfolio without hiding the uncertainty.</p>
+      </div>
+
+      <ol class="workflow-list">
+        <li class="reveal"><span>01</span><div><h3>Capture</h3><p>Write the observation, problem, question, hypothesis, and why it matters.</p></div></li>
+        <li class="reveal"><span>02</span><div><h3>Stress-test</h3><p>Expose assumptions, competing explanations, data limitations, and failure modes.</p></div></li>
+        <li class="reveal"><span>03</span><div><h3>Compare</h3><p>Use pairwise review to contrast impact, tractability, evidence, and publication leverage.</p></div></li>
+        <li class="reveal"><span>04</span><div><h3>Decide</h3><p>Choose continue, refine, pivot, park, or stop—and record what evidence drove the choice.</p></div></li>
+      </ol>
+
+      <div class="workflow-cta reveal">
+        <div>
+          <span class="mini-label">Current research domain</span>
+          <h3>Drug response research intelligence</h3>
+          <p>Cancer drug response, perturbation biology, multimodal prediction, and clinically credible validation.</p>
+        </div>
+        <a class="button button-light" href="https://github.com/kayoderaheem/research-portfolio/tree/main/drug-response">Explore the workspace <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="source-section">
+      <div class="section-shell source-grid">
+        <div class="source-quote reveal">
+          <p>Choose for impact.<br>Design for uncertainty.<br>Let evidence redirect the path.</p>
+        </div>
+        <div class="source-copy reveal">
+          <p class="eyebrow"><span></span> Intellectual foundation</p>
+          <h2>Inspired, not affiliated.</h2>
+          <p>This portfolio is an independent bioinformatics adaptation of the organizing ideas in Michael A. Fischbach’s 2024 <cite>Cell</cite> commentary, “Problem choice and decision trees in science and engineering.” It adds safeguards for predictive modeling, multi-omics data, clinical generalization, and reproducibility.</p>
+          <div class="source-links">
+            <a href="https://doi.org/10.1016/j.cell.2024.03.012">Read the paper <span aria-hidden="true">↗</span></a>
+            <a href="https://engineering.stanford.edu/news/how-pick-and-solve-next-great-problem">Stanford overview <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/kayoderaheem/research-portfolio/blob/main/docs/framework.md">Adaptation notes <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-shell footer-inner">
+      <div><strong>Kayode Raheem</strong><p>Computational biology · Precision medicine</p></div>
+      <p>Research portfolio · <span id="current-year"></span></p>
+      <a href="https://github.com/kayoderaheem/research-portfolio">GitHub <span aria-hidden="true">↗</span></a>
+    </div>
+  </footer>
+</body>
+</html>
