@@ -2,7 +2,7 @@
 
 An automated research-problem discovery and decision system for computational biology and precision medicine.
 
-Every Monday, this repository scans recent Europe PMC and arXiv records, asks GitHub Copilot to propose a small set of evidence-linked research directions, checks the result against strict scientific and safety rules, and publishes up to three `[Idea]` issues for human review. It keeps a ledger so the same papers and ideas are not repeatedly proposed.
+Every day, this repository scans recent Europe PMC and arXiv records, asks GitHub Copilot to propose a small set of evidence-linked research directions, checks the result against strict scientific and safety rules, and publishes up to three `[Idea]` issues for human review. It keeps a ledger so the same papers and ideas are not repeatedly proposed.
 
 The organizing intuition comes from Michael A. Fischbach's 2024 *Cell* commentary, ["Problem choice and decision trees in science and engineering"](https://doi.org/10.1016/j.cell.2024.03.012). This is an independent bioinformatics adaptation, not an official implementation or affiliation.
 
@@ -44,7 +44,7 @@ Each published issue includes the observation, scientific problem, falsifiable q
 
 ### Automatic weekly use
 
-Once GitHub Copilot is available to Actions for the repository owner, no routine action is required. [`Generate Research Ideas`](.github/workflows/generate-research-ideas.yml) runs every Monday at 14:17 UTC. If fewer than four new eligible sources are found, it publishes nothing rather than manufacture a weak idea.
+Once GitHub Copilot is available to Actions for the repository owner, no routine action is required. [`Generate Research Ideas`](.github/workflows/generate-research-ideas.yml) runs every day at 14:17 UTC. If fewer than four new eligible sources are found, it publishes nothing rather than manufacture a weak idea.
 
 ### Run it now or choose a topic
 
