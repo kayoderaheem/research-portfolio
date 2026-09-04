@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "lookback_days": 14,
+  "max_sources": 40,
+  "max_ideas_per_run": 3,
+  "focus_areas": [
+    {
+      "name": "Cancer drug response and resistance",
+      "query_terms": [
+        "cancer drug response",
+        "treatment resistance",
+        "pharmacogenomics",
+        "precision oncology"
+      ],
+      "priority_questions": [
+        "Which response signals generalize across cohorts, institutions, and assays?",
+        "Which mechanisms distinguish sensitivity from acquired or intrinsic resistance?",
+        "Which computational predictions could change a treatment or experimental decision?"
+      ]
+    },
+    {
+      "name": "Single-cell and spatial treatment response",
+      "query_terms": [
+        "single-cell treatment response",
+        "spatial transcriptomics therapy",
+        "tumor microenvironment resistance",
+        "cell state perturbation"
+      ],
+      "priority_questions": [
+        "How do pre-existing cell states or spatial niches shape response?",
+        "Which treatment-induced transitions are reproducible across patients?",
+        "Can tissue context improve prediction beyond composition and clinical covariates?"
+      ]
+    },
+    {
+      "name": "Multimodal precision medicine",
+      "query_terms": [
+        "multimodal precision medicine",
+        "multiomics patient stratification",
+        "clinical treatment prediction",
+        "biomarker transportability"
+      ],
+      "priority_questions": [
+        "When does an additional modality add decision value rather than redundancy?",
+        "Which biomarkers remain calibrated under population and site shift?",
+        "How can molecular predictions be validated for a defined clinical use?"
+      ]
+    },
+    {
+      "name": "Perturbation models and virtual cells",
+      "query_terms": [
+        "perturbation prediction",
+        "virtual cell model",
+        "counterfactual cell state",
+        "single-cell drug perturbation"
+      ],
+      "priority_questions": [
+        "Which perturbation effects are identifiable from available observations?",
+        "Can models extrapolate to unseen drugs, doses, combinations, or cell contexts?",
+        "What prospective experiment would falsify the claimed counterfactual ability?"
+      ]
+    }
+  ],
+  "quality_gates": {
+    "minimum_evidence_sources": 2,
+    "minimum_assumptions": 3,
+    "maximum_assumptions": 7,
+    "require_scientific_and_technical_assumptions": true,
+    "require_external_validation": true,
+    "require_strong_baselines": true,
+    "require_decision_thresholds": true
+  }
+}

@@ -1,4 +1,4 @@
-name: Validate Portfolio
+name: Validate Research Automation
 
 on:
   push:
@@ -19,22 +19,8 @@ jobs:
           python-version: "3.12"
       - name: Run tests
         run: python -m unittest discover -s tests -v
-      - name: Smoke-test website
+      - name: Check automation files
         run: |
-          python -m http.server 8000 --bind 127.0.0.1 >/tmp/portfolio-server.log 2>&1 &
-          server_pid=$!
-          trap 'kill $server_pid' EXIT
-          python - <<'PY'
-          import time
-          import urllib.request
-          for _ in range(20):
-              try:
-                  with urllib.request.urlopen('http://127.0.0.1:8000/', timeout=2) as response:
-                      assert response.status == 200
-                      assert b'Choose the problem' in response.read()
-                  break
-              except Exception:
-                  time.sleep(0.25)
-          else:
-              raise SystemExit('Website did not start')
-          PY
+          python -m py_compile scripts/*.py
+          python -m json.tool config/research-focus.json >/dev/null
+          python -m json.tool .research-ideas/ledger.json >/dev/null

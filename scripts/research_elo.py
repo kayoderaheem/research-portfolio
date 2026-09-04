@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Pairwise, risk-aware comparison of owner-authored research ideas."""
+"""Pairwise, risk-aware comparison of human and validated automated ideas."""
 
 import argparse
 import json
@@ -16,6 +16,7 @@ DEFAULT_RATING = 1500.0
 MAX_OPPONENTS = 5
 MAX_BODY_CHARS = 6000
 MAX_FIELD_CHARS = 700
+AUTOMATED_MARKER = "<!-- research-idea-engine:v1 -->"
 
 
 def api(path, method="GET", payload=None):
@@ -81,8 +82,15 @@ def entry(state, number):
     return state["ratings"][key]
 
 
+def eligible_idea(issue, owner):
+    """Accept owner ideas or generated ideas carrying the validator marker."""
+    author = issue.get("user", {}).get("login", "").casefold()
+    body = issue.get("body") or ""
+    return author == owner or AUTOMATED_MARKER in body
+
+
 def fetch_ideas():
-    """Return open owner-authored issues with the exact [Idea] prefix."""
+    """Return open, eligible issues with the exact [Idea] prefix."""
     repository = os.environ["GITHUB_REPOSITORY"]
     owner = repository.split("/", 1)[0].casefold()
     ideas = []
@@ -94,7 +102,7 @@ def fetch_ideas():
         for issue in batch:
             if "pull_request" in issue:
                 continue
-            if issue.get("user", {}).get("login", "").casefold() != owner:
+            if not eligible_idea(issue, owner):
                 continue
             if not issue.get("title", "").startswith("[Idea]"):
                 continue
@@ -170,7 +178,7 @@ def prepare(args):
     target = next((idea for idea in ideas if int(idea["number"]) == args.issue), None)
     if target is None:
         raise RuntimeError(
-            "Target must be an open owner-authored issue whose title begins with [Idea]."
+            "Target must be an eligible open issue whose title begins with [Idea]."
         )
 
     candidates = [idea for idea in ideas if int(idea["number"]) != args.issue]

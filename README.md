@@ -1,52 +1,85 @@
 # Research Portfolio
 
-A public problem-choice system for computational biology and precision medicine.
+An automated research-problem discovery and decision system for computational biology and precision medicine.
 
-**Live site:** `https://kayoderaheem.github.io/research-portfolio/`
-
-This repository helps a researcher spend more time choosing a consequential scientific problem before spending months or years optimizing a solution. It turns early intuition into an explicit, reviewable record of impact, assumptions, risk, evidence, and possible pivots.
-
-## What this is
-
-The repository combines three things:
-
-1. **A public portfolio website** that explains the framework and displays current research ideas.
-2. **Structured GitHub Issue templates** for capturing quick ideas and conducting deep evaluations.
-3. **A comparative review workflow** that contrasts mature ideas, records the main risk and next discriminating test, and updates the public portfolio.
+Every Monday, this repository scans recent Europe PMC and arXiv records, asks GitHub Copilot to propose a small set of evidence-linked research directions, checks the result against strict scientific and safety rules, and publishes up to three `[Idea]` issues for human review. It keeps a ledger so the same papers and ideas are not repeatedly proposed.
 
 The organizing intuition comes from Michael A. Fischbach's 2024 *Cell* commentary, ["Problem choice and decision trees in science and engineering"](https://doi.org/10.1016/j.cell.2024.03.012). This is an independent bioinformatics adaptation, not an official implementation or affiliation.
 
-## Start in three steps
+## What the automation does
 
-### 1. Capture at least two candidate problems
+```text
+Weekly schedule or manual run
+             │
+             ▼
+ Europe PMC + arXiv scan
+             │
+             ▼
+ Remove previously seen and duplicate papers
+             │
+             ▼
+ GitHub Copilot proposes structured candidates
+        (read-only job)
+             │
+             ▼
+ Deterministic scientific and citation checks
+             │
+             ▼
+ Separate publisher creates 0–3 labeled issues
+             │
+             ▼
+ Persistent ledger prevents repetition
+```
 
-Use either issue form:
+The scan rotates through four editable focus areas:
 
-- [Quick Research Idea](https://github.com/kayoderaheem/research-portfolio/issues/new?template=quick-research-idea.yml) for an early question.
-- [Deep Evaluation](https://github.com/kayoderaheem/research-portfolio/issues/new?template=deep-evaluation.yml) for a project approaching commitment.
+- cancer drug response and resistance;
+- single-cell and spatial treatment response;
+- multimodal precision medicine;
+- perturbation models and virtual cells.
 
-Keep the automatic `[Idea]` prefix in the issue title. Only open ideas created by the repository owner enter the portfolio.
+Each published issue includes the observation, scientific problem, falsifiable question, hypothesis and competing explanation, impact function, fixed anchor, floating parameters, scientific and technical assumptions, data and leakage plan, strong baselines, validation plan, an early discriminating test, and positive/ambiguous/negative branches.
 
-### 2. Let the comparison run
+## Use it
 
-Opening, editing, or reopening an owner-authored `[Idea]` issue starts the workflow. The first idea is published but not scored. Once a second idea exists, the workflow compares the target with relevant open candidates.
+### Automatic weekly use
 
-The review considers:
+Once GitHub Copilot is available to Actions for the repository owner, no routine action is required. [`Generate Research Ideas`](.github/workflows/generate-research-ideas.yml) runs every Monday at 14:17 UTC. If fewer than four new eligible sources are found, it publishes nothing rather than manufacture a weak idea.
 
-- scientific or translational impact;
-- question quality and falsifiability;
-- the chain of scientific and technical assumptions;
-- time until high-risk assumptions can be tested;
-- novelty and competitive advantage;
-- flexibility about methods, cohorts, assays, and modalities;
-- leakage-resistant validation, strong baselines, calibration, uncertainty, and independent evidence;
-- the earliest result that should trigger continue, refine, pivot, park, or stop.
+### Run it now or choose a topic
 
-### 3. Read the reasoning, not just the score
+1. Open the repository's **Actions** tab.
+2. Select **Generate Research Ideas**.
+3. Choose **Run workflow**.
+4. Optionally enter a focus such as `spatial transcriptomics treatment resistance` and choose a 7-, 14-, or 30-day lookback.
 
-The workflow posts a structured review on the idea and updates the table below. Elo-style ratings are comparative decision aids. They are not measures of scientific truth, novelty, or publication certainty.
+The workflow creates public GitHub issues labeled `research-idea`, `ai-generated`, and `needs-human-review`. Review an idea before committing resources; automation proposes candidates, not scientific truth.
 
-## Research Elo
+### Change what it studies
+
+Edit [`config/research-focus.json`](config/research-focus.json). Each focus area has:
+
+- a plain-language name;
+- search terms used by Europe PMC and arXiv;
+- priority questions that guide proposal generation.
+
+Changes are checked automatically before they reach the default branch.
+
+## How quality is protected
+
+The workflow follows a least-privilege publishing design:
+
+1. The Copilot job can read sources and existing issue titles but cannot create issues or change repository files.
+2. Its output must be strict structured data. A regular Python checker rejects unknown citations, repeated ideas, missing fields, weak assumption maps, missing independent validation, invalid time ranges, and out-of-range scores.
+3. Only a separate publishing job receives issue-writing permission, and it can create no more than three candidates per run.
+4. Source links in issues come from the trusted literature bundle, not from text invented by the model.
+5. The ledger at [`.research-ideas/ledger.json`](.research-ideas/ledger.json) records reviewed sources and generated ideas.
+
+The bioinformatics checks explicitly require patient- or donor-level independence where applicable, leakage-resistant preprocessing and evaluation, strong simple and established baselines, uncertainty and calibration when relevant, external or orthogonal validation, and cautious treatment of retrospective clinical claims.
+
+## Compare promising ideas
+
+The optional [`Research Problem-Choice Review`](.github/workflows/research-elo.yml) compares two or more open `[Idea]` issues. Run it manually with an issue number after reviewing the generated candidates. It identifies the stronger current investment, the main assumption that could reverse that choice, and the cheapest next test. Ratings organize attention; they do not establish novelty, truth, or clinical value.
 
 <!-- RESEARCH_ELO_START -->
 ### Current comparative ranking
@@ -58,61 +91,58 @@ _No research ideas have been captured yet. Add two open `[Idea]` issues to begin
 _Last synchronized: not yet._
 <!-- RESEARCH_ELO_END -->
 
-## The adapted framework
+## Add ideas manually
 
-The workflow makes six practices concrete:
+Automation and human judgment can coexist. Use either issue form:
 
-1. **Generate in parallel.** Develop and compare several candidate problems before committing.
-2. **Name the optimization function.** Decide what impact means for this project.
-3. **Fix one anchor.** Hold the scientific goal or unique capability fixed and let other parameters float.
-4. **Map assumptions.** Score scientific reality and technical capability separately by risk and time-to-readout.
+- [Quick Research Idea](https://github.com/kayoderaheem/research-portfolio/issues/new?template=quick-research-idea.yml) for an early question.
+- [Deep Evaluation](https://github.com/kayoderaheem/research-portfolio/issues/new?template=deep-evaluation.yml) for a project approaching commitment.
+
+Keep the `[Idea]` prefix. Owner-authored issues and validated automated issues are eligible for comparison.
+
+## The adapted problem-choice framework
+
+The system makes six practices concrete:
+
+1. **Generate in parallel.** Compare several important problems before committing.
+2. **Name the optimization function.** Decide what impact means for the project.
+3. **Fix one anchor.** Hold the scientific goal or unique capability fixed and let models, datasets, cohorts, assays, and modalities float.
+4. **Map assumptions.** Separate scientific-reality assumptions from technical-capability assumptions and record time-to-readout.
 5. **Test the weakest link early.** Run the cheapest experiment that can genuinely change the decision.
-6. **Revisit the decision tree.** Alternate focused execution with detached critical review and use failure to find a stronger branch.
+6. **Keep every branch useful.** Define what to do after positive, ambiguous, and negative results, and preserve residual learning if the favored hypothesis fails.
 
-See [the full adaptation notes](docs/framework.md) for the mapping to computational biology and precision medicine.
+See [the full adaptation notes](docs/framework.md) and the [`drug-response/`](drug-response/) workspace for reusable paper and idea cards.
 
-## Current domain workspace
+## Run the checks locally
 
-The [`drug-response/`](drug-response/) workspace tracks questions in cancer drug response, perturbation biology, multimodal modeling, and treatment-response translation. Paper cards collect reusable scientific information; idea cards convert that information into testable projects.
-
-## Website maintenance
-
-The website is dependency-free HTML, CSS, and JavaScript. Its live idea cards are generated in `data/portfolio.json` whenever the review workflow runs.
-
-To preview locally:
-
-```bash
-python -m http.server 8000
-```
-
-Then open `http://localhost:8000`.
-
-To run the checks:
+No Python packages are required.
 
 ```bash
 python -m unittest discover -s tests -v
+python -m py_compile scripts/*.py
+python -m json.tool config/research-focus.json >/dev/null
 ```
 
-## Automation requirements
-
-The review uses GitHub Copilot CLI inside GitHub Actions. The repository owner's GitHub account must have Copilot access that permits Copilot requests from Actions. The workflow uses GitHub's short-lived built-in token; no long-lived secret is stored by default.
-
-If Copilot access is unavailable, the website and idea templates still work. The comparison job will show a clear failure in the Actions tab instead of silently publishing an incomplete rating.
+The automation itself runs in GitHub Actions and installs the official GitHub Copilot CLI during a run. The repository owner must have Copilot access that permits Copilot requests from Actions. No long-lived personal access token is stored.
 
 ## Responsible use
 
-- Treat automated comparisons as prompts for expert discussion.
-- Verify novelty through a documented literature review.
-- Never place patient identifiers, protected health information, unpublished sensitive data, credentials, or access tokens in public issues.
-- Pre-register decisive endpoints and validation rules when appropriate.
+- Treat every generated item as a candidate for expert challenge, not a recommendation to begin a study.
+- Verify novelty with a documented literature review before making novelty claims.
+- Never place patient identifiers, protected health information, unpublished sensitive data, credentials, or access tokens in public issues or configuration.
+- Pre-register decisive endpoints, data exclusions, and validation rules when appropriate.
 - Preserve negative results and reasons for stopping; they are part of the research record.
-- Do not use portfolio ratings to evaluate people.
+- Do not use the scores or rankings to evaluate people.
 
-## Sources
+## Design references
 
-- Fischbach MA. [Problem choice and decision trees in science and engineering](https://doi.org/10.1016/j.cell.2024.03.012). *Cell*. 2024;187(8):1828-1833.
-- Stanford Engineering. [How to pick - and solve - the next great problem](https://engineering.stanford.edu/news/how-pick-and-solve-next-great-problem).
+- Fischbach MA. [Problem choice and decision trees in science and engineering](https://doi.org/10.1016/j.cell.2024.03.012). *Cell*. 2024;187(8):1828–1833.
+- Stanford Engineering. [How to pick—and solve—the next great problem](https://engineering.stanford.edu/news/how-pick-and-solve-next-great-problem).
+- GitHub. [Using GitHub Copilot CLI in GitHub Actions](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli-in-actions).
+- GitHub Agentic Workflows. [Creating workflows](https://github.github.com/gh-aw/setup/creating-workflows/) and [safe outputs](https://github.github.com/gh-aw/reference/safe-outputs/).
+- GitHub Next. [Weekly research workflow example](https://github.com/githubnext/agentics/blob/main/workflows/weekly-research.md).
+- GitHub. [Daily arXiv researcher example](https://github.com/github/gh-aw/blob/main/.github/workflows/daily-arxiv-researcher.md).
 
 ## License
 
-Repository code and original documentation are available under the [MIT License](LICENSE). The cited paper and its figures remain the property of their respective rights holders; no paper figures are reproduced here.
+Repository code and original documentation are available under the [MIT License](LICENSE). Cited works remain the property of their respective rights holders.

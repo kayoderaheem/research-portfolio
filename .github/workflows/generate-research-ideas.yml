@@ -1,0 +1,185 @@
+name: Generate Research Ideas
+
+on:
+  schedule:
+    - cron: "17 14 * * 1"
+  workflow_dispatch:
+    inputs:
+      focus:
+        description: "Optional focus area or comma-separated search terms"
+        required: false
+        type: string
+      lookback_days:
+        description: "How far back to scan"
+        required: true
+        default: "14"
+        type: choice
+        options: ["7", "14", "30"]
+      max_ideas:
+        description: "Maximum public idea issues to create"
+        required: true
+        default: "3"
+        type: choice
+        options: ["1", "2", "3"]
+
+concurrency:
+  group: research-idea-generation
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      issues: read
+      copilot-requests: write
+    outputs:
+      ready: ${{ steps.collect.outputs.ready }}
+      source_count: ${{ steps.collect.outputs.source_count }}
+      focus: ${{ steps.collect.outputs.focus }}
+      max_ideas: ${{ steps.settings.outputs.max_ideas }}
+    steps:
+      - name: Checkout research configuration
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Resolve run settings
+        id: settings
+        env:
+          REQUESTED_LOOKBACK: ${{ inputs.lookback_days }}
+          REQUESTED_MAX_IDEAS: ${{ inputs.max_ideas }}
+        run: |
+          echo "lookback_days=${REQUESTED_LOOKBACK:-14}" >> "$GITHUB_OUTPUT"
+          echo "max_ideas=${REQUESTED_MAX_IDEAS:-3}" >> "$GITHUB_OUTPUT"
+
+      - name: Collect recent evidence
+        id: collect
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          REQUESTED_FOCUS: ${{ inputs.focus }}
+        run: |
+          mkdir -p /tmp/research-idea-agent
+          python scripts/discover_research_ideas.py fetch \
+            --config config/research-focus.json \
+            --ledger .research-ideas/ledger.json \
+            --output /tmp/research-idea-agent/sources.json \
+            --status-file /tmp/research-idea-agent/status.json \
+            --prompt-file /tmp/research-idea-agent/prompt.txt \
+            --focus "$REQUESTED_FOCUS" \
+            --lookback-days "${{ steps.settings.outputs.lookback_days }}" \
+            --max-sources 40 \
+            --max-ideas "${{ steps.settings.outputs.max_ideas }}"
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          status = json.load(open('/tmp/research-idea-agent/status.json'))
+          print(f"ready={str(status['ready']).lower()}")
+          print(f"source_count={status['source_count']}")
+          print(f"focus={status['focus']}")
+          PY
+
+      - name: Explain an evidence-light run
+        if: steps.collect.outputs.ready != 'true'
+        run: echo "::notice::No ideas were published because fewer than four new eligible sources were found."
+
+      - name: Set up Node.js
+        if: steps.collect.outputs.ready == 'true'
+        uses: actions/setup-node@v7
+
+      - name: Install GitHub Copilot CLI
+        if: steps.collect.outputs.ready == 'true'
+        run: npm install -g @github/copilot@latest
+
+      - name: Generate structured candidates in a read-only job
+        if: steps.collect.outputs.ready == 'true'
+        working-directory: /tmp/research-idea-agent
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          timeout 600s copilot --yolo -s --no-ask-user --disable-builtin-mcps \
+            --deny-tool='shell,write,read,url,memory,github' \
+            -p "$(cat prompt.txt)" > raw.json
+          test -s raw.json
+
+      - name: Reject unsupported or malformed candidates
+        if: steps.collect.outputs.ready == 'true'
+        run: |
+          python scripts/discover_research_ideas.py validate \
+            --config config/research-focus.json \
+            --sources /tmp/research-idea-agent/sources.json \
+            --result /tmp/research-idea-agent/raw.json \
+            --output /tmp/research-idea-agent/validated.json \
+            --max-ideas "${{ steps.settings.outputs.max_ideas }}"
+
+      - name: Preserve validated results for the publishing job
+        if: steps.collect.outputs.ready == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: validated-research-ideas
+          path: |
+            /tmp/research-idea-agent/sources.json
+            /tmp/research-idea-agent/validated.json
+          retention-days: 7
+
+  publish:
+    needs: generate
+    if: needs.generate.outputs.ready == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - name: Checkout publishing state
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Download validated candidates
+        uses: actions/download-artifact@v5
+        with:
+          name: validated-research-ideas
+          path: /tmp/research-idea-agent
+
+      - name: Create bounded, labeled idea issues
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python scripts/discover_research_ideas.py publish \
+            --sources /tmp/research-idea-agent/sources.json \
+            --ideas /tmp/research-idea-agent/validated.json \
+            --ledger .research-ideas/ledger.json \
+            --summary /tmp/research-idea-agent/publish-summary.json \
+            --max-ideas "${{ needs.generate.outputs.max_ideas }}"
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          summary = json.load(open('/tmp/research-idea-agent/publish-summary.json'))
+          print('## Research idea discovery')
+          print(f"\nCreated {len(summary['created'])} issue(s); skipped {len(summary['skipped'])} duplicate(s).")
+          for issue in summary['created']:
+              print(f"- [#{issue['number']} — {issue['title']}]({issue['url']})")
+          PY
+
+      - name: Save the deduplication ledger
+        run: |
+          if git diff --quiet -- .research-ideas/ledger.json; then
+            echo "No ledger changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .research-ideas/ledger.json
+          git commit -m "Record automated research idea scan"
+          git pull --rebase
+          git push

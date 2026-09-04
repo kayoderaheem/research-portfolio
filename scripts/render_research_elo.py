@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the public portfolio data and the README ranking from GitHub issues."""
+"""Render the README ranking from eligible GitHub issues."""
 
 import json
 import os
@@ -10,9 +10,9 @@ from pathlib import Path
 
 STATE = Path(".research-elo/ratings.json")
 README = Path("README.md")
-PUBLIC_DATA = Path("data/portfolio.json")
 START = "<!-- RESEARCH_ELO_START -->"
 END = "<!-- RESEARCH_ELO_END -->"
+AUTOMATED_MARKER = "<!-- research-idea-engine:v1 -->"
 
 
 def api(path):
@@ -39,7 +39,8 @@ def open_ideas(repository):
         for item in batch:
             if "pull_request" in item:
                 continue
-            if item.get("user", {}).get("login", "").casefold() != owner:
+            author = item.get("user", {}).get("login", "").casefold()
+            if author != owner and AUTOMATED_MARKER not in (item.get("body") or ""):
                 continue
             if not item.get("title", "").startswith("[Idea]"):
                 continue
@@ -125,13 +126,6 @@ def main():
     state = json.loads(STATE.read_text(encoding="utf-8"))
     rows = build_rows(state, open_ideas(repository), repository)
     timestamp = datetime.now(timezone.utc)
-    public = {
-        "version": 1,
-        "updated_at": timestamp.isoformat(),
-        "ideas": rows,
-    }
-    atomic_text(PUBLIC_DATA, json.dumps(public, indent=2, ensure_ascii=False) + "\n")
-
     readme = README.read_text(encoding="utf-8")
     rendered = render_readme(readme, rows, timestamp.strftime("%Y-%m-%d %H:%M UTC"))
     atomic_text(README, rendered)

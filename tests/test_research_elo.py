@@ -33,6 +33,17 @@ def idea(number, title="Candidate", body="A testable research question"):
 
 
 class PrepareTests(unittest.TestCase):
+    def test_generated_marker_makes_action_issue_eligible(self):
+        generated = idea(7)
+        generated["user"]["login"] = "github-actions[bot]"
+        generated["body"] = "<!-- research-idea-engine:v1 -->\nValidated idea"
+        self.assertTrue(elo.eligible_idea(generated, "kayoderaheem"))
+
+    def test_unmarked_third_party_issue_is_not_eligible(self):
+        submitted = idea(8)
+        submitted["user"]["login"] = "someone-else"
+        self.assertFalse(elo.eligible_idea(submitted, "kayoderaheem"))
+
     def run_prepare(self, ideas):
         with tempfile.TemporaryDirectory() as directory:
             old = os.getcwd()
@@ -78,7 +89,7 @@ class PrepareTests(unittest.TestCase):
                 status_file=f"{directory}/status.json",
             )
             with patch.object(elo, "fetch_ideas", return_value=[idea(1)]):
-                with self.assertRaisesRegex(RuntimeError, "open owner-authored"):
+                with self.assertRaisesRegex(RuntimeError, "eligible open"):
                     elo.prepare(args)
 
 
