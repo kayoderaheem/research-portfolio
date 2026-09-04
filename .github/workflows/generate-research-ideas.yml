@@ -63,6 +63,8 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           REQUESTED_FOCUS: ${{ inputs.focus }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
         run: |
           mkdir -p /tmp/research-idea-agent
           python scripts/discover_research_ideas.py fetch \
@@ -165,7 +167,11 @@ jobs:
           python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
           import json
           summary = json.load(open('/tmp/research-idea-agent/publish-summary.json'))
+          sources = json.load(open('/tmp/research-idea-agent/sources.json'))
           print('## Research idea discovery')
+          print('\n### Evidence coverage')
+          for name, count in sources.get('source_counts', {}).items():
+              print(f'- {name}: {count}')
           print(f"\nCreated {len(summary['created'])} issue(s); skipped {len(summary['skipped'])} duplicate(s).")
           for issue in summary['created']:
               print(f"- [#{issue['number']} — {issue['title']}]({issue['url']})")

@@ -2,7 +2,7 @@
 
 An automated research-problem discovery and decision system for computational biology and precision medicine.
 
-Every day, this repository scans recent Europe PMC and arXiv records, asks GitHub Copilot to propose a small set of evidence-linked research directions, checks the result against strict scientific and safety rules, and publishes up to three `[Idea]` issues for human review. It keeps a ledger so the same papers and ideas are not repeatedly proposed.
+Every day, this repository scans major open scholarly, biomedical, preprint, clinical-trial, and functional-genomics databases; asks GitHub Copilot to propose a small set of evidence-linked research directions; checks the result against strict scientific and safety rules; and publishes up to three `[Idea]` issues for human review. It keeps a ledger so the same records and ideas are not repeatedly proposed.
 
 The organizing intuition comes from Michael A. Fischbach's 2024 *Cell* commentary, ["Problem choice and decision trees in science and engineering"](https://doi.org/10.1016/j.cell.2024.03.012). This is an independent bioinformatics adaptation, not an official implementation or affiliation.
 
@@ -12,7 +12,7 @@ The organizing intuition comes from Michael A. Fischbach's 2024 *Cell* commentar
 Weekly schedule or manual run
              │
              ▼
- Europe PMC + arXiv scan
+ Multi-database evidence scan
              │
              ▼
  Remove previously seen and duplicate papers
@@ -38,6 +38,21 @@ The scan rotates through four editable focus areas:
 - multimodal precision medicine;
 - perturbation models and virtual cells.
 
+### Database coverage
+
+The default scan connects to:
+
+- **Europe PMC**, including PubMed and other biomedical feeds;
+- **arXiv** for quantitative-biology and computational preprints;
+- **OpenAlex** for broad cross-disciplinary scholarship;
+- **Crossref** for publisher-deposited DOI records;
+- **Semantic Scholar** for semantic scholarly search;
+- **bioRxiv and medRxiv** for biology and health-science preprints;
+- **ClinicalTrials.gov** for registered studies;
+- **NCBI GEO** for public functional-genomics datasets.
+
+Results are deduplicated across databases by DOI, accession, identifier, and title similarity. The final evidence bundle is balanced across sources so a large general index cannot displace specialist trial or dataset records. Closed databases such as Scopus, Web of Science, and subscription-only resources require separate licenses and credentials and therefore cannot be queried anonymously.
+
 Each published issue includes the observation, scientific problem, falsifiable question, hypothesis and competing explanation, impact function, fixed anchor, floating parameters, scientific and technical assumptions, data and leakage plan, strong baselines, validation plan, an early discriminating test, and positive/ambiguous/negative branches.
 
 ## Use it
@@ -60,7 +75,7 @@ The workflow creates public GitHub issues labeled `research-idea`, `ai-generated
 Edit [`config/research-focus.json`](config/research-focus.json). Each focus area has:
 
 - a plain-language name;
-- search terms used by Europe PMC and arXiv;
+- search terms used across the connected databases;
 - priority questions that guide proposal generation.
 
 Changes are checked automatically before they reach the default branch.
@@ -123,7 +138,7 @@ python -m py_compile scripts/*.py
 python -m json.tool config/research-focus.json >/dev/null
 ```
 
-The automation itself runs in GitHub Actions and installs the official GitHub Copilot CLI during a run. The repository owner must have Copilot access that permits Copilot requests from Actions. No long-lived personal access token is stored.
+The automation itself runs in GitHub Actions and installs the official GitHub Copilot CLI during a run. The repository owner must have Copilot access that permits Copilot requests from Actions. No long-lived personal access token is stored. OpenAlex and Semantic Scholar work without repository secrets at lower public rate limits; optional `OPENALEX_API_KEY` and `SEMANTIC_SCHOLAR_API_KEY` repository secrets can improve reliability.
 
 ## Responsible use
 

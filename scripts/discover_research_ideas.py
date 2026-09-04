@@ -4,6 +4,7 @@
 import argparse
 import difflib
 import hashlib
+import html
 import json
 import os
 import re
@@ -11,6 +12,8 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from collections import Counter, defaultdict
+from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
@@ -58,8 +61,10 @@ def write_json(path, value):
     temporary.replace(path)
 
 
-def http_get(url, timeout=35):
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+def http_get(url, timeout=35, headers=None):
+    request_headers = {"User-Agent": USER_AGENT}
+    request_headers.update(headers or {})
+    request = urllib.request.Request(url, headers=request_headers)
     with urllib.request.urlopen(request, timeout=timeout) as response:
         return response.read().decode("utf-8")
 
@@ -86,6 +91,20 @@ def github_api(path, method="GET", payload=None):
 
 def clean_query_term(value):
     return re.sub(r"[^A-Za-z0-9+_. -]", " ", value).strip()[:100]
+
+
+def clean_markup(value):
+    value = re.sub(r"<[^>]+>", " ", value or "")
+    return re.sub(r"\s+", " ", html.unescape(value)).strip()
+
+
+def focus_query(focus):
+    return " ".join(clean_query_term(term) for term in focus["query_terms"][:5]).strip()
+
+
+def focus_matches(focus, *values):
+    haystack = " ".join(value or "" for value in values).casefold()
+    return any(clean_query_term(term).casefold() in haystack for term in focus["query_terms"])
 
 
 def source_key(prefix, value):
@@ -210,6 +229,275 @@ def fetch_arxiv(focus, start_date, limit):
     return sources, query
 
 
+def inverted_abstract(index):
+    positioned = []
+    for word, positions in (index or {}).items():
+        for position in positions or []:
+            if isinstance(position, int):
+                positioned.append((position, word))
+    positioned.sort()
+    return clean_markup(" ".join(word for _, word in positioned))
+
+
+def fetch_openalex(focus, start_date, end_date, limit):
+    query = focus_query(focus)
+    parameters = {
+        "search": query,
+        "filter": f"from_publication_date:{start_date},to_publication_date:{end_date},has_abstract:true",
+        "sort": "publication_date:desc",
+        "per-page": min(limit, 50),
+    }
+    if os.environ.get("OPENALEX_API_KEY"):
+        parameters["api_key"] = os.environ["OPENALEX_API_KEY"]
+    payload = json.loads(http_get(f"https://api.openalex.org/works?{urllib.parse.urlencode(parameters)}"))
+    sources = []
+    for item in payload.get("results", []):
+        title = clean_markup(item.get("title"))
+        abstract = inverted_abstract(item.get("abstract_inverted_index"))
+        if not title or len(abstract) < 80:
+            continue
+        doi = (item.get("doi") or "").removeprefix("https://doi.org/")
+        openalex_id = (item.get("id") or "").rsplit("/", 1)[-1]
+        location = item.get("primary_location") or {}
+        venue = (location.get("source") or {}).get("display_name") or ""
+        authors = [
+            (authorship.get("author") or {}).get("display_name", "")
+            for authorship in item.get("authorships", [])
+        ]
+        sources.append(
+            {
+                "source_id": source_key("doi", doi) if doi else source_key("openalex", openalex_id),
+                "database": "OpenAlex",
+                "title": title[:500],
+                "abstract": abstract[:3000],
+                "authors": ", ".join(name for name in authors[:8] if name)[:500],
+                "published": (item.get("publication_date") or "")[:10],
+                "venue": venue[:200],
+                "url": f"https://doi.org/{doi}" if doi else f"https://openalex.org/{openalex_id}",
+            }
+        )
+    return sources, query
+
+
+def crossref_date(item):
+    for field in ("published-online", "published-print", "published", "created"):
+        parts = ((item.get(field) or {}).get("date-parts") or [[]])[0]
+        if parts:
+            year = int(parts[0])
+            month = int(parts[1]) if len(parts) > 1 else 1
+            day = int(parts[2]) if len(parts) > 2 else 1
+            return f"{year:04d}-{month:02d}-{day:02d}"
+    return ""
+
+
+def fetch_crossref(focus, start_date, end_date, limit):
+    query = focus_query(focus)
+    parameters = urllib.parse.urlencode(
+        {
+            "query.bibliographic": query,
+            "filter": f"from-pub-date:{start_date},until-pub-date:{end_date},has-abstract:true",
+            "sort": "published",
+            "order": "desc",
+            "rows": min(limit, 50),
+        }
+    )
+    payload = json.loads(http_get(f"https://api.crossref.org/works?{parameters}"))
+    sources = []
+    for item in payload.get("message", {}).get("items", []):
+        title = clean_markup((item.get("title") or [""])[0])
+        abstract = clean_markup(item.get("abstract"))
+        doi = item.get("DOI") or ""
+        if not title or not doi or len(abstract) < 80:
+            continue
+        authors = [
+            " ".join(part for part in (author.get("given"), author.get("family")) if part)
+            for author in item.get("author", [])
+        ]
+        sources.append(
+            {
+                "source_id": source_key("doi", doi),
+                "database": "Crossref",
+                "title": title[:500],
+                "abstract": abstract[:3000],
+                "authors": ", ".join(authors[:8])[:500],
+                "published": crossref_date(item),
+                "venue": clean_markup((item.get("container-title") or [""])[0])[:200],
+                "url": f"https://doi.org/{doi}",
+            }
+        )
+    return sources, query
+
+
+def fetch_semantic_scholar(focus, start_date, end_date, limit):
+    query = focus_query(focus)
+    parameters = urllib.parse.urlencode(
+        {
+            "query": query,
+            "limit": min(limit, 50),
+            "publicationDateOrYear": f"{start_date}:{end_date}",
+            "fields": "title,abstract,authors,publicationDate,venue,url,externalIds",
+        }
+    )
+    headers = {}
+    if os.environ.get("SEMANTIC_SCHOLAR_API_KEY"):
+        headers["x-api-key"] = os.environ["SEMANTIC_SCHOLAR_API_KEY"]
+    payload = json.loads(
+        http_get(f"https://api.semanticscholar.org/graph/v1/paper/search?{parameters}", headers=headers)
+    )
+    sources = []
+    for item in payload.get("data", []):
+        published = (item.get("publicationDate") or "")[:10]
+        title, abstract = clean_markup(item.get("title")), clean_markup(item.get("abstract"))
+        if not title or len(abstract) < 80 or not published or not str(start_date) <= published <= str(end_date):
+            continue
+        external = item.get("externalIds") or {}
+        doi, pmid, arxiv_id = external.get("DOI"), external.get("PubMed"), external.get("ArXiv")
+        if doi:
+            key, source_url = source_key("doi", doi), f"https://doi.org/{doi}"
+        elif pmid:
+            key, source_url = source_key("pmid", pmid), f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+        elif arxiv_id:
+            key, source_url = source_key("arxiv", re.sub(r"v\d+$", "", arxiv_id)), f"https://arxiv.org/abs/{arxiv_id}"
+        else:
+            paper_id = item.get("paperId") or fingerprint(title)
+            key = source_key("s2", paper_id)
+            source_url = f"https://www.semanticscholar.org/paper/{paper_id}"
+        sources.append(
+            {
+                "source_id": key,
+                "database": "Semantic Scholar",
+                "title": title[:500],
+                "abstract": abstract[:3000],
+                "authors": ", ".join(author.get("name", "") for author in item.get("authors", [])[:8])[:500],
+                "published": published,
+                "venue": clean_markup(item.get("venue"))[:200],
+                "url": source_url,
+            }
+        )
+    return sources, query
+
+
+def fetch_preprints(focus, start_date, end_date, limit):
+    sources, query_urls = [], []
+    for server, label, host in (
+        ("biorxiv", "bioRxiv", "www.biorxiv.org"),
+        ("medrxiv", "medRxiv", "www.medrxiv.org"),
+    ):
+        cursor = 0
+        while len([source for source in sources if source["database"] == label]) < limit:
+            url = f"https://api.biorxiv.org/details/{server}/{start_date}/{end_date}/{cursor}/json"
+            query_urls.append(url)
+            payload = json.loads(http_get(url))
+            collection = payload.get("collection", [])
+            for item in collection:
+                title, abstract = clean_markup(item.get("title")), clean_markup(item.get("abstract"))
+                if not title or len(abstract) < 80 or not focus_matches(focus, title, abstract):
+                    continue
+                doi = item.get("doi") or ""
+                version = item.get("version") or "1"
+                sources.append(
+                    {
+                        "source_id": source_key("doi", doi) if doi else source_key(server, title),
+                        "database": label,
+                        "title": title[:500],
+                        "abstract": abstract[:3000],
+                        "authors": clean_markup(item.get("authors"))[:500],
+                        "published": (item.get("date") or "")[:10],
+                        "venue": clean_markup(item.get("category"))[:200],
+                        "url": f"https://{host}/content/{doi}v{version}" if doi else f"https://{host}",
+                    }
+                )
+            message = (payload.get("messages") or [{}])[0]
+            total = int(message.get("total") or len(collection))
+            cursor += len(collection)
+            if not collection or cursor >= total or cursor >= 300:
+                break
+    return sources, query_urls
+
+
+def fetch_clinical_trials(focus, start_date, end_date, limit):
+    query = " OR ".join(f'"{clean_query_term(term)}"' for term in focus["query_terms"][:5])
+    parameters = urllib.parse.urlencode(
+        {"query.term": query, "pageSize": min(limit, 100), "sort": "StudyFirstPostDate:desc", "format": "json"}
+    )
+    payload = json.loads(http_get(f"https://clinicaltrials.gov/api/v2/studies?{parameters}"))
+    sources = []
+    for study in payload.get("studies", []):
+        protocol = study.get("protocolSection") or {}
+        identity = protocol.get("identificationModule") or {}
+        description = protocol.get("descriptionModule") or {}
+        status = protocol.get("statusModule") or {}
+        sponsor = protocol.get("sponsorCollaboratorsModule") or {}
+        conditions = protocol.get("conditionsModule") or {}
+        arms = protocol.get("armsInterventionsModule") or {}
+        nct_id = identity.get("nctId") or ""
+        title = clean_markup(identity.get("briefTitle") or identity.get("officialTitle"))
+        summary = clean_markup(description.get("briefSummary") or description.get("detailedDescription"))
+        published = ((status.get("studyFirstPostDateStruct") or {}).get("date") or "")[:10]
+        extras = " ".join(conditions.get("conditions", []))
+        extras += " " + " ".join(item.get("name", "") for item in arms.get("interventions", []))
+        abstract = clean_markup(f"{summary} Conditions and interventions: {extras}")
+        if not nct_id or not title or len(abstract) < 80 or not str(start_date) <= published <= str(end_date):
+            continue
+        sources.append(
+            {
+                "source_id": source_key("nct", nct_id),
+                "database": "ClinicalTrials.gov",
+                "title": title[:500],
+                "abstract": abstract[:3000],
+                "authors": clean_markup((sponsor.get("leadSponsor") or {}).get("name"))[:500],
+                "published": published,
+                "venue": f"Clinical trial · {status.get('overallStatus', 'status unavailable')}",
+                "url": f"https://clinicaltrials.gov/study/{nct_id}",
+            }
+        )
+    return sources, query
+
+
+def fetch_geo(focus, start_date, end_date, limit):
+    terms = " OR ".join(f'"{clean_query_term(term)}"' for term in focus["query_terms"][:5])
+    query = (
+        f"({terms}) AND gse[ETYP] AND "
+        f'"{start_date.strftime("%Y/%m/%d")}"[PDAT] : "{end_date.strftime("%Y/%m/%d")}"[PDAT]'
+    )
+    search_params = urllib.parse.urlencode(
+        {"db": "gds", "term": query, "retmax": min(limit, 50), "retmode": "json", "tool": "research_portfolio"}
+    )
+    found = json.loads(
+        http_get(f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?{search_params}")
+    )
+    identifiers = found.get("esearchresult", {}).get("idlist", [])
+    if not identifiers:
+        return [], query
+    summary_params = urllib.parse.urlencode(
+        {"db": "gds", "id": ",".join(identifiers), "retmode": "json", "version": "2.0", "tool": "research_portfolio"}
+    )
+    payload = json.loads(
+        http_get(f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?{summary_params}")
+    )
+    result, sources = payload.get("result", {}), []
+    for uid in result.get("uids", []):
+        item = result.get(str(uid), {})
+        accession = item.get("accession") or ""
+        title, abstract = clean_markup(item.get("title")), clean_markup(item.get("summary"))
+        if not accession or not title or len(abstract) < 80:
+            continue
+        published = str(item.get("pdat") or item.get("PDAT") or "")[:10].replace("/", "-")
+        sources.append(
+            {
+                "source_id": source_key("geo", accession),
+                "database": "NCBI GEO",
+                "title": title[:500],
+                "abstract": abstract[:3000],
+                "authors": "",
+                "published": published,
+                "venue": f"Gene Expression Omnibus · {clean_markup(item.get('gdsType'))}"[:200],
+                "url": f"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc={accession}",
+            }
+        )
+    return sources, query
+
+
 def deduplicate_sources(sources):
     selected = []
     keys = set()
@@ -222,6 +510,29 @@ def deduplicate_sources(sources):
         keys.add(source["source_id"])
         titles.append(source["title"])
         selected.append(source)
+    return selected
+
+
+def balance_sources(sources, limit):
+    """Round-robin databases so a broad index cannot crowd out specialist evidence."""
+    grouped = defaultdict(list)
+    for source in sources:
+        grouped[source["database"]].append(source)
+    for records in grouped.values():
+        records.sort(
+            key=lambda item: (item.get("published", ""), item["source_id"]),
+            reverse=True,
+        )
+    selected = []
+    names = sorted(grouped)
+    while len(selected) < limit:
+        added = False
+        for name in names:
+            if grouped[name] and len(selected) < limit:
+                selected.append(grouped[name].pop(0))
+                added = True
+        if not added:
+            break
     return selected
 
 
@@ -320,23 +631,65 @@ def fetch_command(args):
     focus = choose_focus(config, args.focus, today)
     start = today - timedelta(days=lookback)
     errors, sources, queries = [], [], {}
-    try:
-        found, query = fetch_europe_pmc(focus, start.isoformat(), today.isoformat(), args.max_sources)
-        sources.extend(found)
-        queries["europe_pmc"] = query
-    except Exception as error:  # one source failure must not discard the other
-        errors.append(f"Europe PMC: {error}")
-    try:
-        found, query = fetch_arxiv(focus, start, args.max_sources)
-        sources.extend(found)
-        queries["arxiv"] = query
-    except Exception as error:
-        errors.append(f"arXiv: {error}")
+    source_config = config.get("source_databases", {})
+
+    def enabled(name):
+        return source_config.get(name, {}).get("enabled", True)
+
+    specifications = [
+        (
+            "europe_pmc",
+            "Europe PMC",
+            lambda: fetch_europe_pmc(
+                focus, start.isoformat(), today.isoformat(), args.max_sources
+            ),
+        ),
+        ("arxiv", "arXiv", lambda: fetch_arxiv(focus, start, args.max_sources)),
+        (
+            "openalex",
+            "OpenAlex",
+            lambda: fetch_openalex(focus, start, today, args.max_sources),
+        ),
+        (
+            "crossref",
+            "Crossref",
+            lambda: fetch_crossref(focus, start, today, args.max_sources),
+        ),
+        (
+            "semantic_scholar",
+            "Semantic Scholar",
+            lambda: fetch_semantic_scholar(focus, start, today, args.max_sources),
+        ),
+        (
+            "biorxiv_medrxiv",
+            "bioRxiv/medRxiv",
+            lambda: fetch_preprints(focus, start, today, args.max_sources),
+        ),
+        (
+            "clinical_trials",
+            "ClinicalTrials.gov",
+            lambda: fetch_clinical_trials(focus, start, today, args.max_sources),
+        ),
+        ("geo", "NCBI GEO", lambda: fetch_geo(focus, start, today, args.max_sources)),
+    ]
+    specifications = [item for item in specifications if enabled(item[0])]
+    with ThreadPoolExecutor(max_workers=max(1, len(specifications))) as pool:
+        pending = [
+            (key, label, pool.submit(fetcher))
+            for key, label, fetcher in specifications
+        ]
+        for key, label, future in pending:
+            try:
+                found, query = future.result()
+                sources.extend(found)
+                queries[key] = query
+            except Exception as error:  # one source failure must not discard the others
+                errors.append(f"{label}: {error}")
 
     seen = set(ledger.get("seen_sources", []))
     sources = [source for source in deduplicate_sources(sources) if source["source_id"] not in seen]
-    sources.sort(key=lambda item: (item.get("published", ""), item["source_id"]), reverse=True)
-    sources = sources[: args.max_sources]
+    sources = balance_sources(sources, args.max_sources)
+    source_counts = dict(sorted(Counter(source["database"] for source in sources).items()))
     existing = existing_idea_titles(os.environ["GITHUB_REPOSITORY"])
     bundle = {
         "version": 1,
@@ -345,13 +698,23 @@ def fetch_command(args):
         "focus": focus,
         "queries": queries,
         "errors": errors,
+        "source_counts": source_counts,
         "existing_titles": existing,
         "sources": sources,
     }
     write_json(args.output, bundle)
     minimum = int(config.get("quality_gates", {}).get("minimum_evidence_sources", 2))
     ready = len(sources) >= max(4, minimum)
-    write_json(args.status_file, {"ready": ready, "source_count": len(sources), "focus": focus["name"], "errors": errors})
+    write_json(
+        args.status_file,
+        {
+            "ready": ready,
+            "source_count": len(sources),
+            "source_counts": source_counts,
+            "focus": focus["name"],
+            "errors": errors,
+        },
+    )
     Path(args.prompt_file).write_text(
         build_prompt(bundle, args.max_ideas) if ready else "", encoding="utf-8"
     )
@@ -377,6 +740,9 @@ def bounded_text(value, field, minimum=4, maximum=MAX_TEXT):
     value = re.sub(r"\s+", " ", value).strip()
     if len(value) < minimum or len(value) > maximum:
         raise RuntimeError(f"{field} must be between {minimum} and {maximum} characters.")
+    value = value.replace("\\", "\\\\")
+    for character in "`*_[]<>":
+        value = value.replace(character, f"\\{character}")
     return value.replace("@", "@\u200b")
 
 
@@ -535,12 +901,17 @@ def markdown_text(value):
     return value.replace("|", "\\|")
 
 
+def markdown_link_text(value):
+    return value.replace("\\", "\\\\").replace("[", "\\[").replace("]", "\\]")
+
+
 def render_issue(idea, sources, focus_name):
     evidence_lines = []
     for item in idea["evidence"]:
         source = sources[item["source_id"]]
         evidence_lines.append(
-            f"- [{markdown_text(source['title'])}]({source['url']}) — {item['relevance']}"
+            f"- [{markdown_link_text(source['title'])}]({source['url']}) — "
+            f"**{source['database']}**. {item['relevance']}"
         )
     assumption_lines = [
         "| Assumption | Type | Risk | Readout | Test |",

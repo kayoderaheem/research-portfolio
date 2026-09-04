@@ -3,6 +3,40 @@
   "lookback_days": 14,
   "max_sources": 40,
   "max_ideas_per_run": 3,
+  "source_databases": {
+    "europe_pmc": {
+      "enabled": true,
+      "coverage": "Biomedical literature, including PubMed and additional scholarly sources"
+    },
+    "arxiv": {
+      "enabled": true,
+      "coverage": "Quantitative biology and computational-method preprints"
+    },
+    "openalex": {
+      "enabled": true,
+      "coverage": "Cross-disciplinary scholarly works and research graph"
+    },
+    "crossref": {
+      "enabled": true,
+      "coverage": "Publisher-deposited DOI metadata"
+    },
+    "semantic_scholar": {
+      "enabled": true,
+      "coverage": "Semantic scholarly-paper index"
+    },
+    "biorxiv_medrxiv": {
+      "enabled": true,
+      "coverage": "Biology and health-science preprints"
+    },
+    "clinical_trials": {
+      "enabled": true,
+      "coverage": "Registered interventional and observational studies"
+    },
+    "geo": {
+      "enabled": true,
+      "coverage": "Public functional-genomics datasets"
+    }
+  },
   "focus_areas": [
     {
       "name": "Cancer drug response and resistance",

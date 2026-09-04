@@ -176,6 +176,167 @@ class SourceCollectionTests(unittest.TestCase):
             )
         )
 
+    def test_openalex_reconstructs_abstracts(self):
+        payload = {
+            "results": [{
+                "id": "https://openalex.org/W123",
+                "doi": "https://doi.org/10.2/openalex",
+                "title": "OpenAlex precision medicine study",
+                "abstract_inverted_index": {
+                    "Patient": [0], "level": [1], "treatment": [2], "response": [3],
+                    "evidence": list(range(4, 84)),
+                },
+                "publication_date": "2026-09-02",
+                "authorships": [{"author": {"display_name": "Researcher A"}}],
+                "primary_location": {
+                    "landing_page_url": "https://example.test/openalex",
+                    "source": {"display_name": "Journal A"},
+                },
+            }]
+        }
+        with patch.object(engine, "http_get", return_value=json.dumps(payload)):
+            found, _ = engine.fetch_openalex(
+                {"query_terms": ["precision medicine"]}, date(2026, 8, 21), date(2026, 9, 4), 10
+            )
+        self.assertEqual(found[0]["source_id"], "doi:10.2/openalex")
+        self.assertIn("Patient level treatment response", found[0]["abstract"])
+
+    def test_crossref_removes_jats_markup(self):
+        payload = {"message": {"items": [{
+            "DOI": "10.2/crossref", "title": ["Crossref response study"],
+            "abstract": "<jats:p>" + "Evidence " * 20 + "</jats:p>",
+            "published-online": {"date-parts": [[2026, 9, 1]]},
+            "author": [{"given": "Ada", "family": "Scientist"}],
+            "container-title": ["Journal B"],
+        }]}}
+        with patch.object(engine, "http_get", return_value=json.dumps(payload)):
+            found, _ = engine.fetch_crossref(
+                {"query_terms": ["treatment response"]}, date(2026, 8, 21), date(2026, 9, 4), 10
+            )
+        self.assertNotIn("jats", found[0]["abstract"])
+        self.assertEqual(found[0]["published"], "2026-09-01")
+
+    def test_semantic_scholar_prefers_doi_identity(self):
+        payload = {"data": [{
+            "paperId": "paper-1", "title": "Semantic treatment response study",
+            "abstract": "Evidence " * 20, "publicationDate": "2026-09-03",
+            "venue": "Journal C", "url": "https://semanticscholar.org/paper-1",
+            "externalIds": {"DOI": "10.2/semantic"},
+            "authors": [{"name": "Researcher C"}],
+        }]}
+        with patch.object(engine, "http_get", return_value=json.dumps(payload)):
+            found, _ = engine.fetch_semantic_scholar(
+                {"query_terms": ["treatment response"]}, date(2026, 8, 21), date(2026, 9, 4), 10
+            )
+        self.assertEqual(found[0]["source_id"], "doi:10.2/semantic")
+
+    def test_biorxiv_and_medrxiv_are_both_collected(self):
+        def response(url, *args, **kwargs):
+            server = "medrxiv" if "/medrxiv/" in url else "biorxiv"
+            return json.dumps({
+                "messages": [{"total": 1}],
+                "collection": [{
+                    "doi": f"10.1101/{server}", "title": f"{server} treatment response",
+                    "abstract": "Treatment response evidence " * 10,
+                    "authors": "Researcher D", "date": "2026-09-03",
+                    "version": "1", "category": "bioinformatics",
+                }],
+            })
+        with patch.object(engine, "http_get", side_effect=response):
+            found, _ = engine.fetch_preprints(
+                {"query_terms": ["treatment response"]}, date(2026, 8, 21), date(2026, 9, 4), 10
+            )
+        self.assertEqual({item["database"] for item in found}, {"bioRxiv", "medRxiv"})
+
+    def test_clinical_trials_extracts_registered_studies(self):
+        payload = {"studies": [{"protocolSection": {
+            "identificationModule": {"nctId": "NCT123", "briefTitle": "Treatment response trial"},
+            "descriptionModule": {"briefSummary": "Prospective treatment response evidence " * 8},
+            "statusModule": {
+                "studyFirstPostDateStruct": {"date": "2026-09-02"},
+                "overallStatus": "RECRUITING",
+            },
+            "sponsorCollaboratorsModule": {"leadSponsor": {"name": "Research Institute"}},
+            "conditionsModule": {"conditions": ["Cancer"]},
+            "armsInterventionsModule": {"interventions": [{"name": "Therapy A"}]},
+        }}]}
+        with patch.object(engine, "http_get", return_value=json.dumps(payload)):
+            found, _ = engine.fetch_clinical_trials(
+                {"query_terms": ["treatment response"]}, date(2026, 8, 21), date(2026, 9, 4), 10
+            )
+        self.assertEqual(found[0]["source_id"], "nct:nct123")
+        self.assertIn("RECRUITING", found[0]["venue"])
+
+    def test_geo_search_and_summary_extract_dataset_accessions(self):
+        search = {"esearchresult": {"idlist": ["9001"]}}
+        summary = {"result": {
+            "uids": ["9001"],
+            "9001": {
+                "accession": "GSE9001", "title": "Treatment response dataset",
+                "summary": "Patient-level treatment response expression data " * 8,
+                "pdat": "2026/09/01", "gdsType": "Expression profiling",
+            },
+        }}
+        with patch.object(engine, "http_get", side_effect=[json.dumps(search), json.dumps(summary)]):
+            found, _ = engine.fetch_geo(
+                {"query_terms": ["treatment response"]}, date(2026, 8, 21), date(2026, 9, 4), 10
+            )
+        self.assertEqual(found[0]["source_id"], "geo:gse9001")
+        self.assertEqual(found[0]["published"], "2026-09-01")
+
+    def test_source_balancing_preserves_specialist_databases(self):
+        records = []
+        for index in range(5):
+            record = copy.deepcopy(next(iter(sources().values())))
+            record.update({"source_id": f"general:{index}", "database": "General", "published": f"2026-09-0{index + 1}"})
+            records.append(record)
+        specialist = copy.deepcopy(records[0])
+        specialist.update({"source_id": "trial:1", "database": "ClinicalTrials.gov"})
+        selected = engine.balance_sources(records + [specialist], 4)
+        self.assertIn("ClinicalTrials.gov", {item["database"] for item in selected})
+
+    def test_one_database_failure_does_not_discard_other_results(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            config = copy.deepcopy(CONFIG)
+            for settings in config["source_databases"].values():
+                settings["enabled"] = False
+            config["source_databases"]["europe_pmc"]["enabled"] = True
+            config["source_databases"]["openalex"]["enabled"] = True
+            (root / "config.json").write_text(json.dumps(config))
+            (root / "ledger.json").write_text(json.dumps({
+                "version": 1, "seen_sources": [], "generated_ideas": [], "runs": []
+            }))
+            records = []
+            titles = [
+                "Transportable cell states across hospitals",
+                "Perturbation response in patient organoids",
+                "Spatial niches driving acquired resistance",
+                "Calibrated multimodal treatment biomarkers",
+            ]
+            for index, title in enumerate(titles):
+                record = copy.deepcopy(next(iter(sources().values())))
+                record.update({
+                    "source_id": f"openalex:{index}", "database": "OpenAlex",
+                    "title": title,
+                })
+                records.append(record)
+            args = SimpleNamespace(
+                config=str(root / "config.json"), ledger=str(root / "ledger.json"),
+                output=str(root / "sources.json"), status_file=str(root / "status.json"),
+                prompt_file=str(root / "prompt.txt"), focus=None, lookback_days=14,
+                max_sources=40, max_ideas=3,
+            )
+            with patch.object(engine, "fetch_europe_pmc", side_effect=RuntimeError("temporary outage")), \
+                 patch.object(engine, "fetch_openalex", return_value=(records, "query")), \
+                 patch.object(engine, "existing_idea_titles", return_value=[]), \
+                 patch.dict("os.environ", {"GITHUB_REPOSITORY": "owner/repo"}):
+                engine.fetch_command(args)
+            status = json.loads((root / "status.json").read_text())
+            self.assertTrue(status["ready"])
+            self.assertEqual(status["source_count"], 4)
+            self.assertIn("Europe PMC: temporary outage", status["errors"])
+
 
 class ValidationTests(unittest.TestCase):
     def test_complete_idea_passes_and_is_scored(self):
@@ -188,6 +349,12 @@ class ValidationTests(unittest.TestCase):
         proposal["evidence"][0]["source_id"] = "doi:invented"
         with self.assertRaisesRegex(RuntimeError, "unknown or duplicate"):
             engine.validate_idea(proposal, sources(), CONFIG)
+
+    def test_generated_markdown_links_are_neutralized(self):
+        proposal = valid_idea()
+        proposal["why_now"] = "See [untrusted link](https://malicious.example) before proceeding."
+        cleaned = engine.validate_idea(proposal, sources(), CONFIG)
+        self.assertIn(r"\[untrusted link\]", cleaned["why_now"])
 
     def test_scientific_and_technical_assumptions_are_required(self):
         proposal = valid_idea()
