@@ -589,7 +589,7 @@ Enforce bioinformatics quality:
 - Patient or donor is the independence unit when applicable.
 - All splitting, preprocessing, feature selection, tuning, and imputation must avoid leakage.
 - Require strong simple and established baselines, negative controls, uncertainty, and calibration where relevant.
-- Prefer external cohorts and orthogonal biological validation.
+- Require validation on an external or independent cohort not used for model development; orthogonal biological validation is complementary.
 - Do not claim prospective clinical utility from retrospective association.
 - Do not claim novelty as fact; describe what must be checked.
 
@@ -606,7 +606,7 @@ For each idea, return exactly these fields:
 - assumptions: array of 3-7 objects with text, type (scientific|technical), risk (low|medium|high), readout_weeks (integer 1-52), test
 - data_plan: object with required_data, independence_unit, leakage_controls
 - strong_baselines: array of 2-6 strings
-- validation_plan: array of 2-6 strings including external or orthogonal validation
+- validation_plan: array of 2-6 strings; at least one must describe validation on an external cohort, independent cohort, or held-out cohort using that wording. Orthogonal validation alone does not satisfy this requirement.
 - earliest_test: object with experiment, estimated_weeks (integer 1-12), success_threshold, ambiguous_threshold, failure_threshold
 - decision_tree: object with positive, ambiguous, negative
 - residual_value
@@ -878,8 +878,11 @@ def validate_command(args):
 
     existing = bundle.get("existing_titles", [])
     validated = []
-    for raw_idea in raw["ideas"]:
-        idea = validate_idea(raw_idea, source_lookup, config)
+    for index, raw_idea in enumerate(raw["ideas"], start=1):
+        try:
+            idea = validate_idea(raw_idea, source_lookup, config)
+        except RuntimeError as error:
+            raise RuntimeError(f"Candidate {index}: {error}") from error
         if any(similar_title(idea["title"], title) for title in existing):
             raise RuntimeError(f"Generated idea is too similar to an existing issue: {idea['title']}")
         if any(similar_title(idea["title"], other["title"]) for other in validated):

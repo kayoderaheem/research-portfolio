@@ -369,6 +369,50 @@ class ValidationTests(unittest.TestCase):
         with self.assertRaisesRegex(RuntimeError, "external or independent"):
             engine.validate_idea(proposal, sources(), CONFIG)
 
+    def test_orthogonal_validation_does_not_replace_an_external_cohort(self):
+        proposal = valid_idea()
+        proposal["validation_plan"] = [
+            "Use internal cross-validation.",
+            "Confirm the signal with orthogonal protein measurements.",
+        ]
+        with self.assertRaisesRegex(RuntimeError, "external or independent"):
+            engine.validate_idea(proposal, sources(), CONFIG)
+
+    def test_supported_cohort_validation_plans_pass(self):
+        for cohort in ("external cohort", "independent cohort", "held-out cohort"):
+            with self.subTest(cohort=cohort):
+                proposal = valid_idea()
+                proposal["validation_plan"] = [
+                    f"Evaluate the fixed score in an {cohort} excluded from model development.",
+                    "Confirm the signal with orthogonal protein measurements.",
+                ]
+                engine.validate_idea(proposal, sources(), CONFIG)
+
+    def test_invalid_candidate_identifies_its_index_and_blocks_batch_output(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            invalid = valid_idea()
+            invalid["validation_plan"] = [
+                "Use internal cross-validation.",
+                "Confirm the signal with orthogonal protein measurements.",
+            ]
+            (root / "sources.json").write_text(json.dumps({
+                "focus": {"name": "Test focus"}, "sources": list(sources().values()),
+            }))
+            (root / "raw.json").write_text(json.dumps({"ideas": [valid_idea(), invalid]}))
+            output = root / "validated.json"
+            args = SimpleNamespace(
+                config=str(ROOT / "config" / "research-focus.json"),
+                sources=str(root / "sources.json"), result=str(root / "raw.json"),
+                output=str(output), max_ideas=3,
+            )
+            with self.assertRaisesRegex(
+                RuntimeError,
+                "Candidate 2: validation_plan must include external or independent-cohort validation",
+            ):
+                engine.validate_command(args)
+            self.assertFalse(output.exists())
+
     def test_issue_body_uses_validated_source_links(self):
         cleaned = engine.validate_idea(valid_idea(), sources(), CONFIG)
         body = engine.render_issue(cleaned, sources(), "Cancer drug response")

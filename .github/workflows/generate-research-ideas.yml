@@ -109,6 +109,7 @@ jobs:
           test -s raw.json
 
       - name: Reject unsupported or malformed candidates
+        id: validate_candidates
         if: steps.collect.outputs.ready == 'true'
         run: |
           python scripts/discover_research_ideas.py validate \
@@ -117,6 +118,16 @@ jobs:
             --result /tmp/research-idea-agent/raw.json \
             --output /tmp/research-idea-agent/validated.json \
             --max-ideas "${{ steps.settings.outputs.max_ideas }}"
+
+      - name: Preserve validation failure diagnostics
+        if: failure() && steps.validate_candidates.outcome == 'failure'
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-idea-validation-debug
+          path: |
+            /tmp/research-idea-agent/raw.json
+            /tmp/research-idea-agent/sources.json
+          retention-days: 7
 
       - name: Preserve validated results for the publishing job
         if: steps.collect.outputs.ready == 'true'
