@@ -89,6 +89,51 @@
       "reason": "Idea 13 combines a relevant translational problem with a clear tumor–CAF–immune spatial anchor, strong evidence readiness, patient-level leakage controls, external validation, and orthogonal tumoroid perturbation. Idea 3 has broader mechanistic scope but substantially more high-risk assumptions about biomarker specificity, causal resistance, and pharmacologic reversal.",
       "target": 3,
       "timestamp": "2026-09-12T15:36:18.949232+00:00"
+    },
+    {
+      "main_risk": "The spatial signal may be an anatomical-site or treatment-history proxy rather than a treatment-response modifier.",
+      "next_test": "Run the prespecified 10-week patient-level comparison of spatial features against composition, genotype, site, and clinical baselines, including leave-one-site-out validation.",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "ALK-site context has broader clinical relevance, a clearer patient-level response endpoint, and a more feasible early test than the rare MPNST trajectory project, which depends on difficult longitudinal tissue and a less established ZNF423 transition.",
+      "target": 8,
+      "timestamp": "2026-09-12T20:38:44.848782+00:00"
+    },
+    {
+      "main_risk": "Marrow spatial accessibility may add no information beyond leukemia burden, antigen or T-cell composition, and clinical risk.",
+      "next_test": "Profile pretreatment marrow by multiplex imaging and test whether leukemia-CD8 neighborhood accessibility improves calibrated patient-level prediction over composition-plus-clinical baselines.",
+      "opponent": 11,
+      "outcome": "loss",
+      "reason": "Blinatumomab response offers a narrower and more actionable spatial question with a relatively cheap pretreatment marrow test, strong composition and clinical baselines, and a clearer early decision than the multi-assay, longitudinal ALK metastatic-site study.",
+      "target": 8,
+      "timestamp": "2026-09-12T20:38:44.848804+00:00"
+    },
+    {
+      "main_risk": "The apparent ALK spatial association may be confounded by metastatic site, prior therapy, or sampling rather than modifying drug response.",
+      "next_test": "Evaluate a locked spatial score in pretreatment ALK samples using patient-level validation and site-held-out testing against clinical, genotype, composition, and proliferation baselines.",
+      "opponent": 18,
+      "outcome": "win",
+      "reason": "ALK-rearranged NSCLC provides a more clinically anchored and likely data-ready setting for testing site-aware resistance, whereas the cholangiocarcinoma hypothesis is heavily dependent on cell-line-derived programs transferring to human tumors across anatomical sites.",
+      "target": 8,
+      "timestamp": "2026-09-12T20:38:44.848813+00:00"
+    },
+    {
+      "main_risk": "A sufficiently large, harmonized independent cohort with response labels and compatible spatial measurements may not be available.",
+      "next_test": "Confirm access and label harmonization, then run the preregistered center-held-out benchmark before developing complex multimodal models.",
+      "opponent": 17,
+      "outcome": "loss",
+      "reason": "The lymphoma benchmark directly answers whether spatial context is worth the added complexity, uses strong simple baselines and center-held-out validation, and can produce useful negative results; its findings would generalize across future biomarker projects more than a single ALK niche hypothesis.",
+      "target": 8,
+      "timestamp": "2026-09-12T20:38:44.848825+00:00"
+    },
+    {
+      "main_risk": "ALK spatial features may not transfer across metastatic sites or outperform simpler site, genotype, composition, and clinical predictors.",
+      "next_test": "Test a prespecified ALK tumor-stroma-immune neighborhood score in a patient-split cohort, with independent assay replication and leave-one-site-out evaluation.",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "ALK metastatic-site response is a more fixed and testable scientific anchor than the lung adenocarcinoma proposal's floating therapy classes and reliance on patient-derived tumoroids retaining clinically relevant CAF-immune interactions.",
+      "target": 8,
+      "timestamp": "2026-09-12T20:38:44.848831+00:00"
     }
   ],
   "k_factor": 24,
@@ -107,6 +152,13 @@
       "rating": 1512.0,
       "wins": 1
     },
+    "11": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1512.41,
+      "wins": 1
+    },
     "12": {
       "draws": 0,
       "games": 1,
@@ -116,9 +168,9 @@
     },
     "13": {
       "draws": 0,
-      "games": 1,
-      "losses": 0,
-      "rating": 1511.2,
+      "games": 2,
+      "losses": 1,
+      "rating": 1498.79,
       "wins": 1
     },
     "15": {
@@ -127,6 +179,27 @@
       "losses": 0,
       "rating": 1512.4,
       "wins": 1
+    },
+    "17": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1512.4,
+      "wins": 1
+    },
+    "18": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1487.99,
+      "wins": 0
+    },
+    "19": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
     },
     "2": {
       "draws": 0,
@@ -169,6 +242,13 @@
       "losses": 1,
       "rating": 1487.99,
       "wins": 0
+    },
+    "8": {
+      "draws": 0,
+      "games": 5,
+      "losses": 2,
+      "rating": 1511.61,
+      "wins": 3
     },
     "9": {
       "draws": 0,
