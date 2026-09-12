@@ -1,0 +1,110 @@
+name: Weekly Problem Tournament
+description: Compare several research questions and force a current priority choice
+title: "[Problem Tournament] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Compare 3–5 candidate research questions under roughly the same research-time budget. The purpose is to choose where scarce research effort should go next, not to make every idea look attractive.
+
+  - type: textarea
+    id: candidates
+    attributes:
+      label: Candidate questions
+      description: List 3–5 concrete questions and link the corresponding idea issues.
+      placeholder: |
+        A. #12 — ...
+        B. #18 — ...
+        C. #21 — ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: scorecard
+    attributes:
+      label: Comparative scorecard
+      description: Score each dimension 1–5. A fatal weakness should outweigh a high total score.
+      placeholder: |
+        | Question | Importance | Novelty | Public-data feasibility | Biological defensibility | Time-to-learn | Publication leverage | Fatal weakness? |
+        |---|---:|---:|---:|---:|---:|---:|---|
+        | A | | | | | | | |
+        | B | | | | | | | |
+        | C | | | | | | | |
+    validations:
+      required: true
+
+  - type: textarea
+    id: discriminators
+    attributes:
+      label: What actually separates them?
+      description: Name the few considerations that genuinely change the ranking.
+      placeholder: |
+        1. ...
+        2. ...
+
+  - type: textarea
+    id: cheapest_learning
+    attributes:
+      label: Cheapest information that could change the ranking
+      description: Identify the fastest literature check, dataset audit, benchmark, or analysis that could reverse the current choice.
+      placeholder: |
+        Test/check:
+        Candidates discriminated:
+        Result that would change the ranking:
+    validations:
+      required: true
+
+  - type: textarea
+    id: winner
+    attributes:
+      label: Forced choice
+      description: If only one project could receive focused effort now, which one wins?
+      placeholder: I would choose ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: why_winner
+    attributes:
+      label: Why this one now?
+      description: Explain why this question deserves time now rather than simply why it is interesting.
+      placeholder: |
+        Why now:
+        Why it beats the alternatives:
+        What is being given up:
+    validations:
+      required: true
+
+  - type: textarea
+    id: losers
+    attributes:
+      label: Why not the others?
+      description: Record the main reason each alternative loses today.
+      placeholder: |
+        A loses because...
+        B loses because...
+        C loses because...
+
+  - type: textarea
+    id: revisit
+    attributes:
+      label: Revisit triggers
+      description: What new evidence, dataset, competing paper, or feasibility change would justify re-ranking?
+      placeholder: |
+        Re-rank if:
+        - ...
+        - ...
+
+  - type: dropdown
+    id: action
+    attributes:
+      label: Next action
+      options:
+        - Promote winner to active project
+        - Deep-evaluate the winner
+        - Run the winner's first discriminating test
+        - Gather information before choosing
+        - Keep current active project
+        - Park all candidates
+    validations:
+      required: true
