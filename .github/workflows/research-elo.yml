@@ -1,11 +1,13 @@
 name: Research Problem-Choice Review
 
 on:
+  schedule:
+    - cron: "17 */3 * * *"
   workflow_dispatch:
     inputs:
       issue_number:
-        description: "[Idea] issue number to evaluate"
-        required: true
+        description: "Optional [Idea] issue number to evaluate; leave blank for automatic selection"
+        required: false
         type: string
   issues:
     types: [opened, edited, reopened]
@@ -21,9 +23,9 @@ concurrency:
 
 jobs:
   evaluate:
-    if: ${{ github.event_name == 'workflow_dispatch' || (github.event.issue.user.login == github.repository_owner && startsWith(github.event.issue.title, '[Idea]')) }}
+    if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || (github.event.issue.user.login == github.repository_owner && startsWith(github.event.issue.title, '[Idea]')) }}
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 15
     steps:
       - name: Checkout portfolio
         uses: actions/checkout@v6
@@ -40,12 +42,18 @@ jobs:
         env:
           MANUAL: ${{ inputs.issue_number }}
           EVENT: ${{ github.event.issue.number }}
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "number=$MANUAL" >> "$GITHUB_OUTPUT"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "$MANUAL" ]; then
+            number="$MANUAL"
+          elif [ "${{ github.event_name }}" = "issues" ]; then
+            number="$EVENT"
           else
-            echo "number=$EVENT" >> "$GITHUB_OUTPUT"
+            number="$(python scripts/select_research_elo_issue.py)"
           fi
+          echo "Selected issue #$number"
+          echo "number=$number" >> "$GITHUB_OUTPUT"
 
       - name: Prepare problem comparisons
         id: plan
@@ -67,7 +75,7 @@ jobs:
 
       - name: Explain deferred comparison
         if: steps.plan.outputs.ready != 'true'
-        run: echo "::notice::The idea was published, but comparison waits until a second open [Idea] issue exists."
+        run: echo "::notice::Comparison waits until at least two eligible open [Idea] issues exist."
 
       - name: Set up Node.js
         if: steps.plan.outputs.ready == 'true'
@@ -82,7 +90,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
-          timeout 300s copilot --yolo -p "$(cat /tmp/research-prompt.txt)" > /tmp/research-result.txt
+          timeout 360s copilot --yolo -p "$(cat /tmp/research-prompt.txt)" > /tmp/research-result.txt
           test -s /tmp/research-result.txt
 
       - name: Apply ratings and post decision evidence
