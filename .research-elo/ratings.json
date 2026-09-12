@@ -1,6 +1,95 @@
 {
-  "history": [],
+  "history": [
+    {
+      "main_risk": "Idea 1 may produce reproducible organoid responses that do not reflect patient pharmacology or clinical benefit, especially when immune and stromal components are absent.",
+      "next_test": "Prospectively measure organoid establishment success, assay-ready turnaround, and blinded prediction of patient-level response in cases where results are available before the treatment decision, compared with molecular recommendations alone.",
+      "opponent": 2,
+      "outcome": "win",
+      "reason": "Idea 1 has a clearer six-month decision path: assay establishment and turnaround can be measured prospectively, and the result can directly inform whether functional testing adds value beyond molecular recommendations. Idea 2 has high potential through randomized treatment comparison, but transportable treatment-effect signatures require large, comparable cohorts and are vulnerable to underpowered interactions and site-specific measurement effects.",
+      "target": 1,
+      "timestamp": "2026-09-12T10:54:13.450392+00:00"
+    },
+    {
+      "main_risk": "The organoid workflow may not achieve sufficient establishment rate and turnaround time for real metastatic-disease decisions.",
+      "next_test": "Audit all eligible metastatic cases prospectively for culture establishment, contamination, assay readiness, and decision deadlines, while testing whether a locked short-term response score predicts outcomes in a blinded patient-level cohort.",
+      "opponent": 6,
+      "outcome": "loss",
+      "reason": "Idea 1 offers greater near-term clinical and operational leverage: it tests a concrete treatment-decision capability with an early readout and useful outcomes even if long-term resistance prediction fails. Idea 6 is novel and potentially important mechanistically, but mechanical stress is only indirectly measured, clinical tissue and matched post-radiation samples are difficult to assemble, and several correlated explanations could account for the signal.",
+      "target": 1,
+      "timestamp": "2026-09-12T10:54:13.450409+00:00"
+    },
+    {
+      "main_risk": "Organoid functional response may be predictive only in vitro and fail to generalize to patient treatment benefit or resistance delay.",
+      "next_test": "Run a locked, blinded comparison of organoid response and regrowth features versus molecular recommendation alone in prospectively enrolled patients whose assay results precede treatment selection.",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Idea 1 is the stronger current investment because it has a more direct path to an actionable clinical decision, explicit comparison with molecular care, and a feasible early test of turnaround and predictive value. Idea 7 has strong discovery potential, but reproducibility across donors, temporal precedence, distinction from clonal selection or stress, and pharmacologic actionability form a longer chain of high-risk assumptions.",
+      "target": 1,
+      "timestamp": "2026-09-12T10:54:13.450415+00:00"
+    },
+    {
+      "main_risk": "The required organoid assay may be too slow or unreliable to influence treatment decisions in aggressive metastatic disease.",
+      "next_test": "Determine prospectively whether organoids can be established and profiled before the next treatment decision, then test incremental prediction over molecular and clinical baselines in a locked cohort.",
+      "opponent": 15,
+      "outcome": "loss",
+      "reason": "Idea 1 has broader potential use across treatment choices and tumor contexts, a clearer patient-level endpoint, and an early operational test that can support continuation or stopping. Idea 15 is scientifically interesting but tightly couples a specific diffuse-gastric-cancer niche model to BCL2 treatment, with uncertain reproducibility, tissue access, and causal specificity beyond BCL2 abundance or proliferation.",
+      "target": 1,
+      "timestamp": "2026-09-12T10:54:13.450420+00:00"
+    },
+    {
+      "main_risk": "Functional organoid measurements may not capture immune-mediated treatment response and could therefore mislead checkpoint or combination decisions.",
+      "next_test": "First establish whether prospectively collected organoids can meet the treatment-decision turnaround window and whether their locked functional scores add calibrated patient-level prediction beyond molecular and clinical information.",
+      "opponent": 12,
+      "outcome": "loss",
+      "reason": "Idea 1 is the stronger six-month investment because it combines a broadly relevant precision-medicine problem with a concrete, decision-linked workflow and multiple useful branches if the resistance endpoint is weak. Idea 12 addresses an important underserved population, but cohort assembly, treatment comparability, tissue availability, and subgroup sample size create substantial early feasibility risk before the spatial mechanism can be tested reliably.",
+      "target": 1,
+      "timestamp": "2026-09-12T10:54:13.450426+00:00"
+    }
+  ],
   "k_factor": 24,
-  "ratings": {},
+  "ratings": {
+    "1": {
+      "draws": 0,
+      "games": 5,
+      "losses": 3,
+      "rating": 1487.23,
+      "wins": 2
+    },
+    "12": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1511.97,
+      "wins": 1
+    },
+    "15": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1512.4,
+      "wins": 1
+    },
+    "2": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "6": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1512.41,
+      "wins": 1
+    },
+    "7": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1487.99,
+      "wins": 0
+    }
+  },
   "version": 2
 }

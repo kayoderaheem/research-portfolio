@@ -101,9 +101,25 @@ The optional [`Research Problem-Choice Review`](.github/workflows/research-elo.y
 
 Ratings organize attention; the scientific reasoning and earliest decision-changing test matter more than small score differences.
 
-_No research ideas have been captured yet. Add two open `[Idea]` issues to begin pairwise comparison._
+| Rank | Research idea | Rating | Comparisons | Record |
+|---:|---|---:|---:|---:|
+| 1 | [#6 — [Idea] Mechanical-niche states that forecast glioblastoma radioresistance](https://github.com/kayoderaheem/research-portfolio/issues/6) | **1512** | 1 | 1W / 0D / 0L |
+| 2 | [#15 — [Idea] BMP-restraint failure and BCL2-high niches as predictors of diffuse gastric cancer treatment response](https://github.com/kayoderaheem/research-portfolio/issues/15) | **1512** | 1 | 1W / 0D / 0L |
+| 3 | [#12 — [Idea] Antigen-presentation escape neighborhoods predicting checkpoint response in melanoma with HIV](https://github.com/kayoderaheem/research-portfolio/issues/12) | **1512** | 1 | 1W / 0D / 0L |
+| 4 | [#2 — [Idea] Transportable response signatures for molecularly matched therapy in advanced pancreatic cancer](https://github.com/kayoderaheem/research-portfolio/issues/2) | **1488** | 1 | 0W / 0D / 1L |
+| 5 | [#7 — [Idea] Reproducible adaptive cell-state transitions after KRAS pathway blockade](https://github.com/kayoderaheem/research-portfolio/issues/7) | **1488** | 1 | 0W / 0D / 1L |
+| 6 | [#1 — [Idea] Time-to-decision functional profiling for resistance-aware combination therapy](https://github.com/kayoderaheem/research-portfolio/issues/1) | **1487** | 5 | 2W / 0D / 3L |
+| — | [#3 — [Idea] Early detection of DNA-damage-tolerance escape during genotoxic therapy](https://github.com/kayoderaheem/research-portfolio/issues/3) | Awaiting comparison | 0 | — |
+| — | [#4 — [Idea] Reproducible myeloid-niche remodeling as a determinant of metastatic immunotherapy response](https://github.com/kayoderaheem/research-portfolio/issues/4) | Awaiting comparison | 0 | — |
+| — | [#5 — [Idea] Spatially resolved immune-priming trajectories during cervical chemoradiotherapy](https://github.com/kayoderaheem/research-portfolio/issues/5) | Awaiting comparison | 0 | — |
+| — | [#8 — [Idea] Metastatic-site spatial niches that modify ALK-inhibitor response](https://github.com/kayoderaheem/research-portfolio/issues/8) | Awaiting comparison | 0 | — |
+| — | [#9 — [Idea] Spatially resolved IL-17 and retinoid states predicting tunnel-directed therapy response in hidradenitis suppurativa](https://github.com/kayoderaheem/research-portfolio/issues/9) | Awaiting comparison | 0 | — |
+| — | [#10 — [Idea] Metabolite-defined resident-memory niches that determine checkpoint response in hepatocellular carcinoma](https://github.com/kayoderaheem/research-portfolio/issues/10) | Awaiting comparison | 0 | — |
+| — | [#11 — [Idea] Spatially constrained T-cell fitness states predicting blinatumomab response in B-cell leukemia](https://github.com/kayoderaheem/research-portfolio/issues/11) | Awaiting comparison | 0 | — |
+| — | [#13 — [Idea] Spatial CAF–immune buffering of EGFR-targeted therapy in lung adenocarcinoma](https://github.com/kayoderaheem/research-portfolio/issues/13) | Awaiting comparison | 0 | — |
+| — | [#14 — [Idea] Spatial ferroptosis-to-immunity transitions during combination therapy in lung cancer](https://github.com/kayoderaheem/research-portfolio/issues/14) | Awaiting comparison | 0 | — |
 
-_Last synchronized: not yet._
+_Last synchronized: 2026-09-12 10:54 UTC._
 <!-- RESEARCH_ELO_END -->
 
 ## Add ideas manually
