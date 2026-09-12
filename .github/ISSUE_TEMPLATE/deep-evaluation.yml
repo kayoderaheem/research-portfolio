@@ -5,12 +5,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        This form makes the decision tree reviewable before substantial execution. Do not include patient identifiers, protected health information, credentials, or sensitive unpublished data in this public issue.
+        Use this form only when an idea may justify real research investment. The objective is not to make the idea look strong; it is to expose importance, falsifiability, novelty, assumptions, confounding, opportunity cost, and decision points before substantial execution.
+
   - type: dropdown
     id: project_type
     attributes:
       label: Primary optimization function
-      description: Choose the lens by which impact should be evaluated.
       options:
         - Discovery - learning and generality
         - Technology - breadth and irreplaceability
@@ -18,118 +18,251 @@ body:
         - Hybrid - define the trade-off below
     validations:
       required: true
+
   - type: textarea
     id: observation
     attributes:
-      label: Observation
-      description: What empirical or conceptual observation motivated this idea?
+      label: Observation / motivating tension
+      description: Record the empirical fact, anomaly, limitation, or contradiction before proposing an explanation.
     validations:
       required: true
-  - type: textarea
-    id: problem
-    attributes:
-      label: Scientific problem and gap
-      description: What is unresolved, why does it matter, and why might it remain unsolved?
-    validations:
-      required: true
+
   - type: textarea
     id: question
     attributes:
-      label: Research question
-      description: State one primary question precisely enough to be answered.
+      label: One-sentence research question
+      description: State the scientific question, not merely the method to be applied.
     validations:
       required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Scientific problem and importance
+      description: What is unresolved, who cares, what is blocked today, and what would change if solved?
+    validations:
+      required: true
+
+  - type: textarea
+    id: best_case
+    attributes:
+      label: Best-case scientific impact
+      description: What is the strongest credible outcome if the project succeeds?
+    validations:
+      required: true
+
+  - type: textarea
+    id: weak_success
+    attributes:
+      label: Could it succeed and still not matter?
+      description: Describe a technically successful result that would nevertheless be scientifically or practically unimportant.
+
   - type: textarea
     id: hypothesis
     attributes:
-      label: Hypothesis and competing explanations
-      description: State the main claim and at least one plausible alternative.
+      label: Hypothesis and strongest competing explanation
+      description: State the central claim and the strongest biologically plausible alternative explanation.
     validations:
       required: true
+
   - type: textarea
     id: predictions
     attributes:
-      label: Falsifiable predictions
-      description: What should be observed if the hypothesis is correct? What would weaken or reject it?
+      label: Discriminating predictions
+      description: State observations that distinguish the favored hypothesis from the strongest alternative, including what would change your mind.
+      placeholder: |
+        If the favored hypothesis is correct:
+        1. ...
+        2. ...
+
+        If the strongest alternative is correct:
+        1. ...
+        2. ...
+
+        Result that would change my mind:
     validations:
       required: true
+
   - type: textarea
-    id: impact
+    id: why_unsolved
     attributes:
-      label: Impact criteria
-      description: Define the two or three outcomes by which the project should be judged.
+      label: Why is this still unsolved?
+      description: Identify the real barrier: missing data, measurement limitations, computational constraints, poor framing, incentives, cross-field disconnect, or evidence that the question may already be largely answered.
+      placeholder: |
+        Main barrier:
+        What changed recently:
+        Evidence the problem remains unresolved:
     validations:
       required: true
+
   - type: textarea
     id: competition
     attributes:
-      label: Competitive position
-      description: What literature must be checked, what is differentiated, and what edge exists in data, expertise, access, or timing?
+      label: Competitive landscape and novelty boundary
+      description: Identify the closest papers or groups, what is already solved, what remains differentiated, and what happens if the idea is scooped.
+      placeholder: |
+        Closest prior work:
+        What is already solved:
+        Exact novelty boundary:
+        Competition level (1-5):
+        If scooped, Plan B:
+        Should we go directly to Plan B?
     validations:
       required: true
+
+  - type: textarea
+    id: edge
+    attributes:
+      label: Competitive advantage
+      description: Why are you unusually well positioned to answer this question using available expertise, public data, computational infrastructure, or cross-domain knowledge?
+
   - type: textarea
     id: parameters
     attributes:
       label: Fixed and floating parameters
-      description: Fix one anchor. List the model, dataset, cohort, assay, modality, endpoint, or application choices that can float.
+      description: Fix the scientific anchor; allow model, dataset, cohort, assay, modality, and endpoint choices to float where appropriate.
+      placeholder: |
+        | Component | Current choice | Fixed or floating? | Alternatives |
+        |---|---|---|---|
+        | Scientific question | | | |
+        | Biological system | | | |
+        | Dataset | | | |
+        | Computational method | | | |
+        | Endpoint | | | |
     validations:
       required: true
+
   - type: textarea
     id: assumptions
     attributes:
-      label: Assumption chain
-      description: List biological-reality and technical-capability assumptions. Give each a risk level and time-to-readout.
+      label: Critical assumptions
+      description: Separate biological-reality assumptions from technical-capability assumptions and give each a risk and time-to-learn.
       placeholder: |
-        1. Assumption — biological/technical — risk — readout time — test
-        2. Assumption — biological/technical — risk — readout time — test
+        | # | Assumption | Type | Risk (1-5) | Time to learn | How to test |
+        |---|---|---|---:|---|---|
+        | 1 | | Reality/Technology | | | |
+        | 2 | | Reality/Technology | | | |
     validations:
       required: true
+
+  - type: textarea
+    id: highest_risk
+    attributes:
+      label: Highest-risk assumption
+      description: Which single assumption most threatens the project and why?
+    validations:
+      required: true
+
   - type: textarea
     id: data
     attributes:
-      label: Data readiness and identifiability
-      description: State cohorts, modalities, labels, sample sizes, independence unit, likely leakage paths, and whether the data can identify the claimed effect.
+      label: Public-data readiness and identifiability
+      description: Name the actual public cohorts, modalities, labels, sample sizes, independence unit, likely leakage paths, and whether the available measurements can identify the claimed biological effect.
     validations:
       required: true
+
+  - type: textarea
+    id: confounding
+    attributes:
+      label: Biological and statistical confounding
+      description: Identify the strongest alternative variables that could explain the signal and how each will be separated from the claimed mechanism.
+    validations:
+      required: true
+
   - type: textarea
     id: baselines
     attributes:
       label: Strong baselines and negative controls
-      description: Which simple, statistical, and established methods must be matched or beaten? What negative controls expose shortcuts?
+      description: Which simple, statistical, and established methods must be matched or beaten? Which permutations or negative controls expose shortcuts?
     validations:
       required: true
+
   - type: textarea
     id: validation
     attributes:
       label: Validation plan
-      description: Define held-out units, independent cohorts, calibration or uncertainty checks, subgroup analyses, and orthogonal biological evidence.
+      description: Define held-out patients or donors, external cohorts, calibration or uncertainty checks, subgroup stability, cross-study transfer, and orthogonal biological evidence.
     validations:
       required: true
+
   - type: textarea
     id: first_test
     attributes:
       label: Earliest go / no-go test
-      description: Design the cheapest credible test of the highest-risk assumption, with a pre-specified decision threshold.
+      description: Design the cheapest credible test that can invalidate the direction or distinguish the hypothesis from its strongest alternative.
+      placeholder: |
+        Minimal test:
+        GO if:
+        CONDITIONAL GO if:
+        NO-GO if:
+        Estimated time/cost to learn:
     validations:
       required: true
+
   - type: textarea
     id: tree
     attributes:
       label: Decision tree
-      description: State what you will do if the first test is positive, ambiguous, or negative.
+      description: Record the next branch after positive, ambiguous, and negative outcomes.
       placeholder: |
         Positive -> Continue by...
-        Ambiguous -> Refine by floating...
+        Ambiguous -> Refine by...
         Negative -> Pivot, park, or stop because...
     validations:
       required: true
+
+  - type: textarea
+    id: inversion
+    attributes:
+      label: Turn the problem on its head
+      description: If the original formulation fails, can the question be inverted or generalized into a stronger one?
+      placeholder: |
+        Original question:
+        Inverted question:
+        More general question:
+
+  - type: textarea
+    id: opportunity_cost
+    attributes:
+      label: Opportunity cost
+      description: What other research question would receive this time if this project is not pursued, and why is this idea better or worse?
+      placeholder: |
+        Best competing use of the same time:
+        Why this idea deserves priority now:
+        Reason to choose the alternative instead:
+    validations:
+      required: true
+
   - type: textarea
     id: residual_value
     attributes:
       label: Value under failure
-      description: If the favored hypothesis fails, what reusable dataset, negative result, mechanism, benchmark, or alternative question remains?
+      description: If the favored hypothesis fails, what reusable dataset, negative result, benchmark, mechanism, or alternative question remains?
     validations:
       required: true
+
+  - type: dropdown
+    id: decision
+    attributes:
+      label: Current portfolio decision
+      options:
+        - Promote - active project candidate
+        - Refine - high priority but unresolved
+        - Keep exploring
+        - Run first discriminating test
+        - Park for later
+        - Reject / stop
+    validations:
+      required: true
+
+  - type: textarea
+    id: decision_note
+    attributes:
+      label: Decision note
+      description: Record in a few sentences why this idea should or should not receive more research time now.
+    validations:
+      required: true
+
   - type: checkboxes
     id: readiness
     attributes:
@@ -138,6 +271,10 @@ body:
         - label: I compared this problem with at least one alternative idea.
           required: true
         - label: I defined evidence that would stop further optimization.
+          required: true
+        - label: I checked the exact novelty boundary rather than relying on a broad topic gap.
+          required: true
+        - label: I verified that the named public datasets are actually accessible and contain the required variables.
           required: true
         - label: I removed sensitive or patient-identifiable information.
           required: true
