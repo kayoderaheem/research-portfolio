@@ -44,6 +44,51 @@
       "reason": "Idea 1 is the stronger six-month investment because it combines a broadly relevant precision-medicine problem with a concrete, decision-linked workflow and multiple useful branches if the resistance endpoint is weak. Idea 12 addresses an important underserved population, but cohort assembly, treatment comparability, tissue availability, and subgroup sample size create substantial early feasibility risk before the spatial mechanism can be tested reliably.",
       "target": 1,
       "timestamp": "2026-09-12T10:54:13.450426+00:00"
+    },
+    {
+      "main_risk": "Idea 10 may show spatial association without adding predictive value beyond immune composition, liver disease severity, tumor burden, or treatment context.",
+      "next_test": "Profile a small, patient-level pretreatment HCC tissue set with FADS1 or lipid-response markers, CXCR6, resident-memory markers, and fitness markers, then test whether spatial proximity aligns with orthogonal T-cell function and response-related features.",
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "Idea 10 has a more concrete biological anchor with an observed FADS1–arachidonic-acid–resident-memory T-cell mechanism, clinically relevant response prediction, and tractable spatial and orthogonal validation. Idea 3 is broader but depends on several high-risk assumptions that biomarkers distinguish causal damage-tolerance escape from generic treatment injury and that inhibition reverses it.",
+      "target": 3,
+      "timestamp": "2026-09-12T15:36:18.949188+00:00"
+    },
+    {
+      "main_risk": "Idea 3 may fail because early replication-stress or damage-tolerance changes reflect exposure, cell-cycle suppression, or nonspecific injury rather than future resistance.",
+      "next_test": "In blinded independent donor-derived models, measure baseline and early-treatment damage-tolerance features matched for exposure and viability loss, then test prediction of later regrowth and add-on inhibitor benefit against simple viability and treatment baselines.",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "Idea 3 offers greater generalizable discovery and a clearer early decision point: donor-derived models can test whether dynamic biomarkers predict regrowth and selective combination benefit before committing to a clinical biomarker program. Idea 9 is tractable but more vulnerable to tunnel burden, chronicity, adherence, and descriptive spatial states explaining response without a distinct actionable mechanism.",
+      "target": 3,
+      "timestamp": "2026-09-12T15:36:18.949207+00:00"
+    },
+    {
+      "main_risk": "Idea 4 may not transport across metastatic organs or platforms because the apparent treatment-induced state is organ-specific heterogeneity or lesion-size artifact.",
+      "next_test": "Use a focused panel on paired baseline and early-treatment lesions to test whether a prespecified interferon-responsive tumor-interface score predicts later control beyond abundance, organ, lesion burden, and treatment exposure.",
+      "opponent": 4,
+      "outcome": "loss",
+      "reason": "Idea 4 has the stronger current investment profile: its spatial myeloid-state problem is clinically broad, has an eight-week discriminating test, supports useful negative outcomes, and explicitly separates abundance, function, localization, organ effects, and lesion burden. Idea 3 has a compelling mechanism but stacks multiple high-risk biomarker, causal, pharmacologic, and cross-platform assumptions.",
+      "target": 3,
+      "timestamp": "2026-09-12T15:36:18.949216+00:00"
+    },
+    {
+      "main_risk": "Idea 3 may produce a biomarker of generic cytotoxic injury rather than a specific early signal of DNA-damage-tolerance-mediated escape.",
+      "next_test": "Run a blinded early-treatment donor-model study matched for drug exposure and viability loss, comparing dynamic damage-tolerance features with simple clinical-like baselines for later regrowth prediction and selective combination response.",
+      "opponent": 5,
+      "outcome": "loss",
+      "reason": "Idea 3 is the better six-month problem because it has a fixed mechanistic anchor with flexible assay, agent, model, and tumor choices, and its donor-model experiment can rapidly distinguish biomarker prediction from combination benefit. Idea 5 depends heavily on difficult serial, regionally comparable cervical specimens and is more exposed to treatment intensity, viral burden, and sampling confounding.",
+      "target": 3,
+      "timestamp": "2026-09-12T15:36:18.949224+00:00"
+    },
+    {
+      "main_risk": "Patient-derived tumoroids may not retain the stromal and immune interactions that make the proposed CAF-buffering mechanism clinically relevant.",
+      "next_test": "First test cross-platform reproducibility of the prespecified CAF–immune exclusion neighborhood in matched lung adenocarcinoma specimens, then assess whether it adds calibrated patient-level information beyond tumor composition and clinical covariates.",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "Idea 13 combines a relevant translational problem with a clear tumor–CAF–immune spatial anchor, strong evidence readiness, patient-level leakage controls, external validation, and orthogonal tumoroid perturbation. Idea 3 has broader mechanistic scope but substantially more high-risk assumptions about biomarker specificity, causal resistance, and pharmacologic reversal.",
+      "target": 3,
+      "timestamp": "2026-09-12T15:36:18.949232+00:00"
     }
   ],
   "k_factor": 24,
@@ -55,11 +100,25 @@
       "rating": 1487.23,
       "wins": 2
     },
+    "10": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1512.0,
+      "wins": 1
+    },
     "12": {
       "draws": 0,
       "games": 1,
       "losses": 0,
       "rating": 1511.97,
+      "wins": 1
+    },
+    "13": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1511.2,
       "wins": 1
     },
     "15": {
@@ -76,6 +135,27 @@
       "rating": 1488.0,
       "wins": 0
     },
+    "3": {
+      "draws": 0,
+      "games": 5,
+      "losses": 4,
+      "rating": 1465.6,
+      "wins": 1
+    },
+    "4": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1512.01,
+      "wins": 1
+    },
+    "5": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1511.6,
+      "wins": 1
+    },
     "6": {
       "draws": 0,
       "games": 1,
@@ -88,6 +168,13 @@
       "games": 1,
       "losses": 1,
       "rating": 1487.99,
+      "wins": 0
+    },
+    "9": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1487.59,
       "wins": 0
     }
   },
