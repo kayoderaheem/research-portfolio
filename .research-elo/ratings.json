@@ -134,6 +134,51 @@
       "reason": "ALK metastatic-site response is a more fixed and testable scientific anchor than the lung adenocarcinoma proposal's floating therapy classes and reliance on patient-derived tumoroids retaining clinically relevant CAF-immune interactions.",
       "target": 8,
       "timestamp": "2026-09-12T20:38:44.848831+00:00"
+    },
+    {
+      "main_risk": "Serial specimens may not represent comparable tumor regions across patients, making an apparent treatment-induced transition a sampling or tissue-quality artifact.",
+      "next_test": "Run a blinded pilot on paired baseline and early-treatment cervical specimens to quantify tissue comparability and test whether the prespecified transition is reproducible across patients and regions before outcome modeling.",
+      "opponent": 8,
+      "outcome": "win",
+      "reason": "The cervical chemoradiotherapy problem has a clearer patient-level temporal anchor, paired sampling logic, and clinically meaningful branch points than the ALK proposal, whose spatial signal is more vulnerable to anatomical-site, treatment-history, lesion-selection, and sampling confounding. Its transition can also yield useful biological insight even if spatial features do not improve prediction.",
+      "target": 5,
+      "timestamp": "2026-09-12T23:05:07.196680+00:00"
+    },
+    {
+      "main_risk": "Adequate, treatment-comparable independent melanoma cohorts of people living with HIV may be unavailable or too small for reliable patient-level validation.",
+      "next_test": "Audit and lock the available HIV-positive melanoma cohort, including treatment comparability, CD4 and viral-load completeness, tissue quality, endpoint consistency, and independent validation availability, before developing spatial features.",
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "The cervical proposal offers a broader and more feasible response problem with paired treatment-window tissue, clearer temporal ordering, and less dependence on assembling a historically underrepresented HIV-positive melanoma cohort. The HIV proposal has important inclusion value but requires several high-risk assumptions about cohort access, antigen-presentation measurement, HIV-related confounding, and external validation before its clinical value can be assessed.",
+      "target": 5,
+      "timestamp": "2026-09-12T23:05:07.196703+00:00"
+    },
+    {
+      "main_risk": "FADS1 expression or lipid abundance may not faithfully measure active local arachidonic-acid signaling or T-cell metabolic impairment.",
+      "next_test": "Use a focused HCC pilot with orthogonal lipid, protein, and T-cell fitness measurements to test whether the proposed FADS1-associated proximity signal is reproducible and biologically aligned before clinical prediction modeling.",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "The cervical project asks a more generalizable treatment-response question and has a more accessible path from paired tissue measurement to calibrated prediction. The HCC proposal depends on technically difficult spatial lipid or metabolic measurements being biologically active, spatially resolved, and transferable across anti-PD-1 and GPC3-CAR-T contexts; it also risks a forced link between a specific pathway and response.",
+      "target": 5,
+      "timestamp": "2026-09-12T23:05:07.196713+00:00"
+    },
+    {
+      "main_risk": "The cervical transition may be irreproducible because serial tissue samples capture different regions or because early immune changes reflect treatment intensity rather than response biology.",
+      "next_test": "Profile paired cervical baseline and early-treatment samples with blinded pathology and patient-level resampling to establish tissue comparability and transition reproducibility before expanding the assay or endpoint.",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "The cervical proposal is more scientifically fixed and operationally specific: it defines a patient-level treatment-induced transition, response endpoint, paired sampling strategy, and explicit composition-only alternatives. The myeloid-niche proposal spans unspecified metastatic organs, human or animal studies, multiple treatment settings, and broad state definitions, creating substantial risk that organ heterogeneity, lesion size, or treatment exposure will dominate the signal.",
+      "target": 5,
+      "timestamp": "2026-09-12T23:05:07.196720+00:00"
+    },
+    {
+      "main_risk": "The benchmark may demonstrate only modest or center-specific predictive differences, with response-label harmonization and spatial feature reproducibility limiting interpretation rather than revealing a general biological gain.",
+      "next_test": "Execute the preregistered multicenter nested benchmark with one center held out, harmonized response windows, locked preprocessing, and direct comparison against IPI, composition, imaging, and molecular baselines before pursuing complex multimodal models.",
+      "opponent": 17,
+      "outcome": "loss",
+      "reason": "The lymphoma benchmark is the stronger current investment because it directly tests an important unresolved question with multicenter data, strong established baselines, patient- and center-held-out validation, calibration, and an early preregistered decision point. It can produce a valuable negative result by showing that spatial context adds no robust information, whereas the cervical proposal requires a more speculative biological transition and costly serial tissue acquisition.",
+      "target": 5,
+      "timestamp": "2026-09-12T23:05:07.196727+00:00"
     }
   ],
   "k_factor": 24,
@@ -147,9 +192,9 @@
     },
     "10": {
       "draws": 0,
-      "games": 1,
-      "losses": 0,
-      "rating": 1512.0,
+      "games": 2,
+      "losses": 1,
+      "rating": 1500.8,
       "wins": 1
     },
     "11": {
@@ -161,9 +206,9 @@
     },
     "12": {
       "draws": 0,
-      "games": 1,
-      "losses": 0,
-      "rating": 1511.97,
+      "games": 2,
+      "losses": 1,
+      "rating": 1500.37,
       "wins": 1
     },
     "13": {
@@ -182,10 +227,10 @@
     },
     "17": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 0,
-      "rating": 1512.4,
-      "wins": 1
+      "rating": 1525.94,
+      "wins": 2
     },
     "18": {
       "draws": 0,
@@ -217,17 +262,17 @@
     },
     "4": {
       "draws": 0,
-      "games": 1,
-      "losses": 0,
-      "rating": 1512.01,
+      "games": 2,
+      "losses": 1,
+      "rating": 1501.19,
       "wins": 1
     },
     "5": {
       "draws": 0,
-      "games": 1,
-      "losses": 0,
-      "rating": 1511.6,
-      "wins": 1
+      "games": 6,
+      "losses": 1,
+      "rating": 1543.68,
+      "wins": 5
     },
     "6": {
       "draws": 0,
@@ -245,9 +290,9 @@
     },
     "8": {
       "draws": 0,
-      "games": 5,
-      "losses": 2,
-      "rating": 1511.61,
+      "games": 6,
+      "losses": 3,
+      "rating": 1499.61,
       "wins": 3
     },
     "9": {
