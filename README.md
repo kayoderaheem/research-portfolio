@@ -117,9 +117,8 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | — | [#10 — [Idea] Metabolite-defined resident-memory niches that determine checkpoint response in hepatocellular carcinoma](https://github.com/kayoderaheem/research-portfolio/issues/10) | Awaiting comparison | 0 | — |
 | — | [#11 — [Idea] Spatially constrained T-cell fitness states predicting blinatumomab response in B-cell leukemia](https://github.com/kayoderaheem/research-portfolio/issues/11) | Awaiting comparison | 0 | — |
 | — | [#13 — [Idea] Spatial CAF–immune buffering of EGFR-targeted therapy in lung adenocarcinoma](https://github.com/kayoderaheem/research-portfolio/issues/13) | Awaiting comparison | 0 | — |
-| — | [#14 — [Idea] Spatial ferroptosis-to-immunity transitions during combination therapy in lung cancer](https://github.com/kayoderaheem/research-portfolio/issues/14) | Awaiting comparison | 0 | — |
 
-_Last synchronized: 2026-09-12 10:54 UTC._
+_Last synchronized: 2026-09-12 14:46 UTC._
 <!-- RESEARCH_ELO_END -->
 
 ## Add ideas manually
