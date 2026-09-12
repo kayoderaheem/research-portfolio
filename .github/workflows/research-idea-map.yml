@@ -1,0 +1,48 @@
+name: Research Idea Map
+
+on:
+  schedule:
+    - cron: "41 6 * * *"
+  issues:
+    types: [opened, edited, closed, reopened]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: research-idea-map
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout portfolio
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Render research idea map
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python scripts/research_idea_map.py
+
+      - name: Commit map
+        run: |
+          if git diff --quiet -- docs/research_map.html; then
+            echo "No research-map change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/research_map.html
+          git commit -m "Refresh research idea map"
+          git push
