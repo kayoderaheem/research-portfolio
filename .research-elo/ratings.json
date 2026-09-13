@@ -269,16 +269,61 @@
       "reason": "The gastric project has a stronger mechanistic bridge from spatial niche to epithelial survival and a more informative perturbation framework, while retaining biomarker-only and mechanism-separation branches. The hidradenitis project has a clear tunnel unit and good tractability, but its inferred IL-17/retinoid split and treatment actionability remain less established.",
       "target": 15,
       "timestamp": "2026-09-13T11:59:13.370609+00:00"
+    },
+    {
+      "main_risk": "Mechanical stress may not be identifiable from reproducible clinical-tissue proxies independently of hypoxia, necrosis, density, or mesenchymal state.",
+      "next_test": "Profile a small patient-level set of pretreatment and early post-radiation glioblastoma specimens with blinded mechanical proxies, DNA-damage markers, and clinical residual-disease outcomes, then test incremental value over vimentin, hypoxia, necrosis, and composition baselines.",
+      "opponent": 6,
+      "outcome": "loss",
+      "reason": "Mechanical-niche states offer broader discovery value and useful mechanistic branches even if the favored compression mechanism fails. The problem has a clear patient-level anchor, strong competing explanations, and orthogonal compression experiments, whereas the HIV-melanoma study depends heavily on assembling a scarce, treatment-comparable cohort and may have limited generalizability.",
+      "target": 12,
+      "timestamp": "2026-09-13T16:25:12.002771+00:00"
+    },
+    {
+      "main_risk": "Organoid response and regrowth may reflect culture selection rather than patient pharmacology or clinical benefit within the treatment-decision window.",
+      "next_test": "Prospectively record every eligible case through organoid establishment and assay readiness, and blindly compare a locked short-term-plus-regrowth prediction with molecular recommendation and clinical baselines before using results to guide treatment.",
+      "opponent": 1,
+      "outcome": "loss",
+      "reason": "Time-constrained organoid profiling has greater potential clinical value and a broader use case than a spatial biomarker restricted to people living with HIV and melanoma. It also has a direct early feasibility decision around assay success and turnaround, plus useful negative outcomes if organoids fail to predict benefit or add value beyond molecular recommendations.",
+      "target": 12,
+      "timestamp": "2026-09-13T16:25:12.002791+00:00"
+    },
+    {
+      "main_risk": "The apparent spatial niche may be an anatomical-site or treatment-history proxy rather than a modifier of ALK-inhibitor response.",
+      "next_test": "Use a patient-level development cohort to test a prespecified neighborhood score against genotype-plus-clinical, site-plus-clinical, and composition-only baselines, with leave-one-site-out evaluation and replicate-assay concordance.",
+      "opponent": 8,
+      "outcome": "loss",
+      "reason": "ALK-rearranged disease provides a more defined treatment and genotype anchor, with metastatic-site comparisons that can yield informative transportability and mechanism results even if a predictive biomarker fails. The HIV-melanoma proposal has important inclusive value but faces greater cohort scarcity and uncertainty about whether spatial signal can be separated from HIV control, treatment access, and clinical covariates.",
+      "target": 12,
+      "timestamp": "2026-09-13T16:25:12.002800+00:00"
+    },
+    {
+      "main_risk": "The proposed CAF–immune neighborhood and its early treatment change may not reproduce across patients, assay platforms, or treatment classes.",
+      "next_test": "In a small paired patient-level cohort, lock the neighborhood definition before outcome analysis and test replication across an independent specimen set against composition-only and clinical baselines.",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "CAF–immune buffering in lung adenocarcinoma has stronger stated evidence readiness, broader treatment relevance, and a more credible path to orthogonal tissue and functional validation. The HIV-melanoma problem is scientifically important, but its precision-medicine promise is more exposed to limited cohort availability and unstable subgroup estimates in an underrepresented population.",
+      "target": 12,
+      "timestamp": "2026-09-13T16:25:12.002808+00:00"
+    },
+    {
+      "main_risk": "The available sample size may be insufficient for stable treatment-interaction estimates and calibrated multimodal modeling across institutions.",
+      "next_test": "Perform a pre-model learning-curve, bootstrap stability, and subgroup treatment-interaction analysis using randomized data, then proceed only if the candidate signature is stable and improves over clinical and molecular-only baselines in a site-held-out cohort.",
+      "opponent": 2,
+      "outcome": "loss",
+      "reason": "Transportable response signatures can leverage randomized treatment assignment to address differential benefit, making the causal clinical question substantially stronger than the HIV-melanoma association study. Site-held-out validation, calibration, missing-modality analyses, and negative controls provide clear early branches, while the HIV proposal remains constrained by scarce tissue and cohort assembly.",
+      "target": 12,
+      "timestamp": "2026-09-13T16:25:12.002815+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 3,
-      "rating": 1500.0,
-      "wins": 3
+      "rating": 1511.6,
+      "wins": 4
     },
     "10": {
       "draws": 0,
@@ -296,17 +341,17 @@
     },
     "12": {
       "draws": 0,
-      "games": 2,
-      "losses": 1,
-      "rating": 1500.37,
+      "games": 7,
+      "losses": 6,
+      "rating": 1444.15,
       "wins": 1
     },
     "13": {
       "draws": 0,
-      "games": 2,
+      "games": 3,
       "losses": 1,
-      "rating": 1498.79,
-      "wins": 1
+      "rating": 1509.65,
+      "wins": 2
     },
     "15": {
       "draws": 0,
@@ -338,10 +383,10 @@
     },
     "2": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 3,
-      "rating": 1496.8,
-      "wins": 3
+      "rating": 1507.35,
+      "wins": 4
     },
     "3": {
       "draws": 0,
@@ -366,10 +411,10 @@
     },
     "6": {
       "draws": 0,
-      "games": 2,
+      "games": 3,
       "losses": 1,
-      "rating": 1500.41,
-      "wins": 1
+      "rating": 1512.41,
+      "wins": 2
     },
     "7": {
       "draws": 0,
@@ -380,10 +425,10 @@
     },
     "8": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 3,
-      "rating": 1499.61,
-      "wins": 3
+      "rating": 1510.82,
+      "wins": 4
     },
     "9": {
       "draws": 0,
