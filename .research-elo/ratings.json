@@ -359,16 +359,61 @@
       "reason": "The FADS1–arachidonic-acid–resident-memory T-cell problem has a more specific mechanistic anchor and existing functional support, with a plausible route from spatial biomarker to combination therapy. Cholangiocarcinoma has broader site-transfer implications but relies more heavily on an unproven shared resistance program and difficult paired biopsies.",
       "target": 18,
       "timestamp": "2026-09-13T20:55:01.422374+00:00"
+    },
+    {
+      "main_risk": "Issue 11 may find that spatial organization adds no reproducible information beyond leukemia burden, clinical risk, and T-cell composition.",
+      "next_test": "Run the preregistered pretreatment marrow pilot and compare spatial-plus-clinical features against composition-plus-clinical baselines using patient-level held-out validation.",
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "Issue 11 has a tighter disease, treatment, and biological anchor, with a clinically meaningful response endpoint and an early patient-level test. Issue 17 has broader potential, but its multicenter harmonization, modality breadth, and external-cohort requirements make the core question harder to isolate within six months.",
+      "target": 11,
+      "timestamp": "2026-09-13T23:13:08.602138+00:00"
+    },
+    {
+      "main_risk": "Issue 11 may lack reproducible spatial variation or incremental predictive value in adequately sampled marrow specimens.",
+      "next_test": "Test replicate-section reproducibility and incremental patient-level prediction of blinatumomab response from pretreatment marrow spatial features.",
+      "opponent": 6,
+      "outcome": "loss",
+      "reason": "Issue 11 has stronger evidence readiness and a clearer translational readout than the mechanically inferred glioblastoma niche proposal. Issue 6 depends on indirect mechanical-stress proxies, matched tissue timing, and distinguishing mechanics from hypoxia, necrosis, density, and mesenchymal state before establishing clinical relevance.",
+      "target": 11,
+      "timestamp": "2026-09-13T23:13:08.602156+00:00"
+    },
+    {
+      "main_risk": "Issue 11 may produce an interesting spatial association that does not improve calibrated prediction beyond composition and clinical covariates.",
+      "next_test": "Use a retrospective or rapidly assembled pilot to determine whether pretreatment spatial features improve held-out response prediction over the strongest clinical and composition baseline.",
+      "opponent": 1,
+      "outcome": "loss",
+      "reason": "Issue 11 offers a more contained and falsifiable six-month study with an available clinical endpoint and a direct test of whether tissue context adds value. Issue 1 has potentially greater patient impact, but it requires rapid organoid establishment, clinically actionable turnaround, assay-to-patient response correlation, and prospective decision relevance, creating a longer chain of high-risk assumptions.",
+      "target": 11,
+      "timestamp": "2026-09-13T23:13:08.602169+00:00"
+    },
+    {
+      "main_risk": "Issue 11 may be limited by scarce, nonrepresentative paired marrow specimens and therefore fail to establish transportability.",
+      "next_test": "Evaluate a locked spatial accessibility score in pretreatment marrow with patient-level validation and test reproducibility across sections and specimen batches.",
+      "opponent": 8,
+      "outcome": "win",
+      "reason": "Issue 11 is more focused on one treatment and one tissue context, making the causal and predictive question easier to test. Issue 8 must separate spatial biology from metastatic site, prior treatment, lesion selection, and sampling effects while also demonstrating transport across anatomically distinct compartments.",
+      "target": 11,
+      "timestamp": "2026-09-13T23:13:08.602176+00:00"
+    },
+    {
+      "main_risk": "Issue 11 may show that spatial T-cell access is a proxy for disease burden or baseline immune composition rather than a treatment-relevant mechanism.",
+      "next_test": "Compare a prespecified leukemia–CD8 spatial score with clinical, disease-burden, and composition-only baselines in held-out patients, including permutation-controlled neighborhoods.",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "Issue 11 has a sharper fixed anchor, an established treatment-response setting, and fewer added dependencies than Issue 13. Issue 13 combines paired biopsies, cross-platform spatial reproducibility, therapy-class flexibility, and tumoroid preservation of CAF–immune interactions, making interpretation and execution substantially more complex.",
+      "target": 11,
+      "timestamp": "2026-09-13T23:13:08.602183+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 7,
+      "games": 8,
       "losses": 3,
-      "rating": 1511.6,
-      "wins": 4
+      "rating": 1524.03,
+      "wins": 5
     },
     "10": {
       "draws": 0,
@@ -379,10 +424,10 @@
     },
     "11": {
       "draws": 0,
-      "games": 2,
-      "losses": 0,
-      "rating": 1524.82,
-      "wins": 2
+      "games": 7,
+      "losses": 2,
+      "rating": 1535.08,
+      "wins": 5
     },
     "12": {
       "draws": 0,
@@ -393,9 +438,9 @@
     },
     "13": {
       "draws": 0,
-      "games": 3,
-      "losses": 1,
-      "rating": 1509.65,
+      "games": 4,
+      "losses": 2,
+      "rating": 1498.13,
       "wins": 2
     },
     "15": {
@@ -407,9 +452,9 @@
     },
     "17": {
       "draws": 0,
-      "games": 2,
-      "losses": 0,
-      "rating": 1525.94,
+      "games": 3,
+      "losses": 1,
+      "rating": 1513.9,
       "wins": 2
     },
     "18": {
@@ -456,10 +501,10 @@
     },
     "6": {
       "draws": 0,
-      "games": 3,
+      "games": 4,
       "losses": 1,
-      "rating": 1512.41,
-      "wins": 2
+      "rating": 1525.25,
+      "wins": 3
     },
     "7": {
       "draws": 0,
@@ -470,9 +515,9 @@
     },
     "8": {
       "draws": 0,
-      "games": 7,
-      "losses": 3,
-      "rating": 1510.82,
+      "games": 8,
+      "losses": 4,
+      "rating": 1498.85,
       "wins": 4
     },
     "9": {
