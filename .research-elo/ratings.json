@@ -179,16 +179,61 @@
       "reason": "The lymphoma benchmark is the stronger current investment because it directly tests an important unresolved question with multicenter data, strong established baselines, patient- and center-held-out validation, calibration, and an early preregistered decision point. It can produce a valuable negative result by showing that spatial context adds no robust information, whereas the cervical proposal requires a more speculative biological transition and costly serial tissue acquisition.",
       "target": 5,
       "timestamp": "2026-09-12T23:05:07.196727+00:00"
+    },
+    {
+      "main_risk": "The randomized cohort may be too small or imbalanced within molecular subgroups to estimate treatment interactions and calibration reliably.",
+      "next_test": "Lock a compact baseline-plus-early-response signature and test treatment interaction and calibration in a site-held-out patient cohort.",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "The pancreatic cancer project is anchored to randomized treatment assignment and directly tests transportable differential benefit, with a realistic site-held-out validation path. The MPNST project has high discovery value but depends on rare longitudinal spatial specimens, reproducible state assignment, and causal interpretation of ZNF423 restoration.",
+      "target": 2,
+      "timestamp": "2026-09-13T04:55:01.912555+00:00"
+    },
+    {
+      "main_risk": "Signals may reflect treatment selection, assay or institution effects, or inadequate subgroup sample size rather than transportable treatment benefit.",
+      "next_test": "Run the locked signature against clinical and molecular-only baselines in a patient-level, institution-held-out cohort with calibration and interaction estimates.",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "The pancreatic project has stronger immediate clinical relevance, an existing comparative-treatment framework, and an earlier test of transportability. The KRAS-transition project requires reproducibility across donors and models, temporal precedence, spatial added value, and pharmacologic actionability, creating a longer chain of high-risk assumptions.",
+      "target": 2,
+      "timestamp": "2026-09-13T04:55:01.912580+00:00"
+    },
+    {
+      "main_risk": "The available trial and external cohorts may not support stable treatment-effect estimation across assays and molecular matching classes.",
+      "next_test": "Evaluate a locked multimodal signature in a held-out institution while comparing clinical, molecular-only, and site/composition baselines.",
+      "opponent": 18,
+      "outcome": "win",
+      "reason": "The pancreatic project has randomized treatment comparison, clearer patient-level clinical value, and a more direct route to distinguishing biological prediction from site-specific measurement. The cholangiocarcinoma project depends on detecting a conserved spatial program across anatomical sites and on-treatment biopsies, with substantial confounding by site, culture adaptation, and tumor composition.",
+      "target": 2,
+      "timestamp": "2026-09-13T04:55:01.912590+00:00"
+    },
+    {
+      "main_risk": "Observed molecular or imaging signals may encode institution, assay, disease burden, or treatment-selection effects rather than differential benefit.",
+      "next_test": "Perform a patient-level site-held-out test of the locked signature against clinical, molecular, and composition baselines, including calibration and missing-modality analyses.",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "The pancreatic project is supported by randomized treatment assignment and an explicit transportability problem with strong leakage-resistant validation. The hidradenitis project addresses an important clinical problem but relies on reproducible tunnel sampling, spatial state classification, pathway interpretation, and response prediction in a heterogeneous disease without an equally strong comparative anchor.",
+      "target": 2,
+      "timestamp": "2026-09-13T04:55:01.912601+00:00"
+    },
+    {
+      "main_risk": "Organoid assays may not establish quickly enough or may measure ex vivo culture sensitivity that does not predict patient benefit.",
+      "next_test": "Prospectively record organoid establishment and turnaround for every eligible case, then compare a locked functional score with molecular recommendation and clinical baselines before claiming utility.",
+      "opponent": 1,
+      "outcome": "loss",
+      "reason": "The pancreatic project has a stronger fixed scientific anchor, randomized comparative outcomes, and an inexpensive early transportability decision. Functional organoid profiling could be broadly useful, but it requires rapid successful culture, clinically relevant pharmacology, prospective decision impact, and outcome correlation, with several late-readout failure points.",
+      "target": 2,
+      "timestamp": "2026-09-13T04:55:01.912608+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 5,
+      "games": 6,
       "losses": 3,
-      "rating": 1487.23,
-      "wins": 2
+      "rating": 1500.0,
+      "wins": 3
     },
     "10": {
       "draws": 0,
@@ -234,24 +279,24 @@
     },
     "18": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1487.99,
+      "games": 2,
+      "losses": 2,
+      "rating": 1476.8,
       "wins": 0
     },
     "19": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
+      "games": 2,
+      "losses": 2,
+      "rating": 1476.0,
       "wins": 0
     },
     "2": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "games": 6,
+      "losses": 3,
+      "rating": 1496.8,
+      "wins": 3
     },
     "3": {
       "draws": 0,
@@ -283,9 +328,9 @@
     },
     "7": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1487.99,
+      "games": 2,
+      "losses": 2,
+      "rating": 1476.4,
       "wins": 0
     },
     "8": {
@@ -297,10 +342,10 @@
     },
     "9": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 1,
-      "rating": 1487.59,
-      "wins": 0
+      "rating": 1500.8,
+      "wins": 1
     }
   },
   "version": 2
