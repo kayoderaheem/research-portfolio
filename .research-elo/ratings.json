@@ -224,6 +224,51 @@
       "reason": "The pancreatic project has a stronger fixed scientific anchor, randomized comparative outcomes, and an inexpensive early transportability decision. Functional organoid profiling could be broadly useful, but it requires rapid successful culture, clinically relevant pharmacology, prospective decision impact, and outcome correlation, with several late-readout failure points.",
       "target": 2,
       "timestamp": "2026-09-13T04:55:01.912608+00:00"
+    },
+    {
+      "main_risk": "The gastric spatial score may not replicate or add information beyond BCL2 abundance, proliferation, and clinical covariates.",
+      "next_test": "Apply a locked BCL2-high epithelial/BMP-low fibroblast neighborhood score to independent pretreatment gastric samples and test patient-level association with early treatment persistence.",
+      "opponent": 6,
+      "outcome": "win",
+      "reason": "The gastric-cancer project has a clearer patient-level anchor, more direct biomarker and mechanistic branches, and a relatively cheap replication test. The glioblastoma project relies on difficult indirect mechanical proxies, several biological confounders, and cross-institution transfer before its central construct is established.",
+      "target": 15,
+      "timestamp": "2026-09-13T11:59:13.370567+00:00"
+    },
+    {
+      "main_risk": "Marrow spatial accessibility may add no reproducible information beyond leukemia burden, antigen density, circulating T-cell composition, and clinical risk.",
+      "next_test": "Profile pretreatment marrow with a focused multiplex panel and compare a prespecified leukemia-CD8 neighborhood feature against clinical and composition-only baselines in held-out patients.",
+      "opponent": 11,
+      "outcome": "loss",
+      "reason": "The leukemia project is tied to a defined therapy and clinically meaningful MRD response, with a strong opportunity to test whether spatial information adds value beyond established blood and clinical predictors. Its spatial hypothesis is risky, but the early response readout and orthogonal cytotoxicity validation provide useful branches.",
+      "target": 15,
+      "timestamp": "2026-09-13T11:59:13.370588+00:00"
+    },
+    {
+      "main_risk": "The gastric niche association may be a correlate of clonal abundance or tumor evolution rather than a causal determinant of persistence or BCL2 sensitivity.",
+      "next_test": "Replicate the locked spatial association in independent gastric pretreatment samples while adjusting for epithelial abundance, proliferation, and clinical covariates.",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "The gastric project has a more specific biological anchor and a tighter causal test in matched organoid-fibroblast systems. The metastatic myeloid project has broader potential, but organ heterogeneity, lesion-size effects, treatment-induced versus consequential states, and platform transfer create a longer chain of assumptions.",
+      "target": 15,
+      "timestamp": "2026-09-13T11:59:13.370596+00:00"
+    },
+    {
+      "main_risk": "FADS1 or arachidonic-acid measurements may not reflect biologically active local signaling and may add nothing beyond resident-memory abundance, tumor burden, or liver disease severity.",
+      "next_test": "Measure FADS1, validated lipid-response markers, CXCR6, and T-cell fitness in pretreatment HCC tissue and test whether proximity improves prediction over composition and clinical baselines.",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "The gastric project offers a clearer persistence endpoint, a defined competing explanation, and a feasible paired perturbation route. The HCC project depends on technically difficult spatial lipid measurements and combines checkpoint and CAR-T contexts in a way that risks a forced biomarker-treatment pairing.",
+      "target": 15,
+      "timestamp": "2026-09-13T11:59:13.370602+00:00"
+    },
+    {
+      "main_risk": "The gastric BCL2-high spatial state may not be reproducible across patients or may simply mark advanced, proliferative clones rather than niche-supported resistance.",
+      "next_test": "Test reproducibility of the locked spatial score in independent pretreatment gastric specimens and determine whether it predicts early persistence beyond BCL2 abundance and proliferation.",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "The gastric project has a stronger mechanistic bridge from spatial niche to epithelial survival and a more informative perturbation framework, while retaining biomarker-only and mechanism-separation branches. The hidradenitis project has a clear tunnel unit and good tractability, but its inferred IL-17/retinoid split and treatment actionability remain less established.",
+      "target": 15,
+      "timestamp": "2026-09-13T11:59:13.370609+00:00"
     }
   ],
   "k_factor": 24,
@@ -237,17 +282,17 @@
     },
     "10": {
       "draws": 0,
-      "games": 2,
-      "losses": 1,
-      "rating": 1500.8,
+      "games": 3,
+      "losses": 2,
+      "rating": 1489.59,
       "wins": 1
     },
     "11": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 0,
-      "rating": 1512.41,
-      "wins": 1
+      "rating": 1524.82,
+      "wins": 2
     },
     "12": {
       "draws": 0,
@@ -265,10 +310,10 @@
     },
     "15": {
       "draws": 0,
-      "games": 1,
-      "losses": 0,
-      "rating": 1512.4,
-      "wins": 1
+      "games": 6,
+      "losses": 1,
+      "rating": 1545.66,
+      "wins": 5
     },
     "17": {
       "draws": 0,
@@ -307,9 +352,9 @@
     },
     "4": {
       "draws": 0,
-      "games": 2,
-      "losses": 1,
-      "rating": 1501.19,
+      "games": 3,
+      "losses": 2,
+      "rating": 1489.56,
       "wins": 1
     },
     "5": {
@@ -321,9 +366,9 @@
     },
     "6": {
       "draws": 0,
-      "games": 1,
-      "losses": 0,
-      "rating": 1512.41,
+      "games": 2,
+      "losses": 1,
+      "rating": 1500.41,
       "wins": 1
     },
     "7": {
@@ -342,9 +387,9 @@
     },
     "9": {
       "draws": 0,
-      "games": 2,
-      "losses": 1,
-      "rating": 1500.8,
+      "games": 3,
+      "losses": 2,
+      "rating": 1489.97,
       "wins": 1
     }
   },
