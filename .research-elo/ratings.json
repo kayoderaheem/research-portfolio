@@ -404,6 +404,51 @@
       "reason": "Issue 11 has a sharper fixed anchor, an established treatment-response setting, and fewer added dependencies than Issue 13. Issue 13 combines paired biopsies, cross-platform spatial reproducibility, therapy-class flexibility, and tumoroid preservation of CAF–immune interactions, making interpretation and execution substantially more complex.",
       "target": 11,
       "timestamp": "2026-09-13T23:13:08.602183+00:00"
+    },
+    {
+      "main_risk": "The tunnel IL-17A/retinoid states may not replicate across patients or may add no information beyond tunnel burden and clinical severity.",
+      "next_test": "Run the locked spatial-state classifier on pretreatment biopsies from patients starting standardized therapy, with patient-level splits and calibrated comparison against clinical, tunnel-burden, and composition-only baselines.",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "The hidradenitis suppurativa problem has a tighter scientific anchor, a more coherent patient-level prediction question, and a relatively direct early test against clinical and composition-only baselines. The metastatic myeloid-niche idea has greater potential breadth but depends on defining a transferable treatment-induced state across organs, lesion sizes, platforms, and treatment contexts, creating a longer chain of high-risk assumptions.",
+      "target": 9,
+      "timestamp": "2026-09-14T05:03:51.673107+00:00"
+    },
+    {
+      "main_risk": "The apparent CAF–immune neighborhood may be a proxy for tumor genotype, proliferation, disease burden, or sampling rather than a treatment-relevant mechanism.",
+      "next_test": "In a paired patient-level lung adenocarcinoma cohort, test one prespecified CAF–immune exclusion feature and its early treatment change against clinical, tumor-composition, and established pathway baselines before expanding to tumoroid perturbations.",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "The lung adenocarcinoma CAF–immune problem offers broader translational value and a strong fixed anchor linking spatial neighborhoods to treatment response, with explicit orthogonal imaging and functional validation. It is better positioned than the hidradenitis idea if matched tissue, response data, and assay access are available, although its paired sampling and cross-platform requirements make the six-month execution demanding.",
+      "target": 9,
+      "timestamp": "2026-09-14T05:03:51.673129+00:00"
+    },
+    {
+      "main_risk": "The spatial tunnel state may fail to generalize across disease severity, biopsy regions, or assay platforms.",
+      "next_test": "Apply a prespecified patient-level tunnel-state classifier to pretreatment samples from a standardized-treatment cohort and compare calibrated held-out prediction with clinical, tunnel-burden, and non-spatial pathway baselines.",
+      "opponent": 8,
+      "outcome": "win",
+      "reason": "The hidradenitis project is more tractable and better specified for an early go/no-go decision. The ALK project faces severe confounding by metastatic site, treatment history, lesion burden, and sampling, while its proposed transport across lung, lymph-node, and brain compartments requires rare, heterogeneous material and several high-risk validation steps.",
+      "target": 9,
+      "timestamp": "2026-09-14T05:03:51.673139+00:00"
+    },
+    {
+      "main_risk": "The inferred IL-17A/retinoid spatial states may be consequences of chronic tunnel formation rather than actionable predictors of treatment response.",
+      "next_test": "In an independent donor-level model set, first test whether the locked early biomarker predicts later regrowth beyond viability and exposure measures and whether biomarker-high models show selective benefit from add-on inhibition.",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "The hidradenitis problem has a clearer biological unit, a defined clinical endpoint, and useful outcomes even if the favored pathway split fails. The DNA-damage-tolerance idea has broader possible impact and a potentially cheap model-based test, but it combines uncertain dynamic biomarkers, mechanism attribution, pharmacologic specificity, and cross-tumor generalization; a positive model result would still leave substantial translational uncertainty.",
+      "target": 9,
+      "timestamp": "2026-09-14T05:03:51.673146+00:00"
+    },
+    {
+      "main_risk": "Tunnel-state prediction may collapse to disease burden or inflammatory composition and fail to provide incremental patient-level value.",
+      "next_test": "Perform the prespecified pretreatment tunnel-state analysis with patient-level validation, calibration, and orthogonal marker confirmation, using tunnel burden and clinical covariates as the strongest comparator.",
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "The hidradenitis project is more feasible as a six-month investment because targeted spatial RNA/protein assays and standardized-treatment response data can directly test its anchor. The HCC metabolic-niche idea has a compelling named mechanism and strong biological branches, but spatial lipid activity is difficult to measure reliably and the proposed transport between checkpoint and GPC3-CAR-T cohorts is likely to be constrained by access, assay normalization, and treatment-context differences.",
+      "target": 9,
+      "timestamp": "2026-09-14T05:03:51.673153+00:00"
     }
   ],
   "k_factor": 24,
@@ -417,10 +462,10 @@
     },
     "10": {
       "draws": 0,
-      "games": 4,
+      "games": 5,
       "losses": 2,
-      "rating": 1501.51,
-      "wins": 2
+      "rating": 1513.92,
+      "wins": 3
     },
     "11": {
       "draws": 0,
@@ -438,10 +483,10 @@
     },
     "13": {
       "draws": 0,
-      "games": 4,
+      "games": 5,
       "losses": 2,
-      "rating": 1498.13,
-      "wins": 2
+      "rating": 1510.26,
+      "wins": 3
     },
     "15": {
       "draws": 0,
@@ -480,16 +525,16 @@
     },
     "3": {
       "draws": 0,
-      "games": 6,
-      "losses": 4,
-      "rating": 1478.8,
+      "games": 7,
+      "losses": 5,
+      "rating": 1467.6,
       "wins": 2
     },
     "4": {
       "draws": 1,
-      "games": 4,
-      "losses": 2,
-      "rating": 1489.48,
+      "games": 5,
+      "losses": 3,
+      "rating": 1477.5,
       "wins": 1
     },
     "5": {
@@ -515,17 +560,17 @@
     },
     "8": {
       "draws": 0,
-      "games": 8,
-      "losses": 4,
-      "rating": 1498.85,
+      "games": 9,
+      "losses": 5,
+      "rating": 1486.54,
       "wins": 4
     },
     "9": {
       "draws": 0,
-      "games": 3,
-      "losses": 2,
-      "rating": 1489.97,
-      "wins": 1
+      "games": 8,
+      "losses": 4,
+      "rating": 1500.92,
+      "wins": 4
     }
   },
   "version": 2
