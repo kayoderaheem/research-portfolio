@@ -104,16 +104,16 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | Rank | Research idea | Rating | Comparisons | Record |
 |---:|---|---:|---:|---:|
 | 1 | [#17 — [Idea] Patient-level tissue-context gain over composition for multimodal lymphoma treatment-response prediction](https://github.com/kayoderaheem/research-portfolio/issues/17) | **1570** | 8 | 7W / 0D / 1L |
-| 2 | [#15 — [Idea] BMP-restraint failure and BCL2-high niches as predictors of diffuse gastric cancer treatment response](https://github.com/kayoderaheem/research-portfolio/issues/15) | **1546** | 6 | 5W / 0D / 1L |
-| 3 | [#5 — [Idea] Spatially resolved immune-priming trajectories during cervical chemoradiotherapy](https://github.com/kayoderaheem/research-portfolio/issues/5) | **1544** | 6 | 5W / 0D / 1L |
-| 4 | [#11 — [Idea] Spatially constrained T-cell fitness states predicting blinatumomab response in B-cell leukemia](https://github.com/kayoderaheem/research-portfolio/issues/11) | **1535** | 7 | 5W / 0D / 2L |
-| 5 | [#6 — [Idea] Mechanical-niche states that forecast glioblastoma radioresistance](https://github.com/kayoderaheem/research-portfolio/issues/6) | **1514** | 5 | 3W / 0D / 2L |
-| 6 | [#1 — [Idea] Time-to-decision functional profiling for resistance-aware combination therapy](https://github.com/kayoderaheem/research-portfolio/issues/1) | **1513** | 9 | 5W / 0D / 4L |
-| 7 | [#10 — [Idea] Metabolite-defined resident-memory niches that determine checkpoint response in hepatocellular carcinoma](https://github.com/kayoderaheem/research-portfolio/issues/10) | **1512** | 7 | 4W / 0D / 3L |
-| 8 | [#9 — [Idea] Spatially resolved IL-17 and retinoid states predicting tunnel-directed therapy response in hidradenitis suppurativa](https://github.com/kayoderaheem/research-portfolio/issues/9) | **1512** | 9 | 5W / 0D / 4L |
-| 9 | [#22 — [Idea] Transportable validation of a therapy-responsive pathogenic immune state in multiple sclerosis](https://github.com/kayoderaheem/research-portfolio/issues/22) | **1512** | 1 | 1W / 0D / 0L |
-| 10 | [#23 — [Idea] Incremental value of dynamic inflammation for recovery-guided rehabilitation after knee arthroplasty](https://github.com/kayoderaheem/research-portfolio/issues/23) | **1512** | 1 | 1W / 0D / 0L |
-| 11 | [#13 — [Idea] Spatial CAF–immune buffering of EGFR-targeted therapy in lung adenocarcinoma](https://github.com/kayoderaheem/research-portfolio/issues/13) | **1510** | 7 | 4W / 0D / 3L |
+| 2 | [#23 — [Idea] Incremental value of dynamic inflammation for recovery-guided rehabilitation after knee arthroplasty](https://github.com/kayoderaheem/research-portfolio/issues/23) | **1546** | 6 | 5W / 0D / 1L |
+| 3 | [#15 — [Idea] BMP-restraint failure and BCL2-high niches as predictors of diffuse gastric cancer treatment response](https://github.com/kayoderaheem/research-portfolio/issues/15) | **1546** | 6 | 5W / 0D / 1L |
+| 4 | [#5 — [Idea] Spatially resolved immune-priming trajectories during cervical chemoradiotherapy](https://github.com/kayoderaheem/research-portfolio/issues/5) | **1544** | 6 | 5W / 0D / 1L |
+| 5 | [#11 — [Idea] Spatially constrained T-cell fitness states predicting blinatumomab response in B-cell leukemia](https://github.com/kayoderaheem/research-portfolio/issues/11) | **1535** | 7 | 5W / 0D / 2L |
+| 6 | [#9 — [Idea] Spatially resolved IL-17 and retinoid states predicting tunnel-directed therapy response in hidradenitis suppurativa](https://github.com/kayoderaheem/research-portfolio/issues/9) | **1524** | 10 | 6W / 0D / 4L |
+| 7 | [#6 — [Idea] Mechanical-niche states that forecast glioblastoma radioresistance](https://github.com/kayoderaheem/research-portfolio/issues/6) | **1514** | 5 | 3W / 0D / 2L |
+| 8 | [#1 — [Idea] Time-to-decision functional profiling for resistance-aware combination therapy](https://github.com/kayoderaheem/research-portfolio/issues/1) | **1501** | 10 | 5W / 0D / 5L |
+| 9 | [#10 — [Idea] Metabolite-defined resident-memory niches that determine checkpoint response in hepatocellular carcinoma](https://github.com/kayoderaheem/research-portfolio/issues/10) | **1500** | 8 | 4W / 0D / 4L |
+| 10 | [#22 — [Idea] Transportable validation of a therapy-responsive pathogenic immune state in multiple sclerosis](https://github.com/kayoderaheem/research-portfolio/issues/22) | **1500** | 2 | 1W / 0D / 1L |
+| 11 | [#13 — [Idea] Spatial CAF–immune buffering of EGFR-targeted therapy in lung adenocarcinoma](https://github.com/kayoderaheem/research-portfolio/issues/13) | **1499** | 8 | 4W / 0D / 4L |
 | 12 | [#2 — [Idea] Transportable response signatures for molecularly matched therapy in advanced pancreatic cancer](https://github.com/kayoderaheem/research-portfolio/issues/2) | **1496** | 8 | 4W / 0D / 4L |
 | 13 | [#8 — [Idea] Metastatic-site spatial niches that modify ALK-inhibitor response](https://github.com/kayoderaheem/research-portfolio/issues/8) | **1487** | 9 | 4W / 0D / 5L |
 | 14 | [#4 — [Idea] Reproducible myeloid-niche remodeling as a determinant of metastatic immunotherapy response](https://github.com/kayoderaheem/research-portfolio/issues/4) | **1478** | 5 | 1W / 1D / 3L |
@@ -124,7 +124,7 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | 19 | [#12 — [Idea] Antigen-presentation escape neighborhoods predicting checkpoint response in melanoma with HIV](https://github.com/kayoderaheem/research-portfolio/issues/12) | **1444** | 7 | 1W / 0D / 6L |
 | 20 | [#21 — [Idea] Decision-value thresholds for multimodal treatment matching in opioid use disorder](https://github.com/kayoderaheem/research-portfolio/issues/21) | **1444** | 5 | 0W / 0D / 5L |
 
-_Last synchronized: 2026-09-14 19:51 UTC._
+_Last synchronized: 2026-09-14 23:54 UTC._
 <!-- RESEARCH_ELO_END -->
 
 ## Add ideas manually

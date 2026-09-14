@@ -539,22 +539,67 @@
       "reason": "The hepatocellular-carcinoma problem is anchored to a specific, mechanistically testable FADS1–arachidonic-acid–resident-memory T-cell interaction with existing perturbation rationale and a cheap-enough spatial plus orthogonal fitness readout. The opioid-use-disorder problem is more broadly consequential, but its large multisite multimodal design, uncertain treatment decision, and implementation burden make success less likely within six months.",
       "target": 21,
       "timestamp": "2026-09-14T19:51:58.191247+00:00"
+    },
+    {
+      "main_risk": "The rehabilitation decision may not be prespecified or delivered consistently enough for incremental biomarker value to be tested credibly.",
+      "next_test": "Run the prespecified 10-week feasibility and incremental-value study using a locked prediction time, one delayed-recovery endpoint, clinical and early-function baselines, assay reproducibility checks, and decision-curve analysis.",
+      "opponent": 22,
+      "outcome": "win",
+      "reason": "Issue 23 has a clearer near-term decision anchor: whether serial inflammation adds actionable value to established clinical and functional recovery measures. Its measurements, patient-level validation, and strong baselines are comparatively practical, and the earliest test can expose whether biomarkers improve decisions rather than merely track severity. Issue 22 has greater mechanistic and clinical upside but depends on reproducible multimodal state definition, independent population replication, treatment-stratified dynamics, cross-compartment relevance, and transportability, with several long-readout assumptions.",
+      "target": 23,
+      "timestamp": "2026-09-14T23:54:04.014538+00:00"
+    },
+    {
+      "main_risk": "The proposed IL-17A and retinoid tunnel states may not reproduce across patients or add information beyond tunnel burden, disease severity, and inflammatory composition.",
+      "next_test": "Apply a locked spatial-state classifier to pretreatment tunnel biopsies from patients starting standardized therapy and compare calibrated held-out response prediction against clinical, tunnel-burden, composition-only, and non-spatial pathway baselines.",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "Issue 9 is the stronger current investment because it has a tighter biological anchor, a focused and potentially distinctive tissue unit, a relatively cheap early patient-level test, and useful branches through reproducibility, prediction, early state change, and orthogonal perturbation. Issue 23 has broader clinical applicability but requires a harder-to-standardize rehabilitation intervention and multicenter calibration before its biomarker value can affect care.",
+      "target": 23,
+      "timestamp": "2026-09-14T23:54:04.014562+00:00"
+    },
+    {
+      "main_risk": "Dynamic inflammatory measurements may add no decision value beyond early function, frailty, complications, and general recovery severity.",
+      "next_test": "Prospectively test whether a locked serial inflammatory-plus-functional model improves calibrated patient-level prediction and decision utility over clinical, preoperative inflammatory, and early-function baselines.",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "Issue 23 currently offers the more reliable six-month investment: the clinical outcome, baseline comparators, leakage controls, and early decision-value test are concrete, while its main uncertainty can be reduced with accessible longitudinal measurements. Issue 10 has higher mechanistic distinctiveness and potential impact, but depends on difficult spatial lipid measurements, proof that measured lipids represent active signaling, adequate treated HCC cohorts, and transport across checkpoint and cellular-therapy contexts.",
+      "target": 23,
+      "timestamp": "2026-09-14T23:54:04.014573+00:00"
+    },
+    {
+      "main_risk": "The proposed rehabilitation escalation decision may be too heterogeneous or inconsistently implemented to support a valid precision-medicine estimand.",
+      "next_test": "Lock the rehabilitation decision and delayed-recovery endpoint, then compare serial inflammatory trajectories with clinical and early-function baselines in a prospective cohort while recording assay failure, adherence, and decision timing.",
+      "opponent": 1,
+      "outcome": "win",
+      "reason": "Issue 23 has a more feasible and earlier route to a meaningful answer than Issue 1. It can test incremental predictive and decision value with standard clinical and functional data without requiring frequent organoid establishment before a treatment deadline. Issue 1 is highly consequential if successful, but its central chain includes culture success and turnaround, ex vivo-to-patient validity, resistance-feature added value, feasible combination selection, and the ability to alter care without confounding clinical decisions.",
+      "target": 23,
+      "timestamp": "2026-09-14T23:54:04.014581+00:00"
+    },
+    {
+      "main_risk": "The apparent CAF–immune neighborhood may be a proxy for tumor genotype, proliferation, disease burden, or sampling variation rather than a transportable treatment mechanism.",
+      "next_test": "In a paired patient-level lung adenocarcinoma cohort, test one prespecified neighborhood and early change against clinical and composition-only baselines with held-out calibration, negative spatial controls, and replication in an independent specimen set.",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "Issue 13 has greater discovery breadth and a stronger stated competitive position through a specific tumor–CAF–immune spatial mechanism with paired on-treatment change and optional functional testing. Its early test can distinguish spatial information from composition and clinical covariates, and negative results still clarify whether microenvironmental buffering matters. Issue 23 is more tractable clinically, but its actionable rehabilitation intervention and multicenter calibration remain less defined and its likely biological signal may be severity tracking.",
+      "target": 23,
+      "timestamp": "2026-09-14T23:54:04.014589+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 9,
-      "losses": 4,
-      "rating": 1512.87,
+      "games": 10,
+      "losses": 5,
+      "rating": 1501.23,
       "wins": 5
     },
     "10": {
       "draws": 0,
-      "games": 7,
-      "losses": 3,
-      "rating": 1512.29,
+      "games": 8,
+      "losses": 4,
+      "rating": 1500.25,
       "wins": 4
     },
     "11": {
@@ -573,9 +618,9 @@
     },
     "13": {
       "draws": 0,
-      "games": 7,
-      "losses": 3,
-      "rating": 1509.65,
+      "games": 8,
+      "losses": 4,
+      "rating": 1498.52,
       "wins": 4
     },
     "15": {
@@ -622,17 +667,17 @@
     },
     "22": {
       "draws": 0,
-      "games": 1,
-      "losses": 0,
-      "rating": 1512.0,
+      "games": 2,
+      "losses": 1,
+      "rating": 1499.99,
       "wins": 1
     },
     "23": {
       "draws": 0,
-      "games": 1,
-      "losses": 0,
-      "rating": 1511.59,
-      "wins": 1
+      "games": 6,
+      "losses": 1,
+      "rating": 1546.01,
+      "wins": 5
     },
     "3": {
       "draws": 0,
@@ -678,10 +723,10 @@
     },
     "9": {
       "draws": 0,
-      "games": 9,
+      "games": 10,
       "losses": 4,
-      "rating": 1512.07,
-      "wins": 5
+      "rating": 1524.47,
+      "wins": 6
     }
   },
   "version": 2
