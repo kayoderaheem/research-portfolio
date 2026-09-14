@@ -494,6 +494,51 @@
       "reason": "Issue 17 is the stronger current choice because it has a clearer scientific anchor, stronger evidence readiness, and an early test that can separate useful spatial biology from artifact without requiring a validated mechanical-stress proxy. Issue 6 is highly novel but depends on inferring mechanics from tissue proxies, separating mechanics from hypoxia and mesenchymal state, obtaining paired radiation specimens, and transferring the feature definition across institutions.",
       "target": 17,
       "timestamp": "2026-09-14T12:57:54.775372+00:00"
+    },
+    {
+      "main_risk": "The immune state may be treatment exposure or disease-severity correlate rather than a transportable pathogenic or treatment-response signal.",
+      "next_test": "Lock the compact state assay and test analytical repeatability plus prevalence and effect-direction replication in an independent, demographically distinct cohort.",
+      "opponent": 22,
+      "outcome": "loss",
+      "reason": "The multiple-sclerosis problem has a clearer scientific anchor, a differentiated therapy-responsive state, and a focused early test of assay reproducibility and external prevalence before committing to clinical utility. The opioid-use-disorder problem has broader potential impact, but its decision, modality set, outcome definition, and data requirements remain unusually diffuse and resource-intensive.",
+      "target": 21,
+      "timestamp": "2026-09-14T19:51:58.191194+00:00"
+    },
+    {
+      "main_risk": "Dynamic inflammatory measurements may only track postoperative severity or complications and may not identify a modifiable rehabilitation decision.",
+      "next_test": "Prospectively specify one delayed-recovery endpoint and rehabilitation threshold, then compare a simple landmark inflammatory model with clinical and early-function baselines using patient- and site-separated validation.",
+      "opponent": 23,
+      "outcome": "loss",
+      "reason": "The knee-arthroplasty problem offers a more tractable six-month path: a defined recovery endpoint, relatively accessible serial measurements, practical modality ablations, and an early test of whether inflammation adds value beyond baseline frailty and early function. The opioid-use-disorder project has greater potential breadth but requires resolving a much larger chain involving treatment-effect estimation, heterogeneous modalities, missingness, site shift, and implementation.",
+      "target": 21,
+      "timestamp": "2026-09-14T19:51:58.191216+00:00"
+    },
+    {
+      "main_risk": "The proposed IL-17A/retinoid spatial states may be consequences of tunnel burden, chronicity, or inflammation rather than reproducible treatment-relevant biology.",
+      "next_test": "Apply a locked tunnel-state classifier to pretreatment biopsies from patients starting standardized therapy and compare calibrated response prediction against clinical, tunnel-burden, composition-only, and pathway-score baselines.",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "The hidradenitis suppurativa problem is more focused and experimentally discriminating, with a specific tunnel-level biological hypothesis, a feasible targeted spatial or multiplex assay, and a 10-week patient-level response test. The opioid-use-disorder proposal is clinically important but underspecified across decisions and modalities, making its earliest readout less decisive and its execution substantially heavier.",
+      "target": 21,
+      "timestamp": "2026-09-14T19:51:58.191229+00:00"
+    },
+    {
+      "main_risk": "The CAF–immune neighborhood may merely encode tumor genotype, proliferation, disease burden, or sampling variation rather than a causal treatment-buffering mechanism.",
+      "next_test": "In a paired cohort, test one prespecified CAF–immune exclusion neighborhood and early treatment change against composition-only and clinical models, with an independently processed specimen set for replication.",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "The lung adenocarcinoma problem has stronger evidence readiness and competitive differentiation: it links a concrete spatial mechanism to treatment response, supports orthogonal imaging and functional tumoroid validation, and has explicit composition-only and clinical baselines. The opioid-use-disorder problem has greater potential population breadth, but its multimodal scope and uncertain treatment decision create too many high-risk dependencies for a six-month investment.",
+      "target": 21,
+      "timestamp": "2026-09-14T19:51:58.191237+00:00"
+    },
+    {
+      "main_risk": "Spatial FADS1 or lipid abundance may not represent biologically active arachidonic-acid signaling and may add no information beyond T-cell abundance, tumor burden, or liver disease severity.",
+      "next_test": "Measure FADS1 or lipid-response proxies alongside CXCR6-positive resident-memory T-cell fitness in pretreatment HCC tissue, then test a prespecified proximity feature against clinical and composition-only baselines with orthogonal lipid or functional assays.",
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "The hepatocellular-carcinoma problem is anchored to a specific, mechanistically testable FADS1–arachidonic-acid–resident-memory T-cell interaction with existing perturbation rationale and a cheap-enough spatial plus orthogonal fitness readout. The opioid-use-disorder problem is more broadly consequential, but its large multisite multimodal design, uncertain treatment decision, and implementation burden make success less likely within six months.",
+      "target": 21,
+      "timestamp": "2026-09-14T19:51:58.191247+00:00"
     }
   ],
   "k_factor": 24,
@@ -507,10 +552,10 @@
     },
     "10": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 3,
-      "rating": 1501.92,
-      "wins": 3
+      "rating": 1512.29,
+      "wins": 4
     },
     "11": {
       "draws": 0,
@@ -528,10 +573,10 @@
     },
     "13": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 3,
-      "rating": 1498.8,
-      "wins": 3
+      "rating": 1509.65,
+      "wins": 4
     },
     "15": {
       "draws": 0,
@@ -567,6 +612,27 @@
       "losses": 4,
       "rating": 1496.38,
       "wins": 4
+    },
+    "21": {
+      "draws": 0,
+      "games": 5,
+      "losses": 5,
+      "rating": 1444.04,
+      "wins": 0
+    },
+    "22": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1512.0,
+      "wins": 1
+    },
+    "23": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1511.59,
+      "wins": 1
     },
     "3": {
       "draws": 0,
@@ -612,10 +678,10 @@
     },
     "9": {
       "draws": 0,
-      "games": 8,
+      "games": 9,
       "losses": 4,
-      "rating": 1500.92,
-      "wins": 4
+      "rating": 1512.07,
+      "wins": 5
     }
   },
   "version": 2
