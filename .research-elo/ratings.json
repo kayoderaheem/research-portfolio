@@ -449,22 +449,67 @@
       "reason": "The hidradenitis project is more feasible as a six-month investment because targeted spatial RNA/protein assays and standardized-treatment response data can directly test its anchor. The HCC metabolic-niche idea has a compelling named mechanism and strong biological branches, but spatial lipid activity is difficult to measure reliably and the proposed transport between checkpoint and GPC3-CAR-T cohorts is likely to be constrained by access, assay normalization, and treatment-context differences.",
       "target": 9,
       "timestamp": "2026-09-14T05:03:51.673153+00:00"
+    },
+    {
+      "main_risk": "The required multicenter cohort with harmonized response labels and reproducible spatial measurements may not exist at adequate scale.",
+      "next_test": "Pre-register and run the 12-week nested, center-held-out benchmark, first confirming cohort access, label harmonization, technical reproducibility, and calibrated incremental value over composition plus clinical covariates.",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "Issue 17 offers a broader and more replaceable technology contribution: a leakage-resistant, patient-level benchmark for whether spatial context adds information beyond strong clinical and composition baselines. It has clearer data requirements, a short external-validation path, and useful outcomes even if spatial features fail, whereas issue 10 depends on difficult spatial lipid measurement, mechanistic validity, and heterogeneous therapy contexts.",
+      "target": 17,
+      "timestamp": "2026-09-14T12:57:54.775325+00:00"
+    },
+    {
+      "main_risk": "Spatial features may be irreproducible across centers or add no information beyond composition, tissue quality, or clinical covariates.",
+      "next_test": "Run the preregistered center-held-out patient-level benchmark for spatial context versus clinical, composition, and imaging or molecular baselines, including technical replicates and shuffled spatial controls.",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "Issue 17 has the stronger current investment case because its fixed question is narrower, its baselines and leakage controls are explicit, and its earliest benchmark can produce a credible continue, pivot, or stop decision. Issue 13 requires paired on-treatment biopsies, cross-platform neighborhood replication, and preservation of stromal and immune interactions in tumoroids, creating a longer chain of high-risk assumptions.",
+      "target": 17,
+      "timestamp": "2026-09-14T12:57:54.775346+00:00"
+    },
+    {
+      "main_risk": "Issue 17 may demonstrate only a modest or non-generalizable spatial increment if the available cohorts are too small or heterogeneous.",
+      "next_test": "Lock the feature definitions and evaluate the spatial model against clinical and composition baselines in a site-held-out cohort, with calibration, treatment-response label sensitivity, and a prespecified minimum incremental benefit.",
+      "opponent": 2,
+      "outcome": "win",
+      "reason": "Issue 17 is more likely to yield a defensible six-month result because it tests a general methodological question with explicit strong baselines, external validation, and useful negative outcomes. Issue 2 has greater direct clinical potential, but estimating transportable differential treatment benefit requires adequate randomized subgroup sizes, harmonized assays, multiple treatment mixtures, and an independent cohort, making stable interaction estimates less likely.",
+      "target": 17,
+      "timestamp": "2026-09-14T12:57:54.775355+00:00"
+    },
+    {
+      "main_risk": "The benchmark may be limited by missing or non-harmonized response outcomes and therefore fail to establish transportability.",
+      "next_test": "Before any complex modeling, confirm prospective access to a sufficiently sized multicenter cohort and run the locked 12-week benchmark against clinical, composition, imaging, and molecular baselines with patient-level and center-held-out validation.",
+      "opponent": 1,
+      "outcome": "win",
+      "reason": "Issue 17 provides a cheaper and more decisive first branch: a retrospective, patient-level external benchmark can establish whether spatial information is worth pursuing without requiring prospective organoid turnaround or treatment decisions. Issue 1 has potentially higher clinical impact, but organoid establishment success, actionable timing, culture fidelity, and correlation with patient benefit are several sequential high-risk assumptions.",
+      "target": 17,
+      "timestamp": "2026-09-14T12:57:54.775362+00:00"
+    },
+    {
+      "main_risk": "Spatial context in lymphoma may be a proxy for burden, tissue quality, subtype, or center rather than a reproducible treatment-response signal.",
+      "next_test": "Perform the preregistered patient-level, center-held-out comparison of spatial-context, composition, vimentin or other established features, and clinical baselines, with spatial permutation controls and calibration.",
+      "opponent": 6,
+      "outcome": "win",
+      "reason": "Issue 17 is the stronger current choice because it has a clearer scientific anchor, stronger evidence readiness, and an early test that can separate useful spatial biology from artifact without requiring a validated mechanical-stress proxy. Issue 6 is highly novel but depends on inferring mechanics from tissue proxies, separating mechanics from hypoxia and mesenchymal state, obtaining paired radiation specimens, and transferring the feature definition across institutions.",
+      "target": 17,
+      "timestamp": "2026-09-14T12:57:54.775372+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 8,
-      "losses": 3,
-      "rating": 1524.03,
+      "games": 9,
+      "losses": 4,
+      "rating": 1512.87,
       "wins": 5
     },
     "10": {
       "draws": 0,
-      "games": 5,
-      "losses": 2,
-      "rating": 1513.92,
+      "games": 6,
+      "losses": 3,
+      "rating": 1501.92,
       "wins": 3
     },
     "11": {
@@ -483,9 +528,9 @@
     },
     "13": {
       "draws": 0,
-      "games": 5,
-      "losses": 2,
-      "rating": 1510.26,
+      "games": 6,
+      "losses": 3,
+      "rating": 1498.8,
       "wins": 3
     },
     "15": {
@@ -497,10 +542,10 @@
     },
     "17": {
       "draws": 0,
-      "games": 3,
+      "games": 8,
       "losses": 1,
-      "rating": 1513.9,
-      "wins": 2
+      "rating": 1570.31,
+      "wins": 7
     },
     "18": {
       "draws": 1,
@@ -518,9 +563,9 @@
     },
     "2": {
       "draws": 0,
-      "games": 7,
-      "losses": 3,
-      "rating": 1507.35,
+      "games": 8,
+      "losses": 4,
+      "rating": 1496.38,
       "wins": 4
     },
     "3": {
@@ -546,9 +591,9 @@
     },
     "6": {
       "draws": 0,
-      "games": 4,
-      "losses": 1,
-      "rating": 1525.25,
+      "games": 5,
+      "losses": 2,
+      "rating": 1514.43,
       "wins": 3
     },
     "7": {
