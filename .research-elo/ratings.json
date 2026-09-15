@@ -584,23 +584,68 @@
       "reason": "Issue 13 has greater discovery breadth and a stronger stated competitive position through a specific tumor–CAF–immune spatial mechanism with paired on-treatment change and optional functional testing. Its early test can distinguish spatial information from composition and clinical covariates, and negative results still clarify whether microenvironmental buffering matters. Issue 23 is more tractable clinically, but its actionable rehabilitation intervention and multicenter calibration remain less defined and its likely biological signal may be severity tracking.",
       "target": 23,
       "timestamp": "2026-09-14T23:54:04.014589+00:00"
+    },
+    {
+      "main_risk": "FADS1 or arachidonic-acid spatial measurements may not represent biologically active signaling or add information beyond resident-memory abundance and clinical covariates.",
+      "next_test": "Profile pretreatment HCC regions with orthogonal FADS1/lipid and CXCR6-resident-memory measurements, then test whether spatial proximity predicts T-cell fitness and early response beyond composition.",
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "The HCC problem has a tighter spatial-mechanism anchor, a focused 11-week patient-level test, and useful branches through orthogonal T-cell fitness assays even if clinical prediction fails. The MS project has broader potential but stacks several high-risk assumptions about assay reproducibility, cross-population transport, treatment dynamics, and blood-to-CNS relevance before reaching a decision.",
+      "target": 22,
+      "timestamp": "2026-09-15T05:00:38.455770+00:00"
+    },
+    {
+      "main_risk": "Organoid drug responses may be reproducible ex vivo but fail to predict patient benefit because of culture selection and missing immune or stromal biology.",
+      "next_test": "Prospectively measure establishment success, assay-ready turnaround, and blinded prediction of response in patients whose next treatment decision occurs within the assay window.",
+      "opponent": 1,
+      "outcome": "loss",
+      "reason": "Time-constrained organoid profiling has a clearer clinical-use anchor, a direct prospective decision window, and informative outcomes from assay failure, turnaround limits, discordance with molecular recommendations, or predictive success. The MS project is scientifically important but requires more simultaneous validation of a complex state across compartments, assays, treatments, and clinical uses.",
+      "target": 22,
+      "timestamp": "2026-09-15T05:00:38.455796+00:00"
+    },
+    {
+      "main_risk": "The apparent CAF–immune spatial program may be a proxy for tumor genotype, proliferation, composition, or sampling variation rather than a treatment-relevant mechanism.",
+      "next_test": "In a paired patient-level cohort, pre-specify one CAF–immune neighborhood and test replication of its baseline and early-treatment association with response using independent regions and orthogonal imaging.",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "The lung adenocarcinoma problem offers a strong fixed anchor, paired pretreatment/on-treatment material, high evidence readiness, and a relatively cheap 10-week test against composition and clinical baselines. The MS proposal has greater transportability ambition but more high-risk dependencies and a less stable choice of clinical use, assay, compartment, and outcome.",
+      "target": 22,
+      "timestamp": "2026-09-15T05:00:38.455808+00:00"
+    },
+    {
+      "main_risk": "The pancreatic dataset may be underpowered for reliable treatment-effect heterogeneity and calibration across institutions and molecular subgroups.",
+      "next_test": "Before signature development, perform a learning-curve and bootstrap stability analysis of treatment interactions using the randomized cohort, with site-held-out evaluation of a compact baseline-plus-early-response model.",
+      "opponent": 2,
+      "outcome": "win",
+      "reason": "The MS problem can be advanced through independent longitudinal cohorts and early analytical transportability tests without depending on a particular randomized trial or treatment-matching workflow. The pancreatic project has high potential but its central claim requires adequate randomized subgroup information, stable treatment-interaction estimates, harmonized multimodal data, and an external cohort, making the earliest decisive evidence less accessible.",
+      "target": 22,
+      "timestamp": "2026-09-15T05:00:38.455815+00:00"
+    },
+    {
+      "main_risk": "The spatial topology may simply encode anatomical site, prior treatment, or sampling differences rather than modifying ALK-inhibitor response.",
+      "next_test": "Use pretreatment samples to test a locked topology score against genotype, site, composition, and clinical baselines, with leave-one-site-out validation and replicate-section concordance.",
+      "opponent": 8,
+      "outcome": "loss",
+      "reason": "The ALK project has a narrower and clearer spatial anchor, lower assay risk, strong anatomical-site baselines, and a cheap 10-week leave-one-site-out test. It can yield useful biological conclusions even if prediction fails by distinguishing site, composition, and topology effects. The MS project has stronger potential clinical value but substantially more assay, compartment, treatment-shift, and calibration dependencies.",
+      "target": 22,
+      "timestamp": "2026-09-15T05:00:38.455821+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 5,
-      "rating": 1501.23,
-      "wins": 5
+      "rating": 1512.77,
+      "wins": 6
     },
     "10": {
       "draws": 0,
-      "games": 8,
+      "games": 9,
       "losses": 4,
-      "rating": 1500.25,
-      "wins": 4
+      "rating": 1512.24,
+      "wins": 5
     },
     "11": {
       "draws": 0,
@@ -618,10 +663,10 @@
     },
     "13": {
       "draws": 0,
-      "games": 8,
+      "games": 9,
       "losses": 4,
-      "rating": 1498.52,
-      "wins": 4
+      "rating": 1509.76,
+      "wins": 5
     },
     "15": {
       "draws": 0,
@@ -653,9 +698,9 @@
     },
     "2": {
       "draws": 0,
-      "games": 8,
-      "losses": 4,
-      "rating": 1496.38,
+      "games": 9,
+      "losses": 5,
+      "rating": 1483.31,
       "wins": 4
     },
     "21": {
@@ -667,10 +712,10 @@
     },
     "22": {
       "draws": 0,
-      "games": 2,
-      "losses": 1,
-      "rating": 1499.99,
-      "wins": 1
+      "games": 7,
+      "losses": 5,
+      "rating": 1466.57,
+      "wins": 2
     },
     "23": {
       "draws": 0,
@@ -716,10 +761,10 @@
     },
     "8": {
       "draws": 0,
-      "games": 9,
+      "games": 10,
       "losses": 5,
-      "rating": 1486.54,
-      "wins": 4
+      "rating": 1498.26,
+      "wins": 5
     },
     "9": {
       "draws": 0,
