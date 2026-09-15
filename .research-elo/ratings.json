@@ -719,6 +719,51 @@
       "reason": "Idea 7 offers a stronger current balance of impact, feasibility, and flexibility. Idea 8 addresses an important site-specific clinical problem, but it requires sufficient ALK-rearranged samples across lung, lymph-node, and brain compartments and must separate spatial biology from anatomical site, prior therapy, burden, and sampling confounding. Idea 7 has a cheaper, clearer donor-level serial test and a broader set of useful outcomes if the favored spatial mechanism fails.",
       "target": 7,
       "timestamp": "2026-09-15T17:05:26.247049+00:00"
+    },
+    {
+      "main_risk": "FAM230F may add no clinically meaningful information beyond ultrasound, AFP, liver disease severity, and disease-stage proxies, or may fail to transport across sites.",
+      "next_test": "Run blinded replicate and cross-site assay testing, then evaluate the locked cfDNA marker against a locked ultrasound-plus- AFP model in an independent patient-level cohort at the prespecified triage threshold.",
+      "opponent": 25,
+      "outcome": "win",
+      "reason": "External HCC calibration is the stronger current investment because it has a tighter clinical decision, established reference model, explicit transportability problem, and an early multi-site assay and net-benefit test. The lupus project is valuable but must resolve regimen-specific biology, treatment-selection confounding, endpoint harmonization, and multiple validation layers before it can support treatment enrichment.",
+      "target": 24,
+      "timestamp": "2026-09-15T21:26:50.109226+00:00"
+    },
+    {
+      "main_risk": "The HCC marker's apparent discrimination may be driven by tumor burden or spectrum differences rather than incremental early-detection value.",
+      "next_test": "In a site-held-out cohort, compare the locked FAM230F-augmented model with ultrasound-plus-AFP using stage-stratified calibration, decision-curve net benefit, and negative-control assay measurements.",
+      "opponent": 26,
+      "outcome": "win",
+      "reason": "External HCC calibration offers a more contained and actionable six-month problem with a clear baseline, endpoint, threshold, and early stop rule. The pancreatic project depends on adequate randomized treatment-by-biomarker information, stable multimodal measurements, sufficient sample size, and an external cohort, making its key readout slower and less certain.",
+      "target": 24,
+      "timestamp": "2026-09-15T21:26:50.109253+00:00"
+    },
+    {
+      "main_risk": "FAM230F may be a proxy for advanced or larger tumors and therefore fail to identify clinically useful disease at the intended surveillance stage.",
+      "next_test": "Test the locked marker and reference model in blinded, independent surveillance samples with prespecified stratification by tumor stage, lesion size, site, and surveillance-risk group.",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "HCC surveillance triage has a defined patient-level management use and a relatively direct external validation path. The myeloid-niche project could yield deeper mechanistic insight, but it requires difficult paired spatial measurements across metastatic organs, reproducible state and neighborhood definitions, orthogonal functional validation, and separation of cause from lesion burden and treatment exposure.",
+      "target": 24,
+      "timestamp": "2026-09-15T21:26:50.109263+00:00"
+    },
+    {
+      "main_risk": "The cfDNA signal may not retain calibration or decision value across assay workflows, disease spectra, and participating sites.",
+      "next_test": "Perform blinded multi-site replicate testing followed by external evaluation of the locked cfDNA threshold against ultrasound-plus-AFP, including site-held-out and stage-stratified decision curves.",
+      "opponent": 18,
+      "outcome": "win",
+      "reason": "The HCC problem is better anchored to an immediate clinical decision and has a cheaper discriminating experiment than the cholangiocarcinoma resistance study. The latter starts from cell-line pathway observations and must establish human pretreatment detectability, spatial incremental value, cross-anatomical-site transportability, and resistance relevance before functional follow-up.",
+      "target": 24,
+      "timestamp": "2026-09-15T21:26:50.109270+00:00"
+    },
+    {
+      "main_risk": "FAM230F may show statistical discrimination without improving calibrated clinical decisions or net benefit over established surveillance information.",
+      "next_test": "Use an independent, site-held-out cohort to test the locked augmented model for calibration, net benefit, and sensitivity at the prespecified confirmatory-evaluation threshold, with patient-level separation and stage-specific analyses.",
+      "opponent": 2,
+      "outcome": "win",
+      "reason": "HCC surveillance triage has the clearer fixed anchor, stronger near-term evidence path, and more credible early continue-or-stop decision. The pancreatic matched-therapy project is potentially important but hinges on prospective trial execution, treatment-effect interaction estimation, multimodal harmonization, and enough data for stable calibration across institutions.",
+      "target": 24,
+      "timestamp": "2026-09-15T21:26:50.109276+00:00"
     }
   ],
   "k_factor": 24,
@@ -774,9 +819,9 @@
     },
     "18": {
       "draws": 1,
-      "games": 9,
-      "losses": 4,
-      "rating": 1498.19,
+      "games": 10,
+      "losses": 5,
+      "rating": 1487.45,
       "wins": 4
     },
     "19": {
@@ -788,9 +833,9 @@
     },
     "2": {
       "draws": 0,
-      "games": 10,
-      "losses": 5,
-      "rating": 1495.49,
+      "games": 11,
+      "losses": 6,
+      "rating": 1485.21,
       "wins": 5
     },
     "21": {
@@ -814,6 +859,27 @@
       "rating": 1546.01,
       "wins": 5
     },
+    "24": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1555.78,
+      "wins": 5
+    },
+    "25": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "26": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
+    },
     "3": {
       "draws": 0,
       "games": 9,
@@ -823,9 +889,9 @@
     },
     "4": {
       "draws": 1,
-      "games": 7,
-      "losses": 3,
-      "rating": 1499.46,
+      "games": 8,
+      "losses": 4,
+      "rating": 1488.29,
       "wins": 3
     },
     "5": {
