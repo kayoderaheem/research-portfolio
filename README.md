@@ -103,13 +103,13 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 
 | Rank | Research idea | Rating | Comparisons | Record |
 |---:|---|---:|---:|---:|
-| 1 | [#17 — [Idea] Patient-level tissue-context gain over composition for multimodal lymphoma treatment-response prediction](https://github.com/kayoderaheem/research-portfolio/issues/17) | **1570** | 8 | 7W / 0D / 1L |
-| 2 | [#25 — [Idea] Treatment-specific multimodal validation of lupus nephritis response programs](https://github.com/kayoderaheem/research-portfolio/issues/25) | **1558** | 7 | 6W / 0D / 1L |
-| 3 | [#24 — [Idea] External calibration of multimodal HCC surveillance triage](https://github.com/kayoderaheem/research-portfolio/issues/24) | **1556** | 5 | 5W / 0D / 0L |
-| 4 | [#23 — [Idea] Incremental value of dynamic inflammation for recovery-guided rehabilitation after knee arthroplasty](https://github.com/kayoderaheem/research-portfolio/issues/23) | **1546** | 6 | 5W / 0D / 1L |
-| 5 | [#15 — [Idea] BMP-restraint failure and BCL2-high niches as predictors of diffuse gastric cancer treatment response](https://github.com/kayoderaheem/research-portfolio/issues/15) | **1546** | 6 | 5W / 0D / 1L |
-| 6 | [#5 — [Idea] Spatially resolved immune-priming trajectories during cervical chemoradiotherapy](https://github.com/kayoderaheem/research-portfolio/issues/5) | **1544** | 6 | 5W / 0D / 1L |
-| 7 | [#11 — [Idea] Spatially constrained T-cell fitness states predicting blinatumomab response in B-cell leukemia](https://github.com/kayoderaheem/research-portfolio/issues/11) | **1535** | 7 | 5W / 0D / 2L |
+| 1 | [#17 — [Idea] Patient-level tissue-context gain over composition for multimodal lymphoma treatment-response prediction](https://github.com/kayoderaheem/research-portfolio/issues/17) | **1581** | 9 | 8W / 0D / 1L |
+| 2 | [#15 — [Idea] BMP-restraint failure and BCL2-high niches as predictors of diffuse gastric cancer treatment response](https://github.com/kayoderaheem/research-portfolio/issues/15) | **1558** | 7 | 6W / 0D / 1L |
+| 3 | [#25 — [Idea] Treatment-specific multimodal validation of lupus nephritis response programs](https://github.com/kayoderaheem/research-portfolio/issues/25) | **1558** | 8 | 6W / 1D / 1L |
+| 4 | [#5 — [Idea] Spatially resolved immune-priming trajectories during cervical chemoradiotherapy](https://github.com/kayoderaheem/research-portfolio/issues/5) | **1556** | 7 | 6W / 0D / 1L |
+| 5 | [#11 — [Idea] Spatially constrained T-cell fitness states predicting blinatumomab response in B-cell leukemia](https://github.com/kayoderaheem/research-portfolio/issues/11) | **1535** | 7 | 5W / 0D / 2L |
+| 6 | [#23 — [Idea] Incremental value of dynamic inflammation for recovery-guided rehabilitation after knee arthroplasty](https://github.com/kayoderaheem/research-portfolio/issues/23) | **1534** | 7 | 5W / 0D / 2L |
+| 7 | [#24 — [Idea] External calibration of multimodal HCC surveillance triage](https://github.com/kayoderaheem/research-portfolio/issues/24) | **1531** | 10 | 6W / 1D / 3L |
 | 8 | [#9 — [Idea] Spatially resolved IL-17 and retinoid states predicting tunnel-directed therapy response in hidradenitis suppurativa](https://github.com/kayoderaheem/research-portfolio/issues/9) | **1524** | 10 | 6W / 0D / 4L |
 | 9 | [#26 — [Idea] Site-robust multimodal risk stratification for fetal growth restriction management](https://github.com/kayoderaheem/research-portfolio/issues/26) | **1523** | 6 | 4W / 0D / 2L |
 | 10 | [#6 — [Idea] Mechanical-niche states that forecast glioblastoma radioresistance](https://github.com/kayoderaheem/research-portfolio/issues/6) | **1504** | 6 | 3W / 0D / 3L |
@@ -127,7 +127,7 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | 22 | [#7 — [Idea] Reproducible adaptive cell-state transitions after KRAS pathway blockade](https://github.com/kayoderaheem/research-portfolio/issues/7) | **1443** | 9 | 2W / 0D / 7L |
 | 23 | [#19 — [Idea] Spatially gated ZNF423-stress transitions predicting therapy escape in NF1-associated MPNST](https://github.com/kayoderaheem/research-portfolio/issues/19) | **1431** | 8 | 1W / 0D / 7L |
 
-_Last synchronized: 2026-09-16 11:44 UTC._
+_Last synchronized: 2026-09-16 17:05 UTC._
 <!-- RESEARCH_ELO_END -->
 
 ## Add ideas manually

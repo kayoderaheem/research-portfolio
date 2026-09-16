@@ -854,6 +854,51 @@
       "reason": "Lupus nephritis is more suitable for immediate research time because the biological signal can be tested with established patient-level predictive-validation methods and a clear decision threshold. The glioblastoma project relies on indirect mechanical-stress proxies, matched treatment specimens, separation from hypoxia and mesenchymal state, and cross-institution transfer of a complex spatial feature, making both measurement validity and readout timing uncertain.",
       "target": 25,
       "timestamp": "2026-09-16T11:44:47.715007+00:00"
+    },
+    {
+      "main_risk": "Whether the molecular/cfDNA signal adds information beyond established clinical baselines rather than proxying disease burden or selection bias",
+      "next_test": "Locked nested-model comparison (baseline vs baseline+marker) on an independent, patient-level split cohort with calibration and decision-curve metrics",
+      "opponent": 25,
+      "outcome": "draw",
+      "reason": "Both are treatment-decision, external-validation-focused precision-medicine problems with comparable rigor, leakage controls, and staged decision trees; neither has a clear evidentiary edge over the other from the text alone.",
+      "target": 24,
+      "timestamp": "2026-09-16T17:05:16.525586+00:00"
+    },
+    {
+      "main_risk": "Whether FAM230F cfDNA reproducibility and calibration hold cross-site (#24) vs whether a rehabilitation decision protocol can even be operationalized consistently across sites (#23)",
+      "next_test": "#24's 10-week blinded multi-site reproducibility and locked-threshold net-benefit test is cheaper and more decisive than #23's dependency on defining and delivering a consistent rehabilitation escalation protocol first",
+      "opponent": 23,
+      "outcome": "win",
+      "reason": "#24 targets a single, well-defined clinical decision (HCC surveillance triage) with an existing promising marker and a tight, cheap first test (cross-site reproducibility + locked threshold); #23 stacks a novel multi-axis phenotype, a not-yet-specified rehabilitation decision rule, and a long 18-20 week readout before any real signal, raising execution risk before biology is even tested.",
+      "target": 24,
+      "timestamp": "2026-09-16T17:05:16.525605+00:00"
+    },
+    {
+      "main_risk": "Whether BCL2-high persistence reflects niche protection versus simply marking advanced/proliferative clones (a confound explicitly flagged)",
+      "next_test": "#15's 10-week paired pretreatment/early-treatment spatial proximity-vs-persistence test, compared against BCL2 abundance and proliferation alone",
+      "opponent": 15,
+      "outcome": "loss",
+      "reason": "#15 proposes a mechanistic, spatially-resolved niche hypothesis with an experimentally testable causal claim (BCL2 inhibition, organoid-fibroblast perturbation) offering higher discovery value and orthogonal validation branches; #24 is a narrower incremental-biomarker validation question with lower novelty ceiling, though also solid.",
+      "target": 24,
+      "timestamp": "2026-09-16T17:05:16.525615+00:00"
+    },
+    {
+      "main_risk": "Whether a treatment-induced spatial transition is measurable and reproducible across patients before addressing whether it adds predictive value beyond composition/clinical covariates",
+      "next_test": "#5's 10-week paired baseline/early-treatment profiling to quantify transition reproducibility via patient-level resampling",
+      "opponent": 5,
+      "outcome": "loss",
+      "reason": "#5 addresses a more general, mechanistically rich discovery question (treatment-induced spatial immune-priming transitions) with useful branches into biology and treatment timing even if the hypothesis fails, versus #24's narrower single-biomarker validation with a fixed, less generalizable clinical anchor.",
+      "target": 24,
+      "timestamp": "2026-09-16T17:05:16.525625+00:00"
+    },
+    {
+      "main_risk": "Whether harmonized response labels and reproducible spatial feature extraction across centers can be achieved before the core comparison is even meaningful",
+      "next_test": "#17's preregistered nested benchmark with one center held out, comparing spatial vs composition-plus-clinical models on calibrated discrimination and decision curves",
+      "opponent": 17,
+      "outcome": "loss",
+      "reason": "#17 is a broader, timely methodological benchmark question (does spatial context add value across an entire multimodal AI subfield) with strong baseline rigor and clear falsifiability, offering field-level leverage beyond a single biomarker; #24 is narrower in scope though still solid.",
+      "target": 24,
+      "timestamp": "2026-09-16T17:05:16.525632+00:00"
     }
   ],
   "k_factor": 24,
@@ -895,17 +940,17 @@
     },
     "15": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 1,
-      "rating": 1545.66,
-      "wins": 5
+      "rating": 1558.41,
+      "wins": 6
     },
     "17": {
       "draws": 0,
-      "games": 8,
+      "games": 9,
       "losses": 1,
-      "rating": 1570.31,
-      "wins": 7
+      "rating": 1581.35,
+      "wins": 8
     },
     "18": {
       "draws": 1,
@@ -944,23 +989,23 @@
     },
     "23": {
       "draws": 0,
-      "games": 6,
-      "losses": 1,
-      "rating": 1546.01,
+      "games": 7,
+      "losses": 2,
+      "rating": 1534.35,
       "wins": 5
     },
     "24": {
-      "draws": 0,
-      "games": 5,
-      "losses": 0,
-      "rating": 1555.78,
-      "wins": 5
+      "draws": 1,
+      "games": 10,
+      "losses": 3,
+      "rating": 1531.34,
+      "wins": 6
     },
     "25": {
-      "draws": 0,
-      "games": 7,
+      "draws": 1,
+      "games": 8,
       "losses": 1,
-      "rating": 1557.89,
+      "rating": 1557.82,
       "wins": 6
     },
     "26": {
@@ -986,10 +1031,10 @@
     },
     "5": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 1,
-      "rating": 1543.68,
-      "wins": 5
+      "rating": 1556.06,
+      "wins": 6
     },
     "6": {
       "draws": 0,
