@@ -809,22 +809,67 @@
       "reason": "Fetal-growth-restriction stratification has a clearer clinical anchor, broader potential use, and a more credible early decision path than site-specific ALK-inhibitor spatial niches. The ALK project faces rare-disease sampling constraints, strong confounding by metastatic site and treatment history, and uncertain transfer of spatial features across compartments and platforms.",
       "target": 26,
       "timestamp": "2026-09-16T04:56:04.193949+00:00"
+    },
+    {
+      "main_risk": "The choice would change if sufficiently large independent lupus nephritis cohorts with harmonized endpoints and regimen exposure are not available, while ALK cohorts and spatial assays are readily accessible.",
+      "next_test": "Blindly evaluate locked gene-expression programs versus the clinical model in an independent, patient-separated lupus nephritis cohort and assess calibration and decision-curve benefit.",
+      "opponent": 8,
+      "outcome": "win",
+      "reason": "Lupus nephritis offers a clearer regimen-specific clinical decision, stronger leakage-resistant validation framework, and a cheaper early test using an independent cohort. The ALK project has high discovery value but faces greater confounding from metastatic site, treatment history, lesion sampling, and spatial assay transferability before establishing response modification.",
+      "target": 25,
+      "timestamp": "2026-09-16T11:44:47.714958+00:00"
+    },
+    {
+      "main_risk": "The choice would change if the lupus cohorts cannot support regimen-specific external validation or if the CAF–immune neighborhood already has unusually strong, accessible paired patient data.",
+      "next_test": "Run a locked clinical-only versus clinical-plus-program comparison in a blinded independent lupus cohort, with prespecified calibration and enrichment thresholds.",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "Lupus nephritis is the stronger current investment because its fixed anchor is a defined treatment-selection problem with a direct external-validation path. The CAF project combines paired biopsies, spatial reproducibility, treatment-induced change, and organoid preservation of immune-stromal interactions, creating a longer chain of high-risk assumptions before a useful result.",
+      "target": 25,
+      "timestamp": "2026-09-16T11:44:47.714980+00:00"
+    },
+    {
+      "main_risk": "The choice would change if FADS1 or arachidonic-acid spatial measurements are already validated and linked to sufficiently sized patient-level checkpoint-response cohorts with orthogonal T-cell fitness assays.",
+      "next_test": "Test the locked lupus programs against the clinical baseline in an independent cohort before expanding to additional regimens or assays.",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "The lupus nephritis problem is more ready for a six-month investment: it asks whether locked molecular information adds calibrated value to clinical models for a defined regimen decision and has explicit independent-cohort and leakage controls. The HCC proposal has greater mechanistic novelty but depends on spatially heterogeneous, biologically active arachidonic-acid measurements, difficult lipid normalization, and transport across checkpoint and cellular-therapy contexts.",
+      "target": 25,
+      "timestamp": "2026-09-16T11:44:47.714990+00:00"
+    },
+    {
+      "main_risk": "The choice would change if a prospective organoid workflow already demonstrates high establishment success and clinically actionable turnaround across an independent cohort.",
+      "next_test": "Compare a locked regimen-specific molecular program plus clinical model with the clinical model alone in an independent patient-separated cohort, reporting calibration, uncertainty, and expected responder yield.",
+      "opponent": 1,
+      "outcome": "win",
+      "reason": "Lupus nephritis provides a more bounded and falsifiable investment with a defined enrichment use, patient-level validation, and an early external test. Functional organoid profiling could have substantial clinical value, but success requires rapid culture establishment, representative drug response, resistance readouts, feasible treatment timing, and prospective outcome validation, all of which are costly and sequentially risky.",
+      "target": 25,
+      "timestamp": "2026-09-16T11:44:47.715000+00:00"
+    },
+    {
+      "main_risk": "The choice would change if controlled compression experiments and an accessible independent glioblastoma cohort show that the proposed mechanical proxy is reproducible and independently predictive beyond vimentin, hypoxia, necrosis, and tumor density.",
+      "next_test": "Perform the blinded independent-cohort test of locked lupus programs against a prespecified clinical reference model, with external calibration and decision-curve analysis.",
+      "opponent": 6,
+      "outcome": "win",
+      "reason": "Lupus nephritis is more suitable for immediate research time because the biological signal can be tested with established patient-level predictive-validation methods and a clear decision threshold. The glioblastoma project relies on indirect mechanical-stress proxies, matched treatment specimens, separation from hypoxia and mesenchymal state, and cross-institution transfer of a complex spatial feature, making both measurement validity and readout timing uncertain.",
+      "target": 25,
+      "timestamp": "2026-09-16T11:44:47.715007+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 11,
-      "losses": 5,
-      "rating": 1512.77,
+      "games": 12,
+      "losses": 6,
+      "rating": 1501.56,
       "wins": 6
     },
     "10": {
       "draws": 0,
-      "games": 9,
-      "losses": 4,
-      "rating": 1512.24,
+      "games": 10,
+      "losses": 5,
+      "rating": 1500.65,
       "wins": 5
     },
     "11": {
@@ -843,9 +888,9 @@
     },
     "13": {
       "draws": 0,
-      "games": 9,
-      "losses": 4,
-      "rating": 1509.76,
+      "games": 10,
+      "losses": 5,
+      "rating": 1497.85,
       "wins": 5
     },
     "15": {
@@ -913,10 +958,10 @@
     },
     "25": {
       "draws": 0,
-      "games": 2,
+      "games": 7,
       "losses": 1,
-      "rating": 1500.43,
-      "wins": 1
+      "rating": 1557.89,
+      "wins": 6
     },
     "26": {
       "draws": 0,
@@ -948,9 +993,9 @@
     },
     "6": {
       "draws": 0,
-      "games": 5,
-      "losses": 2,
-      "rating": 1514.43,
+      "games": 6,
+      "losses": 3,
+      "rating": 1503.55,
       "wins": 3
     },
     "7": {
@@ -962,9 +1007,9 @@
     },
     "8": {
       "draws": 0,
-      "games": 12,
-      "losses": 6,
-      "rating": 1496.81,
+      "games": 13,
+      "losses": 7,
+      "rating": 1484.94,
       "wins": 6
     },
     "9": {
