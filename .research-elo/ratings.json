@@ -899,6 +899,51 @@
       "reason": "#17 is a broader, timely methodological benchmark question (does spatial context add value across an entire multimodal AI subfield) with strong baseline rigor and clear falsifiability, offering field-level leverage beyond a single biomarker; #24 is narrower in scope though still solid.",
       "target": 24,
       "timestamp": "2026-09-16T17:05:16.525632+00:00"
+    },
+    {
+      "main_risk": "Whether tissue cohorts of checkpoint-treated melanoma patients with HIV are actually assemblable in adequate numbers.",
+      "next_test": "Run the 12-week multiplex protein imaging pilot on available HIV+ melanoma specimens and test spatial antigen-presentation/exclusion coupling against response.",
+      "opponent": 12,
+      "outcome": "loss",
+      "reason": "12 has a concrete, narrow mechanistic anchor (spatial antigen-presentation/immune coupling) with a cheap 12-week multiplex-imaging pilot, whereas 21 is a diffuse, multi-site clinical-utility question spanning many modalities and decisions that is unlikely to reach a real readout in six months.",
+      "target": 21,
+      "timestamp": "2026-09-16T21:23:21.847297+00:00"
+    },
+    {
+      "main_risk": "Whether the treatment-induced transition is reproducible across independent donors rather than model-specific.",
+      "next_test": "Profile matched pre/early-on-treatment samples from several independent PDAC donor models and check transition-score concordance and prediction of regrowth.",
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "7 anchors to existing single-cell PDAC data with a clear, falsifiable 12-week donor-level test, while 21 requires multi-site clinical infrastructure, outcome harmonization, and prospective data unlikely to be tractable in six months.",
+      "target": 21,
+      "timestamp": "2026-09-16T21:23:21.847319+00:00"
+    },
+    {
+      "main_risk": "Whether the state score remains calibrated and reproducible across independent sites and assays.",
+      "next_test": "Lock the feature/gating definition and test cross-lab/platform repeatability on replicate samples before any prognostic claims.",
+      "opponent": 22,
+      "outcome": "loss",
+      "reason": "22 validates a single locked immune-state assay against clear baselines with an existing biological rationale (anti-CD20 study), a narrower and more executable scope than 21's multi-modality, multi-decision framework.",
+      "target": 21,
+      "timestamp": "2026-09-16T21:23:21.847328+00:00"
+    },
+    {
+      "main_risk": "Small MPNST patient numbers may prevent reproducibility across patients even if the pilot signal looks promising.",
+      "next_test": "Test whether baseline ZNF423 state and neighborhood features predict early on-treatment restoration and later escape in the pilot longitudinal cohort.",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "19 leverages an existing dataset (GSE320236) giving a concrete mechanistic starting point and a well-specified 12-week pilot with quantitative thresholds, while 21's decision-value framework spans too many floating parameters to reach any decision in six months.",
+      "target": 21,
+      "timestamp": "2026-09-16T21:23:21.847335+00:00"
+    },
+    {
+      "main_risk": "Whether biomarker changes reflect a genuine damage-tolerance mechanism versus nonspecific cytotoxic injury.",
+      "next_test": "Serially measure lesion/replication-stress markers in treatment-naive vs resistant matched models and test if the locked threshold predicts regrowth and combination benefit.",
+      "opponent": 3,
+      "outcome": "loss",
+      "reason": "3 has a tight mechanistic hypothesis (DNA-damage-tolerance escape) testable in patient-derived/isogenic models with a cheap 10-week readout and clear combination-therapy branch, offering broader generality across genotoxic agents than 21's sprawling clinical-decision scope.",
+      "target": 21,
+      "timestamp": "2026-09-16T21:23:21.847342+00:00"
     }
   ],
   "k_factor": 24,
@@ -926,10 +971,10 @@
     },
     "12": {
       "draws": 0,
-      "games": 7,
+      "games": 8,
       "losses": 6,
-      "rating": 1444.15,
-      "wins": 1
+      "rating": 1456.15,
+      "wins": 2
     },
     "13": {
       "draws": 0,
@@ -961,10 +1006,10 @@
     },
     "19": {
       "draws": 0,
-      "games": 8,
+      "games": 9,
       "losses": 7,
-      "rating": 1431.02,
-      "wins": 1
+      "rating": 1442.28,
+      "wins": 2
     },
     "2": {
       "draws": 0,
@@ -975,17 +1020,17 @@
     },
     "21": {
       "draws": 0,
-      "games": 5,
-      "losses": 5,
-      "rating": 1444.04,
+      "games": 10,
+      "losses": 10,
+      "rating": 1388.67,
       "wins": 0
     },
     "22": {
       "draws": 0,
-      "games": 8,
+      "games": 9,
       "losses": 6,
-      "rating": 1454.08,
-      "wins": 2
+      "rating": 1464.92,
+      "wins": 3
     },
     "23": {
       "draws": 0,
@@ -1017,10 +1062,10 @@
     },
     "3": {
       "draws": 0,
-      "games": 9,
+      "games": 10,
       "losses": 6,
-      "rating": 1467.4,
-      "wins": 3
+      "rating": 1477.05,
+      "wins": 4
     },
     "4": {
       "draws": 1,
@@ -1045,10 +1090,10 @@
     },
     "7": {
       "draws": 0,
-      "games": 9,
+      "games": 10,
       "losses": 7,
-      "rating": 1443.04,
-      "wins": 2
+      "rating": 1454.66,
+      "wins": 3
     },
     "8": {
       "draws": 0,
