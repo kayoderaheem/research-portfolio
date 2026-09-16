@@ -764,6 +764,51 @@
       "reason": "HCC surveillance triage has the clearer fixed anchor, stronger near-term evidence path, and more credible early continue-or-stop decision. The pancreatic matched-therapy project is potentially important but hinges on prospective trial execution, treatment-effect interaction estimation, multimodal harmonization, and enough data for stable calibration across institutions.",
       "target": 24,
       "timestamp": "2026-09-15T21:26:50.109276+00:00"
+    },
+    {
+      "main_risk": "The fetal-growth-restriction management endpoint may be inconsistently defined or influenced by clinician decisions, weakening its clinical validity.",
+      "next_test": "Lock the clinical-Doppler reference model and test one prespecified molecular panel in a pregnancy-level, site-held-out cohort with calibration and decision-curve analysis.",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "Site-robust fetal-growth-restriction risk stratification has a clearer clinical decision anchor, stronger established baselines, and a more actionable external-validation test. The myeloid-niche problem has high potential but depends on difficult paired spatial sampling, reproducible state definition, and separating treatment effects from lesion and organ context.",
+      "target": 26,
+      "timestamp": "2026-09-16T04:56:04.193913+00:00"
+    },
+    {
+      "main_risk": "Treatment-selection confounding and inconsistent response definitions may make apparent regimen-specific prediction non-generalizable.",
+      "next_test": "Lock the smallest regimen-specific programs and compare clinical-only with clinical-plus-program prediction in a blinded independent cohort using nested patient-level processing and prespecified enrichment thresholds.",
+      "opponent": 25,
+      "outcome": "loss",
+      "reason": "The lupus-nephritis problem has a stronger existing signal, a focused regimen-specific anchor, and a tractable test of whether locked programs add value beyond clinical variables. It also allows useful negative outcomes by identifying regimens where molecular prediction is redundant or nontransportable, whereas fetal-growth-restriction work carries greater endpoint and assay uncertainty.",
+      "target": 26,
+      "timestamp": "2026-09-16T04:56:04.193930+00:00"
+    },
+    {
+      "main_risk": "The molecular measurements may add little beyond fetal biometry, Doppler, and established biomarkers once leakage and timing are controlled.",
+      "next_test": "Evaluate one prespecified molecular modality against the locked clinical-Doppler baseline in an independent cohort, requiring calibrated net benefit at a predefined management threshold.",
+      "opponent": 18,
+      "outcome": "win",
+      "reason": "Fetal-growth-restriction stratification offers a more immediately decision-linked and broadly relevant problem with a defined reference standard and a relatively direct site-held-out test. The cholangiocarcinoma project relies on translating cell-line resistance programs into scarce paired human spatial biopsies and then establishing transfer across anatomical sites.",
+      "target": 26,
+      "timestamp": "2026-09-16T04:56:04.193938+00:00"
+    },
+    {
+      "main_risk": "The fetal-growth-restriction endpoint may encode existing management practice rather than an independent biological or patient-benefit outcome.",
+      "next_test": "Predefine and adjudicate a consequential perinatal outcome, then compare the locked clinical-Doppler model with one molecular addition in a fully external, site-held-out cohort.",
+      "opponent": 2,
+      "outcome": "win",
+      "reason": "Fetal-growth-restriction management prediction is less dependent on estimating heterogeneous treatment effects and on obtaining sufficient randomized subgroup size. Its validation target is clearer and can generate useful branches through calibration failure, subgroup restriction, or biomarker redundancy; the pancreatic project has high impact but combines treatment-interaction estimation, multimodal harmonization, missingness, and external transportability.",
+      "target": 26,
+      "timestamp": "2026-09-16T04:56:04.193944+00:00"
+    },
+    {
+      "main_risk": "A molecular panel may fail to provide incremental, transportable value over fetal biometry, Doppler, and established clinical biomarkers.",
+      "next_test": "Run the prespecified molecular-addition test against the clinical-Doppler reference using pregnancy-level splits and an independent external cohort, with calibration and decision-curve thresholds fixed in advance.",
+      "opponent": 8,
+      "outcome": "win",
+      "reason": "Fetal-growth-restriction stratification has a clearer clinical anchor, broader potential use, and a more credible early decision path than site-specific ALK-inhibitor spatial niches. The ALK project faces rare-disease sampling constraints, strong confounding by metastatic site and treatment history, and uncertain transfer of spatial features across compartments and platforms.",
+      "target": 26,
+      "timestamp": "2026-09-16T04:56:04.193949+00:00"
     }
   ],
   "k_factor": 24,
@@ -819,9 +864,9 @@
     },
     "18": {
       "draws": 1,
-      "games": 10,
-      "losses": 5,
-      "rating": 1487.45,
+      "games": 11,
+      "losses": 6,
+      "rating": 1475.47,
       "wins": 4
     },
     "19": {
@@ -833,9 +878,9 @@
     },
     "2": {
       "draws": 0,
-      "games": 11,
-      "losses": 6,
-      "rating": 1485.21,
+      "games": 12,
+      "losses": 7,
+      "rating": 1473.72,
       "wins": 5
     },
     "21": {
@@ -868,17 +913,17 @@
     },
     "25": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "rating": 1500.43,
+      "wins": 1
     },
     "26": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 2,
+      "rating": 1523.36,
+      "wins": 4
     },
     "3": {
       "draws": 0,
@@ -889,9 +934,9 @@
     },
     "4": {
       "draws": 1,
-      "games": 8,
-      "losses": 4,
-      "rating": 1488.29,
+      "games": 9,
+      "losses": 5,
+      "rating": 1476.29,
       "wins": 3
     },
     "5": {
@@ -917,9 +962,9 @@
     },
     "8": {
       "draws": 0,
-      "games": 11,
-      "losses": 5,
-      "rating": 1508.72,
+      "games": 12,
+      "losses": 6,
+      "rating": 1496.81,
       "wins": 6
     },
     "9": {
