@@ -944,23 +944,68 @@
       "reason": "3 has a tight mechanistic hypothesis (DNA-damage-tolerance escape) testable in patient-derived/isogenic models with a cheap 10-week readout and clear combination-therapy branch, offering broader generality across genotoxic agents than 21's sprawling clinical-decision scope.",
       "target": 21,
       "timestamp": "2026-09-16T21:23:21.847342+00:00"
+    },
+    {
+      "main_risk": "Whether organoid establishment succeeds fast enough within the clinical decision window",
+      "next_test": "Prospectively track organoid establishment success rate and turnaround time against real treatment-decision deadlines",
+      "opponent": 1,
+      "outcome": "loss",
+      "reason": "Idea 1 targets a direct clinical-decision endpoint (does functional testing change treatment choice in time) using an already-validated organoid platform, giving nearer-term, higher-value readouts than idea 6's speculative mechanical-niche measurement problem.",
+      "target": 6,
+      "timestamp": "2026-09-17T04:59:01.193518+00:00"
+    },
+    {
+      "main_risk": "Whether spatial FADS1/lipid measurements reflect active signaling rather than nonspecific lipid accumulation",
+      "next_test": "Correlate spatial FADS1/lipid signal with orthogonal T-cell metabolic/cytotoxicity assays in a small tissue panel",
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "Idea 10 builds on a concrete published mechanism (FADS1-arachidonic acid impairing CXCR6+ Trm fitness) giving a differentiated, testable spatial biomarker for an actionable therapy choice, whereas idea 6's mechanical-stress proxies in clinical tissue are unvalidated and harder to standardize.",
+      "target": 6,
+      "timestamp": "2026-09-17T04:59:01.193541+00:00"
+    },
+    {
+      "main_risk": "Whether the tumor-CAF-immune neighborhood measured is reproducible across specimens and platforms",
+      "next_test": "Cross-platform concordance check of neighborhood scores from replicate regions using spatial transcriptomics vs multiplex imaging",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "Idea 13 has higher evidence readiness, an already-working patient-derived tumoroid system preserving stroma/immune context, and a clearly staged nested-baseline validation plan, making it more tractable than idea 6's unproven mechanical-proxy measurement chain.",
+      "target": 6,
+      "timestamp": "2026-09-17T04:59:01.193551+00:00"
+    },
+    {
+      "main_risk": "Whether the spatial topology signal is confounded by anatomical site or prior treatment rather than reflecting drug response biology",
+      "next_test": "Fit patient-level models with and without site adjustment and check whether topology signal survives site-stratified analysis",
+      "opponent": 8,
+      "outcome": "loss",
+      "reason": "Idea 8 leverages existing spatial transcriptomic data across matched metastatic sites with a clearer genotype-anchored comparison and leave-one-site-out design, offering better competitive positioning than idea 6's unestablished mechanical-stress proxy approach.",
+      "target": 6,
+      "timestamp": "2026-09-17T04:59:01.193559+00:00"
+    },
+    {
+      "main_risk": "Whether the molecular modality captures biology not redundant with existing biometry and Doppler measures",
+      "next_test": "Compare nested reference vs multimodal models within onset-timing strata using net benefit and calibration",
+      "opponent": 26,
+      "outcome": "loss",
+      "reason": "Idea 26 has a clinically consequential, reproducibly definable endpoint and rigorous leakage/calibration safeguards with an established baseline (sFlt-1/PlGF), offering a cheaper, more decisive early test than idea 6's unresolved mechanical-proxy validation problem.",
+      "target": 6,
+      "timestamp": "2026-09-17T04:59:01.193569+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 6,
-      "rating": 1501.56,
-      "wins": 6
+      "rating": 1513.63,
+      "wins": 7
     },
     "10": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 5,
-      "rating": 1500.65,
-      "wins": 5
+      "rating": 1512.33,
+      "wins": 6
     },
     "11": {
       "draws": 0,
@@ -978,10 +1023,10 @@
     },
     "13": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 5,
-      "rating": 1497.85,
-      "wins": 5
+      "rating": 1509.23,
+      "wins": 6
     },
     "15": {
       "draws": 0,
@@ -1055,10 +1100,10 @@
     },
     "26": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 2,
-      "rating": 1523.36,
-      "wins": 4
+      "rating": 1533.1,
+      "wins": 5
     },
     "3": {
       "draws": 0,
@@ -1083,9 +1128,9 @@
     },
     "6": {
       "draws": 0,
-      "games": 6,
-      "losses": 3,
-      "rating": 1503.55,
+      "games": 11,
+      "losses": 8,
+      "rating": 1447.25,
       "wins": 3
     },
     "7": {
@@ -1097,10 +1142,10 @@
     },
     "8": {
       "draws": 0,
-      "games": 13,
+      "games": 14,
       "losses": 7,
-      "rating": 1484.94,
-      "wins": 6
+      "rating": 1496.37,
+      "wins": 7
     },
     "9": {
       "draws": 0,
