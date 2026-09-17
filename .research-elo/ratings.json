@@ -989,16 +989,61 @@
       "reason": "Idea 26 has a clinically consequential, reproducibly definable endpoint and rigorous leakage/calibration safeguards with an established baseline (sFlt-1/PlGF), offering a cheaper, more decisive early test than idea 6's unresolved mechanical-proxy validation problem.",
       "target": 6,
       "timestamp": "2026-09-17T04:59:01.193569+00:00"
+    },
+    {
+      "main_risk": "Whether a clinically adjudicated management endpoint can be defined reproducibly across sites in either disease area",
+      "next_test": "Freeze the reference (clinical+biometry+Doppler vs clinical+frailty+function) model and check if it alone already saturates decision-relevant discrimination before adding any molecular layer",
+      "opponent": 23,
+      "outcome": "win",
+      "reason": "FGR carries higher stakes (perinatal morbidity/mortality) and already has an established biomarker (sFlt-1/PlGF) and management pathway to anchor incremental-value testing, whereas the arthroplasty rehab decision is lower-stakes and less clinically consequential even though both proposals share the same generic incremental-biomarker template.",
+      "target": 26,
+      "timestamp": "2026-09-17T11:49:45.485492+00:00"
+    },
+    {
+      "main_risk": "Whether the FAM230F signal is independent biology versus a tumor-burden proxy or cutoff-selection artifact from the original validation cohort",
+      "next_test": "Blinded multi-site replicate assay run to check reproducibility and whether the previously selected cutoff still discriminates before any incremental-value modeling",
+      "opponent": 24,
+      "outcome": "loss",
+      "reason": "The HCC idea is anchored to a specific, previously discriminating marker (FAM230F cfDNA) with a concrete, cheap reproducibility test, giving it a real competitive/timeliness edge; the FGR idea leaves the molecular modality entirely unspecified, which is a floating anchor risking a forced, arbitrary pairing.",
+      "target": 26,
+      "timestamp": "2026-09-17T11:49:45.485508+00:00"
+    },
+    {
+      "main_risk": "Whether pretreatment marrow architecture shows reproducible, patient-level variation in leukemia-T-cell spatial accessibility beyond assay noise",
+      "next_test": "Pilot multiplex spatial profiling on a small paired-biopsy cohort to check neighborhood-feature reproducibility across adjacent sections before full-cohort modeling",
+      "opponent": 11,
+      "outcome": "loss",
+      "reason": "The spatial T-cell/blinatumomab idea offers genuine discovery value about resistance mechanisms with informative branches regardless of outcome (spatial segregation vs composition-only), while the FGR idea is a narrower incremental-calibration exercise with a floating, unspecified molecular modality.",
+      "target": 26,
+      "timestamp": "2026-09-17T11:49:45.485514+00:00"
+    },
+    {
+      "main_risk": "Whether tunnel epithelial states are reproducibly classifiable across patients and disease severity rather than being specimen-specific artifacts",
+      "next_test": "Blinded replicate-section classification of tunnel states across a small multi-severity cohort to establish reproducibility before linking to treatment response",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "The HS tunnel-state idea has a specific mechanistic anchor (IL-17/retinoid-defined epithelial states) with an orthogonal perturbation-validation branch and a differentiated hypothesis, whereas the FGR proposal is a generic 'any molecular modality' template with high risk of forced method-application pairing.",
+      "target": 26,
+      "timestamp": "2026-09-17T11:49:45.485518+00:00"
+    },
+    {
+      "main_risk": "Whether organoids can be established and assayed reliably within the clinically actionable treatment-decision window",
+      "next_test": "Prospectively track establishment success rate and turnaround time against real decision deadlines in an initial patient series before any predictive modeling",
+      "opponent": 1,
+      "outcome": "loss",
+      "reason": "The organoid functional-profiling idea targets a concrete, high-stakes clinical decision window and directly tests whether functional data changes treatment choice, offering strong translational value and a decisive early feasibility readout; FGR's floating, unspecified molecular modality is comparatively generic and less differentiated.",
+      "target": 26,
+      "timestamp": "2026-09-17T11:49:45.485522+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 13,
+      "games": 14,
       "losses": 6,
-      "rating": 1513.63,
-      "wins": 7
+      "rating": 1525.47,
+      "wins": 8
     },
     "10": {
       "draws": 0,
@@ -1009,10 +1054,10 @@
     },
     "11": {
       "draws": 0,
-      "games": 7,
+      "games": 8,
       "losses": 2,
-      "rating": 1535.08,
-      "wins": 5
+      "rating": 1547.0,
+      "wins": 6
     },
     "12": {
       "draws": 0,
@@ -1079,17 +1124,17 @@
     },
     "23": {
       "draws": 0,
-      "games": 7,
-      "losses": 2,
-      "rating": 1534.35,
+      "games": 8,
+      "losses": 3,
+      "rating": 1522.31,
       "wins": 5
     },
     "24": {
       "draws": 1,
-      "games": 10,
+      "games": 11,
       "losses": 3,
-      "rating": 1531.34,
-      "wins": 6
+      "rating": 1543.82,
+      "wins": 7
     },
     "25": {
       "draws": 1,
@@ -1100,10 +1145,10 @@
     },
     "26": {
       "draws": 0,
-      "games": 7,
-      "losses": 2,
-      "rating": 1533.1,
-      "wins": 5
+      "games": 12,
+      "losses": 6,
+      "rating": 1497.03,
+      "wins": 6
     },
     "3": {
       "draws": 0,
@@ -1149,10 +1194,10 @@
     },
     "9": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 4,
-      "rating": 1524.47,
-      "wins": 6
+      "rating": 1536.34,
+      "wins": 7
     }
   },
   "version": 2
