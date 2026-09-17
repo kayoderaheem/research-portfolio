@@ -1034,6 +1034,51 @@
       "reason": "The organoid functional-profiling idea targets a concrete, high-stakes clinical decision window and directly tests whether functional data changes treatment choice, offering strong translational value and a decisive early feasibility readout; FGR's floating, unspecified molecular modality is comparatively generic and less differentiated.",
       "target": 26,
       "timestamp": "2026-09-17T11:49:45.485522+00:00"
+    },
+    {
+      "main_risk": "Whether the compact expression programs remain regimen-specific and calibrated once tested in truly independent cohorts, versus reflecting cohort/treatment-selection confounding.",
+      "next_test": "Lock regimen-specific programs and compare clinical-only vs clinical-plus-program prediction in a blinded independent cohort; check calibration and decision-curve net benefit.",
+      "opponent": 25,
+      "outcome": "loss",
+      "reason": "Lupus nephritis proposal (25) targets an already-established regimen-specific molecular signal with a locked, transportable validation protocol tied to a concrete decision (enrichment), whereas #5 requires first establishing that a novel spatial transition even exists before any decision-relevant test is possible, adding an extra high-risk discovery step ahead of validation.",
+      "target": 5,
+      "timestamp": "2026-09-17T17:05:41.191382+00:00"
+    },
+    {
+      "main_risk": "Whether the proposed spatial/niche relationship (BMP-fibroblast-epithelial or damage-antigen-T-cell) is reproducible across patients rather than a proxy for tumor burden or treatment intensity.",
+      "next_test": "Apply the locked spatial score to an initial pretreatment/early-treatment patient set and test patient-level reproducibility and incremental value over composition-only baselines.",
+      "opponent": 15,
+      "outcome": "draw",
+      "reason": "Both are spatially anchored, hybrid/precision-medicine ideas of similar scope, risk structure, and validation rigor; #15 has a testable mechanistic perturbation arm (BCL2/BMP co-culture) while #5 has a clearer temporal/discovery framing, but neither has a decisive edge in tractability or evidence readiness.",
+      "target": 5,
+      "timestamp": "2026-09-17T17:05:41.191401+00:00"
+    },
+    {
+      "main_risk": "Whether spatial neighborhood features add information beyond cell composition and clinical covariates in nested patient-level models.",
+      "next_test": "Run the prespecified nested composition-vs-spatial model comparison on a pilot cohort with patient-level cross-validation.",
+      "opponent": 11,
+      "outcome": "draw",
+      "reason": "Both #11 and #5 address whether spatial context predicts treatment response beyond composition, with comparable risk structures, similarly rigorous leakage controls, and floating assay/platform choices; neither shows a clear edge in feasibility or impact given both rest on an unproven high-risk spatial-transition assumption.",
+      "target": 5,
+      "timestamp": "2026-09-17T17:05:41.191410+00:00"
+    },
+    {
+      "main_risk": "Whether the FAM230F signal is primarily a proxy for tumor burden rather than an independent early-detection marker, and whether its calibration holds across sites.",
+      "next_test": "Blind multi-site replicate testing of FAM230F reproducibility and incremental net benefit over the locked ultrasound-plus-AFP model.",
+      "opponent": 24,
+      "outcome": "loss",
+      "reason": "HCC surveillance biomarker validation (24) builds on an existing, previously validated cfDNA signal and focuses on a well-defined external calibration/transportability question with a clear clinical decision (triage threshold), a lower-risk chain of assumptions than #5's requirement to first discover and characterize a novel spatial transition.",
+      "target": 5,
+      "timestamp": "2026-09-17T17:05:41.191417+00:00"
+    },
+    {
+      "main_risk": "Whether the proposed spatial state (tunnel epithelial or damage-immune transition) is reproducible across patients and adds information beyond lesion/cell composition and clinical covariates.",
+      "next_test": "Apply the locked spatial classifier/score to a pilot pretreatment cohort and compare against composition-plus-clinical baselines using nested cross-validation.",
+      "opponent": 9,
+      "outcome": "draw",
+      "reason": "Both #9 and #5 propose spatially resolved epithelial/immune state discovery tied to treatment response prediction, with similar high-risk scientific assumptions about reproducibility and incremental spatial information, and comparable validation rigor; #9 has slightly lower stated priority/impact scores but includes a concrete perturbation-based mechanistic test, offsetting the difference.",
+      "target": 5,
+      "timestamp": "2026-09-17T17:05:41.191424+00:00"
     }
   ],
   "k_factor": 24,
@@ -1053,10 +1098,10 @@
       "wins": 6
     },
     "11": {
-      "draws": 0,
-      "games": 8,
+      "draws": 1,
+      "games": 9,
       "losses": 2,
-      "rating": 1547.0,
+      "rating": 1546.92,
       "wins": 6
     },
     "12": {
@@ -1074,10 +1119,10 @@
       "wins": 6
     },
     "15": {
-      "draws": 0,
-      "games": 7,
+      "draws": 1,
+      "games": 8,
       "losses": 1,
-      "rating": 1558.41,
+      "rating": 1557.92,
       "wins": 6
     },
     "17": {
@@ -1131,17 +1176,17 @@
     },
     "24": {
       "draws": 1,
-      "games": 11,
+      "games": 12,
       "losses": 3,
-      "rating": 1543.82,
-      "wins": 7
+      "rating": 1555.85,
+      "wins": 8
     },
     "25": {
       "draws": 1,
-      "games": 8,
+      "games": 9,
       "losses": 1,
-      "rating": 1557.82,
-      "wins": 6
+      "rating": 1569.76,
+      "wins": 7
     },
     "26": {
       "draws": 0,
@@ -1165,10 +1210,10 @@
       "wins": 3
     },
     "5": {
-      "draws": 0,
-      "games": 7,
-      "losses": 1,
-      "rating": 1556.06,
+      "draws": 3,
+      "games": 12,
+      "losses": 3,
+      "rating": 1532.79,
       "wins": 6
     },
     "6": {
@@ -1193,10 +1238,10 @@
       "wins": 7
     },
     "9": {
-      "draws": 0,
-      "games": 11,
+      "draws": 1,
+      "games": 12,
       "losses": 4,
-      "rating": 1536.34,
+      "rating": 1536.21,
       "wins": 7
     }
   },

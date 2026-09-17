@@ -104,12 +104,12 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | Rank | Research idea | Rating | Comparisons | Record |
 |---:|---|---:|---:|---:|
 | 1 | [#17 — [Idea] Patient-level tissue-context gain over composition for multimodal lymphoma treatment-response prediction](https://github.com/kayoderaheem/research-portfolio/issues/17) | **1581** | 9 | 8W / 0D / 1L |
-| 2 | [#15 — [Idea] BMP-restraint failure and BCL2-high niches as predictors of diffuse gastric cancer treatment response](https://github.com/kayoderaheem/research-portfolio/issues/15) | **1558** | 7 | 6W / 0D / 1L |
-| 3 | [#25 — [Idea] Treatment-specific multimodal validation of lupus nephritis response programs](https://github.com/kayoderaheem/research-portfolio/issues/25) | **1558** | 8 | 6W / 1D / 1L |
-| 4 | [#5 — [Idea] Spatially resolved immune-priming trajectories during cervical chemoradiotherapy](https://github.com/kayoderaheem/research-portfolio/issues/5) | **1556** | 7 | 6W / 0D / 1L |
-| 5 | [#11 — [Idea] Spatially constrained T-cell fitness states predicting blinatumomab response in B-cell leukemia](https://github.com/kayoderaheem/research-portfolio/issues/11) | **1547** | 8 | 6W / 0D / 2L |
-| 6 | [#24 — [Idea] External calibration of multimodal HCC surveillance triage](https://github.com/kayoderaheem/research-portfolio/issues/24) | **1544** | 11 | 7W / 1D / 3L |
-| 7 | [#9 — [Idea] Spatially resolved IL-17 and retinoid states predicting tunnel-directed therapy response in hidradenitis suppurativa](https://github.com/kayoderaheem/research-portfolio/issues/9) | **1536** | 11 | 7W / 0D / 4L |
+| 2 | [#25 — [Idea] Treatment-specific multimodal validation of lupus nephritis response programs](https://github.com/kayoderaheem/research-portfolio/issues/25) | **1570** | 9 | 7W / 1D / 1L |
+| 3 | [#15 — [Idea] BMP-restraint failure and BCL2-high niches as predictors of diffuse gastric cancer treatment response](https://github.com/kayoderaheem/research-portfolio/issues/15) | **1558** | 8 | 6W / 1D / 1L |
+| 4 | [#24 — [Idea] External calibration of multimodal HCC surveillance triage](https://github.com/kayoderaheem/research-portfolio/issues/24) | **1556** | 12 | 8W / 1D / 3L |
+| 5 | [#11 — [Idea] Spatially constrained T-cell fitness states predicting blinatumomab response in B-cell leukemia](https://github.com/kayoderaheem/research-portfolio/issues/11) | **1547** | 9 | 6W / 1D / 2L |
+| 6 | [#9 — [Idea] Spatially resolved IL-17 and retinoid states predicting tunnel-directed therapy response in hidradenitis suppurativa](https://github.com/kayoderaheem/research-portfolio/issues/9) | **1536** | 12 | 7W / 1D / 4L |
+| 7 | [#5 — [Idea] Spatially resolved immune-priming trajectories during cervical chemoradiotherapy](https://github.com/kayoderaheem/research-portfolio/issues/5) | **1533** | 12 | 6W / 3D / 3L |
 | 8 | [#1 — [Idea] Time-to-decision functional profiling for resistance-aware combination therapy](https://github.com/kayoderaheem/research-portfolio/issues/1) | **1525** | 14 | 8W / 0D / 6L |
 | 9 | [#23 — [Idea] Incremental value of dynamic inflammation for recovery-guided rehabilitation after knee arthroplasty](https://github.com/kayoderaheem/research-portfolio/issues/23) | **1522** | 8 | 5W / 0D / 3L |
 | 10 | [#10 — [Idea] Metabolite-defined resident-memory niches that determine checkpoint response in hepatocellular carcinoma](https://github.com/kayoderaheem/research-portfolio/issues/10) | **1512** | 11 | 6W / 0D / 5L |
@@ -127,7 +127,7 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | 22 | [#19 — [Idea] Spatially gated ZNF423-stress transitions predicting therapy escape in NF1-associated MPNST](https://github.com/kayoderaheem/research-portfolio/issues/19) | **1442** | 9 | 2W / 0D / 7L |
 | 23 | [#21 — [Idea] Decision-value thresholds for multimodal treatment matching in opioid use disorder](https://github.com/kayoderaheem/research-portfolio/issues/21) | **1389** | 10 | 0W / 0D / 10L |
 
-_Last synchronized: 2026-09-17 11:49 UTC._
+_Last synchronized: 2026-09-17 17:05 UTC._
 <!-- RESEARCH_ELO_END -->
 
 ## Add ideas manually
