@@ -1079,23 +1079,68 @@
       "reason": "Both #9 and #5 propose spatially resolved epithelial/immune state discovery tied to treatment response prediction, with similar high-risk scientific assumptions about reproducibility and incremental spatial information, and comparable validation rigor; #9 has slightly lower stated priority/impact scores but includes a concrete perturbation-based mechanistic test, offsetting the difference.",
       "target": 5,
       "timestamp": "2026-09-17T17:05:41.191424+00:00"
+    },
+    {
+      "main_risk": "Organoid establishment success rate and turnaround time may be too slow/unreliable for the clinical decision window.",
+      "next_test": "Prospectively track organoid establishment success and turnaround time against actual treatment-decision deadlines in eligible metastatic cases.",
+      "opponent": 1,
+      "outcome": "loss",
+      "reason": "Resistance-aware combination therapy for metastatic disease targets a higher-stakes, more generalizable clinical decision (treatment selection under a life-threatening deadline) than incremental rehab metrics after a mostly successful elective surgery; it also has a clearer actionable decision window and strong baselines.",
+      "target": 23,
+      "timestamp": "2026-09-17T21:27:48.516282+00:00"
+    },
+    {
+      "main_risk": "Spatial lipid/FADS1 measurements may not be reproducible or normalizable across platforms and patients.",
+      "next_test": "Multiplex spatial profiling of FADS1/lipid markers vs CXCR6+ Trm in a small pretreatment HCC cohort to test proximity-fitness association.",
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "The FADS1-arachidonic acid spatial niche mechanism offers a specific, testable, drug-targetable biology with direct therapeutic implications (FADS1 inhibition plus checkpoint/CAR-T), giving higher novelty and translational leverage than incremental multimodal recovery scoring in TKA.",
+      "target": 23,
+      "timestamp": "2026-09-17T21:27:48.516310+00:00"
+    },
+    {
+      "main_risk": "Serial tissue sampling during chemoradiotherapy may not yield biologically comparable, well-timed regions across patients.",
+      "next_test": "Profile paired baseline/early-treatment specimens in an initial patient set and test transition reproducibility via patient-level resampling.",
+      "opponent": 5,
+      "outcome": "loss",
+      "reason": "Discovering a reproducible treatment-induced spatial immune-priming transition has broader mechanistic and biomarker-timing value across chemoradiotherapy-immunotherapy combinations, despite high technical risk, compared to the narrower incremental-value question in TKA rehab.",
+      "target": 23,
+      "timestamp": "2026-09-17T21:27:48.516321+00:00"
+    },
+    {
+      "main_risk": "Reproducible tumor-CAF-immune neighborhoods may not replicate across specimens/platforms or may just reflect tumor genotype.",
+      "next_test": "Profile replicate regions from independent specimens with both spatial transcriptomics and imaging to quantify cross-platform neighborhood concordance.",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "CAF-immune spatial buffering in EGFR-targeted lung adenocarcinoma has the highest stated evidence readiness, an established tumoroid validation system, and addresses a major oncology indication, giving stronger competitive position and useful failure branches than the TKA rehab question.",
+      "target": 23,
+      "timestamp": "2026-09-17T21:27:48.516328+00:00"
+    },
+    {
+      "main_risk": "The inferred retinoid program may be a consequence rather than a driver of chronic tunnels, undermining actionability.",
+      "next_test": "Apply the locked two-state spatial classifier to a small pretreatment biopsy set and compare response prediction against clinical/composition baselines.",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "The IL-17/retinoid tunnel-state hypothesis has fewer high-risk assumptions, a concrete orthogonal in-vitro validation path (keratinocyte/tunnel culture perturbations), and a clearer mechanistic split for treatment stratification, versus TKA rehab which stacks four high-risk assumptions including a hard-to-lock clinical decision protocol.",
+      "target": 23,
+      "timestamp": "2026-09-17T21:27:48.516335+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 6,
-      "rating": 1525.47,
-      "wins": 8
+      "rating": 1537.36,
+      "wins": 9
     },
     "10": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 5,
-      "rating": 1512.33,
-      "wins": 6
+      "rating": 1524.26,
+      "wins": 7
     },
     "11": {
       "draws": 1,
@@ -1113,10 +1158,10 @@
     },
     "13": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 5,
-      "rating": 1509.23,
-      "wins": 6
+      "rating": 1520.49,
+      "wins": 7
     },
     "15": {
       "draws": 1,
@@ -1169,9 +1214,9 @@
     },
     "23": {
       "draws": 0,
-      "games": 8,
-      "losses": 3,
-      "rating": 1522.31,
+      "games": 13,
+      "losses": 8,
+      "rating": 1466.46,
       "wins": 5
     },
     "24": {
@@ -1211,10 +1256,10 @@
     },
     "5": {
       "draws": 3,
-      "games": 12,
+      "games": 13,
       "losses": 3,
-      "rating": 1532.79,
-      "wins": 6
+      "rating": 1543.61,
+      "wins": 7
     },
     "6": {
       "draws": 0,
@@ -1239,10 +1284,10 @@
     },
     "9": {
       "draws": 1,
-      "games": 12,
+      "games": 13,
       "losses": 4,
-      "rating": 1536.21,
-      "wins": 7
+      "rating": 1546.16,
+      "wins": 8
     }
   },
   "version": 2
