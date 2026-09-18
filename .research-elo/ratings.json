@@ -1259,6 +1259,51 @@
       "reason": "TAILOR-PANC gives a randomized-trial backbone enabling genuine differential-treatment-effect estimation, a stronger causal design and real data advantage, versus the myeloid-niche idea which depends on newly generated multi-organ spatial data and a long chain of transfer assumptions.",
       "target": 4,
       "timestamp": "2026-09-18T16:30:32.363688+00:00"
+    },
+    {
+      "main_risk": "Whether temporal signal survives measurement-density confounding control",
+      "next_test": "Add measurement-frequency features to static model and check if temporal AUROC gain collapses",
+      "opponent": 29,
+      "outcome": "win",
+      "reason": "ICU deterioration risk leverages large public multi-site cohorts (MIMIC-IV/eICU) with a clearly defined, clinically anchored outcome and decision-curve framework; the miRNA toxicity idea is narrow (single-site pilot, small n) with two independent high-risk 12-week external-access assumptions stacked before any decision value can be shown.",
+      "target": 27,
+      "timestamp": "2026-09-18T20:58:24.345436+00:00"
+    },
+    {
+      "main_risk": "Whether eosinophil/FeNO incremental value survives adjustment for corticosteroid exposure and platform harmonization",
+      "next_test": "Fit nested clinical-only vs +biomarker models on one registry and check reclassification after confounder adjustment",
+      "opponent": 28,
+      "outcome": "loss",
+      "reason": "Both share equal priority scores, but the asthma T2 biomarker question ties directly to a costly, widely relevant biologic-eligibility decision with a lower-risk assumption chain (assay harmonization, confounder adjustment) than ICU's need for a third hard-to-access ICU database plus unresolved confounding.",
+      "target": 27,
+      "timestamp": "2026-09-18T20:58:24.345453+00:00"
+    },
+    {
+      "main_risk": "Whether a reproducible, clinically consequential management endpoint can even be defined and adjudicated across sites",
+      "next_test": "Run blinded endpoint adjudication agreement across 2 sites before any model development",
+      "opponent": 26,
+      "outcome": "win",
+      "reason": "Fetal growth restriction has higher stated impact and a broad, clinically vital anchor, but stacks three high-risk, long-readout assumptions (endpoint definition, non-redundancy, site calibration); ICU deterioration has a firmer existing evidence base and fewer stacked high-risk items, giving a faster credible readout.",
+      "target": 27,
+      "timestamp": "2026-09-18T20:58:24.345459+00:00"
+    },
+    {
+      "main_risk": "Whether pre-treatment spatial topology adds information beyond composition/genotype once patient-level nested validation is applied",
+      "next_test": "Fit topology vs composition-only vs clinical baseline models with nested CV on the development cohort and compare calibrated log loss",
+      "opponent": 8,
+      "outcome": "loss",
+      "reason": "The ALK spatial-niche question offers genuine discovery value (novel mechanism, useful branches even if hypothesis fails via composition-only baselines) versus ICU work where the temporal model already failed to beat tuned LightGBM, undercutting its likelihood of showing new decision value despite similar risk profiles.",
+      "target": 27,
+      "timestamp": "2026-09-18T20:58:24.345463+00:00"
+    },
+    {
+      "main_risk": "Whether early DDT biomarker changes precede rather than merely correlate with resistance emergence",
+      "next_test": "Serially measure lesion/replication-stress markers in treatment-naive to resistant patient-derived models and test predictive timing before regrowth",
+      "opponent": 3,
+      "outcome": "loss",
+      "reason": "DNA-damage-tolerance escape offers a mechanistic, interventional readout (biomarker plus functional rescue via TLS/USP1 inhibition) giving strong causal branches even on failure, versus ICU's more incremental, already-lukewarm discrimination gain over simpler snapshot/LightGBM baselines.",
+      "target": 27,
+      "timestamp": "2026-09-18T20:58:24.345468+00:00"
     }
   ],
   "k_factor": 24,
@@ -1370,17 +1415,38 @@
     },
     "26": {
       "draws": 0,
-      "games": 12,
-      "losses": 6,
-      "rating": 1497.03,
+      "games": 13,
+      "losses": 7,
+      "rating": 1485.12,
       "wins": 6
+    },
+    "27": {
+      "draws": 0,
+      "games": 5,
+      "losses": 3,
+      "rating": 1486.66,
+      "wins": 2
+    },
+    "28": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1512.41,
+      "wins": 1
+    },
+    "29": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
     },
     "3": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 6,
-      "rating": 1489.84,
-      "wins": 5
+      "rating": 1502.16,
+      "wins": 6
     },
     "4": {
       "draws": 1,
@@ -1412,10 +1478,10 @@
     },
     "8": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 7,
-      "rating": 1496.37,
-      "wins": 7
+      "rating": 1508.89,
+      "wins": 8
     },
     "9": {
       "draws": 1,
