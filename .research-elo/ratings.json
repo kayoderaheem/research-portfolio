@@ -1169,6 +1169,51 @@
       "reason": "#19 already has a concrete experimental anchor (existing GEO dataset showing ZNF423 restoration) giving evidence readiness and a clear mechanistic hypothesis, whereas #12 must first prove that a very rare clinical cohort (HIV+ melanoma checkpoint patients) can even be assembled before any modeling begins.",
       "target": 12,
       "timestamp": "2026-09-18T04:51:22.446262+00:00"
+    },
+    {
+      "main_risk": "Whether FAM230F signal is independent of tumor burden rather than a late-stage proxy (assumption 4 in #24).",
+      "next_test": "Blinded multi-site cfDNA replicate/dilution panel plus locked nested model comparison vs ultrasound+AFP baseline (#24's 10-week test).",
+      "opponent": 24,
+      "outcome": "loss",
+      "reason": "#24 has a narrower, already-partially-validated biomarker (FAM230F) with a single clear clinical decision (triage before confirmatory workup), cheap early replication/reproducibility test, and calibration-focused validation plan; #15 requires establishing a novel multi-component causal niche (BMP-fibroblast-BCL2) plus organoid perturbation before any clinical claim, a longer chain of high-risk assumptions.",
+      "target": 15,
+      "timestamp": "2026-09-18T11:24:38.542038+00:00"
+    },
+    {
+      "main_risk": "Whether pretreatment marrow architecture shows reproducible T-cell/leukemia spatial variation at all (#11's first assumption).",
+      "next_test": "Pilot multiplex spatial profiling of pretreatment marrow, quantify neighborhood accessibility, compare nested models against composition/clinical baseline (#11's 10-week test).",
+      "opponent": 11,
+      "outcome": "loss",
+      "reason": "Both are spatial-niche-to-treatment-response hybrid designs with similarly high-risk chained assumptions, but #11 builds on an already-observed baseline signal (CD8 effector-memory vs TIM3+ exhaustion) grounded in well-characterized immunology, whereas #15's BMP/OPN/BCL2 axis is less established and adds a further speculative therapeutic-targeting leg.",
+      "target": 15,
+      "timestamp": "2026-09-18T11:24:38.542055+00:00"
+    },
+    {
+      "main_risk": "Whether BCL2-high persistence is a causal niche effect versus a marker of clonal abundance (#15's competing explanation).",
+      "next_test": "Locked spatial score on paired pretreatment/early-treatment gastric specimens tested for association with persistence, replicated in an independent cohort.",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "#15 targets a life-threatening malignancy with a defined resistance mechanism and existing drug class (BCL2 inhibitors) to test, giving higher patient impact and priority score (4.30 vs 4.00); #9 addresses a real but lower-stakes chronic dermatologic disease and is more descriptive/exploratory of tunnel biology.",
+      "target": 15,
+      "timestamp": "2026-09-18T11:24:38.542063+00:00"
+    },
+    {
+      "main_risk": "Whether any regimen shows robust external-cohort calibration/net-benefit after strict leakage controls (#25's core scientific risk).",
+      "next_test": "Lock smallest regimen-specific programs and compare clinical-only vs clinical-plus-program prediction in a blinded independent, harmonized sample set.",
+      "opponent": 25,
+      "outcome": "loss",
+      "reason": "#25 is a rigorous, validation-first design reusing existing compact expression programs with strong emphasis on calibration, decision-curve utility, and leakage control, avoiding causal overreach; it has a cheaper, more direct earliest test than #15's requirement for novel mechanistic discovery plus organoid co-culture perturbation.",
+      "target": 15,
+      "timestamp": "2026-09-18T11:24:38.542068+00:00"
+    },
+    {
+      "main_risk": "Whether early spatial transitions are measurable/reproducible from serial cervical tumor sampling without confounding by treatment intensity or site (#5's top technical risk).",
+      "next_test": "Profile paired baseline/early-treatment specimens in an initial patient set and test transition reproducibility via patient-level resampling before any model comparison.",
+      "opponent": 5,
+      "outcome": "win",
+      "reason": "Both are hybrid spatial-transition discovery designs with similar priority scores and comparable high-risk assumption chains, but #15 pairs its niche hypothesis with a concrete, already-approved drug class (BCL2 inhibitors) for downstream testing, while #5 depends on logistically demanding serial biopsies during a short chemoradiotherapy window and a more speculative checkpoint-timing hypothesis.",
+      "target": 15,
+      "timestamp": "2026-09-18T11:24:38.542073+00:00"
     }
   ],
   "k_factor": 24,
@@ -1189,10 +1234,10 @@
     },
     "11": {
       "draws": 1,
-      "games": 9,
+      "games": 10,
       "losses": 2,
-      "rating": 1546.92,
-      "wins": 6
+      "rating": 1558.88,
+      "wins": 7
     },
     "12": {
       "draws": 0,
@@ -1210,10 +1255,10 @@
     },
     "15": {
       "draws": 1,
-      "games": 8,
-      "losses": 1,
-      "rating": 1557.92,
-      "wins": 6
+      "games": 13,
+      "losses": 4,
+      "rating": 1547.41,
+      "wins": 8
     },
     "17": {
       "draws": 0,
@@ -1266,17 +1311,17 @@
     },
     "24": {
       "draws": 1,
-      "games": 12,
+      "games": 13,
       "losses": 3,
-      "rating": 1555.85,
-      "wins": 8
+      "rating": 1567.92,
+      "wins": 9
     },
     "25": {
       "draws": 1,
-      "games": 9,
+      "games": 10,
       "losses": 1,
-      "rating": 1569.76,
-      "wins": 7
+      "rating": 1580.95,
+      "wins": 8
     },
     "26": {
       "draws": 0,
@@ -1301,9 +1346,9 @@
     },
     "5": {
       "draws": 3,
-      "games": 13,
-      "losses": 3,
-      "rating": 1543.61,
+      "games": 14,
+      "losses": 4,
+      "rating": 1531.32,
       "wins": 7
     },
     "6": {
@@ -1329,9 +1374,9 @@
     },
     "9": {
       "draws": 1,
-      "games": 13,
-      "losses": 4,
-      "rating": 1546.16,
+      "games": 14,
+      "losses": 5,
+      "rating": 1533.74,
       "wins": 8
     }
   },
