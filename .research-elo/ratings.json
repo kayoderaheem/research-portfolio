@@ -1304,6 +1304,51 @@
       "reason": "DNA-damage-tolerance escape offers a mechanistic, interventional readout (biomarker plus functional rescue via TLS/USP1 inhibition) giving strong causal branches even on failure, versus ICU's more incremental, already-lukewarm discrimination gain over simpler snapshot/LightGBM baselines.",
       "target": 27,
       "timestamp": "2026-09-18T20:58:24.345468+00:00"
+    },
+    {
+      "main_risk": "Whether the shared glycolytic-inflammatory program is detectable pretreatment across sites rather than a culture-adaptation artifact.",
+      "next_test": "12-week multiplex spatial profiling of pretreatment/early on-treatment biopsies testing the predefined neighborhood score against composition/clinical baselines.",
+      "opponent": 18,
+      "outcome": "loss",
+      "reason": "Cholangiocarcinoma spatial resistance study targets a generalizable biological mechanism (glycolytic-inflammatory neighborhoods) with strong baselines, cross-site transfer tests, and orthogonal validation, versus #29's single-institution pilot biomarker with unresolved external-cohort access.",
+      "target": 29,
+      "timestamp": "2026-09-18T23:21:23.509444+00:00"
+    },
+    {
+      "main_risk": "Whether temporal-trajectory benefit collapses once measurement-density confounding is modeled.",
+      "next_test": "6-week ablation adding measurement-density features to static vs temporal models on held-out MIMIC-IV data.",
+      "opponent": 27,
+      "outcome": "loss",
+      "reason": "ICU deterioration risk work leverages large existing multi-hospital datasets (MIMIC-IV, eICU-CRD) with a mature analytic plan and real decision anchor, offering far higher-powered, faster feedback than #29's small single-pilot microRNA study needing an as-yet-unidentified external SBRT cohort.",
+      "target": 29,
+      "timestamp": "2026-09-18T23:21:23.509463+00:00"
+    },
+    {
+      "main_risk": "Whether early response dynamics carry information beyond baseline clinical/molecular variables once institution effects are controlled.",
+      "next_test": "10-week nested baseline-vs-early-change model comparison with site-held-out validation using existing trial data.",
+      "opponent": 2,
+      "outcome": "loss",
+      "reason": "TAILOR-PANC-linked transportable response signature addresses a higher-impact, better-powered randomized-trial-adjacent question, whereas #29 is a small pilot biomarker study whose incremental value over DVH/IPSS is uncertain and depends on an unsecured external cohort.",
+      "target": 29,
+      "timestamp": "2026-09-18T23:21:23.509473+00:00"
+    },
+    {
+      "main_risk": "Whether the molecular modality captures biology genuinely non-redundant with biometry/Doppler rather than reflecting gestational-age leakage.",
+      "next_test": "12-week locked reference model (clinical+biometry+Doppler) tested against one prespecified molecular panel for calibrated net benefit in a site-held-out cohort.",
+      "opponent": 26,
+      "outcome": "loss",
+      "reason": "Fetal growth restriction stratification addresses a higher-stakes, more common clinical decision (delivery/surveillance) with an established multimodal clinical infrastructure, versus #29's narrow single-biomarker toxicity question in a small radiotherapy niche.",
+      "target": 29,
+      "timestamp": "2026-09-18T23:21:23.509480+00:00"
+    },
+    {
+      "main_risk": "Whether candidate biomarkers distinguish tolerance-escape from nonspecific cytotoxic injury rather than general treatment stress.",
+      "next_test": "8-week comparison of resistant vs sensitive isogenic/patient-derived models matched for exposure and viability loss.",
+      "opponent": 3,
+      "outcome": "loss",
+      "reason": "DNA-damage-tolerance escape targets a mechanistic, broadly applicable resistance biology with functional perturbation validation across tumor types/agents, offering more generalizable insight than #29's narrow single-modality toxicity biomarker tied to one radiotherapy protocol.",
+      "target": 29,
+      "timestamp": "2026-09-18T23:21:23.509488+00:00"
     }
   ],
   "k_factor": 24,
@@ -1359,10 +1404,10 @@
     },
     "18": {
       "draws": 1,
-      "games": 12,
+      "games": 13,
       "losses": 6,
-      "rating": 1487.87,
-      "wins": 5
+      "rating": 1499.87,
+      "wins": 6
     },
     "19": {
       "draws": 0,
@@ -1373,10 +1418,10 @@
     },
     "2": {
       "draws": 0,
-      "games": 13,
+      "games": 14,
       "losses": 7,
-      "rating": 1485.75,
-      "wins": 6
+      "rating": 1497.01,
+      "wins": 7
     },
     "21": {
       "draws": 0,
@@ -1415,17 +1460,17 @@
     },
     "26": {
       "draws": 0,
-      "games": 13,
+      "games": 14,
       "losses": 7,
-      "rating": 1485.12,
-      "wins": 6
+      "rating": 1496.02,
+      "wins": 7
     },
     "27": {
       "draws": 0,
-      "games": 5,
+      "games": 6,
       "losses": 3,
-      "rating": 1486.66,
-      "wins": 2
+      "rating": 1498.29,
+      "wins": 3
     },
     "28": {
       "draws": 0,
@@ -1436,17 +1481,17 @@
     },
     "29": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
+      "games": 6,
+      "losses": 6,
+      "rating": 1432.26,
       "wins": 0
     },
     "3": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 6,
-      "rating": 1502.16,
-      "wins": 6
+      "rating": 1512.11,
+      "wins": 7
     },
     "4": {
       "draws": 1,
