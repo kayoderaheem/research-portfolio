@@ -1124,6 +1124,51 @@
       "reason": "The IL-17/retinoid tunnel-state hypothesis has fewer high-risk assumptions, a concrete orthogonal in-vitro validation path (keratinocyte/tunnel culture perturbations), and a clearer mechanistic split for treatment stratification, versus TKA rehab which stacks four high-risk assumptions including a hard-to-lock clinical decision protocol.",
       "target": 23,
       "timestamp": "2026-09-17T21:27:48.516335+00:00"
+    },
+    {
+      "main_risk": "Whether early treatment-induced transitions are truly reproducible across independent donors rather than model-specific stress artifacts.",
+      "next_test": "Profile matched pre/early-on-treatment samples from a handful of independent PDAC models and check directional concordance of the transition score before investing further.",
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "KRAS-blockade adaptive states target a broadly relevant oncogenic pathway with tractable patient-derived organoid/PDX models and serial sampling already feasible, versus #12's reliance on an extremely rare intersectional cohort (checkpoint-treated melanoma in HIV+ patients) that is historically underrepresented and hard to assemble.",
+      "target": 12,
+      "timestamp": "2026-09-18T04:51:22.446217+00:00"
+    },
+    {
+      "main_risk": "Whether the locked state score remains calibrated across sites/assays and isn't just a treatment-exposure or severity correlate.",
+      "next_test": "Run the locked feature/gating spec on replicate samples across two labs to test analytical reproducibility before any biological claims.",
+      "opponent": 22,
+      "outcome": "loss",
+      "reason": "The MS immune-state validation problem has realistic access to existing longitudinal anti-CD20/natalizumab cohorts and a well-scoped single clinical-use validation question, whereas #12 depends on assembling checkpoint-treated melanoma tissue specifically from HIV+ patients, a cohort that may not exist in sufficient numbers.",
+      "target": 12,
+      "timestamp": "2026-09-18T04:51:22.446239+00:00"
+    },
+    {
+      "main_risk": "Whether nuclear-morphology/vimentin mechanical proxies actually track true compressive stress rather than confounded hypoxia or necrosis.",
+      "next_test": "Compare mechanical proxies against controlled compression experiments in glioblastoma organoids to establish measurement validity before clinical tissue work.",
+      "opponent": 6,
+      "outcome": "loss",
+      "reason": "Glioblastoma mechanical-niche discovery, while high novelty/high risk, has access to more available tissue and established radiation cohorts; #12's core barrier is cohort scarcity (rare HIV+/melanoma/checkpoint overlap), which limits statistical power regardless of the mechanism's interest.",
+      "target": 12,
+      "timestamp": "2026-09-18T04:51:22.446248+00:00"
+    },
+    {
+      "main_risk": "Whether a rehabilitation decision rule can be specified and delivered consistently enough across sites to test added value of dynamic inflammation.",
+      "next_test": "Pilot the trajectory/decision protocol at one or two sites to confirm consistent delivery and measurement feasibility before multicenter validation.",
+      "opponent": 23,
+      "outcome": "loss",
+      "reason": "Knee arthroplasty rehabilitation is common, has large feasible multicenter cohorts, and a pragmatic, actionable clinical decision point, offering much stronger tractability and patient-value certainty than #12's rare-population precision-medicine question.",
+      "target": 12,
+      "timestamp": "2026-09-18T04:51:22.446255+00:00"
+    },
+    {
+      "main_risk": "Whether ZNF423 restoration is temporally causal for escape versus merely marking residual tumor burden.",
+      "next_test": "Use longitudinal lineage-aware sampling in available MPNST models to test if ZNF423-high niches precede rather than follow treatment escape.",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "#19 already has a concrete experimental anchor (existing GEO dataset showing ZNF423 restoration) giving evidence readiness and a clear mechanistic hypothesis, whereas #12 must first prove that a very rare clinical cohort (HIV+ melanoma checkpoint patients) can even be assembled before any modeling begins.",
+      "target": 12,
+      "timestamp": "2026-09-18T04:51:22.446262+00:00"
     }
   ],
   "k_factor": 24,
@@ -1151,9 +1196,9 @@
     },
     "12": {
       "draws": 0,
-      "games": 8,
-      "losses": 6,
-      "rating": 1456.15,
+      "games": 13,
+      "losses": 11,
+      "rating": 1399.95,
       "wins": 2
     },
     "13": {
@@ -1186,10 +1231,10 @@
     },
     "19": {
       "draws": 0,
-      "games": 9,
+      "games": 10,
       "losses": 7,
-      "rating": 1442.28,
-      "wins": 2
+      "rating": 1453.2,
+      "wins": 3
     },
     "2": {
       "draws": 0,
@@ -1207,17 +1252,17 @@
     },
     "22": {
       "draws": 0,
-      "games": 9,
+      "games": 10,
       "losses": 6,
-      "rating": 1464.92,
-      "wins": 3
+      "rating": 1476.2,
+      "wins": 4
     },
     "23": {
       "draws": 0,
-      "games": 13,
+      "games": 14,
       "losses": 8,
-      "rating": 1466.46,
-      "wins": 5
+      "rating": 1476.91,
+      "wins": 6
     },
     "24": {
       "draws": 1,
@@ -1263,17 +1308,17 @@
     },
     "6": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 8,
-      "rating": 1447.25,
-      "wins": 3
+      "rating": 1458.75,
+      "wins": 4
     },
     "7": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 7,
-      "rating": 1454.66,
-      "wins": 3
+      "rating": 1466.71,
+      "wins": 4
     },
     "8": {
       "draws": 0,
