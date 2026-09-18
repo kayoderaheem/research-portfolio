@@ -1214,6 +1214,51 @@
       "reason": "Both are hybrid spatial-transition discovery designs with similar priority scores and comparable high-risk assumption chains, but #15 pairs its niche hypothesis with a concrete, already-approved drug class (BCL2 inhibitors) for downstream testing, while #5 depends on logistically demanding serial biopsies during a short chemoradiotherapy window and a more speculative checkpoint-timing hypothesis.",
       "target": 15,
       "timestamp": "2026-09-18T11:24:38.542073+00:00"
+    },
+    {
+      "main_risk": "Whether treatment-induced myeloid localization is separable from lesion-size/segmentation artifacts across organs.",
+      "next_test": "8-week focused single-cell/spatial panel testing whether the prespecified interferon-responsive interface score tracks lesion control.",
+      "opponent": 22,
+      "outcome": "win",
+      "reason": "Myeloid-niche spatial mechanism offers broader discovery potential and functional validation branches, while the MS immune-state proposal is largely a replication/transportability exercise with a long chain of high-risk, slow readouts (12-24 weeks) before any decision.",
+      "target": 4,
+      "timestamp": "2026-09-18T16:30:32.363647+00:00"
+    },
+    {
+      "main_risk": "Whether spatial localization adds information beyond myeloid abundance alone.",
+      "next_test": "8-week nested model comparison of abundance-only vs functional-state-plus-neighborhood models on patient-level splits.",
+      "opponent": 23,
+      "outcome": "win",
+      "reason": "The myeloid-niche mechanism has a clearer causal, mechanism-linked hypothesis with translational leverage across immunotherapy combinations, whereas the arthroplasty proposal is an incremental clinical-operations question with a lower discovery ceiling.",
+      "target": 4,
+      "timestamp": "2026-09-18T16:30:32.363667+00:00"
+    },
+    {
+      "main_risk": "Whether candidate biomarkers distinguish DNA-damage-tolerance escape from nonspecific cytotoxic injury.",
+      "next_test": "10-week paired isogenic/PDX comparison of resistant vs sensitive models testing biomarker threshold prediction of regrowth and combination benefit.",
+      "opponent": 3,
+      "outcome": "loss",
+      "reason": "The DNA-damage-tolerance escape idea has a tighter mechanistic anchor and includes a genuine causal/functional perturbation test (add-on TLS/USP1 inhibition reversing resistance), giving a sharper continue/pivot signal than the more descriptive, transfer-dependent myeloid spatial biomarker.",
+      "target": 4,
+      "timestamp": "2026-09-18T16:30:32.363677+00:00"
+    },
+    {
+      "main_risk": "Whether the shared glycolytic-inflammatory program is detectable pretreatment rather than only reflecting prolonged in-vitro adaptation.",
+      "next_test": "12-week pretreatment/early on-treatment multiplex spatial profiling testing whether the neighborhood score predicts nonresponse, held out by anatomical site.",
+      "opponent": 18,
+      "outcome": "loss",
+      "reason": "The cholangiocarcinoma spatial metabolic-inflammatory idea is more tightly scoped (one cancer type, two anatomical sites) with a built-in artifact control (culture-adaptation check) and clean site-held-out transfer test, making it more tractable than the broader multi-organ metastatic myeloid proposal carrying more untested cross-organ/platform assumptions.",
+      "target": 4,
+      "timestamp": "2026-09-18T16:30:32.363683+00:00"
+    },
+    {
+      "main_risk": "Whether randomized subgroups provide sufficiently comparable outcome information to estimate differential benefit reliably.",
+      "next_test": "10-week lock of a compact baseline+early-interval signature evaluated for treatment interaction and calibration in a site-held-out cohort.",
+      "opponent": 2,
+      "outcome": "loss",
+      "reason": "TAILOR-PANC gives a randomized-trial backbone enabling genuine differential-treatment-effect estimation, a stronger causal design and real data advantage, versus the myeloid-niche idea which depends on newly generated multi-organ spatial data and a long chain of transfer assumptions.",
+      "target": 4,
+      "timestamp": "2026-09-18T16:30:32.363688+00:00"
     }
   ],
   "k_factor": 24,
@@ -1269,10 +1314,10 @@
     },
     "18": {
       "draws": 1,
-      "games": 11,
+      "games": 12,
       "losses": 6,
-      "rating": 1475.47,
-      "wins": 4
+      "rating": 1487.87,
+      "wins": 5
     },
     "19": {
       "draws": 0,
@@ -1283,10 +1328,10 @@
     },
     "2": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 7,
-      "rating": 1473.72,
-      "wins": 5
+      "rating": 1485.75,
+      "wins": 6
     },
     "21": {
       "draws": 0,
@@ -1297,16 +1342,16 @@
     },
     "22": {
       "draws": 0,
-      "games": 10,
-      "losses": 6,
-      "rating": 1476.2,
+      "games": 11,
+      "losses": 7,
+      "rating": 1464.2,
       "wins": 4
     },
     "23": {
       "draws": 0,
-      "games": 14,
-      "losses": 8,
-      "rating": 1476.91,
+      "games": 15,
+      "losses": 9,
+      "rating": 1465.3,
       "wins": 6
     },
     "24": {
@@ -1332,17 +1377,17 @@
     },
     "3": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 6,
-      "rating": 1477.05,
-      "wins": 4
+      "rating": 1489.84,
+      "wins": 5
     },
     "4": {
       "draws": 1,
-      "games": 9,
-      "losses": 5,
-      "rating": 1476.29,
-      "wins": 3
+      "games": 14,
+      "losses": 8,
+      "rating": 1462.68,
+      "wins": 5
     },
     "5": {
       "draws": 3,
