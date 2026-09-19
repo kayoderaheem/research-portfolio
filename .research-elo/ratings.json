@@ -1394,6 +1394,51 @@
       "reason": "18's premise rests on a preprint cell-line finding requiring translation to human spatial biopsies with three stacked high-risk assumptions (detectability pretreatment, spatial coupling beyond marginal abundance, culture-adaptation artifact), a longer risk chain than 28's more direct clinical registry validation.",
       "target": 28,
       "timestamp": "2026-09-19T04:44:01.668521+00:00"
+    },
+    {
+      "main_risk": "Idea 8's spatial neighborhoods may prove to be proxies for anatomical site/treatment history rather than causal biology.",
+      "next_test": "Fit topology vs composition-only vs site-only models with leave-one-site-out validation on the development cohort (10 weeks).",
+      "opponent": 8,
+      "outcome": "loss",
+      "reason": "Idea 8 anchors on a genuine biological question (does spatial tumor-stroma topology causally modify drug response) with hybrid discovery+translational impact, while idea 27 is a narrower incremental-benchmarking exercise where prior data already show the temporal model failed to beat tuned LightGBM, signaling limited remaining headroom.",
+      "target": 27,
+      "timestamp": "2026-09-19T11:08:45.650924+00:00"
+    },
+    {
+      "main_risk": "Randomized subgroups in idea 2 may be underpowered for stable treatment-interaction estimates.",
+      "next_test": "Pre-specify the treatment-interaction model and check balance/interaction CIs within the trial's randomized subgroups before any signature building.",
+      "opponent": 2,
+      "outcome": "loss",
+      "reason": "Idea 2 leverages an actual randomized trial (TAILOR-PANC) giving a real causal treatment-interaction estimand and clear clinical decision (matched vs standard therapy), whereas idea 27 targets an observational risk score whose incremental value over simpler baselines is already reported as marginal.",
+      "target": 27,
+      "timestamp": "2026-09-19T11:08:45.650945+00:00"
+    },
+    {
+      "main_risk": "DNA-damage-tolerance biomarkers may reflect nonspecific cytotoxic injury rather than a specific resistance mechanism.",
+      "next_test": "Compare resistant vs sensitive isogenic/PDX models matched for exposure and viability loss to check biomarker specificity (8 weeks).",
+      "opponent": 3,
+      "outcome": "loss",
+      "reason": "Idea 3 targets a mechanistic resistance transition (DNA-damage-tolerance escape) with high discovery ceiling and a cheap functional readout (biomarker-stratified combination benefit), while idea 27 mainly re-confirms a known weak, already-benchmarked temporal signal.",
+      "target": 27,
+      "timestamp": "2026-09-19T11:08:45.650951+00:00"
+    },
+    {
+      "main_risk": "The FGR management endpoint may not be adjudicated reproducibly across sites, undermining the whole comparison.",
+      "next_test": "Obtain blinded endpoint adjudication and measure cross-site agreement before any model development (10 weeks).",
+      "opponent": 26,
+      "outcome": "loss",
+      "reason": "Idea 26 targets a less-saturated clinical decision space (FGR management/delivery timing) with a defined molecular-add-on question, whereas idea 27's core temporal-vs-static question is already partly resolved unfavorably by prior benchmarking against LightGBM, reducing new-information value.",
+      "target": 27,
+      "timestamp": "2026-09-19T11:08:45.650955+00:00"
+    },
+    {
+      "main_risk": "The glycolytic-inflammatory program may be an in-vitro culture-adaptation artifact rather than a patient-relevant resistance mechanism.",
+      "next_test": "Compare patient tumor-derived signatures against independent short-term organoid/ex vivo responses with untreated controls (8 weeks).",
+      "opponent": 18,
+      "outcome": "loss",
+      "reason": "Idea 18 couples a mechanistic metabolic-inflammatory resistance program with spatial biology and functional validation potential, offering higher discovery ceiling than idea 27's incremental refinement of an ICU score already shown not to beat a simple gradient-boosted baseline.",
+      "target": 27,
+      "timestamp": "2026-09-19T11:08:45.650960+00:00"
     }
   ],
   "k_factor": 24,
@@ -1449,10 +1494,10 @@
     },
     "18": {
       "draws": 1,
-      "games": 14,
+      "games": 15,
       "losses": 7,
-      "rating": 1489.09,
-      "wins": 6
+      "rating": 1499.84,
+      "wins": 7
     },
     "19": {
       "draws": 0,
@@ -1463,10 +1508,10 @@
     },
     "2": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 7,
-      "rating": 1497.01,
-      "wins": 7
+      "rating": 1508.64,
+      "wins": 8
     },
     "21": {
       "draws": 0,
@@ -1505,16 +1550,16 @@
     },
     "26": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 7,
-      "rating": 1496.02,
-      "wins": 7
+      "rating": 1506.9,
+      "wins": 8
     },
     "27": {
       "draws": 0,
-      "games": 6,
-      "losses": 3,
-      "rating": 1498.29,
+      "games": 11,
+      "losses": 8,
+      "rating": 1441.88,
       "wins": 3
     },
     "28": {
@@ -1533,10 +1578,10 @@
     },
     "3": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 7,
-      "rating": 1500.12,
-      "wins": 7
+      "rating": 1511.24,
+      "wins": 8
     },
     "4": {
       "draws": 1,
@@ -1568,10 +1613,10 @@
     },
     "8": {
       "draws": 0,
-      "games": 16,
+      "games": 17,
       "losses": 8,
-      "rating": 1497.43,
-      "wins": 8
+      "rating": 1509.46,
+      "wins": 9
     },
     "9": {
       "draws": 1,
