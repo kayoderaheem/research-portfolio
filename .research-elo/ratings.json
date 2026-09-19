@@ -1484,6 +1484,51 @@
       "reason": "Despite 13's high priority score, it depends on generating and cross-validating a novel tumor-CAF-immune spatial signature across platforms and confirming tumoroid fidelity — several high-risk, long-readout scientific assumptions in sequence. 28 tests a narrower, pre-specified clinical question using already-collected registry data with a fast informative readout either way.",
       "target": 28,
       "timestamp": "2026-09-19T20:47:35.028652+00:00"
+    },
+    {
+      "main_risk": "The apparent temporal benefit may disappear after controlling for measurement density, leaving no clinically meaningful advantage over a static model.",
+      "next_test": "On MIMIC-IV, compare static snapshot and temporal models with and without measurement-frequency features using patient-level held-out validation and decision-curve analysis.",
+      "opponent": 27,
+      "outcome": "loss",
+      "reason": "The ICU problem has broader potential impact and a stronger near-term evidence base: patient-disjoint development and cross-database transport are already demonstrated, while the proposed work tests decision value, calibration, and measurement-density confounding rather than another benchmark gain. Its data and early ablations are comparatively accessible. The urine biomarker has a clearer clinical anchor but depends heavily on obtaining a matched external SBRT cohort and on a questionable ability to alter treatment before fraction 3.",
+      "target": 29,
+      "timestamp": "2026-09-19T23:11:53.523802+00:00"
+    },
+    {
+      "main_risk": "The urine panel may be only a dose-proxy for known dosimetric risk and fail to add independent, actionable information.",
+      "next_test": "Lock the candidate panel and fit nested patient-level models in the pilot, comparing dosimetric/clinical baselines against microRNA features with bootstrap uncertainty and prespecified incremental-discrimination and net-benefit thresholds.",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "The urine microRNA problem is the stronger six-month investment because it starts from an existing pilot, has an explicit comparator and decision threshold, and offers inexpensive early tests of assay reproducibility, data completeness, effect size, and incremental value. The ZNF423 project could yield a more novel mechanistic discovery, but it requires scarce matched longitudinal spatial specimens, reliable malignant-cell and trajectory assignment, and a reproducible link to escape; several high-risk assumptions must succeed before a useful readout.",
+      "target": 29,
+      "timestamp": "2026-09-19T23:11:53.523821+00:00"
+    },
+    {
+      "main_risk": "The proposed adaptive-toxicity use may not be clinically actionable, or microRNAs may add no value beyond dose-volume and baseline symptom measures.",
+      "next_test": "First verify replicate and qPCR measurement reproducibility, then test whether a locked microRNA feature set improves held-out prediction and net benefit over IPSS plus DVH baselines.",
+      "opponent": 6,
+      "outcome": "loss",
+      "reason": "The urine biomarker problem is more tractable and better anchored to an existing dataset, measurable clinical predictors, and a defined validation framework. The glioblastoma mechanics problem is highly novel but depends on difficult-to-validate mechanical proxies, matched pretreatment and early-treatment tissue, orthogonal assays, and transfer across institutions; its central biological construct may collapse into hypoxia, necrosis, density, or mesenchymal state.",
+      "target": 29,
+      "timestamp": "2026-09-19T23:11:53.523831+00:00"
+    },
+    {
+      "main_risk": "The urine signal may be nonspecific downstream radiation injury and fail to improve prediction or decisions beyond dosimetry and symptoms.",
+      "next_test": "Use the existing pilot to establish assay repeatability and test a prespecified nested model for incremental discrimination and decision benefit over clinical and DVH predictors before pursuing external sampling.",
+      "opponent": 4,
+      "outcome": "loss",
+      "reason": "The urine problem offers a cheaper, narrower, and more decision-ready study with an existing pilot and explicit comparison against established predictors. The metastatic myeloid-niche problem has greater potential translational breadth, but requires paired longitudinal metastatic material across heterogeneous organs, reliable spatial measurement, external transportability, and orthogonal functional evidence; treatment-induced localization could remain a consequence of lesion burden or organ context.",
+      "target": 29,
+      "timestamp": "2026-09-19T23:11:53.523841+00:00"
+    },
+    {
+      "main_risk": "The urine biomarker may not replicate in an independent cohort or may lack sufficient sample size to demonstrate clinically meaningful incremental value.",
+      "next_test": "Complete a power and feasibility audit of the pilot and candidate external cohort, including assay repeatability, toxicity-event count, missingness, and nested-validation performance against IPSS-plus-DVH baselines.",
+      "opponent": 22,
+      "outcome": "win",
+      "reason": "The urine biomarker problem is more likely to produce a decisive result within six months because it has a bounded clinical use, an existing pilot, and early feasibility checks. The multiple-sclerosis project has greater potential patient impact, but its assay definition, cross-site prevalence, treatment-dynamic interpretation, compartment relevance, and calibration all require expensive independent longitudinal cohorts and may not resolve within the investment window.",
+      "target": 29,
+      "timestamp": "2026-09-19T23:11:53.523848+00:00"
     }
   ],
   "k_factor": 24,
@@ -1546,9 +1591,9 @@
     },
     "19": {
       "draws": 0,
-      "games": 10,
-      "losses": 7,
-      "rating": 1453.2,
+      "games": 11,
+      "losses": 8,
+      "rating": 1440.08,
       "wins": 3
     },
     "2": {
@@ -1567,9 +1612,9 @@
     },
     "22": {
       "draws": 0,
-      "games": 11,
-      "losses": 7,
-      "rating": 1464.2,
+      "games": 12,
+      "losses": 8,
+      "rating": 1450.41,
       "wins": 4
     },
     "23": {
@@ -1602,10 +1647,10 @@
     },
     "27": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 8,
-      "rating": 1441.88,
-      "wins": 3
+      "rating": 1453.55,
+      "wins": 4
     },
     "28": {
       "draws": 0,
@@ -1616,10 +1661,10 @@
     },
     "29": {
       "draws": 0,
-      "games": 6,
-      "losses": 6,
-      "rating": 1432.26,
-      "wins": 0
+      "games": 11,
+      "losses": 9,
+      "rating": 1425.74,
+      "wins": 2
     },
     "3": {
       "draws": 0,
@@ -1630,10 +1675,10 @@
     },
     "4": {
       "draws": 1,
-      "games": 14,
+      "games": 15,
       "losses": 8,
-      "rating": 1462.68,
-      "wins": 5
+      "rating": 1473.3,
+      "wins": 6
     },
     "5": {
       "draws": 3,
@@ -1644,10 +1689,10 @@
     },
     "6": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 8,
-      "rating": 1458.75,
-      "wins": 4
+      "rating": 1469.89,
+      "wins": 5
     },
     "7": {
       "draws": 0,
