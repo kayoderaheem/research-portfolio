@@ -1439,15 +1439,60 @@
       "reason": "Idea 18 couples a mechanistic metabolic-inflammatory resistance program with spatial biology and functional validation potential, offering higher discovery ceiling than idea 27's incremental refinement of an ICU score already shown not to beat a simple gradient-boosted baseline.",
       "target": 27,
       "timestamp": "2026-09-19T11:08:45.650960+00:00"
+    },
+    {
+      "main_risk": "Whether the clinical-only baseline and biomarker fields (especially corticosteroid exposure) are complete enough in candidate registries to support the confounder-adjusted analysis.",
+      "next_test": "Confirm variable completeness (<20% missing) and required fields across two candidate registries before fitting nested models.",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "28 is a secondary analysis of existing severe-asthma registries with a fast, cheap early test (data-completeness check, then nested model comparison) and clear decision thresholds; 15 requires establishing a novel spatial niche relationship then confirming it causally in organoid-fibroblast co-cultures, a long chain of high-risk, sequential assumptions before any go/no-go is reached.",
+      "target": 28,
+      "timestamp": "2026-09-19T20:47:35.028615+00:00"
+    },
+    {
+      "main_risk": "Organoid establishment success rate and turnaround time relative to clinical decision deadlines (for 1) versus registry data-sharing access (for 28).",
+      "next_test": "For 28, verify external registry access/DUA and event counts (~100 exacerbations); this alone can trigger continue/stop within weeks, faster than prospective organoid accrual.",
+      "opponent": 1,
+      "outcome": "win",
+      "reason": "28 reuses existing patient-level registry data with well-specified leakage controls and a near-term readout, whereas 1 depends on prospectively establishing organoids fast enough to influence real-time treatment decisions in metastatic patients, a high-risk technical bottleneck that alone could stall the whole project for months.",
+      "target": 28,
+      "timestamp": "2026-09-19T20:47:35.028632+00:00"
+    },
+    {
+      "main_risk": "Assay-platform harmonization for FeNO/eosinophils across registries (28) versus reproducibility of tunnel-state classification across annotators/patients (9), both technical but 28's is more tractable with standard z-scoring.",
+      "next_test": "Cross-registry biomarker distribution comparison against reference ranges to check harmonization feasibility.",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "28's question (does adding T2 biomarkers change risk classification) is answerable with existing cohort data and a pre-specified reclassification analysis, while 9 requires first establishing reproducible tunnel-specific spatial states in a rare disease before any treatment-response link can even be tested.",
+      "target": 28,
+      "timestamp": "2026-09-19T20:47:35.028640+00:00"
+    },
+    {
+      "main_risk": "Availability of an adequately powered external registry (28) versus whether pretreatment marrow architecture actually varies in a measurable, reproducible way (11).",
+      "next_test": "Confirm external registry access and event counts for 28; for 11, a small pilot spatial profiling run to check neighborhood reproducibility would be the analogous first gate.",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "28 offers a clear, near-term, data-driven test of incremental clinical value using existing cohorts, while 11 requires generating novel spatial marrow profiling data and demonstrating spatial features add value beyond composition — a harder, more assumption-laden discovery task with less certain data access.",
+      "target": 28,
+      "timestamp": "2026-09-19T20:47:35.028647+00:00"
+    },
+    {
+      "main_risk": "Cross-platform/tissue reproducibility of the CAF-immune neighborhood signature (13) versus corticosteroid confounding of eosinophil-based reclassification (28).",
+      "next_test": "For 28, run nested models with/without biomarkers on the training registry to see if reclassification signal exists before investing in external validation.",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "Despite 13's high priority score, it depends on generating and cross-validating a novel tumor-CAF-immune spatial signature across platforms and confirming tumoroid fidelity — several high-risk, long-readout scientific assumptions in sequence. 28 tests a narrower, pre-specified clinical question using already-collected registry data with a fast informative readout either way.",
+      "target": 28,
+      "timestamp": "2026-09-19T20:47:35.028652+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 15,
-      "losses": 6,
-      "rating": 1537.36,
+      "games": 16,
+      "losses": 7,
+      "rating": 1526.08,
       "wins": 9
     },
     "10": {
@@ -1459,9 +1504,9 @@
     },
     "11": {
       "draws": 1,
-      "games": 10,
-      "losses": 2,
-      "rating": 1558.88,
+      "games": 11,
+      "losses": 3,
+      "rating": 1547.62,
       "wins": 7
     },
     "12": {
@@ -1473,16 +1518,16 @@
     },
     "13": {
       "draws": 0,
-      "games": 13,
-      "losses": 5,
-      "rating": 1533.02,
+      "games": 14,
+      "losses": 6,
+      "rating": 1523.02,
       "wins": 8
     },
     "15": {
       "draws": 1,
-      "games": 13,
-      "losses": 4,
-      "rating": 1547.41,
+      "games": 14,
+      "losses": 5,
+      "rating": 1535.37,
       "wins": 8
     },
     "17": {
@@ -1564,10 +1609,10 @@
     },
     "28": {
       "draws": 0,
-      "games": 6,
+      "games": 11,
       "losses": 1,
-      "rating": 1546.14,
-      "wins": 5
+      "rating": 1601.49,
+      "wins": 10
     },
     "29": {
       "draws": 0,
@@ -1620,9 +1665,9 @@
     },
     "9": {
       "draws": 1,
-      "games": 14,
-      "losses": 5,
-      "rating": 1533.74,
+      "games": 15,
+      "losses": 6,
+      "rating": 1522.97,
       "wins": 8
     }
   },
