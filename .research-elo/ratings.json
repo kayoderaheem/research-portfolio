@@ -1619,6 +1619,51 @@
       "reason": "The ICU project has a sharply defined outcome and decision, existing patient-disjoint development and external data, a cheap measurement-density ablation, and an accessible route to site-held-out calibration testing. It can produce a useful answer within six months even if temporal complexity adds no value. The OUD project has greater possible impact but substantially higher data, modality, treatment-effect, and implementation risk.",
       "target": 21,
       "timestamp": "2026-09-20T11:32:25.996372+00:00"
+    },
+    {
+      "main_risk": "The KRAS transition signal may not reproduce across independent donors or may reflect clonal selection, treatment timing, or residual burden rather than causal or predictive plasticity.",
+      "next_test": "Profile matched pretreatment and early on-treatment samples from independent PDAC donors and compare a prespecified transition score with pretreatment composition, genotype, and baseline burden for predicting later regrowth.",
+      "opponent": 23,
+      "outcome": "win",
+      "reason": "KRAS-state transitions offer a stronger discovery anchor with broader mechanistic insight, a clearer donor-level validation framework, and an early 12-week test that can distinguish reproducible resistance trajectories from model-specific stress responses. The rehabilitation proposal has clinical relevance but depends on first defining and consistently delivering a rehabilitation decision, then demonstrating incremental decision value and cross-site calibration.",
+      "target": 7,
+      "timestamp": "2026-09-20T16:13:14.334961+00:00"
+    },
+    {
+      "main_risk": "The apparent KRAS adaptive states may be model- or treatment-specific and fail to predict resistance beyond baseline composition and clinical covariates.",
+      "next_test": "Run the prespecified donor-level serial PDAC analysis to test whether early transition scores reproducibly precede and improve prediction of later resistance.",
+      "opponent": 6,
+      "outcome": "win",
+      "reason": "KRAS transitions have a clearer scientific anchor, stronger evidence readiness, and a more direct early test of reproducibility and temporal precedence. The glioblastoma proposal is highly novel but relies on difficult-to-measure mechanical proxies, clinical spatial specimens, and disentangling mechanics from hypoxia, necrosis, density, and mesenchymal state.",
+      "target": 7,
+      "timestamp": "2026-09-20T16:13:14.334978+00:00"
+    },
+    {
+      "main_risk": "Temporal features may add no genuine physiological information once measurement density and monitoring intensity are controlled, eliminating the claimed decision value.",
+      "next_test": "Compare static-snapshot and temporal-trajectory models with measurement-density features included in both, using a patient-disjoint held-out ICU test set and prespecified net-benefit thresholds.",
+      "opponent": 27,
+      "outcome": "loss",
+      "reason": "The ICU problem is the stronger six-month investment because it has accessible datasets, strong simple baselines, a cheap early measurement-density ablation, patient- and site-level validation, and a directly actionable decision-value endpoint. KRAS has greater biological discovery potential but requires several costly high-risk steps before establishing reproducibility, prediction, and actionability.",
+      "target": 7,
+      "timestamp": "2026-09-20T16:13:14.334984+00:00"
+    },
+    {
+      "main_risk": "The KRAS transition signature may not generalize across independent PDAC donors or may merely reflect treatment exposure and sampling-time effects.",
+      "next_test": "Prospectively test a locked transition score in independent serial PDAC donors, with donor-level separation and comparison against pretreatment and post-treatment abundance baselines.",
+      "opponent": 22,
+      "outcome": "win",
+      "reason": "KRAS offers a more focused and earlier falsifiable problem than the multiple-sclerosis immune-state proposal, which requires assay locking, cross-site and cross-treatment transport, clinical utility, and possibly blood-to-CNS validity. The KRAS project can yield useful branches even if the favored transition or spatial mechanism fails by identifying model-specific versus reproducible resistance routes.",
+      "target": 7,
+      "timestamp": "2026-09-20T16:13:14.334988+00:00"
+    },
+    {
+      "main_risk": "The KRAS transition score may fail to reproduce or predict resistance beyond baseline tumor composition, making the proposed combination targets non-actionable.",
+      "next_test": "Use independent paired PDAC donors to test whether the locked early transition score predicts later regrowth better than baseline composition, genotype, and treatment exposure.",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "KRAS is the stronger current investment because its fixed anchor—reproducible treatment-induced transitions preceding resistance—is more coherent and less dependent on platform-specific spatial segmentation, organ context, and uncertain mechanical or interface proxies. The myeloid project has high translational potential and an attractive eight-week test, but treatment-induced localization may be confounded by lesion size, organ heterogeneity, and response itself.",
+      "target": 7,
+      "timestamp": "2026-09-20T16:13:14.334992+00:00"
     }
   ],
   "k_factor": 24,
@@ -1702,16 +1747,16 @@
     },
     "22": {
       "draws": 0,
-      "games": 13,
-      "losses": 8,
-      "rating": 1460.78,
+      "games": 14,
+      "losses": 9,
+      "rating": 1449.35,
       "wins": 5
     },
     "23": {
       "draws": 0,
-      "games": 15,
-      "losses": 9,
-      "rating": 1465.3,
+      "games": 16,
+      "losses": 10,
+      "rating": 1453.35,
       "wins": 6
     },
     "24": {
@@ -1737,10 +1782,10 @@
     },
     "27": {
       "draws": 0,
-      "games": 13,
+      "games": 14,
       "losses": 8,
-      "rating": 1463.46,
-      "wins": 5
+      "rating": 1476.39,
+      "wins": 6
     },
     "28": {
       "draws": 0,
@@ -1765,9 +1810,9 @@
     },
     "4": {
       "draws": 1,
-      "games": 15,
-      "losses": 8,
-      "rating": 1473.3,
+      "games": 16,
+      "losses": 9,
+      "rating": 1461.84,
       "wins": 6
     },
     "5": {
@@ -1779,17 +1824,17 @@
     },
     "6": {
       "draws": 0,
-      "games": 13,
-      "losses": 8,
-      "rating": 1469.89,
+      "games": 14,
+      "losses": 9,
+      "rating": 1458.19,
       "wins": 5
     },
     "7": {
       "draws": 0,
-      "games": 11,
-      "losses": 7,
-      "rating": 1466.71,
-      "wins": 4
+      "games": 16,
+      "losses": 8,
+      "rating": 1500.32,
+      "wins": 8
     },
     "8": {
       "draws": 0,
