@@ -1574,6 +1574,51 @@
       "reason": "Issue 17 has a clearer fixed scientific anchor, stronger evidence-readiness, and more useful branches if the favored spatial hypothesis fails. Issue 15 combines a biomarker claim with a causal niche mechanism and therapeutic intervention, requiring several linked assumptions about fibroblast states, BCL2 dependence, spatial prediction, and model-to-patient translation.",
       "target": 17,
       "timestamp": "2026-09-20T04:59:25.707354+00:00"
+    },
+    {
+      "main_risk": "The OUD project may not have sufficiently complete, reproducible, multi-site patient-level data to evaluate incremental treatment-effect value rather than prediction alone.",
+      "next_test": "Audit candidate OUD cohorts for prespecified treatment decisions, outcomes, modality completeness, site representation, and patient-level external validation before modeling.",
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "OUD treatment matching asks a broadly important, clinically grounded question about whether added modalities change decisions beyond strong clinical information, with explicit leakage-resistant validation, calibration, equity, and implementation criteria. The HIV-melanoma project has high potential impact but depends on assembling a rare, comparable, adequately powered tissue cohort and validating a spatial mechanism with multiple assays.",
+      "target": 21,
+      "timestamp": "2026-09-20T11:32:25.996331+00:00"
+    },
+    {
+      "main_risk": "The prostate project may lack enough events and an independent matched external cohort to establish a credible incremental benefit.",
+      "next_test": "Confirm event count, feature completeness, technical replicate/qPCR reproducibility, and external-cohort availability, then run a prespecified nested patient-level baseline-versus-microRNA analysis.",
+      "opponent": 29,
+      "outcome": "win",
+      "reason": "The prostate SBRT biomarker project has a concrete clinical-use decision, an existing pilot, accessible baseline comparators, and a relatively cheap early reproducibility and incremental-value analysis. The OUD project is more impactful if successful, but requires several costly high-risk steps involving multimodal acquisition, treatment-effect estimation, transportability, and implementation.",
+      "target": 21,
+      "timestamp": "2026-09-20T11:32:25.996349+00:00"
+    },
+    {
+      "main_risk": "The OUD study may become an underpowered prediction exercise if it cannot estimate clinically meaningful treatment-effect heterogeneity with adequate site and population diversity.",
+      "next_test": "Perform a data-feasibility audit and power analysis for one prespecified OUD treatment decision, outcome horizon, and incremental net-benefit estimand.",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "OUD multimodal decision value offers broader clinical and methodological impact and a clearer path to informative negative results: it can determine when additional modalities are not worth their cost or complexity. The MPNST project has a compelling biological anchor but depends on rare longitudinal specimens, reliable malignant-cell and spatial-state assignment, and proving a treatment-induced escape trajectory rather than confounding by tumor burden or genotype.",
+      "target": 21,
+      "timestamp": "2026-09-20T11:32:25.996358+00:00"
+    },
+    {
+      "main_risk": "The immune state may be a site-, treatment-, severity-, or sample-handling correlate that fails to remain calibrated or clinically informative in an independent cohort.",
+      "next_test": "Run analytical repeatability and locked-score validation on an independent MS cohort with treatment exposure and longitudinal inflammatory outcomes, before adding cross-compartment mechanistic claims.",
+      "opponent": 22,
+      "outcome": "loss",
+      "reason": "The multiple-sclerosis project starts from an already observed therapy-responsive immune state and can test a compact, locked assay against clinical and single-modality baselines, giving it a stronger competitive anchor than the OUD project’s broad search across many possible modalities and decisions. It also has useful branches through reproducibility, transportability, and treatment-response results even if the mechanistic interpretation weakens.",
+      "target": 21,
+      "timestamp": "2026-09-20T11:32:25.996366+00:00"
+    },
+    {
+      "main_risk": "Temporal features may mainly encode measurement intensity or documentation practice, leaving no clinically meaningful net-benefit improvement over a static model.",
+      "next_test": "On a patient- and site-held-out test set, compare static, temporal, and measurement-density-controlled models using calibration and decision-curve net benefit at a prespecified escalation threshold.",
+      "opponent": 27,
+      "outcome": "loss",
+      "reason": "The ICU project has a sharply defined outcome and decision, existing patient-disjoint development and external data, a cheap measurement-density ablation, and an accessible route to site-held-out calibration testing. It can produce a useful answer within six months even if temporal complexity adds no value. The OUD project has greater possible impact but substantially higher data, modality, treatment-effect, and implementation risk.",
+      "target": 21,
+      "timestamp": "2026-09-20T11:32:25.996372+00:00"
     }
   ],
   "k_factor": 24,
@@ -1601,9 +1646,9 @@
     },
     "12": {
       "draws": 0,
-      "games": 13,
-      "losses": 11,
-      "rating": 1399.95,
+      "games": 14,
+      "losses": 12,
+      "rating": 1387.56,
       "wins": 2
     },
     "13": {
@@ -1636,10 +1681,10 @@
     },
     "19": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 8,
-      "rating": 1440.08,
-      "wins": 3
+      "rating": 1451.18,
+      "wins": 4
     },
     "2": {
       "draws": 0,
@@ -1650,17 +1695,17 @@
     },
     "21": {
       "draws": 0,
-      "games": 10,
-      "losses": 10,
-      "rating": 1388.67,
-      "wins": 0
+      "games": 15,
+      "losses": 13,
+      "rating": 1382.53,
+      "wins": 2
     },
     "22": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 8,
-      "rating": 1450.41,
-      "wins": 4
+      "rating": 1460.78,
+      "wins": 5
     },
     "23": {
       "draws": 0,
@@ -1692,10 +1737,10 @@
     },
     "27": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 8,
-      "rating": 1453.55,
-      "wins": 4
+      "rating": 1463.46,
+      "wins": 5
     },
     "28": {
       "draws": 0,
@@ -1706,9 +1751,9 @@
     },
     "29": {
       "draws": 0,
-      "games": 11,
-      "losses": 9,
-      "rating": 1425.74,
+      "games": 12,
+      "losses": 10,
+      "rating": 1412.89,
       "wins": 2
     },
     "3": {
