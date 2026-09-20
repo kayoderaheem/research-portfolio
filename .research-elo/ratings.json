@@ -1529,6 +1529,51 @@
       "reason": "The urine biomarker problem is more likely to produce a decisive result within six months because it has a bounded clinical use, an existing pilot, and early feasibility checks. The multiple-sclerosis project has greater potential patient impact, but its assay definition, cross-site prevalence, treatment-dynamic interpretation, compartment relevance, and calibration all require expensive independent longitudinal cohorts and may not resolve within the investment window.",
       "target": 29,
       "timestamp": "2026-09-19T23:11:53.523848+00:00"
+    },
+    {
+      "main_risk": "Issue 17 depends on spatial features being reproducible across centers and genuinely informative beyond composition and clinical covariates.",
+      "next_test": "Run the preregistered patient-level, center-held-out nested benchmark comparing clinical, composition, and spatial-context models with locked preprocessing and calibration assessment.",
+      "opponent": 25,
+      "outcome": "win",
+      "reason": "Issue 17 offers a broader, reusable technology contribution with strong leakage-resistant baselines, a clear incremental-value question, and useful outcomes even if spatial context adds no signal. Issue 25 has greater regimen-specific clinical relevance but depends more heavily on access to sufficiently sized independent cohorts and careful control of treatment-selection confounding.",
+      "target": 17,
+      "timestamp": "2026-09-20T04:59:25.707309+00:00"
+    },
+    {
+      "main_risk": "The FAM230F signal may primarily reflect tumor burden or disease-spectrum differences rather than add useful information beyond ultrasound, AFP, and clinical risk factors.",
+      "next_test": "Measure FAM230F reproducibility in blinded multi-site replicates and evaluate its locked-threshold incremental calibration and net benefit over ultrasound plus AFP in an independent surveillance cohort.",
+      "opponent": 24,
+      "outcome": "loss",
+      "reason": "Issue 24 has a more direct and credible patient-facing decision point, a relatively focused assay-validation problem, and an early test that can assess reproducibility and external net benefit before major expansion. Issue 17 is more general but requires broader multimodal data and has a higher operational burden before its benchmark can be completed.",
+      "target": 17,
+      "timestamp": "2026-09-20T04:59:25.707331+00:00"
+    },
+    {
+      "main_risk": "Issue 17 may not have reproducible spatial measurements or an independent multicenter cohort sufficient to distinguish biological signal from center and tissue-processing artifacts.",
+      "next_test": "Perform a patient-level, center-held-out benchmark with strong clinical and composition baselines, technical replicate checks, and locked spatial features before expanding modalities.",
+      "opponent": 28,
+      "outcome": "win",
+      "reason": "Issue 17 asks a more differentiated and general question about whether spatial context contributes beyond composition, with stronger technology leverage and useful negative results. Issue 28 addresses an important clinical decision but mainly tests modest incremental value of familiar biomarkers, with substantial risks from corticosteroid confounding, assay differences, registry access, and unstable reclassification metrics.",
+      "target": 17,
+      "timestamp": "2026-09-20T04:59:25.707340+00:00"
+    },
+    {
+      "main_risk": "Issue 17 may find that spatial context is not reproducible or adds no calibrated value beyond composition, clinical covariates, imaging, and molecular data.",
+      "next_test": "Run the locked patient-level, center-held-out incremental-value benchmark and technical reproducibility study on available multicenter lymphoma tissue before pursuing more complex spatial mechanisms.",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "Issue 17 is more tractable and broadly reusable, with a clear benchmark structure and a realistic path to informative results across lymphoma cohorts and modalities. Issue 11 has compelling mechanistic specificity but depends on rare paired marrow specimens, reliable spatial measurement, longitudinal sampling, and an external blinatumomab cohort, creating a longer chain of high-risk assumptions.",
+      "target": 17,
+      "timestamp": "2026-09-20T04:59:25.707348+00:00"
+    },
+    {
+      "main_risk": "Issue 17 may be unable to show transportable spatial signal beyond composition because tissue quality, center, or sampling differences dominate the measurements.",
+      "next_test": "Evaluate a prespecified spatial-context score against composition, clinical, and established modality baselines in a patient-level external or center-held-out cohort with calibration and negative-control neighborhoods.",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "Issue 17 has a clearer fixed scientific anchor, stronger evidence-readiness, and more useful branches if the favored spatial hypothesis fails. Issue 15 combines a biomarker claim with a causal niche mechanism and therapeutic intervention, requiring several linked assumptions about fibroblast states, BCL2 dependence, spatial prediction, and model-to-patient translation.",
+      "target": 17,
+      "timestamp": "2026-09-20T04:59:25.707354+00:00"
     }
   ],
   "k_factor": 24,
@@ -1549,9 +1594,9 @@
     },
     "11": {
       "draws": 1,
-      "games": 11,
-      "losses": 3,
-      "rating": 1547.62,
+      "games": 12,
+      "losses": 4,
+      "rating": 1537.18,
       "wins": 7
     },
     "12": {
@@ -1570,17 +1615,17 @@
     },
     "15": {
       "draws": 1,
-      "games": 14,
-      "losses": 5,
-      "rating": 1535.37,
+      "games": 15,
+      "losses": 6,
+      "rating": 1525.7,
       "wins": 8
     },
     "17": {
       "draws": 0,
-      "games": 9,
-      "losses": 1,
-      "rating": 1581.35,
-      "wins": 8
+      "games": 14,
+      "losses": 2,
+      "rating": 1613.3,
+      "wins": 12
     },
     "18": {
       "draws": 1,
@@ -1626,16 +1671,16 @@
     },
     "24": {
       "draws": 1,
-      "games": 13,
+      "games": 14,
       "losses": 3,
-      "rating": 1567.92,
-      "wins": 9
+      "rating": 1580.8,
+      "wins": 10
     },
     "25": {
       "draws": 1,
-      "games": 10,
-      "losses": 1,
-      "rating": 1580.95,
+      "games": 11,
+      "losses": 2,
+      "rating": 1568.96,
       "wins": 8
     },
     "26": {
@@ -1654,9 +1699,9 @@
     },
     "28": {
       "draws": 0,
-      "games": 11,
-      "losses": 1,
-      "rating": 1601.49,
+      "games": 12,
+      "losses": 2,
+      "rating": 1588.76,
       "wins": 10
     },
     "29": {
