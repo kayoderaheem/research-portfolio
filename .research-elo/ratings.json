@@ -1709,6 +1709,51 @@
       "reason": "Thiopurine toxicity has a specific endpoint, established genetic measurements, and a clearer decision pathway. Fetal-growth-restriction stratification leaves the molecular modality and management endpoint underdetermined and faces substantial gestational-age, timing, referral-spectrum, and site-calibration risks on top of strong existing clinical and Doppler baselines.",
       "target": 30,
       "timestamp": "2026-09-20T20:54:00.408980+00:00"
+    },
+    {
+      "main_risk": "The choice would change if corneal nerve measurements fail to reproduce across operators or if the reference standard is circular, unreliable, or unavailable at sufficient independent sites.",
+      "next_test": "Run the proposed 8-week site-held-out pilot with blinded image-quality and reread assessment, comparing clinical, neurophysiological, and imaging-augmented models using patient-level splits and calibration/net benefit.",
+      "opponent": 18,
+      "outcome": "win",
+      "reason": "Site-transportable corneal imaging has a clearer clinical anchor, stronger near-term feasibility, and a cheaper early test than the cholangiocarcinoma project, which requires longitudinal multi-site spatial biopsies, treatment-linked sampling, and functional validation across heterogeneous disease sites. Its result can directly clarify whether an established noninvasive measurement adds value beyond current assessment.",
+      "target": 31,
+      "timestamp": "2026-09-20T23:16:59.065546+00:00"
+    },
+    {
+      "main_risk": "The choice would change if pediatric myocarditis data and adjudicated management outcomes already exist across independent sites while corneal imaging cannot achieve reproducible acquisition or a defensible reference standard.",
+      "next_test": "Complete the 8-week corneal site-held-out pilot, including reproducibility, calibration, subgroup stability, and decision-curve comparisons against the strongest clinical baseline.",
+      "opponent": 32,
+      "outcome": "win",
+      "reason": "Corneal imaging offers a more tractable and better-specified validation problem than pediatric myocarditis multimodal triage. The myocarditis project combines a rare heterogeneous population, difficult-to-standardize treatment and monitoring labels, molecular assay variability, and high risk of missingness and referral-spectrum bias before clinical usefulness can be established.",
+      "target": 31,
+      "timestamp": "2026-09-20T23:16:59.065560+00:00"
+    },
+    {
+      "main_risk": "The choice would change if serial donor-level data show a robust, reproducible transition that predicts resistance before regrowth and is confirmed by orthogonal measurements or perturbation.",
+      "next_test": "For corneal imaging, test incremental calibrated decision value and reproducibility in a site-held-out cohort; in parallel, only continue the KRAS program if its 12-week donor-level pilot meets the stated concordance and prediction thresholds.",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Site-transportable corneal imaging is currently the stronger investment because it has a defined patient-level clinical decision, an established modality, and an early validation pathway. The KRAS project has potentially high biological impact but depends on reproducible treatment-induced transitions, temporal precedence, donor-level generalization, and pharmacological actionability, making its decisive readout slower and more assumption-heavy.",
+      "target": 31,
+      "timestamp": "2026-09-20T23:16:59.065566+00:00"
+    },
+    {
+      "main_risk": "The choice would change if an existing pregnancy cohort has prospectively timed molecular measurements, adjudicated outcomes, and an independent site-held-out sample large enough to test added value beyond Doppler and established biomarkers.",
+      "next_test": "Lock the corneal reference standard and imaging pipeline, then evaluate the 8-week site-held-out pilot against clinical and neurophysiological baselines with calibration and net-benefit criteria.",
+      "opponent": 26,
+      "outcome": "win",
+      "reason": "Corneal imaging is more scientifically anchored and operationally testable than fetal-growth-restriction molecular risk stratification. The latter leaves the molecular modality and management endpoint partly open and faces severe gestational-age, timing, treatment-confounding, assay-standardization, and calibration challenges despite strong potential clinical impact.",
+      "target": 31,
+      "timestamp": "2026-09-20T23:16:59.065571+00:00"
+    },
+    {
+      "main_risk": "The choice would change if temporal features lose all value after measurement-density adjustment or if the ICU outcome and escalation threshold prove too weakly connected to real clinical decisions, reducing the work to a benchmark-only result.",
+      "next_test": "Run the patient- and hospital-aware static-versus-temporal ablation with measurement-density controls on held-out sites, reporting calibration and decision-curve net benefit rather than discrimination alone.",
+      "opponent": 27,
+      "outcome": "loss",
+      "reason": "The ICU deterioration problem has more accessible data, a sharply defined comparison, strong established baselines, and a cheap early test that can separate physiological trajectory signal from measurement-density confounding. Although its ultimate incremental clinical impact may be modest, it can rapidly produce a useful positive, null, or pivot result. Corneal imaging has greater potential translational distinctiveness but requires harder-to-secure multi-site acquisition, adjudication, and reproducibility infrastructure.",
+      "target": 31,
+      "timestamp": "2026-09-20T23:16:59.065575+00:00"
     }
   ],
   "k_factor": 24,
@@ -1764,9 +1809,9 @@
     },
     "18": {
       "draws": 1,
-      "games": 16,
-      "losses": 8,
-      "rating": 1488.66,
+      "games": 17,
+      "losses": 9,
+      "rating": 1476.65,
       "wins": 7
     },
     "19": {
@@ -1820,17 +1865,17 @@
     },
     "26": {
       "draws": 0,
-      "games": 16,
-      "losses": 8,
-      "rating": 1496.23,
+      "games": 17,
+      "losses": 9,
+      "rating": 1485.16,
       "wins": 8
     },
     "27": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 8,
-      "rating": 1476.39,
-      "wins": 6
+      "rating": 1490.37,
+      "wins": 7
     },
     "28": {
       "draws": 0,
@@ -1862,16 +1907,16 @@
     },
     "31": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 2,
+      "rating": 1520.3,
+      "wins": 4
     },
     "32": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
+      "games": 2,
+      "losses": 2,
+      "rating": 1476.43,
       "wins": 0
     },
     "4": {
@@ -1897,9 +1942,9 @@
     },
     "7": {
       "draws": 0,
-      "games": 17,
-      "losses": 9,
-      "rating": 1489.51,
+      "games": 18,
+      "losses": 10,
+      "rating": 1478.29,
       "wins": 8
     },
     "8": {
