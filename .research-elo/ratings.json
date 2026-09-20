@@ -1664,6 +1664,51 @@
       "reason": "KRAS is the stronger current investment because its fixed anchor—reproducible treatment-induced transitions preceding resistance—is more coherent and less dependent on platform-specific spatial segmentation, organ context, and uncertain mechanical or interface proxies. The myeloid project has high translational potential and an attractive eight-week test, but treatment-induced localization may be confounded by lesion size, organ heterogeneity, and response itself.",
       "target": 7,
       "timestamp": "2026-09-20T16:13:14.334992+00:00"
+    },
+    {
+      "main_risk": "Genotype may add little actionable information beyond routine blood-count trajectories, making the proposed clinical value redundant.",
+      "next_test": "Run the locked clinical, laboratory, genotype-only, and combined models in a patient- and site-held-out cohort, evaluating calibration and decision-curve net benefit rather than discrimination alone.",
+      "opponent": 32,
+      "outcome": "win",
+      "reason": "Thiopurine toxicity has a clearer patient-level endpoint, established actionable genotypes, and a cheaper retrospective test of incremental value beyond serial blood counts. Myocarditis triage requires difficult-to-standardize management labels, multimodal acquisition, and transportable calibration in a relatively heterogeneous pediatric setting.",
+      "target": 30,
+      "timestamp": "2026-09-20T20:54:00.408931+00:00"
+    },
+    {
+      "main_risk": "TPMT and NUDT15 genotype may not improve decisions after accounting for baseline and serial laboratory monitoring.",
+      "next_test": "Test nested clinical-plus-laboratory versus genotype-augmented models in a site-held-out retrospective cohort with prespecified subgroup calibration and decision thresholds.",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "Thiopurine prediction has a more defined toxicity endpoint, more directly actionable inputs, and a stronger early feasibility path than corneal imaging, whose value depends on reproducible acquisition and a noncircular small-fiber-neuropathy reference standard.",
+      "target": 30,
+      "timestamp": "2026-09-20T20:54:00.408956+00:00"
+    },
+    {
+      "main_risk": "The shared glycolytic-inflammatory program may be absent or add no value beyond tumor composition, site, and clinical covariates.",
+      "next_test": "Measure a prespecified spatial score in pretreatment and early on-treatment patient biopsies and compare it against composition and clinical baselines in a site-held-out cohort.",
+      "opponent": 18,
+      "outcome": "win",
+      "reason": "Thiopurine toxicity offers a clinically anchored question with established assays, accessible longitudinal measurements, and an inexpensive early validation design. The cholangiocarcinoma project has high potential impact but requires invasive serial spatial profiling, reproducible cross-site biology, and separation of true resistance mechanisms from culture and anatomical-site effects.",
+      "target": 30,
+      "timestamp": "2026-09-20T20:54:00.408966+00:00"
+    },
+    {
+      "main_risk": "The genotype increment may be clinically redundant once serial blood-count trajectories and treatment context are included.",
+      "next_test": "Evaluate locked genotype-augmented and laboratory-only models on held-out patients and sites, including net benefit, calibration, and clinically relevant error rates.",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Thiopurine prediction has fewer linked high-risk assumptions and a shorter route from retrospective evidence to a defined management use. KRAS-transition research requires reproducibility across donors, temporal precedence, assay integration, and successful functional perturbation before it becomes actionable.",
+      "target": 30,
+      "timestamp": "2026-09-20T20:54:00.408973+00:00"
+    },
+    {
+      "main_risk": "A molecular panel may be redundant with fetal biometry, Doppler, gestational age, and established biomarkers.",
+      "next_test": "Lock a clinical-Doppler reference model and prespecified adverse-perinatal endpoint, then test one molecular panel in an independent site-held-out cohort for calibrated net benefit.",
+      "opponent": 26,
+      "outcome": "win",
+      "reason": "Thiopurine toxicity has a specific endpoint, established genetic measurements, and a clearer decision pathway. Fetal-growth-restriction stratification leaves the molecular modality and management endpoint underdetermined and faces substantial gestational-age, timing, referral-spectrum, and site-calibration risks on top of strong existing clinical and Doppler baselines.",
+      "target": 30,
+      "timestamp": "2026-09-20T20:54:00.408980+00:00"
     }
   ],
   "k_factor": 24,
@@ -1719,9 +1764,9 @@
     },
     "18": {
       "draws": 1,
-      "games": 15,
-      "losses": 7,
-      "rating": 1499.84,
+      "games": 16,
+      "losses": 8,
+      "rating": 1488.66,
       "wins": 7
     },
     "19": {
@@ -1775,9 +1820,9 @@
     },
     "26": {
       "draws": 0,
-      "games": 15,
-      "losses": 7,
-      "rating": 1506.9,
+      "games": 16,
+      "losses": 8,
+      "rating": 1496.23,
       "wins": 8
     },
     "27": {
@@ -1808,6 +1853,27 @@
       "rating": 1511.24,
       "wins": 8
     },
+    "30": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1556.25,
+      "wins": 5
+    },
+    "31": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
+    },
+    "32": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
     "4": {
       "draws": 1,
       "games": 16,
@@ -1831,9 +1897,9 @@
     },
     "7": {
       "draws": 0,
-      "games": 16,
-      "losses": 8,
-      "rating": 1500.32,
+      "games": 17,
+      "losses": 9,
+      "rating": 1489.51,
       "wins": 8
     },
     "8": {
