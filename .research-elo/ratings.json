@@ -1754,6 +1754,51 @@
       "reason": "The ICU deterioration problem has more accessible data, a sharply defined comparison, strong established baselines, and a cheap early test that can separate physiological trajectory signal from measurement-density confounding. Although its ultimate incremental clinical impact may be modest, it can rapidly produce a useful positive, null, or pivot result. Corneal imaging has greater potential translational distinctiveness but requires harder-to-secure multi-site acquisition, adjudication, and reproducibility infrastructure.",
       "target": 31,
       "timestamp": "2026-09-20T23:16:59.065575+00:00"
+    },
+    {
+      "main_risk": "The shared glycolytic-inflammatory spatial program may be a cell-line or anatomical-site artifact and fail to appear reproducibly in human tumors.",
+      "next_test": "Use a small, patient-level, site-balanced set of pretreatment and early on-treatment biopsies to test a prespecified spatial score against clinical, site, and composition-only baselines with site-held-out validation.",
+      "opponent": 18,
+      "outcome": "loss",
+      "reason": "The cholangiocarcinoma problem has a clearer biological anchor—whether a spatial tumor–microenvironment program is conserved across patients and anatomical sites—and it can produce useful outcomes if the program is absent, site-specific, or redundant with composition. The myocarditis proposal has greater potential clinical impact but depends on difficult, treatment-confounded management labels, rare heterogeneous cohorts, and broad multimodal standardization before a reliable result is possible.",
+      "target": 32,
+      "timestamp": "2026-09-21T05:04:37.121796+00:00"
+    },
+    {
+      "main_risk": "Treatment-induced single-cell transitions may not reproducibly precede resistance across independent donors and may instead reflect model-specific stress or sampling effects.",
+      "next_test": "Profile matched pretreatment and early-treatment samples from independent donors, using untreated controls and a locked transition score, then test held-out prediction of regrowth against pretreatment composition and genotype baselines.",
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "The KRAS project offers a stronger discovery problem with a defined temporal anchor, donor-level validation, mechanistic follow-up, and useful branches distinguishing plasticity, clonal selection, and treatment-specific stress. It can yield actionable biology even if the favored transition is not universal. Myocarditis has higher nominal clinical impact, but its decision target is treatment- and referral-confounded and its required multimodal data and calibration evidence are harder to obtain within six months.",
+      "target": 32,
+      "timestamp": "2026-09-21T05:04:37.121815+00:00"
+    },
+    {
+      "main_risk": "The molecular modality may add no transportable information beyond fetal biometry, Doppler, gestational age, and established biomarkers, with apparent gains driven by timing or site leakage.",
+      "next_test": "Lock the index time and adverse perinatal endpoint, fit the clinical-Doppler reference, and evaluate one prespecified molecular panel in a site-held-out cohort using calibration, Brier score, and decision-curve net benefit.",
+      "opponent": 26,
+      "outcome": "loss",
+      "reason": "Fetal-growth-restriction risk stratification starts from a well-defined clinical reference consisting of biometry, Doppler, and established biomarkers, with a realistic external-validation question and a direct test of incremental calibrated decision value. The myocarditis proposal faces a rarer and more heterogeneous population, uncertain reproducibility of treatment-intensity labels, and multiple assays whose incremental value may be difficult to separate from clinical severity and referral patterns.",
+      "target": 32,
+      "timestamp": "2026-09-21T05:04:37.121823+00:00"
+    },
+    {
+      "main_risk": "The apparent temporal advantage may disappear after controlling for measurement density, leaving no clinically meaningful benefit over a static model.",
+      "next_test": "Run a patient- and hospital-aware ablation comparing snapshot, temporal-trajectory, and snapshot-plus-measurement-density models on a frozen external site set, evaluating net benefit and calibration at a prespecified escalation threshold.",
+      "opponent": 27,
+      "outcome": "loss",
+      "reason": "The ICU deterioration problem has the cheapest and earliest discriminating test, readily available patient-level data, strong simple baselines, an explicit measurement-density confounder, and a direct external transport question. It can inform whether temporal modeling is worthwhile even if the answer is negative. Myocarditis could have greater patient value, but its labels, multimodal acquisition, assay reproducibility, and subgroup transportability create a longer chain of high-risk assumptions.",
+      "target": 32,
+      "timestamp": "2026-09-21T05:04:37.121828+00:00"
+    },
+    {
+      "main_risk": "The apparent tumor-interface myeloid signature may reflect lesion size, organ-specific baseline immunity, or treatment exposure rather than a causal or transferable response state.",
+      "next_test": "Analyze paired baseline and early-treatment metastatic lesions with a focused spatial/protein panel, adjusting for organ and lesion burden, and compare the prespecified functional-interface score with abundance-only and clinical baselines in held-out patients or animals.",
+      "opponent": 4,
+      "outcome": "loss",
+      "reason": "The myeloid-niche project asks a focused mechanistic question—whether treatment-induced functional state at the tumor interface adds information beyond abundance—with an eight-week paired-sample test and orthogonal validation path. It has informative negative outcomes and a plausible route to biomarker or combination hypotheses. Myocarditis is more directly clinical, but its management endpoint is vulnerable to clinician and referral confounding, while its broad multimodal requirements make a decisive six-month result less likely.",
+      "target": 32,
+      "timestamp": "2026-09-21T05:04:37.121835+00:00"
     }
   ],
   "k_factor": 24,
@@ -1809,10 +1854,10 @@
     },
     "18": {
       "draws": 1,
-      "games": 17,
+      "games": 18,
       "losses": 9,
-      "rating": 1476.65,
-      "wins": 7
+      "rating": 1488.64,
+      "wins": 8
     },
     "19": {
       "draws": 0,
@@ -1865,17 +1910,17 @@
     },
     "26": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 9,
-      "rating": 1485.16,
-      "wins": 8
+      "rating": 1496.05,
+      "wins": 9
     },
     "27": {
       "draws": 0,
-      "games": 15,
+      "games": 16,
       "losses": 8,
-      "rating": 1490.37,
-      "wins": 7
+      "rating": 1500.71,
+      "wins": 8
     },
     "28": {
       "draws": 0,
@@ -1914,17 +1959,17 @@
     },
     "32": {
       "draws": 0,
-      "games": 2,
-      "losses": 2,
-      "rating": 1476.43,
+      "games": 7,
+      "losses": 7,
+      "rating": 1420.73,
       "wins": 0
     },
     "4": {
       "draws": 1,
-      "games": 16,
+      "games": 17,
       "losses": 9,
-      "rating": 1461.84,
-      "wins": 6
+      "rating": 1472.8,
+      "wins": 7
     },
     "5": {
       "draws": 3,
@@ -1942,10 +1987,10 @@
     },
     "7": {
       "draws": 0,
-      "games": 18,
+      "games": 19,
       "losses": 10,
-      "rating": 1478.29,
-      "wins": 8
+      "rating": 1489.81,
+      "wins": 9
     },
     "8": {
       "draws": 0,
