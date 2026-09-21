@@ -1844,16 +1844,61 @@
       "reason": "Population-calibrated thiopurine prediction has a clearer near-term clinical decision, lower operational burden, and more informative early validation than prospective organoid-guided combination therapy, which depends on rapid culture success, incomplete microenvironment modeling, clinically relevant drug panels, and enough treatment changes and outcomes to establish benefit.",
       "target": 30,
       "timestamp": "2026-09-21T12:57:15.058733+00:00"
+    },
+    {
+      "main_risk": "The reference standard for small-fiber neuropathy may be heterogeneous or partly circular, making apparent imaging value difficult to interpret.",
+      "next_test": "Run the planned 8-week site-held-out pilot with blinded image-quality adjudication, comparing clinical-only, neurophysiology-enhanced, and imaging-enhanced models with calibration and decision-curve analyses.",
+      "opponent": 5,
+      "outcome": "win",
+      "reason": "Site-transportable corneal imaging has a clearer patient-level clinical anchor, strong leakage-resistant validation plan, and an early site-held-out test that can establish incremental value over clinical and neurophysiological baselines. The cervical project depends on serial, spatially comparable tissue and a treatment-induced transition that may be difficult to measure before response.",
+      "target": 31,
+      "timestamp": "2026-09-21T20:01:15.308784+00:00"
+    },
+    {
+      "main_risk": "Corneal nerve metrics may fail to add value beyond diabetes severity, age, referral spectrum, or neurophysiological assessment, especially under an imperfect reference standard.",
+      "next_test": "Apply the locked corneal pipeline in a site-held-out cohort and test reproducibility, calibration, and incremental decision value over the strongest clinical-neurophysiological baseline.",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "Corneal imaging addresses a broader, more clinically actionable transportability problem with explicit site-held-out validation, strong baselines, and a relatively cheap early decision. The hidradenitis project relies on a narrower tunnel-state hypothesis, heterogeneous treatment contexts, and a forced IL-17/retinoid interpretation whose clinical actionability is not yet established.",
+      "target": 31,
+      "timestamp": "2026-09-21T20:01:15.308803+00:00"
+    },
+    {
+      "main_risk": "The corneal reference standard and acquisition harmonization may be insufficiently reliable to support a transportable patient-level claim.",
+      "next_test": "Use an independent site-held-out cohort to test whether corneal imaging improves calibrated prediction over clinical and neurophysiological baselines while meeting prespecified reproducibility thresholds.",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "The corneal imaging problem has a clearer decision target, more direct clinical relevance, and an earlier discriminating test that can separate transportability from artifact. The lung project has high potential impact but requires reproducible CAF-immune spatial neighborhoods, paired early-treatment tissue, cross-platform replication, and tumoroid fidelity, creating a longer chain of high-risk assumptions.",
+      "target": 31,
+      "timestamp": "2026-09-21T20:01:15.308812+00:00"
+    },
+    {
+      "main_risk": "Organoid results may not be available before treatment decisions or may reflect culture selection rather than patient pharmacology, undermining the central clinical-use claim.",
+      "next_test": "Prospectively record organoid establishment, assay readiness, turnaround, and treatment-decision timing for every eligible case before attempting outcome claims.",
+      "opponent": 1,
+      "outcome": "loss",
+      "reason": "Corneal imaging offers a broader and more replaceable clinical-validation question with a short, decision-relevant pilot and useful negative outcomes if imaging adds no value. Time-constrained organoid profiling could have substantial precision-medicine impact, but it depends simultaneously on rapid culture success, assay turnaround, in-vitro-to-patient validity, clinically available alternatives, and prospective treatment consequences that take longer to establish.",
+      "target": 31,
+      "timestamp": "2026-09-21T20:01:15.308822+00:00"
+    },
+    {
+      "main_risk": "The corneal imaging signal may be explained by referral spectrum, metabolic disease, image quality, or reference-standard artifacts rather than neuropathy-specific information.",
+      "next_test": "Conduct the blinded site-held-out corneal pilot and determine whether imaging adds calibrated patient-level value beyond the strongest clinical and neurophysiological baseline.",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "Corneal imaging has a clearer transportability anchor, broader clinical pathway, stronger early validation logic, and more informative branches if the incremental signal fails. The gastric project couples a narrow BCL2-high/BMP-low spatial mechanism to a specific treatment strategy and requires reproducibility, early persistence measurement, and causal co-culture evidence before it can support a patient-level biomarker or intervention.",
+      "target": 31,
+      "timestamp": "2026-09-21T20:01:15.308829+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 8,
-      "rating": 1516.65,
-      "wins": 9
+      "rating": 1529.16,
+      "wins": 10
     },
     "10": {
       "draws": 0,
@@ -1878,16 +1923,16 @@
     },
     "13": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 6,
-      "rating": 1523.02,
-      "wins": 8
+      "rating": 1535.74,
+      "wins": 9
     },
     "15": {
       "draws": 1,
-      "games": 15,
-      "losses": 6,
-      "rating": 1525.7,
+      "games": 16,
+      "losses": 7,
+      "rating": 1513.46,
       "wins": 8
     },
     "17": {
@@ -1997,10 +2042,10 @@
     },
     "31": {
       "draws": 0,
-      "games": 6,
-      "losses": 2,
-      "rating": 1520.3,
-      "wins": 4
+      "games": 11,
+      "losses": 4,
+      "rating": 1531.03,
+      "wins": 7
     },
     "32": {
       "draws": 0,
@@ -2018,9 +2063,9 @@
     },
     "5": {
       "draws": 3,
-      "games": 15,
-      "losses": 5,
-      "rating": 1521.38,
+      "games": 16,
+      "losses": 6,
+      "rating": 1509.34,
       "wins": 7
     },
     "6": {
@@ -2046,9 +2091,9 @@
     },
     "9": {
       "draws": 1,
-      "games": 15,
-      "losses": 6,
-      "rating": 1522.97,
+      "games": 16,
+      "losses": 7,
+      "rating": 1511.29,
       "wins": 8
     }
   },
