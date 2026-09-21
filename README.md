@@ -104,17 +104,17 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | Rank | Research idea | Rating | Comparisons | Record |
 |---:|---|---:|---:|---:|
 | 1 | [#17 — [Idea] Patient-level tissue-context gain over composition for multimodal lymphoma treatment-response prediction](https://github.com/kayoderaheem/research-portfolio/issues/17) | **1613** | 14 | 12W / 0D / 2L |
-| 2 | [#28 — [Idea] Incremental decision value and cross-registry calibration of blood-based T2 biomarkers for asthma exacerbation risk](https://github.com/kayoderaheem/research-portfolio/issues/28) | **1589** | 12 | 10W / 0D / 2L |
-| 3 | [#24 — [Idea] External calibration of multimodal HCC surveillance triage](https://github.com/kayoderaheem/research-portfolio/issues/24) | **1581** | 14 | 10W / 1D / 3L |
-| 4 | [#25 — [Idea] Treatment-specific multimodal validation of lupus nephritis response programs](https://github.com/kayoderaheem/research-portfolio/issues/25) | **1569** | 11 | 8W / 1D / 2L |
-| 5 | [#30 — [Idea] Population-calibrated multimodal prediction of thiopurine toxicity](https://github.com/kayoderaheem/research-portfolio/issues/30) | **1556** | 5 | 5W / 0D / 0L |
-| 6 | [#11 — [Idea] Spatially constrained T-cell fitness states predicting blinatumomab response in B-cell leukemia](https://github.com/kayoderaheem/research-portfolio/issues/11) | **1537** | 12 | 7W / 1D / 4L |
-| 7 | [#5 — [Idea] Spatially resolved immune-priming trajectories during cervical chemoradiotherapy](https://github.com/kayoderaheem/research-portfolio/issues/5) | **1531** | 14 | 7W / 3D / 4L |
-| 8 | [#1 — [Idea] Time-to-decision functional profiling for resistance-aware combination therapy](https://github.com/kayoderaheem/research-portfolio/issues/1) | **1526** | 16 | 9W / 0D / 7L |
-| 9 | [#15 — [Idea] BMP-restraint failure and BCL2-high niches as predictors of diffuse gastric cancer treatment response](https://github.com/kayoderaheem/research-portfolio/issues/15) | **1526** | 15 | 8W / 1D / 6L |
-| 10 | [#13 — [Idea] Spatial CAF–immune buffering of EGFR-targeted therapy in lung adenocarcinoma](https://github.com/kayoderaheem/research-portfolio/issues/13) | **1523** | 14 | 8W / 0D / 6L |
-| 11 | [#9 — [Idea] Spatially resolved IL-17 and retinoid states predicting tunnel-directed therapy response in hidradenitis suppurativa](https://github.com/kayoderaheem/research-portfolio/issues/9) | **1523** | 15 | 8W / 1D / 6L |
-| 12 | [#31 — [Idea] Site-transportable multimodal validation of corneal nerve imaging for small-fiber neuropathy](https://github.com/kayoderaheem/research-portfolio/issues/31) | **1520** | 6 | 4W / 0D / 2L |
+| 2 | [#30 — [Idea] Population-calibrated multimodal prediction of thiopurine toxicity](https://github.com/kayoderaheem/research-portfolio/issues/30) | **1611** | 10 | 10W / 0D / 0L |
+| 3 | [#28 — [Idea] Incremental decision value and cross-registry calibration of blood-based T2 biomarkers for asthma exacerbation risk](https://github.com/kayoderaheem/research-portfolio/issues/28) | **1589** | 12 | 10W / 0D / 2L |
+| 4 | [#24 — [Idea] External calibration of multimodal HCC surveillance triage](https://github.com/kayoderaheem/research-portfolio/issues/24) | **1569** | 15 | 10W / 1D / 4L |
+| 5 | [#25 — [Idea] Treatment-specific multimodal validation of lupus nephritis response programs](https://github.com/kayoderaheem/research-portfolio/issues/25) | **1557** | 12 | 8W / 1D / 3L |
+| 6 | [#11 — [Idea] Spatially constrained T-cell fitness states predicting blinatumomab response in B-cell leukemia](https://github.com/kayoderaheem/research-portfolio/issues/11) | **1526** | 13 | 7W / 1D / 5L |
+| 7 | [#15 — [Idea] BMP-restraint failure and BCL2-high niches as predictors of diffuse gastric cancer treatment response](https://github.com/kayoderaheem/research-portfolio/issues/15) | **1526** | 15 | 8W / 1D / 6L |
+| 8 | [#13 — [Idea] Spatial CAF–immune buffering of EGFR-targeted therapy in lung adenocarcinoma](https://github.com/kayoderaheem/research-portfolio/issues/13) | **1523** | 14 | 8W / 0D / 6L |
+| 9 | [#9 — [Idea] Spatially resolved IL-17 and retinoid states predicting tunnel-directed therapy response in hidradenitis suppurativa](https://github.com/kayoderaheem/research-portfolio/issues/9) | **1523** | 15 | 8W / 1D / 6L |
+| 10 | [#5 — [Idea] Spatially resolved immune-priming trajectories during cervical chemoradiotherapy](https://github.com/kayoderaheem/research-portfolio/issues/5) | **1521** | 15 | 7W / 3D / 5L |
+| 11 | [#31 — [Idea] Site-transportable multimodal validation of corneal nerve imaging for small-fiber neuropathy](https://github.com/kayoderaheem/research-portfolio/issues/31) | **1520** | 6 | 4W / 0D / 2L |
+| 12 | [#1 — [Idea] Time-to-decision functional profiling for resistance-aware combination therapy](https://github.com/kayoderaheem/research-portfolio/issues/1) | **1517** | 17 | 9W / 0D / 8L |
 | 13 | [#10 — [Idea] Metabolite-defined resident-memory niches that determine checkpoint response in hepatocellular carcinoma](https://github.com/kayoderaheem/research-portfolio/issues/10) | **1512** | 13 | 7W / 0D / 6L |
 | 14 | [#3 — [Idea] Early detection of DNA-damage-tolerance escape during genotoxic therapy](https://github.com/kayoderaheem/research-portfolio/issues/3) | **1511** | 15 | 8W / 0D / 7L |
 | 15 | [#8 — [Idea] Metastatic-site spatial niches that modify ALK-inhibitor response](https://github.com/kayoderaheem/research-portfolio/issues/8) | **1509** | 17 | 9W / 0D / 8L |
@@ -133,7 +133,7 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | 28 | [#12 — [Idea] Antigen-presentation escape neighborhoods predicting checkpoint response in melanoma with HIV](https://github.com/kayoderaheem/research-portfolio/issues/12) | **1388** | 14 | 2W / 0D / 12L |
 | 29 | [#21 — [Idea] Decision-value thresholds for multimodal treatment matching in opioid use disorder](https://github.com/kayoderaheem/research-portfolio/issues/21) | **1383** | 15 | 2W / 0D / 13L |
 
-_Last synchronized: 2026-09-21 05:04 UTC._
+_Last synchronized: 2026-09-21 12:57 UTC._
 <!-- RESEARCH_ELO_END -->
 
 ## Add ideas manually

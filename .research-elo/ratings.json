@@ -1799,15 +1799,60 @@
       "reason": "The myeloid-niche project asks a focused mechanistic question—whether treatment-induced functional state at the tumor interface adds information beyond abundance—with an eight-week paired-sample test and orthogonal validation path. It has informative negative outcomes and a plausible route to biomarker or combination hypotheses. Myocarditis is more directly clinical, but its management endpoint is vulnerable to clinician and referral confounding, while its broad multimodal requirements make a decisive six-month result less likely.",
       "target": 32,
       "timestamp": "2026-09-21T05:04:37.121835+00:00"
+    },
+    {
+      "main_risk": "Genotype may add little actionable information beyond serial blood-count trajectories and routine clinical monitoring.",
+      "next_test": "In a held-out patient/site cohort, compare a locked genotype-plus-clinical/laboratory model with the serial blood-count baseline for calibration and decision-curve net benefit.",
+      "opponent": 25,
+      "outcome": "win",
+      "reason": "Population-calibrated thiopurine toxicity prediction has a clearer clinical anchor, established actionable variants, simpler assay requirements, and a cheaper early test than regimen-specific gene-expression programs whose transportability, treatment-selection confounding, and external validation are substantial risks.",
+      "target": 30,
+      "timestamp": "2026-09-21T12:57:15.058683+00:00"
+    },
+    {
+      "main_risk": "Spatial accessibility may provide no reproducible information beyond leukemia burden, circulating T-cell composition, and established clinical predictors.",
+      "next_test": "Analyze pretreatment marrow from a pilot patient cohort using a reproducible spatial or multiplex assay and test whether prespecified spatial features improve patient-level held-out prediction over clinical and composition baselines.",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "Thiopurine pharmacogenetics offers a more tractable and decision-linked six-month project with clearer measurements and earlier readouts. Spatial marrow profiling for blinatumomab response depends on difficult specimen access, reproducible spatial features, longitudinal sampling, and validation in a relatively specialized setting.",
+      "target": 30,
+      "timestamp": "2026-09-21T12:57:15.058708+00:00"
+    },
+    {
+      "main_risk": "TPMT and NUDT15 genotype may be redundant once serial laboratory monitoring and treatment context are included.",
+      "next_test": "Evaluate a locked genotype-augmented model against the serial-monitoring baseline in an independent site-held-out cohort with subgroup calibration and decision-curve analysis.",
+      "opponent": 24,
+      "outcome": "win",
+      "reason": "Thiopurine toxicity prediction is better positioned for a six-month investment because the endpoint, variants, and clinical action are comparatively established, while the HCC cfDNA proposal must first establish cross-site assay reproducibility, avoid cutoff-selection leakage, and show value beyond ultrasound, AFP, and disease severity without merely detecting tumor burden.",
+      "target": 30,
+      "timestamp": "2026-09-21T12:57:15.058719+00:00"
+    },
+    {
+      "main_risk": "The spatial transition may not be reproducible or may add no value beyond baseline composition, tumor burden, and clinical covariates.",
+      "next_test": "Profile paired baseline and early-treatment specimens from an initial patient set, assess tissue comparability and transition reproducibility, and compare spatial-transition features with composition-only and clinical baselines using patient-level validation.",
+      "opponent": 5,
+      "outcome": "win",
+      "reason": "The thiopurine project has a more economical and operationally realistic early branch point. Cervical chemoradiotherapy requires paired spatial tissue from comparable regions and timepoints, with major risks from sampling, treatment-site confounding, assay transferability, and a complex transition definition before any biological or predictive signal can be trusted.",
+      "target": 30,
+      "timestamp": "2026-09-21T12:57:15.058726+00:00"
+    },
+    {
+      "main_risk": "Organoid response may be reproducible in vitro yet fail to predict patient pharmacology or clinical benefit; conversely, thiopurine genotype may prove redundant to monitoring.",
+      "next_test": "Run a prospective feasibility and predictive pilot recording every eligible case, organoid establishment and turnaround failure, while separately testing whether a locked functional score improves prediction over molecular recommendations; in parallel, use the cheaper held-out genotype-versus-monitoring test as the nearer investment gate.",
+      "opponent": 1,
+      "outcome": "win",
+      "reason": "Population-calibrated thiopurine prediction has a clearer near-term clinical decision, lower operational burden, and more informative early validation than prospective organoid-guided combination therapy, which depends on rapid culture success, incomplete microenvironment modeling, clinically relevant drug panels, and enough treatment changes and outcomes to establish benefit.",
+      "target": 30,
+      "timestamp": "2026-09-21T12:57:15.058733+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 16,
-      "losses": 7,
-      "rating": 1526.08,
+      "games": 17,
+      "losses": 8,
+      "rating": 1516.65,
       "wins": 9
     },
     "10": {
@@ -1819,9 +1864,9 @@
     },
     "11": {
       "draws": 1,
-      "games": 12,
-      "losses": 4,
-      "rating": 1537.18,
+      "games": 13,
+      "losses": 5,
+      "rating": 1526.27,
       "wins": 7
     },
     "12": {
@@ -1896,16 +1941,16 @@
     },
     "24": {
       "draws": 1,
-      "games": 14,
-      "losses": 3,
-      "rating": 1580.8,
+      "games": 15,
+      "losses": 4,
+      "rating": 1568.76,
       "wins": 10
     },
     "25": {
       "draws": 1,
-      "games": 11,
-      "losses": 2,
-      "rating": 1568.96,
+      "games": 12,
+      "losses": 3,
+      "rating": 1556.52,
       "wins": 8
     },
     "26": {
@@ -1945,10 +1990,10 @@
     },
     "30": {
       "draws": 0,
-      "games": 5,
+      "games": 10,
       "losses": 0,
-      "rating": 1556.25,
-      "wins": 5
+      "rating": 1611.01,
+      "wins": 10
     },
     "31": {
       "draws": 0,
@@ -1973,9 +2018,9 @@
     },
     "5": {
       "draws": 3,
-      "games": 14,
-      "losses": 4,
-      "rating": 1531.32,
+      "games": 15,
+      "losses": 5,
+      "rating": 1521.38,
       "wins": 7
     },
     "6": {
