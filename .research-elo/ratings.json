@@ -1979,15 +1979,60 @@
       "reason": "Thiopurine prediction has a tighter clinical anchor, established candidate variants, a relatively inexpensive early retrospective test, and a credible path to population-specific calibration. The lung adenocarcinoma project combines difficult spatial measurement, paired biopsies, treatment-induced mechanism, external replication, and tumoroid functional validation, creating several long-readout assumptions and a less fixed therapy/application pairing.",
       "target": 30,
       "timestamp": "2026-09-22T05:05:50.410447+00:00"
+    },
+    {
+      "main_risk": "The corneal project may be undermined by an imperfect or partially circular small-fiber-neuropathy reference standard, making incremental value difficult to interpret.",
+      "next_test": "Run the prespecified 8-week site-held-out pilot comparing clinical-only, neurophysiology-enhanced, and corneal-imaging-enhanced models, while measuring blinded image reproducibility and reference-standard agreement.",
+      "opponent": 1,
+      "outcome": "win",
+      "reason": "Site-transportable corneal imaging has a clearer six-month validation path, with an early site-held-out test, explicit reproducibility and calibration criteria, and useful outcomes even if imaging adds no value. The organoid project has greater potential clinical impact but depends on rapid culture success, assay fidelity to patient pharmacology, and treatment decisions occurring within the assay window.",
+      "target": 31,
+      "timestamp": "2026-09-22T11:46:47.536227+00:00"
+    },
+    {
+      "main_risk": "Cross-site imaging reproducibility and acquisition failure may be too poor for a stable incremental clinical signal.",
+      "next_test": "Use a site-held-out cohort to test whether the locked corneal imaging pipeline improves calibrated patient-level referral or monitoring decisions over the strongest clinical and neurophysiological baseline.",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "Corneal imaging offers a more transportable and decision-oriented technology study with a cheap early test and strong validation safeguards. The lung spatial project could yield deeper mechanistic insight, but it requires paired biopsies, reproducible cross-platform neighborhood definitions, and preservation of stromal and immune interactions in tumoroids; several results may remain assay- or sampling-dependent.",
+      "target": 31,
+      "timestamp": "2026-09-22T11:46:47.536246+00:00"
+    },
+    {
+      "main_risk": "The corneal signal may reflect age, diabetes, image quality, operator, or site differences rather than small-fiber neuropathy biology.",
+      "next_test": "Conduct the locked site-held-out pilot with patient-level splits and compare imaging-enhanced calibration and decision value against clinical and neurophysiological baselines, including quality and missingness analyses.",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "Corneal imaging has broader applicability, a clearer transportability question, and a more feasible early decision point. The blinatumomab project is biologically compelling but narrowly dependent on scarce paired marrow specimens, technically reproducible spatial measurements, and spatial information adding value beyond disease burden and circulating T-cell composition.",
+      "target": 31,
+      "timestamp": "2026-09-22T11:46:47.536255+00:00"
+    },
+    {
+      "main_risk": "Treatment-selection confounding and non-comparable response definitions across lupus cohorts could make apparent regimen-specific performance non-transportable.",
+      "next_test": "Lock the smallest regimen-specific programs and evaluate clinical-only versus clinical-plus-program models in a blinded independent cohort with harmonized response labels and prespecified calibration and net-benefit criteria.",
+      "opponent": 25,
+      "outcome": "loss",
+      "reason": "The lupus nephritis project has a more direct and bounded validation target: determine whether locked regimen-specific expression programs add calibrated decision value to a clinical model in an independent cohort. It also permits informative negative results by identifying regimens where molecular prediction is redundant. Corneal imaging remains promising, but its reference standard, acquisition harmonization, and recalibration requirements create more coupled risks.",
+      "target": 31,
+      "timestamp": "2026-09-22T11:46:47.536263+00:00"
+    },
+    {
+      "main_risk": "A difficult or circular reference standard for small-fiber neuropathy could prevent a credible estimate of incremental diagnostic or monitoring value.",
+      "next_test": "Measure locked corneal nerve features in a site-held-out pilot and determine whether they add prespecified calibrated decision value beyond clinical and neurophysiological assessment with reproducibility ICC of at least 0.80.",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "Corneal imaging is the stronger current investment because it has a clearer patient-level clinical anchor, broader technology value, stronger early branching test, and useful outcomes from reproducibility or transportability failures. The gastric-cancer niche hypothesis is novel and potentially mechanistic, but depends on a rare disease context, paired spatial specimens, reproducible niche biology, and causal perturbation effects across several model systems.",
+      "target": 31,
+      "timestamp": "2026-09-22T11:46:47.536269+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 18,
-      "losses": 8,
-      "rating": 1529.16,
+      "games": 19,
+      "losses": 9,
+      "rating": 1517.22,
       "wins": 10
     },
     "10": {
@@ -1999,9 +2044,9 @@
     },
     "11": {
       "draws": 1,
-      "games": 13,
-      "losses": 5,
-      "rating": 1526.27,
+      "games": 14,
+      "losses": 6,
+      "rating": 1515.24,
       "wins": 7
     },
     "12": {
@@ -2013,16 +2058,16 @@
     },
     "13": {
       "draws": 0,
-      "games": 16,
-      "losses": 7,
-      "rating": 1526.9,
+      "games": 17,
+      "losses": 8,
+      "rating": 1515.45,
       "wins": 9
     },
     "15": {
       "draws": 1,
-      "games": 16,
-      "losses": 7,
-      "rating": 1513.46,
+      "games": 17,
+      "losses": 8,
+      "rating": 1502.81,
       "wins": 8
     },
     "17": {
@@ -2083,10 +2128,10 @@
     },
     "25": {
       "draws": 1,
-      "games": 13,
+      "games": 14,
       "losses": 4,
-      "rating": 1546.68,
-      "wins": 8
+      "rating": 1559.33,
+      "wins": 9
     },
     "26": {
       "draws": 0,
@@ -2132,10 +2177,10 @@
     },
     "31": {
       "draws": 0,
-      "games": 11,
-      "losses": 4,
-      "rating": 1531.03,
-      "wins": 7
+      "games": 16,
+      "losses": 5,
+      "rating": 1563.45,
+      "wins": 11
     },
     "32": {
       "draws": 0,
