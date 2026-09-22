@@ -2069,6 +2069,51 @@
       "reason": "The myocarditis proposal fixes a concrete initial management decision and specifies strong clinical and modality baselines, whereas the multiple-sclerosis proposal leaves the clinical use and outcome horizon more open and requires a long chain linking peripheral immune measurements to compartmentalized CNS inflammation. MS has a promising prior state, but its transportability, treatment-shift calibration, and cross-compartment relevance are all substantial unresolved risks.",
       "target": 32,
       "timestamp": "2026-09-22T17:01:54.936608+00:00"
+    },
+    {
+      "main_risk": "The apparent identifiability boundary may mainly reflect batch effects, weak-response measurement floors, or related-condition leakage rather than a fundamental limit.",
+      "next_test": "Using the existing atlas, run replicate variance and leakage audits followed by predefined complete-drug, dose, and cell-context holdouts against hierarchical and nearest-neighbor baselines.",
+      "opponent": 34,
+      "outcome": "win",
+      "reason": "Issue 33 is the stronger current investment because it addresses a broad, reusable validity problem using an apparently available atlas, has explicit leakage-resistant holdouts and strong baselines, and offers a relatively cheap 10-week test. Issue 34 has higher headline impact but depends on access to a frozen model, genuinely unseen therapies, independent organoids, reproducible synergy assays, and calibrated uncertainty under major distribution shift.",
+      "target": 33,
+      "timestamp": "2026-09-22T21:24:35.232504+00:00"
+    },
+    {
+      "main_risk": "Response components that appear non-identifiable may instead reflect inadequate representation, technical noise, or insufficient replication in the atlas.",
+      "next_test": "Partition the atlas by biological replicate and context, then compare simple hierarchical models with multimodal or latent models on locked drug, dose, and context holdouts before adding new assays.",
+      "opponent": 35,
+      "outcome": "win",
+      "reason": "Issue 33 offers broader technology value and a clearer, more tractable anchor: determining when perturbation counterfactuals are identifiable. It can produce useful calibration and experiment-selection criteria even if sophisticated models fail. Issue 35 has stronger mechanistic discovery potential but combines ATRX-state transfer, multimodal integration, causal regulatory inference, localization measurement, and targeted validation in a narrower and riskier setting.",
+      "target": 33,
+      "timestamp": "2026-09-22T21:24:35.232523+00:00"
+    },
+    {
+      "main_risk": "Identifiability analysis may not distinguish biological limits from measurement-density, batch, or response-detection artifacts.",
+      "next_test": "Perform the atlas-level holdout and calibration analysis with replicate-aware splits and matched negative controls; continue only if performance degradation tracks withheld biological structure rather than technical covariates.",
+      "opponent": 27,
+      "outcome": "win",
+      "reason": "Issue 33 is the better current investment because it has a ready-to-analyze perturbation setting, a general scientific output, explicit early falsification criteria, and useful outcomes across model classes. Issue 27 has greater direct clinical relevance, but its incremental temporal value is already uncertain relative to tuned LightGBM and depends on harmonization, a defensible escalation threshold, transport calibration, and access to a third independent ICU database.",
+      "target": 33,
+      "timestamp": "2026-09-22T21:24:35.232533+00:00"
+    },
+    {
+      "main_risk": "The atlas may support methodological conclusions but fail to yield biologically meaningful guidance for selecting or validating counterfactual experiments.",
+      "next_test": "Lock patient/replicate-level splits and test whether response-axis decomposition improves held-out drug and context prediction beyond abundance, pathway, and hierarchical baselines with calibrated uncertainty.",
+      "opponent": 15,
+      "outcome": "loss",
+      "reason": "Issue 33 currently deserves the time because it is more broadly reusable, has stronger evidence readiness, and can be advanced with existing perturbation data before committing to difficult prospective tissue and co-culture work. Issue 15 could yield meaningful patient-level biomarker and therapeutic insight, but its spatial niche association, early persistence endpoint, and causal BCL2/BMP mechanism all require costly matched specimens and independent validation.",
+      "target": 33,
+      "timestamp": "2026-09-22T21:24:35.232543+00:00"
+    },
+    {
+      "main_risk": "The proposed response components may not be separable enough for uncertainty estimates to identify genuinely unsupported predictions.",
+      "next_test": "Use the existing atlas to compare a locked hierarchical reference against response decomposition and uncertainty methods under complete-drug, dose, and cell-context holdouts, including shuffled-label and negative-control analyses.",
+      "opponent": 26,
+      "outcome": "win",
+      "reason": "Issue 33 has a clearer fixed scientific anchor, a defined data resource, stronger validation safeguards, and an early test that can support continue, pivot, or stop decisions. Issue 26 has potentially greater clinical value, but the molecular modality, management endpoint, assay harmonization, and transport setting remain under-specified, with substantial risk of gestational-age, referral, and treatment-decision leakage.",
+      "target": 33,
+      "timestamp": "2026-09-22T21:24:35.232550+00:00"
     }
   ],
   "k_factor": 24,
@@ -2110,10 +2155,10 @@
     },
     "15": {
       "draws": 1,
-      "games": 17,
+      "games": 18,
       "losses": 8,
-      "rating": 1502.81,
-      "wins": 8
+      "rating": 1515.91,
+      "wins": 9
     },
     "17": {
       "draws": 0,
@@ -2180,16 +2225,16 @@
     },
     "26": {
       "draws": 0,
-      "games": 18,
-      "losses": 9,
-      "rating": 1496.05,
+      "games": 19,
+      "losses": 10,
+      "rating": 1484.93,
       "wins": 9
     },
     "27": {
       "draws": 0,
-      "games": 16,
-      "losses": 8,
-      "rating": 1500.71,
+      "games": 17,
+      "losses": 9,
+      "rating": 1489.5,
       "wins": 8
     },
     "28": {
@@ -2233,6 +2278,27 @@
       "losses": 11,
       "rating": 1444.5,
       "wins": 6
+    },
+    "33": {
+      "draws": 0,
+      "games": 5,
+      "losses": 1,
+      "rating": 1532.82,
+      "wins": 4
+    },
+    "34": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "35": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
     },
     "4": {
       "draws": 1,
