@@ -2024,6 +2024,51 @@
       "reason": "Corneal imaging is the stronger current investment because it has a clearer patient-level clinical anchor, broader technology value, stronger early branching test, and useful outcomes from reproducibility or transportability failures. The gastric-cancer niche hypothesis is novel and potentially mechanistic, but depends on a rare disease context, paired spatial specimens, reproducible niche biology, and causal perturbation effects across several model systems.",
       "target": 31,
       "timestamp": "2026-09-22T11:46:47.536269+00:00"
+    },
+    {
+      "main_risk": "The myocarditis management label may be too subjective or confounded by clinician preference and treatment timing to support a valid incremental-value test.",
+      "next_test": "Blind pediatric cardiology reviewers to candidate modalities, predefine the treatment and monitoring decision, and measure inter-rater agreement and outcome completeness before fitting models.",
+      "opponent": 6,
+      "outcome": "win",
+      "reason": "The myocarditis problem has a clearer patient-level management anchor, a relatively cheap nested-model pilot, and direct decision-curve and calibration readouts. The glioblastoma idea is more novel, but its central mechanical state is difficult to measure from clinical tissue and requires scarce matched longitudinal specimens before its biological contribution can be separated from hypoxia, necrosis, density, or mesenchymal state.",
+      "target": 32,
+      "timestamp": "2026-09-22T17:01:54.936563+00:00"
+    },
+    {
+      "main_risk": "ZNF423 restoration may mark residual tumor, genomic background, or sampling stress rather than a reproducible treatment-escape trajectory.",
+      "next_test": "Use a small longitudinal, patient-separated pilot with orthogonal ZNF423 and stress measurements to test whether baseline state predicts an early restoration trajectory before later escape.",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "The MPNST problem has a more differentiated scientific anchor and a concrete prior observation supporting a testable restoration trajectory, with useful outcomes even if spatial features fail because state composition and longitudinal ZNF423 dynamics remain informative. Myocarditis has greater broad clinical impact but depends on several high-risk assumptions about adjudicated treatment decisions, molecular reproducibility, and transportable calibration.",
+      "target": 32,
+      "timestamp": "2026-09-22T17:01:54.936585+00:00"
+    },
+    {
+      "main_risk": "Serial inflammatory trajectories may only reflect postoperative timing or general recovery severity and may not identify a rehabilitation decision that improves outcomes.",
+      "next_test": "Predefine one delayed-recovery endpoint and one rehabilitation escalation rule, then test whether a simple prespecified postoperative inflammatory measurement adds calibrated decision value beyond baseline risk and early function.",
+      "opponent": 23,
+      "outcome": "loss",
+      "reason": "The knee-arthroplasty problem is less novel but more tractable: the population is larger, serial measurements and functional outcomes are practical, and site-held-out validation can quickly establish whether dynamic inflammation adds value beyond early function and frailty. Myocarditis has higher potential clinical impact but a rarer cohort, more heterogeneous assays, and a difficult treatment-intensity target that may not be independently adjudicable.",
+      "target": 32,
+      "timestamp": "2026-09-22T17:01:54.936594+00:00"
+    },
+    {
+      "main_risk": "The apparent treatment-induced spatial myeloid state may be a consequence of lesion shrinkage, organ context, or treatment exposure rather than a transferable determinant of metastatic control.",
+      "next_test": "In paired baseline and early-treatment lesions, lock a focused myeloid interface score and compare it against abundance-only and clinical or lesion-burden baselines using subject-level splits and organ-adjusted analyses.",
+      "opponent": 4,
+      "outcome": "loss",
+      "reason": "The myeloid-niche problem offers a strong combination of impact, tractable spatial validation, and useful negative outcomes: abundance-only, organ-specific, and lesion-size explanations can be tested directly, followed by orthogonal protein or functional assays. Myocarditis is clinically important but carries greater risk from subjective management labels, molecular assay heterogeneity, and transportability across pediatric etiologies and sites.",
+      "target": 32,
+      "timestamp": "2026-09-22T17:01:54.936601+00:00"
+    },
+    {
+      "main_risk": "The myocarditis decision target may not be reproducibly adjudicated independently of the candidate measurements, making apparent predictive value reflect practice variation.",
+      "next_test": "Establish blinded adjudication rules for immunomodulatory treatment consideration and intensive monitoring, quantify reviewer agreement, and audit whether these decisions and short-term outcomes are consistently recorded across sites.",
+      "opponent": 22,
+      "outcome": "win",
+      "reason": "The myocarditis proposal fixes a concrete initial management decision and specifies strong clinical and modality baselines, whereas the multiple-sclerosis proposal leaves the clinical use and outcome horizon more open and requires a long chain linking peripheral immune measurements to compartmentalized CNS inflammation. MS has a promising prior state, but its transportability, treatment-shift calibration, and cross-compartment relevance are all substantial unresolved risks.",
+      "target": 32,
+      "timestamp": "2026-09-22T17:01:54.936608+00:00"
     }
   ],
   "k_factor": 24,
@@ -2086,10 +2131,10 @@
     },
     "19": {
       "draws": 0,
-      "games": 13,
+      "games": 14,
       "losses": 8,
-      "rating": 1462.97,
-      "wins": 5
+      "rating": 1475.14,
+      "wins": 6
     },
     "2": {
       "draws": 0,
@@ -2107,17 +2152,17 @@
     },
     "22": {
       "draws": 0,
-      "games": 15,
-      "losses": 10,
-      "rating": 1436.77,
+      "games": 16,
+      "losses": 11,
+      "rating": 1424.62,
       "wins": 5
     },
     "23": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 11,
-      "rating": 1440.66,
-      "wins": 6
+      "rating": 1453.18,
+      "wins": 7
     },
     "24": {
       "draws": 1,
@@ -2184,17 +2229,17 @@
     },
     "32": {
       "draws": 0,
-      "games": 12,
-      "losses": 8,
-      "rating": 1455.94,
-      "wins": 4
+      "games": 17,
+      "losses": 11,
+      "rating": 1444.5,
+      "wins": 6
     },
     "4": {
       "draws": 1,
-      "games": 17,
+      "games": 18,
       "losses": 9,
-      "rating": 1472.8,
-      "wins": 7
+      "rating": 1483.78,
+      "wins": 8
     },
     "5": {
       "draws": 3,
@@ -2205,9 +2250,9 @@
     },
     "6": {
       "draws": 0,
-      "games": 14,
-      "losses": 9,
-      "rating": 1458.19,
+      "games": 15,
+      "losses": 10,
+      "rating": 1446.11,
       "wins": 5
     },
     "7": {
