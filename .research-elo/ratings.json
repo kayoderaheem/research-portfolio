@@ -1889,6 +1889,51 @@
       "reason": "Corneal imaging has a clearer transportability anchor, broader clinical pathway, stronger early validation logic, and more informative branches if the incremental signal fails. The gastric project couples a narrow BCL2-high/BMP-low spatial mechanism to a specific treatment strategy and requires reproducibility, early persistence measurement, and causal co-culture evidence before it can support a patient-level biomarker or intervention.",
       "target": 31,
       "timestamp": "2026-09-21T20:01:15.308829+00:00"
+    },
+    {
+      "main_risk": "The pediatric myocarditis management endpoint may be too subjective or inconsistently applied across sites to support a valid model target.",
+      "next_test": "Blindly adjudicate the treatment and intensive-monitoring decision in existing cases, quantify inter-rater agreement, and audit whether baseline multimodal data and outcomes are complete enough for a nested-model pilot.",
+      "opponent": 29,
+      "outcome": "win",
+      "reason": "Problem 32 has greater potential clinical impact and a clearer patient-level management anchor, while explicitly testing whether each added modality changes treatment or monitoring decisions rather than merely improving association. Problem 29 is more tractable but its proposed adaptive-fractionation decision and external matched cohort are uncertain, and acute toxicity prediction may not translate into a feasible intervention.",
+      "target": 32,
+      "timestamp": "2026-09-22T00:10:16.942567+00:00"
+    },
+    {
+      "main_risk": "The myocarditis target decision may not be reproducibly defined independently of the candidate predictors.",
+      "next_test": "Run blinded multi-reviewer adjudication and a retrospective locked comparison of clinical-troponin, imaging, and molecular increments using patient-level splits and calibration, not discrimination alone.",
+      "opponent": 22,
+      "outcome": "win",
+      "reason": "Problem 32 offers a more fixed and actionable clinical anchor with an earlier decision pathway, whereas problem 22 leaves the clinical use, prediction horizon, compartment, and assay partly floating and depends on several difficult assumptions about cross-site immune-state measurement, treatment dynamics, and blood-to-CNS relevance. The MS idea is potentially important, but its validation chain is longer and more vulnerable to cohort and treatment confounding.",
+      "target": 32,
+      "timestamp": "2026-09-22T00:10:16.942584+00:00"
+    },
+    {
+      "main_risk": "Matched pretreatment and early on-treatment MPNST specimens with reliable escape follow-up may be too scarce to test a patient-reproducible trajectory.",
+      "next_test": "Audit available longitudinal MPNST specimens and perform an orthogonally confirmed pilot of ZNF423, stress, malignant-cell identity, and treatment timing before committing to spatial modeling.",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "Problem 19 is the stronger current discovery investment because it has a differentiated, mechanistically anchored transition, preliminary observation motivating the hypothesis, a clear patient-level validation structure, and useful outcomes even if spatial features fail or the transition is not reproducible. Problem 32 has broader clinical impact but requires a large, heterogeneous pediatric dataset, reproducible molecular profiling, subjective management labels, and transportability across sites and etiologies.",
+      "target": 32,
+      "timestamp": "2026-09-22T00:10:16.942593+00:00"
+    },
+    {
+      "main_risk": "The myocarditis management outcome may be confounded by clinician preference, referral spectrum, and treatment timing rather than representing a stable biological decision target.",
+      "next_test": "Define and blinded-adjudicate the initial treatment and monitoring decision, then test whether imaging or molecular additions improve calibrated decision value over clinical severity, troponin, ventricular function, and arrhythmia baselines.",
+      "opponent": 23,
+      "outcome": "win",
+      "reason": "Problem 32 has the stronger fixed clinical anchor and more direct precision-medicine relevance. Problem 23 proposes a potentially useful recovery phenotype, but the rehabilitation escalation decision is not yet specified or standardized, and serial inflammation may simply proxy postoperative severity, complications, or sampling time. Its prospective multicenter design helps, but the intervention and readout chain remains less mature.",
+      "target": 32,
+      "timestamp": "2026-09-22T00:10:16.942599+00:00"
+    },
+    {
+      "main_risk": "The HIV-positive melanoma cohort may be too small or heterogeneous to distinguish spatial antigen-presentation biology from HIV control, CD4 count, prior therapy, tumor burden, and treatment-access effects.",
+      "next_test": "First audit and freeze an adequately powered, treatment-comparable cohort with pretreatment tissue, HIV covariates, and response outcomes; then test protein-level spatial coupling against composition-only and clinical baselines.",
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "Problem 32 currently has a more feasible and broadly applicable validation path, with a concrete management decision, explicit modality-ablation strategy, and strong clinical baselines. Problem 12 addresses an important underserved population and could reveal a valuable spatial mechanism, but assembling an adequately sized, treatment-comparable HIV-positive melanoma cohort with tissue and orthogonal functional validation is a major early risk.",
+      "target": 32,
+      "timestamp": "2026-09-22T00:10:16.942604+00:00"
     }
   ],
   "k_factor": 24,
@@ -1916,9 +1961,9 @@
     },
     "12": {
       "draws": 0,
-      "games": 14,
-      "losses": 12,
-      "rating": 1387.56,
+      "games": 15,
+      "losses": 13,
+      "rating": 1377.56,
       "wins": 2
     },
     "13": {
@@ -1951,10 +1996,10 @@
     },
     "19": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 8,
-      "rating": 1451.18,
-      "wins": 4
+      "rating": 1462.97,
+      "wins": 5
     },
     "2": {
       "draws": 0,
@@ -1972,16 +2017,16 @@
     },
     "22": {
       "draws": 0,
-      "games": 14,
-      "losses": 9,
-      "rating": 1449.35,
+      "games": 15,
+      "losses": 10,
+      "rating": 1436.77,
       "wins": 5
     },
     "23": {
       "draws": 0,
-      "games": 16,
-      "losses": 10,
-      "rating": 1453.35,
+      "games": 17,
+      "losses": 11,
+      "rating": 1440.66,
       "wins": 6
     },
     "24": {
@@ -2021,9 +2066,9 @@
     },
     "29": {
       "draws": 0,
-      "games": 12,
-      "losses": 10,
-      "rating": 1412.89,
+      "games": 13,
+      "losses": 11,
+      "rating": 1401.16,
       "wins": 2
     },
     "3": {
@@ -2049,10 +2094,10 @@
     },
     "32": {
       "draws": 0,
-      "games": 7,
-      "losses": 7,
-      "rating": 1420.73,
-      "wins": 0
+      "games": 12,
+      "losses": 8,
+      "rating": 1455.94,
+      "wins": 4
     },
     "4": {
       "draws": 1,
