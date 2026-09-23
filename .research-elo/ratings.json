@@ -2159,6 +2159,51 @@
       "reason": "The ATRX problem is more scientifically specific and testable within six months, with a defined transfer question, explicit leakage-resistant validation, and a clear early experiment. The fetal-growth-restriction project has greater potential clinical impact but depends on an agreed management endpoint, standardized molecular assays, large pregnancy-level external cohorts, and transportable calibration, while the molecular modality remains underspecified.",
       "target": 35,
       "timestamp": "2026-09-23T04:51:20.921127+00:00"
+    },
+    {
+      "main_risk": "The frozen model, training metadata, genuinely independent perturbations, and suitable donor organoids may not be accessible or sufficiently outside the training support.",
+      "next_test": "Freeze predictions for a small donor-separated panel of unseen single agents and combinations, then measure replicate concordance and compare against simple baseline models before expanding the study.",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "Prospective validation of an existing virtual-cell capability could produce a broadly reusable answer across therapies, contexts, and future models, with a clear frozen-prediction test and informative failure modes. The MPNST idea is biologically focused but depends on rare longitudinal specimens and reproducible ZNF423-restoration trajectories that may be difficult to establish within six months.",
+      "target": 34,
+      "timestamp": "2026-09-23T11:46:20.998092+00:00"
+    },
+    {
+      "main_risk": "The proposed KRAS-associated transitions may be treatment- or model-specific consequences of stress or clonal selection rather than reproducible predictors of resistance.",
+      "next_test": "Profile matched pretreatment and early on-treatment samples from several independent PDAC donors and test whether a locked transition score predicts later regrowth better than pretreatment composition and genotype baselines.",
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "KRAS-transition profiling has a clearer biological anchor, more useful branches if particular states fail to generalize, and a more direct six-month path from serial donor-level profiling to testing temporal precedence. The virtual-cell project is broader, but its success requires simultaneous access to an appropriate model, independent organoids, novel perturbations, calibrated uncertainty, and reproducible proteomic readouts.",
+      "target": 34,
+      "timestamp": "2026-09-23T11:46:20.998114+00:00"
+    },
+    {
+      "main_risk": "The virtual-cell predictions may not generalize because unseen drugs, combinations, doses, or organoids fall outside the model's support and uncertainty may be poorly calibrated.",
+      "next_test": "Run a preregistered, donor-separated pilot on unseen perturbations with frozen predictions, strong simple and mechanistic baselines, and orthogonal viability or cell-death measurements.",
+      "opponent": 26,
+      "outcome": "win",
+      "reason": "The virtual-cell problem offers greater general scientific and technology impact, a direct prospective falsification design, and reusable outputs even when transfer fails. Fetal-growth-restriction stratification has high clinical value but faces a harder path involving endpoint definition, gestational-age leakage, assay standardization, site shift, and external calibration before any management value can be claimed.",
+      "target": 34,
+      "timestamp": "2026-09-23T11:46:20.998123+00:00"
+    },
+    {
+      "main_risk": "The virtual-cell study may be blocked by unavailable model weights or metadata, or by insufficiently independent organoid and perturbation coverage to support a genuine prospective test.",
+      "next_test": "Verify model and training-support access, then audit candidate held-out drugs, combinations, doses, donors, and batches before measuring outcomes; stop if independence cannot be demonstrated.",
+      "opponent": 4,
+      "outcome": "loss",
+      "reason": "The myeloid-niche project has a focused hypothesis and an earlier eight-week assay test, but it still must show that spatial localization is not lesion-size or organ heterogeneity, that the state is functionally meaningful, and that a signature transfers across organs and platforms. The virtual-cell project has higher technical risk but greater breadth, a more explicit falsification framework, and potentially reusable conclusions about a consequential modeling capability.",
+      "target": 34,
+      "timestamp": "2026-09-23T11:46:20.998129+00:00"
+    },
+    {
+      "main_risk": "Proteomic trajectory measurements and organoid phenotypes may be too noisy or assay-specific to distinguish model failure from experimental mismatch within the investment horizon.",
+      "next_test": "Conduct the smallest locked donor-level prospective panel with temporal proteomics, orthogonal phenotype readouts, and baseline-only, endpoint-only, additive, and no-effect baselines to determine whether any incremental signal is reproducible.",
+      "opponent": 23,
+      "outcome": "loss",
+      "reason": "Prospective virtual-cell testing has a stronger general technology payoff and a cheaper early decision than the rehabilitation project, whose clinical endpoint, actionable escalation rule, intervention consistency, confounding by recovery severity, and external calibration all require substantial prospective infrastructure. Negative virtual-cell results would still define limits of counterfactual transfer and inform future benchmarks.",
+      "target": 34,
+      "timestamp": "2026-09-23T11:46:20.998134+00:00"
     }
   ],
   "k_factor": 24,
@@ -2221,9 +2266,9 @@
     },
     "19": {
       "draws": 0,
-      "games": 14,
-      "losses": 8,
-      "rating": 1475.14,
+      "games": 15,
+      "losses": 9,
+      "rating": 1463.16,
       "wins": 6
     },
     "2": {
@@ -2249,10 +2294,10 @@
     },
     "23": {
       "draws": 0,
-      "games": 18,
+      "games": 19,
       "losses": 11,
-      "rating": 1453.18,
-      "wins": 7
+      "rating": 1465.93,
+      "wins": 8
     },
     "24": {
       "draws": 1,
@@ -2270,9 +2315,9 @@
     },
     "26": {
       "draws": 0,
-      "games": 20,
-      "losses": 11,
-      "rating": 1473.08,
+      "games": 21,
+      "losses": 12,
+      "rating": 1461.15,
       "wins": 9
     },
     "27": {
@@ -2333,10 +2378,10 @@
     },
     "34": {
       "draws": 0,
-      "games": 2,
-      "losses": 2,
-      "rating": 1475.6,
-      "wins": 0
+      "games": 7,
+      "losses": 5,
+      "rating": 1462.29,
+      "wins": 2
     },
     "35": {
       "draws": 0,
@@ -2347,10 +2392,10 @@
     },
     "4": {
       "draws": 1,
-      "games": 18,
+      "games": 19,
       "losses": 9,
-      "rating": 1483.78,
-      "wins": 8
+      "rating": 1495.9,
+      "wins": 9
     },
     "5": {
       "draws": 3,
@@ -2368,10 +2413,10 @@
     },
     "7": {
       "draws": 0,
-      "games": 20,
+      "games": 21,
       "losses": 11,
-      "rating": 1477.36,
-      "wins": 9
+      "rating": 1489.71,
+      "wins": 10
     },
     "8": {
       "draws": 0,
