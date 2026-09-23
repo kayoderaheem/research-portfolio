@@ -2249,6 +2249,51 @@
       "reason": "The identifiability project has broader technological impact, stronger immediate data readiness, and a clearer early branch than the HCC metabolic-niche project. The HCC idea combines uncertain spatial lipid measurement, biologically active signaling attribution, treatment-context transportability across checkpoint and CAR-T cohorts, and causal T-cell validation, while the identifiability study can first determine whether transfer limits are real and distinguishable from batch, imbalance, or leakage.",
       "target": 33,
       "timestamp": "2026-09-23T17:10:20.813719+00:00"
+    },
+    {
+      "main_risk": "The apparent temporal benefit may disappear after controlling for measurement density, leaving insufficient incremental decision value over a static model.",
+      "next_test": "Run a patient-disjoint static-versus-trajectory comparison with measurement-density features and frozen external-site calibration and decision-curve evaluation.",
+      "opponent": 27,
+      "outcome": "loss",
+      "reason": "The ICU problem has a clearer six-month decision path, patient-level leakage-resistant validation, accessible external transport testing, and a direct test of clinical decision value beyond discrimination. The ATRX project is scientifically interesting but depends on several high-risk links among multimodal measurement, causal feature discovery, perturbation validation, and cross-state transfer.",
+      "target": 35,
+      "timestamp": "2026-09-23T21:34:12.999087+00:00"
+    },
+    {
+      "main_risk": "The glycolytic-inflammatory spatial program may not be detectable before progression or may be dominated by anatomical site, tumor composition, or treatment-history effects.",
+      "next_test": "Profile pretreatment and early on-treatment samples from both anatomical sites using a locked pathway and neighborhood score, then test patient-level association with response against composition and clinical baselines.",
+      "opponent": 18,
+      "outcome": "loss",
+      "reason": "The cholangiocarcinoma problem offers greater potential clinical and biological insight by testing whether a resistance program transfers across anatomical sites and patients, rather than remaining a cell-line artifact. Its patient-level spatial baselines, site-held-out validation, and explicit ex vivo and orthogonal branches provide useful outcomes even if the conserved mechanism fails; the ATRX project remains more dependent on complex causal multimodal modeling and specialized perturbation readouts.",
+      "target": 35,
+      "timestamp": "2026-09-23T21:34:12.999110+00:00"
+    },
+    {
+      "main_risk": "Predicted transfer may reflect genotype or global accessibility shifts rather than causal regulatory features, especially with sparse perturbation and single-context data.",
+      "next_test": "Freeze expression-only, ATAC-only, and multimodal models after replicate-aware training and test held-out regulatory perturbations across independent control and ATRX-deficient replicates.",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "The ATRX project has a clearer transferable discovery anchor and a better-defined causal-versus-correlated question than the HCC proposal, whose key premise requires spatially measurable, biologically active arachidonic-acid niches and may be highly dependent on treatment context and scarce cohorts. ATRX also permits useful modality and perturbation branches if localization or one assay fails.",
+      "target": 35,
+      "timestamp": "2026-09-23T21:34:12.999120+00:00"
+    },
+    {
+      "main_risk": "ATRX-state transfer may fail because accessibility features are sparse or because cell-state composition and genotype labels explain the apparent signal without causal regulatory learning.",
+      "next_test": "Use an independent replicate-aware cohort to compare frozen multimodal predictions with expression-only, ATAC-only, and nearest-state baselines under held-out perturbations and contexts.",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "The ATRX proposal is the stronger current investment because it fixes a general scientific problem—whether regulatory perturbation effects transfer across chromatin states—while allowing the modality, perturbation class, and endpoint to float. The lung proposal has high potential and strong validation structure, but it depends on reproducible paired spatial changes, platform harmonization, and tumoroids retaining clinically relevant CAF–immune interactions.",
+      "target": 35,
+      "timestamp": "2026-09-23T21:34:12.999127+00:00"
+    },
+    {
+      "main_risk": "The proposed BCL2-high spatial state may be merely a marker of advanced or proliferative clones, making the gastric mechanism—not just its biomarker—noncausal.",
+      "next_test": "Test whether the locked ATRX multimodal model predicts held-out perturbations across independent clones or contexts beyond strong expression, accessibility, and genotype baselines.",
+      "opponent": 15,
+      "outcome": "loss",
+      "reason": "The ATRX problem has a more generalizable scientific payoff and a cleaner transferability anchor than the gastric proposal, which requires both reproducible BMP-low inflammatory fibroblast niches and a selective BCL2/BMP causal vulnerability. ATRX offers an earlier and more informative model-versus-baseline decision, with pivot options if localization, accessibility, or causal perturbation components fail.",
+      "target": 35,
+      "timestamp": "2026-09-23T21:34:12.999134+00:00"
     }
   ],
   "k_factor": 24,
@@ -2262,9 +2307,9 @@
     },
     "10": {
       "draws": 0,
-      "games": 14,
-      "losses": 7,
-      "rating": 1502.41,
+      "games": 15,
+      "losses": 8,
+      "rating": 1489.55,
       "wins": 7
     },
     "11": {
@@ -2283,17 +2328,17 @@
     },
     "13": {
       "draws": 0,
-      "games": 18,
-      "losses": 9,
-      "rating": 1504.82,
+      "games": 19,
+      "losses": 10,
+      "rating": 1492.32,
       "wins": 9
     },
     "15": {
       "draws": 1,
-      "games": 19,
+      "games": 20,
       "losses": 9,
-      "rating": 1504.89,
-      "wins": 9
+      "rating": 1516.82,
+      "wins": 10
     },
     "17": {
       "draws": 0,
@@ -2304,10 +2349,10 @@
     },
     "18": {
       "draws": 1,
-      "games": 19,
+      "games": 20,
       "losses": 9,
-      "rating": 1500.63,
-      "wins": 9
+      "rating": 1512.23,
+      "wins": 10
     },
     "19": {
       "draws": 0,
@@ -2367,10 +2412,10 @@
     },
     "27": {
       "draws": 0,
-      "games": 18,
+      "games": 19,
       "losses": 9,
-      "rating": 1501.48,
-      "wins": 9
+      "rating": 1513.47,
+      "wins": 10
     },
     "28": {
       "draws": 0,
@@ -2430,10 +2475,10 @@
     },
     "35": {
       "draws": 0,
-      "games": 6,
-      "losses": 3,
-      "rating": 1501.14,
-      "wins": 3
+      "games": 11,
+      "losses": 6,
+      "rating": 1490.98,
+      "wins": 5
     },
     "4": {
       "draws": 1,
