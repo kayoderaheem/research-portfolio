@@ -2204,29 +2204,74 @@
       "reason": "Prospective virtual-cell testing has a stronger general technology payoff and a cheaper early decision than the rehabilitation project, whose clinical endpoint, actionable escalation rule, intervention consistency, confounding by recovery severity, and external calibration all require substantial prospective infrastructure. Negative virtual-cell results would still define limits of counterfactual transfer and inform future benchmarks.",
       "target": 34,
       "timestamp": "2026-09-23T11:46:20.998134+00:00"
+    },
+    {
+      "main_risk": "The choice changes if organoid testing is already operational with a high establishment rate, rapid turnaround, and an available locked cohort with near-term patient outcomes.",
+      "next_test": "Run the predefined drug, dose, and cell-context holdout analysis against hierarchical and nearest-neighbor baselines, measuring calibration and uncertainty before investing in more complex models.",
+      "opponent": 1,
+      "outcome": "win",
+      "reason": "Identifiability limits offer a clearer six-month technology investment: the atlas, leakage-resistant holdouts, strong baselines, calibration metrics, and independent validation can establish a general boundary for when counterfactual perturbation predictions are trustworthy. The organoid project has greater potential clinical value, but its core readout depends on rapid organoid establishment, clinically actionable turnaround, treatment decisions, and sufficiently mature patient outcomes.",
+      "target": 33,
+      "timestamp": "2026-09-23T17:10:20.813676+00:00"
+    },
+    {
+      "main_risk": "The choice changes if independent diffuse gastric cancer samples already show a reproducible spatial BCL2-high/BMP-low signature with paired treatment-persistence outcomes and available perturbation models.",
+      "next_test": "Estimate patient- or experiment-level variance and held-out drug, dose, and context performance in the atlas, comparing response-axis decomposition and calibrated uncertainty with strong simple baselines.",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "The identifiability problem is more general, better supported by accessible perturbation data, and has a cheaper early decision than the diffuse-gastric-cancer niche hypothesis. The gastric project requires reproducible spatial associations, causal niche protection, and selective BCL2-axis vulnerability across tumors or models, making several high-risk assumptions before clinical relevance is established.",
+      "target": 33,
+      "timestamp": "2026-09-23T17:10:20.813696+00:00"
+    },
+    {
+      "main_risk": "The choice changes if a well-powered paired lung cohort and independently processed validation dataset already exist with adequate spatial quality and complete treatment-response annotations.",
+      "next_test": "Use complete-drug, dose, and cell-context holdouts to test whether uncertainty is calibrated and whether predicted transfer exceeds matched simple and leakage-controlled baselines.",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "Identifiability limits deserve priority because they directly address whether perturbation models support mechanistic counterfactuals, with a broad reusable evaluation framework and an inexpensive computational readout. The lung adenocarcinoma project has substantial translational potential, but paired biopsies, cross-platform spatial reproducibility, treatment-induced changes, and faithful tumoroid interactions create a longer chain of high-risk assumptions.",
+      "target": 33,
+      "timestamp": "2026-09-23T17:10:20.813705+00:00"
+    },
+    {
+      "main_risk": "The choice changes if an independent, patient-level blinatumomab marrow cohort with paired spatial measurements, MRD outcomes, and sufficient sample size is already available.",
+      "next_test": "Perform patient- or experiment-level nested holdouts, including complete-context and drug extrapolation, and determine whether calibrated uncertainty identifies predictable versus non-identifiable response components.",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "Identifiability is the stronger current investment because it can be tested immediately on existing perturbation data and can produce useful conclusions even if the favored decomposition fails. The blinatumomab project is clinically important, but spatial marrow accessibility may be difficult to measure reproducibly and may add little beyond disease burden, circulating T-cell composition, antigen density, or pharmacokinetics; external validation and longitudinal tissue also appear difficult within six months.",
+      "target": 33,
+      "timestamp": "2026-09-23T17:10:20.813712+00:00"
+    },
+    {
+      "main_risk": "The choice changes if spatially resolved FADS1 or arachidonic-acid measurements, matched CXCR6-positive T-cell fitness assays, and independent checkpoint-treated HCC cohorts are already assembled and technically validated.",
+      "next_test": "Benchmark calibrated uncertainty and prediction under prespecified patient- or experiment-level drug, dose, and context holdouts, with negative controls and hierarchical simple baselines.",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "The identifiability project has broader technological impact, stronger immediate data readiness, and a clearer early branch than the HCC metabolic-niche project. The HCC idea combines uncertain spatial lipid measurement, biologically active signaling attribution, treatment-context transportability across checkpoint and CAR-T cohorts, and causal T-cell validation, while the identifiability study can first determine whether transfer limits are real and distinguishable from batch, imbalance, or leakage.",
+      "target": 33,
+      "timestamp": "2026-09-23T17:10:20.813719+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 19,
-      "losses": 9,
-      "rating": 1517.22,
+      "games": 20,
+      "losses": 10,
+      "rating": 1505.76,
       "wins": 10
     },
     "10": {
       "draws": 0,
-      "games": 13,
-      "losses": 6,
-      "rating": 1512.23,
+      "games": 14,
+      "losses": 7,
+      "rating": 1502.41,
       "wins": 7
     },
     "11": {
       "draws": 1,
-      "games": 14,
-      "losses": 6,
-      "rating": 1515.24,
+      "games": 15,
+      "losses": 7,
+      "rating": 1504.98,
       "wins": 7
     },
     "12": {
@@ -2238,16 +2283,16 @@
     },
     "13": {
       "draws": 0,
-      "games": 17,
-      "losses": 8,
-      "rating": 1515.45,
+      "games": 18,
+      "losses": 9,
+      "rating": 1504.82,
       "wins": 9
     },
     "15": {
       "draws": 1,
-      "games": 18,
-      "losses": 8,
-      "rating": 1515.91,
+      "games": 19,
+      "losses": 9,
+      "rating": 1504.89,
       "wins": 9
     },
     "17": {
@@ -2371,10 +2416,10 @@
     },
     "33": {
       "draws": 0,
-      "games": 5,
+      "games": 10,
       "losses": 1,
-      "rating": 1532.82,
-      "wins": 4
+      "rating": 1586.01,
+      "wins": 9
     },
     "34": {
       "draws": 0,
