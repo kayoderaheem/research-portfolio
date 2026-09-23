@@ -2114,6 +2114,51 @@
       "reason": "Issue 33 has a clearer fixed scientific anchor, a defined data resource, stronger validation safeguards, and an early test that can support continue, pivot, or stop decisions. Issue 26 has potentially greater clinical value, but the molecular modality, management endpoint, assay harmonization, and transport setting remain under-specified, with substantial risk of gestational-age, referral, and treatment-decision leakage.",
       "target": 33,
       "timestamp": "2026-09-22T21:24:35.232550+00:00"
+    },
+    {
+      "main_risk": "The shared glycolytic-inflammatory spatial program may be absent before progression or may add no value beyond tumor composition, site, and clinical covariates.",
+      "next_test": "In a patient-held-out or site-held-out pilot, test a preregistered pretreatment or early-treatment spatial score against clinical, site, and composition-only baselines with calibration assessment.",
+      "opponent": 18,
+      "outcome": "loss",
+      "reason": "The cholangiocarcinoma problem has clearer patient-level clinical value, a defined external-validation target, strong composition and clinical baselines, and an early spatial-score test that can stop or redirect the project. The ATRX project has broader discovery potential but depends on several high-risk links from accessibility to causality, transfer, cell-state control, and localization validity.",
+      "target": 35,
+      "timestamp": "2026-09-23T04:51:20.921080+00:00"
+    },
+    {
+      "main_risk": "The model may not be genuinely transferable beyond its training support, or the required pretrained model, preprocessing, and training metadata may be unavailable for a fair prospective test.",
+      "next_test": "Audit model and training-data access, then freeze predictions for a small donor-separated panel of genuinely unseen perturbations and compare against expression-only, ATAC-only, and nearest-state baselines.",
+      "opponent": 34,
+      "outcome": "win",
+      "reason": "The ATRX project offers a more concrete and biologically anchored transfer question with identifiable datasets and an early independent-replicate test. The virtual-cell project has greater potential breadth, but its feasibility depends on access to a frozen model and metadata, genuinely out-of-support perturbations, reproducible organoids, and calibrated uncertainty, making the six-month readout substantially less secure.",
+      "target": 35,
+      "timestamp": "2026-09-23T04:51:20.921101+00:00"
+    },
+    {
+      "main_risk": "The apparent temporal advantage may disappear after controlling for measurement density, leaving no clinically meaningful incremental decision value.",
+      "next_test": "On a patient-held-out MIMIC-IV split, compare snapshot and trajectory models with and without measurement-density features, evaluating net benefit and calibration at prespecified thresholds.",
+      "opponent": 27,
+      "outcome": "loss",
+      "reason": "The ICU project has a lower-risk, decision-oriented question supported by established datasets, patient-disjoint validation, explicit measurement-density controls, and transport/calibration analyses. The ATRX project has stronger novelty potential but requires multiple costly assumptions before causal transfer can be interpreted.",
+      "target": 35,
+      "timestamp": "2026-09-23T04:51:20.921110+00:00"
+    },
+    {
+      "main_risk": "ATRX-associated regulatory features may reflect genotype or global accessibility shifts rather than transferable causal perturbation effects.",
+      "next_test": "Replicate matched ATAC and expression profiles across independent ATRX-deficient and control clones, then test whether accessibility improves held-out perturbation prediction beyond expression-only and genotype/global-accessibility baselines.",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "The ATRX project is the stronger current investment because it has a tighter discovery anchor, more directly available foundational data, and a comparatively bounded transfer test. The KRAS project is clinically compelling but requires reproducible serial transitions across donors, temporal precedence, spatial benefit, and actionable dependencies, each with a long and high-risk readout.",
+      "target": 35,
+      "timestamp": "2026-09-23T04:51:20.921120+00:00"
+    },
+    {
+      "main_risk": "The molecular measurements may be redundant with biometry, Doppler, and established biomarkers, or fail external calibration because of gestational-age, site, and referral differences.",
+      "next_test": "Lock the index time and management endpoint, fit the clinical-Doppler reference, and test one prespecified molecular panel in a pregnancy-level site-held-out cohort using calibration, net benefit, and subgroup stability.",
+      "opponent": 26,
+      "outcome": "win",
+      "reason": "The ATRX problem is more scientifically specific and testable within six months, with a defined transfer question, explicit leakage-resistant validation, and a clear early experiment. The fetal-growth-restriction project has greater potential clinical impact but depends on an agreed management endpoint, standardized molecular assays, large pregnancy-level external cohorts, and transportable calibration, while the molecular modality remains underspecified.",
+      "target": 35,
+      "timestamp": "2026-09-23T04:51:20.921127+00:00"
     }
   ],
   "k_factor": 24,
@@ -2169,10 +2214,10 @@
     },
     "18": {
       "draws": 1,
-      "games": 18,
+      "games": 19,
       "losses": 9,
-      "rating": 1488.64,
-      "wins": 8
+      "rating": 1500.63,
+      "wins": 9
     },
     "19": {
       "draws": 0,
@@ -2225,17 +2270,17 @@
     },
     "26": {
       "draws": 0,
-      "games": 19,
-      "losses": 10,
-      "rating": 1484.93,
+      "games": 20,
+      "losses": 11,
+      "rating": 1473.08,
       "wins": 9
     },
     "27": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 9,
-      "rating": 1489.5,
-      "wins": 8
+      "rating": 1501.48,
+      "wins": 9
     },
     "28": {
       "draws": 0,
@@ -2288,17 +2333,17 @@
     },
     "34": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
+      "games": 2,
+      "losses": 2,
+      "rating": 1475.6,
       "wins": 0
     },
     "35": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 3,
+      "rating": 1501.14,
+      "wins": 3
     },
     "4": {
       "draws": 1,
@@ -2323,9 +2368,9 @@
     },
     "7": {
       "draws": 0,
-      "games": 19,
-      "losses": 10,
-      "rating": 1489.81,
+      "games": 20,
+      "losses": 11,
+      "rating": 1477.36,
       "wins": 9
     },
     "8": {
