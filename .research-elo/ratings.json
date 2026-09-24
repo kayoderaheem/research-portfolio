@@ -2294,6 +2294,51 @@
       "reason": "The ATRX problem has a more generalizable scientific payoff and a cleaner transferability anchor than the gastric proposal, which requires both reproducible BMP-low inflammatory fibroblast niches and a selective BCL2/BMP causal vulnerability. ATRX offers an earlier and more informative model-versus-baseline decision, with pivot options if localization, accessibility, or causal perturbation components fail.",
       "target": 35,
       "timestamp": "2026-09-23T21:34:12.999134+00:00"
+    },
+    {
+      "main_risk": "The pretrained model, metadata, and genuinely independent organoid and donor cohorts may not be accessible or sufficiently outside the training support.",
+      "next_test": "Confirm model and training-metadata access, then audit a small candidate panel of drugs, combinations, doses, and organoid donors for true support separation before generating any outcomes.",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "The virtual-cell problem has broader scientific and technology impact, a clearer frozen prospective falsification design, and more informative failure branches than the rare-disease spatial trajectory study, which depends on scarce longitudinal MPNST specimens and reproducible ZNF423 transitions.",
+      "target": 34,
+      "timestamp": "2026-09-24T04:59:37.336471+00:00"
+    },
+    {
+      "main_risk": "Temporal proteomic predictions may add no value over baseline proteome, simple dose-response, additive, and mechanistic baselines under genuine distribution shift.",
+      "next_test": "Run a preregistered, donor-separated pilot using frozen predictions on a small balanced set of unseen single agents and combinations, with baseline-only, additive, and no-effect controls.",
+      "opponent": 26,
+      "outcome": "win",
+      "reason": "Prospective virtual-cell validation is more differentiated and reusable across drug-discovery settings, with a direct early falsification test and useful outcomes even if transfer fails. The fetal-growth-restriction study has greater immediate clinical stakes but leaves the molecular modality and management endpoint underspecified and faces substantial site, timing, and treatment-selection confounding.",
+      "target": 34,
+      "timestamp": "2026-09-24T04:59:37.336492+00:00"
+    },
+    {
+      "main_risk": "The apparent prospective gain may be assay or context similarity rather than transferable temporal biology, leaving the model no better than simple response baselines.",
+      "next_test": "Freeze predictions and test them prospectively against donor-separated organoid responses, including endpoint-only, baseline-only, additive, and matched historical-control baselines.",
+      "opponent": 23,
+      "outcome": "win",
+      "reason": "The virtual-cell study offers broader generalizable insight, a sharper scientific anchor, and an earlier stop-or-continue decision than the rehabilitation proposal, whose actionable rehabilitation intervention and differential-benefit endpoint are not yet concretely specified and whose external validation extends beyond six months.",
+      "target": 34,
+      "timestamp": "2026-09-24T04:59:37.336503+00:00"
+    },
+    {
+      "main_risk": "The required organoid and proteomic validation system may be too costly or unavailable, or uncertainty may be poorly calibrated for unseen perturbations.",
+      "next_test": "Perform an access and support audit followed by a small frozen-prediction panel in independent donor organoids with orthogonal viability readouts and strong simple baselines.",
+      "opponent": 6,
+      "outcome": "win",
+      "reason": "The virtual-cell question has higher near-term leverage and a more direct falsification path than the mechanical-niche glioblastoma study, which must first establish that clinical tissue proxies measure mechanics and are not merely hypoxia, necrosis, density, or mesenchymal state.",
+      "target": 34,
+      "timestamp": "2026-09-24T04:59:37.336508+00:00"
+    },
+    {
+      "main_risk": "The multimodal virtual-cell claim may fail because proteomic trajectories do not identify counterfactual drug response beyond simple baseline or mechanistic models.",
+      "next_test": "Test frozen predictions in a small independent organoid cohort spanning unseen drugs and contexts, measuring calibration and incremental value over clinical-style simple response baselines before expanding the assay.",
+      "opponent": 32,
+      "outcome": "win",
+      "reason": "The virtual-cell project provides broader reusable capability and a cleaner early falsification experiment, while pediatric myocarditis has high clinical importance but depends on rare heterogeneous cases, incomplete multimodal testing, treatment-decision confounding, and difficult cross-site calibration.",
+      "target": 34,
+      "timestamp": "2026-09-24T04:59:37.336513+00:00"
     }
   ],
   "k_factor": 24,
@@ -2356,9 +2401,9 @@
     },
     "19": {
       "draws": 0,
-      "games": 15,
-      "losses": 9,
-      "rating": 1463.16,
+      "games": 16,
+      "losses": 10,
+      "rating": 1451.13,
       "wins": 6
     },
     "2": {
@@ -2384,9 +2429,9 @@
     },
     "23": {
       "draws": 0,
-      "games": 19,
-      "losses": 11,
-      "rating": 1465.93,
+      "games": 20,
+      "losses": 12,
+      "rating": 1454.62,
       "wins": 8
     },
     "24": {
@@ -2405,9 +2450,9 @@
     },
     "26": {
       "draws": 0,
-      "games": 21,
-      "losses": 12,
-      "rating": 1461.15,
+      "games": 22,
+      "losses": 13,
+      "rating": 1449.6,
       "wins": 9
     },
     "27": {
@@ -2454,9 +2499,9 @@
     },
     "32": {
       "draws": 0,
-      "games": 17,
-      "losses": 11,
-      "rating": 1444.5,
+      "games": 18,
+      "losses": 12,
+      "rating": 1434.65,
       "wins": 6
     },
     "33": {
@@ -2468,10 +2513,10 @@
     },
     "34": {
       "draws": 0,
-      "games": 7,
+      "games": 12,
       "losses": 5,
-      "rating": 1462.29,
-      "wins": 2
+      "rating": 1517.28,
+      "wins": 7
     },
     "35": {
       "draws": 0,
@@ -2496,9 +2541,9 @@
     },
     "6": {
       "draws": 0,
-      "games": 15,
-      "losses": 10,
-      "rating": 1446.11,
+      "games": 16,
+      "losses": 11,
+      "rating": 1435.86,
       "wins": 5
     },
     "7": {
