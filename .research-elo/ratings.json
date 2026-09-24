@@ -2384,6 +2384,51 @@
       "reason": "Issue 33 is the stronger current investment because its central question is broadly reusable, method-agnostic, and testable with an existing atlas, while failed predictions still clarify the limits of counterfactual inference. Issue 25 has substantial precision-medicine relevance, but regimen-specific programs require independent cohorts, harmonized endpoints, locked assays, adjustment for treatment-selection confounding, and sufficient data per regimen; those dependencies make a definitive six-month result less likely.",
       "target": 33,
       "timestamp": "2026-09-24T11:55:12.853724+00:00"
+    },
+    {
+      "main_risk": "For B, treatment-induced states may be model-specific stress or clonal-selection effects rather than reproducible, causal resistance transitions.",
+      "next_test": "Profile matched pretreatment and early-treatment samples from independent donors, lock a transition score in training donors, and test held-out prediction of regrowth against pretreatment composition and clinical covariates.",
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "The KRAS-transition problem has greater near-term clinical value and a clearer six-month decision path: donor-level serial sampling can test temporal precedence and predictive value against strong baseline models before committing to mechanism. The ATRX project is more foundational but depends on several coupled high-risk assumptions, including causal feature identification, reliable localization measurements, and successful transfer across rewired states.",
+      "target": 35,
+      "timestamp": "2026-09-24T17:17:19.606541+00:00"
+    },
+    {
+      "main_risk": "For A, paired biopsies and tumoroid systems may not reproducibly preserve or measure the relevant tumor–CAF–immune interactions across patients and platforms.",
+      "next_test": "In a patient-level paired cohort, prespecify one CAF–immune exclusion neighborhood and test whether its early treatment change adds calibrated predictive value beyond tumor composition and clinical factors, with an independent specimen replication.",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "The CAF–immune spatial problem offers stronger patient-level and translational value with a more direct response endpoint, established clinical covariates, orthogonal imaging, and an early paired-biopsy test. It also allows the spatial hypothesis to be rejected cleanly if composition or clinical variables explain the signal. ATRX transfer is potentially generalizable but narrower, more mechanistically demanding, and less supported by an obvious external validation path.",
+      "target": 35,
+      "timestamp": "2026-09-24T17:17:19.606566+00:00"
+    },
+    {
+      "main_risk": "For B, measured FADS1 or lipid abundance may not represent biologically active arachidonic-acid signaling, making the spatial biomarker mechanistically non-identifying.",
+      "next_test": "Use pretreatment HCC tissue to measure FADS1 or lipid-response markers together with CXCR6 resident-memory T-cell fitness, then compare a prespecified proximity feature with composition-only and clinical baselines using patient-level validation.",
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "The HCC metabolic-niche problem is anchored to a specific mechanistic axis with a clinically meaningful response question and a relatively focused early experiment. It offers useful branches: spatial association, T-cell fitness without clinical prediction, or no reproducible signal. ATRX transfer has broader methodological ambition but requires proving that accessibility adds information, that localization is non-artifactual, and that regulatory perturbations validate inferred causality within six months.",
+      "target": 35,
+      "timestamp": "2026-09-24T17:17:19.606576+00:00"
+    },
+    {
+      "main_risk": "For A, ATRX-associated accessibility may be state-specific or noisy and provide no predictive information beyond expression, genotype, or global accessibility.",
+      "next_test": "Replicate matched ATAC-seq and expression across independent ATRX-deficient and control clones, then test frozen expression-only, ATAC-only, and multimodal models on held-out perturbations and biological replicates.",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "The ATRX problem has a clearer fixed biological anchor, available state-contrast data, and a differentiated causal-transfer question that can generate useful outcomes even if transfer fails. The myeloid-niche proposal has high potential but is underspecified across metastatic organs, treatments, and lesion contexts; its apparent spatial signal is especially vulnerable to lesion size, organ heterogeneity, and segmentation artifacts. A focused ATRX replicate-and-baseline study therefore offers a stronger current investment for six months.",
+      "target": 35,
+      "timestamp": "2026-09-24T17:17:19.606584+00:00"
+    },
+    {
+      "main_risk": "For A, marrow spatial architecture may be technically variable or insufficiently representative, while response is primarily determined by disease burden, antigen density, pharmacokinetics, or circulating T-cell state.",
+      "next_test": "Analyze pretreatment marrow with a focused multiplex spatial panel, lock leukemia–CD8 neighborhood definitions before outcome modeling, and compare patient-level calibration and discrimination with clinical and composition-only baselines.",
+      "opponent": 11,
+      "outcome": "loss",
+      "reason": "The blinatumomab problem has clearer immediate clinical value and a focused, testable question: whether marrow spatial accessibility adds calibrated patient-level information beyond established blood-based and clinical predictors. It includes orthogonal flow or functional validation and can stop early if spatial neighborhoods are irreproducible. ATRX transfer is scientifically interesting but has a longer causal-validation chain and weaker evidence that protein localization will improve the core readout.",
+      "target": 35,
+      "timestamp": "2026-09-24T17:17:19.606592+00:00"
     }
   ],
   "k_factor": 24,
@@ -2397,17 +2442,17 @@
     },
     "10": {
       "draws": 0,
-      "games": 15,
+      "games": 16,
       "losses": 8,
-      "rating": 1489.55,
-      "wins": 7
+      "rating": 1500.79,
+      "wins": 8
     },
     "11": {
       "draws": 1,
-      "games": 15,
+      "games": 16,
       "losses": 7,
-      "rating": 1504.98,
-      "wins": 7
+      "rating": 1515.76,
+      "wins": 8
     },
     "12": {
       "draws": 0,
@@ -2418,10 +2463,10 @@
     },
     "13": {
       "draws": 0,
-      "games": 19,
+      "games": 20,
       "losses": 10,
-      "rating": 1492.32,
-      "wins": 9
+      "rating": 1503.86,
+      "wins": 10
     },
     "15": {
       "draws": 1,
@@ -2565,16 +2610,16 @@
     },
     "35": {
       "draws": 0,
-      "games": 11,
-      "losses": 6,
-      "rating": 1490.98,
-      "wins": 5
+      "games": 16,
+      "losses": 10,
+      "rating": 1458.75,
+      "wins": 6
     },
     "4": {
       "draws": 1,
-      "games": 19,
-      "losses": 9,
-      "rating": 1495.9,
+      "games": 20,
+      "losses": 10,
+      "rating": 1482.53,
       "wins": 9
     },
     "5": {
@@ -2593,10 +2638,10 @@
     },
     "7": {
       "draws": 0,
-      "games": 21,
+      "games": 22,
       "losses": 11,
-      "rating": 1489.71,
-      "wins": 10
+      "rating": 1501.75,
+      "wins": 11
     },
     "8": {
       "draws": 0,
