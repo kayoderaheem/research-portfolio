@@ -2429,6 +2429,51 @@
       "reason": "The blinatumomab problem has clearer immediate clinical value and a focused, testable question: whether marrow spatial accessibility adds calibrated patient-level information beyond established blood-based and clinical predictors. It includes orthogonal flow or functional validation and can stop early if spatial neighborhoods are irreproducible. ATRX transfer is scientifically interesting but has a longer causal-validation chain and weaker evidence that protein localization will improve the core readout.",
       "target": 35,
       "timestamp": "2026-09-24T17:17:19.606592+00:00"
+    },
+    {
+      "main_risk": "The spatial BCL2-high niche may be only a correlate of tumor burden, proliferation, or clonal evolution and add no predictive value beyond simpler epithelial features.",
+      "next_test": "In pretreatment and early-treatment patient specimens, apply a locked neighborhood score and test whether it predicts persistence beyond BCL2 abundance, proliferation, stage, and treatment covariates in an independent patient-level split.",
+      "opponent": 15,
+      "outcome": "loss",
+      "reason": "BMP-restraint failure and BCL2-high niches has a clearer patient-level biological anchor, a credible precision-medicine endpoint, and an early spatial replication test with useful outcomes even if the causal mechanism fails. The virtual-cell study has broader potential, but depends on access to a frozen model, genuinely out-of-support perturbations, reproducible organoid phenotypes, and calibrated uncertainty under several kinds of distribution shift.",
+      "target": 34,
+      "timestamp": "2026-09-24T21:35:20.179995+00:00"
+    },
+    {
+      "main_risk": "Spatial marrow organization may be technically irreproducible or add no information beyond disease burden, circulating T-cell composition, antigen-related factors, and clinical risk.",
+      "next_test": "Profile a pilot set of pretreatment marrow samples with reproducible multiplex imaging, then compare a prespecified spatial-accessibility feature against clinical and composition-only baselines using patient-disjoint validation.",
+      "opponent": 11,
+      "outcome": "loss",
+      "reason": "The blinatumomab project addresses a concrete treatment failure with plausible clinical value, uses patient-level validation and strong composition-only baselines, and has a relatively focused early test. The virtual-cell project is more general but carries a longer chain of assumptions about model access, extrapolation beyond training support, organoid fidelity, and uncertainty calibration before producing a useful conclusion.",
+      "target": 34,
+      "timestamp": "2026-09-24T21:35:20.180023+00:00"
+    },
+    {
+      "main_risk": "The apparent temporal advantage may disappear after controlling for measurement density, leaving no clinically meaningful decision value over a tuned static or LightGBM baseline.",
+      "next_test": "On a patient-disjoint MIMIC-IV test set, compare static, temporal, and measurement-density-adjusted models using decision curves and calibration—not AUROC alone—before attempting additional modalities or external transport.",
+      "opponent": 27,
+      "outcome": "loss",
+      "reason": "The ICU calibration project offers the cheapest and earliest decisive test because the core data are available in established databases, the comparison is against strong simple baselines, and measurement-density confounding and external-site calibration are explicit endpoints. Its discovery impact is narrower than the virtual-cell proposal, but its likelihood of yielding an actionable continue, pivot, or stop decision is substantially higher.",
+      "target": 34,
+      "timestamp": "2026-09-24T21:35:20.180033+00:00"
+    },
+    {
+      "main_risk": "The frozen virtual-cell model may not be accessible or its selected unseen drugs, combinations, and organoids may not provide a genuinely independent test outside training support.",
+      "next_test": "Before generating outcomes, audit model and training metadata, chemical and target overlap, latent nearest neighbors, dose ranges, batches, and donor independence for a small balanced held-out panel; stop or redesign if independence cannot be demonstrated.",
+      "opponent": 18,
+      "outcome": "loss",
+      "reason": "The cholangiocarcinoma project has strong translational motivation and useful site-held-out validation, but it relies on an uncertain conserved resistance program, difficult paired biopsies, spatial assay harmonization, and functional confirmation. The virtual-cell proposal more directly tests a high-impact, generalizable capability through preregistered prospective falsification and can produce a reusable benchmark even when its favored transfer hypothesis fails.",
+      "target": 34,
+      "timestamp": "2026-09-24T21:35:20.180047+00:00"
+    },
+    {
+      "main_risk": "Tunnel IL-17A and retinoid states may not replicate across patients or may reflect tunnel burden, disease duration, adherence, or overall inflammation rather than a treatment-relevant mechanism.",
+      "next_test": "Apply a locked two-state classifier to pretreatment tunnel biopsies from patients starting standardized therapy and compare calibrated patient-level prediction against severity, tunnel burden, composition, and pathway-score baselines in an independent cohort.",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "The hidradenitis project has a focused tissue state, a clinically meaningful refractory-disease problem, strong patient-level leakage safeguards, and an early classifier replication test with clear refinement and stopping branches. The virtual-cell project has greater generality but substantially more coupled risks involving unseen perturbation extrapolation, organoid relevance, assay reproducibility, and uncertainty calibration.",
+      "target": 34,
+      "timestamp": "2026-09-24T21:35:20.180055+00:00"
     }
   ],
   "k_factor": 24,
@@ -2449,10 +2494,10 @@
     },
     "11": {
       "draws": 1,
-      "games": 16,
+      "games": 17,
       "losses": 7,
-      "rating": 1515.76,
-      "wins": 8
+      "rating": 1527.4,
+      "wins": 9
     },
     "12": {
       "draws": 0,
@@ -2470,10 +2515,10 @@
     },
     "15": {
       "draws": 1,
-      "games": 20,
+      "games": 21,
       "losses": 9,
-      "rating": 1516.82,
-      "wins": 10
+      "rating": 1528.84,
+      "wins": 11
     },
     "17": {
       "draws": 0,
@@ -2484,10 +2529,10 @@
     },
     "18": {
       "draws": 1,
-      "games": 20,
+      "games": 21,
       "losses": 9,
-      "rating": 1512.23,
-      "wins": 10
+      "rating": 1523.2,
+      "wins": 11
     },
     "19": {
       "draws": 0,
@@ -2547,10 +2592,10 @@
     },
     "27": {
       "draws": 0,
-      "games": 19,
+      "games": 20,
       "losses": 9,
-      "rating": 1513.47,
-      "wins": 10
+      "rating": 1524.79,
+      "wins": 11
     },
     "28": {
       "draws": 0,
@@ -2603,9 +2648,9 @@
     },
     "34": {
       "draws": 0,
-      "games": 12,
-      "losses": 5,
-      "rating": 1517.28,
+      "games": 17,
+      "losses": 10,
+      "rating": 1460.7,
       "wins": 7
     },
     "35": {
@@ -2652,10 +2697,10 @@
     },
     "9": {
       "draws": 1,
-      "games": 16,
+      "games": 17,
       "losses": 7,
-      "rating": 1511.29,
-      "wins": 8
+      "rating": 1521.92,
+      "wins": 9
     }
   },
   "version": 2
