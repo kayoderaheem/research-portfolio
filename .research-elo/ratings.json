@@ -2339,6 +2339,51 @@
       "reason": "The virtual-cell project provides broader reusable capability and a cleaner early falsification experiment, while pediatric myocarditis has high clinical importance but depends on rare heterogeneous cases, incomplete multimodal testing, treatment-decision confounding, and difficult cross-site calibration.",
       "target": 34,
       "timestamp": "2026-09-24T04:59:37.336513+00:00"
+    },
+    {
+      "main_risk": "For Issue 33, the main risk is that apparent non-identifiability is actually caused by batch effects, weak-response measurement limits, or inadequate representation rather than a fundamental scientific boundary.",
+      "next_test": "For Issue 33, prospectively score complete-drug, complete-dose, and complete-cell-context holdouts against hierarchical and other simple baselines, while checking replicate variance and calibration before adding complex models.",
+      "opponent": 24,
+      "outcome": "win",
+      "reason": "Issue 33 offers a broader and more general scientific contribution: it can establish when perturbation models support identifiable counterfactuals, uses strong leakage-resistant validation, and has a flexible anchor that is not tied to one assay or disease. Issue 24 has greater direct clinical potential, but its value depends on access to a suitable independent surveillance cohort, reproducible multi-site cfDNA measurement, and proof that the marker adds value beyond ultrasound and AFP rather than proxying tumor burden.",
+      "target": 33,
+      "timestamp": "2026-09-24T11:55:12.853693+00:00"
+    },
+    {
+      "main_risk": "For Issue 33, uncertainty estimates may not reliably distinguish non-identifiability from distribution shift, technical noise, or poorly represented responsive cells.",
+      "next_test": "Run the predefined atlas holdout benchmark using complete-drug, dose, and cell-context splits, first quantifying replicate reproducibility and comparing hierarchical mixed-effects and pathway baselines with calibrated uncertainty.",
+      "opponent": 28,
+      "outcome": "win",
+      "reason": "Issue 33 is the stronger current investment because it addresses a general limitation of perturbation science, has higher potential for reusable insight, and provides unusually clear holdout designs, strong baselines, uncertainty checks, and useful outcomes even if the favored decomposition fails. Issue 28 addresses an important clinical question, but its expected gain is likely narrower and depends on registry access, adequate event counts, assay harmonization, medication-confounder adjustment, and a defensible connection between exacerbation risk and biologic-eligibility decisions.",
+      "target": 33,
+      "timestamp": "2026-09-24T11:55:12.853709+00:00"
+    },
+    {
+      "main_risk": "For Issue 33, the main risk is that drug, dose, and context effects cannot be separated cleanly enough to support an informative identifiability claim.",
+      "next_test": "Conduct the 12-week preregistered holdout comparison with patient/replicate-level separation, strong hierarchical and composition baselines, negative controls, and calibration reported separately for interpolation and extrapolation.",
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "Issue 33 has the better six-month risk-adjusted profile: it tests a fundamental and generalizable question with accessible retrospective perturbation data, a clear scientific anchor, flexible methods, and early decisions that can support continuation or stopping. Issue 17 could produce clinically relevant evidence about spatial tissue context, but it requires harmonized response labels, reproducible spatial measurements, large multicenter data, and external validation; several high-risk assumptions must succeed before a modest incremental gain is interpretable.",
+      "target": 33,
+      "timestamp": "2026-09-24T11:55:12.853716+00:00"
+    },
+    {
+      "main_risk": "For Issue 33, measured weak responses may be technical floor effects, making the proposed boundary between identifiable and non-identifiable biology ambiguous.",
+      "next_test": "Use technical and biological replicate analyses followed by a site/context-held-out benchmark to determine whether response-axis decomposition improves calibrated prediction over simple variance-partition and transfer baselines.",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "Issue 33 is more likely to yield a durable result within six months and has broader value across perturbation modeling, with explicit leakage controls, multiple validation axes, and useful conclusions whether transfer succeeds or fails. Issue 31 has meaningful patient-facing potential, but its outcome depends on resolving a difficult reference-standard problem, cross-device and operator reproducibility, informative image failure, site shift, and recalibration; the clinical referral or monitoring decision is also less sharply fixed.",
+      "target": 33,
+      "timestamp": "2026-09-24T11:55:12.853720+00:00"
+    },
+    {
+      "main_risk": "For Issue 33, a failure to transfer across drugs, doses, or contexts may reflect related-condition leakage, batch structure, or class imbalance rather than intrinsic limits of identifiability.",
+      "next_test": "Lock the holdout scheme and evaluate conserved versus context-specific response components against hierarchical mixed-effects, pathway, and nearest-neighbor baselines, with replicate-aware uncertainty calibration and an external perturbation dataset if available.",
+      "opponent": 25,
+      "outcome": "win",
+      "reason": "Issue 33 is the stronger current investment because its central question is broadly reusable, method-agnostic, and testable with an existing atlas, while failed predictions still clarify the limits of counterfactual inference. Issue 25 has substantial precision-medicine relevance, but regimen-specific programs require independent cohorts, harmonized endpoints, locked assays, adjustment for treatment-selection confounding, and sufficient data per regimen; those dependencies make a definitive six-month result less likely.",
+      "target": 33,
+      "timestamp": "2026-09-24T11:55:12.853724+00:00"
     }
   ],
   "k_factor": 24,
@@ -2387,9 +2432,9 @@
     },
     "17": {
       "draws": 0,
-      "games": 15,
-      "losses": 3,
-      "rating": 1601.22,
+      "games": 16,
+      "losses": 4,
+      "rating": 1589.5,
       "wins": 12
     },
     "18": {
@@ -2436,16 +2481,16 @@
     },
     "24": {
       "draws": 1,
-      "games": 16,
-      "losses": 4,
-      "rating": 1582.98,
+      "games": 17,
+      "losses": 5,
+      "rating": 1571.08,
       "wins": 11
     },
     "25": {
       "draws": 1,
-      "games": 14,
-      "losses": 4,
-      "rating": 1559.33,
+      "games": 15,
+      "losses": 5,
+      "rating": 1549.77,
       "wins": 9
     },
     "26": {
@@ -2464,9 +2509,9 @@
     },
     "28": {
       "draws": 0,
-      "games": 13,
-      "losses": 3,
-      "rating": 1577.94,
+      "games": 14,
+      "losses": 4,
+      "rating": 1566.63,
       "wins": 10
     },
     "29": {
@@ -2492,9 +2537,9 @@
     },
     "31": {
       "draws": 0,
-      "games": 16,
-      "losses": 5,
-      "rating": 1563.45,
+      "games": 17,
+      "losses": 6,
+      "rating": 1553.42,
       "wins": 11
     },
     "32": {
@@ -2506,10 +2551,10 @@
     },
     "33": {
       "draws": 0,
-      "games": 10,
+      "games": 15,
       "losses": 1,
-      "rating": 1586.01,
-      "wins": 9
+      "rating": 1640.53,
+      "wins": 14
     },
     "34": {
       "draws": 0,
