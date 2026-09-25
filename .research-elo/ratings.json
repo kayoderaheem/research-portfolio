@@ -2474,6 +2474,51 @@
       "reason": "The hidradenitis project has a focused tissue state, a clinically meaningful refractory-disease problem, strong patient-level leakage safeguards, and an early classifier replication test with clear refinement and stopping branches. The virtual-cell project has greater generality but substantially more coupled risks involving unseen perturbation extrapolation, organoid relevance, assay reproducibility, and uncertainty calibration.",
       "target": 34,
       "timestamp": "2026-09-24T21:35:20.180055+00:00"
+    },
+    {
+      "main_risk": "An independent prostate-SBRT cohort with matched urine sampling and standardized toxicity grading may not be obtainable.",
+      "next_test": "Audit the pilot for complete DVH/IPSS data, reproducible microRNA measurements, adequate toxicity events, and a realistic external cohort; then compare locked baseline and microRNA-augmented models.",
+      "opponent": 21,
+      "outcome": "win",
+      "reason": "Issue 29 has a narrower clinical anchor, established comparator variables, a patient-level validation plan, and a relatively cheap nested-model test. Issue 21 has greater theoretical impact but spans many modalities, decisions, sites, and implementation assumptions that are unlikely to resolve within six months.",
+      "target": 29,
+      "timestamp": "2026-09-25T05:04:06.280320+00:00"
+    },
+    {
+      "main_risk": "The microRNA signal may be only a dose-related proxy and add no value beyond DVH metrics and baseline symptoms.",
+      "next_test": "Complete technical reproducibility checks and fit patient-level nested baseline-versus-microRNA models with prespecified calibration and decision-value analyses in the existing cohort.",
+      "opponent": 22,
+      "outcome": "win",
+      "reason": "Issue 29 offers a more contained, decision-linked study with an existing pilot, clear clinical and dosimetric baselines, and an early incremental-value test. Issue 22 has major potential but requires reproducible multimodal state definition, cross-site assay transportability, treatment-shift calibration, and possibly compartment-level validation, creating several long-readout risks.",
+      "target": 29,
+      "timestamp": "2026-09-25T05:04:06.280340+00:00"
+    },
+    {
+      "main_risk": "The biomarker may fail to provide independent information once dose and baseline urinary risk are modeled, making the proposed clinical pathway non-actionable.",
+      "next_test": "Verify pilot sample and outcome availability, assay reproducibility, and event count, then test whether the locked microRNA trajectory adds calibrated net benefit over DVH/IPSS models.",
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "Issue 29 has a defined toxicity decision, accessible baseline comparators, and a feasible early test of incremental value. Issue 12 is potentially important for an underserved population, but tissue access, small cohorts, spatial assay feasibility, HIV-status heterogeneity, and external validation make the central claim substantially harder to establish in six months.",
+      "target": 29,
+      "timestamp": "2026-09-25T05:04:06.280346+00:00"
+    },
+    {
+      "main_risk": "The proposed adaptive-fractionation decision may not be clinically established or sufficiently supported by acute-toxicity prediction to justify changing care.",
+      "next_test": "Confirm that the pilot has adequate events and complete DVH/IPSS and microRNA data, then estimate whether the biomarker changes risk classification and decision-curve net benefit at the proposed threshold.",
+      "opponent": 32,
+      "outcome": "loss",
+      "reason": "Issue 29 is more tightly scoped and can yield a decisive result from an existing pilot using objective baseline predictors and a prespecified biomarker increment. Issue 32 has high clinical importance but depends on heterogeneous pediatric referral populations, treatment-derived labels, multimodal missingness, and transportable management thresholds that are difficult to establish retrospectively within six months.",
+      "target": 29,
+      "timestamp": "2026-09-25T05:04:06.280350+00:00"
+    },
+    {
+      "main_risk": "The proposed microRNA signal may not replicate externally or may be entirely explained by dosimetric exposure rather than independent biology.",
+      "next_test": "Run technical replicate/qPCR confirmation and a prespecified patient-level comparison of DVH/IPSS models with versus without microRNA trajectories before investing in external validation.",
+      "opponent": 6,
+      "outcome": "win",
+      "reason": "Issue 29 has a concrete clinical use, existing pilot observations, strong conventional baselines, and an early branch point. Issue 6 is more novel and could generate valuable biology, but mechanical stress is difficult to measure from tissue proxies, causal interpretation is confounded by hypoxia and mesenchymal state, and matched spatial tissue with treatment-linked outcomes is demanding.",
+      "target": 29,
+      "timestamp": "2026-09-25T05:04:06.280355+00:00"
     }
   ],
   "k_factor": 24,
@@ -2501,9 +2546,9 @@
     },
     "12": {
       "draws": 0,
-      "games": 15,
-      "losses": 13,
-      "rating": 1377.56,
+      "games": 16,
+      "losses": 14,
+      "rating": 1367.19,
       "wins": 2
     },
     "13": {
@@ -2550,16 +2595,16 @@
     },
     "21": {
       "draws": 0,
-      "games": 15,
-      "losses": 13,
-      "rating": 1382.53,
+      "games": 16,
+      "losses": 14,
+      "rating": 1371.17,
       "wins": 2
     },
     "22": {
       "draws": 0,
-      "games": 16,
-      "losses": 11,
-      "rating": 1424.62,
+      "games": 17,
+      "losses": 12,
+      "rating": 1412.2,
       "wins": 5
     },
     "23": {
@@ -2606,10 +2651,10 @@
     },
     "29": {
       "draws": 0,
-      "games": 13,
-      "losses": 11,
-      "rating": 1401.16,
-      "wins": 2
+      "games": 18,
+      "losses": 12,
+      "rating": 1435.72,
+      "wins": 6
     },
     "3": {
       "draws": 0,
@@ -2634,10 +2679,10 @@
     },
     "32": {
       "draws": 0,
-      "games": 18,
+      "games": 19,
       "losses": 12,
-      "rating": 1434.65,
-      "wins": 6
+      "rating": 1446.67,
+      "wins": 7
     },
     "33": {
       "draws": 0,
@@ -2676,9 +2721,9 @@
     },
     "6": {
       "draws": 0,
-      "games": 16,
-      "losses": 11,
-      "rating": 1435.86,
+      "games": 17,
+      "losses": 12,
+      "rating": 1423.43,
       "wins": 5
     },
     "7": {
