@@ -2609,6 +2609,51 @@
       "reason": "The matched-therapy project is better positioned to distinguish predictive treatment benefit from prognostic biology because it uses a direct matched-versus-standard comparison and emphasizes institution- and assay-level transportability. The CAF–immune project has strong biological potential, but paired biopsies, spatial measurement, heterogeneous therapies, and preservation of stromal and immune interactions create several long-readout dependencies.",
       "target": 2,
       "timestamp": "2026-09-25T17:17:20.084289+00:00"
+    },
+    {
+      "main_risk": "The apparent reference dependence may be caused mainly by insufficient reference depth or measurement noise rather than a fundamental identifiability problem.",
+      "next_test": "Freeze predictions from simple and learned models and re-score them under shared, disjoint, and observation-independent donor-held-out control references, comparing rank and direction concordance with donor-blocked uncertainty.",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "Reference-invariant perturbation-effect identifiability is the stronger current investment because it addresses a foundational, broadly reusable validity problem, has explicit leakage-resistant evaluation, and offers a cheap six-week re-scoring test before committing to new multimodal experiments. The multimodal project has greater mechanistic ambition but depends on costly, well-aligned regulatory measurements, reproducible perturbations, and prospective orthogonal assays.",
+      "target": 36,
+      "timestamp": "2026-09-25T21:39:39.975157+00:00"
+    },
+    {
+      "main_risk": "The proposed reference-invariant metrics may not separate genuine intervention-effect recovery from shared technical artifacts or donor-specific structure.",
+      "next_test": "Run balanced and disjoint-reference evaluations with donor-held-out predictions, permutation and sham controls, and compare simple matched-donor and linear-effect baselines before adding complex models.",
+      "opponent": 38,
+      "outcome": "win",
+      "reason": "Reference-invariant effect identification is more tractable and has a clearer six-week-to-decision path than cross-species decomposition, which requires conserved biology, reliable orthology, baseline-state alignment, calibrated out-of-context uncertainty, and independent validation. Its protocol could also become a prerequisite for judging more ambitious transfer claims.",
+      "target": 36,
+      "timestamp": "2026-09-25T21:39:39.975196+00:00"
+    },
+    {
+      "main_risk": "The evaluation framework may establish instability without yielding a biologically actionable way to improve perturbation prediction or experiment selection.",
+      "next_test": "In donor-derived perturbation datasets, test whether frozen model rankings and effect directions remain stable across reference allocations and whether they outperform matched-donor and linear direct-effect baselines under donor-held-out validation.",
+      "opponent": 3,
+      "outcome": "loss",
+      "reason": "The identifiability problem deserves more time because it is broadly applicable to virtual-cell claims, can be tested using existing perturbation data, and has an early reversible decision point. DNA-damage-tolerance escape has stronger direct therapeutic stakes, but its biomarker-to-mechanism-to-combination-benefit chain is longer, requires difficult longitudinal or model data, and may be confounded by nonspecific treatment injury.",
+      "target": 36,
+      "timestamp": "2026-09-25T21:39:39.975211+00:00"
+    },
+    {
+      "main_risk": "The protocol may identify reference sensitivity but fail to demonstrate that the stable effects correspond to meaningful biology or improve downstream model selection.",
+      "next_test": "Use existing multi-donor perturbation datasets to compare reference-invariant scores against state-reconstruction scores, strong simple baselines, negative controls, and donor-blocked bootstrap intervals.",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "Reference-invariant perturbation-effect evaluation offers broader technology value, fewer specialized assay and cohort dependencies, and a substantially cheaper earliest test. The HCC niche project is clinically attractive but requires reproducible spatial lipid or FADS1 measurements, adequate pretreatment patient cohorts, control of major clinical confounders, and external validation across treatment contexts.",
+      "target": 36,
+      "timestamp": "2026-09-25T21:39:39.975222+00:00"
+    },
+    {
+      "main_risk": "The general evaluation result may be scientifically sound but too abstract to produce a concrete improvement in resistance prediction or therapeutic decision-making.",
+      "next_test": "Freeze several baseline and learned perturbation models, evaluate them with donor-held-out shared versus disjoint references, and determine whether stable direct-effect rankings predict independent donor responses better than state-output metrics.",
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "Reference-invariant effect identification is the stronger current investment because it targets a general validity bottleneck, is less dependent on a particular cancer mechanism or assay, and has a rapid discriminating experiment. KRAS adaptive-state work could be more immediately actionable, but it requires reproducible serial transitions, temporal precedence, separation of plasticity from clonal selection and stress, spatial evidence, and actionable dependencies.",
+      "target": 36,
+      "timestamp": "2026-09-25T21:39:39.975231+00:00"
     }
   ],
   "k_factor": 24,
@@ -2622,9 +2667,9 @@
     },
     "10": {
       "draws": 0,
-      "games": 16,
-      "losses": 8,
-      "rating": 1500.79,
+      "games": 17,
+      "losses": 9,
+      "rating": 1489.13,
       "wins": 8
     },
     "11": {
@@ -2748,10 +2793,10 @@
     },
     "3": {
       "draws": 0,
-      "games": 16,
+      "games": 17,
       "losses": 8,
-      "rating": 1499.97,
-      "wins": 8
+      "rating": 1512.78,
+      "wins": 9
     },
     "30": {
       "draws": 0,
@@ -2795,6 +2840,27 @@
       "rating": 1458.75,
       "wins": 6
     },
+    "36": {
+      "draws": 0,
+      "games": 5,
+      "losses": 2,
+      "rating": 1509.73,
+      "wins": 3
+    },
+    "37": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "38": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
+    },
     "4": {
       "draws": 1,
       "games": 20,
@@ -2818,10 +2884,10 @@
     },
     "7": {
       "draws": 0,
-      "games": 22,
+      "games": 23,
       "losses": 11,
-      "rating": 1501.75,
-      "wins": 11
+      "rating": 1514.46,
+      "wins": 12
     },
     "8": {
       "draws": 0,
