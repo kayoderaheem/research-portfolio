@@ -2564,15 +2564,60 @@
       "reason": "Issue 28 better balances impact, feasibility, and early decision value: its biomarker question can yield a useful positive or negative answer without requiring a causal mechanism. Issue 15 is more novel and potentially transformative, but depends on reproducing a spatial niche, obtaining paired treatment tissue, and demonstrating selective perturbation effects beyond tumor burden and proliferation.",
       "target": 28,
       "timestamp": "2026-09-25T11:57:15.885946+00:00"
+    },
+    {
+      "main_risk": "The randomized cohort may be too small or imbalanced across molecular subgroups and institutions to estimate stable treatment interactions and calibration.",
+      "next_test": "Lock a compact baseline-plus-early-response signature and evaluate treatment interaction, calibration, and decision benefit in a site-held-out cohort.",
+      "opponent": 5,
+      "outcome": "win",
+      "reason": "The transportability problem is anchored to randomized matched-versus-standard treatment outcomes, with patient-level leakage controls, external validation, and a relatively cheap site-held-out test. The spatial trajectory idea could reveal richer biology, but it depends on obtaining comparable serial tissue and showing that spatial transitions add information beyond composition and treatment-related inflammation.",
+      "target": 2,
+      "timestamp": "2026-09-25T17:17:20.084241+00:00"
+    },
+    {
+      "main_risk": "Insufficient randomized or comparable outcome data may prevent reliable estimation of treatment benefit heterogeneity.",
+      "next_test": "Test a locked multimodal signature against clinical and molecular baselines in a held-out institution, including calibration and missing-modality analyses.",
+      "opponent": 8,
+      "outcome": "win",
+      "reason": "The randomized treatment comparison and explicit focus on transportable differential benefit give the matched-therapy signature a stronger causal and translational anchor than metastatic-site spatial niches. The ALK project faces substantial confounding by anatomical site, prior therapy, lesion sampling, and assay platform, with limited evidence that topology modifies response rather than merely predicting prognosis.",
+      "target": 2,
+      "timestamp": "2026-09-25T17:17:20.084260+00:00"
+    },
+    {
+      "main_risk": "The matched-therapy study may lack sufficient sample size and subgroup balance for stable treatment-interaction estimates across institutions and assays.",
+      "next_test": "Evaluate the locked matched-therapy signature in a site-held-out cohort against clinical-only and molecular-matching baselines, emphasizing interaction confidence intervals and calibration.",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "The matched-therapy project has a clearer clinical anchor, randomized treatment information, and a more direct early transportability decision. The DNA-damage-tolerance project requires several linked findings—an early mechanism-specific biomarker, specificity against general injury, pharmacologic reversal, and reproducibility—before it can support a treatment decision.",
+      "target": 2,
+      "timestamp": "2026-09-25T17:17:20.084269+00:00"
+    },
+    {
+      "main_risk": "The required randomized or comparable matched-versus-standard data may not provide enough patients for reliable differential-benefit modeling.",
+      "next_test": "Run the locked compact signature in a site-held-out cohort and compare treatment-effect discrimination, calibration, and decision benefit with the molecular-matching and clinical baselines.",
+      "opponent": 1,
+      "outcome": "win",
+      "reason": "The matched-therapy problem has a stronger prospective outcome anchor and a cheaper, more interpretable early test of transportability. Functional organoid profiling could directly influence treatment selection, but it additionally depends on timely culture success, clinically relevant ex vivo pharmacology, sufficient patient-level enrollment, and prospective outcome association before demonstrating utility.",
+      "target": 2,
+      "timestamp": "2026-09-25T17:17:20.084279+00:00"
+    },
+    {
+      "main_risk": "The matched-treatment groups and molecular subgroups may be too sparse or noncomparable to identify transportable treatment-effect heterogeneity.",
+      "next_test": "Perform the pre-specified site-held-out analysis with clinical, molecular, and composition-only baselines, checking calibration and interaction direction before adding complex multimodal features.",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "The matched-therapy project is better positioned to distinguish predictive treatment benefit from prognostic biology because it uses a direct matched-versus-standard comparison and emphasizes institution- and assay-level transportability. The CAF–immune project has strong biological potential, but paired biopsies, spatial measurement, heterogeneous therapies, and preservation of stromal and immune interactions create several long-readout dependencies.",
+      "target": 2,
+      "timestamp": "2026-09-25T17:17:20.084289+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 20,
-      "losses": 10,
-      "rating": 1505.76,
+      "games": 21,
+      "losses": 11,
+      "rating": 1495.06,
       "wins": 10
     },
     "10": {
@@ -2598,10 +2643,10 @@
     },
     "13": {
       "draws": 0,
-      "games": 20,
+      "games": 21,
       "losses": 10,
-      "rating": 1503.86,
-      "wins": 10
+      "rating": 1517.59,
+      "wins": 11
     },
     "15": {
       "draws": 1,
@@ -2633,10 +2678,10 @@
     },
     "2": {
       "draws": 0,
-      "games": 15,
-      "losses": 7,
-      "rating": 1508.64,
-      "wins": 8
+      "games": 20,
+      "losses": 8,
+      "rating": 1540.51,
+      "wins": 12
     },
     "21": {
       "draws": 0,
@@ -2703,9 +2748,9 @@
     },
     "3": {
       "draws": 0,
-      "games": 15,
-      "losses": 7,
-      "rating": 1511.24,
+      "games": 16,
+      "losses": 8,
+      "rating": 1499.97,
       "wins": 8
     },
     "30": {
@@ -2759,9 +2804,9 @@
     },
     "5": {
       "draws": 3,
-      "games": 16,
-      "losses": 6,
-      "rating": 1509.34,
+      "games": 17,
+      "losses": 7,
+      "rating": 1497.32,
       "wins": 7
     },
     "6": {
@@ -2780,9 +2825,9 @@
     },
     "8": {
       "draws": 0,
-      "games": 17,
-      "losses": 8,
-      "rating": 1509.46,
+      "games": 18,
+      "losses": 9,
+      "rating": 1497.85,
       "wins": 9
     },
     "9": {
