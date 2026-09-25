@@ -2519,6 +2519,51 @@
       "reason": "Issue 29 has a concrete clinical use, existing pilot observations, strong conventional baselines, and an early branch point. Issue 6 is more novel and could generate valuable biology, but mechanical stress is difficult to measure from tissue proxies, causal interpretation is confounded by hypoxia and mesenchymal state, and matched spatial tissue with treatment-linked outcomes is demanding.",
       "target": 29,
       "timestamp": "2026-09-25T05:04:06.280355+00:00"
+    },
+    {
+      "main_risk": "For Issue 28, the choice would change if no accessible independent registry contains adequate FeNO, medication-exposure, and exacerbation data with comparable ascertainment.",
+      "next_test": "Audit two candidate registries for variable completeness, assay compatibility, corticosteroid exposure, and at least 100 independently ascertained exacerbation events before modeling.",
+      "opponent": 24,
+      "outcome": "win",
+      "reason": "Issue 28 offers a clearer six-month path to a clinically interpretable answer using established biomarkers, explicit external-validation criteria, and a relatively cheap early feasibility check. Issue 24 has greater potential clinical impact, but its value depends on reproducible cross-site cfDNA measurement, a genuinely locked threshold, and evidence that the signal is not merely tumor-burden proxy.",
+      "target": 28,
+      "timestamp": "2026-09-25T11:57:15.885900+00:00"
+    },
+    {
+      "main_risk": "For Issue 28, the choice would change if T2 biomarkers add no value beyond clinical predictors after corticosteroid exposure and assay differences are handled.",
+      "next_test": "Run a locked clinical-only versus clinical-plus-eosinophil/FeNO analysis in one registry, while confirming an independent registry has sufficient events and harmonizable measurements.",
+      "opponent": 31,
+      "outcome": "loss",
+      "reason": "Issue 28 has a more reliable evidence path: routine biomarkers, a well-defined clinical baseline, and tractable calibration and reclassification analyses. Issue 31 faces simultaneous high-risk assumptions about imaging reproducibility, a noncircular reference standard, informative image failure, and site transportability, making a negative result harder to interpret within six months.",
+      "target": 28,
+      "timestamp": "2026-09-25T11:57:15.885922+00:00"
+    },
+    {
+      "main_risk": "For Issue 28, the choice would change if external data show that biomarkers do not improve calibration or decision value beyond prior exacerbations, treatment exposure, and lung function.",
+      "next_test": "Pre-specify and lock the clinical baseline, then test nested biomarker models in a held-out registry with calibration and decision-curve analysis rather than relying on discrimination alone.",
+      "opponent": 25,
+      "outcome": "win",
+      "reason": "Issue 28 is the stronger current investment because it tests a focused, decision-relevant incremental-value question with established measurements and a comparatively short path to external validation. Issue 25 has important treatment-selection potential, but regimen-specific expression programs require substantial protection against treatment-selection bias, endpoint inconsistency, batch effects, and outcome leakage across multiple regimens.",
+      "target": 28,
+      "timestamp": "2026-09-25T11:57:15.885932+00:00"
+    },
+    {
+      "main_risk": "For Issue 28, the choice would change if registry-level assay and treatment-practice differences overwhelm any biomarker signal despite prespecified harmonization and recalibration.",
+      "next_test": "Compare the locked clinical-only and biomarker-augmented models across two registries using patient-level splits, calibration, subgroup stability, and decision curves; stop if transport fails before adding model complexity.",
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "Issue 28 has a clearer scientific anchor and more replaceable technical risk: it can establish whether common T2 measurements add transportable decision value. Issue 17 risks becoming a complex benchmark with uncertain biological or translational payoff, while spatial feature reproducibility, endpoint harmonization, center shift, and adequate independent cohorts are all substantial dependencies.",
+      "target": 28,
+      "timestamp": "2026-09-25T11:57:15.885939+00:00"
+    },
+    {
+      "main_risk": "For Issue 28, the choice would change if the biomarkers prove redundant with routine clinical severity and medication variables in an adequately powered external cohort.",
+      "next_test": "First test the prespecified spatial score in independent paired gastric-cancer specimens against BCL2 abundance and proliferation, while in parallel conducting the cheaper locked clinical-plus-T2 external-validation analysis; prioritize Issue 15 only if the spatial signal replicates.",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "Issue 28 better balances impact, feasibility, and early decision value: its biomarker question can yield a useful positive or negative answer without requiring a causal mechanism. Issue 15 is more novel and potentially transformative, but depends on reproducing a spatial niche, obtaining paired treatment tissue, and demonstrating selective perturbation effects beyond tumor burden and proliferation.",
+      "target": 28,
+      "timestamp": "2026-09-25T11:57:15.885946+00:00"
     }
   ],
   "k_factor": 24,
@@ -2560,16 +2605,16 @@
     },
     "15": {
       "draws": 1,
-      "games": 21,
-      "losses": 9,
-      "rating": 1528.84,
+      "games": 22,
+      "losses": 10,
+      "rating": 1518.92,
       "wins": 11
     },
     "17": {
       "draws": 0,
-      "games": 16,
-      "losses": 4,
-      "rating": 1589.5,
+      "games": 17,
+      "losses": 5,
+      "rating": 1577.08,
       "wins": 12
     },
     "18": {
@@ -2616,16 +2661,16 @@
     },
     "24": {
       "draws": 1,
-      "games": 17,
-      "losses": 5,
-      "rating": 1571.08,
+      "games": 18,
+      "losses": 6,
+      "rating": 1558.93,
       "wins": 11
     },
     "25": {
       "draws": 1,
-      "games": 15,
-      "losses": 5,
-      "rating": 1549.77,
+      "games": 16,
+      "losses": 6,
+      "rating": 1538.33,
       "wins": 9
     },
     "26": {
@@ -2644,10 +2689,10 @@
     },
     "28": {
       "draws": 0,
-      "games": 14,
-      "losses": 4,
-      "rating": 1566.63,
-      "wins": 10
+      "games": 19,
+      "losses": 5,
+      "rating": 1599.69,
+      "wins": 14
     },
     "29": {
       "draws": 0,
@@ -2672,10 +2717,10 @@
     },
     "31": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 6,
-      "rating": 1553.42,
-      "wins": 11
+      "rating": 1566.29,
+      "wins": 12
     },
     "32": {
       "draws": 0,
