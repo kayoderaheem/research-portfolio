@@ -2654,23 +2654,68 @@
       "reason": "Reference-invariant effect identification is the stronger current investment because it targets a general validity bottleneck, is less dependent on a particular cancer mechanism or assay, and has a rapid discriminating experiment. KRAS adaptive-state work could be more immediately actionable, but it requires reproducible serial transitions, temporal precedence, separation of plasticity from clonal selection and stress, spatial evidence, and actionable dependencies.",
       "target": 36,
       "timestamp": "2026-09-25T21:39:39.975231+00:00"
+    },
+    {
+      "main_risk": "The added chromatin or isoform modalities may contribute only donor, batch, or cell-composition proxies rather than intervention-relevant information.",
+      "next_test": "Run the prespecified donor-blocked ablation on a small matched expression-plus-chromatin perturbation dataset, comparing expression-only and multimodal models on held-out perturbations and donors.",
+      "opponent": 37,
+      "outcome": "loss",
+      "reason": "Problem 37 has a clearer six-month path to a decisive result: donor- and perturbation-held-out tests can directly determine whether regulatory-state modalities add information beyond expression. Its prospective orthogonal assays can falsify mechanistic claims, whereas problem 38 requires several difficult assumptions about conserved biology, orthology, baseline alignment, and cross-species assay comparability before its decomposition is interpretable.",
+      "target": 38,
+      "timestamp": "2026-09-26T05:06:58.339235+00:00"
+    },
+    {
+      "main_risk": "The proposed spatial lipid or FADS1 signal may be nonspecific tissue accumulation or simply reflect T-cell abundance, tumor burden, liver disease, or sampling location.",
+      "next_test": "In a small pretreatment HCC cohort, perform blinded multiplex spatial profiling with orthogonal lipid or pathway measurements and test nested patient-level models for composition, clinical covariates, and metabolic proximity.",
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "Problem 10 has a more concrete biological anchor and a nearer translational decision: whether spatial FADS1 or arachidonic-acid proximity explains T-cell fitness and adds patient-level information beyond composition and clinical covariates. It also offers useful negative outcomes, such as separating a nonpredictive biomarker from a mechanistically unsupported pathway. Problem 38 is more general but depends on cross-species data integration and conservation assumptions that may take longer to establish.",
+      "target": 38,
+      "timestamp": "2026-09-26T05:06:58.339255+00:00"
+    },
+    {
+      "main_risk": "The apparent treatment-induced spatial myeloid state may be caused by lesion size, organ-specific heterogeneity, treatment exposure, or segmentation artifacts rather than a transferable response mechanism.",
+      "next_test": "Profile paired baseline and early-treatment metastatic lesions using a focused spatial/myeloid panel, adjust for organ and lesion burden, and test whether the locked interface score predicts later lesion control beyond abundance.",
+      "opponent": 4,
+      "outcome": "loss",
+      "reason": "Problem 4 offers the cheapest and earliest discriminating test, with a focused eight-week paired-lesion study and a clearly defined comparison against abundance-only models. Its fixed anchor can remain useful across organs and platforms, and negative results can identify whether the failure is in state definition, spatial localization, or transportability. Problem 38 has broader potential but combines high-risk assumptions about conserved responses, orthology, and baseline-state alignment.",
+      "target": 38,
+      "timestamp": "2026-09-26T05:06:58.339270+00:00"
+    },
+    {
+      "main_risk": "The available cross-species perturbation data may not contain enough matched species-tissue-context coverage to distinguish conserved biology from shared state composition or orthology artifacts.",
+      "next_test": "Train on two species and selected tissues, hold out a complete species-tissue context, and compare the decomposition with pathway, linear, and nearest-conserved-state baselines using direction recovery and calibration.",
+      "opponent": 1,
+      "outcome": "win",
+      "reason": "Problem 38 is a stronger current scientific investment because it addresses a general identifiability question with a relatively cheap early computational branch and can yield informative outcomes even if conserved transfer fails. Problem 1 has substantial clinical potential, but organoid establishment, turnaround, pharmacologic fidelity, treatment selection, and patient outcome readout form a longer and riskier chain; its key claim is difficult to establish within six months.",
+      "target": 38,
+      "timestamp": "2026-09-26T05:06:58.339278+00:00"
+    },
+    {
+      "main_risk": "The cross-species dataset may be too sparse or heterogeneous to separate conserved intervention responses from baseline state alignment and orthology shortcuts.",
+      "next_test": "Conduct the ten-week held-out-context comparison with patient- or replicate-level separation, strong linear and pathway baselines, shuffled-orthology controls, and prespecified calibration and abstention criteria.",
+      "opponent": 5,
+      "outcome": "win",
+      "reason": "Problem 38 has greater generality and a cleaner early decision than problem 5. A leave-species-tissue-context-out benchmark can quickly test transferability and uncertainty, while failure can still produce a useful boundary map for when cross-species counterfactuals are not identifiable. Problem 5 depends on serial, regionally comparable cervical specimens, a measurable early transition, treatment-site control, and an external cohort, making its readout more expensive and vulnerable to sampling confounding.",
+      "target": 38,
+      "timestamp": "2026-09-26T05:06:58.339285+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 21,
-      "losses": 11,
-      "rating": 1495.06,
+      "games": 22,
+      "losses": 12,
+      "rating": 1481.63,
       "wins": 10
     },
     "10": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 9,
-      "rating": 1489.13,
-      "wins": 8
+      "rating": 1500.69,
+      "wins": 9
     },
     "11": {
       "draws": 1,
@@ -2849,30 +2894,30 @@
     },
     "37": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "rating": 1500.01,
+      "wins": 1
     },
     "38": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 4,
+      "rating": 1479.93,
+      "wins": 2
     },
     "4": {
       "draws": 1,
-      "games": 20,
+      "games": 21,
       "losses": 10,
-      "rating": 1482.53,
-      "wins": 9
+      "rating": 1493.92,
+      "wins": 10
     },
     "5": {
       "draws": 3,
-      "games": 17,
-      "losses": 7,
-      "rating": 1497.32,
+      "games": 18,
+      "losses": 8,
+      "rating": 1484.27,
       "wins": 7
     },
     "6": {
