@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The spatial signal may be an anatomical-site or treatment-history proxy rather than a treatment-response modifier.",
-      "next_test": "Run the prespecified 10-week patient-level comparison of spatial features against composition, genotype, site, and clinical baselines, including leave-one-site-out validation.",
-      "opponent": 19,
-      "outcome": "win",
-      "reason": "ALK-site context has broader clinical relevance, a clearer patient-level response endpoint, and a more feasible early test than the rare MPNST trajectory project, which depends on difficult longitudinal tissue and a less established ZNF423 transition.",
-      "target": 8,
-      "timestamp": "2026-09-12T20:38:44.848782+00:00"
-    },
-    {
-      "main_risk": "Marrow spatial accessibility may add no information beyond leukemia burden, antigen or T-cell composition, and clinical risk.",
-      "next_test": "Profile pretreatment marrow by multiplex imaging and test whether leukemia-CD8 neighborhood accessibility improves calibrated patient-level prediction over composition-plus-clinical baselines.",
-      "opponent": 11,
-      "outcome": "loss",
-      "reason": "Blinatumomab response offers a narrower and more actionable spatial question with a relatively cheap pretreatment marrow test, strong composition and clinical baselines, and a clearer early decision than the multi-assay, longitudinal ALK metastatic-site study.",
-      "target": 8,
-      "timestamp": "2026-09-12T20:38:44.848804+00:00"
-    },
-    {
-      "main_risk": "The apparent ALK spatial association may be confounded by metastatic site, prior therapy, or sampling rather than modifying drug response.",
-      "next_test": "Evaluate a locked spatial score in pretreatment ALK samples using patient-level validation and site-held-out testing against clinical, genotype, composition, and proliferation baselines.",
-      "opponent": 18,
-      "outcome": "win",
-      "reason": "ALK-rearranged NSCLC provides a more clinically anchored and likely data-ready setting for testing site-aware resistance, whereas the cholangiocarcinoma hypothesis is heavily dependent on cell-line-derived programs transferring to human tumors across anatomical sites.",
-      "target": 8,
-      "timestamp": "2026-09-12T20:38:44.848813+00:00"
-    },
-    {
-      "main_risk": "A sufficiently large, harmonized independent cohort with response labels and compatible spatial measurements may not be available.",
-      "next_test": "Confirm access and label harmonization, then run the preregistered center-held-out benchmark before developing complex multimodal models.",
-      "opponent": 17,
-      "outcome": "loss",
-      "reason": "The lymphoma benchmark directly answers whether spatial context is worth the added complexity, uses strong simple baselines and center-held-out validation, and can produce useful negative results; its findings would generalize across future biomarker projects more than a single ALK niche hypothesis.",
-      "target": 8,
-      "timestamp": "2026-09-12T20:38:44.848825+00:00"
-    },
-    {
-      "main_risk": "ALK spatial features may not transfer across metastatic sites or outperform simpler site, genotype, composition, and clinical predictors.",
-      "next_test": "Test a prespecified ALK tumor-stroma-immune neighborhood score in a patient-split cohort, with independent assay replication and leave-one-site-out evaluation.",
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "ALK metastatic-site response is a more fixed and testable scientific anchor than the lung adenocarcinoma proposal's floating therapy classes and reliance on patient-derived tumoroids retaining clinically relevant CAF-immune interactions.",
-      "target": 8,
-      "timestamp": "2026-09-12T20:38:44.848831+00:00"
-    },
-    {
       "main_risk": "Serial specimens may not represent comparable tumor regions across patients, making an apparent treatment-induced transition a sampling or tissue-quality artifact.",
       "next_test": "Run a blinded pilot on paired baseline and early-treatment cervical specimens to quantify tissue comparability and test whether the prespecified transition is reproducible across patients and regions before outcome modeling.",
       "opponent": 8,
@@ -2699,6 +2654,51 @@
       "reason": "Cross-species identifiability has substantially greater discovery breadth and can produce useful model-selection and experiment-design rules even when transfer fails. The HCC project is a compelling mechanistic hypothesis but tightly couples a specific metabolite, spatial assay, resident-memory phenotype, and treatment context; spatial lipid measurements may be difficult to interpret as active signaling rather than accumulation, and the clinical cohorts are narrow.",
       "target": 38,
       "timestamp": "2026-09-26T16:29:08.020993+00:00"
+    },
+    {
+      "main_risk": "Issue 39 may measure dataset-specific or annotation-specific abundance regularities rather than genuine perturbation-induced state transitions.",
+      "next_test": "Blindly predict target- and donor-held-out perturbations using existing matched datasets, with donor-level splits and marker-based versus reference-mapped state definitions, before commissioning new spatial experiments.",
+      "opponent": 41,
+      "outcome": "win",
+      "reason": "Issue 39 offers broader technology and discovery value with a clearer six-month path, stronger independent-cohort and orthogonal-validation design, and an earlier prospective decision point. Issue 41 is highly novel but depends on a substantially more demanding lineage-resolved chromatin and causal-recovery program in a narrow yeast context.",
+      "target": 39,
+      "timestamp": "2026-09-26T21:15:42.236554+00:00"
+    },
+    {
+      "main_risk": "Issue 39 may produce apparently accurate composition forecasts that are driven by sampling, batch, or state-definition artifacts rather than biological counterfactual ability.",
+      "next_test": "Run donor- and target-held-out predictions against replicated single-cell perturbation data and test whether gains persist across independently defined state representations.",
+      "opponent": 40,
+      "outcome": "win",
+      "reason": "Issue 39 is the stronger current investment because its capability is more broadly reusable, its baselines and leakage controls are explicit, and composition prediction has a relatively direct prospective test. Issue 40 has greater eventual clinical specificity but requires reliable mechanistic biomarkers, dose and schedule coverage, and transfer into donor-derived or three-dimensional models.",
+      "target": 39,
+      "timestamp": "2026-09-26T21:15:42.236594+00:00"
+    },
+    {
+      "main_risk": "Issue 39 may not identify true composition changes because observed abundance shifts are dominated by profiling noise, state-label instability, or treatment-dependent sampling bias.",
+      "next_test": "Use replicated, donor-separated held-out perturbations to compare direct composition modeling with compositional regression, expression-first, retrieval, and donor-baseline null models.",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "Issue 39 has a broader and more tractable technology anchor, a shorter readout, stronger evidence readiness, and useful outcomes even if the favored model fails. Issue 3 could have substantial clinical value, but its chain from early biomarker change to mechanism-specific resistance and combination benefit requires several high-risk longitudinal and functional assumptions.",
+      "target": 39,
+      "timestamp": "2026-09-26T21:15:42.236608+00:00"
+    },
+    {
+      "main_risk": "Issue 39 may mistake context-specific state annotations or abundance regularities for generalizable perturbation-induced composition effects.",
+      "next_test": "Evaluate a locked composition predictor on target- and donor-held-out data, then test the largest predicted gains and losses with focused imaging or flow cytometry in an independent replicate set.",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "Issue 39 currently offers a more portable scientific capability and a cleaner early decision than Issue 4, which depends on reproducible spatial state measurement, treatment-induced change beyond organ heterogeneity, and transfer across organs and platforms. Issue 4 has stronger eventual translational relevance, but its causal and transportability risks are substantial.",
+      "target": 39,
+      "timestamp": "2026-09-26T21:15:42.236614+00:00"
+    },
+    {
+      "main_risk": "Issue 39 may fail to distinguish genuine compositional counterfactuals from annotation, batch, and sampling artifacts that do not transport across contexts.",
+      "next_test": "Hold out donors, perturbation targets, and tissue contexts, compare against compositional and expression-first baselines, and check whether predicted shifts replicate under independent state definitions.",
+      "opponent": 38,
+      "outcome": "win",
+      "reason": "Issue 39 has a more concrete anchor, shorter earliest test, broader applicability, and more informative failure branches than Issue 38. Cross-species decomposition is important but rests on difficult orthology, baseline-alignment, conservation, and out-of-context calibration assumptions, with orthogonal validation taking longer.",
+      "target": 39,
+      "timestamp": "2026-09-26T21:15:42.236621+00:00"
     }
   ],
   "k_factor": 24,
@@ -2838,9 +2838,9 @@
     },
     "3": {
       "draws": 0,
-      "games": 18,
-      "losses": 9,
-      "rating": 1501.09,
+      "games": 19,
+      "losses": 10,
+      "rating": 1489.87,
       "wins": 9
     },
     "30": {
@@ -2901,17 +2901,38 @@
     },
     "38": {
       "draws": 0,
-      "games": 11,
-      "losses": 6,
-      "rating": 1494.28,
+      "games": 12,
+      "losses": 7,
+      "rating": 1484.03,
+      "wins": 5
+    },
+    "39": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1555.67,
       "wins": 5
     },
     "4": {
       "draws": 1,
-      "games": 23,
-      "losses": 11,
-      "rating": 1494.42,
+      "games": 24,
+      "losses": 12,
+      "rating": 1483.81,
       "wins": 11
+    },
+    "40": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
+    },
+    "41": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
     },
     "5": {
       "draws": 3,
