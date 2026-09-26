@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Serial specimens may not represent comparable tumor regions across patients, making an apparent treatment-induced transition a sampling or tissue-quality artifact.",
-      "next_test": "Run a blinded pilot on paired baseline and early-treatment cervical specimens to quantify tissue comparability and test whether the prespecified transition is reproducible across patients and regions before outcome modeling.",
-      "opponent": 8,
-      "outcome": "win",
-      "reason": "The cervical chemoradiotherapy problem has a clearer patient-level temporal anchor, paired sampling logic, and clinically meaningful branch points than the ALK proposal, whose spatial signal is more vulnerable to anatomical-site, treatment-history, lesion-selection, and sampling confounding. Its transition can also yield useful biological insight even if spatial features do not improve prediction.",
-      "target": 5,
-      "timestamp": "2026-09-12T23:05:07.196680+00:00"
-    },
-    {
-      "main_risk": "Adequate, treatment-comparable independent melanoma cohorts of people living with HIV may be unavailable or too small for reliable patient-level validation.",
-      "next_test": "Audit and lock the available HIV-positive melanoma cohort, including treatment comparability, CD4 and viral-load completeness, tissue quality, endpoint consistency, and independent validation availability, before developing spatial features.",
-      "opponent": 12,
-      "outcome": "win",
-      "reason": "The cervical proposal offers a broader and more feasible response problem with paired treatment-window tissue, clearer temporal ordering, and less dependence on assembling a historically underrepresented HIV-positive melanoma cohort. The HIV proposal has important inclusion value but requires several high-risk assumptions about cohort access, antigen-presentation measurement, HIV-related confounding, and external validation before its clinical value can be assessed.",
-      "target": 5,
-      "timestamp": "2026-09-12T23:05:07.196703+00:00"
-    },
-    {
-      "main_risk": "FADS1 expression or lipid abundance may not faithfully measure active local arachidonic-acid signaling or T-cell metabolic impairment.",
-      "next_test": "Use a focused HCC pilot with orthogonal lipid, protein, and T-cell fitness measurements to test whether the proposed FADS1-associated proximity signal is reproducible and biologically aligned before clinical prediction modeling.",
-      "opponent": 10,
-      "outcome": "win",
-      "reason": "The cervical project asks a more generalizable treatment-response question and has a more accessible path from paired tissue measurement to calibrated prediction. The HCC proposal depends on technically difficult spatial lipid or metabolic measurements being biologically active, spatially resolved, and transferable across anti-PD-1 and GPC3-CAR-T contexts; it also risks a forced link between a specific pathway and response.",
-      "target": 5,
-      "timestamp": "2026-09-12T23:05:07.196713+00:00"
-    },
-    {
-      "main_risk": "The cervical transition may be irreproducible because serial tissue samples capture different regions or because early immune changes reflect treatment intensity rather than response biology.",
-      "next_test": "Profile paired cervical baseline and early-treatment samples with blinded pathology and patient-level resampling to establish tissue comparability and transition reproducibility before expanding the assay or endpoint.",
-      "opponent": 4,
-      "outcome": "win",
-      "reason": "The cervical proposal is more scientifically fixed and operationally specific: it defines a patient-level treatment-induced transition, response endpoint, paired sampling strategy, and explicit composition-only alternatives. The myeloid-niche proposal spans unspecified metastatic organs, human or animal studies, multiple treatment settings, and broad state definitions, creating substantial risk that organ heterogeneity, lesion size, or treatment exposure will dominate the signal.",
-      "target": 5,
-      "timestamp": "2026-09-12T23:05:07.196720+00:00"
-    },
-    {
-      "main_risk": "The benchmark may demonstrate only modest or center-specific predictive differences, with response-label harmonization and spatial feature reproducibility limiting interpretation rather than revealing a general biological gain.",
-      "next_test": "Execute the preregistered multicenter nested benchmark with one center held out, harmonized response windows, locked preprocessing, and direct comparison against IPI, composition, imaging, and molecular baselines before pursuing complex multimodal models.",
-      "opponent": 17,
-      "outcome": "loss",
-      "reason": "The lymphoma benchmark is the stronger current investment because it directly tests an important unresolved question with multicenter data, strong established baselines, patient- and center-held-out validation, calibration, and an early preregistered decision point. It can produce a valuable negative result by showing that spatial context adds no robust information, whereas the cervical proposal requires a more speculative biological transition and costly serial tissue acquisition.",
-      "target": 5,
-      "timestamp": "2026-09-12T23:05:07.196727+00:00"
-    },
-    {
       "main_risk": "The randomized cohort may be too small or imbalanced within molecular subgroups to estimate treatment interactions and calibration reliably.",
       "next_test": "Lock a compact baseline-plus-early-response signature and test treatment interaction and calibration in a site-held-out patient cohort.",
       "opponent": 19,
@@ -2699,16 +2654,61 @@
       "reason": "Issue 39 has a more concrete anchor, shorter earliest test, broader applicability, and more informative failure branches than Issue 38. Cross-species decomposition is important but rests on difficult orthology, baseline-alignment, conservation, and out-of-context calibration assumptions, with orthogonal validation taking longer.",
       "target": 39,
       "timestamp": "2026-09-26T21:15:42.236621+00:00"
+    },
+    {
+      "main_risk": "Recovery may reflect selection for surviving cells or nonspecific stress adaptation rather than a causal reversible chromatin trajectory.",
+      "next_test": "Use live-cell lineage tracking with one perturbation and restoration schedule to test unseen pulse durations, while measuring re-entry fidelity and cohesin organization against static and threshold baselines.",
+      "opponent": 41,
+      "outcome": "loss",
+      "reason": "The quiescent-chromatin problem offers broader discovery value and a clearer falsification target: schedule-held-out lineage experiments can test whether history dependence and reversibility are real before committing to a larger model. It also yields useful mechanistic branches if the favored dynamic model fails. The germ-cell screening project has stronger translational framing but depends on several context, assay, and transfer assumptions before its predictions become credible.",
+      "target": 40,
+      "timestamp": "2026-09-26T23:40:40.663213+00:00"
+    },
+    {
+      "main_risk": "Context-specific or assay-scale effects may appear as generalizable apoptotic synergy and fail in donor-derived or three-dimensional models.",
+      "next_test": "Lock predictions from single-agent and limited combination data, then test them prospectively in unseen differentiation and p53 contexts with viability, apoptosis, and mitochondrial readouts.",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "The germ-cell combination problem is the stronger near-term investment because it has a more controlled experimental setting, direct intervention readouts, and a relatively cheap prospective test of dose, context, calibration, and mechanism. The DNA-damage-tolerance project has high clinical impact but requires a difficult chain linking early biomarker change to later resistance, causal pathway dependence, combination benefit, and cross-platform reproducibility.",
+      "target": 40,
+      "timestamp": "2026-09-26T23:40:40.663236+00:00"
+    },
+    {
+      "main_risk": "The apparent predictive signal may be driven by related cell lines, baseline context, or additive pharmacology rather than transportable mechanism.",
+      "next_test": "Hold out a differentiation or p53 context and compare the locked context-conditioned model with Loewe/Bliss, pooled-response, nearest-context, and mitochondrial-threshold baselines using independent donor-derived models.",
+      "opponent": 38,
+      "outcome": "win",
+      "reason": "The germ-cell screening project has a clearer intervention anchor, more actionable experimental outputs, and a shorter route to an informative continue or stop decision. Cross-species decomposition is potentially broad but is threatened by orthology shortcuts, baseline-state mismatch, sparse context coverage, and uncertainty that may remain unidentifiable; its strongest orthogonal validation is also substantially later.",
+      "target": 40,
+      "timestamp": "2026-09-26T23:40:40.663246+00:00"
+    },
+    {
+      "main_risk": "The proposed combination effects may not generalize beyond the selected tumor states or may be artifacts of viability and dose-response geometry.",
+      "next_test": "Run a blinded, context-held-out combination test with full dose matrices and matched apoptosis, BH3-profiling, and viability measurements, comparing against established pharmacologic baselines.",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "The germ-cell combination problem is more experimentally decisive because it tests a prospective treatment intervention and can distinguish pharmacologic synergy from apoptosis-specific mechanism with orthogonal assays. The myeloid-niche project has greater immediate translational breadth, but its central claim is largely observational and remains vulnerable to lesion size, organ heterogeneity, treatment exposure, segmentation, and platform-transfer confounding.",
+      "target": 40,
+      "timestamp": "2026-09-26T23:40:40.663253+00:00"
+    },
+    {
+      "main_risk": "Organoid establishment or turnaround may be too unreliable, and ex vivo responses may not reflect patient pharmacology or the immune-stromal treatment context.",
+      "next_test": "Prospectively record every eligible case, assay success and turnaround, then evaluate a locked short-term-plus-regrowth score against molecular recommendation alone in an independent patient cohort.",
+      "opponent": 1,
+      "outcome": "loss",
+      "reason": "Time-to-decision organoid profiling has the stronger current investment case because it directly tests a clinically consequential capability, uses patient-level validation, and can show whether functional data add value beyond molecular recommendations within the actual treatment window. The germ-cell project is more controlled mechanistically, but its tumor-specific scope and multiple transfer assumptions make its clinical payoff less certain.",
+      "target": 40,
+      "timestamp": "2026-09-26T23:40:40.663262+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 23,
+      "games": 24,
       "losses": 12,
-      "rating": 1493.57,
-      "wins": 11
+      "rating": 1506.21,
+      "wins": 12
     },
     "10": {
       "draws": 0,
@@ -2838,9 +2838,9 @@
     },
     "3": {
       "draws": 0,
-      "games": 19,
-      "losses": 10,
-      "rating": 1489.87,
+      "games": 20,
+      "losses": 11,
+      "rating": 1477.4,
       "wins": 9
     },
     "30": {
@@ -2901,9 +2901,9 @@
     },
     "38": {
       "draws": 0,
-      "games": 12,
-      "losses": 7,
-      "rating": 1484.03,
+      "games": 13,
+      "losses": 8,
+      "rating": 1472.2,
       "wins": 5
     },
     "39": {
@@ -2915,24 +2915,24 @@
     },
     "4": {
       "draws": 1,
-      "games": 24,
-      "losses": 12,
-      "rating": 1483.81,
+      "games": 25,
+      "losses": 13,
+      "rating": 1472.39,
       "wins": 11
     },
     "40": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 3,
+      "rating": 1499.48,
+      "wins": 3
     },
     "41": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "rating": 1500.01,
+      "wins": 1
     },
     "5": {
       "draws": 3,
