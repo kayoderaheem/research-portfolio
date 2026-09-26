@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Idea 10 may show spatial association without adding predictive value beyond immune composition, liver disease severity, tumor burden, or treatment context.",
-      "next_test": "Profile a small, patient-level pretreatment HCC tissue set with FADS1 or lipid-response markers, CXCR6, resident-memory markers, and fitness markers, then test whether spatial proximity aligns with orthogonal T-cell function and response-related features.",
-      "opponent": 10,
-      "outcome": "loss",
-      "reason": "Idea 10 has a more concrete biological anchor with an observed FADS1–arachidonic-acid–resident-memory T-cell mechanism, clinically relevant response prediction, and tractable spatial and orthogonal validation. Idea 3 is broader but depends on several high-risk assumptions that biomarkers distinguish causal damage-tolerance escape from generic treatment injury and that inhibition reverses it.",
-      "target": 3,
-      "timestamp": "2026-09-12T15:36:18.949188+00:00"
-    },
-    {
-      "main_risk": "Idea 3 may fail because early replication-stress or damage-tolerance changes reflect exposure, cell-cycle suppression, or nonspecific injury rather than future resistance.",
-      "next_test": "In blinded independent donor-derived models, measure baseline and early-treatment damage-tolerance features matched for exposure and viability loss, then test prediction of later regrowth and add-on inhibitor benefit against simple viability and treatment baselines.",
-      "opponent": 9,
-      "outcome": "win",
-      "reason": "Idea 3 offers greater generalizable discovery and a clearer early decision point: donor-derived models can test whether dynamic biomarkers predict regrowth and selective combination benefit before committing to a clinical biomarker program. Idea 9 is tractable but more vulnerable to tunnel burden, chronicity, adherence, and descriptive spatial states explaining response without a distinct actionable mechanism.",
-      "target": 3,
-      "timestamp": "2026-09-12T15:36:18.949207+00:00"
-    },
-    {
-      "main_risk": "Idea 4 may not transport across metastatic organs or platforms because the apparent treatment-induced state is organ-specific heterogeneity or lesion-size artifact.",
-      "next_test": "Use a focused panel on paired baseline and early-treatment lesions to test whether a prespecified interferon-responsive tumor-interface score predicts later control beyond abundance, organ, lesion burden, and treatment exposure.",
-      "opponent": 4,
-      "outcome": "loss",
-      "reason": "Idea 4 has the stronger current investment profile: its spatial myeloid-state problem is clinically broad, has an eight-week discriminating test, supports useful negative outcomes, and explicitly separates abundance, function, localization, organ effects, and lesion burden. Idea 3 has a compelling mechanism but stacks multiple high-risk biomarker, causal, pharmacologic, and cross-platform assumptions.",
-      "target": 3,
-      "timestamp": "2026-09-12T15:36:18.949216+00:00"
-    },
-    {
-      "main_risk": "Idea 3 may produce a biomarker of generic cytotoxic injury rather than a specific early signal of DNA-damage-tolerance-mediated escape.",
-      "next_test": "Run a blinded early-treatment donor-model study matched for drug exposure and viability loss, comparing dynamic damage-tolerance features with simple clinical-like baselines for later regrowth prediction and selective combination response.",
-      "opponent": 5,
-      "outcome": "loss",
-      "reason": "Idea 3 is the better six-month problem because it has a fixed mechanistic anchor with flexible assay, agent, model, and tumor choices, and its donor-model experiment can rapidly distinguish biomarker prediction from combination benefit. Idea 5 depends heavily on difficult serial, regionally comparable cervical specimens and is more exposed to treatment intensity, viral burden, and sampling confounding.",
-      "target": 3,
-      "timestamp": "2026-09-12T15:36:18.949224+00:00"
-    },
-    {
-      "main_risk": "Patient-derived tumoroids may not retain the stromal and immune interactions that make the proposed CAF-buffering mechanism clinically relevant.",
-      "next_test": "First test cross-platform reproducibility of the prespecified CAF–immune exclusion neighborhood in matched lung adenocarcinoma specimens, then assess whether it adds calibrated patient-level information beyond tumor composition and clinical covariates.",
-      "opponent": 13,
-      "outcome": "loss",
-      "reason": "Idea 13 combines a relevant translational problem with a clear tumor–CAF–immune spatial anchor, strong evidence readiness, patient-level leakage controls, external validation, and orthogonal tumoroid perturbation. Idea 3 has broader mechanistic scope but substantially more high-risk assumptions about biomarker specificity, causal resistance, and pharmacologic reversal.",
-      "target": 3,
-      "timestamp": "2026-09-12T15:36:18.949232+00:00"
-    },
-    {
       "main_risk": "The spatial signal may be an anatomical-site or treatment-history proxy rather than a treatment-response modifier.",
       "next_test": "Run the prespecified 10-week patient-level comparison of spatial features against composition, genotype, site, and clinical baselines, including leave-one-site-out validation.",
       "opponent": 19,
@@ -2699,22 +2654,67 @@
       "reason": "Issue 37 has broader methodological impact, a clearer technology anchor, stronger validation design, and more flexible branches than Issue 3. The DNA-damage-tolerance project requires a dynamic biomarker to precede resistance, distinguish nonspecific injury, and predict selective combination benefit across models and treatments, creating a longer chain of high-risk assumptions.",
       "target": 37,
       "timestamp": "2026-09-26T11:31:35.767294+00:00"
+    },
+    {
+      "main_risk": "Organoid response and regrowth features may not correlate with patient treatment benefit because culture selection and missing microenvironmental components distort clinical pharmacology.",
+      "next_test": "Prospectively measure organoid establishment success, assay-ready turnaround, and treatment-decision timing for every eligible patient, then run a locked pilot comparing organoid predictions with molecular recommendations and blinded patient outcomes.",
+      "opponent": 1,
+      "outcome": "loss",
+      "reason": "Time-constrained organoid profiling has a clearer patient-level decision anchor, clinically meaningful outcomes, strong leakage-resistant validation requirements, and an early feasibility test that can assess assay success and turnaround before committing to efficacy claims. Cross-species decomposition is more general but depends on several difficult identifiability assumptions and unusually demanding matched datasets.",
+      "target": 38,
+      "timestamp": "2026-09-26T16:29:08.020949+00:00"
+    },
+    {
+      "main_risk": "The apparent treatment-induced myeloid state may be explained by lesion size, organ-specific baseline immunity, or treatment exposure rather than a transferable response mechanism.",
+      "next_test": "Use paired baseline and early-treatment metastatic samples to test reproducibility of the prespecified functional-interface score and compare it against abundance-only and clinical baselines with patient- or animal-level splits.",
+      "opponent": 4,
+      "outcome": "loss",
+      "reason": "The myeloid-niche project has a more tractable eight-week paired-sample test, a concrete spatial and functional anchor, strong clinical relevance, and useful outcomes even if spatial localization adds no value over abundance. Cross-species transfer requires multiple species, tissues, perturbations, baseline alignment, orthology choices, and independent validation before its central identifiability claim can be judged.",
+      "target": 38,
+      "timestamp": "2026-09-26T16:29:08.020968+00:00"
+    },
+    {
+      "main_risk": "There may be too little genuinely conserved intervention-specific response signal after separating shared cell state, housekeeping programs, and species-context effects.",
+      "next_test": "Train on two species and hold out a complete species-tissue context, comparing the decomposition with pathway and linear baselines while testing response-direction recovery and uncertainty calibration before pursuing new assays.",
+      "opponent": 5,
+      "outcome": "win",
+      "reason": "Cross-species identifiability is a more general scientific problem with a clearer fixed anchor and flexible choices of species, tissue, perturbation, and modality. It also offers informative branches through orthology, baseline-alignment, calibration, and negative-control analyses. The cervical trajectory project has high potential but is more dependent on difficult serial tissue comparability, sampling location, treatment-site confounding, and a forced disease-treatment context.",
+      "target": 38,
+      "timestamp": "2026-09-26T16:29:08.020978+00:00"
+    },
+    {
+      "main_risk": "The cross-species model may learn shared cell-state or orthology-associated expression rather than intervention-specific conserved biology.",
+      "next_test": "Perform leave-one-species-tissue-context-out evaluation using pathway, linear, and nearest-state baselines, with shuffled-orthology and non-targeting perturbation controls and patient/replicate-weighted calibration.",
+      "opponent": 8,
+      "outcome": "win",
+      "reason": "The cross-species problem offers broader, more generalizable insight and a flexible framework for determining when transfer is scientifically justified, whereas the ALK project is vulnerable to anatomical site, prior therapy, sampling, and tumor-burden confounding. The ALK study also requires a locked spatial signature to transfer across sites and an independent cohort, making a negative result difficult to interpret beyond this narrow setting.",
+      "target": 38,
+      "timestamp": "2026-09-26T16:29:08.020984+00:00"
+    },
+    {
+      "main_risk": "The measured FADS1 or arachidonic-acid signal may not represent biologically active local signaling or add information beyond T-cell abundance, tumor antigenicity, and liver disease severity.",
+      "next_test": "First test cross-species response-direction transfer in a held-out species-tissue context using strong pathway and linear baselines, while checking whether uncertainty rejects out-of-context and shuffled-orthology controls.",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "Cross-species identifiability has substantially greater discovery breadth and can produce useful model-selection and experiment-design rules even when transfer fails. The HCC project is a compelling mechanistic hypothesis but tightly couples a specific metabolite, spatial assay, resident-memory phenotype, and treatment context; spatial lipid measurements may be difficult to interpret as active signaling rather than accumulation, and the clinical cohorts are narrow.",
+      "target": 38,
+      "timestamp": "2026-09-26T16:29:08.020993+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 22,
+      "games": 23,
       "losses": 12,
-      "rating": 1481.63,
-      "wins": 10
+      "rating": 1493.57,
+      "wins": 11
     },
     "10": {
       "draws": 0,
-      "games": 19,
-      "losses": 10,
-      "rating": 1488.67,
+      "games": 20,
+      "losses": 11,
+      "rating": 1476.44,
       "wins": 9
     },
     "11": {
@@ -2901,23 +2901,23 @@
     },
     "38": {
       "draws": 0,
-      "games": 6,
-      "losses": 4,
-      "rating": 1479.93,
-      "wins": 2
+      "games": 11,
+      "losses": 6,
+      "rating": 1494.28,
+      "wins": 5
     },
     "4": {
       "draws": 1,
-      "games": 22,
+      "games": 23,
       "losses": 11,
-      "rating": 1482.94,
-      "wins": 10
+      "rating": 1494.42,
+      "wins": 11
     },
     "5": {
       "draws": 3,
-      "games": 18,
-      "losses": 8,
-      "rating": 1484.27,
+      "games": 19,
+      "losses": 9,
+      "rating": 1471.31,
       "wins": 7
     },
     "6": {
@@ -2936,9 +2936,9 @@
     },
     "8": {
       "draws": 0,
-      "games": 19,
-      "losses": 10,
-      "rating": 1486.34,
+      "games": 20,
+      "losses": 11,
+      "rating": 1473.76,
       "wins": 9
     },
     "9": {
