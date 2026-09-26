@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Idea 1 may produce reproducible organoid responses that do not reflect patient pharmacology or clinical benefit, especially when immune and stromal components are absent.",
-      "next_test": "Prospectively measure organoid establishment success, assay-ready turnaround, and blinded prediction of patient-level response in cases where results are available before the treatment decision, compared with molecular recommendations alone.",
-      "opponent": 2,
-      "outcome": "win",
-      "reason": "Idea 1 has a clearer six-month decision path: assay establishment and turnaround can be measured prospectively, and the result can directly inform whether functional testing adds value beyond molecular recommendations. Idea 2 has high potential through randomized treatment comparison, but transportable treatment-effect signatures require large, comparable cohorts and are vulnerable to underpowered interactions and site-specific measurement effects.",
-      "target": 1,
-      "timestamp": "2026-09-12T10:54:13.450392+00:00"
-    },
-    {
-      "main_risk": "The organoid workflow may not achieve sufficient establishment rate and turnaround time for real metastatic-disease decisions.",
-      "next_test": "Audit all eligible metastatic cases prospectively for culture establishment, contamination, assay readiness, and decision deadlines, while testing whether a locked short-term response score predicts outcomes in a blinded patient-level cohort.",
-      "opponent": 6,
-      "outcome": "loss",
-      "reason": "Idea 1 offers greater near-term clinical and operational leverage: it tests a concrete treatment-decision capability with an early readout and useful outcomes even if long-term resistance prediction fails. Idea 6 is novel and potentially important mechanistically, but mechanical stress is only indirectly measured, clinical tissue and matched post-radiation samples are difficult to assemble, and several correlated explanations could account for the signal.",
-      "target": 1,
-      "timestamp": "2026-09-12T10:54:13.450409+00:00"
-    },
-    {
-      "main_risk": "Organoid functional response may be predictive only in vitro and fail to generalize to patient treatment benefit or resistance delay.",
-      "next_test": "Run a locked, blinded comparison of organoid response and regrowth features versus molecular recommendation alone in prospectively enrolled patients whose assay results precede treatment selection.",
-      "opponent": 7,
-      "outcome": "win",
-      "reason": "Idea 1 is the stronger current investment because it has a more direct path to an actionable clinical decision, explicit comparison with molecular care, and a feasible early test of turnaround and predictive value. Idea 7 has strong discovery potential, but reproducibility across donors, temporal precedence, distinction from clonal selection or stress, and pharmacologic actionability form a longer chain of high-risk assumptions.",
-      "target": 1,
-      "timestamp": "2026-09-12T10:54:13.450415+00:00"
-    },
-    {
-      "main_risk": "The required organoid assay may be too slow or unreliable to influence treatment decisions in aggressive metastatic disease.",
-      "next_test": "Determine prospectively whether organoids can be established and profiled before the next treatment decision, then test incremental prediction over molecular and clinical baselines in a locked cohort.",
-      "opponent": 15,
-      "outcome": "loss",
-      "reason": "Idea 1 has broader potential use across treatment choices and tumor contexts, a clearer patient-level endpoint, and an early operational test that can support continuation or stopping. Idea 15 is scientifically interesting but tightly couples a specific diffuse-gastric-cancer niche model to BCL2 treatment, with uncertain reproducibility, tissue access, and causal specificity beyond BCL2 abundance or proliferation.",
-      "target": 1,
-      "timestamp": "2026-09-12T10:54:13.450420+00:00"
-    },
-    {
-      "main_risk": "Functional organoid measurements may not capture immune-mediated treatment response and could therefore mislead checkpoint or combination decisions.",
-      "next_test": "First establish whether prospectively collected organoids can meet the treatment-decision turnaround window and whether their locked functional scores add calibrated patient-level prediction beyond molecular and clinical information.",
-      "opponent": 12,
-      "outcome": "loss",
-      "reason": "Idea 1 is the stronger six-month investment because it combines a broadly relevant precision-medicine problem with a concrete, decision-linked workflow and multiple useful branches if the resistance endpoint is weak. Idea 12 addresses an important underserved population, but cohort assembly, treatment comparability, tissue availability, and subgroup sample size create substantial early feasibility risk before the spatial mechanism can be tested reliably.",
-      "target": 1,
-      "timestamp": "2026-09-12T10:54:13.450426+00:00"
-    },
-    {
       "main_risk": "Idea 10 may show spatial association without adding predictive value beyond immune composition, liver disease severity, tumor burden, or treatment context.",
       "next_test": "Profile a small, patient-level pretreatment HCC tissue set with FADS1 or lipid-response markers, CXCR6, resident-memory markers, and fitness markers, then test whether spatial proximity aligns with orthogonal T-cell function and response-related features.",
       "opponent": 10,
@@ -2699,6 +2654,51 @@
       "reason": "Problem 38 has greater generality and a cleaner early decision than problem 5. A leave-species-tissue-context-out benchmark can quickly test transferability and uncertainty, while failure can still produce a useful boundary map for when cross-species counterfactuals are not identifiable. Problem 5 depends on serial, regionally comparable cervical specimens, a measurable early transition, treatment-site control, and an external cohort, making its readout more expensive and vulnerable to sampling confounding.",
       "target": 38,
       "timestamp": "2026-09-26T05:06:58.339285+00:00"
+    },
+    {
+      "main_risk": "The added modalities may encode donor, batch, or cell-composition proxies rather than information about the causal perturbation response.",
+      "next_test": "Freeze expression-only and multimodal models and compare their donor-blocked predictions on a small replicated perturbation panel, including prospective orthogonal regulatory readouts.",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "Issue 37 offers a broader, reusable test of whether regulatory measurements make perturbation predictions identifiable, with donor-level leakage controls, strong baselines, and useful outcomes even if multimodal gains fail. Issue 10 has stronger direct clinical relevance but depends on difficult spatial metabolite measurement, tissue heterogeneity, treatment-context transportability, and independent response cohorts.",
+      "target": 37,
+      "timestamp": "2026-09-26T11:31:35.767254+00:00"
+    },
+    {
+      "main_risk": "Issue 37 may become an expensive, weakly identifiable multimodal modeling program if baseline regulatory state does not add information beyond expression.",
+      "next_test": "Use existing or rapidly generated donor-replicated perturbation data to test whether multimodal features improve locked, donor-held-out response and regulatory-effect predictions over expression-only baselines.",
+      "opponent": 8,
+      "outcome": "win",
+      "reason": "Issue 37 has a clearer general scientific anchor, stronger identifiability and leakage safeguards, and a more reusable technology outcome. Issue 8 is biologically plausible but highly exposed to anatomical-site, treatment-history, lesion-sampling, and platform confounding, while requiring difficult external transport across metastatic compartments.",
+      "target": 37,
+      "timestamp": "2026-09-26T11:31:35.767271+00:00"
+    },
+    {
+      "main_risk": "The multimodal representation may not identify functional intervention effects, making apparent prediction gains nonmechanistic.",
+      "next_test": "Run a focused 12-week donor-replicated experiment with pre-registered expression-only and multimodal models, frozen predictions, and orthogonal chromatin, protein, or functional readouts.",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "Issue 37 provides a generalizable falsification framework for virtual-cell claims and can produce a valuable minimum-measurement or stopping rule even when the favored multimodal hypothesis fails. Issue 4 has meaningful translational potential, but treatment-induced myeloid localization remains difficult to distinguish from lesion size, organ heterogeneity, exposure, and consequence-versus-cause effects, with costly longitudinal spatial validation.",
+      "target": 37,
+      "timestamp": "2026-09-26T11:31:35.767279+00:00"
+    },
+    {
+      "main_risk": "Reference-allocation instability may be largely measurement noise or inadequate reference depth rather than a fundamental evaluation artifact.",
+      "next_test": "Re-score frozen baseline and learned-model predictions under shared, disjoint, and observation-independent references with donor-blocked bootstrap intervals and null permutations.",
+      "opponent": 36,
+      "outcome": "loss",
+      "reason": "Issue 36 is the stronger immediate investment because it isolates a precise benchmarking and identifiability problem, can be tested in about six weeks using frozen predictions, and yields a reusable protocol independent of any one model or modality. Issue 37 is more ambitious but combines multiple modalities, perturbation reproducibility, prospective assays, and functional endpoints before its core claim can be judged.",
+      "target": 37,
+      "timestamp": "2026-09-26T11:31:35.767287+00:00"
+    },
+    {
+      "main_risk": "Multimodal baseline state may not provide incremental information about future perturbation response or functional feasibility.",
+      "next_test": "Freeze expression-only and multimodal predictors and test them prospectively on donor-replicated perturbations, measuring both held-out molecular effects and one orthogonal functional endpoint.",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "Issue 37 has broader methodological impact, a clearer technology anchor, stronger validation design, and more flexible branches than Issue 3. The DNA-damage-tolerance project requires a dynamic biomarker to precede resistance, distinguish nonspecific injury, and predict selective combination benefit across models and treatments, creating a longer chain of high-risk assumptions.",
+      "target": 37,
+      "timestamp": "2026-09-26T11:31:35.767294+00:00"
     }
   ],
   "k_factor": 24,
@@ -2712,9 +2712,9 @@
     },
     "10": {
       "draws": 0,
-      "games": 18,
-      "losses": 9,
-      "rating": 1500.69,
+      "games": 19,
+      "losses": 10,
+      "rating": 1488.67,
       "wins": 9
     },
     "11": {
@@ -2838,9 +2838,9 @@
     },
     "3": {
       "draws": 0,
-      "games": 17,
-      "losses": 8,
-      "rating": 1512.78,
+      "games": 18,
+      "losses": 9,
+      "rating": 1501.09,
       "wins": 9
     },
     "30": {
@@ -2887,17 +2887,17 @@
     },
     "36": {
       "draws": 0,
-      "games": 5,
+      "games": 6,
       "losses": 2,
-      "rating": 1509.73,
-      "wins": 3
+      "rating": 1522.58,
+      "wins": 4
     },
     "37": {
       "draws": 0,
-      "games": 2,
-      "losses": 1,
-      "rating": 1500.01,
-      "wins": 1
+      "games": 7,
+      "losses": 2,
+      "rating": 1533.36,
+      "wins": 5
     },
     "38": {
       "draws": 0,
@@ -2908,9 +2908,9 @@
     },
     "4": {
       "draws": 1,
-      "games": 21,
-      "losses": 10,
-      "rating": 1493.92,
+      "games": 22,
+      "losses": 11,
+      "rating": 1482.94,
       "wins": 10
     },
     "5": {
@@ -2936,9 +2936,9 @@
     },
     "8": {
       "draws": 0,
-      "games": 18,
-      "losses": 9,
-      "rating": 1497.85,
+      "games": 19,
+      "losses": 10,
+      "rating": 1486.34,
       "wins": 9
     },
     "9": {
