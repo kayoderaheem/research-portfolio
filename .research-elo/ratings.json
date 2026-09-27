@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Mechanical stress may not be identifiable from reproducible clinical-tissue proxies independently of hypoxia, necrosis, density, or mesenchymal state.",
-      "next_test": "Profile a small patient-level set of pretreatment and early post-radiation glioblastoma specimens with blinded mechanical proxies, DNA-damage markers, and clinical residual-disease outcomes, then test incremental value over vimentin, hypoxia, necrosis, and composition baselines.",
-      "opponent": 6,
-      "outcome": "loss",
-      "reason": "Mechanical-niche states offer broader discovery value and useful mechanistic branches even if the favored compression mechanism fails. The problem has a clear patient-level anchor, strong competing explanations, and orthogonal compression experiments, whereas the HIV-melanoma study depends heavily on assembling a scarce, treatment-comparable cohort and may have limited generalizability.",
-      "target": 12,
-      "timestamp": "2026-09-13T16:25:12.002771+00:00"
-    },
-    {
-      "main_risk": "Organoid response and regrowth may reflect culture selection rather than patient pharmacology or clinical benefit within the treatment-decision window.",
-      "next_test": "Prospectively record every eligible case through organoid establishment and assay readiness, and blindly compare a locked short-term-plus-regrowth prediction with molecular recommendation and clinical baselines before using results to guide treatment.",
-      "opponent": 1,
-      "outcome": "loss",
-      "reason": "Time-constrained organoid profiling has greater potential clinical value and a broader use case than a spatial biomarker restricted to people living with HIV and melanoma. It also has a direct early feasibility decision around assay success and turnaround, plus useful negative outcomes if organoids fail to predict benefit or add value beyond molecular recommendations.",
-      "target": 12,
-      "timestamp": "2026-09-13T16:25:12.002791+00:00"
-    },
-    {
-      "main_risk": "The apparent spatial niche may be an anatomical-site or treatment-history proxy rather than a modifier of ALK-inhibitor response.",
-      "next_test": "Use a patient-level development cohort to test a prespecified neighborhood score against genotype-plus-clinical, site-plus-clinical, and composition-only baselines, with leave-one-site-out evaluation and replicate-assay concordance.",
-      "opponent": 8,
-      "outcome": "loss",
-      "reason": "ALK-rearranged disease provides a more defined treatment and genotype anchor, with metastatic-site comparisons that can yield informative transportability and mechanism results even if a predictive biomarker fails. The HIV-melanoma proposal has important inclusive value but faces greater cohort scarcity and uncertainty about whether spatial signal can be separated from HIV control, treatment access, and clinical covariates.",
-      "target": 12,
-      "timestamp": "2026-09-13T16:25:12.002800+00:00"
-    },
-    {
-      "main_risk": "The proposed CAF–immune neighborhood and its early treatment change may not reproduce across patients, assay platforms, or treatment classes.",
-      "next_test": "In a small paired patient-level cohort, lock the neighborhood definition before outcome analysis and test replication across an independent specimen set against composition-only and clinical baselines.",
-      "opponent": 13,
-      "outcome": "loss",
-      "reason": "CAF–immune buffering in lung adenocarcinoma has stronger stated evidence readiness, broader treatment relevance, and a more credible path to orthogonal tissue and functional validation. The HIV-melanoma problem is scientifically important, but its precision-medicine promise is more exposed to limited cohort availability and unstable subgroup estimates in an underrepresented population.",
-      "target": 12,
-      "timestamp": "2026-09-13T16:25:12.002808+00:00"
-    },
-    {
-      "main_risk": "The available sample size may be insufficient for stable treatment-interaction estimates and calibrated multimodal modeling across institutions.",
-      "next_test": "Perform a pre-model learning-curve, bootstrap stability, and subgroup treatment-interaction analysis using randomized data, then proceed only if the candidate signature is stable and improves over clinical and molecular-only baselines in a site-held-out cohort.",
-      "opponent": 2,
-      "outcome": "loss",
-      "reason": "Transportable response signatures can leverage randomized treatment assignment to address differential benefit, making the causal clinical question substantially stronger than the HIV-melanoma association study. Site-held-out validation, calibration, missing-modality analyses, and negative controls provide clear early branches, while the HIV proposal remains constrained by scarce tissue and cohort assembly.",
-      "target": 12,
-      "timestamp": "2026-09-13T16:25:12.002815+00:00"
-    },
-    {
       "main_risk": "The shared glycolytic-inflammatory spatial program may be absent or add no information beyond tumor composition, proliferation, and anatomical site.",
       "next_test": "Profile paired pretreatment and early on-treatment samples from both cholangiocarcinoma sites using a focused spatial panel and test a prespecified neighborhood score against composition and clinical baselines.",
       "opponent": 7,
@@ -2699,6 +2654,51 @@
       "reason": "Composition-aware counterfactuals address a broader and more replaceable technology gap with a clearer prospective decision test and more useful failure branches. Lupus-nephritis response programs have clinical relevance, but regimen-specific sample size, treatment-selection confounding, endpoint harmonization, and outcome-dependent feature-selection risks make a robust six-month conclusion less likely.",
       "target": 39,
       "timestamp": "2026-09-27T12:10:25.252590+00:00"
+    },
+    {
+      "main_risk": "The apparent reference sensitivity may be driven mainly by reference depth or measurement noise rather than a general identifiability problem.",
+      "next_test": "Re-score frozen baseline and learned-model predictions under shared, disjoint, and observation-independent donor-held-out references, with donor-blocked uncertainty intervals and negative controls.",
+      "opponent": 18,
+      "outcome": "win",
+      "reason": "Reference-invariant perturbation evaluation has broader methodological impact, a clearer donor-level scientific anchor, and a substantially cheaper six-week discriminating test using frozen predictions. The cholangiocarcinoma project has higher potential clinical value but depends on costly longitudinal spatial biopsies, reproducibility across anatomical sites, and a tumor–microenvironment signal that may not transfer beyond cell-line resistance.",
+      "target": 36,
+      "timestamp": "2026-09-27T17:02:14.341527+00:00"
+    },
+    {
+      "main_risk": "The proposed donor-level perturbation effects may be too weak or noisy to support reliable identifiability conclusions across datasets.",
+      "next_test": "Run the prespecified reference-allocation experiment on existing datasets with donor-held-out bootstrap intervals, comparing direct-effect recovery against state reconstruction and null permutations.",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "The perturbation-identifiability problem is more general, methodologically reusable, and immediately testable than a disease-specific spatial biomarker hypothesis. It has strong leakage-resistant validation and useful outcomes even if the favored metric or model fails, whereas the hidradenitis project requires reproducible tunnel states, predictive incremental value, and actionable pathway biology from difficult spatial samples.",
+      "target": 36,
+      "timestamp": "2026-09-27T17:02:14.341544+00:00"
+    },
+    {
+      "main_risk": "Temporal features may add little physiological information beyond recent values and measurement-density controls, eliminating decision-relevant benefit.",
+      "next_test": "Compare static-snapshot and temporal-slope models, both with measurement-density controls, on a patient-disjoint held-out cohort and assess calibration and decision-curve net benefit rather than AUROC alone.",
+      "opponent": 27,
+      "outcome": "win",
+      "reason": "Reference-invariant evaluation offers broader transferable insight and a low-cost early decision, while the ICU project requires resolving measurement-density confounding, agreeing on an actionable threshold, harmonizing databases, and securing a genuinely independent third cohort. The ICU question has clinical relevance, but its key benefit may disappear after controlling for monitoring intensity and its discrimination advantage over tuned simple models is uncertain.",
+      "target": 36,
+      "timestamp": "2026-09-27T17:02:14.341550+00:00"
+    },
+    {
+      "main_risk": "Spatial context may be the genuinely necessary determinant of blinatumomab response, while the reference-invariance issue proves to be a benchmark artifact with limited biological consequence.",
+      "next_test": "Freeze and re-score existing perturbation-model predictions across independent donor/reference allocations, while requiring concordant effect directions and calibrated donor-level intervals before expanding the evaluation framework.",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "The perturbation-identifiability project has a clearer, broadly useful scientific anchor, stronger early falsifiability, and lower dependence on scarce longitudinal tissue and technically challenging spatial assays. The leukemia project could uncover important resistance biology, but spatial accessibility must add value beyond disease burden and T-cell composition and must be reproducible in a selected, difficult-to-sample patient population.",
+      "target": 36,
+      "timestamp": "2026-09-27T17:02:14.341554+00:00"
+    },
+    {
+      "main_risk": "The framework may establish robust ranking stability without demonstrating that its metrics correspond to biologically meaningful perturbation effects or improve real model selection.",
+      "next_test": "Apply the locked evaluation protocol to donor-held-out perturbation datasets with strong simple baselines, negative controls, external-cohort testing, and orthogonal validation of a small set of recovered effects.",
+      "opponent": 25,
+      "outcome": "loss",
+      "reason": "Reference-invariant perturbation evaluation is more general, less dependent on regimen-specific cohorts and endpoint harmonization, and has a cheaper decisive experiment with multiple useful branches. Lupus nephritis response programs have greater direct treatment-selection relevance, but external validation is vulnerable to treatment-selection confounding, assay and endpoint differences, and unstable outcome-dependent feature selection.",
+      "target": 36,
+      "timestamp": "2026-09-27T17:02:14.341558+00:00"
     }
   ],
   "k_factor": 24,
@@ -2719,9 +2719,9 @@
     },
     "11": {
       "draws": 1,
-      "games": 17,
-      "losses": 7,
-      "rating": 1527.4,
+      "games": 18,
+      "losses": 8,
+      "rating": 1516.43,
       "wins": 9
     },
     "12": {
@@ -2754,9 +2754,9 @@
     },
     "18": {
       "draws": 1,
-      "games": 21,
-      "losses": 9,
-      "rating": 1523.2,
+      "games": 22,
+      "losses": 10,
+      "rating": 1511.18,
       "wins": 11
     },
     "19": {
@@ -2803,10 +2803,10 @@
     },
     "25": {
       "draws": 1,
-      "games": 17,
+      "games": 18,
       "losses": 7,
-      "rating": 1527.72,
-      "wins": 9
+      "rating": 1541.12,
+      "wins": 10
     },
     "26": {
       "draws": 0,
@@ -2817,9 +2817,9 @@
     },
     "27": {
       "draws": 0,
-      "games": 20,
-      "losses": 9,
-      "rating": 1524.79,
+      "games": 21,
+      "losses": 10,
+      "rating": 1513.53,
       "wins": 11
     },
     "28": {
@@ -2887,10 +2887,10 @@
     },
     "36": {
       "draws": 0,
-      "games": 6,
-      "losses": 2,
-      "rating": 1522.58,
-      "wins": 4
+      "games": 11,
+      "losses": 3,
+      "rating": 1554.99,
+      "wins": 8
     },
     "37": {
       "draws": 0,
@@ -2964,9 +2964,9 @@
     },
     "9": {
       "draws": 1,
-      "games": 17,
-      "losses": 7,
-      "rating": 1521.92,
+      "games": 18,
+      "losses": 8,
+      "rating": 1510.36,
       "wins": 9
     }
   },
