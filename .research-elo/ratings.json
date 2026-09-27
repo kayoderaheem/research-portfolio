@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The shared glycolytic-inflammatory spatial program may be absent or add no information beyond tumor composition, proliferation, and anatomical site.",
-      "next_test": "Profile paired pretreatment and early on-treatment samples from both cholangiocarcinoma sites using a focused spatial panel and test a prespecified neighborhood score against composition and clinical baselines.",
-      "opponent": 7,
-      "outcome": "win",
-      "reason": "Cholangiocarcinoma resistance is anchored to a concrete cross-site question with strong composition-only and clinical baselines, an explicit transferability test, and useful stop criteria. The KRAS project has broader mechanistic scope but depends on reproducible transitions, temporal precedence, spatial value, and pharmacologic actionability across donors.",
-      "target": 18,
-      "timestamp": "2026-09-13T20:55:01.422303+00:00"
-    },
-    {
-      "main_risk": "The ZNF423 signal may be a genuine, reproducible escape mechanism with stronger causal leverage than the broader but less certain cholangiocarcinoma program.",
-      "next_test": "Run the paired, cross-site cholangiocarcinoma spatial pilot and require concordant prediction beyond composition before expanding; in parallel, use a small longitudinal MPNST assay only if ZNF423 restoration is independently reproducible.",
-      "opponent": 19,
-      "outcome": "win",
-      "reason": "The cholangiocarcinoma problem has greater disease breadth and a clearer transferable anchor than the highly specific ZNF423-restoration hypothesis in rare MPNST. It also offers stronger useful branches if spatial effects fail, because conserved versus site-specific resistance biology can still be separated.",
-      "target": 18,
-      "timestamp": "2026-09-13T20:55:01.422343+00:00"
-    },
-    {
-      "main_risk": "Replication-stress and damage-tolerance biomarkers may reflect nonspecific treatment injury or exposure rather than a causal, targetable resistance transition.",
-      "next_test": "In independent donor-derived models, test whether an early locked biomarker predicts later regrowth and selectively identifies benefit from add-on DNA-damage-tolerance inhibition.",
-      "opponent": 3,
-      "outcome": "loss",
-      "reason": "DNA-damage-tolerance escape is a more general scientific problem with a fixed mechanism but flexible tumor, agent, assay, and biomarker choices. It has informative branches through biomarker specificity, temporal prediction, and combination benefit, while the cholangiocarcinoma project requires scarce paired spatial clinical material and a difficult cross-site transfer claim.",
-      "target": 18,
-      "timestamp": "2026-09-13T20:55:01.422355+00:00"
-    },
-    {
-      "main_risk": "For either project, spatial localization may add no information beyond cell abundance, organ/site, lesion burden, and treatment exposure.",
-      "next_test": "Use paired baseline and early-treatment material to compare locked spatial features against abundance-only and clinical models, with leave-organ or leave-site-out validation and orthogonal protein confirmation.",
-      "opponent": 4,
-      "outcome": "draw",
-      "reason": "The myeloid-niche problem offers broader metastatic and immunotherapy relevance and an earlier focused test, but organ heterogeneity, lesion-size confounding, and platform transfer are substantial. The cholangiocarcinoma problem is narrower yet has a clearer cross-site biological question, explicit transferability design, and similarly strong leakage-resistant validation requirements.",
-      "target": 18,
-      "timestamp": "2026-09-13T20:55:01.422367+00:00"
-    },
-    {
-      "main_risk": "Spatial FADS1 or lipid measurements may not represent biologically active arachidonic-acid signaling or improve prediction beyond resident-memory abundance, liver disease, and tumor burden.",
-      "next_test": "Perform a focused pretreatment spatial assay with orthogonal lipid and T-cell fitness measurements, then test prespecified proximity features against clinical and composition-only response models.",
-      "opponent": 10,
-      "outcome": "loss",
-      "reason": "The FADS1–arachidonic-acid–resident-memory T-cell problem has a more specific mechanistic anchor and existing functional support, with a plausible route from spatial biomarker to combination therapy. Cholangiocarcinoma has broader site-transfer implications but relies more heavily on an unproven shared resistance program and difficult paired biopsies.",
-      "target": 18,
-      "timestamp": "2026-09-13T20:55:01.422374+00:00"
-    },
-    {
       "main_risk": "Issue 11 may find that spatial organization adds no reproducible information beyond leukemia burden, clinical risk, and T-cell composition.",
       "next_test": "Run the preregistered pretreatment marrow pilot and compare spatial-plus-clinical features against composition-plus-clinical baselines using patient-level held-out validation.",
       "opponent": 17,
@@ -2699,22 +2654,67 @@
       "reason": "Reference-invariant perturbation evaluation is more general, less dependent on regimen-specific cohorts and endpoint harmonization, and has a cheaper decisive experiment with multiple useful branches. Lupus nephritis response programs have greater direct treatment-selection relevance, but external validation is vulnerable to treatment-selection confounding, assay and endpoint differences, and unstable outcome-dependent feature selection.",
       "target": 36,
       "timestamp": "2026-09-27T17:02:14.341558+00:00"
+    },
+    {
+      "main_risk": "Organoid establishment and turnaround may be too unreliable for real treatment decisions, making apparent response associations clinically irrelevant.",
+      "next_test": "Prospectively measure establishment success, assay-ready time, failures, and blinded prediction of treatment response before the next treatment decision in an independent patient cohort.",
+      "opponent": 1,
+      "outcome": "loss",
+      "reason": "Time-constrained patient-derived functional profiling has clearer clinical value and a direct patient-level decision anchor, with leakage-resistant validation and meaningful molecular and clinical baselines. It can establish whether the assay is feasible and actionable before attempting outcome claims.",
+      "target": 40,
+      "timestamp": "2026-09-27T21:25:08.828186+00:00"
+    },
+    {
+      "main_risk": "Predicted combination effects may reflect assay scale or additive pharmacology rather than apoptosis-specific, transportable biology.",
+      "next_test": "Lock predictions from single-agent and limited-combination data, then test blinded combinations in unseen differentiation and p53 contexts with viability, apoptosis, and mitochondrial readouts against Loewe, Bliss, and mechanistic baselines.",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "The virtual-screening problem has a more tractable six-month path: dose matrices, mechanistic features, strong pharmacologic baselines, and a prospective held-out-context test can quickly establish whether context features add value. The DNA-damage-tolerance project requires several linked biomarker, resistance-mechanism, intervention, and cross-platform assumptions before its clinical usefulness is clear.",
+      "target": 40,
+      "timestamp": "2026-09-27T21:25:08.828211+00:00"
+    },
+    {
+      "main_risk": "The proposed context features may not transfer from related germ-cell-tumor models to donor-derived organoids or three-dimensional systems.",
+      "next_test": "Run the locked held-out-context prediction experiment with orthogonal apoptosis and mitochondrial assays, comparing against pharmacologic and response-only baselines.",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "Virtual screening offers a clearer early decision and more controllable experimental design than spatial metabolite biomarker development, which depends on technically difficult spatial lipid measurement, clinically annotated HCC cohorts, and proof that proximity is causal rather than a proxy for immune composition or disease severity.",
+      "target": 40,
+      "timestamp": "2026-09-27T21:25:08.828221+00:00"
+    },
+    {
+      "main_risk": "Unseen-context performance may collapse outside related cell lines, leaving no general therapeutic rule despite good within-system predictions.",
+      "next_test": "Prospectively test locked combination and dose predictions in unseen differentiation and p53 contexts, with donor-level separation and apoptosis-specific orthogonal validation.",
+      "opponent": 8,
+      "outcome": "win",
+      "reason": "The apoptosis-combination problem has a stronger near-term evidence path through factorial dose-response experiments, explicit synergy baselines, mechanistic readouts, and a defined blinded transfer test. The ALK spatial-niche project requires reproducible topology across metastatic sites and platforms and then independent transportability beyond anatomical site and treatment history.",
+      "target": 40,
+      "timestamp": "2026-09-27T21:25:08.828228+00:00"
+    },
+    {
+      "main_risk": "Synergy and mechanistic signals may be driven by cell-line identity or viability-assay behavior rather than a reproducible apoptosis mechanism.",
+      "next_test": "Compare the context-conditioned model with single-agent, Loewe/Bliss, pooled-response, nearest-context, and mitochondrial-threshold baselines in a locked independent donor-derived or three-dimensional validation set.",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "Virtual screening is more suitable for a six-month investment because its anchor is specific but modality- and context-flexible, and its earliest test can distinguish genuine predictive gain from pharmacologic or assay artifacts. Myeloid-niche remodeling depends on paired longitudinal metastatic samples, difficult spatial measurements, lesion-level confounding, and cross-organ signature transfer before a useful biomarker is established.",
+      "target": 40,
+      "timestamp": "2026-09-27T21:25:08.828236+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 25,
+      "games": 26,
       "losses": 13,
-      "rating": 1494.41,
-      "wins": 12
+      "rating": 1506.17,
+      "wins": 13
     },
     "10": {
       "draws": 0,
-      "games": 20,
-      "losses": 11,
-      "rating": 1476.44,
+      "games": 21,
+      "losses": 12,
+      "rating": 1464.83,
       "wins": 9
     },
     "11": {
@@ -2838,9 +2838,9 @@
     },
     "3": {
       "draws": 0,
-      "games": 20,
-      "losses": 11,
-      "rating": 1477.4,
+      "games": 21,
+      "losses": 12,
+      "rating": 1465.34,
       "wins": 9
     },
     "30": {
@@ -2915,17 +2915,17 @@
     },
     "4": {
       "draws": 1,
-      "games": 25,
-      "losses": 13,
-      "rating": 1472.39,
+      "games": 26,
+      "losses": 14,
+      "rating": 1461.7,
       "wins": 11
     },
     "40": {
       "draws": 0,
-      "games": 7,
-      "losses": 4,
-      "rating": 1487.5,
-      "wins": 3
+      "games": 12,
+      "losses": 5,
+      "rating": 1521.22,
+      "wins": 7
     },
     "41": {
       "draws": 0,
@@ -2957,9 +2957,9 @@
     },
     "8": {
       "draws": 0,
-      "games": 20,
-      "losses": 11,
-      "rating": 1473.76,
+      "games": 21,
+      "losses": 12,
+      "rating": 1462.64,
       "wins": 9
     },
     "9": {
