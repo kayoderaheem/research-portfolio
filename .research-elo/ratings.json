@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The randomized cohort may be too small or imbalanced within molecular subgroups to estimate treatment interactions and calibration reliably.",
-      "next_test": "Lock a compact baseline-plus-early-response signature and test treatment interaction and calibration in a site-held-out patient cohort.",
-      "opponent": 19,
-      "outcome": "win",
-      "reason": "The pancreatic cancer project is anchored to randomized treatment assignment and directly tests transportable differential benefit, with a realistic site-held-out validation path. The MPNST project has high discovery value but depends on rare longitudinal spatial specimens, reproducible state assignment, and causal interpretation of ZNF423 restoration.",
-      "target": 2,
-      "timestamp": "2026-09-13T04:55:01.912555+00:00"
-    },
-    {
-      "main_risk": "Signals may reflect treatment selection, assay or institution effects, or inadequate subgroup sample size rather than transportable treatment benefit.",
-      "next_test": "Run the locked signature against clinical and molecular-only baselines in a patient-level, institution-held-out cohort with calibration and interaction estimates.",
-      "opponent": 7,
-      "outcome": "win",
-      "reason": "The pancreatic project has stronger immediate clinical relevance, an existing comparative-treatment framework, and an earlier test of transportability. The KRAS-transition project requires reproducibility across donors and models, temporal precedence, spatial added value, and pharmacologic actionability, creating a longer chain of high-risk assumptions.",
-      "target": 2,
-      "timestamp": "2026-09-13T04:55:01.912580+00:00"
-    },
-    {
-      "main_risk": "The available trial and external cohorts may not support stable treatment-effect estimation across assays and molecular matching classes.",
-      "next_test": "Evaluate a locked multimodal signature in a held-out institution while comparing clinical, molecular-only, and site/composition baselines.",
-      "opponent": 18,
-      "outcome": "win",
-      "reason": "The pancreatic project has randomized treatment comparison, clearer patient-level clinical value, and a more direct route to distinguishing biological prediction from site-specific measurement. The cholangiocarcinoma project depends on detecting a conserved spatial program across anatomical sites and on-treatment biopsies, with substantial confounding by site, culture adaptation, and tumor composition.",
-      "target": 2,
-      "timestamp": "2026-09-13T04:55:01.912590+00:00"
-    },
-    {
-      "main_risk": "Observed molecular or imaging signals may encode institution, assay, disease burden, or treatment-selection effects rather than differential benefit.",
-      "next_test": "Perform a patient-level site-held-out test of the locked signature against clinical, molecular, and composition baselines, including calibration and missing-modality analyses.",
-      "opponent": 9,
-      "outcome": "loss",
-      "reason": "The pancreatic project is supported by randomized treatment assignment and an explicit transportability problem with strong leakage-resistant validation. The hidradenitis project addresses an important clinical problem but relies on reproducible tunnel sampling, spatial state classification, pathway interpretation, and response prediction in a heterogeneous disease without an equally strong comparative anchor.",
-      "target": 2,
-      "timestamp": "2026-09-13T04:55:01.912601+00:00"
-    },
-    {
-      "main_risk": "Organoid assays may not establish quickly enough or may measure ex vivo culture sensitivity that does not predict patient benefit.",
-      "next_test": "Prospectively record organoid establishment and turnaround for every eligible case, then compare a locked functional score with molecular recommendation and clinical baselines before claiming utility.",
-      "opponent": 1,
-      "outcome": "loss",
-      "reason": "The pancreatic project has a stronger fixed scientific anchor, randomized comparative outcomes, and an inexpensive early transportability decision. Functional organoid profiling could be broadly useful, but it requires rapid successful culture, clinically relevant pharmacology, prospective decision impact, and outcome correlation, with several late-readout failure points.",
-      "target": 2,
-      "timestamp": "2026-09-13T04:55:01.912608+00:00"
-    },
-    {
       "main_risk": "The gastric spatial score may not replicate or add information beyond BCL2 abundance, proliferation, and clinical covariates.",
       "next_test": "Apply a locked BCL2-high epithelial/BMP-low fibroblast neighborhood score to independent pretreatment gastric samples and test patient-level association with early treatment persistence.",
       "opponent": 6,
@@ -2699,15 +2654,60 @@
       "reason": "Time-to-decision organoid profiling has the stronger current investment case because it directly tests a clinically consequential capability, uses patient-level validation, and can show whether functional data add value beyond molecular recommendations within the actual treatment window. The germ-cell project is more controlled mechanistically, but its tumor-specific scope and multiple transfer assumptions make its clinical payoff less certain.",
       "target": 40,
       "timestamp": "2026-09-26T23:40:40.663262+00:00"
+    },
+    {
+      "main_risk": "If history-dependent features do not improve schedule-held-out prediction over simple duration, state, and threshold baselines, the project becomes an expensive modeling exercise without evidence for identifiable hysteresis or causal reversibility.",
+      "next_test": "Prospectively test a small set of unseen perturbation and restoration schedules with live-cell lineage tracking, re-entry fidelity, and one orthogonal cohesin or chromatin readout.",
+      "opponent": 40,
+      "outcome": "win",
+      "reason": "The quiescent-chromatin problem has a clearer mechanistic anchor, stronger general discovery value, and a relatively direct lineage-resolved test of reversibility versus selection. The apoptosis-screening project has translational appeal, but its claimed transportability depends on multiple context, pharmacology, and donor-model assumptions.",
+      "target": 41,
+      "timestamp": "2026-09-27T05:24:44.843146+00:00"
+    },
+    {
+      "main_risk": "The dynamic model may confuse selective survival or generic stress adaptation with reversible chromatin-state recovery, invalidating the proposed biological interpretation.",
+      "next_test": "Use independent depletion and restoration modalities in a small lineage-resolved yeast time course, testing whether recovery predictions persist after controlling for survival selection and baseline stress.",
+      "opponent": 1,
+      "outcome": "win",
+      "reason": "The quiescent-chromatin project offers a cheaper and earlier scientific decision with useful outcomes even if the favored model fails. The organoid precision-medicine project has greater potential clinical value, but six-month progress is constrained by organoid establishment, treatment-decision timing, patient recruitment, and outcome follow-up, with several difficult transportability assumptions.",
+      "target": 41,
+      "timestamp": "2026-09-27T05:24:44.843169+00:00"
+    },
+    {
+      "main_risk": "The proposed chromatin, cohesin, transcription, and re-entry sequence may be correlated consequences of perturbation rather than a transferable causal state-transition mechanism.",
+      "next_test": "Perform schedule-held-out predictions in independent yeast cultures with live-cell lineages, then intervene separately on termination restoration and cohesin stabilization to test causal ordering.",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "The yeast system provides a more controllable route to distinguish temporal causality, reversibility, and selection than the KRAS project, which requires reproducible treatment-induced transitions across donors, temporal precedence before resistance, and pharmacologic actionability. A successful result from A would establish a general test of history dependence rather than only a context-specific resistance signature.",
+      "target": 41,
+      "timestamp": "2026-09-27T05:24:44.843196+00:00"
+    },
+    {
+      "main_risk": "The yeast mechanism may not generalize beyond the specific termination-factor and quiescence system, limiting the broader value of the virtual-cell claim.",
+      "next_test": "First establish reproducibility and causal relevance within independent yeast strains or quiescence protocols using blinded schedule predictions and orthogonal imaging of cohesin organization.",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "A has a more decisive early branch and stronger control over perturbation timing and lineage history. The spatial lung project has substantial clinical and biological impact, but paired biopsies, cross-platform neighborhood reproducibility, tumoroid fidelity, and patient-level sample sizes create a longer chain of high-risk assumptions before a spatial effect can be trusted.",
+      "target": 41,
+      "timestamp": "2026-09-27T05:24:44.843207+00:00"
+    },
+    {
+      "main_risk": "If recovery is driven by clone selection or nonspecific adaptation rather than reversible chromatin dynamics, the central problem loses its mechanistic basis.",
+      "next_test": "Run the smallest lineage-resolved restoration-pulse experiment that distinguishes true within-lineage recovery from survival enrichment, paired with a simple static baseline and one orthogonal chromatin or cohesin assay.",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "A is more likely to produce a useful six-month decision because perturbation schedules and recovery can be experimentally controlled, whereas the gastric-cancer project depends on a poorly established spatial niche signature, early-treatment tissue availability, and a separate causal co-culture mechanism. A also preserves useful branches through static-versus-dynamic model comparisons and selection-aware lineage analysis.",
+      "target": 41,
+      "timestamp": "2026-09-27T05:24:44.843213+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 24,
-      "losses": 12,
-      "rating": 1506.21,
+      "games": 25,
+      "losses": 13,
+      "rating": 1494.41,
       "wins": 12
     },
     "10": {
@@ -2733,16 +2733,16 @@
     },
     "13": {
       "draws": 0,
-      "games": 21,
-      "losses": 10,
-      "rating": 1517.59,
+      "games": 22,
+      "losses": 11,
+      "rating": 1506.21,
       "wins": 11
     },
     "15": {
       "draws": 1,
-      "games": 22,
-      "losses": 10,
-      "rating": 1518.92,
+      "games": 23,
+      "losses": 11,
+      "rating": 1507.88,
       "wins": 11
     },
     "17": {
@@ -2922,17 +2922,17 @@
     },
     "40": {
       "draws": 0,
-      "games": 6,
-      "losses": 3,
-      "rating": 1499.48,
+      "games": 7,
+      "losses": 4,
+      "rating": 1487.5,
       "wins": 3
     },
     "41": {
       "draws": 0,
-      "games": 2,
+      "games": 7,
       "losses": 1,
-      "rating": 1500.01,
-      "wins": 1
+      "rating": 1557.89,
+      "wins": 6
     },
     "5": {
       "draws": 3,
@@ -2950,9 +2950,9 @@
     },
     "7": {
       "draws": 0,
-      "games": 23,
-      "losses": 11,
-      "rating": 1514.46,
+      "games": 24,
+      "losses": 12,
+      "rating": 1502.78,
       "wins": 12
     },
     "8": {
