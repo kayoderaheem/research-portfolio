@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Issue 11 may find that spatial organization adds no reproducible information beyond leukemia burden, clinical risk, and T-cell composition.",
-      "next_test": "Run the preregistered pretreatment marrow pilot and compare spatial-plus-clinical features against composition-plus-clinical baselines using patient-level held-out validation.",
-      "opponent": 17,
-      "outcome": "win",
-      "reason": "Issue 11 has a tighter disease, treatment, and biological anchor, with a clinically meaningful response endpoint and an early patient-level test. Issue 17 has broader potential, but its multicenter harmonization, modality breadth, and external-cohort requirements make the core question harder to isolate within six months.",
-      "target": 11,
-      "timestamp": "2026-09-13T23:13:08.602138+00:00"
-    },
-    {
-      "main_risk": "Issue 11 may lack reproducible spatial variation or incremental predictive value in adequately sampled marrow specimens.",
-      "next_test": "Test replicate-section reproducibility and incremental patient-level prediction of blinatumomab response from pretreatment marrow spatial features.",
-      "opponent": 6,
-      "outcome": "loss",
-      "reason": "Issue 11 has stronger evidence readiness and a clearer translational readout than the mechanically inferred glioblastoma niche proposal. Issue 6 depends on indirect mechanical-stress proxies, matched tissue timing, and distinguishing mechanics from hypoxia, necrosis, density, and mesenchymal state before establishing clinical relevance.",
-      "target": 11,
-      "timestamp": "2026-09-13T23:13:08.602156+00:00"
-    },
-    {
-      "main_risk": "Issue 11 may produce an interesting spatial association that does not improve calibrated prediction beyond composition and clinical covariates.",
-      "next_test": "Use a retrospective or rapidly assembled pilot to determine whether pretreatment spatial features improve held-out response prediction over the strongest clinical and composition baseline.",
-      "opponent": 1,
-      "outcome": "loss",
-      "reason": "Issue 11 offers a more contained and falsifiable six-month study with an available clinical endpoint and a direct test of whether tissue context adds value. Issue 1 has potentially greater patient impact, but it requires rapid organoid establishment, clinically actionable turnaround, assay-to-patient response correlation, and prospective decision relevance, creating a longer chain of high-risk assumptions.",
-      "target": 11,
-      "timestamp": "2026-09-13T23:13:08.602169+00:00"
-    },
-    {
-      "main_risk": "Issue 11 may be limited by scarce, nonrepresentative paired marrow specimens and therefore fail to establish transportability.",
-      "next_test": "Evaluate a locked spatial accessibility score in pretreatment marrow with patient-level validation and test reproducibility across sections and specimen batches.",
-      "opponent": 8,
-      "outcome": "win",
-      "reason": "Issue 11 is more focused on one treatment and one tissue context, making the causal and predictive question easier to test. Issue 8 must separate spatial biology from metastatic site, prior treatment, lesion selection, and sampling effects while also demonstrating transport across anatomically distinct compartments.",
-      "target": 11,
-      "timestamp": "2026-09-13T23:13:08.602176+00:00"
-    },
-    {
-      "main_risk": "Issue 11 may show that spatial T-cell access is a proxy for disease burden or baseline immune composition rather than a treatment-relevant mechanism.",
-      "next_test": "Compare a prespecified leukemia–CD8 spatial score with clinical, disease-burden, and composition-only baselines in held-out patients, including permutation-controlled neighborhoods.",
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "Issue 11 has a sharper fixed anchor, an established treatment-response setting, and fewer added dependencies than Issue 13. Issue 13 combines paired biopsies, cross-platform spatial reproducibility, therapy-class flexibility, and tumoroid preservation of CAF–immune interactions, making interpretation and execution substantially more complex.",
-      "target": 11,
-      "timestamp": "2026-09-13T23:13:08.602183+00:00"
-    },
-    {
       "main_risk": "The tunnel IL-17A/retinoid states may not replicate across patients or may add no information beyond tunnel burden and clinical severity.",
       "next_test": "Run the locked spatial-state classifier on pretreatment biopsies from patients starting standardized therapy, with patient-level splits and calibrated comparison against clinical, tunnel-burden, and composition-only baselines.",
       "opponent": 4,
@@ -2699,6 +2654,51 @@
       "reason": "Virtual screening is more suitable for a six-month investment because its anchor is specific but modality- and context-flexible, and its earliest test can distinguish genuine predictive gain from pharmacologic or assay artifacts. Myeloid-niche remodeling depends on paired longitudinal metastatic samples, difficult spatial measurements, lesion-level confounding, and cross-organ signature transfer before a useful biomarker is established.",
       "target": 40,
       "timestamp": "2026-09-27T21:25:08.828236+00:00"
+    },
+    {
+      "main_risk": "The pancreatic cohorts may be too small or heterogeneous to estimate stable treatment interactions and calibration across institutions.",
+      "next_test": "Lock a compact signature using baseline and first-interval data, then test treatment interaction, calibration, and decision benefit in a patient- and site-held-out cohort.",
+      "opponent": 2,
+      "outcome": "loss",
+      "reason": "Transportable treatment-response signatures have clearer near-term patient and clinical value, a patient-level randomized-treatment anchor, strong clinical baselines, and an early site-held-out test. The virtual-cell proposal is broader but depends on costly multimodal data integration, reproducible perturbations, and prospective orthogonal validation before its general capability is established.",
+      "target": 37,
+      "timestamp": "2026-09-28T05:31:54.894666+00:00"
+    },
+    {
+      "main_risk": "The apparent regimen-specific expression signal may disappear after rigorous patient-level leakage control, adjustment for treatment-selection bias, and external validation.",
+      "next_test": "Lock the smallest regimen-specific programs and compare clinical-only versus clinical-plus-program calibration and decision-curve benefit in a blinded independent cohort.",
+      "opponent": 25,
+      "outcome": "loss",
+      "reason": "Regimen-specific lupus nephritis response prediction is a more bounded and actionable problem with compact locked programs, clear clinical baselines, external validation, and a defined enrichment use. It offers earlier, cheaper evidence and useful negative outcomes than the multimodal virtual-cell project, whose many modalities and prospective mechanistic endpoints create a longer chain of high-risk assumptions.",
+      "target": 37,
+      "timestamp": "2026-09-28T05:31:54.894688+00:00"
+    },
+    {
+      "main_risk": "Synergy may reflect assay-scale or additive pharmacology rather than apoptosis-specific, transportable biology beyond related cell lines.",
+      "next_test": "Prospectively test blinded dose combinations in unseen differentiation and p53 contexts using full dose matrices plus orthogonal apoptosis and mitochondrial assays.",
+      "opponent": 40,
+      "outcome": "loss",
+      "reason": "Context-aware apoptosis-combination screening has a tighter mechanistic anchor, established pharmacologic baselines, and a tractable prospective experiment with viability, apoptosis, and mitochondrial readouts. It can still produce useful drug-context rules or expose non-transportability if the model fails, whereas the virtual-cell proposal requires broader multimodal alignment and several independent perturbation and assay assumptions.",
+      "target": 37,
+      "timestamp": "2026-09-28T05:31:54.894695+00:00"
+    },
+    {
+      "main_risk": "Lineage selection and pleiotropic stress may make apparent recovery non-identifiable as genuine chromatin reset or causal reversibility.",
+      "next_test": "Use live-cell lineage tracking to test locked predictions for unseen perturbation and restoration schedules, with matched cohesin organization and re-entry-fidelity measurements.",
+      "opponent": 41,
+      "outcome": "loss",
+      "reason": "The quiescent-chromatin problem has a specific biological anchor—reversible versus irreversible re-entry failure—and a clear dynamic prediction test using lineage histories, recovery pulses, and cohesin imaging. It offers informative mechanistic outcomes even if the learned model underperforms; the multimodal virtual-cell project is more general but less focused and requires a larger, harder-to-coordinate perturbation and validation program.",
+      "target": 37,
+      "timestamp": "2026-09-28T05:31:54.894700+00:00"
+    },
+    {
+      "main_risk": "Pretreatment marrow spatial features may be poorly reproducible or add no transportable information beyond disease burden, circulating T-cell composition, and clinical risk.",
+      "next_test": "Profile pretreatment marrow in a pilot cohort, preregister neighborhood features, and compare nested clinical-plus-composition versus spatially augmented models with patient-level validation.",
+      "opponent": 11,
+      "outcome": "loss",
+      "reason": "Spatial T-cell fitness in blinatumomab-treated leukemia addresses a consequential clinical failure mode and has a focused incremental question: whether spatial features add value beyond clinical burden and cell composition. A pilot can establish measurement reproducibility and incremental patient-level prediction quickly, while the virtual-cell project has greater breadth but substantially higher data, assay, and prospective-validation burden.",
+      "target": 37,
+      "timestamp": "2026-09-28T05:31:54.894705+00:00"
     }
   ],
   "k_factor": 24,
@@ -2719,10 +2719,10 @@
     },
     "11": {
       "draws": 1,
-      "games": 18,
+      "games": 19,
       "losses": 8,
-      "rating": 1516.43,
-      "wins": 9
+      "rating": 1527.45,
+      "wins": 10
     },
     "12": {
       "draws": 0,
@@ -2768,10 +2768,10 @@
     },
     "2": {
       "draws": 0,
-      "games": 21,
+      "games": 22,
       "losses": 9,
-      "rating": 1529.45,
-      "wins": 12
+      "rating": 1541.59,
+      "wins": 13
     },
     "21": {
       "draws": 0,
@@ -2803,10 +2803,10 @@
     },
     "25": {
       "draws": 1,
-      "games": 18,
+      "games": 19,
       "losses": 7,
-      "rating": 1541.12,
-      "wins": 10
+      "rating": 1552.43,
+      "wins": 11
     },
     "26": {
       "draws": 0,
@@ -2894,9 +2894,9 @@
     },
     "37": {
       "draws": 0,
-      "games": 7,
-      "losses": 2,
-      "rating": 1533.36,
+      "games": 12,
+      "losses": 7,
+      "rating": 1476.91,
       "wins": 5
     },
     "38": {
@@ -2922,17 +2922,17 @@
     },
     "40": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 5,
-      "rating": 1521.22,
-      "wins": 7
+      "rating": 1532.83,
+      "wins": 8
     },
     "41": {
       "draws": 0,
-      "games": 8,
+      "games": 9,
       "losses": 2,
-      "rating": 1545.81,
-      "wins": 6
+      "rating": 1556.18,
+      "wins": 7
     },
     "5": {
       "draws": 3,
