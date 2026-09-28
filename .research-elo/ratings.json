@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The required multicenter cohort with harmonized response labels and reproducible spatial measurements may not exist at adequate scale.",
-      "next_test": "Pre-register and run the 12-week nested, center-held-out benchmark, first confirming cohort access, label harmonization, technical reproducibility, and calibrated incremental value over composition plus clinical covariates.",
-      "opponent": 10,
-      "outcome": "win",
-      "reason": "Issue 17 offers a broader and more replaceable technology contribution: a leakage-resistant, patient-level benchmark for whether spatial context adds information beyond strong clinical and composition baselines. It has clearer data requirements, a short external-validation path, and useful outcomes even if spatial features fail, whereas issue 10 depends on difficult spatial lipid measurement, mechanistic validity, and heterogeneous therapy contexts.",
-      "target": 17,
-      "timestamp": "2026-09-14T12:57:54.775325+00:00"
-    },
-    {
-      "main_risk": "Spatial features may be irreproducible across centers or add no information beyond composition, tissue quality, or clinical covariates.",
-      "next_test": "Run the preregistered center-held-out patient-level benchmark for spatial context versus clinical, composition, and imaging or molecular baselines, including technical replicates and shuffled spatial controls.",
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "Issue 17 has the stronger current investment case because its fixed question is narrower, its baselines and leakage controls are explicit, and its earliest benchmark can produce a credible continue, pivot, or stop decision. Issue 13 requires paired on-treatment biopsies, cross-platform neighborhood replication, and preservation of stromal and immune interactions in tumoroids, creating a longer chain of high-risk assumptions.",
-      "target": 17,
-      "timestamp": "2026-09-14T12:57:54.775346+00:00"
-    },
-    {
-      "main_risk": "Issue 17 may demonstrate only a modest or non-generalizable spatial increment if the available cohorts are too small or heterogeneous.",
-      "next_test": "Lock the feature definitions and evaluate the spatial model against clinical and composition baselines in a site-held-out cohort, with calibration, treatment-response label sensitivity, and a prespecified minimum incremental benefit.",
-      "opponent": 2,
-      "outcome": "win",
-      "reason": "Issue 17 is more likely to yield a defensible six-month result because it tests a general methodological question with explicit strong baselines, external validation, and useful negative outcomes. Issue 2 has greater direct clinical potential, but estimating transportable differential treatment benefit requires adequate randomized subgroup sizes, harmonized assays, multiple treatment mixtures, and an independent cohort, making stable interaction estimates less likely.",
-      "target": 17,
-      "timestamp": "2026-09-14T12:57:54.775355+00:00"
-    },
-    {
-      "main_risk": "The benchmark may be limited by missing or non-harmonized response outcomes and therefore fail to establish transportability.",
-      "next_test": "Before any complex modeling, confirm prospective access to a sufficiently sized multicenter cohort and run the locked 12-week benchmark against clinical, composition, imaging, and molecular baselines with patient-level and center-held-out validation.",
-      "opponent": 1,
-      "outcome": "win",
-      "reason": "Issue 17 provides a cheaper and more decisive first branch: a retrospective, patient-level external benchmark can establish whether spatial information is worth pursuing without requiring prospective organoid turnaround or treatment decisions. Issue 1 has potentially higher clinical impact, but organoid establishment success, actionable timing, culture fidelity, and correlation with patient benefit are several sequential high-risk assumptions.",
-      "target": 17,
-      "timestamp": "2026-09-14T12:57:54.775362+00:00"
-    },
-    {
-      "main_risk": "Spatial context in lymphoma may be a proxy for burden, tissue quality, subtype, or center rather than a reproducible treatment-response signal.",
-      "next_test": "Perform the preregistered patient-level, center-held-out comparison of spatial-context, composition, vimentin or other established features, and clinical baselines, with spatial permutation controls and calibration.",
-      "opponent": 6,
-      "outcome": "win",
-      "reason": "Issue 17 is the stronger current choice because it has a clearer scientific anchor, stronger evidence readiness, and an early test that can separate useful spatial biology from artifact without requiring a validated mechanical-stress proxy. Issue 6 is highly novel but depends on inferring mechanics from tissue proxies, separating mechanics from hypoxia and mesenchymal state, obtaining paired radiation specimens, and transferring the feature definition across institutions.",
-      "target": 17,
-      "timestamp": "2026-09-14T12:57:54.775372+00:00"
-    },
-    {
       "main_risk": "The immune state may be treatment exposure or disease-severity correlate rather than a transportable pathogenic or treatment-response signal.",
       "next_test": "Lock the compact state assay and test analytical repeatability plus prevalence and effect-direction replication in an independent, demographically distinct cohort.",
       "opponent": 22,
@@ -2699,15 +2654,60 @@
       "reason": "External calibration of an HCC surveillance triage marker has a concrete clinical endpoint, a relatively focused assay-plus-baseline comparison, and an inexpensive early reproducibility and incremental-value test; the virtual-cell project carries substantially more coupled biological and technical risk.",
       "target": 41,
       "timestamp": "2026-09-28T14:06:15.408553+00:00"
+    },
+    {
+      "main_risk": "The engineered myeloma model may yield signatures that do not transport to independent patient cohorts.",
+      "next_test": "Compare burden-only, genomic-persistence, transcriptomic, and integrated models using strict mouse- or patient-level splits, with calibration and bootstrap uncertainty.",
+      "opponent": 43,
+      "outcome": "win",
+      "reason": "The MRD study has an available longitudinal dataset and a cheap six-week leakage-controlled test that can directly establish whether maximal-response biology adds value beyond residual burden. The transportability study has broader potential, but its key external-cohort and prospective combination-validation requirements are more demanding and its technology contribution could remain benchmark-dependent.",
+      "target": 42,
+      "timestamp": "2026-09-28T21:16:04.253846+00:00"
+    },
+    {
+      "main_risk": "MRD-state features may add no information beyond residual tumor burden or sampling depth.",
+      "next_test": "Run the preregistered six-week patient- or mouse-level comparison of burden-only versus genomic, transcriptomic, and integrated predictors, including reproducibility checks.",
+      "opponent": 44,
+      "outcome": "win",
+      "reason": "The MRD problem has a clearer near-term decision point, existing longitudinal measurements, and a relatively inexpensive test of incremental predictive value. The hypoxia-imaging problem has high clinical upside but depends on proving tracer specificity, spatial tissue alignment, scanner reproducibility, and prospective relevance across heterogeneous settings.",
+      "target": 42,
+      "timestamp": "2026-09-28T21:16:04.253872+00:00"
+    },
+    {
+      "main_risk": "The MRD signature may be model-specific and fail independent longitudinal validation.",
+      "next_test": "Evaluate locked burden-only and integrated MRD signatures with donor- or patient-level resampling, then test reproducibility in an independent longitudinal cohort if available.",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "The MRD project offers a more contained scientific anchor and an earlier discriminating analysis, whereas the KRAS transition project requires reproducibility across donors, temporal precedence, separation of plasticity from clonal selection and stress, spatial validation, and pharmacologic actionability. Those are several sequential high-risk assumptions for a six-month investment.",
+      "target": 42,
+      "timestamp": "2026-09-28T21:16:04.253882+00:00"
+    },
+    {
+      "main_risk": "The MRD signal may reflect residual burden or treatment-stage effects rather than a specific escape mechanism.",
+      "next_test": "Perform the six-week leakage-resistant comparison of MRD burden, baseline variables, single modalities, and the integrated signature, with calibration and a prespecified improvement threshold.",
+      "opponent": 1,
+      "outcome": "win",
+      "reason": "The MRD project can rapidly test its central claim using existing longitudinal data and strong simple baselines. Functional organoid profiling could have greater direct clinical value, but success depends on timely culture establishment, correlation with patient outcomes, clinically relevant drug panels, and an external prospective cohort, making the readout slower and more fragile.",
+      "target": 42,
+      "timestamp": "2026-09-28T21:16:04.253889+00:00"
+    },
+    {
+      "main_risk": "The apparent MRD predictor may be explained by cellular composition, assay batch, or residual tumor burden rather than resistance biology.",
+      "next_test": "Use patient- or mouse-level splits to compare burden, composition, bulk, genomic-persistence, and integrated MRD models, with assay-replicate reproducibility and calibration.",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "The MRD study has a concrete longitudinal dataset and a focused early test, while the spatial CAF–immune project requires paired biopsies, reproducible neighborhoods across platforms, adequate patient-level sample size, and functional confirmation in tumoroids. The spatial idea is potentially impactful but currently has more costly dependencies before its biological interpretation is secure.",
+      "target": 42,
+      "timestamp": "2026-09-28T21:16:04.253896+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 26,
-      "losses": 13,
-      "rating": 1506.17,
+      "games": 27,
+      "losses": 14,
+      "rating": 1495.16,
       "wins": 13
     },
     "10": {
@@ -2733,9 +2733,9 @@
     },
     "13": {
       "draws": 0,
-      "games": 22,
-      "losses": 11,
-      "rating": 1506.21,
+      "games": 23,
+      "losses": 12,
+      "rating": 1495.57,
       "wins": 11
     },
     "15": {
@@ -2934,6 +2934,27 @@
       "rating": 1523.16,
       "wins": 8
     },
+    "42": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1556.52,
+      "wins": 5
+    },
+    "43": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "44": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
+    },
     "5": {
       "draws": 3,
       "games": 19,
@@ -2950,9 +2971,9 @@
     },
     "7": {
       "draws": 0,
-      "games": 24,
-      "losses": 12,
-      "rating": 1502.78,
+      "games": 25,
+      "losses": 13,
+      "rating": 1491.5,
       "wins": 12
     },
     "8": {
