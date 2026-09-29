@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The immune state may be treatment exposure or disease-severity correlate rather than a transportable pathogenic or treatment-response signal.",
-      "next_test": "Lock the compact state assay and test analytical repeatability plus prevalence and effect-direction replication in an independent, demographically distinct cohort.",
-      "opponent": 22,
-      "outcome": "loss",
-      "reason": "The multiple-sclerosis problem has a clearer scientific anchor, a differentiated therapy-responsive state, and a focused early test of assay reproducibility and external prevalence before committing to clinical utility. The opioid-use-disorder problem has broader potential impact, but its decision, modality set, outcome definition, and data requirements remain unusually diffuse and resource-intensive.",
-      "target": 21,
-      "timestamp": "2026-09-14T19:51:58.191194+00:00"
-    },
-    {
-      "main_risk": "Dynamic inflammatory measurements may only track postoperative severity or complications and may not identify a modifiable rehabilitation decision.",
-      "next_test": "Prospectively specify one delayed-recovery endpoint and rehabilitation threshold, then compare a simple landmark inflammatory model with clinical and early-function baselines using patient- and site-separated validation.",
-      "opponent": 23,
-      "outcome": "loss",
-      "reason": "The knee-arthroplasty problem offers a more tractable six-month path: a defined recovery endpoint, relatively accessible serial measurements, practical modality ablations, and an early test of whether inflammation adds value beyond baseline frailty and early function. The opioid-use-disorder project has greater potential breadth but requires resolving a much larger chain involving treatment-effect estimation, heterogeneous modalities, missingness, site shift, and implementation.",
-      "target": 21,
-      "timestamp": "2026-09-14T19:51:58.191216+00:00"
-    },
-    {
-      "main_risk": "The proposed IL-17A/retinoid spatial states may be consequences of tunnel burden, chronicity, or inflammation rather than reproducible treatment-relevant biology.",
-      "next_test": "Apply a locked tunnel-state classifier to pretreatment biopsies from patients starting standardized therapy and compare calibrated response prediction against clinical, tunnel-burden, composition-only, and pathway-score baselines.",
-      "opponent": 9,
-      "outcome": "loss",
-      "reason": "The hidradenitis suppurativa problem is more focused and experimentally discriminating, with a specific tunnel-level biological hypothesis, a feasible targeted spatial or multiplex assay, and a 10-week patient-level response test. The opioid-use-disorder proposal is clinically important but underspecified across decisions and modalities, making its earliest readout less decisive and its execution substantially heavier.",
-      "target": 21,
-      "timestamp": "2026-09-14T19:51:58.191229+00:00"
-    },
-    {
-      "main_risk": "The CAF–immune neighborhood may merely encode tumor genotype, proliferation, disease burden, or sampling variation rather than a causal treatment-buffering mechanism.",
-      "next_test": "In a paired cohort, test one prespecified CAF–immune exclusion neighborhood and early treatment change against composition-only and clinical models, with an independently processed specimen set for replication.",
-      "opponent": 13,
-      "outcome": "loss",
-      "reason": "The lung adenocarcinoma problem has stronger evidence readiness and competitive differentiation: it links a concrete spatial mechanism to treatment response, supports orthogonal imaging and functional tumoroid validation, and has explicit composition-only and clinical baselines. The opioid-use-disorder problem has greater potential population breadth, but its multimodal scope and uncertain treatment decision create too many high-risk dependencies for a six-month investment.",
-      "target": 21,
-      "timestamp": "2026-09-14T19:51:58.191237+00:00"
-    },
-    {
-      "main_risk": "Spatial FADS1 or lipid abundance may not represent biologically active arachidonic-acid signaling and may add no information beyond T-cell abundance, tumor burden, or liver disease severity.",
-      "next_test": "Measure FADS1 or lipid-response proxies alongside CXCR6-positive resident-memory T-cell fitness in pretreatment HCC tissue, then test a prespecified proximity feature against clinical and composition-only baselines with orthogonal lipid or functional assays.",
-      "opponent": 10,
-      "outcome": "loss",
-      "reason": "The hepatocellular-carcinoma problem is anchored to a specific, mechanistically testable FADS1–arachidonic-acid–resident-memory T-cell interaction with existing perturbation rationale and a cheap-enough spatial plus orthogonal fitness readout. The opioid-use-disorder problem is more broadly consequential, but its large multisite multimodal design, uncertain treatment decision, and implementation burden make success less likely within six months.",
-      "target": 21,
-      "timestamp": "2026-09-14T19:51:58.191247+00:00"
-    },
-    {
       "main_risk": "The rehabilitation decision may not be prespecified or delivered consistently enough for incremental biomarker value to be tested credibly.",
       "next_test": "Run the prespecified 10-week feasibility and incremental-value study using a locked prediction time, one delayed-recovery endpoint, clinical and early-function baselines, assay reproducibility checks, and decision-curve analysis.",
       "opponent": 22,
@@ -2699,16 +2654,61 @@
       "reason": "The MRD study has a concrete longitudinal dataset and a focused early test, while the spatial CAF–immune project requires paired biopsies, reproducible neighborhoods across platforms, adequate patient-level sample size, and functional confirmation in tumoroids. The spatial idea is potentially impactful but currently has more costly dependencies before its biological interpretation is secure.",
       "target": 42,
       "timestamp": "2026-09-28T21:16:04.253896+00:00"
+    },
+    {
+      "main_risk": "The apparent transportability of drug-response signals may disappear under genuinely independent cohorts and orthogonal assays because assay, dose, lineage, and dataset effects dominate.",
+      "next_test": "Reanalyze an available cohort with locked drug-disjoint, tumor-model-disjoint, and double-disjoint splits, comparing uncertainty-gated multimodal models against strong transcriptomic-only, structure-only, and simple additive baselines, then test selected predictions in a small independent long-term assay.",
+      "opponent": 43,
+      "outcome": "win",
+      "reason": "Problem 43 offers broader reusable value and a clearer early decision path: strict unseen-drug and double-disjoint evaluation, calibrated abstention, and a small orthogonal validation panel can reveal whether the capability transports before major prospective investment. Problem 44 has high clinical potential but depends on tracer specificity, serial imaging, tissue alignment, and cross-site or cross-tumor reproducibility, making its readout slower and more assumption-heavy.",
+      "target": 44,
+      "timestamp": "2026-09-29T01:03:58.776626+00:00"
+    },
+    {
+      "main_risk": "Treatment-induced single-cell transitions may be model- or treatment-specific consequences of burden and sampling time rather than reproducible, temporally antecedent resistance mechanisms.",
+      "next_test": "Profile matched pretreatment and early on-treatment samples from independent PDAC donors with untreated controls, then test a pre-specified transition score using donor-level validation against later regrowth or resistance and orthogonal protein or phospho-readouts.",
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "Problem 7 has a stronger scientific anchor and more useful branches: it can distinguish reproducible adaptive biology from model-specific stress, clonal selection, or sampling artifacts, and negative results would still clarify which resistance routes are not general. Problem 44 is potentially valuable but relies on CAIX imaging being biologically specific and predictive across heterogeneous tumors, scanners, and treatments before it can support a decision.",
+      "target": 44,
+      "timestamp": "2026-09-29T01:03:58.776643+00:00"
+    },
+    {
+      "main_risk": "Organoid response and regrowth may reflect culture selection or ex vivo pharmacology rather than patient benefit, despite reproducibility within the assay.",
+      "next_test": "Prospectively record every eligible case, establishment success, turnaround time, and treatment deadline, while evaluating a locked short-term-plus-regrowth score against molecular recommendation alone in patient-level held-out cases.",
+      "opponent": 1,
+      "outcome": "loss",
+      "reason": "Problem 1 directly tests whether a functional assay can improve a real treatment decision within a defined clinical window and has strong patient-level baselines, operational readouts, and useful failure branches such as assay failure or lack of incremental value over molecular matching. Problem 44 has comparable potential but requires additional unproven links among tracer uptake, true hypoxia, resistance biology, and cross-tumor transport, with more expensive serial imaging.",
+      "target": 44,
+      "timestamp": "2026-09-29T01:03:58.776651+00:00"
+    },
+    {
+      "main_risk": "Spatial neighborhood associations may be sampling- or composition-driven and fail to replicate across patients, regions, platforms, or treatment contexts.",
+      "next_test": "In a paired lung adenocarcinoma cohort, lock a CAF–immune exclusion definition before outcome analysis and test patient-level replication of its pretreatment and early treatment change against composition-only and clinical baselines, including negative spatial controls.",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "Problem 13 is better fixed to a tractable biological setting: it asks whether tumor–CAF–immune neighborhoods add patient-level information beyond composition and clinical factors, with orthogonal imaging and perturbation validation. Problem 44 is more diffuse because tumor type, tracer, treatment, timing, and endpoint all float, while its central measurement may be confounded by perfusion, necrosis, or delivery.",
+      "target": 44,
+      "timestamp": "2026-09-29T01:03:58.776656+00:00"
+    },
+    {
+      "main_risk": "Additional chromatin, isoform, or translation modalities may encode donor, batch, or cell-composition proxies rather than information that identifies true regulatory perturbation effects.",
+      "next_test": "Collect baseline expression and chromatin data from independent donors, freeze expression-only and multimodal models, evaluate held-out perturbations with donor-level splits, and prospectively assay a short list of chromatin, splice, protein, and functional predictions.",
+      "opponent": 37,
+      "outcome": "loss",
+      "reason": "Problem 37 makes a strong technology and discovery investment because it tests falsifiable counterfactual claims, compares against simple expression-only baselines, and can identify the minimum modalities needed even if multimodal models do not win. Problem 44 has greater immediate precision-medicine appeal, but its success depends on several costly measurement and transport assumptions before biological specificity or clinical relevance can be established.",
+      "target": 44,
+      "timestamp": "2026-09-29T01:03:58.776660+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 27,
+      "games": 28,
       "losses": 14,
-      "rating": 1495.16,
-      "wins": 13
+      "rating": 1506.92,
+      "wins": 14
     },
     "10": {
       "draws": 0,
@@ -2733,10 +2733,10 @@
     },
     "13": {
       "draws": 0,
-      "games": 23,
+      "games": 24,
       "losses": 12,
-      "rating": 1495.57,
-      "wins": 11
+      "rating": 1506.91,
+      "wins": 12
     },
     "15": {
       "draws": 1,
@@ -2894,10 +2894,10 @@
     },
     "37": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 7,
-      "rating": 1476.91,
-      "wins": 5
+      "rating": 1488.5,
+      "wins": 6
     },
     "38": {
       "draws": 0,
@@ -2943,17 +2943,17 @@
     },
     "43": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
+      "games": 2,
+      "losses": 2,
+      "rating": 1476.01,
       "wins": 0
     },
     "44": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 5,
+      "rating": 1453.4,
+      "wins": 1
     },
     "5": {
       "draws": 3,
@@ -2971,10 +2971,10 @@
     },
     "7": {
       "draws": 0,
-      "games": 25,
+      "games": 26,
       "losses": 13,
-      "rating": 1491.5,
-      "wins": 12
+      "rating": 1503.81,
+      "wins": 13
     },
     "8": {
       "draws": 0,
