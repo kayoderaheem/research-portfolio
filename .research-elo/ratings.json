@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "KRAS-induced transitions may be model- or treatment-specific rather than reproducible patient-level routes to resistance.",
-      "next_test": "Profile matched pretreatment and early-treatment samples from independent PDAC donors, using donor-level analysis to test whether a prespecified transition score predicts later regrowth.",
-      "opponent": 7,
-      "outcome": "loss",
-      "reason": "The KRAS-transition problem has broader relevance, more available model and donor-level validation routes, and a clearer path to testing reproducibility and temporal precedence before committing to spatial clinical studies. The MPNST idea is scientifically compelling but depends on scarce matched longitudinal spatial specimens and several high-risk assumptions.",
-      "target": 19,
-      "timestamp": "2026-09-15T11:51:32.748910+00:00"
-    },
-    {
-      "main_risk": "The ZNF423-restoration trajectory may not reproduce across patients or may reflect residual tumor, genomic differences, or assay-specific stress rather than escape biology.",
-      "next_test": "Run a small longitudinal patient-level pilot testing whether baseline ZNF423 state and spatial neighborhoods predict early restoration/stress-survival changes and later escape beyond composition and clinical baselines.",
-      "opponent": 22,
-      "outcome": "win",
-      "reason": "The MPNST problem provides a tighter scientific anchor and an earlier, more decisive branch point than the MS transportability project. The MS study has potentially greater clinical reach, but its success depends on assay locking, independent population replication, cross-site calibration, and uncertain correspondence between blood and CNS inflammation, with long readout times.",
-      "target": 19,
-      "timestamp": "2026-09-15T11:51:32.748937+00:00"
-    },
-    {
-      "main_risk": "Early replication-stress or DNA-damage-tolerance biomarkers may reflect nonspecific drug injury or exposure rather than the causal route to acquired resistance.",
-      "next_test": "In independent donor-derived models, lock an early biomarker threshold and test whether it predicts regrowth and selectively identifies benefit from adding TLS or USP1 inhibition.",
-      "opponent": 3,
-      "outcome": "loss",
-      "reason": "The DNA-damage-tolerance problem has a more direct mechanism-to-intervention chain, broader potential applicability across genotoxic therapies, and an inexpensive early functional test in independent donor-derived models. The MPNST project requires rare longitudinal spatial clinical material and has a longer, more fragile validation chain.",
-      "target": 19,
-      "timestamp": "2026-09-15T11:51:32.748948+00:00"
-    },
-    {
-      "main_risk": "The glycolytic-inflammatory program may be a cell-line or prolonged-culture artifact, or may be dominated by anatomical site, tumor purity, and proliferation rather than a transferable resistance transition.",
-      "next_test": "Use paired pretreatment and early on-treatment biopsies from both intrahepatic and extrahepatic disease with a focused multiplex panel to test whether a predefined neighborhood score predicts nonresponse beyond site and composition.",
-      "opponent": 18,
-      "outcome": "loss",
-      "reason": "The cholangiocarcinoma problem offers a clearer opportunity to separate conserved resistance biology from anatomical-site effects, with explicit site-held-out validation and relatively tractable focused spatial and orthogonal assays. The MPNST idea is narrower and more dependent on difficult matched longitudinal specimens and a specific ZNF423 trajectory.",
-      "target": 19,
-      "timestamp": "2026-09-15T11:51:32.748956+00:00"
-    },
-    {
-      "main_risk": "The apparent treatment-induced myeloid state may be caused by lesion shrinkage, organ-specific baseline immunity, or segmentation artifacts rather than tumor-controlling biology.",
-      "next_test": "Measure baseline and early-treatment metastatic lesions with a focused spatial/myeloid panel and test whether a prespecified interferon-responsive tumor-interface score predicts subsequent lesion control beyond abundance and lesion burden.",
-      "opponent": 4,
-      "outcome": "loss",
-      "reason": "The myeloid-niche problem has broader metastatic and treatment-response relevance, a shorter eight-week discriminating test, and a flexible anchor that can be evaluated across organs, platforms, and models. It also supports useful negative outcomes by distinguishing abundance from functional spatial localization. The MPNST project remains more constrained by rare disease access and longitudinal spatial requirements.",
-      "target": 19,
-      "timestamp": "2026-09-15T11:51:32.748963+00:00"
-    },
-    {
       "main_risk": "The apparent KRAS-induced state transitions may be treatment- or model-specific stress responses, clonal selection, or sampling artifacts rather than reproducible predictors of resistance.",
       "next_test": "Profile matched pretreatment and early on-treatment samples from independent donors and test a prespecified transition score against later regrowth, using pretreatment composition and genotype as locked baselines.",
       "opponent": 3,
@@ -2699,6 +2654,51 @@
       "reason": "Longitudinal myeloma resistance prediction has more immediately available evidence, a shorter discriminating test, and a clearer validation ladder than context-aware virtual screening. The germ-cell project requires several linked assumptions about mechanistic biomarkers, dose geometry, differentiation state, and transfer beyond cell lines before it can support a useful therapeutic claim.",
       "target": 42,
       "timestamp": "2026-09-29T18:07:38.313801+00:00"
+    },
+    {
+      "main_risk": "The FADS1–arachidonic-acid spatial signal may not be reproducible or may add no information beyond tumor burden, immune composition, liver disease severity, and systemic inflammation.",
+      "next_test": "Profile pretreatment HCC tissue with prespecified FADS1 or lipid, CXCR6, resident-memory, and fitness markers, then compare patient-level composition-only and spatial-proximity models with blinded outcome analysis.",
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "The HCC project has a tighter mechanistic anchor, clearer causal biology, and an early spatial profiling test that can distinguish metabolic proximity from simple immune composition. The hypoxia project has broader potential, but depends on tracer specificity, spatial tissue alignment, scanner transportability, and cross-tumor generalization, creating a longer chain of high-risk assumptions.",
+      "target": 44,
+      "timestamp": "2026-09-29T22:21:31.760590+00:00"
+    },
+    {
+      "main_risk": "The proposed biomarkers may reflect nonspecific cytotoxic injury, drug exposure, cell-cycle effects, or sampling variation rather than DNA-damage-tolerance-mediated escape.",
+      "next_test": "In independent donor-derived models, measure baseline and early-treatment damage-tolerance features and test whether a locked threshold predicts later regrowth and selective benefit from add-on inhibition.",
+      "opponent": 3,
+      "outcome": "loss",
+      "reason": "DNA-damage-tolerance escape offers a more controllable early decision because patient-derived or donor-derived models can measure dynamic biomarkers and directly test whether pathway inhibition reverses resistance. The hypoxia project requires costly serial imaging, uncertain CAIX specificity, spatially matched tissue, and multisite transportability before causal treatment selection is credible.",
+      "target": 44,
+      "timestamp": "2026-09-29T22:21:31.760611+00:00"
+    },
+    {
+      "main_risk": "Serial inflammation may only track postoperative severity or timing and fail to improve rehabilitation decisions beyond frailty, early function, complications, and routine clinical assessment.",
+      "next_test": "Run a prospective, protocolized landmark cohort using one prespecified delayed-recovery endpoint and rehabilitation decision, comparing clinical, early-function, single-marker, and dynamic multimodal models with site-held-out validation.",
+      "opponent": 23,
+      "outcome": "loss",
+      "reason": "The rehabilitation problem has a clearer clinical decision, established low-cost measurements, credible patient benefit, and a tractable path to testing incremental value over strong clinical and functional baselines. The hypoxia project has greater technological breadth but substantially higher risks involving tracer biology, serial imaging logistics, tissue concordance, and cross-tumor transport.",
+      "target": 44,
+      "timestamp": "2026-09-29T22:21:31.760619+00:00"
+    },
+    {
+      "main_risk": "CAIX-targeted uptake may primarily reflect perfusion, necrosis, tracer delivery, or tumor burden rather than biologically specific hypoxic protection and impending treatment failure.",
+      "next_test": "In a blinded serial-imaging cohort, compare early CAIX uptake change against baseline CAIX, conventional imaging change, and tissue or orthogonal hypoxia measures for prediction of later progression, using patient-level splits.",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "The hypoxia project has broader potential use and a more mature technology-oriented anchor than the MPNST project. The MPNST proposal depends on rare longitudinal specimens, reliable malignant-cell assignment, reproducible ZNF423 restoration, and spatial context, while the underlying escape trajectory is insufficiently established and difficult to read out quickly.",
+      "target": 44,
+      "timestamp": "2026-09-29T22:21:31.760625+00:00"
+    },
+    {
+      "main_risk": "Any apparent molecular gain may be driven by gestational age, sampling practice, referral spectrum, or post-index management leakage rather than transportable biology beyond fetal biometry and Doppler.",
+      "next_test": "Lock the index time and adverse perinatal endpoint, fit the clinical-biometry-Doppler reference model, and test one prespecified molecular panel in an independent site-held-out cohort using calibration, Brier score, and decision-curve net benefit.",
+      "opponent": 26,
+      "outcome": "loss",
+      "reason": "Fetal growth restriction has a clearly anchored management task, established clinical and Doppler baselines, substantial potential patient value, and a direct site-held-out test of calibrated incremental decision value. The hypoxia project is more technologically differentiated, but its biological specificity, imaging availability, and cross-tumor transportability create greater feasibility and validation risk.",
+      "target": 44,
+      "timestamp": "2026-09-29T22:21:31.760631+00:00"
     }
   ],
   "k_factor": 24,
@@ -2712,10 +2712,10 @@
     },
     "10": {
       "draws": 0,
-      "games": 22,
+      "games": 23,
       "losses": 13,
-      "rating": 1454.39,
-      "wins": 9
+      "rating": 1466.36,
+      "wins": 10
     },
     "11": {
       "draws": 1,
@@ -2761,9 +2761,9 @@
     },
     "19": {
       "draws": 0,
-      "games": 16,
-      "losses": 10,
-      "rating": 1451.13,
+      "games": 17,
+      "losses": 11,
+      "rating": 1438.01,
       "wins": 6
     },
     "2": {
@@ -2789,10 +2789,10 @@
     },
     "23": {
       "draws": 0,
-      "games": 20,
+      "games": 21,
       "losses": 12,
-      "rating": 1454.62,
-      "wins": 8
+      "rating": 1465.77,
+      "wins": 9
     },
     "24": {
       "draws": 1,
@@ -2810,10 +2810,10 @@
     },
     "26": {
       "draws": 0,
-      "games": 22,
+      "games": 23,
       "losses": 13,
-      "rating": 1449.6,
-      "wins": 9
+      "rating": 1460.99,
+      "wins": 10
     },
     "27": {
       "draws": 0,
@@ -2838,10 +2838,10 @@
     },
     "3": {
       "draws": 0,
-      "games": 22,
+      "games": 23,
       "losses": 13,
-      "rating": 1454.51,
-      "wins": 9
+      "rating": 1466.06,
+      "wins": 10
     },
     "30": {
       "draws": 0,
@@ -2950,10 +2950,10 @@
     },
     "44": {
       "draws": 0,
-      "games": 6,
-      "losses": 5,
-      "rating": 1453.4,
-      "wins": 1
+      "games": 11,
+      "losses": 9,
+      "rating": 1420.46,
+      "wins": 2
     },
     "5": {
       "draws": 3,
