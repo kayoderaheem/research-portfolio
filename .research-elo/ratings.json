@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "FADS1 or arachidonic-acid spatial measurements may not represent biologically active signaling or add information beyond resident-memory abundance and clinical covariates.",
-      "next_test": "Profile pretreatment HCC regions with orthogonal FADS1/lipid and CXCR6-resident-memory measurements, then test whether spatial proximity predicts T-cell fitness and early response beyond composition.",
-      "opponent": 10,
-      "outcome": "loss",
-      "reason": "The HCC problem has a tighter spatial-mechanism anchor, a focused 11-week patient-level test, and useful branches through orthogonal T-cell fitness assays even if clinical prediction fails. The MS project has broader potential but stacks several high-risk assumptions about assay reproducibility, cross-population transport, treatment dynamics, and blood-to-CNS relevance before reaching a decision.",
-      "target": 22,
-      "timestamp": "2026-09-15T05:00:38.455770+00:00"
-    },
-    {
-      "main_risk": "Organoid drug responses may be reproducible ex vivo but fail to predict patient benefit because of culture selection and missing immune or stromal biology.",
-      "next_test": "Prospectively measure establishment success, assay-ready turnaround, and blinded prediction of response in patients whose next treatment decision occurs within the assay window.",
-      "opponent": 1,
-      "outcome": "loss",
-      "reason": "Time-constrained organoid profiling has a clearer clinical-use anchor, a direct prospective decision window, and informative outcomes from assay failure, turnaround limits, discordance with molecular recommendations, or predictive success. The MS project is scientifically important but requires more simultaneous validation of a complex state across compartments, assays, treatments, and clinical uses.",
-      "target": 22,
-      "timestamp": "2026-09-15T05:00:38.455796+00:00"
-    },
-    {
-      "main_risk": "The apparent CAF–immune spatial program may be a proxy for tumor genotype, proliferation, composition, or sampling variation rather than a treatment-relevant mechanism.",
-      "next_test": "In a paired patient-level cohort, pre-specify one CAF–immune neighborhood and test replication of its baseline and early-treatment association with response using independent regions and orthogonal imaging.",
-      "opponent": 13,
-      "outcome": "loss",
-      "reason": "The lung adenocarcinoma problem offers a strong fixed anchor, paired pretreatment/on-treatment material, high evidence readiness, and a relatively cheap 10-week test against composition and clinical baselines. The MS proposal has greater transportability ambition but more high-risk dependencies and a less stable choice of clinical use, assay, compartment, and outcome.",
-      "target": 22,
-      "timestamp": "2026-09-15T05:00:38.455808+00:00"
-    },
-    {
-      "main_risk": "The pancreatic dataset may be underpowered for reliable treatment-effect heterogeneity and calibration across institutions and molecular subgroups.",
-      "next_test": "Before signature development, perform a learning-curve and bootstrap stability analysis of treatment interactions using the randomized cohort, with site-held-out evaluation of a compact baseline-plus-early-response model.",
-      "opponent": 2,
-      "outcome": "win",
-      "reason": "The MS problem can be advanced through independent longitudinal cohorts and early analytical transportability tests without depending on a particular randomized trial or treatment-matching workflow. The pancreatic project has high potential but its central claim requires adequate randomized subgroup information, stable treatment-interaction estimates, harmonized multimodal data, and an external cohort, making the earliest decisive evidence less accessible.",
-      "target": 22,
-      "timestamp": "2026-09-15T05:00:38.455815+00:00"
-    },
-    {
-      "main_risk": "The spatial topology may simply encode anatomical site, prior treatment, or sampling differences rather than modifying ALK-inhibitor response.",
-      "next_test": "Use pretreatment samples to test a locked topology score against genotype, site, composition, and clinical baselines, with leave-one-site-out validation and replicate-section concordance.",
-      "opponent": 8,
-      "outcome": "loss",
-      "reason": "The ALK project has a narrower and clearer spatial anchor, lower assay risk, strong anatomical-site baselines, and a cheap 10-week leave-one-site-out test. It can yield useful biological conclusions even if prediction fails by distinguishing site, composition, and topology effects. The MS project has stronger potential clinical value but substantially more assay, compartment, treatment-shift, and calibration dependencies.",
-      "target": 22,
-      "timestamp": "2026-09-15T05:00:38.455821+00:00"
-    },
-    {
       "main_risk": "KRAS-induced transitions may be model- or treatment-specific rather than reproducible patient-level routes to resistance.",
       "next_test": "Profile matched pretreatment and early-treatment samples from independent PDAC donors, using donor-level analysis to test whether a prespecified transition score predicts later regrowth.",
       "opponent": 7,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 43 is more likely to produce a decision within six months because existing drug-response data can support strict retrospective tests before prospective assays. Issue 37 has strong scientific value and a valuable falsification orientation, but requires donor-replicated paired regulatory modalities, unseen perturbations, frozen predictions, and orthogonal functional readouts, creating more high-risk dependencies.",
       "target": 43,
       "timestamp": "2026-09-29T09:56:21.962135+00:00"
+    },
+    {
+      "main_risk": "An independent cohort may not contain sufficiently harmonized regimen, endpoint, and treatment-selection data to support a credible external test.",
+      "next_test": "Lock the smallest regimen-specific programs and compare clinical-only versus clinical-plus-program calibration and decision value in a blinded independent cohort.",
+      "opponent": 25,
+      "outcome": "loss",
+      "reason": "Regimen-specific lupus nephritis prediction has clearer near-term clinical relevance, stronger clinical baselines, and a direct decision-use target. It can test incremental value without requiring a new resistance biology framework, while preserving useful negative results about when molecular programs are redundant or poorly calibrated.",
+      "target": 42,
+      "timestamp": "2026-09-29T18:07:38.313734+00:00"
+    },
+    {
+      "main_risk": "A non-circular, reproducible reference standard may be unavailable or too heterogeneous to establish genuine incremental value.",
+      "next_test": "Run the site-held-out pilot with blinded image-quality adjudication, comparing clinical, neurophysiology-enhanced, and imaging-enhanced models.",
+      "opponent": 31,
+      "outcome": "loss",
+      "reason": "Corneal imaging addresses a defined diagnostic or monitoring pathway with broad clinical applicability and an early site-held-out test. Its fixed clinical anchor and explicit reproducibility, reference-standard, and calibration checks make it a more actionable six-month investment than a myeloma signature whose key evidence may depend on an engineered model transferring to patients.",
+      "target": 42,
+      "timestamp": "2026-09-29T18:07:38.313754+00:00"
+    },
+    {
+      "main_risk": "Matched donor-level perturbation and control data may be too sparse or noisy to estimate direct effects reliably.",
+      "next_test": "Freeze existing model predictions and re-score them under shared, disjoint, and observation-independent control references using donor-blocked uncertainty intervals.",
+      "opponent": 36,
+      "outcome": "loss",
+      "reason": "Reference-invariant perturbation-effect identification is a broad, difficult-to-replace technology problem with a cheap four-to-six-week discriminating test. It can produce valuable protocol, metric, and negative-control outputs even if the favored model class fails, and donor-level validation directly addresses a central benchmark weakness.",
+      "target": 42,
+      "timestamp": "2026-09-29T18:07:38.313764+00:00"
+    },
+    {
+      "main_risk": "The engineered myeloma model's maximal-response signal may not transfer to independent patient or donor cohorts.",
+      "next_test": "Pre-register and run the six-week leakage-controlled comparison of burden-only, genomic-persistence, bulk-transcriptomic, and integrated models with individual-level splits.",
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "The myeloma project has a clearer longitudinal biological anchor and an especially cheap early branch between burden-only prediction and a genuine MRD-state resistance signal. It can yield mechanistic discovery or a defensible conclusion that residual burden, sampling, or composition explains the signal, whereas the lymphoma project requires a larger multicenter spatial-data infrastructure before its central comparison is credible.",
+      "target": 42,
+      "timestamp": "2026-09-29T18:07:38.313771+00:00"
+    },
+    {
+      "main_risk": "The integrated myeloma signature may add no information beyond residual tumor burden and sampling or lineage composition.",
+      "next_test": "Compare the prespecified integrated signature with burden-only and single-modality baselines on held-out patient- or mouse-level longitudinal data, including reproducibility across resampling or assay replicates.",
+      "opponent": 40,
+      "outcome": "win",
+      "reason": "Longitudinal myeloma resistance prediction has more immediately available evidence, a shorter discriminating test, and a clearer validation ladder than context-aware virtual screening. The germ-cell project requires several linked assumptions about mechanistic biomarkers, dose geometry, differentiation state, and transfer beyond cell lines before it can support a useful therapeutic claim.",
+      "target": 42,
+      "timestamp": "2026-09-29T18:07:38.313801+00:00"
     }
   ],
   "k_factor": 24,
@@ -2747,9 +2747,9 @@
     },
     "17": {
       "draws": 0,
-      "games": 17,
-      "losses": 5,
-      "rating": 1577.08,
+      "games": 18,
+      "losses": 6,
+      "rating": 1563.21,
       "wins": 12
     },
     "18": {
@@ -2803,10 +2803,10 @@
     },
     "25": {
       "draws": 1,
-      "games": 20,
+      "games": 21,
       "losses": 7,
-      "rating": 1563.74,
-      "wins": 12
+      "rating": 1575.49,
+      "wins": 13
     },
     "26": {
       "draws": 0,
@@ -2852,10 +2852,10 @@
     },
     "31": {
       "draws": 0,
-      "games": 20,
+      "games": 21,
       "losses": 7,
-      "rating": 1565.58,
-      "wins": 13
+      "rating": 1576.86,
+      "wins": 14
     },
     "32": {
       "draws": 0,
@@ -2887,10 +2887,10 @@
     },
     "36": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 3,
-      "rating": 1567.03,
-      "wins": 9
+      "rating": 1577.88,
+      "wins": 10
     },
     "37": {
       "draws": 0,
@@ -2922,9 +2922,9 @@
     },
     "40": {
       "draws": 0,
-      "games": 13,
-      "losses": 5,
-      "rating": 1532.83,
+      "games": 14,
+      "losses": 6,
+      "rating": 1520.96,
       "wins": 8
     },
     "41": {
@@ -2936,10 +2936,10 @@
     },
     "42": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
-      "rating": 1556.52,
-      "wins": 5
+      "games": 10,
+      "losses": 3,
+      "rating": 1548.38,
+      "wins": 7
     },
     "43": {
       "draws": 0,
