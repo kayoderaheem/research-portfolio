@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The rehabilitation decision may not be prespecified or delivered consistently enough for incremental biomarker value to be tested credibly.",
-      "next_test": "Run the prespecified 10-week feasibility and incremental-value study using a locked prediction time, one delayed-recovery endpoint, clinical and early-function baselines, assay reproducibility checks, and decision-curve analysis.",
-      "opponent": 22,
-      "outcome": "win",
-      "reason": "Issue 23 has a clearer near-term decision anchor: whether serial inflammation adds actionable value to established clinical and functional recovery measures. Its measurements, patient-level validation, and strong baselines are comparatively practical, and the earliest test can expose whether biomarkers improve decisions rather than merely track severity. Issue 22 has greater mechanistic and clinical upside but depends on reproducible multimodal state definition, independent population replication, treatment-stratified dynamics, cross-compartment relevance, and transportability, with several long-readout assumptions.",
-      "target": 23,
-      "timestamp": "2026-09-14T23:54:04.014538+00:00"
-    },
-    {
-      "main_risk": "The proposed IL-17A and retinoid tunnel states may not reproduce across patients or add information beyond tunnel burden, disease severity, and inflammatory composition.",
-      "next_test": "Apply a locked spatial-state classifier to pretreatment tunnel biopsies from patients starting standardized therapy and compare calibrated held-out response prediction against clinical, tunnel-burden, composition-only, and non-spatial pathway baselines.",
-      "opponent": 9,
-      "outcome": "loss",
-      "reason": "Issue 9 is the stronger current investment because it has a tighter biological anchor, a focused and potentially distinctive tissue unit, a relatively cheap early patient-level test, and useful branches through reproducibility, prediction, early state change, and orthogonal perturbation. Issue 23 has broader clinical applicability but requires a harder-to-standardize rehabilitation intervention and multicenter calibration before its biomarker value can affect care.",
-      "target": 23,
-      "timestamp": "2026-09-14T23:54:04.014562+00:00"
-    },
-    {
-      "main_risk": "Dynamic inflammatory measurements may add no decision value beyond early function, frailty, complications, and general recovery severity.",
-      "next_test": "Prospectively test whether a locked serial inflammatory-plus-functional model improves calibrated patient-level prediction and decision utility over clinical, preoperative inflammatory, and early-function baselines.",
-      "opponent": 10,
-      "outcome": "win",
-      "reason": "Issue 23 currently offers the more reliable six-month investment: the clinical outcome, baseline comparators, leakage controls, and early decision-value test are concrete, while its main uncertainty can be reduced with accessible longitudinal measurements. Issue 10 has higher mechanistic distinctiveness and potential impact, but depends on difficult spatial lipid measurements, proof that measured lipids represent active signaling, adequate treated HCC cohorts, and transport across checkpoint and cellular-therapy contexts.",
-      "target": 23,
-      "timestamp": "2026-09-14T23:54:04.014573+00:00"
-    },
-    {
-      "main_risk": "The proposed rehabilitation escalation decision may be too heterogeneous or inconsistently implemented to support a valid precision-medicine estimand.",
-      "next_test": "Lock the rehabilitation decision and delayed-recovery endpoint, then compare serial inflammatory trajectories with clinical and early-function baselines in a prospective cohort while recording assay failure, adherence, and decision timing.",
-      "opponent": 1,
-      "outcome": "win",
-      "reason": "Issue 23 has a more feasible and earlier route to a meaningful answer than Issue 1. It can test incremental predictive and decision value with standard clinical and functional data without requiring frequent organoid establishment before a treatment deadline. Issue 1 is highly consequential if successful, but its central chain includes culture success and turnaround, ex vivo-to-patient validity, resistance-feature added value, feasible combination selection, and the ability to alter care without confounding clinical decisions.",
-      "target": 23,
-      "timestamp": "2026-09-14T23:54:04.014581+00:00"
-    },
-    {
-      "main_risk": "The apparent CAF–immune neighborhood may be a proxy for tumor genotype, proliferation, disease burden, or sampling variation rather than a transportable treatment mechanism.",
-      "next_test": "In a paired patient-level lung adenocarcinoma cohort, test one prespecified neighborhood and early change against clinical and composition-only baselines with held-out calibration, negative spatial controls, and replication in an independent specimen set.",
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "Issue 13 has greater discovery breadth and a stronger stated competitive position through a specific tumor–CAF–immune spatial mechanism with paired on-treatment change and optional functional testing. Its early test can distinguish spatial information from composition and clinical covariates, and negative results still clarify whether microenvironmental buffering matters. Issue 23 is more tractable clinically, but its actionable rehabilitation intervention and multicenter calibration remain less defined and its likely biological signal may be severity tracking.",
-      "target": 23,
-      "timestamp": "2026-09-14T23:54:04.014589+00:00"
-    },
-    {
       "main_risk": "FADS1 or arachidonic-acid spatial measurements may not represent biologically active signaling or add information beyond resident-memory abundance and clinical covariates.",
       "next_test": "Profile pretreatment HCC regions with orthogonal FADS1/lipid and CXCR6-resident-memory measurements, then test whether spatial proximity predicts T-cell fitness and early response beyond composition.",
       "opponent": 10,
@@ -2699,6 +2654,51 @@
       "reason": "Problem 37 makes a strong technology and discovery investment because it tests falsifiable counterfactual claims, compares against simple expression-only baselines, and can identify the minimum modalities needed even if multimodal models do not win. Problem 44 has greater immediate precision-medicine appeal, but its success depends on several costly measurement and transport assumptions before biological specificity or clinical relevance can be established.",
       "target": 44,
       "timestamp": "2026-09-29T01:03:58.776660+00:00"
+    },
+    {
+      "main_risk": "The apparent transportability signal may be dominated by assay, dose, lineage, or dataset composition rather than biology.",
+      "next_test": "Run strict drug-disjoint and double-disjoint evaluations with simple transcriptomic, drug-structure, and additive baselines, then test calibration and abstention on an external cohort.",
+      "opponent": 38,
+      "outcome": "win",
+      "reason": "Issue 43 has a clearer near-term decision, likely reusable datasets, explicit leakage-resistant baselines, and an early test of transportability and abstention. Issue 38 has greater novelty but depends on several high-risk assumptions about cross-species identifiability, orthology, baseline alignment, and independent validation.",
+      "target": 43,
+      "timestamp": "2026-09-29T09:56:21.962089+00:00"
+    },
+    {
+      "main_risk": "The spatial transition in issue 5 may be irreproducible or explainable by baseline composition, sampling location, treatment intensity, or generalized inflammation.",
+      "next_test": "For issue 5, analyze a small paired patient set with blinded pathology and patient-level resampling to establish whether the proposed transition is reproducible before building prediction models.",
+      "opponent": 5,
+      "outcome": "win",
+      "reason": "Issue 43 is the stronger six-month investment because it can begin with relatively inexpensive retrospective, leakage-controlled analysis and has broad utility across drug-response settings. Issue 5 has potentially greater clinical value, but serial spatial sampling, regional comparability, treatment-site confounding, and independent validation create a slower, higher-risk readout.",
+      "target": 43,
+      "timestamp": "2026-09-29T09:56:21.962113+00:00"
+    },
+    {
+      "main_risk": "Issue 43 may show that uncertainty and cross-domain performance differences reflect technical assay or cohort effects rather than biologically transportable response signals.",
+      "next_test": "Benchmark strict unseen-drug and double-unseen prediction against simple dose-response, lineage, transcriptomic, and drug-structure baselines, including calibration and abstention.",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "Issue 43 offers a more general and tractable technology problem with an early computational decision and useful outcomes even if complex multimodal models fail. Issue 3 requires a linked chain showing that dynamic biomarkers specifically identify DNA-damage-tolerance escape, predict regrowth, and select benefit from inhibition, with costly longitudinal and functional validation.",
+      "target": 43,
+      "timestamp": "2026-09-29T09:56:21.962122+00:00"
+    },
+    {
+      "main_risk": "Issue 10 may reveal a strong, reproducible metabolic-proximity signal with orthogonal functional support, making its focused biomarker path more consequential than the broader prediction study.",
+      "next_test": "Profile a small pretreatment HCC set with orthogonal FADS1/lipid and CXCR6-resident-memory measurements, testing whether spatial proximity predicts T-cell fitness beyond abundance.",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "Issue 43 has broader applicability, stronger immediate data readiness, and a cheaper early branch point than issue 10. The HCC project is biologically focused and potentially valuable, but depends on reproducible spatially active lipid measurements, adequate checkpoint-treated tissue, and transport across treatment contexts; its forced FADS1–arachidonic-acid pairing is less secure.",
+      "target": 43,
+      "timestamp": "2026-09-29T09:56:21.962128+00:00"
+    },
+    {
+      "main_risk": "Issue 37 may demonstrate a reproducible incremental contribution from baseline chromatin or isoform state that is both mechanistically informative and not captured by expression-only models.",
+      "next_test": "For issue 37, conduct a small donor-blocked ablation using expression-only, chromatin-only, and multimodal models on held-out perturbations to quantify incremental information before committing to prospective multimodal validation.",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "Issue 43 is more likely to produce a decision within six months because existing drug-response data can support strict retrospective tests before prospective assays. Issue 37 has strong scientific value and a valuable falsification orientation, but requires donor-replicated paired regulatory modalities, unseen perturbations, frozen predictions, and orthogonal functional readouts, creating more high-risk dependencies.",
+      "target": 43,
+      "timestamp": "2026-09-29T09:56:21.962135+00:00"
     }
   ],
   "k_factor": 24,
@@ -2712,9 +2712,9 @@
     },
     "10": {
       "draws": 0,
-      "games": 21,
-      "losses": 12,
-      "rating": 1464.83,
+      "games": 22,
+      "losses": 13,
+      "rating": 1454.39,
       "wins": 9
     },
     "11": {
@@ -2838,9 +2838,9 @@
     },
     "3": {
       "draws": 0,
-      "games": 21,
-      "losses": 12,
-      "rating": 1465.34,
+      "games": 22,
+      "losses": 13,
+      "rating": 1454.51,
       "wins": 9
     },
     "30": {
@@ -2894,16 +2894,16 @@
     },
     "37": {
       "draws": 0,
-      "games": 13,
-      "losses": 7,
-      "rating": 1488.5,
+      "games": 14,
+      "losses": 8,
+      "rating": 1477.6,
       "wins": 6
     },
     "38": {
       "draws": 0,
-      "games": 13,
-      "losses": 8,
-      "rating": 1472.2,
+      "games": 14,
+      "losses": 9,
+      "rating": 1460.33,
       "wins": 5
     },
     "39": {
@@ -2943,10 +2943,10 @@
     },
     "43": {
       "draws": 0,
-      "games": 2,
+      "games": 7,
       "losses": 2,
-      "rating": 1476.01,
-      "wins": 0
+      "rating": 1531.48,
+      "wins": 5
     },
     "44": {
       "draws": 0,
@@ -2957,9 +2957,9 @@
     },
     "5": {
       "draws": 3,
-      "games": 19,
-      "losses": 9,
-      "rating": 1471.31,
+      "games": 20,
+      "losses": 10,
+      "rating": 1459.88,
       "wins": 7
     },
     "6": {
