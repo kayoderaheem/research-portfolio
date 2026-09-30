@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The fetal-growth-restriction management endpoint may be inconsistently defined or influenced by clinician decisions, weakening its clinical validity.",
-      "next_test": "Lock the clinical-Doppler reference model and test one prespecified molecular panel in a pregnancy-level, site-held-out cohort with calibration and decision-curve analysis.",
-      "opponent": 4,
-      "outcome": "win",
-      "reason": "Site-robust fetal-growth-restriction risk stratification has a clearer clinical decision anchor, stronger established baselines, and a more actionable external-validation test. The myeloid-niche problem has high potential but depends on difficult paired spatial sampling, reproducible state definition, and separating treatment effects from lesion and organ context.",
-      "target": 26,
-      "timestamp": "2026-09-16T04:56:04.193913+00:00"
-    },
-    {
-      "main_risk": "Treatment-selection confounding and inconsistent response definitions may make apparent regimen-specific prediction non-generalizable.",
-      "next_test": "Lock the smallest regimen-specific programs and compare clinical-only with clinical-plus-program prediction in a blinded independent cohort using nested patient-level processing and prespecified enrichment thresholds.",
-      "opponent": 25,
-      "outcome": "loss",
-      "reason": "The lupus-nephritis problem has a stronger existing signal, a focused regimen-specific anchor, and a tractable test of whether locked programs add value beyond clinical variables. It also allows useful negative outcomes by identifying regimens where molecular prediction is redundant or nontransportable, whereas fetal-growth-restriction work carries greater endpoint and assay uncertainty.",
-      "target": 26,
-      "timestamp": "2026-09-16T04:56:04.193930+00:00"
-    },
-    {
-      "main_risk": "The molecular measurements may add little beyond fetal biometry, Doppler, and established biomarkers once leakage and timing are controlled.",
-      "next_test": "Evaluate one prespecified molecular modality against the locked clinical-Doppler baseline in an independent cohort, requiring calibrated net benefit at a predefined management threshold.",
-      "opponent": 18,
-      "outcome": "win",
-      "reason": "Fetal-growth-restriction stratification offers a more immediately decision-linked and broadly relevant problem with a defined reference standard and a relatively direct site-held-out test. The cholangiocarcinoma project relies on translating cell-line resistance programs into scarce paired human spatial biopsies and then establishing transfer across anatomical sites.",
-      "target": 26,
-      "timestamp": "2026-09-16T04:56:04.193938+00:00"
-    },
-    {
-      "main_risk": "The fetal-growth-restriction endpoint may encode existing management practice rather than an independent biological or patient-benefit outcome.",
-      "next_test": "Predefine and adjudicate a consequential perinatal outcome, then compare the locked clinical-Doppler model with one molecular addition in a fully external, site-held-out cohort.",
-      "opponent": 2,
-      "outcome": "win",
-      "reason": "Fetal-growth-restriction management prediction is less dependent on estimating heterogeneous treatment effects and on obtaining sufficient randomized subgroup size. Its validation target is clearer and can generate useful branches through calibration failure, subgroup restriction, or biomarker redundancy; the pancreatic project has high impact but combines treatment-interaction estimation, multimodal harmonization, missingness, and external transportability.",
-      "target": 26,
-      "timestamp": "2026-09-16T04:56:04.193944+00:00"
-    },
-    {
-      "main_risk": "A molecular panel may fail to provide incremental, transportable value over fetal biometry, Doppler, and established clinical biomarkers.",
-      "next_test": "Run the prespecified molecular-addition test against the clinical-Doppler reference using pregnancy-level splits and an independent external cohort, with calibration and decision-curve thresholds fixed in advance.",
-      "opponent": 8,
-      "outcome": "win",
-      "reason": "Fetal-growth-restriction stratification has a clearer clinical anchor, broader potential use, and a more credible early decision path than site-specific ALK-inhibitor spatial niches. The ALK project faces rare-disease sampling constraints, strong confounding by metastatic site and treatment history, and uncertain transfer of spatial features across compartments and platforms.",
-      "target": 26,
-      "timestamp": "2026-09-16T04:56:04.193949+00:00"
-    },
-    {
       "main_risk": "The choice would change if sufficiently large independent lupus nephritis cohorts with harmonized endpoints and regimen exposure are not available, while ALK cohorts and spatial assays are readily accessible.",
       "next_test": "Blindly evaluate locked gene-expression programs versus the clinical model in an independent, patient-separated lupus nephritis cohort and assess calibration and decision-curve benefit.",
       "opponent": 8,
@@ -2699,6 +2654,51 @@
       "reason": "Treatment-specific lupus nephritis response programs have a concrete clinical decision anchor and can produce useful regimen-specific conclusions even when some programs fail. The composition project has greater general technology breadth, but its success depends on multiple high-risk biological and measurement assumptions and costly prospective perturbation readouts.",
       "target": 39,
       "timestamp": "2026-09-30T12:43:42.841726+00:00"
+    },
+    {
+      "main_risk": "A sufficiently harmonized multicenter dataset with reproducible spatial measurements and an independent validation center may not be available.",
+      "next_test": "Run the preregistered center-held-out nested benchmark, first confirming label harmonization and spatial-feature reproducibility before testing incremental predictive value.",
+      "opponent": 17,
+      "outcome": "loss",
+      "reason": "The lymphoma problem tests a broadly reusable scientific question—whether spatial context adds value beyond composition and clinical baselines—using multicenter, center-held-out, calibrated validation. It has greater technology breadth and a clearer generalizable contribution than the myeloma signature, whose biological signal may be specific to an engineered model and whose external cohort is a major dependency.",
+      "target": 42,
+      "timestamp": "2026-09-30T20:05:45.327604+00:00"
+    },
+    {
+      "main_risk": "The maximal-response state may contain little predictive information beyond residual tumor burden, especially outside the engineered model.",
+      "next_test": "Compare burden-only, baseline, genomic-persistence, transcriptomic, and integrated models using patient- or mouse-level splits, with calibration and resampling reproducibility assessed before external validation.",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "The myeloma project has a concrete longitudinal biological anchor, an apparently available dataset, and a six-week leakage-controlled test that can distinguish burden from resistance-related signal. The corneal-imaging project has stronger direct clinical relevance, but its conclusion depends on difficult reference-standard construction, cross-site/device reproducibility, and recalibration under population shift.",
+      "target": 42,
+      "timestamp": "2026-09-30T20:05:45.327618+00:00"
+    },
+    {
+      "main_risk": "The myeloma signal may be model-specific and fail to transport to an independent longitudinal cohort.",
+      "next_test": "Execute the six-week locked comparison against residual-burden and single-modality baselines, using individual-level splits and replicate-based feature stability as the decision gate.",
+      "opponent": 39,
+      "outcome": "win",
+      "reason": "The myeloma problem is more ready for a six-month investment: it has a defined longitudinal dataset, a compact early comparison, and useful stop or pivot outcomes if integrated prediction fails. The composition-counterfactual problem has broader technological ambition, but unseen-target and unseen-context extrapolation, stable state definitions, and prospective orthogonal validation create a longer chain of high-risk assumptions.",
+      "target": 42,
+      "timestamp": "2026-09-30T20:05:45.327626+00:00"
+    },
+    {
+      "main_risk": "The myeloma signature may not generalize beyond the engineered disease model or its sampling schedule.",
+      "next_test": "Perform the preregistered six-week individual-level analysis comparing burden-only, genomic, transcriptomic, and integrated models, then assess feature reproducibility before committing to external validation.",
+      "opponent": 43,
+      "outcome": "win",
+      "reason": "The myeloma project is more tightly scoped and biologically interpretable, with an available longitudinal setting and an early test that can determine whether molecular information adds value beyond burden. The drug-response project addresses a broad and important technology problem, but requires heterogeneous cohorts, multiple disjoint shift evaluations, uncertainty-gated decisions, and prospective combination assays, making successful interpretation more dependent on technical harmonization.",
+      "target": 42,
+      "timestamp": "2026-09-30T20:05:45.327629+00:00"
+    },
+    {
+      "main_risk": "The maximal-response molecular state may reflect residual burden or treatment timing rather than a specific mechanism of refractory escape.",
+      "next_test": "Use the existing longitudinal dataset to test whether an integrated signature improves held-out prediction over burden and simple residual-disease baselines, with patient- or mouse-level leakage controls and replicate stability.",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "The myeloma problem offers a stronger near-term investment because the data structure and earliest discriminating analysis are more explicitly available, while retaining useful branches around burden, genomic persistence, and cell state. The blinatumomab project is biologically compelling but depends on scarce paired marrow specimens, technically reproducible spatial assays, and an external treated cohort in a narrow population.",
+      "target": 42,
+      "timestamp": "2026-09-30T20:05:45.327633+00:00"
     }
   ],
   "k_factor": 24,
@@ -2719,9 +2719,9 @@
     },
     "11": {
       "draws": 1,
-      "games": 20,
-      "losses": 8,
-      "rating": 1540.0,
+      "games": 21,
+      "losses": 9,
+      "rating": 1529.51,
       "wins": 11
     },
     "12": {
@@ -2747,10 +2747,10 @@
     },
     "17": {
       "draws": 0,
-      "games": 18,
+      "games": 19,
       "losses": 6,
-      "rating": 1563.21,
-      "wins": 12
+      "rating": 1575.12,
+      "wins": 13
     },
     "18": {
       "draws": 1,
@@ -2852,9 +2852,9 @@
     },
     "31": {
       "draws": 0,
-      "games": 22,
-      "losses": 8,
-      "rating": 1564.09,
+      "games": 23,
+      "losses": 9,
+      "rating": 1551.56,
       "wins": 14
     },
     "32": {
@@ -2908,9 +2908,9 @@
     },
     "39": {
       "draws": 0,
-      "games": 15,
-      "losses": 5,
-      "rating": 1555.47,
+      "games": 16,
+      "losses": 6,
+      "rating": 1543.67,
       "wins": 10
     },
     "4": {
@@ -2936,16 +2936,16 @@
     },
     "42": {
       "draws": 0,
-      "games": 11,
-      "losses": 3,
-      "rating": 1560.57,
-      "wins": 8
+      "games": 16,
+      "losses": 4,
+      "rating": 1594.4,
+      "wins": 12
     },
     "43": {
       "draws": 0,
-      "games": 12,
-      "losses": 4,
-      "rating": 1541.63,
+      "games": 13,
+      "losses": 5,
+      "rating": 1530.71,
       "wins": 8
     },
     "44": {
