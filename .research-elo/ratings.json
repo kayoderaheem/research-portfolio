@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "FAM230F may add no clinically meaningful information beyond ultrasound, AFP, liver disease severity, and disease-stage proxies, or may fail to transport across sites.",
-      "next_test": "Run blinded replicate and cross-site assay testing, then evaluate the locked cfDNA marker against a locked ultrasound-plus- AFP model in an independent patient-level cohort at the prespecified triage threshold.",
-      "opponent": 25,
-      "outcome": "win",
-      "reason": "External HCC calibration is the stronger current investment because it has a tighter clinical decision, established reference model, explicit transportability problem, and an early multi-site assay and net-benefit test. The lupus project is valuable but must resolve regimen-specific biology, treatment-selection confounding, endpoint harmonization, and multiple validation layers before it can support treatment enrichment.",
-      "target": 24,
-      "timestamp": "2026-09-15T21:26:50.109226+00:00"
-    },
-    {
-      "main_risk": "The HCC marker's apparent discrimination may be driven by tumor burden or spectrum differences rather than incremental early-detection value.",
-      "next_test": "In a site-held-out cohort, compare the locked FAM230F-augmented model with ultrasound-plus-AFP using stage-stratified calibration, decision-curve net benefit, and negative-control assay measurements.",
-      "opponent": 26,
-      "outcome": "win",
-      "reason": "External HCC calibration offers a more contained and actionable six-month problem with a clear baseline, endpoint, threshold, and early stop rule. The pancreatic project depends on adequate randomized treatment-by-biomarker information, stable multimodal measurements, sufficient sample size, and an external cohort, making its key readout slower and less certain.",
-      "target": 24,
-      "timestamp": "2026-09-15T21:26:50.109253+00:00"
-    },
-    {
-      "main_risk": "FAM230F may be a proxy for advanced or larger tumors and therefore fail to identify clinically useful disease at the intended surveillance stage.",
-      "next_test": "Test the locked marker and reference model in blinded, independent surveillance samples with prespecified stratification by tumor stage, lesion size, site, and surveillance-risk group.",
-      "opponent": 4,
-      "outcome": "win",
-      "reason": "HCC surveillance triage has a defined patient-level management use and a relatively direct external validation path. The myeloid-niche project could yield deeper mechanistic insight, but it requires difficult paired spatial measurements across metastatic organs, reproducible state and neighborhood definitions, orthogonal functional validation, and separation of cause from lesion burden and treatment exposure.",
-      "target": 24,
-      "timestamp": "2026-09-15T21:26:50.109263+00:00"
-    },
-    {
-      "main_risk": "The cfDNA signal may not retain calibration or decision value across assay workflows, disease spectra, and participating sites.",
-      "next_test": "Perform blinded multi-site replicate testing followed by external evaluation of the locked cfDNA threshold against ultrasound-plus-AFP, including site-held-out and stage-stratified decision curves.",
-      "opponent": 18,
-      "outcome": "win",
-      "reason": "The HCC problem is better anchored to an immediate clinical decision and has a cheaper discriminating experiment than the cholangiocarcinoma resistance study. The latter starts from cell-line pathway observations and must establish human pretreatment detectability, spatial incremental value, cross-anatomical-site transportability, and resistance relevance before functional follow-up.",
-      "target": 24,
-      "timestamp": "2026-09-15T21:26:50.109270+00:00"
-    },
-    {
-      "main_risk": "FAM230F may show statistical discrimination without improving calibrated clinical decisions or net benefit over established surveillance information.",
-      "next_test": "Use an independent, site-held-out cohort to test the locked augmented model for calibration, net benefit, and sensitivity at the prespecified confirmatory-evaluation threshold, with patient-level separation and stage-specific analyses.",
-      "opponent": 2,
-      "outcome": "win",
-      "reason": "HCC surveillance triage has the clearer fixed anchor, stronger near-term evidence path, and more credible early continue-or-stop decision. The pancreatic matched-therapy project is potentially important but hinges on prospective trial execution, treatment-effect interaction estimation, multimodal harmonization, and enough data for stable calibration across institutions.",
-      "target": 24,
-      "timestamp": "2026-09-15T21:26:50.109276+00:00"
-    },
-    {
       "main_risk": "The fetal-growth-restriction management endpoint may be inconsistently defined or influenced by clinician decisions, weakening its clinical validity.",
       "next_test": "Lock the clinical-Doppler reference model and test one prespecified molecular panel in a pregnancy-level, site-held-out cohort with calibration and decision-curve analysis.",
       "opponent": 4,
@@ -2699,6 +2654,51 @@
       "reason": "The longitudinal MRD project has the best immediate decision point: an available six-week dataset can test whether integrated biology adds value beyond residual burden, with patient- or mouse-level separation and clear useful branches. It also has a focused biological anchor rather than requiring a broad infrastructure effort. The main limitation is that its predictive signal may be specific to the engineered model, whereas the drug-response project has broader technology scope.",
       "target": 43,
       "timestamp": "2026-09-30T05:39:51.907165+00:00"
+    },
+    {
+      "main_risk": "FAM230F may not add transportable information beyond ultrasound, AFP, liver disease severity, and tumor-burden proxies once cutoff leakage and site effects are controlled.",
+      "next_test": "Blind a multi-site sample panel, lock the assay and threshold using development data only, and compare the biomarker-augmented model with the locked ultrasound-plus-AFP baseline for reproducibility, calibration, and decision-curve net benefit.",
+      "opponent": 24,
+      "outcome": "loss",
+      "reason": "External calibration of an HCC surveillance biomarker has clearer patient-level clinical value, stronger decision anchoring, and a more bounded validation path than composition-aware counterfactual modeling. Its external-cohort, calibration, and net-benefit criteria can produce a decisive result within six months.",
+      "target": 39,
+      "timestamp": "2026-09-30T12:43:42.841678+00:00"
+    },
+    {
+      "main_risk": "Cross-registry assay and treatment-exposure differences may erase any incremental value of eosinophils and FeNO beyond the clinical model.",
+      "next_test": "Confirm access to two independent registries, reconstruct the clinical baseline, and run a nested patient-level biomarker increment analysis with corticosteroid adjustment and external calibration.",
+      "opponent": 28,
+      "outcome": "loss",
+      "reason": "The asthma project has a clearer low-cost early decision, established clinical baselines, accessible patient-level validation metrics, and a direct calibration question across registries. The composition project has broader technological upside but requires several high-risk assumptions about state definitions, extrapolation, and prospective measurement before its value can be judged.",
+      "target": 39,
+      "timestamp": "2026-09-30T12:43:42.841698+00:00"
+    },
+    {
+      "main_risk": "Observed ranking instability may be caused by inadequate reference depth or sampling noise rather than genuine non-identifiability, weakening the proposed protocol's distinct contribution.",
+      "next_test": "Freeze several model predictions and compare shared, disjoint, and observation-independent reference evaluations using donor-blocked bootstrap intervals and perturbation-label nulls.",
+      "opponent": 36,
+      "outcome": "loss",
+      "reason": "Reference-invariant identification addresses a foundational validity problem and has the cheapest, earliest discriminating test: frozen predictions can be rescored under alternative control allocations without new data generation. It also yields useful outcomes if the favored hypothesis fails, whereas composition modeling adds more biological and prospective-data dependencies.",
+      "target": 39,
+      "timestamp": "2026-09-30T12:43:42.841707+00:00"
+    },
+    {
+      "main_risk": "Cell-state definitions and measured abundance shifts may be context- or annotation-dependent, making apparent compositional prediction gains non-identifiable biological effects.",
+      "next_test": "Use existing matched perturbation datasets to freeze state definitions within donor-held-out folds and test target/context-held-out composition predictions against compositional regression, retrieval, expression-first, and null baselines.",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "Composition-aware counterfactuals offer broader reusable technology value and a more flexible scientific anchor than a modality-specific corneal-imaging application. The project explicitly tests identifiability, context transport, calibration, and orthogonal validation, while the corneal study depends on difficult cross-site acquisition harmonization and a potentially circular clinical reference standard.",
+      "target": 39,
+      "timestamp": "2026-09-30T12:43:42.841714+00:00"
+    },
+    {
+      "main_risk": "Apparent regimen-specific molecular prediction may reflect treatment-selection confounding, cohort composition, or batch signal rather than actionable biology.",
+      "next_test": "Lock the smallest regimen-specific programs and evaluate clinical-only versus clinical-plus-program models in an independent patient-level cohort with nested preprocessing, calibrated decision-curve analysis, and explicit treatment-selection adjustment.",
+      "opponent": 25,
+      "outcome": "loss",
+      "reason": "Treatment-specific lupus nephritis response programs have a concrete clinical decision anchor and can produce useful regimen-specific conclusions even when some programs fail. The composition project has greater general technology breadth, but its success depends on multiple high-risk biological and measurement assumptions and costly prospective perturbation readouts.",
+      "target": 39,
+      "timestamp": "2026-09-30T12:43:42.841726+00:00"
     }
   ],
   "k_factor": 24,
@@ -2796,17 +2796,17 @@
     },
     "24": {
       "draws": 1,
-      "games": 20,
+      "games": 21,
       "losses": 6,
-      "rating": 1581.94,
-      "wins": 13
+      "rating": 1594.2,
+      "wins": 14
     },
     "25": {
       "draws": 1,
-      "games": 21,
+      "games": 22,
       "losses": 7,
-      "rating": 1575.49,
-      "wins": 13
+      "rating": 1587.2,
+      "wins": 14
     },
     "26": {
       "draws": 0,
@@ -2824,10 +2824,10 @@
     },
     "28": {
       "draws": 0,
-      "games": 19,
+      "games": 20,
       "losses": 5,
-      "rating": 1599.69,
-      "wins": 14
+      "rating": 1610.92,
+      "wins": 15
     },
     "29": {
       "draws": 0,
@@ -2852,9 +2852,9 @@
     },
     "31": {
       "draws": 0,
-      "games": 21,
-      "losses": 7,
-      "rating": 1576.86,
+      "games": 22,
+      "losses": 8,
+      "rating": 1564.09,
       "wins": 14
     },
     "32": {
@@ -2887,10 +2887,10 @@
     },
     "36": {
       "draws": 0,
-      "games": 13,
+      "games": 14,
       "losses": 3,
-      "rating": 1577.88,
-      "wins": 10
+      "rating": 1589.47,
+      "wins": 11
     },
     "37": {
       "draws": 0,
@@ -2908,10 +2908,10 @@
     },
     "39": {
       "draws": 0,
-      "games": 10,
-      "losses": 1,
-      "rating": 1589.49,
-      "wins": 9
+      "games": 15,
+      "losses": 5,
+      "rating": 1555.47,
+      "wins": 10
     },
     "4": {
       "draws": 1,
