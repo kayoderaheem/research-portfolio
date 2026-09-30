@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The apparent KRAS-induced state transitions may be treatment- or model-specific stress responses, clonal selection, or sampling artifacts rather than reproducible predictors of resistance.",
-      "next_test": "Profile matched pretreatment and early on-treatment samples from independent donors and test a prespecified transition score against later regrowth, using pretreatment composition and genotype as locked baselines.",
-      "opponent": 3,
-      "outcome": "win",
-      "reason": "Idea 7 has a clearer discovery anchor, explicit donor-level leakage-resistant validation, serial sampling to test temporal precedence, and useful outcomes even if specific FYN or RAS mechanisms fail. Idea 3 requires several linked assumptions about biomarker specificity, early detectability, causal DNA-damage-tolerance escape, and selective combination benefit, with relatively costly readouts.",
-      "target": 7,
-      "timestamp": "2026-09-15T17:05:26.247007+00:00"
-    },
-    {
-      "main_risk": "The transition score may not improve prediction beyond baseline composition, genotype, tumor burden, and clinical covariates.",
-      "next_test": "Run the prespecified early-transition prediction test in independent donors, with nested donor-level validation and a locked comparison against pretreatment-only and post-treatment abundance baselines.",
-      "opponent": 2,
-      "outcome": "loss",
-      "reason": "Idea 7 is a more actionable six-month investment because it tests a focused biological question with serial donor-level experiments and can pivot between modalities and models. Idea 2 has substantial clinical impact, but treatment-effect interaction, multimodal harmonization, adequate sample size, and independent transportability all depend on trial and cohort resources that may not support a rapid decisive result.",
-      "target": 7,
-      "timestamp": "2026-09-15T17:05:26.247025+00:00"
-    },
-    {
-      "main_risk": "The proposed KRAS-pathway transitions may fail to reproduce across independent PDAC donors or may reflect treatment modality rather than conserved resistance biology.",
-      "next_test": "Test a locked glycolytic or inflammatory-neighborhood-independent transition score using paired baseline and early-treatment PDAC donor samples, then compare its prediction of regrowth with composition and clinical baselines.",
-      "opponent": 18,
-      "outcome": "loss",
-      "reason": "Idea 7 is better positioned for a near-term investment: its PDAC/KRAS anchor links a defined perturbation to serial state changes and resistance, whereas Idea 18 depends on spatial sampling, cross-anatomical-site comparability, and translation of cell-line-derived metabolic-inflammatory programs into human cholangiocarcinoma. Idea 7 also offers clearer informative branches if spatial information or candidate dependencies do not replicate.",
-      "target": 7,
-      "timestamp": "2026-09-15T17:05:26.247035+00:00"
-    },
-    {
-      "main_risk": "Early KRAS-induced state changes may correlate with lesion burden or treatment stress without providing incremental or causal information about durable resistance.",
-      "next_test": "Use paired baseline and early-treatment PDAC donor samples to determine whether the locked transition score predicts time to regrowth beyond tumor burden, baseline composition, genotype, and treatment exposure.",
-      "opponent": 4,
-      "outcome": "loss",
-      "reason": "Idea 7 has a more constrained scientific problem and better-defined early decision than Idea 4, whose metastatic organ, treatment, myeloid population, assay, and control-of-metastasis endpoint remain broad. The myeloid-niche project also faces substantial confounding from lesion size, organ-specific immunity, segmentation, and treatment exposure before causal interpretation is possible.",
-      "target": 7,
-      "timestamp": "2026-09-15T17:05:26.247042+00:00"
-    },
-    {
-      "main_risk": "The KRAS transition signature may not transfer across perturbation modalities, PDAC models, or clinical specimens, eliminating its claimed generality.",
-      "next_test": "Lock a transition signature in training donors and test it prospectively in independent paired samples for prediction of regrowth, with site-independent orthogonal protein or phospho-validation and baseline-only controls.",
-      "opponent": 8,
-      "outcome": "loss",
-      "reason": "Idea 7 offers a stronger current balance of impact, feasibility, and flexibility. Idea 8 addresses an important site-specific clinical problem, but it requires sufficient ALK-rearranged samples across lung, lymph-node, and brain compartments and must separate spatial biology from anatomical site, prior therapy, burden, and sampling confounding. Idea 7 has a cheaper, clearer donor-level serial test and a broader set of useful outcomes if the favored spatial mechanism fails.",
-      "target": 7,
-      "timestamp": "2026-09-15T17:05:26.247049+00:00"
-    },
-    {
       "main_risk": "FAM230F may add no clinically meaningful information beyond ultrasound, AFP, liver disease severity, and disease-stage proxies, or may fail to transport across sites.",
       "next_test": "Run blinded replicate and cross-site assay testing, then evaluate the locked cfDNA marker against a locked ultrasound-plus- AFP model in an independent patient-level cohort at the prespecified triage threshold.",
       "opponent": 25,
@@ -2699,6 +2654,51 @@
       "reason": "Fetal growth restriction has a clearly anchored management task, established clinical and Doppler baselines, substantial potential patient value, and a direct site-held-out test of calibrated incremental decision value. The hypoxia project is more technologically differentiated, but its biological specificity, imaging availability, and cross-tumor transportability create greater feasibility and validation risk.",
       "target": 44,
       "timestamp": "2026-09-29T22:21:31.760631+00:00"
+    },
+    {
+      "main_risk": "The apparent transportability may disappear after controlling for assay scale, dose range, provenance, and dataset composition, leaving no useful biological generalization.",
+      "next_test": "Run the prespecified drug-disjoint and double-disjoint evaluation with strong simple baselines, calibration, and applicability-domain abstention before pursuing prospective combination assays.",
+      "opponent": 2,
+      "outcome": "win",
+      "reason": "Drug-response transportability is a broadly useful technology problem with a clearer data path, stronger leakage controls, and an early test that can distinguish biological generalization from assay and dataset artifacts. The pancreatic precision-medicine study has higher direct clinical stakes but depends on sufficiently comparable treatment groups, adequate sample size, and multiple institutions and modalities.",
+      "target": 43,
+      "timestamp": "2026-09-30T05:39:51.907119+00:00"
+    },
+    {
+      "main_risk": "Spatial organization may be the true missing determinant of blinatumomab response, making the broader predictor-focused project less biologically explanatory if its signals remain assay-dependent.",
+      "next_test": "Analyze a patient-level pilot marrow cohort with reproducible spatial features and compare them against clinical and composition-only baselines using strict held-out patients.",
+      "opponent": 11,
+      "outcome": "loss",
+      "reason": "The drug-response problem offers a more accessible and generalizable six-month project with a concrete transportability question and flexible data and modeling choices. The spatial leukemia project could reveal an important resistance mechanism, but it depends on scarce paired marrow specimens, reproducible spatial measurements, and incremental value beyond established clinical and composition features.",
+      "target": 43,
+      "timestamp": "2026-09-30T05:39:51.907139+00:00"
+    },
+    {
+      "main_risk": "The model may show only technical or assay-specific cross-domain differences, with no conserved response signal that supports treatment-ranking decisions.",
+      "next_test": "Perform the locked drug-disjoint and double-disjoint benchmark with transcriptomic-only, drug-only, pharmacologic, and simple ensemble baselines, then test whether uncertainty gating improves error at matched coverage.",
+      "opponent": 41,
+      "outcome": "win",
+      "reason": "Transportability of drug-response prediction has broader technology value, clearer external validation criteria, and a cheaper early branch structure. The quiescent-chromatin project is highly novel, but its success requires causal ordering, lineage-resolved recovery versus selection, adequate temporal coverage, and transfer across strains or protocols, creating several long-readout high-risk assumptions.",
+      "target": 43,
+      "timestamp": "2026-09-30T05:39:51.907148+00:00"
+    },
+    {
+      "main_risk": "Uncertainty estimates may identify dataset shift without identifying whether a prediction is biologically actionable, so the model may not improve combination selection.",
+      "next_test": "Compare locked transportability and uncertainty-gating methods against pharmacologic and simple context baselines on unseen drugs, tumor models, and double-unseen settings before selecting combinations.",
+      "opponent": 40,
+      "outcome": "win",
+      "reason": "The transportability problem addresses a general limitation across drug-response applications and has a stronger competitive position through explicit shift definitions, abstention, and leakage-resistant evaluation. The germ-cell-tumor combination project has a useful mechanistic anchor and good orthogonal validation, but unseen-context transfer and reliable synergy estimation require extensive donor-derived or three-dimensional validation.",
+      "target": 43,
+      "timestamp": "2026-09-30T05:39:51.907157+00:00"
+    },
+    {
+      "main_risk": "The integrated signature may merely encode residual tumor burden, sampling time, lineage composition, or engineered-model artifacts and fail in an independent longitudinal cohort.",
+      "next_test": "Pre-register and run the six-week comparison of burden-only, baseline, bulk, genomic-persistence, single-cell, and integrated models under individual-level leakage-resistant splits, with calibration and resampling stability.",
+      "opponent": 42,
+      "outcome": "loss",
+      "reason": "The longitudinal MRD project has the best immediate decision point: an available six-week dataset can test whether integrated biology adds value beyond residual burden, with patient- or mouse-level separation and clear useful branches. It also has a focused biological anchor rather than requiring a broad infrastructure effort. The main limitation is that its predictive signal may be specific to the engineered model, whereas the drug-response project has broader technology scope.",
+      "target": 43,
+      "timestamp": "2026-09-30T05:39:51.907165+00:00"
     }
   ],
   "k_factor": 24,
@@ -2719,10 +2719,10 @@
     },
     "11": {
       "draws": 1,
-      "games": 19,
+      "games": 20,
       "losses": 8,
-      "rating": 1527.45,
-      "wins": 10
+      "rating": 1540.0,
+      "wins": 11
     },
     "12": {
       "draws": 0,
@@ -2768,9 +2768,9 @@
     },
     "2": {
       "draws": 0,
-      "games": 23,
-      "losses": 10,
-      "rating": 1528.89,
+      "games": 24,
+      "losses": 11,
+      "rating": 1516.98,
       "wins": 13
     },
     "21": {
@@ -2922,31 +2922,31 @@
     },
     "40": {
       "draws": 0,
-      "games": 14,
-      "losses": 6,
-      "rating": 1520.96,
+      "games": 15,
+      "losses": 7,
+      "rating": 1509.71,
       "wins": 8
     },
     "41": {
       "draws": 0,
-      "games": 14,
-      "losses": 6,
-      "rating": 1523.16,
+      "games": 15,
+      "losses": 7,
+      "rating": 1511.43,
       "wins": 8
     },
     "42": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 3,
-      "rating": 1548.38,
-      "wins": 7
+      "rating": 1560.57,
+      "wins": 8
     },
     "43": {
       "draws": 0,
-      "games": 7,
-      "losses": 2,
-      "rating": 1531.48,
-      "wins": 5
+      "games": 12,
+      "losses": 4,
+      "rating": 1541.63,
+      "wins": 8
     },
     "44": {
       "draws": 0,
