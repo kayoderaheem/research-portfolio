@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The choice would change if sufficiently large independent lupus nephritis cohorts with harmonized endpoints and regimen exposure are not available, while ALK cohorts and spatial assays are readily accessible.",
-      "next_test": "Blindly evaluate locked gene-expression programs versus the clinical model in an independent, patient-separated lupus nephritis cohort and assess calibration and decision-curve benefit.",
-      "opponent": 8,
-      "outcome": "win",
-      "reason": "Lupus nephritis offers a clearer regimen-specific clinical decision, stronger leakage-resistant validation framework, and a cheaper early test using an independent cohort. The ALK project has high discovery value but faces greater confounding from metastatic site, treatment history, lesion sampling, and spatial assay transferability before establishing response modification.",
-      "target": 25,
-      "timestamp": "2026-09-16T11:44:47.714958+00:00"
-    },
-    {
-      "main_risk": "The choice would change if the lupus cohorts cannot support regimen-specific external validation or if the CAF–immune neighborhood already has unusually strong, accessible paired patient data.",
-      "next_test": "Run a locked clinical-only versus clinical-plus-program comparison in a blinded independent lupus cohort, with prespecified calibration and enrichment thresholds.",
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "Lupus nephritis is the stronger current investment because its fixed anchor is a defined treatment-selection problem with a direct external-validation path. The CAF project combines paired biopsies, spatial reproducibility, treatment-induced change, and organoid preservation of immune-stromal interactions, creating a longer chain of high-risk assumptions before a useful result.",
-      "target": 25,
-      "timestamp": "2026-09-16T11:44:47.714980+00:00"
-    },
-    {
-      "main_risk": "The choice would change if FADS1 or arachidonic-acid spatial measurements are already validated and linked to sufficiently sized patient-level checkpoint-response cohorts with orthogonal T-cell fitness assays.",
-      "next_test": "Test the locked lupus programs against the clinical baseline in an independent cohort before expanding to additional regimens or assays.",
-      "opponent": 10,
-      "outcome": "win",
-      "reason": "The lupus nephritis problem is more ready for a six-month investment: it asks whether locked molecular information adds calibrated value to clinical models for a defined regimen decision and has explicit independent-cohort and leakage controls. The HCC proposal has greater mechanistic novelty but depends on spatially heterogeneous, biologically active arachidonic-acid measurements, difficult lipid normalization, and transport across checkpoint and cellular-therapy contexts.",
-      "target": 25,
-      "timestamp": "2026-09-16T11:44:47.714990+00:00"
-    },
-    {
-      "main_risk": "The choice would change if a prospective organoid workflow already demonstrates high establishment success and clinically actionable turnaround across an independent cohort.",
-      "next_test": "Compare a locked regimen-specific molecular program plus clinical model with the clinical model alone in an independent patient-separated cohort, reporting calibration, uncertainty, and expected responder yield.",
-      "opponent": 1,
-      "outcome": "win",
-      "reason": "Lupus nephritis provides a more bounded and falsifiable investment with a defined enrichment use, patient-level validation, and an early external test. Functional organoid profiling could have substantial clinical value, but success requires rapid culture establishment, representative drug response, resistance readouts, feasible treatment timing, and prospective outcome validation, all of which are costly and sequentially risky.",
-      "target": 25,
-      "timestamp": "2026-09-16T11:44:47.715000+00:00"
-    },
-    {
-      "main_risk": "The choice would change if controlled compression experiments and an accessible independent glioblastoma cohort show that the proposed mechanical proxy is reproducible and independently predictive beyond vimentin, hypoxia, necrosis, and tumor density.",
-      "next_test": "Perform the blinded independent-cohort test of locked lupus programs against a prespecified clinical reference model, with external calibration and decision-curve analysis.",
-      "opponent": 6,
-      "outcome": "win",
-      "reason": "Lupus nephritis is more suitable for immediate research time because the biological signal can be tested with established patient-level predictive-validation methods and a clear decision threshold. The glioblastoma project relies on indirect mechanical-stress proxies, matched treatment specimens, separation from hypoxia and mesenchymal state, and cross-institution transfer of a complex spatial feature, making both measurement validity and readout timing uncertain.",
-      "target": 25,
-      "timestamp": "2026-09-16T11:44:47.715007+00:00"
-    },
-    {
       "main_risk": "Whether the molecular/cfDNA signal adds information beyond established clinical baselines rather than proxying disease burden or selection bias",
       "next_test": "Locked nested-model comparison (baseline vs baseline+marker) on an independent, patient-level split cohort with calibration and decision-curve metrics",
       "opponent": 25,
@@ -2699,6 +2654,51 @@
       "reason": "The myeloma problem offers a stronger near-term investment because the data structure and earliest discriminating analysis are more explicitly available, while retaining useful branches around burden, genomic persistence, and cell state. The blinatumomab project is biologically compelling but depends on scarce paired marrow specimens, technically reproducible spatial assays, and an external treated cohort in a narrow population.",
       "target": 42,
       "timestamp": "2026-09-30T20:05:45.327633+00:00"
+    },
+    {
+      "main_risk": "CAIX-targeted uptake may primarily reflect perfusion, necrosis, or tumor burden rather than hypoxia-specific resistance.",
+      "next_test": "Run the 10-week blinded serial-imaging pilot against baseline CAIX, conventional imaging change, and orthogonal tissue or perfusion/necrosis measures with patient-level separation.",
+      "opponent": 6,
+      "outcome": "win",
+      "reason": "Early functional hypoxia imaging has a clearer near-term decision anchor, a potentially broad resistance-monitoring payoff, and a cheaper discriminating pilot than the highly novel but assay- and tissue-intensive mechanical-niche project.",
+      "target": 44,
+      "timestamp": "2026-10-01T00:35:50.333021+00:00"
+    },
+    {
+      "main_risk": "The hypoxia trajectory may fail to generalize across tumor types, treatments, scanners, or sites.",
+      "next_test": "Test early CAIX-uptake change in a small independent serial-imaging cohort, using prespecified landmark prediction and orthogonal specificity checks.",
+      "opponent": 22,
+      "outcome": "win",
+      "reason": "The hypoxia project has a more concrete early readout and a fixed resistance-timing question, whereas the multiple-sclerosis project requires a locked assay, independent population, treatment-stratified longitudinal evidence, cross-compartment validity, and transportable calibration before its clinical use is clear.",
+      "target": 44,
+      "timestamp": "2026-10-01T00:35:50.333042+00:00"
+    },
+    {
+      "main_risk": "The hypoxia signal may not add beyond conventional imaging or baseline tissue CAIX because early uptake is nonspecific.",
+      "next_test": "Compare early CAIX-imaging trajectories with conventional imaging, baseline CAIX, and orthogonal hypoxia/perfusion measures in a blinded patient-level pilot before attempting broad transport claims.",
+      "opponent": 29,
+      "outcome": "win",
+      "reason": "Urine microRNA has the cleaner incremental-biomarker design and lower assay risk, but its impact is narrow, the adaptive treatment decision is not yet established as useful, and external matched validation is a major dependency. The hypoxia project offers broader resistance insight and a similarly early but more consequential biological test.",
+      "target": 44,
+      "timestamp": "2026-10-01T00:35:50.333053+00:00"
+    },
+    {
+      "main_risk": "CAIX-targeted imaging may not measure the causal or clinically relevant hypoxic protection state.",
+      "next_test": "Perform the prespecified 10-week serial-imaging test with tissue and orthogonal assays, requiring incremental prediction over conventional imaging and baseline CAIX.",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "The hypoxia problem is more immediately testable and transferable, with a defined early landmark and established competing baselines. The MPNST project is strongly differentiated but depends on rare matched longitudinal tissue, reliable malignant-cell assignment, reproducible ZNF423 transitions, and spatial information beyond composition.",
+      "target": 44,
+      "timestamp": "2026-10-01T00:35:50.333059+00:00"
+    },
+    {
+      "main_risk": "The CAIX imaging result may be prognostic only and fail to identify a modifiable treatment decision before progression.",
+      "next_test": "Use a retrospective serial cohort to test whether early CAIX change adds calibrated, patient-level decision value beyond conventional imaging and clinical covariates, with tissue or perfusion specificity checks.",
+      "opponent": 32,
+      "outcome": "win",
+      "reason": "Both projects have substantial clinical potential, but the myocarditis proposal has a particularly difficult treatment-label problem, heterogeneous missing modalities, referral and timing bias, and a long calibration-transport chain. The hypoxia project has a more stable scientific anchor and a cheaper early test, while still offering a meaningful resistance-management branch.",
+      "target": 44,
+      "timestamp": "2026-10-01T00:35:50.333068+00:00"
     }
   ],
   "k_factor": 24,
@@ -2761,9 +2761,9 @@
     },
     "19": {
       "draws": 0,
-      "games": 17,
-      "losses": 11,
-      "rating": 1438.01,
+      "games": 18,
+      "losses": 12,
+      "rating": 1426.62,
       "wins": 6
     },
     "2": {
@@ -2782,9 +2782,9 @@
     },
     "22": {
       "draws": 0,
-      "games": 17,
-      "losses": 12,
-      "rating": 1412.2,
+      "games": 18,
+      "losses": 13,
+      "rating": 1400.9,
       "wins": 5
     },
     "23": {
@@ -2831,9 +2831,9 @@
     },
     "29": {
       "draws": 0,
-      "games": 18,
-      "losses": 12,
-      "rating": 1435.72,
+      "games": 19,
+      "losses": 13,
+      "rating": 1424.0,
       "wins": 6
     },
     "3": {
@@ -2859,9 +2859,9 @@
     },
     "32": {
       "draws": 0,
-      "games": 19,
-      "losses": 12,
-      "rating": 1446.67,
+      "games": 20,
+      "losses": 13,
+      "rating": 1435.37,
       "wins": 7
     },
     "33": {
@@ -2950,10 +2950,10 @@
     },
     "44": {
       "draws": 0,
-      "games": 11,
+      "games": 16,
       "losses": 9,
-      "rating": 1420.46,
-      "wins": 2
+      "rating": 1478.27,
+      "wins": 7
     },
     "5": {
       "draws": 3,
@@ -2964,9 +2964,9 @@
     },
     "6": {
       "draws": 0,
-      "games": 17,
-      "losses": 12,
-      "rating": 1423.43,
+      "games": 18,
+      "losses": 13,
+      "rating": 1411.33,
       "wins": 5
     },
     "7": {
