@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Whether the molecular/cfDNA signal adds information beyond established clinical baselines rather than proxying disease burden or selection bias",
-      "next_test": "Locked nested-model comparison (baseline vs baseline+marker) on an independent, patient-level split cohort with calibration and decision-curve metrics",
-      "opponent": 25,
-      "outcome": "draw",
-      "reason": "Both are treatment-decision, external-validation-focused precision-medicine problems with comparable rigor, leakage controls, and staged decision trees; neither has a clear evidentiary edge over the other from the text alone.",
-      "target": 24,
-      "timestamp": "2026-09-16T17:05:16.525586+00:00"
-    },
-    {
-      "main_risk": "Whether FAM230F cfDNA reproducibility and calibration hold cross-site (#24) vs whether a rehabilitation decision protocol can even be operationalized consistently across sites (#23)",
-      "next_test": "#24's 10-week blinded multi-site reproducibility and locked-threshold net-benefit test is cheaper and more decisive than #23's dependency on defining and delivering a consistent rehabilitation escalation protocol first",
-      "opponent": 23,
-      "outcome": "win",
-      "reason": "#24 targets a single, well-defined clinical decision (HCC surveillance triage) with an existing promising marker and a tight, cheap first test (cross-site reproducibility + locked threshold); #23 stacks a novel multi-axis phenotype, a not-yet-specified rehabilitation decision rule, and a long 18-20 week readout before any real signal, raising execution risk before biology is even tested.",
-      "target": 24,
-      "timestamp": "2026-09-16T17:05:16.525605+00:00"
-    },
-    {
-      "main_risk": "Whether BCL2-high persistence reflects niche protection versus simply marking advanced/proliferative clones (a confound explicitly flagged)",
-      "next_test": "#15's 10-week paired pretreatment/early-treatment spatial proximity-vs-persistence test, compared against BCL2 abundance and proliferation alone",
-      "opponent": 15,
-      "outcome": "loss",
-      "reason": "#15 proposes a mechanistic, spatially-resolved niche hypothesis with an experimentally testable causal claim (BCL2 inhibition, organoid-fibroblast perturbation) offering higher discovery value and orthogonal validation branches; #24 is a narrower incremental-biomarker validation question with lower novelty ceiling, though also solid.",
-      "target": 24,
-      "timestamp": "2026-09-16T17:05:16.525615+00:00"
-    },
-    {
-      "main_risk": "Whether a treatment-induced spatial transition is measurable and reproducible across patients before addressing whether it adds predictive value beyond composition/clinical covariates",
-      "next_test": "#5's 10-week paired baseline/early-treatment profiling to quantify transition reproducibility via patient-level resampling",
-      "opponent": 5,
-      "outcome": "loss",
-      "reason": "#5 addresses a more general, mechanistically rich discovery question (treatment-induced spatial immune-priming transitions) with useful branches into biology and treatment timing even if the hypothesis fails, versus #24's narrower single-biomarker validation with a fixed, less generalizable clinical anchor.",
-      "target": 24,
-      "timestamp": "2026-09-16T17:05:16.525625+00:00"
-    },
-    {
-      "main_risk": "Whether harmonized response labels and reproducible spatial feature extraction across centers can be achieved before the core comparison is even meaningful",
-      "next_test": "#17's preregistered nested benchmark with one center held out, comparing spatial vs composition-plus-clinical models on calibrated discrimination and decision curves",
-      "opponent": 17,
-      "outcome": "loss",
-      "reason": "#17 is a broader, timely methodological benchmark question (does spatial context add value across an entire multimodal AI subfield) with strong baseline rigor and clear falsifiability, offering field-level leverage beyond a single biomarker; #24 is narrower in scope though still solid.",
-      "target": 24,
-      "timestamp": "2026-09-16T17:05:16.525632+00:00"
-    },
-    {
       "main_risk": "Whether tissue cohorts of checkpoint-treated melanoma patients with HIV are actually assemblable in adequate numbers.",
       "next_test": "Run the 12-week multiplex protein imaging pilot on available HIV+ melanoma specimens and test spatial antigen-presentation/exclusion coupling against response.",
       "opponent": 12,
@@ -2699,6 +2654,51 @@
       "reason": "Both projects have substantial clinical potential, but the myocarditis proposal has a particularly difficult treatment-label problem, heterogeneous missing modalities, referral and timing bias, and a long calibration-transport chain. The hypoxia project has a more stable scientific anchor and a cheaper early test, while still offering a meaningful resistance-management branch.",
       "target": 44,
       "timestamp": "2026-10-01T00:35:50.333068+00:00"
+    },
+    {
+      "main_risk": "Issue 43 may fail if apparent cross-domain response signals are driven primarily by assay, dose, provenance, or dataset effects rather than transportable biology.",
+      "next_test": "Run strict drug-disjoint and double-disjoint ablations on a development cohort, then test the locked uncertainty-gated model on the smallest genuinely independent cohort or orthogonal assay available.",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "Issue 43 offers broader utility, more accessible retrospective validation, strong leakage-resistant baselines, and an early decision point. Issue 11 has high clinical value but depends on difficult spatial sampling, reproducible tissue measurements, adequate longitudinal specimens, and incremental value beyond established composition and clinical predictors.",
+      "target": 43,
+      "timestamp": "2026-10-01T10:15:16.902722+00:00"
+    },
+    {
+      "main_risk": "Issue 43 may not show that uncertainty or applicability-domain estimates improve treatment-ranking decisions beyond strong simple baselines under genuine unseen-drug and unseen-tumor shifts.",
+      "next_test": "Lock transcriptomic-only, drug-structure-only, additive, and complex models under strict drug-disjoint and double-disjoint splits and measure ranking error, calibration, and abstention utility on held-out shifts.",
+      "opponent": 39,
+      "outcome": "loss",
+      "reason": "Issue 43 is the stronger six-month investment because its scientific anchor is broad and decision-oriented, its data and baselines are comparatively mature, and strict transportability tests can quickly distinguish useful signal from dataset-specific performance. Issue 39 has major conceptual value but requires simultaneously resolving state identifiability, donor and perturbation extrapolation, neighborhood representation, and prospective counterfactual validation.",
+      "target": 43,
+      "timestamp": "2026-10-01T10:15:16.902743+00:00"
+    },
+    {
+      "main_risk": "Issue 43 may produce transportable prediction without demonstrating that relative response rankings or abstention rules are clinically actionable for combination selection.",
+      "next_test": "Use a locked model in an external cohort to compare treatment-ranking and uncertainty-gated utility against clinical, drug-only, tumor-state-only, and simple ensemble baselines.",
+      "opponent": 2,
+      "outcome": "win",
+      "reason": "Issue 43 has a broader technology contribution and a more feasible early readout than Issue 2. The pancreatic-cancer project could have greater direct clinical value, but estimating transportable differential benefit requires adequate randomized interaction power, harmonized multimodal data, and an independent institutional cohort, creating several long-readout dependencies.",
+      "target": 43,
+      "timestamp": "2026-10-01T10:15:16.902751+00:00"
+    },
+    {
+      "main_risk": "Issue 43 may require external cohorts and orthogonal assays that are unavailable or too heterogeneous for a credible six-month transportability test.",
+      "next_test": "Complete a strict leakage audit and nested drug-disjoint/double-disjoint benchmark with measurement-matched simple baselines, then test whether uncertainty gating improves calibrated ranking utility on an independent cohort.",
+      "opponent": 27,
+      "outcome": "win",
+      "reason": "Issue 43 addresses a broader and less incremental problem than Issue 27 and has greater potential leverage across drug-response settings. Issue 27 is relatively tractable and well structured, but its prior temporal-model result did not beat tuned LightGBM, and the central gain may disappear after controlling for measurement density; access to a third independent ICU database is also uncertain.",
+      "target": 43,
+      "timestamp": "2026-10-01T10:15:16.902755+00:00"
+    },
+    {
+      "main_risk": "Issue 43 may fail to establish that its learned response relationships generalize biologically rather than reflecting assay composition, dose range, or compound and tumor-model overlap.",
+      "next_test": "Prospectively evaluate the locked transportability and uncertainty rule on unseen drugs and tumor models, with an orthogonal response assay and explicit abstention thresholds.",
+      "opponent": 41,
+      "outcome": "loss",
+      "reason": "Issue 43 provides a broader, more replaceable technology target with clearer near-term datasets, baselines, and branch points. Issue 41 is unusually novel and could reveal important history-dependent chromatin biology, but it combines uncertain mechanism, demanding lineage-resolved multimodal experiments, causal ordering, schedule extrapolation, and cross-strain transfer within a six-month window.",
+      "target": 43,
+      "timestamp": "2026-10-01T10:15:16.902761+00:00"
     }
   ],
   "k_factor": 24,
@@ -2719,9 +2719,9 @@
     },
     "11": {
       "draws": 1,
-      "games": 21,
-      "losses": 9,
-      "rating": 1529.51,
+      "games": 22,
+      "losses": 10,
+      "rating": 1517.55,
       "wins": 11
     },
     "12": {
@@ -2768,9 +2768,9 @@
     },
     "2": {
       "draws": 0,
-      "games": 24,
-      "losses": 11,
-      "rating": 1516.98,
+      "games": 25,
+      "losses": 12,
+      "rating": 1505.45,
       "wins": 13
     },
     "21": {
@@ -2817,9 +2817,9 @@
     },
     "27": {
       "draws": 0,
-      "games": 21,
-      "losses": 10,
-      "rating": 1513.53,
+      "games": 22,
+      "losses": 11,
+      "rating": 1502.52,
       "wins": 11
     },
     "28": {
@@ -2908,10 +2908,10 @@
     },
     "39": {
       "draws": 0,
-      "games": 16,
+      "games": 17,
       "losses": 6,
-      "rating": 1543.67,
-      "wins": 10
+      "rating": 1555.64,
+      "wins": 11
     },
     "4": {
       "draws": 1,
@@ -2929,10 +2929,10 @@
     },
     "41": {
       "draws": 0,
-      "games": 15,
+      "games": 16,
       "losses": 7,
-      "rating": 1511.43,
-      "wins": 8
+      "rating": 1524.87,
+      "wins": 9
     },
     "42": {
       "draws": 0,
@@ -2943,10 +2943,10 @@
     },
     "43": {
       "draws": 0,
-      "games": 13,
-      "losses": 5,
-      "rating": 1530.71,
-      "wins": 8
+      "games": 18,
+      "losses": 7,
+      "rating": 1539.8,
+      "wins": 11
     },
     "44": {
       "draws": 0,
