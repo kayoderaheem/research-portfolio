@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Whether tissue cohorts of checkpoint-treated melanoma patients with HIV are actually assemblable in adequate numbers.",
-      "next_test": "Run the 12-week multiplex protein imaging pilot on available HIV+ melanoma specimens and test spatial antigen-presentation/exclusion coupling against response.",
-      "opponent": 12,
-      "outcome": "loss",
-      "reason": "12 has a concrete, narrow mechanistic anchor (spatial antigen-presentation/immune coupling) with a cheap 12-week multiplex-imaging pilot, whereas 21 is a diffuse, multi-site clinical-utility question spanning many modalities and decisions that is unlikely to reach a real readout in six months.",
-      "target": 21,
-      "timestamp": "2026-09-16T21:23:21.847297+00:00"
-    },
-    {
-      "main_risk": "Whether the treatment-induced transition is reproducible across independent donors rather than model-specific.",
-      "next_test": "Profile matched pre/early-on-treatment samples from several independent PDAC donor models and check transition-score concordance and prediction of regrowth.",
-      "opponent": 7,
-      "outcome": "loss",
-      "reason": "7 anchors to existing single-cell PDAC data with a clear, falsifiable 12-week donor-level test, while 21 requires multi-site clinical infrastructure, outcome harmonization, and prospective data unlikely to be tractable in six months.",
-      "target": 21,
-      "timestamp": "2026-09-16T21:23:21.847319+00:00"
-    },
-    {
-      "main_risk": "Whether the state score remains calibrated and reproducible across independent sites and assays.",
-      "next_test": "Lock the feature/gating definition and test cross-lab/platform repeatability on replicate samples before any prognostic claims.",
-      "opponent": 22,
-      "outcome": "loss",
-      "reason": "22 validates a single locked immune-state assay against clear baselines with an existing biological rationale (anti-CD20 study), a narrower and more executable scope than 21's multi-modality, multi-decision framework.",
-      "target": 21,
-      "timestamp": "2026-09-16T21:23:21.847328+00:00"
-    },
-    {
-      "main_risk": "Small MPNST patient numbers may prevent reproducibility across patients even if the pilot signal looks promising.",
-      "next_test": "Test whether baseline ZNF423 state and neighborhood features predict early on-treatment restoration and later escape in the pilot longitudinal cohort.",
-      "opponent": 19,
-      "outcome": "loss",
-      "reason": "19 leverages an existing dataset (GSE320236) giving a concrete mechanistic starting point and a well-specified 12-week pilot with quantitative thresholds, while 21's decision-value framework spans too many floating parameters to reach any decision in six months.",
-      "target": 21,
-      "timestamp": "2026-09-16T21:23:21.847335+00:00"
-    },
-    {
-      "main_risk": "Whether biomarker changes reflect a genuine damage-tolerance mechanism versus nonspecific cytotoxic injury.",
-      "next_test": "Serially measure lesion/replication-stress markers in treatment-naive vs resistant matched models and test if the locked threshold predicts regrowth and combination benefit.",
-      "opponent": 3,
-      "outcome": "loss",
-      "reason": "3 has a tight mechanistic hypothesis (DNA-damage-tolerance escape) testable in patient-derived/isogenic models with a cheap 10-week readout and clear combination-therapy branch, offering broader generality across genotoxic agents than 21's sprawling clinical-decision scope.",
-      "target": 21,
-      "timestamp": "2026-09-16T21:23:21.847342+00:00"
-    },
-    {
       "main_risk": "Whether organoid establishment succeeds fast enough within the clinical decision window",
       "next_test": "Prospectively track organoid establishment success rate and turnaround time against real treatment-decision deadlines",
       "opponent": 1,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 43 provides a broader, more replaceable technology target with clearer near-term datasets, baselines, and branch points. Issue 41 is unusually novel and could reveal important history-dependent chromatin biology, but it combines uncertain mechanism, demanding lineage-resolved multimodal experiments, causal ordering, schedule extrapolation, and cross-strain transfer within a six-month window.",
       "target": 43,
       "timestamp": "2026-10-01T10:15:16.902761+00:00"
+    },
+    {
+      "main_risk": "CAIX-targeted uptake may primarily reflect perfusion, necrosis, delivery, or tumor burden rather than hypoxia-specific resistance.",
+      "next_test": "Run the blinded 10-week serial-imaging study comparing early CAIX uptake change with baseline CAIX, conventional imaging change, and later progression, with spatially matched orthogonal hypoxia and perfusion/necrosis assays.",
+      "opponent": 44,
+      "outcome": "loss",
+      "reason": "Early CAIX-targeted imaging addresses a clinically consequential decision and has a relatively direct patient-level test against established imaging and tissue baselines. The virtual-cell problem is broader, but multimodal measurement, donor and perturbation reproducibility, prospective assay freezing, and functional validation create a longer chain of high-risk assumptions.",
+      "target": 37,
+      "timestamp": "2026-10-01T18:27:51.953976+00:00"
+    },
+    {
+      "main_risk": "FADS1 or arachidonic-acid spatial features may not measure active signaling or add predictive information beyond immune composition, antigenicity, and liver disease severity.",
+      "next_test": "Profile pretreatment HCC tissue in a patient-level development cohort and test a prespecified FADS1/lipid-to-CXCR6+ resident-memory proximity feature against clinical and composition-only models, with orthogonal lipid and T-cell fitness measurements.",
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "The HCC niche problem has a specific mechanistic anchor, a strong observation motivating the hypothesis, and a feasible 11-week patient-level spatial test with composition-only and clinical baselines. The virtual-cell proposal has greater general scope but depends on assembling and aligning several modalities and proving that added information is not donor, batch, or composition leakage.",
+      "target": 37,
+      "timestamp": "2026-10-01T18:27:51.953996+00:00"
+    },
+    {
+      "main_risk": "The candidate biomarker may track nonspecific drug injury, exposure, cell-cycle suppression, or sampling variation rather than DNA-damage-tolerance-mediated escape.",
+      "next_test": "In independent patient- or donor-derived models, measure baseline and early-treatment biomarkers, lock the threshold, then test prediction of later regrowth and preferential benefit from DNA-damage-tolerance inhibition.",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "DNA-damage-tolerance escape has a clearer mechanism-linked intervention, functional perturbation models, and an early branch point: a locked biomarker can be tested for predicting regrowth and selective combination benefit within about 10 weeks. The virtual-cell project offers broader insight but requires reproducible cross-donor perturbations and multiple prospective regulatory readouts before its central claim is testable.",
+      "target": 37,
+      "timestamp": "2026-10-01T18:27:51.954005+00:00"
+    },
+    {
+      "main_risk": "Multimodal regulatory features may improve prediction through donor, batch, library-depth, or cell-composition proxies while the intervention effect remains non-identifiable.",
+      "next_test": "Conduct the donor-replicated 12-week pilot with expression-only and multimodal models frozen before testing unseen perturbations, using donor-blocked evaluation and an orthogonal chromatin, splicing, protein, or functional endpoint.",
+      "opponent": 23,
+      "outcome": "loss",
+      "reason": "The virtual-cell problem is the stronger scientific investment because it targets a general question about whether regulatory-state information makes intervention predictions identifiable and falsifiable, with useful outcomes even if multimodality fails. The rehabilitation proposal has clearer clinical framing but depends on defining and delivering a consistent intervention and may find that inflammation merely tracks recovery severity without changing decisions.",
+      "target": 37,
+      "timestamp": "2026-10-01T18:27:51.954017+00:00"
+    },
+    {
+      "main_risk": "The spatial score may be a proxy for anatomical site, treatment history, tumor burden, or sampling differences rather than a transferable response-modifying niche.",
+      "next_test": "Use a patient-level pretreatment development cohort to test a locked tumor–stroma–immune neighborhood score against composition-plus-clinical baselines, with replicate sections and leave-one-site-out evaluation.",
+      "opponent": 8,
+      "outcome": "loss",
+      "reason": "The ALK niche problem is anchored to an observed metastatic-site context and can yield a focused 10-week test of whether spatial topology adds value beyond genotype, site, composition, and clinical covariates. Although rare archival samples and site confounding are important risks, the virtual-cell proposal requires broader multimodal data integration and prospective validation across perturbations, making its success less likely within six months.",
+      "target": 37,
+      "timestamp": "2026-10-01T18:27:51.954024+00:00"
     }
   ],
   "k_factor": 24,
@@ -2712,10 +2712,10 @@
     },
     "10": {
       "draws": 0,
-      "games": 23,
+      "games": 24,
       "losses": 13,
-      "rating": 1466.36,
-      "wins": 10
+      "rating": 1478.33,
+      "wins": 11
     },
     "11": {
       "draws": 1,
@@ -2789,10 +2789,10 @@
     },
     "23": {
       "draws": 0,
-      "games": 21,
+      "games": 22,
       "losses": 12,
-      "rating": 1465.77,
-      "wins": 9
+      "rating": 1477.78,
+      "wins": 10
     },
     "24": {
       "draws": 1,
@@ -2838,9 +2838,9 @@
     },
     "3": {
       "draws": 0,
-      "games": 23,
-      "losses": 13,
-      "rating": 1466.06,
+      "games": 24,
+      "losses": 14,
+      "rating": 1453.63,
       "wins": 10
     },
     "30": {
@@ -2894,10 +2894,10 @@
     },
     "37": {
       "draws": 0,
-      "games": 14,
-      "losses": 8,
-      "rating": 1477.6,
-      "wins": 6
+      "games": 19,
+      "losses": 12,
+      "rating": 1442.37,
+      "wins": 7
     },
     "38": {
       "draws": 0,
@@ -2950,10 +2950,10 @@
     },
     "44": {
       "draws": 0,
-      "games": 16,
+      "games": 17,
       "losses": 9,
-      "rating": 1478.27,
-      "wins": 7
+      "rating": 1490.25,
+      "wins": 8
     },
     "5": {
       "draws": 3,
@@ -2978,10 +2978,10 @@
     },
     "8": {
       "draws": 0,
-      "games": 21,
+      "games": 22,
       "losses": 12,
-      "rating": 1462.64,
-      "wins": 9
+      "rating": 1474.34,
+      "wins": 10
     },
     "9": {
       "draws": 1,
