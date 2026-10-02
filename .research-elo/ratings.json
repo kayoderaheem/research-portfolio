@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Whether organoid establishment succeeds fast enough within the clinical decision window",
-      "next_test": "Prospectively track organoid establishment success rate and turnaround time against real treatment-decision deadlines",
-      "opponent": 1,
-      "outcome": "loss",
-      "reason": "Idea 1 targets a direct clinical-decision endpoint (does functional testing change treatment choice in time) using an already-validated organoid platform, giving nearer-term, higher-value readouts than idea 6's speculative mechanical-niche measurement problem.",
-      "target": 6,
-      "timestamp": "2026-09-17T04:59:01.193518+00:00"
-    },
-    {
-      "main_risk": "Whether spatial FADS1/lipid measurements reflect active signaling rather than nonspecific lipid accumulation",
-      "next_test": "Correlate spatial FADS1/lipid signal with orthogonal T-cell metabolic/cytotoxicity assays in a small tissue panel",
-      "opponent": 10,
-      "outcome": "loss",
-      "reason": "Idea 10 builds on a concrete published mechanism (FADS1-arachidonic acid impairing CXCR6+ Trm fitness) giving a differentiated, testable spatial biomarker for an actionable therapy choice, whereas idea 6's mechanical-stress proxies in clinical tissue are unvalidated and harder to standardize.",
-      "target": 6,
-      "timestamp": "2026-09-17T04:59:01.193541+00:00"
-    },
-    {
-      "main_risk": "Whether the tumor-CAF-immune neighborhood measured is reproducible across specimens and platforms",
-      "next_test": "Cross-platform concordance check of neighborhood scores from replicate regions using spatial transcriptomics vs multiplex imaging",
-      "opponent": 13,
-      "outcome": "loss",
-      "reason": "Idea 13 has higher evidence readiness, an already-working patient-derived tumoroid system preserving stroma/immune context, and a clearly staged nested-baseline validation plan, making it more tractable than idea 6's unproven mechanical-proxy measurement chain.",
-      "target": 6,
-      "timestamp": "2026-09-17T04:59:01.193551+00:00"
-    },
-    {
-      "main_risk": "Whether the spatial topology signal is confounded by anatomical site or prior treatment rather than reflecting drug response biology",
-      "next_test": "Fit patient-level models with and without site adjustment and check whether topology signal survives site-stratified analysis",
-      "opponent": 8,
-      "outcome": "loss",
-      "reason": "Idea 8 leverages existing spatial transcriptomic data across matched metastatic sites with a clearer genotype-anchored comparison and leave-one-site-out design, offering better competitive positioning than idea 6's unestablished mechanical-stress proxy approach.",
-      "target": 6,
-      "timestamp": "2026-09-17T04:59:01.193559+00:00"
-    },
-    {
-      "main_risk": "Whether the molecular modality captures biology not redundant with existing biometry and Doppler measures",
-      "next_test": "Compare nested reference vs multimodal models within onset-timing strata using net benefit and calibration",
-      "opponent": 26,
-      "outcome": "loss",
-      "reason": "Idea 26 has a clinically consequential, reproducibly definable endpoint and rigorous leakage/calibration safeguards with an established baseline (sFlt-1/PlGF), offering a cheaper, more decisive early test than idea 6's unresolved mechanical-proxy validation problem.",
-      "target": 6,
-      "timestamp": "2026-09-17T04:59:01.193569+00:00"
-    },
-    {
       "main_risk": "Whether a clinically adjudicated management endpoint can be defined reproducibly across sites in either disease area",
       "next_test": "Freeze the reference (clinical+biometry+Doppler vs clinical+frailty+function) model and check if it alone already saturates decision-relevant discrimination before adding any molecular layer",
       "opponent": 23,
@@ -2699,6 +2654,51 @@
       "reason": "The ALK niche problem is anchored to an observed metastatic-site context and can yield a focused 10-week test of whether spatial topology adds value beyond genotype, site, composition, and clinical covariates. Although rare archival samples and site confounding are important risks, the virtual-cell proposal requires broader multimodal data integration and prospective validation across perturbations, making its success less likely within six months.",
       "target": 37,
       "timestamp": "2026-10-01T18:27:51.954024+00:00"
+    },
+    {
+      "main_risk": "Functional-screening sensitivity may reflect tissue viability, culture conditions, or assay-specific effects rather than in-patient treatment response beyond genomic and clinical baselines.",
+      "next_test": "Run a blinded, patient-level held-out comparison of genomic matching alone versus genomic matching plus locked functional-screening results, retaining assay failures and reporting calibration and decision curves.",
+      "opponent": 46,
+      "outcome": "win",
+      "reason": "Functional screening has a clearer decision-relevant anchor, stronger near-term evidence base, and a cheaper patient-level comparison against genomic matching. The TET2-macrophage proposal has potentially high mechanistic impact but depends on rare paired specimens, reliable compartment-specific clonal measurement, causal co-culture evidence, and therapeutic relevance.",
+      "target": 45,
+      "timestamp": "2026-10-02T00:51:40.674839+00:00"
+    },
+    {
+      "main_risk": "The functional assay may fail to add reproducible information beyond genomic matching, histology, clinical covariates, or simple sensitivity baselines.",
+      "next_test": "Evaluate locked functional-screening rankings against genomic and clinical baselines in an independent patient-level cohort, with assay reproducibility and orthogonal viability readouts assessed before interpreting response prediction.",
+      "opponent": 47,
+      "outcome": "win",
+      "reason": "The pediatric brain-tumor problem is narrower, more clinically anchored, and has a clearer incremental-value test. The cross-cancer MCT proposal compounds high-risk assumptions about activity measurement, biological specificity, cross-assay transportability, and preferential drug sensitization, making a six-month decision less likely.",
+      "target": 45,
+      "timestamp": "2026-10-02T00:51:40.674861+00:00"
+    },
+    {
+      "main_risk": "Temporal-model gains may disappear after controlling for measurement density, or may improve discrimination without producing clinically useful net benefit across sites.",
+      "next_test": "Compare locked static-snapshot and temporal models with measurement-density controls on patient- and hospital-held-out data, using calibration and decision-curve net benefit rather than AUROC alone.",
+      "opponent": 27,
+      "outcome": "loss",
+      "reason": "The ICU proposal has existing patient-disjoint development and external data, a relatively cheap early analysis, and a directly testable question about decision value and calibration. The pediatric screening proposal has greater potential biological and clinical specificity but depends on scarce specimens, assay reproducibility, and response linkage before its central claim can be evaluated.",
+      "target": 45,
+      "timestamp": "2026-10-02T00:51:40.674871+00:00"
+    },
+    {
+      "main_risk": "Screening recommendations may not predict clinical response once genomic matching, histology, treatment selection, tissue quality, and simple drug-sensitivity baselines are controlled.",
+      "next_test": "Use independent donor-level held-out outcomes to test whether locked functional-screening results improve calibrated treatment-response prediction over genomic and clinical baselines, including failed assays as informative missingness.",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Functional screening offers a more bounded and decision-relevant validation problem with an existing platform and a relatively direct incremental comparison. The KRAS state-transition project could yield important mechanism, but it requires reproducibility across donors, temporal precedence, spatial relevance, and successful perturbation of actionable dependencies, each with a long and failure-prone readout chain.",
+      "target": 45,
+      "timestamp": "2026-10-02T00:51:40.674878+00:00"
+    },
+    {
+      "main_risk": "The pediatric cohort may be too small or heterogeneous to estimate treatment-response benefit and decision thresholds reliably, causing an apparently promising functional signal to remain clinically non-actionable.",
+      "next_test": "Lock a compact comparison of genomic matching alone versus genomic plus functional screening in an existing cohort, using patient-level held-out outcomes, calibration, uncertainty, and decision curves before expanding assays or modalities.",
+      "opponent": 2,
+      "outcome": "loss",
+      "reason": "The pediatric proposal has a more concrete near-term dataset and a sharply defined incremental-value question than the broader transportability project, whose success depends on adequate randomized treatment-effect information, sample size for interactions, optional biomarker availability, cross-platform harmonization, and an independent cohort. The pancreatic proposal has high potential clinical impact, but its key evidence path is less secure as written.",
+      "target": 45,
+      "timestamp": "2026-10-02T00:51:40.674885+00:00"
     }
   ],
   "k_factor": 24,
@@ -2768,10 +2768,10 @@
     },
     "2": {
       "draws": 0,
-      "games": 25,
+      "games": 26,
       "losses": 12,
-      "rating": 1505.45,
-      "wins": 13
+      "rating": 1518.04,
+      "wins": 14
     },
     "21": {
       "draws": 0,
@@ -2817,10 +2817,10 @@
     },
     "27": {
       "draws": 0,
-      "games": 22,
+      "games": 23,
       "losses": 11,
-      "rating": 1502.52,
-      "wins": 11
+      "rating": 1515.25,
+      "wins": 12
     },
     "28": {
       "draws": 0,
@@ -2955,6 +2955,27 @@
       "rating": 1490.25,
       "wins": 8
     },
+    "45": {
+      "draws": 0,
+      "games": 5,
+      "losses": 2,
+      "rating": 1510.03,
+      "wins": 3
+    },
+    "46": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "47": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
+    },
     "5": {
       "draws": 3,
       "games": 20,
@@ -2971,9 +2992,9 @@
     },
     "7": {
       "draws": 0,
-      "games": 26,
-      "losses": 13,
-      "rating": 1503.81,
+      "games": 27,
+      "losses": 14,
+      "rating": 1492.05,
       "wins": 13
     },
     "8": {
