@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Organoid establishment success rate and turnaround time may be too slow/unreliable for the clinical decision window.",
-      "next_test": "Prospectively track organoid establishment success and turnaround time against actual treatment-decision deadlines in eligible metastatic cases.",
-      "opponent": 1,
-      "outcome": "loss",
-      "reason": "Resistance-aware combination therapy for metastatic disease targets a higher-stakes, more generalizable clinical decision (treatment selection under a life-threatening deadline) than incremental rehab metrics after a mostly successful elective surgery; it also has a clearer actionable decision window and strong baselines.",
-      "target": 23,
-      "timestamp": "2026-09-17T21:27:48.516282+00:00"
-    },
-    {
-      "main_risk": "Spatial lipid/FADS1 measurements may not be reproducible or normalizable across platforms and patients.",
-      "next_test": "Multiplex spatial profiling of FADS1/lipid markers vs CXCR6+ Trm in a small pretreatment HCC cohort to test proximity-fitness association.",
-      "opponent": 10,
-      "outcome": "loss",
-      "reason": "The FADS1-arachidonic acid spatial niche mechanism offers a specific, testable, drug-targetable biology with direct therapeutic implications (FADS1 inhibition plus checkpoint/CAR-T), giving higher novelty and translational leverage than incremental multimodal recovery scoring in TKA.",
-      "target": 23,
-      "timestamp": "2026-09-17T21:27:48.516310+00:00"
-    },
-    {
-      "main_risk": "Serial tissue sampling during chemoradiotherapy may not yield biologically comparable, well-timed regions across patients.",
-      "next_test": "Profile paired baseline/early-treatment specimens in an initial patient set and test transition reproducibility via patient-level resampling.",
-      "opponent": 5,
-      "outcome": "loss",
-      "reason": "Discovering a reproducible treatment-induced spatial immune-priming transition has broader mechanistic and biomarker-timing value across chemoradiotherapy-immunotherapy combinations, despite high technical risk, compared to the narrower incremental-value question in TKA rehab.",
-      "target": 23,
-      "timestamp": "2026-09-17T21:27:48.516321+00:00"
-    },
-    {
-      "main_risk": "Reproducible tumor-CAF-immune neighborhoods may not replicate across specimens/platforms or may just reflect tumor genotype.",
-      "next_test": "Profile replicate regions from independent specimens with both spatial transcriptomics and imaging to quantify cross-platform neighborhood concordance.",
-      "opponent": 13,
-      "outcome": "loss",
-      "reason": "CAF-immune spatial buffering in EGFR-targeted lung adenocarcinoma has the highest stated evidence readiness, an established tumoroid validation system, and addresses a major oncology indication, giving stronger competitive position and useful failure branches than the TKA rehab question.",
-      "target": 23,
-      "timestamp": "2026-09-17T21:27:48.516328+00:00"
-    },
-    {
-      "main_risk": "The inferred retinoid program may be a consequence rather than a driver of chronic tunnels, undermining actionability.",
-      "next_test": "Apply the locked two-state spatial classifier to a small pretreatment biopsy set and compare response prediction against clinical/composition baselines.",
-      "opponent": 9,
-      "outcome": "loss",
-      "reason": "The IL-17/retinoid tunnel-state hypothesis has fewer high-risk assumptions, a concrete orthogonal in-vitro validation path (keratinocyte/tunnel culture perturbations), and a clearer mechanistic split for treatment stratification, versus TKA rehab which stacks four high-risk assumptions including a hard-to-lock clinical decision protocol.",
-      "target": 23,
-      "timestamp": "2026-09-17T21:27:48.516335+00:00"
-    },
-    {
       "main_risk": "Whether early treatment-induced transitions are truly reproducible across independent donors rather than model-specific stress artifacts.",
       "next_test": "Profile matched pre/early-on-treatment samples from a handful of independent PDAC models and check directional concordance of the transition score before investing further.",
       "opponent": 7,
@@ -2699,6 +2654,51 @@
       "reason": "The virtual-screening problem has broader potential use and a cheap, decisive held-out-context test, while the TET2 problem offers a more biologically meaningful and potentially clinically actionable resistance mechanism. Evidence is insufficient to establish whether the screening model will generalize beyond benchmark-like contexts or whether the rare thyroid-cancer mechanism can be measured and validated within six months.",
       "target": 46,
       "timestamp": "2026-10-02T17:54:14.476207+00:00"
+    },
+    {
+      "main_risk": "The reproducibility project may show that rankings are driven mainly by lineage, baseline viability, or platform-specific technical structure rather than transferable response biology.",
+      "next_test": "Run the blinded two-laboratory common-panel experiment and estimate patient-level ranking correlation, control failure, and calibration against held-out clinical response before expanding harmonization or mechanistic modeling.",
+      "opponent": 49,
+      "outcome": "win",
+      "reason": "Cross-assay reproducibility is the stronger current investment because it has a broader technology payoff, a clear patient-level scientific anchor, strong leakage-resistant validation design, and an earlier multisite test that can distinguish transferable biology from assay artifacts. The exposure-adjusted phosphoproteomic project has greater mechanistic and clinical upside but depends on several high-risk links: appropriately timed exposure sampling, reproducible phosphosite measurements, valid resistance attribution, and functional confirmation.",
+      "target": 48,
+      "timestamp": "2026-10-02T22:19:15.341295+00:00"
+    },
+    {
+      "main_risk": "The apparent cross-assay agreement may be nonbiological, reflecting tumor lineage, viability baseline, concentration conventions, or shared preprocessing rather than clinically useful reproducibility.",
+      "next_test": "Use locked preprocessing on matched patient-derived samples run in two independent laboratories, comparing ranking stability against single-metric, lineage-adjusted, and baseline-growth baselines.",
+      "opponent": 50,
+      "outcome": "win",
+      "reason": "Cross-assay reproducibility currently deserves more time because it addresses a foundational bottleneck across drugs, tumor types, institutions, and assay platforms, with a relatively direct 10-week decision test and useful outcomes even if the composite metric fails. The tamoxifen project has credible clinical relevance but requires reliable longitudinal exposure, adherence, germline and somatic data, progression timing, and ancestry-stratified calibration; these confounding and missingness risks make its integrated model harder to interpret and validate within six months.",
+      "target": 48,
+      "timestamp": "2026-10-02T22:19:15.341319+00:00"
+    },
+    {
+      "main_risk": "The common-panel study may find low reproducibility, leaving no stable response signal to harmonize across assay contexts.",
+      "next_test": "Blindly test the same tumor-derived models and drug panel across two laboratories, requiring ranking correlation and control-performance thresholds while comparing against simple pharmacology and lineage baselines.",
+      "opponent": 40,
+      "outcome": "win",
+      "reason": "Cross-assay reproducibility is the stronger investment because it has a fixed, generalizable problem and an early empirical test that can support continuation, assay-specific restriction, or stopping. The virtual-screening project combines uncertain synergy estimation, context extrapolation, mechanistic biomarker measurement, and transfer beyond related cell lines or organoids; even a benchmark gain could fail to establish a useful biological rule.",
+      "target": 48,
+      "timestamp": "2026-10-02T22:19:15.341330+00:00"
+    },
+    {
+      "main_risk": "The reproducibility signal may not survive adjustment for lineage, baseline growth, and institution, making the capability less transferable than expected.",
+      "next_test": "Conduct the two-site blinded common-panel pilot and determine whether patient-level rankings remain stable beyond lineage-only and baseline-growth models, with assay failure and calibration reported explicitly.",
+      "opponent": 23,
+      "outcome": "win",
+      "reason": "Cross-assay reproducibility currently merits the time because it offers broader utility, a clearer technology anchor, and a substantially earlier branch point than the rehabilitation project. The knee-arthroplasty idea has meaningful patient potential, but it requires a prespecified actionable rehabilitation decision, consistent intervention delivery, reliable serial measurements, and transportable site-shift calibration; its main value depends on proving decision improvement rather than merely tracking recovery severity.",
+      "target": 48,
+      "timestamp": "2026-10-02T22:19:15.341337+00:00"
+    },
+    {
+      "main_risk": "The pediatric project may have uniquely actionable value in tumors lacking genomic matches, but the reproducibility project could overlook this clinically important subgroup if it optimizes pooled ranking stability.",
+      "next_test": "Compare locked genomic matching alone with genomic-plus-functional ranking in a patient-level held-out pediatric cohort, preserving failed assays and reporting calibration, abstention, subgroup performance, and orthogonal assay concordance.",
+      "opponent": 45,
+      "outcome": "win",
+      "reason": "Cross-assay reproducibility is the stronger current investment because it targets a general obstacle to functional precision oncology, supports independent patient- and site-level validation, and has a cheap early test with informative positive, ambiguous, or negative branches. The pediatric brain-tumor project has high potential clinical impact but is constrained by rare-disease sample size, assay failure and tissue-quality selection, treatment-selection confounding, and limited evidence that screening adds value beyond genomic matching; its stated exploratory outcome is too small to establish transportability.",
+      "target": 48,
+      "timestamp": "2026-10-02T22:19:15.341345+00:00"
     }
   ],
   "k_factor": 24,
@@ -2789,9 +2789,9 @@
     },
     "23": {
       "draws": 0,
-      "games": 23,
-      "losses": 12,
-      "rating": 1490.17,
+      "games": 24,
+      "losses": 13,
+      "rating": 1479.71,
       "wins": 11
     },
     "24": {
@@ -2922,9 +2922,9 @@
     },
     "40": {
       "draws": 1,
-      "games": 16,
-      "losses": 7,
-      "rating": 1507.85,
+      "games": 17,
+      "losses": 8,
+      "rating": 1496.39,
       "wins": 8
     },
     "41": {
@@ -2957,9 +2957,9 @@
     },
     "45": {
       "draws": 0,
-      "games": 5,
-      "losses": 2,
-      "rating": 1510.03,
+      "games": 6,
+      "losses": 3,
+      "rating": 1499.25,
       "wins": 3
     },
     "46": {
@@ -2976,12 +2976,33 @@
       "rating": 1476.65,
       "wins": 2
     },
+    "48": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1556.29,
+      "wins": 5
+    },
+    "49": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
     "5": {
       "draws": 3,
       "games": 20,
       "losses": 10,
       "rating": 1459.88,
       "wins": 7
+    },
+    "50": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
     },
     "6": {
       "draws": 0,
