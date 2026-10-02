@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Whether a clinically adjudicated management endpoint can be defined reproducibly across sites in either disease area",
-      "next_test": "Freeze the reference (clinical+biometry+Doppler vs clinical+frailty+function) model and check if it alone already saturates decision-relevant discrimination before adding any molecular layer",
-      "opponent": 23,
-      "outcome": "win",
-      "reason": "FGR carries higher stakes (perinatal morbidity/mortality) and already has an established biomarker (sFlt-1/PlGF) and management pathway to anchor incremental-value testing, whereas the arthroplasty rehab decision is lower-stakes and less clinically consequential even though both proposals share the same generic incremental-biomarker template.",
-      "target": 26,
-      "timestamp": "2026-09-17T11:49:45.485492+00:00"
-    },
-    {
-      "main_risk": "Whether the FAM230F signal is independent biology versus a tumor-burden proxy or cutoff-selection artifact from the original validation cohort",
-      "next_test": "Blinded multi-site replicate assay run to check reproducibility and whether the previously selected cutoff still discriminates before any incremental-value modeling",
-      "opponent": 24,
-      "outcome": "loss",
-      "reason": "The HCC idea is anchored to a specific, previously discriminating marker (FAM230F cfDNA) with a concrete, cheap reproducibility test, giving it a real competitive/timeliness edge; the FGR idea leaves the molecular modality entirely unspecified, which is a floating anchor risking a forced, arbitrary pairing.",
-      "target": 26,
-      "timestamp": "2026-09-17T11:49:45.485508+00:00"
-    },
-    {
-      "main_risk": "Whether pretreatment marrow architecture shows reproducible, patient-level variation in leukemia-T-cell spatial accessibility beyond assay noise",
-      "next_test": "Pilot multiplex spatial profiling on a small paired-biopsy cohort to check neighborhood-feature reproducibility across adjacent sections before full-cohort modeling",
-      "opponent": 11,
-      "outcome": "loss",
-      "reason": "The spatial T-cell/blinatumomab idea offers genuine discovery value about resistance mechanisms with informative branches regardless of outcome (spatial segregation vs composition-only), while the FGR idea is a narrower incremental-calibration exercise with a floating, unspecified molecular modality.",
-      "target": 26,
-      "timestamp": "2026-09-17T11:49:45.485514+00:00"
-    },
-    {
-      "main_risk": "Whether tunnel epithelial states are reproducibly classifiable across patients and disease severity rather than being specimen-specific artifacts",
-      "next_test": "Blinded replicate-section classification of tunnel states across a small multi-severity cohort to establish reproducibility before linking to treatment response",
-      "opponent": 9,
-      "outcome": "loss",
-      "reason": "The HS tunnel-state idea has a specific mechanistic anchor (IL-17/retinoid-defined epithelial states) with an orthogonal perturbation-validation branch and a differentiated hypothesis, whereas the FGR proposal is a generic 'any molecular modality' template with high risk of forced method-application pairing.",
-      "target": 26,
-      "timestamp": "2026-09-17T11:49:45.485518+00:00"
-    },
-    {
-      "main_risk": "Whether organoids can be established and assayed reliably within the clinically actionable treatment-decision window",
-      "next_test": "Prospectively track establishment success rate and turnaround time against real decision deadlines in an initial patient series before any predictive modeling",
-      "opponent": 1,
-      "outcome": "loss",
-      "reason": "The organoid functional-profiling idea targets a concrete, high-stakes clinical decision window and directly tests whether functional data changes treatment choice, offering strong translational value and a decisive early feasibility readout; FGR's floating, unspecified molecular modality is comparatively generic and less differentiated.",
-      "target": 26,
-      "timestamp": "2026-09-17T11:49:45.485522+00:00"
-    },
-    {
       "main_risk": "Whether the compact expression programs remain regimen-specific and calibrated once tested in truly independent cohorts, versus reflecting cohort/treatment-selection confounding.",
       "next_test": "Lock regimen-specific programs and compare clinical-only vs clinical-plus-program prediction in a blinded independent cohort; check calibration and decision-curve net benefit.",
       "opponent": 25,
@@ -2699,6 +2654,51 @@
       "reason": "The pediatric proposal has a more concrete near-term dataset and a sharply defined incremental-value question than the broader transportability project, whose success depends on adequate randomized treatment-effect information, sample size for interactions, optional biomarker availability, cross-platform harmonization, and an independent cohort. The pancreatic proposal has high potential clinical impact, but its key evidence path is less secure as written.",
       "target": 45,
       "timestamp": "2026-10-02T00:51:40.674885+00:00"
+    },
+    {
+      "main_risk": "The proposed macrophage genotype and TGFβ state may be too rare or technically unreliable in paired anaplastic-thyroid-cancer specimens to support a reproducible patient-level signal.",
+      "next_test": "Run a blinded paired-sample pilot with orthogonal myeloid-compartment TET2 assays and TGFβ activity measurements, testing whether the composite separates resistance beyond tumor-cell resistance alterations and clinical covariates.",
+      "opponent": 46,
+      "outcome": "loss",
+      "reason": "TET2-mutant macrophage-associated TGFβ signaling is a narrower, more causally anchored resistance problem with a concrete tumor–microenvironment perturbation path, whereas the MCT project requires transportable measurement and association across many cancers, assays, and therapies before mechanism is established.",
+      "target": 47,
+      "timestamp": "2026-10-02T09:52:49.274382+00:00"
+    },
+    {
+      "main_risk": "MCT1/MCT4 expression or activity may be a nonspecific correlate of hypoxia, proliferation, purity, or poor prognosis rather than a reproducible persistence mechanism.",
+      "next_test": "In a paired pretreatment/early-treatment pilot, compare a locked MCT transport state against expression-only, proliferation, hypoxia, simple lactate/pH, and established persistence baselines, with independent patient-level validation and functional orthogonal assays.",
+      "opponent": 44,
+      "outcome": "win",
+      "reason": "The lactate-transport problem offers broader biological generality, multiple assay and cancer-context branches, and a relatively direct biomarker-to-functional-perturbation path. The CAIX imaging project depends on tracer specificity, spatial tissue alignment, scanner transportability, and a clinically meaningful decision effect, creating a longer and more fragile chain of assumptions.",
+      "target": 47,
+      "timestamp": "2026-10-02T09:52:49.274404+00:00"
+    },
+    {
+      "main_risk": "Apparent treatment-induced single-cell transitions may reflect technical stress, cell-cycle effects, clonal selection, or sampling rather than reproducible plasticity that precedes resistance.",
+      "next_test": "Profile matched pretreatment and early-treatment samples from independent PDAC donors with untreated controls, then test a prespecified transition score against donor-held-out regrowth or resistance while checking orthogonal phosphoprotein or imaging concordance.",
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "The KRAS project has the clearer scientific anchor for discovering adaptive resistance mechanisms, explicitly tests temporal precedence, and can produce useful outcomes if transitions prove model-specific or non-actionable. The MCT project has greater breadth but makes several high-risk cross-cancer measurement and transportability assumptions before its mechanistic value is clear.",
+      "target": 47,
+      "timestamp": "2026-10-02T09:52:49.274413+00:00"
+    },
+    {
+      "main_risk": "MCT activity may not be distinguishable from generic hypoxia, proliferation, or tumor-purity effects after adjustment, eliminating the claimed cross-context signal.",
+      "next_test": "Use shared patient-derived specimens to compare MCT transcript, protein, localization, lactate flux, intracellular pH, and isotope tracing, then test a prespecified state against persistence outcomes and simple biological baselines.",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "The MCT problem has wider potential applicability and a flexible assay and cancer-type scope, while retaining a testable biomarker-to-intervention hypothesis. The HCC niche project is biologically interesting but depends on difficult spatial lipid measurement, local tissue sampling, treatment-context transportability, and proving that proximity adds value beyond immune composition.",
+      "target": 47,
+      "timestamp": "2026-10-02T09:52:49.274420+00:00"
+    },
+    {
+      "main_risk": "The dynamic inflammatory measurements may merely track postoperative severity or sampling time and add no actionable information beyond baseline risk and early function.",
+      "next_test": "Before a large cohort, prospectively define one recovery endpoint and rehabilitation decision, then run a small multicenter landmark pilot comparing a single prespecified inflammatory measurement and trajectory against clinical, frailty, and early-function baselines with calibration and decision-curve analyses.",
+      "opponent": 23,
+      "outcome": "loss",
+      "reason": "The MCT project poses a broader discovery and technology problem with a flexible anchor, cross-context branches, and a direct early biomarker and perturbation test. The rehabilitation project has plausible clinical value but requires first specifying and delivering a consistent rehabilitation decision, then demonstrating incremental decision utility and transportable calibration across sites—a slower and more intervention-dependent path.",
+      "target": 47,
+      "timestamp": "2026-10-02T09:52:49.274426+00:00"
     }
   ],
   "k_factor": 24,
@@ -2712,9 +2712,9 @@
     },
     "10": {
       "draws": 0,
-      "games": 24,
-      "losses": 13,
-      "rating": 1478.33,
+      "games": 25,
+      "losses": 14,
+      "rating": 1466.28,
       "wins": 11
     },
     "11": {
@@ -2789,10 +2789,10 @@
     },
     "23": {
       "draws": 0,
-      "games": 22,
+      "games": 23,
       "losses": 12,
-      "rating": 1477.78,
-      "wins": 10
+      "rating": 1490.17,
+      "wins": 11
     },
     "24": {
       "draws": 1,
@@ -2950,9 +2950,9 @@
     },
     "44": {
       "draws": 0,
-      "games": 17,
-      "losses": 9,
-      "rating": 1490.25,
+      "games": 18,
+      "losses": 10,
+      "rating": 1477.77,
       "wins": 8
     },
     "45": {
@@ -2964,17 +2964,17 @@
     },
     "46": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "rating": 1500.01,
+      "wins": 1
     },
     "47": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 4,
+      "rating": 1476.65,
+      "wins": 2
     },
     "5": {
       "draws": 3,
@@ -2992,10 +2992,10 @@
     },
     "7": {
       "draws": 0,
-      "games": 27,
+      "games": 28,
       "losses": 14,
-      "rating": 1492.05,
-      "wins": 13
+      "rating": 1503.94,
+      "wins": 14
     },
     "8": {
       "draws": 0,
