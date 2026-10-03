@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Whether temporal signal survives measurement-density confounding control",
-      "next_test": "Add measurement-frequency features to static model and check if temporal AUROC gain collapses",
-      "opponent": 29,
-      "outcome": "win",
-      "reason": "ICU deterioration risk leverages large public multi-site cohorts (MIMIC-IV/eICU) with a clearly defined, clinically anchored outcome and decision-curve framework; the miRNA toxicity idea is narrow (single-site pilot, small n) with two independent high-risk 12-week external-access assumptions stacked before any decision value can be shown.",
-      "target": 27,
-      "timestamp": "2026-09-18T20:58:24.345436+00:00"
-    },
-    {
-      "main_risk": "Whether eosinophil/FeNO incremental value survives adjustment for corticosteroid exposure and platform harmonization",
-      "next_test": "Fit nested clinical-only vs +biomarker models on one registry and check reclassification after confounder adjustment",
-      "opponent": 28,
-      "outcome": "loss",
-      "reason": "Both share equal priority scores, but the asthma T2 biomarker question ties directly to a costly, widely relevant biologic-eligibility decision with a lower-risk assumption chain (assay harmonization, confounder adjustment) than ICU's need for a third hard-to-access ICU database plus unresolved confounding.",
-      "target": 27,
-      "timestamp": "2026-09-18T20:58:24.345453+00:00"
-    },
-    {
-      "main_risk": "Whether a reproducible, clinically consequential management endpoint can even be defined and adjudicated across sites",
-      "next_test": "Run blinded endpoint adjudication agreement across 2 sites before any model development",
-      "opponent": 26,
-      "outcome": "win",
-      "reason": "Fetal growth restriction has higher stated impact and a broad, clinically vital anchor, but stacks three high-risk, long-readout assumptions (endpoint definition, non-redundancy, site calibration); ICU deterioration has a firmer existing evidence base and fewer stacked high-risk items, giving a faster credible readout.",
-      "target": 27,
-      "timestamp": "2026-09-18T20:58:24.345459+00:00"
-    },
-    {
-      "main_risk": "Whether pre-treatment spatial topology adds information beyond composition/genotype once patient-level nested validation is applied",
-      "next_test": "Fit topology vs composition-only vs clinical baseline models with nested CV on the development cohort and compare calibrated log loss",
-      "opponent": 8,
-      "outcome": "loss",
-      "reason": "The ALK spatial-niche question offers genuine discovery value (novel mechanism, useful branches even if hypothesis fails via composition-only baselines) versus ICU work where the temporal model already failed to beat tuned LightGBM, undercutting its likelihood of showing new decision value despite similar risk profiles.",
-      "target": 27,
-      "timestamp": "2026-09-18T20:58:24.345463+00:00"
-    },
-    {
-      "main_risk": "Whether early DDT biomarker changes precede rather than merely correlate with resistance emergence",
-      "next_test": "Serially measure lesion/replication-stress markers in treatment-naive to resistant patient-derived models and test predictive timing before regrowth",
-      "opponent": 3,
-      "outcome": "loss",
-      "reason": "DNA-damage-tolerance escape offers a mechanistic, interventional readout (biomarker plus functional rescue via TLS/USP1 inhibition) giving strong causal branches even on failure, versus ICU's more incremental, already-lukewarm discrimination gain over simpler snapshot/LightGBM baselines.",
-      "target": 27,
-      "timestamp": "2026-09-18T20:58:24.345468+00:00"
-    },
-    {
       "main_risk": "Whether the shared glycolytic-inflammatory program is detectable pretreatment across sites rather than a culture-adaptation artifact.",
       "next_test": "12-week multiplex spatial profiling of pretreatment/early on-treatment biopsies testing the predefined neighborhood score against composition/clinical baselines.",
       "opponent": 18,
@@ -2699,6 +2654,51 @@
       "reason": "Cross-assay reproducibility offers broader technology value, a fixed validity anchor with flexible assay scope, and more informative negative outcomes than regimen-specific lupus programs. The lupus project has high potential clinical value but is constrained by treatment-selection confounding, regimen-specific external cohorts, endpoint harmonization, and outcome-dependent molecular instability.",
       "target": 48,
       "timestamp": "2026-10-03T16:27:47.754769+00:00"
+    },
+    {
+      "main_risk": "Cross-cohort phosphoproteomic signals may be dominated by lineage, batch, or drug-exposure effects rather than portable biology.",
+      "next_test": "Train a simple pathway-level model in one cohort and evaluate it, without refitting, on an independently assayed cohort for one matched drug class.",
+      "opponent": 52,
+      "outcome": "win",
+      "reason": "The kinase-state problem has a clearer transportability anchor, stronger external-validation design, and a cheaper eight-week test than the isoform project, which depends on difficult measurement, temporal attribution, and functional causality.",
+      "target": 51,
+      "timestamp": "2026-10-03T21:23:38.643163+00:00"
+    },
+    {
+      "main_risk": "The kinase representation may not add predictive value beyond lineage, proliferation, and expression-based baselines.",
+      "next_test": "Run the prespecified external-cohort test with calibration and comparison against the strongest expression-only and lineage baselines.",
+      "opponent": 53,
+      "outcome": "win",
+      "reason": "The kinase project offers broader and more reusable biological insight with a better-specified early external test; the bladder project has high clinical relevance but is highly vulnerable to serial sampling variation, necrosis, and site-specific heterogeneity.",
+      "target": 51,
+      "timestamp": "2026-10-03T21:23:38.643183+00:00"
+    },
+    {
+      "main_risk": "The kinase signal may correlate with response without supporting a useful experimental selection decision.",
+      "next_test": "Use the locked kinase model to select sensitive and resistant models for an orthogonal drug-response and phosphosignaling experiment.",
+      "opponent": 40,
+      "outcome": "win",
+      "reason": "Transportable kinase states have a more established measurement and validation path, while the virtual-screening project compounds model extrapolation, context representation, synergy definition, and transfer to donor-derived systems; its gains could remain benchmark-specific.",
+      "target": 51,
+      "timestamp": "2026-10-03T21:23:38.643196+00:00"
+    },
+    {
+      "main_risk": "The apparent kinase-state portability may disappear after strict site-, assay-, and lineage-held-out validation.",
+      "next_test": "Evaluate a simple pathway-level kinase classifier on an independent platform or institution before expanding mechanistic work.",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "The kinase project is less dependent on specialized spatial assays and a narrow disease context, while still offering a generalizable question and a concrete external validation route. The hidradenitis project has meaningful clinical potential but higher uncertainty in state reproducibility and treatment relevance.",
+      "target": 51,
+      "timestamp": "2026-10-03T21:23:38.643203+00:00"
+    },
+    {
+      "main_risk": "The kinase representation may fail to transport across phosphoproteomic workflows and tumor lineages.",
+      "next_test": "Perform an unretrained external-cohort test with calibration and lineage/site-stratified performance against clinical, expression, and simple pathway baselines.",
+      "opponent": 18,
+      "outcome": "win",
+      "reason": "The kinase-state project has a more mature cross-cohort validation framework, shorter earliest decision, and broader reuse potential than the cholangiocarcinoma spatial project, which requires difficult serial biopsies and must separate conserved resistance biology from anatomical-site and composition effects.",
+      "target": 51,
+      "timestamp": "2026-10-03T21:23:38.643210+00:00"
     }
   ],
   "k_factor": 24,
@@ -2754,9 +2754,9 @@
     },
     "18": {
       "draws": 1,
-      "games": 22,
-      "losses": 10,
-      "rating": 1511.18,
+      "games": 23,
+      "losses": 11,
+      "rating": 1500.37,
       "wins": 11
     },
     "19": {
@@ -2922,9 +2922,9 @@
     },
     "40": {
       "draws": 1,
-      "games": 19,
-      "losses": 9,
-      "rating": 1496.6,
+      "games": 20,
+      "losses": 10,
+      "rating": 1485.53,
       "wins": 9
     },
     "41": {
@@ -3004,6 +3004,27 @@
       "rating": 1520.4,
       "wins": 4
     },
+    "51": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1556.63,
+      "wins": 5
+    },
+    "52": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "53": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
+    },
     "6": {
       "draws": 0,
       "games": 18,
@@ -3027,9 +3048,9 @@
     },
     "9": {
       "draws": 1,
-      "games": 18,
-      "losses": 8,
-      "rating": 1510.36,
+      "games": 19,
+      "losses": 9,
+      "rating": 1499.2,
       "wins": 9
     }
   },
