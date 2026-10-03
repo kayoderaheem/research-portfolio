@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Whether treatment-induced myeloid localization is separable from lesion-size/segmentation artifacts across organs.",
-      "next_test": "8-week focused single-cell/spatial panel testing whether the prespecified interferon-responsive interface score tracks lesion control.",
-      "opponent": 22,
-      "outcome": "win",
-      "reason": "Myeloid-niche spatial mechanism offers broader discovery potential and functional validation branches, while the MS immune-state proposal is largely a replication/transportability exercise with a long chain of high-risk, slow readouts (12-24 weeks) before any decision.",
-      "target": 4,
-      "timestamp": "2026-09-18T16:30:32.363647+00:00"
-    },
-    {
-      "main_risk": "Whether spatial localization adds information beyond myeloid abundance alone.",
-      "next_test": "8-week nested model comparison of abundance-only vs functional-state-plus-neighborhood models on patient-level splits.",
-      "opponent": 23,
-      "outcome": "win",
-      "reason": "The myeloid-niche mechanism has a clearer causal, mechanism-linked hypothesis with translational leverage across immunotherapy combinations, whereas the arthroplasty proposal is an incremental clinical-operations question with a lower discovery ceiling.",
-      "target": 4,
-      "timestamp": "2026-09-18T16:30:32.363667+00:00"
-    },
-    {
-      "main_risk": "Whether candidate biomarkers distinguish DNA-damage-tolerance escape from nonspecific cytotoxic injury.",
-      "next_test": "10-week paired isogenic/PDX comparison of resistant vs sensitive models testing biomarker threshold prediction of regrowth and combination benefit.",
-      "opponent": 3,
-      "outcome": "loss",
-      "reason": "The DNA-damage-tolerance escape idea has a tighter mechanistic anchor and includes a genuine causal/functional perturbation test (add-on TLS/USP1 inhibition reversing resistance), giving a sharper continue/pivot signal than the more descriptive, transfer-dependent myeloid spatial biomarker.",
-      "target": 4,
-      "timestamp": "2026-09-18T16:30:32.363677+00:00"
-    },
-    {
-      "main_risk": "Whether the shared glycolytic-inflammatory program is detectable pretreatment rather than only reflecting prolonged in-vitro adaptation.",
-      "next_test": "12-week pretreatment/early on-treatment multiplex spatial profiling testing whether the neighborhood score predicts nonresponse, held out by anatomical site.",
-      "opponent": 18,
-      "outcome": "loss",
-      "reason": "The cholangiocarcinoma spatial metabolic-inflammatory idea is more tightly scoped (one cancer type, two anatomical sites) with a built-in artifact control (culture-adaptation check) and clean site-held-out transfer test, making it more tractable than the broader multi-organ metastatic myeloid proposal carrying more untested cross-organ/platform assumptions.",
-      "target": 4,
-      "timestamp": "2026-09-18T16:30:32.363683+00:00"
-    },
-    {
-      "main_risk": "Whether randomized subgroups provide sufficiently comparable outcome information to estimate differential benefit reliably.",
-      "next_test": "10-week lock of a compact baseline+early-interval signature evaluated for treatment interaction and calibration in a site-held-out cohort.",
-      "opponent": 2,
-      "outcome": "loss",
-      "reason": "TAILOR-PANC gives a randomized-trial backbone enabling genuine differential-treatment-effect estimation, a stronger causal design and real data advantage, versus the myeloid-niche idea which depends on newly generated multi-organ spatial data and a long chain of transfer assumptions.",
-      "target": 4,
-      "timestamp": "2026-09-18T16:30:32.363688+00:00"
-    },
-    {
       "main_risk": "Whether temporal signal survives measurement-density confounding control",
       "next_test": "Add measurement-frequency features to static model and check if temporal AUROC gain collapses",
       "opponent": 29,
@@ -2699,6 +2654,51 @@
       "reason": "Exposure-adjusted phosphoproteomics has a more flexible anchor and an earlier, more interpretable decision path than CAIX-targeted imaging. The hypoxia project must establish tracer specificity against perfusion and necrosis, align spatially heterogeneous tissue with imaging, and demonstrate scanner-, site-, and tumor-type transportability before it can support treatment adaptation.",
       "target": 49,
       "timestamp": "2026-10-03T11:46:51.104145+00:00"
+    },
+    {
+      "main_risk": "The apparent reproducibility may reflect shared lineage, assay conventions, or technical structure rather than clinically meaningful biology.",
+      "next_test": "Run the locked pipeline on blinded matched models and drugs processed by two independent laboratories, measuring patient-level ranking agreement and control failure.",
+      "opponent": 39,
+      "outcome": "win",
+      "reason": "Cross-assay drug-ranking reproducibility has a clearer measurement problem, broader utility, stronger simple baselines, and a directly interpretable early multisite test. The unseen-perturbation project depends on difficult state identifiability, context extrapolation, and prospective compositional readouts.",
+      "target": 48,
+      "timestamp": "2026-10-03T16:27:47.754726+00:00"
+    },
+    {
+      "main_risk": "A noncircular, reproducible reference standard and cross-site imaging acquisition may be infeasible or may erase the apparent incremental value of imaging.",
+      "next_test": "Conduct a site-held-out pilot comparing clinical-only, neurophysiology-enhanced, and imaging-enhanced models with blinded image-quality and reproducibility assessment.",
+      "opponent": 31,
+      "outcome": "loss",
+      "reason": "Corneal nerve imaging is tied to a concrete clinical pathway and has credible patient value, while the reproducibility project is broader and more replaceable by assay-specific validation. Its defined referral or monitoring decision, patient-level design, and orthogonal reference assessments make the clinical question the stronger investment despite transportability risks.",
+      "target": 48,
+      "timestamp": "2026-10-03T16:27:47.754746+00:00"
+    },
+    {
+      "main_risk": "Harmonization may not preserve biological meaning, leaving rankings unstable or clinically disconnected despite technical agreement.",
+      "next_test": "Reanalyze identical raw screens under locked alternative harmonization specifications and quantify patient-level ranking stability against lineage and baseline-growth baselines.",
+      "opponent": 43,
+      "outcome": "win",
+      "reason": "Cross-assay reproducibility addresses a foundational validity bottleneck with a clear biological and operational interpretation, whereas unseen-drug and unseen-tumor prediction combines many distribution shifts with uncertain actionability. The reproducibility project offers cleaner early branches and less dependence on complex model gains or prospective combination assays.",
+      "target": 48,
+      "timestamp": "2026-10-03T16:27:47.754755+00:00"
+    },
+    {
+      "main_risk": "A reproducible assay ranking may still fail to predict treatment response, weakening the claimed precision-medicine value.",
+      "next_test": "Run the blinded two-laboratory common-panel pilot and test ranking agreement, calibration, and performance against lineage-only and baseline-growth models.",
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "Cross-assay functional response reproducibility is more general, method-flexible, and likely to yield useful assay-specific or harmonization conclusions even if clinical prediction fails. The lymphoma project has a valuable clinical question but depends on scarce multicenter tissue, reproducible spatial features, harmonized outcomes, and a modest incremental gain over strong composition and clinical baselines.",
+      "target": 48,
+      "timestamp": "2026-10-03T16:27:47.754762+00:00"
+    },
+    {
+      "main_risk": "Cross-assay agreement may be technically attainable while not identifying a response signal that transfers to patient treatment outcomes.",
+      "next_test": "Compare locked patient-level drug rankings across two independent laboratories using matched tumor-derived models, then evaluate agreement and clinical-response calibration in a held-out pilot.",
+      "opponent": 25,
+      "outcome": "win",
+      "reason": "Cross-assay reproducibility offers broader technology value, a fixed validity anchor with flexible assay scope, and more informative negative outcomes than regimen-specific lupus programs. The lupus project has high potential clinical value but is constrained by treatment-selection confounding, regimen-specific external cohorts, endpoint harmonization, and outcome-dependent molecular instability.",
+      "target": 48,
+      "timestamp": "2026-10-03T16:27:47.754769+00:00"
     }
   ],
   "k_factor": 24,
@@ -2747,9 +2747,9 @@
     },
     "17": {
       "draws": 0,
-      "games": 19,
-      "losses": 6,
-      "rating": 1575.12,
+      "games": 20,
+      "losses": 7,
+      "rating": 1562.84,
       "wins": 13
     },
     "18": {
@@ -2803,9 +2803,9 @@
     },
     "25": {
       "draws": 1,
-      "games": 22,
-      "losses": 7,
-      "rating": 1587.2,
+      "games": 23,
+      "losses": 8,
+      "rating": 1574.93,
       "wins": 14
     },
     "26": {
@@ -2852,10 +2852,10 @@
     },
     "31": {
       "draws": 0,
-      "games": 23,
+      "games": 24,
       "losses": 9,
-      "rating": 1551.56,
-      "wins": 14
+      "rating": 1564.14,
+      "wins": 15
     },
     "32": {
       "draws": 0,
@@ -2908,9 +2908,9 @@
     },
     "39": {
       "draws": 0,
-      "games": 17,
-      "losses": 6,
-      "rating": 1555.64,
+      "games": 18,
+      "losses": 7,
+      "rating": 1543.66,
       "wins": 11
     },
     "4": {
@@ -2943,9 +2943,9 @@
     },
     "43": {
       "draws": 0,
-      "games": 18,
-      "losses": 7,
-      "rating": 1539.8,
+      "games": 19,
+      "losses": 8,
+      "rating": 1528.35,
       "wins": 11
     },
     "44": {
@@ -2978,10 +2978,10 @@
     },
     "48": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
-      "rating": 1556.29,
-      "wins": 5
+      "games": 10,
+      "losses": 1,
+      "rating": 1591.69,
+      "wins": 9
     },
     "49": {
       "draws": 0,
