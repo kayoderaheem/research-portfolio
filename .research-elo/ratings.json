@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Whether FAM230F signal is independent of tumor burden rather than a late-stage proxy (assumption 4 in #24).",
-      "next_test": "Blinded multi-site cfDNA replicate/dilution panel plus locked nested model comparison vs ultrasound+AFP baseline (#24's 10-week test).",
-      "opponent": 24,
-      "outcome": "loss",
-      "reason": "#24 has a narrower, already-partially-validated biomarker (FAM230F) with a single clear clinical decision (triage before confirmatory workup), cheap early replication/reproducibility test, and calibration-focused validation plan; #15 requires establishing a novel multi-component causal niche (BMP-fibroblast-BCL2) plus organoid perturbation before any clinical claim, a longer chain of high-risk assumptions.",
-      "target": 15,
-      "timestamp": "2026-09-18T11:24:38.542038+00:00"
-    },
-    {
-      "main_risk": "Whether pretreatment marrow architecture shows reproducible T-cell/leukemia spatial variation at all (#11's first assumption).",
-      "next_test": "Pilot multiplex spatial profiling of pretreatment marrow, quantify neighborhood accessibility, compare nested models against composition/clinical baseline (#11's 10-week test).",
-      "opponent": 11,
-      "outcome": "loss",
-      "reason": "Both are spatial-niche-to-treatment-response hybrid designs with similarly high-risk chained assumptions, but #11 builds on an already-observed baseline signal (CD8 effector-memory vs TIM3+ exhaustion) grounded in well-characterized immunology, whereas #15's BMP/OPN/BCL2 axis is less established and adds a further speculative therapeutic-targeting leg.",
-      "target": 15,
-      "timestamp": "2026-09-18T11:24:38.542055+00:00"
-    },
-    {
-      "main_risk": "Whether BCL2-high persistence is a causal niche effect versus a marker of clonal abundance (#15's competing explanation).",
-      "next_test": "Locked spatial score on paired pretreatment/early-treatment gastric specimens tested for association with persistence, replicated in an independent cohort.",
-      "opponent": 9,
-      "outcome": "win",
-      "reason": "#15 targets a life-threatening malignancy with a defined resistance mechanism and existing drug class (BCL2 inhibitors) to test, giving higher patient impact and priority score (4.30 vs 4.00); #9 addresses a real but lower-stakes chronic dermatologic disease and is more descriptive/exploratory of tunnel biology.",
-      "target": 15,
-      "timestamp": "2026-09-18T11:24:38.542063+00:00"
-    },
-    {
-      "main_risk": "Whether any regimen shows robust external-cohort calibration/net-benefit after strict leakage controls (#25's core scientific risk).",
-      "next_test": "Lock smallest regimen-specific programs and compare clinical-only vs clinical-plus-program prediction in a blinded independent, harmonized sample set.",
-      "opponent": 25,
-      "outcome": "loss",
-      "reason": "#25 is a rigorous, validation-first design reusing existing compact expression programs with strong emphasis on calibration, decision-curve utility, and leakage control, avoiding causal overreach; it has a cheaper, more direct earliest test than #15's requirement for novel mechanistic discovery plus organoid co-culture perturbation.",
-      "target": 15,
-      "timestamp": "2026-09-18T11:24:38.542068+00:00"
-    },
-    {
-      "main_risk": "Whether early spatial transitions are measurable/reproducible from serial cervical tumor sampling without confounding by treatment intensity or site (#5's top technical risk).",
-      "next_test": "Profile paired baseline/early-treatment specimens in an initial patient set and test transition reproducibility via patient-level resampling before any model comparison.",
-      "opponent": 5,
-      "outcome": "win",
-      "reason": "Both are hybrid spatial-transition discovery designs with similar priority scores and comparable high-risk assumption chains, but #15 pairs its niche hypothesis with a concrete, already-approved drug class (BCL2 inhibitors) for downstream testing, while #5 depends on logistically demanding serial biopsies during a short chemoradiotherapy window and a more speculative checkpoint-timing hypothesis.",
-      "target": 15,
-      "timestamp": "2026-09-18T11:24:38.542073+00:00"
-    },
-    {
       "main_risk": "Whether treatment-induced myeloid localization is separable from lesion-size/segmentation artifacts across organs.",
       "next_test": "8-week focused single-cell/spatial panel testing whether the prespecified interferon-responsive interface score tracks lesion control.",
       "opponent": 22,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 45 has a tighter fixed anchor: whether functional screening adds decision value beyond genomic matching. It supports an early locked reanalysis, preserves assay failures and abstention as informative outcomes, and can identify where screening should not be used. Issue 50 has broader potential but requires a much richer longitudinal pharmacokinetic, germline, somatic, and ancestry-diverse dataset.",
       "target": 50,
       "timestamp": "2026-10-03T05:24:44.179116+00:00"
+    },
+    {
+      "main_risk": "Matched exposure measurements and target-proximal phosphosite changes may be too noisy or unavailable in routine early-treatment specimens to support causal attribution.",
+      "next_test": "Run a small paired baseline/first-cycle cohort with drug levels, target-proximal phosphosites, downstream pathway measures, and blinded technical replicates, then compare exposure-adjusted and unadjusted classification against strong clinical and genomic baselines.",
+      "opponent": 47,
+      "outcome": "win",
+      "reason": "Exposure-adjusted phosphoproteomics has a clearer mechanistic anchor and a more actionable distinction between pharmacologic failure and biological resistance. It supports patient-level validation, orthogonal target-engagement checks, and informative dose, continuation, combination, pivot, or stop decisions, whereas the cross-cancer MCT project requires simultaneous proof of assay-robust transport measurement, cross-context generalization, and selective inhibitor benefit.",
+      "target": 49,
+      "timestamp": "2026-10-03T11:46:51.104114+00:00"
+    },
+    {
+      "main_risk": "The observed phosphoproteomic pattern may reflect heterogeneity, stress, or changing cell composition rather than failure of drug delivery or true resistance.",
+      "next_test": "Test whether early exposure-adjusted target suppression and pathway rebound predict later failure in a patient-level targeted-therapy cohort, using baseline genomics, exposure-only, and unadjusted phosphosite models as prespecified baselines.",
+      "opponent": 8,
+      "outcome": "win",
+      "reason": "Exposure-adjusted phosphoproteomics asks a more directly actionable mechanistic question and can float therapy, sampling, and assay choices while preserving its anchor. The spatial ALK project has substantial discovery value but faces stronger confounding by metastatic site, treatment history, sampling, and anatomical composition, plus expensive cross-platform and cross-site replication requirements.",
+      "target": 49,
+      "timestamp": "2026-10-03T11:46:51.104130+00:00"
+    },
+    {
+      "main_risk": "The required paired tumor or circulating material, pharmacokinetic sampling, and phosphoproteomic measurements may not be feasible or temporally precise enough for early attribution.",
+      "next_test": "Conduct a 12-week paired-sampling pilot with matched drug exposure and target-engagement measurements, and determine whether the locked exposure-adjusted signal adds calibrated classification beyond baseline clinical and genomic models.",
+      "opponent": 23,
+      "outcome": "loss",
+      "reason": "Issue 49 offers a sharper scientific attribution problem, earlier discriminating readout, and more useful outcomes across positive, negative, and ambiguous results. The rehabilitation project has credible clinical relevance but depends on defining and consistently delivering a rehabilitation decision, then demonstrating incremental decision value and transportability across sites over a longer and more operationally complex timeline.",
+      "target": 49,
+      "timestamp": "2026-10-03T11:46:51.104137+00:00"
+    },
+    {
+      "main_risk": "The model may show apparent held-out synergy gains that do not transfer from related cell systems to independent donor-derived organoids or reflect apoptosis-specific causality.",
+      "next_test": "Blindly test predictions for dose combinations in held-out differentiation and p53 contexts, comparing against single-agent pharmacology and Loewe/Bliss baselines with viability, caspase, cytochrome-c, and BH3-profiling readouts.",
+      "opponent": 40,
+      "outcome": "loss",
+      "reason": "Context-aware combination modeling has a cheaper and faster first decision, strong established pharmacology baselines, and a clear prospective test in unseen contexts with orthogonal apoptosis readouts. Issue 49 has greater potential clinical attribution value but combines high-risk specimen acquisition, exposure timing, phosphoproteomic reproducibility, and functional validation before its central claim can be trusted.",
+      "target": 49,
+      "timestamp": "2026-10-03T11:46:51.104141+00:00"
+    },
+    {
+      "main_risk": "Early phosphoproteomic changes may not distinguish inadequate exposure or target engagement from biological resistance because of sampling heterogeneity and weak temporal signal.",
+      "next_test": "Compare exposure-adjusted target-proximal phosphosite suppression and pathway rebound with baseline genomics, exposure-only, and unadjusted phosphoproteomics in paired early-treatment specimens, using blinded technical and orthogonal target-engagement validation.",
+      "opponent": 44,
+      "outcome": "win",
+      "reason": "Exposure-adjusted phosphoproteomics has a more flexible anchor and an earlier, more interpretable decision path than CAIX-targeted imaging. The hypoxia project must establish tracer specificity against perfusion and necrosis, align spatially heterogeneous tissue with imaging, and demonstrate scanner-, site-, and tumor-type transportability before it can support treatment adaptation.",
+      "target": 49,
+      "timestamp": "2026-10-03T11:46:51.104145+00:00"
     }
   ],
   "k_factor": 24,
@@ -2789,10 +2789,10 @@
     },
     "23": {
       "draws": 0,
-      "games": 25,
+      "games": 26,
       "losses": 14,
-      "rating": 1468.83,
-      "wins": 11
+      "rating": 1481.89,
+      "wins": 12
     },
     "24": {
       "draws": 1,
@@ -2922,10 +2922,10 @@
     },
     "40": {
       "draws": 1,
-      "games": 18,
+      "games": 19,
       "losses": 9,
-      "rating": 1484.53,
-      "wins": 8
+      "rating": 1496.6,
+      "wins": 9
     },
     "41": {
       "draws": 0,
@@ -2950,9 +2950,9 @@
     },
     "44": {
       "draws": 0,
-      "games": 19,
-      "losses": 11,
-      "rating": 1467.33,
+      "games": 20,
+      "losses": 12,
+      "rating": 1455.58,
       "wins": 8
     },
     "45": {
@@ -2971,9 +2971,9 @@
     },
     "47": {
       "draws": 0,
-      "games": 6,
-      "losses": 4,
-      "rating": 1476.65,
+      "games": 7,
+      "losses": 5,
+      "rating": 1464.63,
       "wins": 2
     },
     "48": {
@@ -2985,10 +2985,10 @@
     },
     "49": {
       "draws": 0,
-      "games": 2,
-      "losses": 2,
-      "rating": 1476.01,
-      "wins": 0
+      "games": 7,
+      "losses": 4,
+      "rating": 1486.18,
+      "wins": 3
     },
     "5": {
       "draws": 3,
@@ -3020,9 +3020,9 @@
     },
     "8": {
       "draws": 0,
-      "games": 22,
-      "losses": 12,
-      "rating": 1474.34,
+      "games": 23,
+      "losses": 13,
+      "rating": 1462.81,
       "wins": 10
     },
     "9": {
