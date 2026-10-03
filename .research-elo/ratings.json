@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Whether early treatment-induced transitions are truly reproducible across independent donors rather than model-specific stress artifacts.",
-      "next_test": "Profile matched pre/early-on-treatment samples from a handful of independent PDAC models and check directional concordance of the transition score before investing further.",
-      "opponent": 7,
-      "outcome": "loss",
-      "reason": "KRAS-blockade adaptive states target a broadly relevant oncogenic pathway with tractable patient-derived organoid/PDX models and serial sampling already feasible, versus #12's reliance on an extremely rare intersectional cohort (checkpoint-treated melanoma in HIV+ patients) that is historically underrepresented and hard to assemble.",
-      "target": 12,
-      "timestamp": "2026-09-18T04:51:22.446217+00:00"
-    },
-    {
-      "main_risk": "Whether the locked state score remains calibrated across sites/assays and isn't just a treatment-exposure or severity correlate.",
-      "next_test": "Run the locked feature/gating spec on replicate samples across two labs to test analytical reproducibility before any biological claims.",
-      "opponent": 22,
-      "outcome": "loss",
-      "reason": "The MS immune-state validation problem has realistic access to existing longitudinal anti-CD20/natalizumab cohorts and a well-scoped single clinical-use validation question, whereas #12 depends on assembling checkpoint-treated melanoma tissue specifically from HIV+ patients, a cohort that may not exist in sufficient numbers.",
-      "target": 12,
-      "timestamp": "2026-09-18T04:51:22.446239+00:00"
-    },
-    {
-      "main_risk": "Whether nuclear-morphology/vimentin mechanical proxies actually track true compressive stress rather than confounded hypoxia or necrosis.",
-      "next_test": "Compare mechanical proxies against controlled compression experiments in glioblastoma organoids to establish measurement validity before clinical tissue work.",
-      "opponent": 6,
-      "outcome": "loss",
-      "reason": "Glioblastoma mechanical-niche discovery, while high novelty/high risk, has access to more available tissue and established radiation cohorts; #12's core barrier is cohort scarcity (rare HIV+/melanoma/checkpoint overlap), which limits statistical power regardless of the mechanism's interest.",
-      "target": 12,
-      "timestamp": "2026-09-18T04:51:22.446248+00:00"
-    },
-    {
-      "main_risk": "Whether a rehabilitation decision rule can be specified and delivered consistently enough across sites to test added value of dynamic inflammation.",
-      "next_test": "Pilot the trajectory/decision protocol at one or two sites to confirm consistent delivery and measurement feasibility before multicenter validation.",
-      "opponent": 23,
-      "outcome": "loss",
-      "reason": "Knee arthroplasty rehabilitation is common, has large feasible multicenter cohorts, and a pragmatic, actionable clinical decision point, offering much stronger tractability and patient-value certainty than #12's rare-population precision-medicine question.",
-      "target": 12,
-      "timestamp": "2026-09-18T04:51:22.446255+00:00"
-    },
-    {
-      "main_risk": "Whether ZNF423 restoration is temporally causal for escape versus merely marking residual tumor burden.",
-      "next_test": "Use longitudinal lineage-aware sampling in available MPNST models to test if ZNF423-high niches precede rather than follow treatment escape.",
-      "opponent": 19,
-      "outcome": "loss",
-      "reason": "#19 already has a concrete experimental anchor (existing GEO dataset showing ZNF423 restoration) giving evidence readiness and a clear mechanistic hypothesis, whereas #12 must first prove that a very rare clinical cohort (HIV+ melanoma checkpoint patients) can even be assembled before any modeling begins.",
-      "target": 12,
-      "timestamp": "2026-09-18T04:51:22.446262+00:00"
-    },
-    {
       "main_risk": "Whether FAM230F signal is independent of tumor burden rather than a late-stage proxy (assumption 4 in #24).",
       "next_test": "Blinded multi-site cfDNA replicate/dilution panel plus locked nested model comparison vs ultrasound+AFP baseline (#24's 10-week test).",
       "opponent": 24,
@@ -2699,6 +2654,51 @@
       "reason": "Cross-assay reproducibility is the stronger current investment because it targets a general obstacle to functional precision oncology, supports independent patient- and site-level validation, and has a cheap early test with informative positive, ambiguous, or negative branches. The pediatric brain-tumor project has high potential clinical impact but is constrained by rare-disease sample size, assay failure and tissue-quality selection, treatment-selection confounding, and limited evidence that screening adds value beyond genomic matching; its stated exploratory outcome is too small to establish transportability.",
       "target": 48,
       "timestamp": "2026-10-02T22:19:15.341345+00:00"
+    },
+    {
+      "main_risk": "Issue 50 may not have sufficient complete longitudinal exposure, adherence, germline, somatic, and ancestry-stratified outcome data to support reliable calibration.",
+      "next_test": "Assemble the retrospective cohort and test whether repeated endoxifen exposure plus baseline or emerging ESR1 information adds calibrated value over CYP2D6, clinical, and adherence baselines in held-out patients.",
+      "opponent": 49,
+      "outcome": "win",
+      "reason": "Issue 50 has a clearer clinical anchor, stronger patient-level validation plan, and a cheaper retrospective decision point. Issue 49 depends on difficult paired pharmacokinetic, biopsy phosphoproteomic, and functional validation measurements, with several high-risk steps before attribution is credible.",
+      "target": 50,
+      "timestamp": "2026-10-03T05:24:44.179070+00:00"
+    },
+    {
+      "main_risk": "Issue 50 may conflate pharmacogenomic effects with adherence, treatment context, ancestry-linked care differences, or tumor biology despite adjustment.",
+      "next_test": "Run the prespecified patient-level comparison of CYP2D6, clinical/adherence, exposure-only, somatic-only, and integrated models in a retrospective longitudinal cohort with locked held-out evaluation.",
+      "opponent": 40,
+      "outcome": "win",
+      "reason": "Issue 50 addresses a clinically consequential problem with a relatively direct mechanism-specific prediction target and an early retrospective test. Issue 40 is more dependent on the assumption that context-conditioned synergy predictions transfer from selected germ-cell models to unseen donor-derived systems, while also requiring complex dose, schedule, and mechanistic validation.",
+      "target": 50,
+      "timestamp": "2026-10-03T05:24:44.179090+00:00"
+    },
+    {
+      "main_risk": "Issue 50 may lack enough complete and independently collected data to establish ancestry-stratified calibration and separate exposure failure from tumor-intrinsic resistance.",
+      "next_test": "Test the integrated exposure, germline, clinical, adherence, and somatic model against strong baselines in patient-level held-out data, with missingness and ancestry-stratified calibration reported before further data collection.",
+      "opponent": 23,
+      "outcome": "win",
+      "reason": "Issue 50 offers a faster, more bounded retrospective path to a clinically relevant mechanism distinction and can produce useful negative or subgroup-specific results. Issue 23 requires defining and delivering a rehabilitation intervention, collecting serial multimodal measurements, and demonstrating transportable decision value across sites, creating a long and expensive readout chain.",
+      "target": 50,
+      "timestamp": "2026-10-03T05:24:44.179099+00:00"
+    },
+    {
+      "main_risk": "The required longitudinal tamoxifen/endoxifen, tumor-evolution, adherence, and outcome measurements may be too incomplete for mechanism-specific inference.",
+      "next_test": "Evaluate whether endoxifen exposure and ESR1 trajectory improve held-out calibration and mechanism-specific prediction over CYP2D6, clinical, adherence, and baseline imaging or tumor models in an existing cohort.",
+      "opponent": 44,
+      "outcome": "win",
+      "reason": "Issue 50 has a more actionable and testable prediction problem with established clinical measurements and a relatively inexpensive retrospective first branch. Issue 44 relies on uncertain CAIX-tracer specificity, spatially matched tissue validation, cross-scanner reproducibility, and transport across tumor types before an early imaging signal can support a decision.",
+      "target": 50,
+      "timestamp": "2026-10-03T05:24:44.179107+00:00"
+    },
+    {
+      "main_risk": "Functional screening may measure culture viability or tissue quality rather than patient-specific treatment response, and the available pediatric cohort may be too small or selection-biased for reliable incremental estimates.",
+      "next_test": "Perform the locked patient-level comparison of genomic matching alone versus genomic matching plus functional screening, including assay failures, calibration, decision curves, and an independent or institution-held-out cohort if available.",
+      "opponent": 45,
+      "outcome": "loss",
+      "reason": "Issue 45 has a tighter fixed anchor: whether functional screening adds decision value beyond genomic matching. It supports an early locked reanalysis, preserves assay failures and abstention as informative outcomes, and can identify where screening should not be used. Issue 50 has broader potential but requires a much richer longitudinal pharmacokinetic, germline, somatic, and ancestry-diverse dataset.",
+      "target": 50,
+      "timestamp": "2026-10-03T05:24:44.179116+00:00"
     }
   ],
   "k_factor": 24,
@@ -2789,9 +2789,9 @@
     },
     "23": {
       "draws": 0,
-      "games": 24,
-      "losses": 13,
-      "rating": 1479.71,
+      "games": 25,
+      "losses": 14,
+      "rating": 1468.83,
       "wins": 11
     },
     "24": {
@@ -2922,9 +2922,9 @@
     },
     "40": {
       "draws": 1,
-      "games": 17,
-      "losses": 8,
-      "rating": 1496.39,
+      "games": 18,
+      "losses": 9,
+      "rating": 1484.53,
       "wins": 8
     },
     "41": {
@@ -2950,17 +2950,17 @@
     },
     "44": {
       "draws": 0,
-      "games": 18,
-      "losses": 10,
-      "rating": 1477.77,
+      "games": 19,
+      "losses": 11,
+      "rating": 1467.33,
       "wins": 8
     },
     "45": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 3,
-      "rating": 1499.25,
-      "wins": 3
+      "rating": 1512.43,
+      "wins": 4
     },
     "46": {
       "draws": 1,
@@ -2985,9 +2985,9 @@
     },
     "49": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
+      "games": 2,
+      "losses": 2,
+      "rating": 1476.01,
       "wins": 0
     },
     "5": {
@@ -2999,10 +2999,10 @@
     },
     "50": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 2,
+      "rating": 1520.4,
+      "wins": 4
     },
     "6": {
       "draws": 0,
