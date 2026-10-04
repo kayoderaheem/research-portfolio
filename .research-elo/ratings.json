@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Whether the clinical-only baseline and biomarker fields (especially corticosteroid exposure) are complete enough in candidate registries to support the confounder-adjusted analysis.",
-      "next_test": "Confirm variable completeness (<20% missing) and required fields across two candidate registries before fitting nested models.",
-      "opponent": 15,
-      "outcome": "win",
-      "reason": "28 is a secondary analysis of existing severe-asthma registries with a fast, cheap early test (data-completeness check, then nested model comparison) and clear decision thresholds; 15 requires establishing a novel spatial niche relationship then confirming it causally in organoid-fibroblast co-cultures, a long chain of high-risk, sequential assumptions before any go/no-go is reached.",
-      "target": 28,
-      "timestamp": "2026-09-19T20:47:35.028615+00:00"
-    },
-    {
-      "main_risk": "Organoid establishment success rate and turnaround time relative to clinical decision deadlines (for 1) versus registry data-sharing access (for 28).",
-      "next_test": "For 28, verify external registry access/DUA and event counts (~100 exacerbations); this alone can trigger continue/stop within weeks, faster than prospective organoid accrual.",
-      "opponent": 1,
-      "outcome": "win",
-      "reason": "28 reuses existing patient-level registry data with well-specified leakage controls and a near-term readout, whereas 1 depends on prospectively establishing organoids fast enough to influence real-time treatment decisions in metastatic patients, a high-risk technical bottleneck that alone could stall the whole project for months.",
-      "target": 28,
-      "timestamp": "2026-09-19T20:47:35.028632+00:00"
-    },
-    {
-      "main_risk": "Assay-platform harmonization for FeNO/eosinophils across registries (28) versus reproducibility of tunnel-state classification across annotators/patients (9), both technical but 28's is more tractable with standard z-scoring.",
-      "next_test": "Cross-registry biomarker distribution comparison against reference ranges to check harmonization feasibility.",
-      "opponent": 9,
-      "outcome": "win",
-      "reason": "28's question (does adding T2 biomarkers change risk classification) is answerable with existing cohort data and a pre-specified reclassification analysis, while 9 requires first establishing reproducible tunnel-specific spatial states in a rare disease before any treatment-response link can even be tested.",
-      "target": 28,
-      "timestamp": "2026-09-19T20:47:35.028640+00:00"
-    },
-    {
-      "main_risk": "Availability of an adequately powered external registry (28) versus whether pretreatment marrow architecture actually varies in a measurable, reproducible way (11).",
-      "next_test": "Confirm external registry access and event counts for 28; for 11, a small pilot spatial profiling run to check neighborhood reproducibility would be the analogous first gate.",
-      "opponent": 11,
-      "outcome": "win",
-      "reason": "28 offers a clear, near-term, data-driven test of incremental clinical value using existing cohorts, while 11 requires generating novel spatial marrow profiling data and demonstrating spatial features add value beyond composition — a harder, more assumption-laden discovery task with less certain data access.",
-      "target": 28,
-      "timestamp": "2026-09-19T20:47:35.028647+00:00"
-    },
-    {
-      "main_risk": "Cross-platform/tissue reproducibility of the CAF-immune neighborhood signature (13) versus corticosteroid confounding of eosinophil-based reclassification (28).",
-      "next_test": "For 28, run nested models with/without biomarkers on the training registry to see if reclassification signal exists before investing in external validation.",
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "Despite 13's high priority score, it depends on generating and cross-validating a novel tumor-CAF-immune spatial signature across platforms and confirming tumoroid fidelity — several high-risk, long-readout scientific assumptions in sequence. 28 tests a narrower, pre-specified clinical question using already-collected registry data with a fast informative readout either way.",
-      "target": 28,
-      "timestamp": "2026-09-19T20:47:35.028652+00:00"
-    },
-    {
       "main_risk": "The apparent temporal benefit may disappear after controlling for measurement density, leaving no clinically meaningful advantage over a static model.",
       "next_test": "On MIMIC-IV, compare static snapshot and temporal models with and without measurement-frequency features using patient-level held-out validation and decision-curve analysis.",
       "opponent": 27,
@@ -2699,6 +2654,51 @@
       "reason": "The T-cell project offers a stronger biological and translational contribution than a virtual combination-screening model whose apparent gains could reduce to assay-scale effects, pharmacologic additivity, or related-cell-line similarity. It also has clearer clinical endpoints and more defensible leakage-resistant validation, while retaining useful branches if clonotype, myeloid, or spatial components fail individually.",
       "target": 54,
       "timestamp": "2026-10-04T18:40:00.550475+00:00"
+    },
+    {
+      "main_risk": "Target engagement may not explain viability or resistance once lineage, co-mutations, exposure, and downstream bypass are considered.",
+      "next_test": "Run the focused, blinded mutation-defined panel with matched engagement, pathway-suppression, and viability measurements, using held-out genetic backgrounds and mutation-only, context-only, and integrated baselines.",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "Mutation-specific target engagement has a clearer mechanistic anchor, broader transfer potential, and a more controllable early test than the hidradenitis spatial-biomarker project, which depends on reproducing tunnel states and demonstrating added value beyond disease burden and clinical covariates.",
+      "target": 55,
+      "timestamp": "2026-10-04T23:58:50.531997+00:00"
+    },
+    {
+      "main_risk": "Intracellular conjugate or payload exposure may remain inseparable from extracellular free-payload contamination and nonspecific uptake.",
+      "next_test": "Compare HER2-high, HER2-low, and resistant models with matched conjugates, free payload, nonbinding controls, washout-based intracellular exposure assays, and early pharmacodynamic readouts.",
+      "opponent": 56,
+      "outcome": "loss",
+      "reason": "Exposure-normalized HER2 antibody-drug-conjugate mechanisms offer a tighter causal chain and a cheaper eight-week discriminating experiment with strong controls for free payload, nonspecific uptake, HER2 level, and intracellular exposure. The mutation-engagement project is broader but requires more high-risk resistance and transfer assumptions.",
+      "target": 55,
+      "timestamp": "2026-10-04T23:58:50.532013+00:00"
+    },
+    {
+      "main_risk": "Biochemical engagement may fail to predict cellular sensitivity because lineage context, co-mutations, exposure, or downstream bypass dominate response.",
+      "next_test": "Measure engagement, pathway suppression, and viability across matched mutation-defined models, holding out complete genetic backgrounds and comparing against mutation-only and context-only baselines.",
+      "opponent": 18,
+      "outcome": "win",
+      "reason": "Mutation-specific target engagement is more tractable and flexible than the cholangiocarcinoma spatial-resistance hypothesis, which requires patient biopsies, early on-treatment sampling, reproducibility across anatomical sites, and evidence that the signature is not a cell-line or tumor-purity artifact.",
+      "target": 55,
+      "timestamp": "2026-10-04T23:58:50.532020+00:00"
+    },
+    {
+      "main_risk": "The integrated engagement profile may not distinguish target-level failure from downstream biological resistance well enough to improve over simpler context and viability baselines.",
+      "next_test": "Run the focused 12-week panel with blinded replicate engagement, pathway, and viability assays, then test held-out variant-drug pairs and genetic backgrounds against prespecified simple baselines.",
+      "opponent": 49,
+      "outcome": "win",
+      "reason": "Mutation-specific target engagement has a clearer and more experimentally controllable early decision than exposure-adjusted clinical phosphoproteomics, which depends on precisely timed human sampling, reliable tumor or circulating exposure measurements, reproducible residual-biopsy phosphoproteomics, and functional attribution.",
+      "target": 55,
+      "timestamp": "2026-10-04T23:58:50.532024+00:00"
+    },
+    {
+      "main_risk": "Spatial or biochemical target engagement may correlate with response without identifying the causal determinant once tissue context and downstream biology are included.",
+      "next_test": "Use a blinded mutation-defined model panel to test whether engagement plus pathway suppression improves held-out sensitivity classification over mutation identity, structural/pathogenicity scores, and context-only baselines.",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "Mutation-specific target engagement provides a broader, more portable mechanistic framework with a relatively direct biochemical-to-cellular validation path. The HCC niche project has substantial potential clinical value but relies on difficult spatial lipid measurement, patient sampling, treatment-context transportability, and a mechanism that may add little beyond immune abundance or liver-disease covariates.",
+      "target": 55,
+      "timestamp": "2026-10-04T23:58:50.532028+00:00"
     }
   ],
   "k_factor": 24,
@@ -2712,9 +2712,9 @@
     },
     "10": {
       "draws": 0,
-      "games": 26,
-      "losses": 14,
-      "rating": 1478.62,
+      "games": 27,
+      "losses": 15,
+      "rating": 1467.75,
       "wins": 12
     },
     "11": {
@@ -2754,9 +2754,9 @@
     },
     "18": {
       "draws": 1,
-      "games": 24,
-      "losses": 12,
-      "rating": 1489.17,
+      "games": 25,
+      "losses": 13,
+      "rating": 1477.13,
       "wins": 11
     },
     "19": {
@@ -2985,9 +2985,9 @@
     },
     "49": {
       "draws": 0,
-      "games": 9,
-      "losses": 5,
-      "rating": 1486.72,
+      "games": 10,
+      "losses": 6,
+      "rating": 1475.18,
       "wins": 4
     },
     "5": {
@@ -3034,17 +3034,17 @@
     },
     "55": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 2,
+      "rating": 1522.43,
+      "wins": 4
     },
     "56": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "rating": 1500.43,
+      "wins": 1
     },
     "6": {
       "draws": 0,
@@ -3069,9 +3069,9 @@
     },
     "9": {
       "draws": 1,
-      "games": 22,
-      "losses": 11,
-      "rating": 1488.42,
+      "games": 23,
+      "losses": 12,
+      "rating": 1476.42,
       "wins": 10
     }
   },
