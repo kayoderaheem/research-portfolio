@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Whether the shared glycolytic-inflammatory program is detectable pretreatment across sites rather than a culture-adaptation artifact.",
-      "next_test": "12-week multiplex spatial profiling of pretreatment/early on-treatment biopsies testing the predefined neighborhood score against composition/clinical baselines.",
-      "opponent": 18,
-      "outcome": "loss",
-      "reason": "Cholangiocarcinoma spatial resistance study targets a generalizable biological mechanism (glycolytic-inflammatory neighborhoods) with strong baselines, cross-site transfer tests, and orthogonal validation, versus #29's single-institution pilot biomarker with unresolved external-cohort access.",
-      "target": 29,
-      "timestamp": "2026-09-18T23:21:23.509444+00:00"
-    },
-    {
-      "main_risk": "Whether temporal-trajectory benefit collapses once measurement-density confounding is modeled.",
-      "next_test": "6-week ablation adding measurement-density features to static vs temporal models on held-out MIMIC-IV data.",
-      "opponent": 27,
-      "outcome": "loss",
-      "reason": "ICU deterioration risk work leverages large existing multi-hospital datasets (MIMIC-IV, eICU-CRD) with a mature analytic plan and real decision anchor, offering far higher-powered, faster feedback than #29's small single-pilot microRNA study needing an as-yet-unidentified external SBRT cohort.",
-      "target": 29,
-      "timestamp": "2026-09-18T23:21:23.509463+00:00"
-    },
-    {
-      "main_risk": "Whether early response dynamics carry information beyond baseline clinical/molecular variables once institution effects are controlled.",
-      "next_test": "10-week nested baseline-vs-early-change model comparison with site-held-out validation using existing trial data.",
-      "opponent": 2,
-      "outcome": "loss",
-      "reason": "TAILOR-PANC-linked transportable response signature addresses a higher-impact, better-powered randomized-trial-adjacent question, whereas #29 is a small pilot biomarker study whose incremental value over DVH/IPSS is uncertain and depends on an unsecured external cohort.",
-      "target": 29,
-      "timestamp": "2026-09-18T23:21:23.509473+00:00"
-    },
-    {
-      "main_risk": "Whether the molecular modality captures biology genuinely non-redundant with biometry/Doppler rather than reflecting gestational-age leakage.",
-      "next_test": "12-week locked reference model (clinical+biometry+Doppler) tested against one prespecified molecular panel for calibrated net benefit in a site-held-out cohort.",
-      "opponent": 26,
-      "outcome": "loss",
-      "reason": "Fetal growth restriction stratification addresses a higher-stakes, more common clinical decision (delivery/surveillance) with an established multimodal clinical infrastructure, versus #29's narrow single-biomarker toxicity question in a small radiotherapy niche.",
-      "target": 29,
-      "timestamp": "2026-09-18T23:21:23.509480+00:00"
-    },
-    {
-      "main_risk": "Whether candidate biomarkers distinguish tolerance-escape from nonspecific cytotoxic injury rather than general treatment stress.",
-      "next_test": "8-week comparison of resistant vs sensitive isogenic/patient-derived models matched for exposure and viability loss.",
-      "opponent": 3,
-      "outcome": "loss",
-      "reason": "DNA-damage-tolerance escape targets a mechanistic, broadly applicable resistance biology with functional perturbation validation across tumor types/agents, offering more generalizable insight than #29's narrow single-modality toxicity biomarker tied to one radiotherapy protocol.",
-      "target": 29,
-      "timestamp": "2026-09-18T23:21:23.509488+00:00"
-    },
-    {
       "main_risk": "Whether required clinical/biomarker fields are sufficiently complete in accessible registries to reconstruct a clinical-only baseline model.",
       "next_test": "Check registry data completeness (<20% missing) for clinical predictors and biomarkers in at least two candidate registries within 4 weeks.",
       "opponent": 3,
@@ -2699,6 +2654,51 @@
       "reason": "The kinase-state project has a more mature cross-cohort validation framework, shorter earliest decision, and broader reuse potential than the cholangiocarcinoma spatial project, which requires difficult serial biopsies and must separate conserved resistance biology from anatomical-site and composition effects.",
       "target": 51,
       "timestamp": "2026-10-03T21:23:38.643210+00:00"
+    },
+    {
+      "main_risk": "A heterogeneity trajectory may mainly reflect sampling, necrosis, tumor burden, or assay variation rather than resistant disease.",
+      "next_test": "In a locked serial cohort, test whether early heterogeneity change improves prediction of repeat-resection residual disease beyond HER2, stage, burden, and simple lesion-size change.",
+      "opponent": 52,
+      "outcome": "win",
+      "reason": "The bladder-cancer problem has a clearer near-term decision target, patient-level longitudinal design, and an inexpensive retrospective test against strong clinical baselines. The isoform project spans cancer types, drugs, resistance states, measurement platforms, and functional mechanisms, creating more sequential high-risk assumptions before a useful result.",
+      "target": 53,
+      "timestamp": "2026-10-04T06:00:34.329968+00:00"
+    },
+    {
+      "main_risk": "Serial heterogeneity measurements may not be reproducible or biologically aligned across lesions and timepoints.",
+      "next_test": "Use paired baseline and early post-treatment tissue or imaging to compare the locked heterogeneity-change model with HER2, stage, burden, and exposure-independent clinical baselines.",
+      "opponent": 49,
+      "outcome": "win",
+      "reason": "The bladder project asks a focused incremental-value question tied to an identifiable treatment decision and has a feasible early readout. Exposure-adjusted phosphoproteomics could have broader impact, but it requires reliable exposure measurement, target-proximal phosphosite interpretation, separation of stress from resistance, and later functional attribution, with several expensive failure points.",
+      "target": 53,
+      "timestamp": "2026-10-04T06:00:34.329987+00:00"
+    },
+    {
+      "main_risk": "Model gains may not transfer to unseen donor-derived or three-dimensional contexts and may reflect assay-scale artifacts rather than apoptosis-specific biology.",
+      "next_test": "Blindly test locked predictions for held-out drug doses and differentiation or p53 contexts using viability, apoptosis, mitochondrial priming, and negative-control combinations.",
+      "opponent": 40,
+      "outcome": "loss",
+      "reason": "The germ-cell-tumor project offers a controlled, early prospective test of transportable prediction with strong pharmacologic and mechanistic baselines, and failure can still identify limits of context-specific synergy. The bladder project has greater direct clinical relevance but depends on scarce serial specimens, reproducible heterogeneity measurement, and a narrowly specified treatment setting.",
+      "target": 53,
+      "timestamp": "2026-10-04T06:00:34.329996+00:00"
+    },
+    {
+      "main_risk": "Dynamic inflammation may only measure general postoperative severity or timing and add no decision value beyond early function and baseline risk.",
+      "next_test": "Run a locked serial-cohort analysis of early heterogeneity change against residual disease, with patient- and site-aware validation and prespecified calibration and decision thresholds.",
+      "opponent": 23,
+      "outcome": "win",
+      "reason": "The bladder problem has a sharper early endpoint and a bounded retrospective experiment that can establish whether the proposed measurement adds information before attempting a clinical decision. The rehabilitation project has broad potential, but the actionable intervention, assay schedule, and transportable decision rule are not yet sufficiently fixed and require longer prospective validation.",
+      "target": 53,
+      "timestamp": "2026-10-04T06:00:34.330003+00:00"
+    },
+    {
+      "main_risk": "The bladder heterogeneity signal may be dominated by spatial sampling and treatment-induced tissue changes rather than resistant subclones.",
+      "next_test": "Test whether a locked pretreatment tunnel-state classifier predicts response beyond clinical severity, tunnel burden, composition, and non-spatial pathway scores in an independent patient cohort.",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "The bladder project is more directly tied to an early treatment-assessment decision and defines strong incremental-value baselines and leakage controls. The hidradenitis project is novel and potentially mechanistic, but it must establish reproducible tunnel states across patients, distinguish spatial state from tunnel burden and chronicity, and show that the pathway split is actionable.",
+      "target": 53,
+      "timestamp": "2026-10-04T06:00:34.330010+00:00"
     }
   ],
   "k_factor": 24,
@@ -2789,9 +2789,9 @@
     },
     "23": {
       "draws": 0,
-      "games": 26,
-      "losses": 14,
-      "rating": 1481.89,
+      "games": 27,
+      "losses": 15,
+      "rating": 1470.48,
       "wins": 12
     },
     "24": {
@@ -2922,10 +2922,10 @@
     },
     "40": {
       "draws": 1,
-      "games": 20,
+      "games": 21,
       "losses": 10,
-      "rating": 1485.53,
-      "wins": 9
+      "rating": 1498.44,
+      "wins": 10
     },
     "41": {
       "draws": 0,
@@ -2985,9 +2985,9 @@
     },
     "49": {
       "draws": 0,
-      "games": 7,
-      "losses": 4,
-      "rating": 1486.18,
+      "games": 8,
+      "losses": 5,
+      "rating": 1474.67,
       "wins": 3
     },
     "5": {
@@ -3013,17 +3013,17 @@
     },
     "52": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
+      "games": 2,
+      "losses": 2,
+      "rating": 1476.01,
       "wins": 0
     },
     "53": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 2,
+      "rating": 1522.02,
+      "wins": 4
     },
     "6": {
       "draws": 0,
@@ -3048,9 +3048,9 @@
     },
     "9": {
       "draws": 1,
-      "games": 19,
-      "losses": 9,
-      "rating": 1499.2,
+      "games": 20,
+      "losses": 10,
+      "rating": 1487.59,
       "wins": 9
     }
   },
