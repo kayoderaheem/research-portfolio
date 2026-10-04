@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Whether required clinical/biomarker fields are sufficiently complete in accessible registries to reconstruct a clinical-only baseline model.",
-      "next_test": "Check registry data completeness (<20% missing) for clinical predictors and biomarkers in at least two candidate registries within 4 weeks.",
-      "opponent": 3,
-      "outcome": "win",
-      "reason": "28's registry-based external validation is achievable within six months with existing clinical data, while 3 requires stacked high-risk scientific assumptions (early biomarker changes, specificity vs cytotoxic injury, causal reversal by inhibition) each needing new patient-derived and donor model work that is unlikely to finish in the horizon.",
-      "target": 28,
-      "timestamp": "2026-09-19T04:44:01.668476+00:00"
-    },
-    {
-      "main_risk": "Whether pre-treatment spatial topology genuinely carries information beyond composition and clinical covariates in cross-validation.",
-      "next_test": "Run nested nested-CV comparison of topology vs composition-only models on the development cohort before committing to external validation.",
-      "opponent": 8,
-      "outcome": "win",
-      "reason": "8 stacks multiple high-risk assumptions (cross-platform spatial reproducibility, topology adding info beyond composition, transportability across sites) each with long readouts and requires rare multi-site metastasis specimens; 28 has a single clearer decision-relevant question answerable with existing registry cohorts.",
-      "target": 28,
-      "timestamp": "2026-09-19T04:44:01.668495+00:00"
-    },
-    {
-      "main_risk": "Whether patient-derived tumoroids retain response-relevant stromal/immune spatial organization seen in matched tissue.",
-      "next_test": "Compare spatial organization and pharmacologic response in tumoroids vs matched tissue in the 8-week concordance test before full cohort profiling.",
-      "opponent": 13,
-      "outcome": "loss",
-      "reason": "13 has stronger evidence readiness (patient-derived tumoroids enabling functional perturbation, not just observational correlation) and richer useful branches (mechanistic follow-up regardless of outcome), offering more discovery value than 28's narrower incremental-calibration question.",
-      "target": 28,
-      "timestamp": "2026-09-19T04:44:01.668508+00:00"
-    },
-    {
-      "main_risk": "Whether FADS1/arachidonic-acid spatial measurements can be normalized across patients and platforms without confounding by nonspecific lipid accumulation.",
-      "next_test": "Run the 8-week orthogonal correlation of spatial lipid/FADS1 signal with T-cell metabolic/cytotoxicity assays before committing to full patient-level modeling.",
-      "opponent": 10,
-      "outcome": "win",
-      "reason": "28 is more tractable within six months, relying on existing longitudinal registry data with a single external validation step, whereas 10 requires establishing spatial lipidomic/metabolite assays and demonstrating biological specificity beyond nonspecific lipid accumulation, a longer and riskier technical chain.",
-      "target": 28,
-      "timestamp": "2026-09-19T04:44:01.668515+00:00"
-    },
-    {
-      "main_risk": "Whether the shared glycolytic-inflammatory program is detectable in human pretreatment/early-treatment tumors rather than being a culture-adaptation artifact from the original cell-line study.",
-      "next_test": "Measure the candidate program in pretreatment vs early on-treatment biopsies with annotated outcomes as the first 10-week test.",
-      "opponent": 18,
-      "outcome": "win",
-      "reason": "18's premise rests on a preprint cell-line finding requiring translation to human spatial biopsies with three stacked high-risk assumptions (detectability pretreatment, spatial coupling beyond marginal abundance, culture-adaptation artifact), a longer risk chain than 28's more direct clinical registry validation.",
-      "target": 28,
-      "timestamp": "2026-09-19T04:44:01.668521+00:00"
-    },
-    {
       "main_risk": "Idea 8's spatial neighborhoods may prove to be proxies for anatomical site/treatment history rather than causal biology.",
       "next_test": "Fit topology vs composition-only vs site-only models with leave-one-site-out validation on the development cohort (10 weeks).",
       "opponent": 8,
@@ -2699,6 +2654,51 @@
       "reason": "The bladder project is more directly tied to an early treatment-assessment decision and defines strong incremental-value baselines and leakage controls. The hidradenitis project is novel and potentially mechanistic, but it must establish reproducible tunnel states across patients, distinguish spatial state from tunnel burden and chronicity, and show that the pathway split is actionable.",
       "target": 53,
       "timestamp": "2026-10-04T06:00:34.330010+00:00"
+    },
+    {
+      "main_risk": "Matched early on-treatment tissue, reliable drug exposure, and target-proximal phosphosite measurements may not be available or temporally interpretable enough to classify failure.",
+      "next_test": "Run a small targeted-therapy pilot with paired baseline/early samples, pharmacokinetic measurements, and a prespecified target-proximal phosphosite panel, then test reproducibility and separation of pharmacologic versus biological nonresponse.",
+      "opponent": 49,
+      "outcome": "loss",
+      "reason": "Exposure-adjusted phosphoproteomics addresses a broader and more immediately actionable failure-attribution problem, with explicit pharmacologic and biological branches and strong baseline comparisons. Isoform switching has substantial mechanistic promise but requires several linked measurements before it can distinguish causation from subtype or clonal composition.",
+      "target": 52,
+      "timestamp": "2026-10-04T12:29:02.414298+00:00"
+    },
+    {
+      "main_risk": "Observed isoform changes may reflect subtype, purity, spliceosome activity, or resistant-clone expansion rather than isoform-specific resistance biology.",
+      "next_test": "In matched sensitive/resistant patient or independently derived model pairs, test a prespecified recurrent-switch panel against total-gene-expression and subtype baselines, with blinded technical replication and one isoform-specific functional assay.",
+      "opponent": 23,
+      "outcome": "win",
+      "reason": "Isoform switching offers a clearer biological anchor and potentially generalizable insight into intrinsic versus acquired resistance, while allowing cancer type, drug, and assay to float. The rehabilitation project has meaningful clinical relevance but depends on first defining and consistently delivering an actionable rehabilitation decision, then demonstrating transportable incremental utility beyond early function and baseline risk.",
+      "target": 52,
+      "timestamp": "2026-10-04T12:29:02.414320+00:00"
+    },
+    {
+      "main_risk": "FADS1 or arachidonic-acid spatial measurements may not represent biologically active local signaling or add information beyond T-cell abundance, tumor burden, and liver-disease context.",
+      "next_test": "Profile pretreatment HCC tissue with multiplex FADS1/lipid-response, CXCR6/resident-memory, and cytotoxicity markers, and test a locked proximity metric against composition-only and clinical baselines with patient-level separation.",
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "The HCC project has the strongest focused mechanistic starting point: a specific tumor lipid axis, a defined resident-memory T-cell population, spatially testable biology, and an orthogonal functional path. Isoform switching is broader but carries more unresolved measurement, temporal, causal, and treatment-selection dependencies.",
+      "target": 52,
+      "timestamp": "2026-10-04T12:29:02.414329+00:00"
+    },
+    {
+      "main_risk": "Isoform switches may be noncausal markers of clonal composition or tumor state and fail to improve resistance prediction beyond gene-level expression and subtype.",
+      "next_test": "Select one recurrent switch and one relevant drug context, then perform a patient-level held-out comparison against total-gene-expression and subtype baselines plus an isoform-specific protein, interaction, or perturbation readout.",
+      "opponent": 47,
+      "outcome": "win",
+      "reason": "Isoform switching is more flexibly anchored and can be tested in a selected cancer-drug context before attempting generalization. The lactate-transport proposal simultaneously requires cross-cancer and cross-therapy transportability, activity-specific assay concordance, resistance prediction, and biomarker-by-inhibitor interaction, creating too many high-risk branches for a six-month investment.",
+      "target": 52,
+      "timestamp": "2026-10-04T12:29:02.414336+00:00"
+    },
+    {
+      "main_risk": "The apparent IL-17A/retinoid tunnel states may be consequences of tunnel burden, chronic inflammation, or sampling location rather than treatment-relevant biological subtypes.",
+      "next_test": "Apply a locked targeted spatial marker panel to pretreatment tunnel biopsies from patients starting the same therapy, with patient-level held-out validation against clinical, tunnel-burden, composition-only, and nonspatial pathway baselines.",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "The hidradenitis project is narrower, more clinically coherent, and has a defined tissue unit, standardized-treatment setting, and relatively direct early test of reproducible tunnel states. Isoform switching spans multiple cancers and resistance states, but its required serial sampling, isoform quantification, clonal disentangling, and functional validation make early interpretation less reliable.",
+      "target": 52,
+      "timestamp": "2026-10-04T12:29:02.414344+00:00"
     }
   ],
   "k_factor": 24,
@@ -2712,10 +2712,10 @@
     },
     "10": {
       "draws": 0,
-      "games": 25,
+      "games": 26,
       "losses": 14,
-      "rating": 1466.28,
-      "wins": 11
+      "rating": 1478.62,
+      "wins": 12
     },
     "11": {
       "draws": 1,
@@ -2789,9 +2789,9 @@
     },
     "23": {
       "draws": 0,
-      "games": 27,
-      "losses": 15,
-      "rating": 1470.48,
+      "games": 28,
+      "losses": 16,
+      "rating": 1458.25,
       "wins": 12
     },
     "24": {
@@ -2971,9 +2971,9 @@
     },
     "47": {
       "draws": 0,
-      "games": 7,
-      "losses": 5,
-      "rating": 1464.63,
+      "games": 8,
+      "losses": 6,
+      "rating": 1452.6,
       "wins": 2
     },
     "48": {
@@ -2985,10 +2985,10 @@
     },
     "49": {
       "draws": 0,
-      "games": 8,
+      "games": 9,
       "losses": 5,
-      "rating": 1474.67,
-      "wins": 3
+      "rating": 1486.72,
+      "wins": 4
     },
     "5": {
       "draws": 3,
@@ -3013,10 +3013,10 @@
     },
     "52": {
       "draws": 0,
-      "games": 2,
-      "losses": 2,
-      "rating": 1476.01,
-      "wins": 0
+      "games": 7,
+      "losses": 5,
+      "rating": 1464.28,
+      "wins": 2
     },
     "53": {
       "draws": 0,
@@ -3048,10 +3048,10 @@
     },
     "9": {
       "draws": 1,
-      "games": 20,
+      "games": 21,
       "losses": 10,
-      "rating": 1487.59,
-      "wins": 9
+      "rating": 1499.19,
+      "wins": 10
     }
   },
   "version": 2
