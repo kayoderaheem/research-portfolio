@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Idea 8's spatial neighborhoods may prove to be proxies for anatomical site/treatment history rather than causal biology.",
-      "next_test": "Fit topology vs composition-only vs site-only models with leave-one-site-out validation on the development cohort (10 weeks).",
-      "opponent": 8,
-      "outcome": "loss",
-      "reason": "Idea 8 anchors on a genuine biological question (does spatial tumor-stroma topology causally modify drug response) with hybrid discovery+translational impact, while idea 27 is a narrower incremental-benchmarking exercise where prior data already show the temporal model failed to beat tuned LightGBM, signaling limited remaining headroom.",
-      "target": 27,
-      "timestamp": "2026-09-19T11:08:45.650924+00:00"
-    },
-    {
-      "main_risk": "Randomized subgroups in idea 2 may be underpowered for stable treatment-interaction estimates.",
-      "next_test": "Pre-specify the treatment-interaction model and check balance/interaction CIs within the trial's randomized subgroups before any signature building.",
-      "opponent": 2,
-      "outcome": "loss",
-      "reason": "Idea 2 leverages an actual randomized trial (TAILOR-PANC) giving a real causal treatment-interaction estimand and clear clinical decision (matched vs standard therapy), whereas idea 27 targets an observational risk score whose incremental value over simpler baselines is already reported as marginal.",
-      "target": 27,
-      "timestamp": "2026-09-19T11:08:45.650945+00:00"
-    },
-    {
-      "main_risk": "DNA-damage-tolerance biomarkers may reflect nonspecific cytotoxic injury rather than a specific resistance mechanism.",
-      "next_test": "Compare resistant vs sensitive isogenic/PDX models matched for exposure and viability loss to check biomarker specificity (8 weeks).",
-      "opponent": 3,
-      "outcome": "loss",
-      "reason": "Idea 3 targets a mechanistic resistance transition (DNA-damage-tolerance escape) with high discovery ceiling and a cheap functional readout (biomarker-stratified combination benefit), while idea 27 mainly re-confirms a known weak, already-benchmarked temporal signal.",
-      "target": 27,
-      "timestamp": "2026-09-19T11:08:45.650951+00:00"
-    },
-    {
-      "main_risk": "The FGR management endpoint may not be adjudicated reproducibly across sites, undermining the whole comparison.",
-      "next_test": "Obtain blinded endpoint adjudication and measure cross-site agreement before any model development (10 weeks).",
-      "opponent": 26,
-      "outcome": "loss",
-      "reason": "Idea 26 targets a less-saturated clinical decision space (FGR management/delivery timing) with a defined molecular-add-on question, whereas idea 27's core temporal-vs-static question is already partly resolved unfavorably by prior benchmarking against LightGBM, reducing new-information value.",
-      "target": 27,
-      "timestamp": "2026-09-19T11:08:45.650955+00:00"
-    },
-    {
-      "main_risk": "The glycolytic-inflammatory program may be an in-vitro culture-adaptation artifact rather than a patient-relevant resistance mechanism.",
-      "next_test": "Compare patient tumor-derived signatures against independent short-term organoid/ex vivo responses with untreated controls (8 weeks).",
-      "opponent": 18,
-      "outcome": "loss",
-      "reason": "Idea 18 couples a mechanistic metabolic-inflammatory resistance program with spatial biology and functional validation potential, offering higher discovery ceiling than idea 27's incremental refinement of an ICU score already shown not to beat a simple gradient-boosted baseline.",
-      "target": 27,
-      "timestamp": "2026-09-19T11:08:45.650960+00:00"
-    },
-    {
       "main_risk": "Whether the clinical-only baseline and biomarker fields (especially corticosteroid exposure) are complete enough in candidate registries to support the confounder-adjusted analysis.",
       "next_test": "Confirm variable completeness (<20% missing) and required fields across two candidate registries before fitting nested models.",
       "opponent": 15,
@@ -2699,6 +2654,51 @@
       "reason": "The hidradenitis project is narrower, more clinically coherent, and has a defined tissue unit, standardized-treatment setting, and relatively direct early test of reproducible tunnel states. Isoform switching spans multiple cancers and resistance states, but its required serial sampling, isoform quantification, clonal disentangling, and functional validation make early interpretation less reliable.",
       "target": 52,
       "timestamp": "2026-10-04T12:29:02.414344+00:00"
+    },
+    {
+      "main_risk": "The T-cell persistence signal may mainly reflect sampling depth, treatment exposure, or generalized inflammation rather than tumor-specific immunity.",
+      "next_test": "In a prespecified longitudinal checkpoint-treated cohort, test whether locked persistence metrics from pretreatment and first on-treatment biopsies improve held-out discrimination of durable disease control over tumor burden and T-cell abundance baselines.",
+      "opponent": 56,
+      "outcome": "win",
+      "reason": "Persistence of tumor-relevant T-cell clonotypes addresses a clinically important distinction between immune engagement and effective tumor control, with patient-level leakage controls, external validation, and orthogonal spatial confirmation. The ADC project has a cheaper and more controllable assay path but is largely preclinical and depends on mechanistic measurements transferring across models and conjugate architectures.",
+      "target": 54,
+      "timestamp": "2026-10-04T18:40:00.550430+00:00"
+    },
+    {
+      "main_risk": "Persistent clonotypes may not be tumor-reactive and may fail to generalize across biopsy timing, tissue compartments, or assay platforms.",
+      "next_test": "Evaluate locked clonotype-persistence and myeloid metrics in an independent patient-level longitudinal cohort against clinical and infiltration-only baselines.",
+      "opponent": 55,
+      "outcome": "win",
+      "reason": "The T-cell project has a more direct and clinically consequential endpoint, a clearer distinction between prognostic immune activation and response-relevant biology, and a practical path to external patient-level validation. Mutation-specific engagement is potentially broad but requires linked biochemical, cellular, lineage, and resistance evidence, making its causal chain longer and its transferability less certain.",
+      "target": 54,
+      "timestamp": "2026-10-04T18:40:00.550451+00:00"
+    },
+    {
+      "main_risk": "Longitudinal tissue availability and assay quality may be insufficient to establish a reproducible persistence signal.",
+      "next_test": "Use first on-treatment and pretreatment samples to test whether persistence metrics distinguish durable disease control from early progression before investing in broader spatial or multi-institutional development.",
+      "opponent": 18,
+      "outcome": "win",
+      "reason": "The T-cell problem has stronger near-term translational value and a more transportable biological anchor than the cholangiocarcinoma hypothesis, which is heavily dependent on a shared glycolytic-inflammatory state inferred from cell-line resistance and may be confounded by anatomical site, tumor purity, and culture adaptation. Its proposed validation also explicitly tests incremental value, calibration, and external generalization.",
+      "target": 54,
+      "timestamp": "2026-10-04T18:40:00.550461+00:00"
+    },
+    {
+      "main_risk": "The spatially defined clonotype signal may be non-specific inflammation rather than durable tumor-relevant immunity.",
+      "next_test": "Run a locked, patient-level analysis of pretreatment and early on-treatment samples to determine whether persistence adds calibrated predictive value beyond tumor burden, infiltration, and repertoire diversity.",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "The T-cell project is anchored to a broadly important response-versus-resistance problem and proposes stronger patient-level, external, and assay-robust validation. The hidradenitis project has meaningful clinical relevance, but its inferred IL-17/retinoid tunnel states and their treatment actionability remain less established, with substantial dependence on biopsy heterogeneity and treatment-context variation.",
+      "target": 54,
+      "timestamp": "2026-10-04T18:40:00.550468+00:00"
+    },
+    {
+      "main_risk": "The persistence-plus-myeloid score may require costly longitudinal biopsies without delivering incremental value over simpler clinical or immune-abundance baselines.",
+      "next_test": "Prespecify and evaluate the combined score in a longitudinal patient cohort, comparing it with clinical covariates, tumor burden, T-cell infiltration, repertoire diversity, and myeloid signatures on held-out patients.",
+      "opponent": 40,
+      "outcome": "loss",
+      "reason": "The T-cell project offers a stronger biological and translational contribution than a virtual combination-screening model whose apparent gains could reduce to assay-scale effects, pharmacologic additivity, or related-cell-line similarity. It also has clearer clinical endpoints and more defensible leakage-resistant validation, while retaining useful branches if clonotype, myeloid, or spatial components fail individually.",
+      "target": 54,
+      "timestamp": "2026-10-04T18:40:00.550475+00:00"
     }
   ],
   "k_factor": 24,
@@ -2754,9 +2754,9 @@
     },
     "18": {
       "draws": 1,
-      "games": 23,
-      "losses": 11,
-      "rating": 1500.37,
+      "games": 24,
+      "losses": 12,
+      "rating": 1489.17,
       "wins": 11
     },
     "19": {
@@ -2922,10 +2922,10 @@
     },
     "40": {
       "draws": 1,
-      "games": 21,
+      "games": 22,
       "losses": 10,
-      "rating": 1498.44,
-      "wins": 10
+      "rating": 1512.06,
+      "wins": 11
     },
     "41": {
       "draws": 0,
@@ -3025,6 +3025,27 @@
       "rating": 1522.02,
       "wins": 4
     },
+    "54": {
+      "draws": 0,
+      "games": 5,
+      "losses": 1,
+      "rating": 1531.94,
+      "wins": 4
+    },
+    "55": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
+    },
+    "56": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
     "6": {
       "draws": 0,
       "games": 18,
@@ -3048,9 +3069,9 @@
     },
     "9": {
       "draws": 1,
-      "games": 21,
-      "losses": 10,
-      "rating": 1499.19,
+      "games": 22,
+      "losses": 11,
+      "rating": 1488.42,
       "wins": 10
     }
   },
