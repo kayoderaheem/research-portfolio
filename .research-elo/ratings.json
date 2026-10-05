@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The apparent temporal benefit may disappear after controlling for measurement density, leaving no clinically meaningful advantage over a static model.",
-      "next_test": "On MIMIC-IV, compare static snapshot and temporal models with and without measurement-frequency features using patient-level held-out validation and decision-curve analysis.",
-      "opponent": 27,
-      "outcome": "loss",
-      "reason": "The ICU problem has broader potential impact and a stronger near-term evidence base: patient-disjoint development and cross-database transport are already demonstrated, while the proposed work tests decision value, calibration, and measurement-density confounding rather than another benchmark gain. Its data and early ablations are comparatively accessible. The urine biomarker has a clearer clinical anchor but depends heavily on obtaining a matched external SBRT cohort and on a questionable ability to alter treatment before fraction 3.",
-      "target": 29,
-      "timestamp": "2026-09-19T23:11:53.523802+00:00"
-    },
-    {
-      "main_risk": "The urine panel may be only a dose-proxy for known dosimetric risk and fail to add independent, actionable information.",
-      "next_test": "Lock the candidate panel and fit nested patient-level models in the pilot, comparing dosimetric/clinical baselines against microRNA features with bootstrap uncertainty and prespecified incremental-discrimination and net-benefit thresholds.",
-      "opponent": 19,
-      "outcome": "win",
-      "reason": "The urine microRNA problem is the stronger six-month investment because it starts from an existing pilot, has an explicit comparator and decision threshold, and offers inexpensive early tests of assay reproducibility, data completeness, effect size, and incremental value. The ZNF423 project could yield a more novel mechanistic discovery, but it requires scarce matched longitudinal spatial specimens, reliable malignant-cell and trajectory assignment, and a reproducible link to escape; several high-risk assumptions must succeed before a useful readout.",
-      "target": 29,
-      "timestamp": "2026-09-19T23:11:53.523821+00:00"
-    },
-    {
-      "main_risk": "The proposed adaptive-toxicity use may not be clinically actionable, or microRNAs may add no value beyond dose-volume and baseline symptom measures.",
-      "next_test": "First verify replicate and qPCR measurement reproducibility, then test whether a locked microRNA feature set improves held-out prediction and net benefit over IPSS plus DVH baselines.",
-      "opponent": 6,
-      "outcome": "loss",
-      "reason": "The urine biomarker problem is more tractable and better anchored to an existing dataset, measurable clinical predictors, and a defined validation framework. The glioblastoma mechanics problem is highly novel but depends on difficult-to-validate mechanical proxies, matched pretreatment and early-treatment tissue, orthogonal assays, and transfer across institutions; its central biological construct may collapse into hypoxia, necrosis, density, or mesenchymal state.",
-      "target": 29,
-      "timestamp": "2026-09-19T23:11:53.523831+00:00"
-    },
-    {
-      "main_risk": "The urine signal may be nonspecific downstream radiation injury and fail to improve prediction or decisions beyond dosimetry and symptoms.",
-      "next_test": "Use the existing pilot to establish assay repeatability and test a prespecified nested model for incremental discrimination and decision benefit over clinical and DVH predictors before pursuing external sampling.",
-      "opponent": 4,
-      "outcome": "loss",
-      "reason": "The urine problem offers a cheaper, narrower, and more decision-ready study with an existing pilot and explicit comparison against established predictors. The metastatic myeloid-niche problem has greater potential translational breadth, but requires paired longitudinal metastatic material across heterogeneous organs, reliable spatial measurement, external transportability, and orthogonal functional evidence; treatment-induced localization could remain a consequence of lesion burden or organ context.",
-      "target": 29,
-      "timestamp": "2026-09-19T23:11:53.523841+00:00"
-    },
-    {
-      "main_risk": "The urine biomarker may not replicate in an independent cohort or may lack sufficient sample size to demonstrate clinically meaningful incremental value.",
-      "next_test": "Complete a power and feasibility audit of the pilot and candidate external cohort, including assay repeatability, toxicity-event count, missingness, and nested-validation performance against IPSS-plus-DVH baselines.",
-      "opponent": 22,
-      "outcome": "win",
-      "reason": "The urine biomarker problem is more likely to produce a decisive result within six months because it has a bounded clinical use, an existing pilot, and early feasibility checks. The multiple-sclerosis project has greater potential patient impact, but its assay definition, cross-site prevalence, treatment-dynamic interpretation, compartment relevance, and calibration all require expensive independent longitudinal cohorts and may not resolve within the investment window.",
-      "target": 29,
-      "timestamp": "2026-09-19T23:11:53.523848+00:00"
-    },
-    {
       "main_risk": "Issue 17 depends on spatial features being reproducible across centers and genuinely informative beyond composition and clinical covariates.",
       "next_test": "Run the preregistered patient-level, center-held-out nested benchmark comparing clinical, composition, and spatial-context models with locked preprocessing and calibration assessment.",
       "opponent": 25,
@@ -2699,6 +2654,51 @@
       "reason": "Mutation-specific target engagement provides a broader, more portable mechanistic framework with a relatively direct biochemical-to-cellular validation path. The HCC niche project has substantial potential clinical value but relies on difficult spatial lipid measurement, patient sampling, treatment-context transportability, and a mechanism that may add little beyond immune abundance or liver-disease covariates.",
       "target": 55,
       "timestamp": "2026-10-04T23:58:50.532028+00:00"
+    },
+    {
+      "main_risk": "The key exposure measurements may not reliably separate HER2-mediated intracellular delivery from free-payload contamination or nonspecific uptake.",
+      "next_test": "Run the eight-week matched-conjugate experiment with HER2-high, HER2-low, and resistant models, free-payload controls, nonbinding conjugates, washout, intracellular exposure, and early pharmacodynamic readouts.",
+      "opponent": 40,
+      "outcome": "win",
+      "reason": "Issue 56 has a clearer causal anchor, a more interpretable experimental design, and an earlier test that can distinguish delivery, payload, and downstream resistance while preserving useful outcomes if the favored model fails. Issue 40 depends on several high-risk assumptions about context transfer, synergy measurement, and mechanistic generalization.",
+      "target": 56,
+      "timestamp": "2026-10-05T05:50:00.433019+00:00"
+    },
+    {
+      "main_risk": "The available cohort may be too small, selected, or confounded by treatment choice to establish incremental patient-level predictive or decision value.",
+      "next_test": "Perform the locked reanalysis comparing genomic-clinical matching alone with the addition of functional screening in patient-held-out data, including calibration, decision curves, missing-assay handling, and subgroup results.",
+      "opponent": 45,
+      "outcome": "loss",
+      "reason": "Issue 45 addresses a more consequential clinical decision and directly tests incremental value beyond genomic matching using patient-level validation, calibration, decision curves, and assay-failure handling. Issue 56 is mechanistically cleaner but its value remains several steps removed from patient benefit and requires a demanding exposure and pharmacodynamic measurement chain.",
+      "target": 56,
+      "timestamp": "2026-10-05T05:50:00.433037+00:00"
+    },
+    {
+      "main_risk": "Exposure-normalized features may fail to distinguish target-delivery limitations from free-payload exposure, assay-duration effects, or nonspecific uptake.",
+      "next_test": "Use the eight-week control-rich exposure and pharmacodynamic experiment to test whether temporal response differences persist after matched intracellular payload exposure and measurement of extracellular contamination.",
+      "opponent": 27,
+      "outcome": "win",
+      "reason": "Issue 56 offers a stronger mechanistic discovery problem with explicit competing explanations and an early experiment that can produce actionable branches. Issue 27 has useful transport and decision-value goals, but its prior temporal model did not beat tuned LightGBM, measurement-density confounding is substantial, and access to a genuinely independent third database is uncertain.",
+      "target": 56,
+      "timestamp": "2026-10-05T05:50:00.433049+00:00"
+    },
+    {
+      "main_risk": "Issue 56 may yield exposure and pharmacodynamic correlates that rank conjugates but do not transfer across independent patient-derived models.",
+      "next_test": "Test the locked exposure-normalized mechanism score in a small independent panel spanning HER2 abundance and resistance, using free-payload and nonbinding-conjugate controls.",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Issue 56 has a narrower causal chain, stronger early discriminating test, and more flexible model and assay choices. Issue 7 combines reproducibility, temporal precedence, spatial localization, and pharmacologic actionability, creating multiple long-readout dependencies before it can identify a durable resistance mechanism.",
+      "target": 56,
+      "timestamp": "2026-10-05T05:50:00.433057+00:00"
+    },
+    {
+      "main_risk": "The spatial or exposure measurements may be technically reproducible yet fail to add information beyond simpler abundance and clinical baselines.",
+      "next_test": "For Issue 56, compare HER2-high, HER2-low, and resistant models with matched HER2 and nonbinding conjugates, free payload, intracellular exposure, and early pharmacodynamic measurements before expanding architectures.",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "Issue 56 is more tractable within six months and its earliest experiment can separate several mechanistic failure modes with strong controls. Issue 11 has important clinical relevance, but spatial architecture may be difficult to measure reproducibly, marrow sampling may be selective, and the proposed incremental value over clinical and composition baselines is uncertain.",
+      "target": 56,
+      "timestamp": "2026-10-05T05:50:00.433064+00:00"
     }
   ],
   "k_factor": 24,
@@ -2719,9 +2719,9 @@
     },
     "11": {
       "draws": 1,
-      "games": 22,
-      "losses": 10,
-      "rating": 1517.55,
+      "games": 23,
+      "losses": 11,
+      "rating": 1505.82,
       "wins": 11
     },
     "12": {
@@ -2817,9 +2817,9 @@
     },
     "27": {
       "draws": 0,
-      "games": 23,
-      "losses": 11,
-      "rating": 1515.25,
+      "games": 24,
+      "losses": 12,
+      "rating": 1502.75,
       "wins": 12
     },
     "28": {
@@ -2922,9 +2922,9 @@
     },
     "40": {
       "draws": 1,
-      "games": 22,
-      "losses": 10,
-      "rating": 1512.06,
+      "games": 23,
+      "losses": 11,
+      "rating": 1499.66,
       "wins": 11
     },
     "41": {
@@ -2957,10 +2957,10 @@
     },
     "45": {
       "draws": 0,
-      "games": 7,
+      "games": 8,
       "losses": 3,
-      "rating": 1512.43,
-      "wins": 4
+      "rating": 1524.44,
+      "wins": 5
     },
     "46": {
       "draws": 1,
@@ -3041,10 +3041,10 @@
     },
     "56": {
       "draws": 0,
-      "games": 2,
-      "losses": 1,
-      "rating": 1500.43,
-      "wins": 1
+      "games": 7,
+      "losses": 2,
+      "rating": 1537.14,
+      "wins": 5
     },
     "6": {
       "draws": 0,
@@ -3055,9 +3055,9 @@
     },
     "7": {
       "draws": 0,
-      "games": 29,
-      "losses": 14,
-      "rating": 1515.8,
+      "games": 30,
+      "losses": 15,
+      "rating": 1503.71,
       "wins": 15
     },
     "8": {
