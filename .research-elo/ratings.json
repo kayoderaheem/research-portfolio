@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The OUD project may not have sufficiently complete, reproducible, multi-site patient-level data to evaluate incremental treatment-effect value rather than prediction alone.",
-      "next_test": "Audit candidate OUD cohorts for prespecified treatment decisions, outcomes, modality completeness, site representation, and patient-level external validation before modeling.",
-      "opponent": 12,
-      "outcome": "win",
-      "reason": "OUD treatment matching asks a broadly important, clinically grounded question about whether added modalities change decisions beyond strong clinical information, with explicit leakage-resistant validation, calibration, equity, and implementation criteria. The HIV-melanoma project has high potential impact but depends on assembling a rare, comparable, adequately powered tissue cohort and validating a spatial mechanism with multiple assays.",
-      "target": 21,
-      "timestamp": "2026-09-20T11:32:25.996331+00:00"
-    },
-    {
-      "main_risk": "The prostate project may lack enough events and an independent matched external cohort to establish a credible incremental benefit.",
-      "next_test": "Confirm event count, feature completeness, technical replicate/qPCR reproducibility, and external-cohort availability, then run a prespecified nested patient-level baseline-versus-microRNA analysis.",
-      "opponent": 29,
-      "outcome": "win",
-      "reason": "The prostate SBRT biomarker project has a concrete clinical-use decision, an existing pilot, accessible baseline comparators, and a relatively cheap early reproducibility and incremental-value analysis. The OUD project is more impactful if successful, but requires several costly high-risk steps involving multimodal acquisition, treatment-effect estimation, transportability, and implementation.",
-      "target": 21,
-      "timestamp": "2026-09-20T11:32:25.996349+00:00"
-    },
-    {
-      "main_risk": "The OUD study may become an underpowered prediction exercise if it cannot estimate clinically meaningful treatment-effect heterogeneity with adequate site and population diversity.",
-      "next_test": "Perform a data-feasibility audit and power analysis for one prespecified OUD treatment decision, outcome horizon, and incremental net-benefit estimand.",
-      "opponent": 19,
-      "outcome": "loss",
-      "reason": "OUD multimodal decision value offers broader clinical and methodological impact and a clearer path to informative negative results: it can determine when additional modalities are not worth their cost or complexity. The MPNST project has a compelling biological anchor but depends on rare longitudinal specimens, reliable malignant-cell and spatial-state assignment, and proving a treatment-induced escape trajectory rather than confounding by tumor burden or genotype.",
-      "target": 21,
-      "timestamp": "2026-09-20T11:32:25.996358+00:00"
-    },
-    {
-      "main_risk": "The immune state may be a site-, treatment-, severity-, or sample-handling correlate that fails to remain calibrated or clinically informative in an independent cohort.",
-      "next_test": "Run analytical repeatability and locked-score validation on an independent MS cohort with treatment exposure and longitudinal inflammatory outcomes, before adding cross-compartment mechanistic claims.",
-      "opponent": 22,
-      "outcome": "loss",
-      "reason": "The multiple-sclerosis project starts from an already observed therapy-responsive immune state and can test a compact, locked assay against clinical and single-modality baselines, giving it a stronger competitive anchor than the OUD project’s broad search across many possible modalities and decisions. It also has useful branches through reproducibility, transportability, and treatment-response results even if the mechanistic interpretation weakens.",
-      "target": 21,
-      "timestamp": "2026-09-20T11:32:25.996366+00:00"
-    },
-    {
-      "main_risk": "Temporal features may mainly encode measurement intensity or documentation practice, leaving no clinically meaningful net-benefit improvement over a static model.",
-      "next_test": "On a patient- and site-held-out test set, compare static, temporal, and measurement-density-controlled models using calibration and decision-curve net benefit at a prespecified escalation threshold.",
-      "opponent": 27,
-      "outcome": "loss",
-      "reason": "The ICU project has a sharply defined outcome and decision, existing patient-disjoint development and external data, a cheap measurement-density ablation, and an accessible route to site-held-out calibration testing. It can produce a useful answer within six months even if temporal complexity adds no value. The OUD project has greater possible impact but substantially higher data, modality, treatment-effect, and implementation risk.",
-      "target": 21,
-      "timestamp": "2026-09-20T11:32:25.996372+00:00"
-    },
-    {
       "main_risk": "The KRAS transition signal may not reproduce across independent donors or may reflect clonal selection, treatment timing, or residual burden rather than causal or predictive plasticity.",
       "next_test": "Profile matched pretreatment and early on-treatment samples from independent PDAC donors and compare a prespecified transition score with pretreatment composition, genotype, and baseline burden for predicting later regrowth.",
       "opponent": 23,
@@ -2699,6 +2654,51 @@
       "reason": "The T-cell project has broader potential impact and a more transportable fixed biological problem than the mutation-specific engagement project, while explicitly testing clinical covariates, external cohorts, assay differences, and orthogonal measurements. Mutation-specific engagement is mechanistically attractive but narrower and depends on selected variant-drug panels, context transfer, and lengthy resistance evolution experiments.",
       "target": 54,
       "timestamp": "2026-10-05T14:51:51.190999+00:00"
+    },
+    {
+      "main_risk": "Spatial architecture may be a proxy for target density, tumor burden, specimen quality, or immune composition rather than an independent predictor.",
+      "next_test": "Run the prespecified patient-level comparison of composition-only versus spatially augmented models with locked covariates, calibration, and external or cohort-held-out validation.",
+      "opponent": 58,
+      "outcome": "win",
+      "reason": "Issue 57 has a clearer incremental clinical question, stronger baseline structure, and a relatively cheap patient-level nested-model test. Issue 58 requires coordinated longitudinal single-cell, receptor, spatial, and outcome data, with several difficult causal and cross-cohort assumptions before producing a reliable result.",
+      "target": 57,
+      "timestamp": "2026-10-05T22:03:32.557210+00:00"
+    },
+    {
+      "main_risk": "The apparent spatial architecture signal may not represent functional antibody or effector-cell access and may disappear after adjustment for composition and tumor burden.",
+      "next_test": "Test a locked stromal-obstruction and target-adjacency score in patient-level nested models against target expression, composition, and clinical baselines, with orthogonal penetration or access measurements where available.",
+      "opponent": 59,
+      "outcome": "loss",
+      "reason": "Issue 57 offers a broader and more directly testable incremental prediction problem with established clinical covariates and a clear pathology-reduction path. Issue 59 depends more heavily on paired tissue, product-specific therapeutic-T-cell identification, early on-treatment sampling, and reliable access-state measurement, making the six-month readout riskier.",
+      "target": 57,
+      "timestamp": "2026-10-05T22:03:32.557233+00:00"
+    },
+    {
+      "main_risk": "The context-aware model may not generalize beyond related cell lines or training-like contexts, making apparent synergy a cell-line or assay artifact.",
+      "next_test": "Prospectively test a locked prediction list of combinations and doses in donor-derived organoids or xenografts held out by donor, measuring viability, apoptosis, mitochondrial priming, and calibration against Loewe/Bliss and mechanistic baselines.",
+      "opponent": 40,
+      "outcome": "loss",
+      "reason": "Issue 40 has a more controllable six-month path: strong pharmacologic baselines, explicit context-held-out evaluation, prospective blinded testing, and orthogonal apoptosis readouts. Issue 57 has greater potential clinical value but depends on access to suitable treated cohorts, reliable spatial measurements, and an incremental signal that may be difficult to establish in limited samples.",
+      "target": 57,
+      "timestamp": "2026-10-05T22:03:32.557243+00:00"
+    },
+    {
+      "main_risk": "Temporal-model gains may be driven entirely by measurement density, and any residual improvement may not survive cross-site recalibration or yield clinically meaningful net benefit.",
+      "next_test": "Compare frozen static and temporal models across held-out hospitals after controlling for measurement density, then assess calibration and decision-curve net benefit at prespecified escalation thresholds.",
+      "opponent": 27,
+      "outcome": "loss",
+      "reason": "Issue 27 has the strongest likelihood of producing a decision-relevant answer within six months: accessible datasets, patient-disjoint evaluation, external hospital validation, and explicit calibration and net-benefit criteria. Issue 57 is potentially more novel but has higher cohort, assay, and measurement-reliability risks before clinical utility can be assessed.",
+      "target": 57,
+      "timestamp": "2026-10-05T22:03:32.557250+00:00"
+    },
+    {
+      "main_risk": "Spatial architecture may add no independent information beyond target expression, composition, tumor burden, and specimen quality.",
+      "next_test": "Fit patient- or donor-level nested models using a locked spatial score and test incremental discrimination, calibration, and decision value against composition and clinical baselines before investing in functional validation.",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Issue 57 has a more bounded predictive objective and a cleaner early branch than Issue 7, while still allowing mechanistic follow-up. Issue 7 requires reproducible treatment-induced transitions, temporal precedence, spatial value, and pharmacologic actionability across donors or models, creating several sequential high-risk assumptions.",
+      "target": 57,
+      "timestamp": "2026-10-05T22:03:32.557257+00:00"
     }
   ],
   "k_factor": 24,
@@ -2817,10 +2817,10 @@
     },
     "27": {
       "draws": 0,
-      "games": 24,
+      "games": 25,
       "losses": 12,
-      "rating": 1502.75,
-      "wins": 12
+      "rating": 1514.23,
+      "wins": 13
     },
     "28": {
       "draws": 0,
@@ -2922,10 +2922,10 @@
     },
     "40": {
       "draws": 1,
-      "games": 23,
+      "games": 24,
       "losses": 11,
-      "rating": 1499.66,
-      "wins": 11
+      "rating": 1511.66,
+      "wins": 12
     },
     "41": {
       "draws": 0,
@@ -3046,6 +3046,27 @@
       "rating": 1548.54,
       "wins": 6
     },
+    "57": {
+      "draws": 0,
+      "games": 5,
+      "losses": 3,
+      "rating": 1489.06,
+      "wins": 2
+    },
+    "58": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "59": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1512.41,
+      "wins": 1
+    },
     "6": {
       "draws": 0,
       "games": 18,
@@ -3055,9 +3076,9 @@
     },
     "7": {
       "draws": 0,
-      "games": 30,
-      "losses": 15,
-      "rating": 1503.71,
+      "games": 31,
+      "losses": 16,
+      "rating": 1490.76,
       "wins": 15
     },
     "8": {
