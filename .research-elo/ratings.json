@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The KRAS transition signal may not reproduce across independent donors or may reflect clonal selection, treatment timing, or residual burden rather than causal or predictive plasticity.",
-      "next_test": "Profile matched pretreatment and early on-treatment samples from independent PDAC donors and compare a prespecified transition score with pretreatment composition, genotype, and baseline burden for predicting later regrowth.",
-      "opponent": 23,
-      "outcome": "win",
-      "reason": "KRAS-state transitions offer a stronger discovery anchor with broader mechanistic insight, a clearer donor-level validation framework, and an early 12-week test that can distinguish reproducible resistance trajectories from model-specific stress responses. The rehabilitation proposal has clinical relevance but depends on first defining and consistently delivering a rehabilitation decision, then demonstrating incremental decision value and cross-site calibration.",
-      "target": 7,
-      "timestamp": "2026-09-20T16:13:14.334961+00:00"
-    },
-    {
-      "main_risk": "The apparent KRAS adaptive states may be model- or treatment-specific and fail to predict resistance beyond baseline composition and clinical covariates.",
-      "next_test": "Run the prespecified donor-level serial PDAC analysis to test whether early transition scores reproducibly precede and improve prediction of later resistance.",
-      "opponent": 6,
-      "outcome": "win",
-      "reason": "KRAS transitions have a clearer scientific anchor, stronger evidence readiness, and a more direct early test of reproducibility and temporal precedence. The glioblastoma proposal is highly novel but relies on difficult-to-measure mechanical proxies, clinical spatial specimens, and disentangling mechanics from hypoxia, necrosis, density, and mesenchymal state.",
-      "target": 7,
-      "timestamp": "2026-09-20T16:13:14.334978+00:00"
-    },
-    {
-      "main_risk": "Temporal features may add no genuine physiological information once measurement density and monitoring intensity are controlled, eliminating the claimed decision value.",
-      "next_test": "Compare static-snapshot and temporal-trajectory models with measurement-density features included in both, using a patient-disjoint held-out ICU test set and prespecified net-benefit thresholds.",
-      "opponent": 27,
-      "outcome": "loss",
-      "reason": "The ICU problem is the stronger six-month investment because it has accessible datasets, strong simple baselines, a cheap early measurement-density ablation, patient- and site-level validation, and a directly actionable decision-value endpoint. KRAS has greater biological discovery potential but requires several costly high-risk steps before establishing reproducibility, prediction, and actionability.",
-      "target": 7,
-      "timestamp": "2026-09-20T16:13:14.334984+00:00"
-    },
-    {
-      "main_risk": "The KRAS transition signature may not generalize across independent PDAC donors or may merely reflect treatment exposure and sampling-time effects.",
-      "next_test": "Prospectively test a locked transition score in independent serial PDAC donors, with donor-level separation and comparison against pretreatment and post-treatment abundance baselines.",
-      "opponent": 22,
-      "outcome": "win",
-      "reason": "KRAS offers a more focused and earlier falsifiable problem than the multiple-sclerosis immune-state proposal, which requires assay locking, cross-site and cross-treatment transport, clinical utility, and possibly blood-to-CNS validity. The KRAS project can yield useful branches even if the favored transition or spatial mechanism fails by identifying model-specific versus reproducible resistance routes.",
-      "target": 7,
-      "timestamp": "2026-09-20T16:13:14.334988+00:00"
-    },
-    {
-      "main_risk": "The KRAS transition score may fail to reproduce or predict resistance beyond baseline tumor composition, making the proposed combination targets non-actionable.",
-      "next_test": "Use independent paired PDAC donors to test whether the locked early transition score predicts later regrowth better than baseline composition, genotype, and treatment exposure.",
-      "opponent": 4,
-      "outcome": "win",
-      "reason": "KRAS is the stronger current investment because its fixed anchor—reproducible treatment-induced transitions preceding resistance—is more coherent and less dependent on platform-specific spatial segmentation, organ context, and uncertain mechanical or interface proxies. The myeloid project has high translational potential and an attractive eight-week test, but treatment-induced localization may be confounded by lesion size, organ heterogeneity, and response itself.",
-      "target": 7,
-      "timestamp": "2026-09-20T16:13:14.334992+00:00"
-    },
-    {
       "main_risk": "Genotype may add little actionable information beyond routine blood-count trajectories, making the proposed clinical value redundant.",
       "next_test": "Run the locked clinical, laboratory, genotype-only, and combined models in a patient- and site-held-out cohort, evaluating calibration and decision-curve net benefit rather than discrimination alone.",
       "opponent": 32,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 57 has a more bounded predictive objective and a cleaner early branch than Issue 7, while still allowing mechanistic follow-up. Issue 7 requires reproducible treatment-induced transitions, temporal precedence, spatial value, and pharmacologic actionability across donors or models, creating several sequential high-risk assumptions.",
       "target": 57,
       "timestamp": "2026-10-05T22:03:32.557257+00:00"
+    },
+    {
+      "main_risk": "Spatial architecture may only proxy tumor burden, target density, immune composition, or specimen quality and fail to add validated patient-level value.",
+      "next_test": "Fit prespecified patient-level composition-only and spatially augmented models in a development cohort, with region-level reliability checks and strict held-out patient evaluation.",
+      "opponent": 57,
+      "outcome": "loss",
+      "reason": "Pre-existing stromal architecture is a clearer, narrower incremental-prediction problem with defined patient-level baselines, decision metrics, external validation, and a feasible early nested-model test. The IFN-trajectory project has greater conceptual breadth but combines longitudinal sampling, spatial profiling, clonotypes, cross-platform integration, and causal interpretation, creating a longer chain of high-risk assumptions.",
+      "target": 58,
+      "timestamp": "2026-10-06T06:29:02.426519+00:00"
+    },
+    {
+      "main_risk": "The apparent adaptive states may be treatment-specific stress or clonal selection rather than reproducible plastic transitions that precede resistance.",
+      "next_test": "Profile matched pretreatment and early on-treatment samples from independent PDAC donors and test a locked transition score against later regrowth, using donor-level validation and untreated controls.",
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "KRAS-blockade transitions have a more fixed biological anchor, a defined disease and treatment context, and a direct serial-donor test of temporal precedence and reproducibility. The IFN project spans multiple diseases, treatments, modalities, and endpoints, making harmonization and interpretation substantially less tractable within six months.",
+      "target": 58,
+      "timestamp": "2026-10-06T06:29:02.426538+00:00"
+    },
+    {
+      "main_risk": "The glycolytic-inflammatory neighborhood may be a cell-line-derived or site-confounded proxy for tumor purity, proliferation, or anatomical origin rather than a conserved resistance transition.",
+      "next_test": "Measure the prespecified neighborhood score in pretreatment and early on-treatment biopsies from both intrahepatic and extrahepatic disease, holding out one site and comparing against composition and clinical baselines.",
+      "opponent": 18,
+      "outcome": "loss",
+      "reason": "The cholangiocarcinoma project asks a focused, transferable question about conserved versus anatomical-site-specific resistance biology and has a concrete site-held-out validation design. The IFN project has potentially broader impact but requires simultaneous success across longitudinal trajectories, spatial context, clonotype function, and heterogeneous treatment cohorts.",
+      "target": 58,
+      "timestamp": "2026-10-06T06:29:02.426547+00:00"
+    },
+    {
+      "main_risk": "Tunnel IL-17A and retinoid states may mainly reflect tunnel burden, chronicity, adherence, or general inflammation rather than a treatment-relevant biological state.",
+      "next_test": "Apply a locked spatial tunnel-state classifier to pretreatment biopsies from patients beginning standardized therapy and compare calibrated patient-level prediction with severity, tunnel-burden, composition, and pathway-score baselines.",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "The hidradenitis project has a specific tissue unit, a comparatively focused classifier, and an early test that can assess reproducibility and incremental prediction before committing to combination mechanisms. The IFN project offers broader discovery potential but is substantially more operationally complex and vulnerable to treatment, injury, infection, steroid, and sampling confounding.",
+      "target": 58,
+      "timestamp": "2026-10-06T06:29:02.426552+00:00"
+    },
+    {
+      "main_risk": "Drug exposure and phosphosite measurements may lack sufficient temporal and tumor-specific accuracy, making apparent pathway rebound indistinguishable from sampling heterogeneity or generic treatment stress.",
+      "next_test": "Collect matched drug levels and baseline/first-cycle samples in a targeted-therapy cohort, then test locked exposure-adjusted target engagement and pathway-rebound features against later failure with stress-response and exposure-only controls.",
+      "opponent": 49,
+      "outcome": "loss",
+      "reason": "Exposure-adjusted phosphoproteomics has a strong fixed anchor—mechanistically attributing treatment failure—and connects directly to an actionable experimental decision such as dose optimization or combination selection. The IFN proposal is broader and potentially more general, but its multi-modal trajectory framework has more coupled assumptions and less immediate interpretability of failure modes.",
+      "target": 58,
+      "timestamp": "2026-10-06T06:29:02.426558+00:00"
     }
   ],
   "k_factor": 24,
@@ -2754,10 +2754,10 @@
     },
     "18": {
       "draws": 1,
-      "games": 25,
+      "games": 26,
       "losses": 13,
-      "rating": 1477.13,
-      "wins": 11
+      "rating": 1488.7,
+      "wins": 12
     },
     "19": {
       "draws": 0,
@@ -2985,10 +2985,10 @@
     },
     "49": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 6,
-      "rating": 1475.18,
-      "wins": 4
+      "rating": 1486.03,
+      "wins": 5
     },
     "5": {
       "draws": 3,
@@ -3048,16 +3048,16 @@
     },
     "57": {
       "draws": 0,
-      "games": 5,
+      "games": 6,
       "losses": 3,
-      "rating": 1489.06,
-      "wins": 2
+      "rating": 1501.02,
+      "wins": 3
     },
     "58": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
+      "games": 6,
+      "losses": 6,
+      "rating": 1430.94,
       "wins": 0
     },
     "59": {
@@ -3076,10 +3076,10 @@
     },
     "7": {
       "draws": 0,
-      "games": 31,
+      "games": 32,
       "losses": 16,
-      "rating": 1490.76,
-      "wins": 15
+      "rating": 1502.25,
+      "wins": 16
     },
     "8": {
       "draws": 0,
@@ -3090,10 +3090,10 @@
     },
     "9": {
       "draws": 1,
-      "games": 23,
+      "games": 24,
       "losses": 12,
-      "rating": 1476.42,
-      "wins": 10
+      "rating": 1487.61,
+      "wins": 11
     }
   },
   "version": 2
