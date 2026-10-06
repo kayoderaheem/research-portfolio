@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Genotype may add little actionable information beyond routine blood-count trajectories, making the proposed clinical value redundant.",
-      "next_test": "Run the locked clinical, laboratory, genotype-only, and combined models in a patient- and site-held-out cohort, evaluating calibration and decision-curve net benefit rather than discrimination alone.",
-      "opponent": 32,
-      "outcome": "win",
-      "reason": "Thiopurine toxicity has a clearer patient-level endpoint, established actionable genotypes, and a cheaper retrospective test of incremental value beyond serial blood counts. Myocarditis triage requires difficult-to-standardize management labels, multimodal acquisition, and transportable calibration in a relatively heterogeneous pediatric setting.",
-      "target": 30,
-      "timestamp": "2026-09-20T20:54:00.408931+00:00"
-    },
-    {
-      "main_risk": "TPMT and NUDT15 genotype may not improve decisions after accounting for baseline and serial laboratory monitoring.",
-      "next_test": "Test nested clinical-plus-laboratory versus genotype-augmented models in a site-held-out retrospective cohort with prespecified subgroup calibration and decision thresholds.",
-      "opponent": 31,
-      "outcome": "win",
-      "reason": "Thiopurine prediction has a more defined toxicity endpoint, more directly actionable inputs, and a stronger early feasibility path than corneal imaging, whose value depends on reproducible acquisition and a noncircular small-fiber-neuropathy reference standard.",
-      "target": 30,
-      "timestamp": "2026-09-20T20:54:00.408956+00:00"
-    },
-    {
-      "main_risk": "The shared glycolytic-inflammatory program may be absent or add no value beyond tumor composition, site, and clinical covariates.",
-      "next_test": "Measure a prespecified spatial score in pretreatment and early on-treatment patient biopsies and compare it against composition and clinical baselines in a site-held-out cohort.",
-      "opponent": 18,
-      "outcome": "win",
-      "reason": "Thiopurine toxicity offers a clinically anchored question with established assays, accessible longitudinal measurements, and an inexpensive early validation design. The cholangiocarcinoma project has high potential impact but requires invasive serial spatial profiling, reproducible cross-site biology, and separation of true resistance mechanisms from culture and anatomical-site effects.",
-      "target": 30,
-      "timestamp": "2026-09-20T20:54:00.408966+00:00"
-    },
-    {
-      "main_risk": "The genotype increment may be clinically redundant once serial blood-count trajectories and treatment context are included.",
-      "next_test": "Evaluate locked genotype-augmented and laboratory-only models on held-out patients and sites, including net benefit, calibration, and clinically relevant error rates.",
-      "opponent": 7,
-      "outcome": "win",
-      "reason": "Thiopurine prediction has fewer linked high-risk assumptions and a shorter route from retrospective evidence to a defined management use. KRAS-transition research requires reproducibility across donors, temporal precedence, assay integration, and successful functional perturbation before it becomes actionable.",
-      "target": 30,
-      "timestamp": "2026-09-20T20:54:00.408973+00:00"
-    },
-    {
-      "main_risk": "A molecular panel may be redundant with fetal biometry, Doppler, gestational age, and established biomarkers.",
-      "next_test": "Lock a clinical-Doppler reference model and prespecified adverse-perinatal endpoint, then test one molecular panel in an independent site-held-out cohort for calibrated net benefit.",
-      "opponent": 26,
-      "outcome": "win",
-      "reason": "Thiopurine toxicity has a specific endpoint, established genetic measurements, and a clearer decision pathway. Fetal-growth-restriction stratification leaves the molecular modality and management endpoint underdetermined and faces substantial gestational-age, timing, referral-spectrum, and site-calibration risks on top of strong existing clinical and Doppler baselines.",
-      "target": 30,
-      "timestamp": "2026-09-20T20:54:00.408980+00:00"
-    },
-    {
       "main_risk": "The choice would change if corneal nerve measurements fail to reproduce across operators or if the reference standard is circular, unreliable, or unavailable at sufficient independent sites.",
       "next_test": "Run the proposed 8-week site-held-out pilot with blinded image-quality and reread assessment, comparing clinical, neurophysiological, and imaging-augmented models using patient-level splits and calibration/net benefit.",
       "opponent": 18,
@@ -2699,16 +2654,61 @@
       "reason": "Exposure-adjusted phosphoproteomics has a strong fixed anchor—mechanistically attributing treatment failure—and connects directly to an actionable experimental decision such as dose optimization or combination selection. The IFN proposal is broader and potentially more general, but its multi-modal trajectory framework has more coupled assumptions and less immediate interpretability of failure modes.",
       "target": 58,
       "timestamp": "2026-10-06T06:29:02.426558+00:00"
+    },
+    {
+      "main_risk": "The spatial signal may mainly reflect tumor burden, immune abundance, sampling location, or technical differences rather than therapeutic-cell access.",
+      "next_test": "In a paired pretreatment/early-treatment cohort, test whether preregistered access features predict response beyond clinical covariates and composition, with multiplex-imaging replication and patient-level splits.",
+      "opponent": 41,
+      "outcome": "win",
+      "reason": "Spatial access states address a clinically consequential and biologically specific failure point, with patient-level validation, orthogonal imaging, and composition-only baselines that can distinguish entry from persistence or killing. The virtual-cell project depends on several difficult causal and lineage-resolved assumptions before its dynamic model can be meaningfully falsified.",
+      "target": 59,
+      "timestamp": "2026-10-06T16:00:14.851198+00:00"
+    },
+    {
+      "main_risk": "Apparent synergy may be assay-scale or additive-pharmacology artifact and may fail to transfer from cell models to donor-derived or three-dimensional systems.",
+      "next_test": "Lock a small prediction panel and prospectively test drug combinations across held-out differentiation and p53 contexts using viability, apoptosis, mitochondrial priming, and Loewe/Bliss/HSA baselines.",
+      "opponent": 40,
+      "outcome": "loss",
+      "reason": "Context-aware combination screening offers a cheaper, more controllable six-month path: factorial dose matrices, established pharmacologic baselines, mechanistic apoptosis assays, and a prospective test in unseen contexts can rapidly establish whether the model adds value. The spatial project requires scarce paired clinical tissue, reliable therapeutic-cell identification, and cross-platform spatial validation before its central claim is testable.",
+      "target": 59,
+      "timestamp": "2026-10-06T16:00:14.851215+00:00"
+    },
+    {
+      "main_risk": "The apparent temporal advantage may disappear after controlling for monitoring and measurement density, leaving no clinically meaningful incremental decision value.",
+      "next_test": "Run a locked patient-level comparison of snapshot, temporal, and measurement-density-controlled models, then evaluate net benefit and calibration on frozen external hospital data before adding modalities.",
+      "opponent": 27,
+      "outcome": "loss",
+      "reason": "The ICU project has the strongest immediate decision structure: patient-disjoint development, established static and boosting baselines, explicit measurement-density confounding, decision-curve outcomes, calibration, and external site transport. It can produce a useful answer even if temporal features add no value, whereas the spatial project has higher discovery upside but substantially greater tissue, assay, and cohort-access risk.",
+      "target": 59,
+      "timestamp": "2026-10-06T16:00:14.851222+00:00"
+    },
+    {
+      "main_risk": "Lineage, co-mutation, uptake, or exposure effects may dominate response, making target engagement add little beyond mutation and cellular context.",
+      "next_test": "Use a focused held-out mutation-by-drug panel in matched models to test whether integrated engagement, pathway suppression, and viability outperform mutation-only, lineage-only, and viability-only baselines.",
+      "opponent": 55,
+      "outcome": "loss",
+      "reason": "Mutation-specific target engagement has a clear mechanistic anchor and a relatively direct early readout linking biochemical engagement to pathway suppression and viability, with isogenic models and orthogonal assays capable of separating target failure from downstream resistance. The spatial proposal has broader tissue insight but depends on difficult product tracking, paired specimens, and reproducible spatial boundary measurements.",
+      "target": 59,
+      "timestamp": "2026-10-06T16:00:14.851227+00:00"
+    },
+    {
+      "main_risk": "Spatial measurements may not identify therapeutic cells or causal access stages reliably enough across patients and platforms.",
+      "next_test": "Analyze paired pretreatment and early on-treatment specimens to determine whether a locked spatial access score predicts response beyond composition and treatment exposure, with orthogonal imaging and explicit technical uncertainty.",
+      "opponent": 1,
+      "outcome": "loss",
+      "reason": "Spatial access states provide a clearer discovery anchor and more useful failure branches than organoid functional profiling: exclusion, failed entry, poor proximity, and persistence can each motivate different interventions even if prediction fails. The organoid project has major clinical potential but requires rapid prospective culture success, treatment-decision timing, patient-level outcome association, and transportability before it can support clinical claims.",
+      "target": 59,
+      "timestamp": "2026-10-06T16:00:14.851230+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 29,
+      "games": 30,
       "losses": 14,
-      "rating": 1517.88,
-      "wins": 15
+      "rating": 1528.86,
+      "wins": 16
     },
     "10": {
       "draws": 0,
@@ -2817,10 +2817,10 @@
     },
     "27": {
       "draws": 0,
-      "games": 25,
+      "games": 26,
       "losses": 12,
-      "rating": 1514.23,
-      "wins": 13
+      "rating": 1526.15,
+      "wins": 14
     },
     "28": {
       "draws": 0,
@@ -2922,16 +2922,16 @@
     },
     "40": {
       "draws": 1,
-      "games": 24,
+      "games": 25,
       "losses": 11,
-      "rating": 1511.66,
-      "wins": 12
+      "rating": 1524.1,
+      "wins": 13
     },
     "41": {
       "draws": 0,
-      "games": 17,
-      "losses": 8,
-      "rating": 1512.3,
+      "games": 18,
+      "losses": 9,
+      "rating": 1500.3,
       "wins": 9
     },
     "42": {
@@ -3034,10 +3034,10 @@
     },
     "55": {
       "draws": 0,
-      "games": 7,
+      "games": 8,
       "losses": 3,
-      "rating": 1509.97,
-      "wins": 4
+      "rating": 1521.63,
+      "wins": 5
     },
     "56": {
       "draws": 0,
@@ -3062,10 +3062,10 @@
     },
     "59": {
       "draws": 0,
-      "games": 1,
-      "losses": 0,
-      "rating": 1512.41,
-      "wins": 1
+      "games": 6,
+      "losses": 4,
+      "rating": 1477.41,
+      "wins": 2
     },
     "6": {
       "draws": 0,
