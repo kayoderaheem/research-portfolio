@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The choice would change if corneal nerve measurements fail to reproduce across operators or if the reference standard is circular, unreliable, or unavailable at sufficient independent sites.",
-      "next_test": "Run the proposed 8-week site-held-out pilot with blinded image-quality and reread assessment, comparing clinical, neurophysiological, and imaging-augmented models using patient-level splits and calibration/net benefit.",
-      "opponent": 18,
-      "outcome": "win",
-      "reason": "Site-transportable corneal imaging has a clearer clinical anchor, stronger near-term feasibility, and a cheaper early test than the cholangiocarcinoma project, which requires longitudinal multi-site spatial biopsies, treatment-linked sampling, and functional validation across heterogeneous disease sites. Its result can directly clarify whether an established noninvasive measurement adds value beyond current assessment.",
-      "target": 31,
-      "timestamp": "2026-09-20T23:16:59.065546+00:00"
-    },
-    {
-      "main_risk": "The choice would change if pediatric myocarditis data and adjudicated management outcomes already exist across independent sites while corneal imaging cannot achieve reproducible acquisition or a defensible reference standard.",
-      "next_test": "Complete the 8-week corneal site-held-out pilot, including reproducibility, calibration, subgroup stability, and decision-curve comparisons against the strongest clinical baseline.",
-      "opponent": 32,
-      "outcome": "win",
-      "reason": "Corneal imaging offers a more tractable and better-specified validation problem than pediatric myocarditis multimodal triage. The myocarditis project combines a rare heterogeneous population, difficult-to-standardize treatment and monitoring labels, molecular assay variability, and high risk of missingness and referral-spectrum bias before clinical usefulness can be established.",
-      "target": 31,
-      "timestamp": "2026-09-20T23:16:59.065560+00:00"
-    },
-    {
-      "main_risk": "The choice would change if serial donor-level data show a robust, reproducible transition that predicts resistance before regrowth and is confirmed by orthogonal measurements or perturbation.",
-      "next_test": "For corneal imaging, test incremental calibrated decision value and reproducibility in a site-held-out cohort; in parallel, only continue the KRAS program if its 12-week donor-level pilot meets the stated concordance and prediction thresholds.",
-      "opponent": 7,
-      "outcome": "win",
-      "reason": "Site-transportable corneal imaging is currently the stronger investment because it has a defined patient-level clinical decision, an established modality, and an early validation pathway. The KRAS project has potentially high biological impact but depends on reproducible treatment-induced transitions, temporal precedence, donor-level generalization, and pharmacological actionability, making its decisive readout slower and more assumption-heavy.",
-      "target": 31,
-      "timestamp": "2026-09-20T23:16:59.065566+00:00"
-    },
-    {
-      "main_risk": "The choice would change if an existing pregnancy cohort has prospectively timed molecular measurements, adjudicated outcomes, and an independent site-held-out sample large enough to test added value beyond Doppler and established biomarkers.",
-      "next_test": "Lock the corneal reference standard and imaging pipeline, then evaluate the 8-week site-held-out pilot against clinical and neurophysiological baselines with calibration and net-benefit criteria.",
-      "opponent": 26,
-      "outcome": "win",
-      "reason": "Corneal imaging is more scientifically anchored and operationally testable than fetal-growth-restriction molecular risk stratification. The latter leaves the molecular modality and management endpoint partly open and faces severe gestational-age, timing, treatment-confounding, assay-standardization, and calibration challenges despite strong potential clinical impact.",
-      "target": 31,
-      "timestamp": "2026-09-20T23:16:59.065571+00:00"
-    },
-    {
-      "main_risk": "The choice would change if temporal features lose all value after measurement-density adjustment or if the ICU outcome and escalation threshold prove too weakly connected to real clinical decisions, reducing the work to a benchmark-only result.",
-      "next_test": "Run the patient- and hospital-aware static-versus-temporal ablation with measurement-density controls on held-out sites, reporting calibration and decision-curve net benefit rather than discrimination alone.",
-      "opponent": 27,
-      "outcome": "loss",
-      "reason": "The ICU deterioration problem has more accessible data, a sharply defined comparison, strong established baselines, and a cheap early test that can separate physiological trajectory signal from measurement-density confounding. Although its ultimate incremental clinical impact may be modest, it can rapidly produce a useful positive, null, or pivot result. Corneal imaging has greater potential translational distinctiveness but requires harder-to-secure multi-site acquisition, adjudication, and reproducibility infrastructure.",
-      "target": 31,
-      "timestamp": "2026-09-20T23:16:59.065575+00:00"
-    },
-    {
       "main_risk": "The shared glycolytic-inflammatory spatial program may be a cell-line or anatomical-site artifact and fail to appear reproducibly in human tumors.",
       "next_test": "Use a small, patient-level, site-balanced set of pretreatment and early on-treatment biopsies to test a prespecified spatial score against clinical, site, and composition-only baselines with site-held-out validation.",
       "opponent": 18,
@@ -2699,6 +2654,51 @@
       "reason": "Spatial access states provide a clearer discovery anchor and more useful failure branches than organoid functional profiling: exclusion, failed entry, poor proximity, and persistence can each motivate different interventions even if prediction fails. The organoid project has major clinical potential but requires rapid prospective culture success, treatment-decision timing, patient-level outcome association, and transportability before it can support clinical claims.",
       "target": 59,
       "timestamp": "2026-10-06T16:00:14.851230+00:00"
+    },
+    {
+      "main_risk": "The apparent spatial signal in issue 60 may be fully explained by tumor burden, immune abundance, etiology, or tissue-quality differences rather than topology.",
+      "next_test": "Run the preregistered pilot comparing the locked spatial score with clinical, composition-only, and shuffled-topology baselines in patient-held-out pretreatment specimens.",
+      "opponent": 62,
+      "outcome": "win",
+      "reason": "Issue 60 has a clearer patient-level clinical anchor, a prospective treatment context, strong leakage-resistant baselines, and an early held-out test of incremental spatial value. Issue 62 depends on scarce matched longitudinal metastasis specimens and several high-risk causal assumptions linking fibroblast signaling to a treatment-induced state.",
+      "target": 60,
+      "timestamp": "2026-10-06T22:41:18.990211+00:00"
+    },
+    {
+      "main_risk": "The cGAS-STING/fibrosis spatial feature may not transport across assays, institutions, or heterogeneous HCC sampling.",
+      "next_test": "Measure replicate-section reliability and held-out incremental discrimination against clinical, composition, and shuffled-topology controls before expanding the assay.",
+      "opponent": 61,
+      "outcome": "win",
+      "reason": "Issue 60 is better supported by a prospective HCC treatment setting and a specific question about incremental prediction beyond established clinical and compositional variables. Issue 61 is similarly tractable but relies more on an unverified spatial interpretation of IGF2BP3/MHC-I competence and cytotoxic T-cell proximity, with no clear advantage over the stronger HCC evidence anchor.",
+      "target": 60,
+      "timestamp": "2026-10-06T22:41:18.990228+00:00"
+    },
+    {
+      "main_risk": "The spatial predictor in issue 60 may show no reproducible incremental value beyond composition and clinical covariates.",
+      "next_test": "Test the preregistered topology score in a held-out pilot with patient-level splits, calibration, and a composition-preserving randomized-topology control.",
+      "opponent": 41,
+      "outcome": "win",
+      "reason": "Issue 60 offers a nearer-term, clinically relevant decision with a cheap early branch and useful negative outcomes. Issue 41 has potentially broader discovery impact, but its value depends on dense lineage-resolved measurements, causal ordering, schedule coverage, and successful dynamic-model generalization, making six-month success less likely.",
+      "target": 60,
+      "timestamp": "2026-10-06T22:41:18.990234+00:00"
+    },
+    {
+      "main_risk": "The spatial association in issue 60 could be a proxy for disease severity, immune abundance, or tissue quality rather than a treatment-relevant barrier.",
+      "next_test": "Evaluate whether a locked cGAS-STING/T-cell/fibrosis topology score improves patient-held-out response prediction over clinical and composition-only models.",
+      "opponent": 57,
+      "outcome": "win",
+      "reason": "Issue 60 has a fixed treatment context, a prospective clinical anchor, and an explicit external-validation path. Issue 57 leaves the bispecific target, tumor type, assay, and endpoint floating, while its motivating evidence is mainly organoid architecture and indirect framework evidence, so the scientific problem is less sharply positioned.",
+      "target": 60,
+      "timestamp": "2026-10-06T22:41:18.990238+00:00"
+    },
+    {
+      "main_risk": "Issue 60 may identify spatial correlates that do not add information beyond tumor burden, immune composition, etiology, or baseline liver function.",
+      "next_test": "Use an independent held-out HCC pilot to compare the locked spatial feature against clinical, composition-only, and shuffled-topology baselines with calibration and subgroup stability.",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Issue 60 has a more concrete clinical use case, a defined incremental-prediction question, and an early test that can support continuation, refinement, or stopping. Issue 7 could yield important resistance biology, but it requires reproducible transitions across donors, temporal precedence, and pharmacologic actionability, creating a longer chain of high-risk assumptions.",
+      "target": 60,
+      "timestamp": "2026-10-06T22:41:18.990243+00:00"
     }
   ],
   "k_factor": 24,
@@ -2929,9 +2929,9 @@
     },
     "41": {
       "draws": 0,
-      "games": 18,
-      "losses": 9,
-      "rating": 1500.3,
+      "games": 19,
+      "losses": 10,
+      "rating": 1489.1,
       "wins": 9
     },
     "42": {
@@ -3048,9 +3048,9 @@
     },
     "57": {
       "draws": 0,
-      "games": 6,
-      "losses": 3,
-      "rating": 1501.02,
+      "games": 7,
+      "losses": 4,
+      "rating": 1490.18,
       "wins": 3
     },
     "58": {
@@ -3074,11 +3074,32 @@
       "rating": 1411.33,
       "wins": 5
     },
+    "60": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1556.14,
+      "wins": 5
+    },
+    "61": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
+    },
+    "62": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
     "7": {
       "draws": 0,
-      "games": 32,
-      "losses": 16,
-      "rating": 1502.25,
+      "games": 33,
+      "losses": 17,
+      "rating": 1491.74,
       "wins": 16
     },
     "8": {
