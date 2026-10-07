@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The shared glycolytic-inflammatory spatial program may be a cell-line or anatomical-site artifact and fail to appear reproducibly in human tumors.",
-      "next_test": "Use a small, patient-level, site-balanced set of pretreatment and early on-treatment biopsies to test a prespecified spatial score against clinical, site, and composition-only baselines with site-held-out validation.",
-      "opponent": 18,
-      "outcome": "loss",
-      "reason": "The cholangiocarcinoma problem has a clearer biological anchor—whether a spatial tumor–microenvironment program is conserved across patients and anatomical sites—and it can produce useful outcomes if the program is absent, site-specific, or redundant with composition. The myocarditis proposal has greater potential clinical impact but depends on difficult, treatment-confounded management labels, rare heterogeneous cohorts, and broad multimodal standardization before a reliable result is possible.",
-      "target": 32,
-      "timestamp": "2026-09-21T05:04:37.121796+00:00"
-    },
-    {
-      "main_risk": "Treatment-induced single-cell transitions may not reproducibly precede resistance across independent donors and may instead reflect model-specific stress or sampling effects.",
-      "next_test": "Profile matched pretreatment and early-treatment samples from independent donors, using untreated controls and a locked transition score, then test held-out prediction of regrowth against pretreatment composition and genotype baselines.",
-      "opponent": 7,
-      "outcome": "loss",
-      "reason": "The KRAS project offers a stronger discovery problem with a defined temporal anchor, donor-level validation, mechanistic follow-up, and useful branches distinguishing plasticity, clonal selection, and treatment-specific stress. It can yield actionable biology even if the favored transition is not universal. Myocarditis has higher nominal clinical impact, but its decision target is treatment- and referral-confounded and its required multimodal data and calibration evidence are harder to obtain within six months.",
-      "target": 32,
-      "timestamp": "2026-09-21T05:04:37.121815+00:00"
-    },
-    {
-      "main_risk": "The molecular modality may add no transportable information beyond fetal biometry, Doppler, gestational age, and established biomarkers, with apparent gains driven by timing or site leakage.",
-      "next_test": "Lock the index time and adverse perinatal endpoint, fit the clinical-Doppler reference, and evaluate one prespecified molecular panel in a site-held-out cohort using calibration, Brier score, and decision-curve net benefit.",
-      "opponent": 26,
-      "outcome": "loss",
-      "reason": "Fetal-growth-restriction risk stratification starts from a well-defined clinical reference consisting of biometry, Doppler, and established biomarkers, with a realistic external-validation question and a direct test of incremental calibrated decision value. The myocarditis proposal faces a rarer and more heterogeneous population, uncertain reproducibility of treatment-intensity labels, and multiple assays whose incremental value may be difficult to separate from clinical severity and referral patterns.",
-      "target": 32,
-      "timestamp": "2026-09-21T05:04:37.121823+00:00"
-    },
-    {
-      "main_risk": "The apparent temporal advantage may disappear after controlling for measurement density, leaving no clinically meaningful benefit over a static model.",
-      "next_test": "Run a patient- and hospital-aware ablation comparing snapshot, temporal-trajectory, and snapshot-plus-measurement-density models on a frozen external site set, evaluating net benefit and calibration at a prespecified escalation threshold.",
-      "opponent": 27,
-      "outcome": "loss",
-      "reason": "The ICU deterioration problem has the cheapest and earliest discriminating test, readily available patient-level data, strong simple baselines, an explicit measurement-density confounder, and a direct external transport question. It can inform whether temporal modeling is worthwhile even if the answer is negative. Myocarditis could have greater patient value, but its labels, multimodal acquisition, assay reproducibility, and subgroup transportability create a longer chain of high-risk assumptions.",
-      "target": 32,
-      "timestamp": "2026-09-21T05:04:37.121828+00:00"
-    },
-    {
-      "main_risk": "The apparent tumor-interface myeloid signature may reflect lesion size, organ-specific baseline immunity, or treatment exposure rather than a causal or transferable response state.",
-      "next_test": "Analyze paired baseline and early-treatment metastatic lesions with a focused spatial/protein panel, adjusting for organ and lesion burden, and compare the prespecified functional-interface score with abundance-only and clinical baselines in held-out patients or animals.",
-      "opponent": 4,
-      "outcome": "loss",
-      "reason": "The myeloid-niche project asks a focused mechanistic question—whether treatment-induced functional state at the tumor interface adds information beyond abundance—with an eight-week paired-sample test and orthogonal validation path. It has informative negative outcomes and a plausible route to biomarker or combination hypotheses. Myocarditis is more directly clinical, but its management endpoint is vulnerable to clinician and referral confounding, while its broad multimodal requirements make a decisive six-month result less likely.",
-      "target": 32,
-      "timestamp": "2026-09-21T05:04:37.121835+00:00"
-    },
-    {
       "main_risk": "Genotype may add little actionable information beyond serial blood-count trajectories and routine clinical monitoring.",
       "next_test": "In a held-out patient/site cohort, compare a locked genotype-plus-clinical/laboratory model with the serial blood-count baseline for calibration and decision-curve net benefit.",
       "opponent": 25,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 60 has a more concrete clinical use case, a defined incremental-prediction question, and an early test that can support continuation, refinement, or stopping. Issue 7 could yield important resistance biology, but it requires reproducible transitions across donors, temporal precedence, and pharmacologic actionability, creating a longer chain of high-risk assumptions.",
       "target": 60,
       "timestamp": "2026-10-06T22:41:18.990243+00:00"
+    },
+    {
+      "main_risk": "The spatial tumor–T-cell interface may add no information beyond IGF2BP3, MHC-I, CD8 abundance, tumor purity, and overall inflammatory state.",
+      "next_test": "Run the preregistered multiplex-imaging pilot in a patient-held-out TNBC cohort and compare the locked spatial score with expression, composition, and clinical baselines.",
+      "opponent": 18,
+      "outcome": "win",
+      "reason": "Issue 61 is the stronger current investment because it has a tighter patient-level predictive question, a more direct clinical endpoint, and a cheaper pretreatment pilot than issue 18's demanding paired longitudinal, multi-site cholangiocarcinoma design.",
+      "target": 61,
+      "timestamp": "2026-10-07T06:08:02.577674+00:00"
+    },
+    {
+      "main_risk": "The spatial feature may be non-transportable across TNBC cohorts or may fail to provide incremental value over tumor-intrinsic and immune-composition measures.",
+      "next_test": "Measure the prespecified IGF2BP3/NLRC5/MHC-I–CD8 interface in a small independent TNBC imaging cohort and test reproducibility plus incremental held-out prediction.",
+      "opponent": 62,
+      "outcome": "win",
+      "reason": "Issue 61 offers a more accessible and clinically anchored biomarker test with a defined checkpoint-response endpoint, whereas issue 62 depends on scarce osteosarcoma lung-metastasis specimens, ex vivo fidelity, treatment-induced rather than selected states, and causal fibroblast signaling.",
+      "target": 61,
+      "timestamp": "2026-10-07T06:08:02.577693+00:00"
+    },
+    {
+      "main_risk": "Spatial co-localization may be an incidental correlate of inflamed histology rather than an actionable checkpoint-response mechanism.",
+      "next_test": "Use a small, locked multiplex-imaging study to test whether the spatial interface improves held-out response prediction over strong non-spatial baselines.",
+      "opponent": 41,
+      "outcome": "win",
+      "reason": "Issue 61 has a clearer scientific anchor, a nearer-term patient-level decision, and fewer coupled assumptions than issue 41, which requires dense lineage-resolved data, causal ordering of chromatin processes, and successful history-dependent model identification.",
+      "target": 61,
+      "timestamp": "2026-10-07T06:08:02.577706+00:00"
+    },
+    {
+      "main_risk": "The apparent TNBC spatial signal may be explained by tumor purity, PD-L1 or general inflammation rather than a distinct IGF2BP3-linked competence interface.",
+      "next_test": "Apply a locked interface classifier to pretreatment TNBC samples from patients starting a standardized checkpoint regimen and compare calibrated patient-level prediction with clinical, expression, and composition models.",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "Issue 61 is more decision-ready: its biomarker, comparator models, endpoint, and external-validation path are more sharply specified. Issue 9 has important clinical relevance but greater uncertainty around tunnel-state reproducibility, treatment heterogeneity, adherence, and whether the retinoid/IL-17 split is actionable.",
+      "target": 61,
+      "timestamp": "2026-10-07T06:08:02.577714+00:00"
+    },
+    {
+      "main_risk": "The interface score may not add decision value beyond target expression, immune composition, stromal burden, and clinical covariates.",
+      "next_test": "In an available checkpoint-treated TNBC cohort, run the locked spatial pilot and require reproducibility and incremental calibrated prediction before expanding to external validation.",
+      "opponent": 57,
+      "outcome": "loss",
+      "reason": "Issue 61 is the stronger six-month investment because it fixes a biologically specific, clinically testable anchor and identifies a concrete assay and cohort, while issue 57 remains broad across tumor types and bispecific targets and relies heavily on organoid-derived architecture assumptions.",
+      "target": 61,
+      "timestamp": "2026-10-07T06:08:02.577721+00:00"
     }
   ],
   "k_factor": 24,
@@ -2754,9 +2754,9 @@
     },
     "18": {
       "draws": 1,
-      "games": 26,
-      "losses": 13,
-      "rating": 1488.7,
+      "games": 27,
+      "losses": 14,
+      "rating": 1476.69,
       "wins": 12
     },
     "19": {
@@ -2929,9 +2929,9 @@
     },
     "41": {
       "draws": 0,
-      "games": 19,
-      "losses": 10,
-      "rating": 1489.1,
+      "games": 20,
+      "losses": 11,
+      "rating": 1477.89,
       "wins": 9
     },
     "42": {
@@ -3048,10 +3048,10 @@
     },
     "57": {
       "draws": 0,
-      "games": 7,
+      "games": 8,
       "losses": 4,
-      "rating": 1490.18,
-      "wins": 3
+      "rating": 1503.68,
+      "wins": 4
     },
     "58": {
       "draws": 0,
@@ -3083,16 +3083,16 @@
     },
     "61": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 2,
+      "rating": 1520.48,
+      "wins": 4
     },
     "62": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
+      "games": 2,
+      "losses": 2,
+      "rating": 1476.43,
       "wins": 0
     },
     "7": {
@@ -3111,9 +3111,9 @@
     },
     "9": {
       "draws": 1,
-      "games": 24,
-      "losses": 12,
-      "rating": 1487.61,
+      "games": 25,
+      "losses": 13,
+      "rating": 1476.83,
       "wins": 11
     }
   },
