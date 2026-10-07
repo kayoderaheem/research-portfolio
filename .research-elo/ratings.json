@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Genotype may add little actionable information beyond serial blood-count trajectories and routine clinical monitoring.",
-      "next_test": "In a held-out patient/site cohort, compare a locked genotype-plus-clinical/laboratory model with the serial blood-count baseline for calibration and decision-curve net benefit.",
-      "opponent": 25,
-      "outcome": "win",
-      "reason": "Population-calibrated thiopurine toxicity prediction has a clearer clinical anchor, established actionable variants, simpler assay requirements, and a cheaper early test than regimen-specific gene-expression programs whose transportability, treatment-selection confounding, and external validation are substantial risks.",
-      "target": 30,
-      "timestamp": "2026-09-21T12:57:15.058683+00:00"
-    },
-    {
-      "main_risk": "Spatial accessibility may provide no reproducible information beyond leukemia burden, circulating T-cell composition, and established clinical predictors.",
-      "next_test": "Analyze pretreatment marrow from a pilot patient cohort using a reproducible spatial or multiplex assay and test whether prespecified spatial features improve patient-level held-out prediction over clinical and composition baselines.",
-      "opponent": 11,
-      "outcome": "win",
-      "reason": "Thiopurine pharmacogenetics offers a more tractable and decision-linked six-month project with clearer measurements and earlier readouts. Spatial marrow profiling for blinatumomab response depends on difficult specimen access, reproducible spatial features, longitudinal sampling, and validation in a relatively specialized setting.",
-      "target": 30,
-      "timestamp": "2026-09-21T12:57:15.058708+00:00"
-    },
-    {
-      "main_risk": "TPMT and NUDT15 genotype may be redundant once serial laboratory monitoring and treatment context are included.",
-      "next_test": "Evaluate a locked genotype-augmented model against the serial-monitoring baseline in an independent site-held-out cohort with subgroup calibration and decision-curve analysis.",
-      "opponent": 24,
-      "outcome": "win",
-      "reason": "Thiopurine toxicity prediction is better positioned for a six-month investment because the endpoint, variants, and clinical action are comparatively established, while the HCC cfDNA proposal must first establish cross-site assay reproducibility, avoid cutoff-selection leakage, and show value beyond ultrasound, AFP, and disease severity without merely detecting tumor burden.",
-      "target": 30,
-      "timestamp": "2026-09-21T12:57:15.058719+00:00"
-    },
-    {
-      "main_risk": "The spatial transition may not be reproducible or may add no value beyond baseline composition, tumor burden, and clinical covariates.",
-      "next_test": "Profile paired baseline and early-treatment specimens from an initial patient set, assess tissue comparability and transition reproducibility, and compare spatial-transition features with composition-only and clinical baselines using patient-level validation.",
-      "opponent": 5,
-      "outcome": "win",
-      "reason": "The thiopurine project has a more economical and operationally realistic early branch point. Cervical chemoradiotherapy requires paired spatial tissue from comparable regions and timepoints, with major risks from sampling, treatment-site confounding, assay transferability, and a complex transition definition before any biological or predictive signal can be trusted.",
-      "target": 30,
-      "timestamp": "2026-09-21T12:57:15.058726+00:00"
-    },
-    {
-      "main_risk": "Organoid response may be reproducible in vitro yet fail to predict patient pharmacology or clinical benefit; conversely, thiopurine genotype may prove redundant to monitoring.",
-      "next_test": "Run a prospective feasibility and predictive pilot recording every eligible case, organoid establishment and turnaround failure, while separately testing whether a locked functional score improves prediction over molecular recommendations; in parallel, use the cheaper held-out genotype-versus-monitoring test as the nearer investment gate.",
-      "opponent": 1,
-      "outcome": "win",
-      "reason": "Population-calibrated thiopurine prediction has a clearer near-term clinical decision, lower operational burden, and more informative early validation than prospective organoid-guided combination therapy, which depends on rapid culture success, incomplete microenvironment modeling, clinically relevant drug panels, and enough treatment changes and outcomes to establish benefit.",
-      "target": 30,
-      "timestamp": "2026-09-21T12:57:15.058733+00:00"
-    },
-    {
       "main_risk": "The reference standard for small-fiber neuropathy may be heterogeneous or partly circular, making apparent imaging value difficult to interpret.",
       "next_test": "Run the planned 8-week site-held-out pilot with blinded image-quality adjudication, comparing clinical-only, neurophysiology-enhanced, and imaging-enhanced models with calibration and decision-curve analyses.",
       "opponent": 5,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 61 is the stronger six-month investment because it fixes a biologically specific, clinically testable anchor and identifies a concrete assay and cohort, while issue 57 remains broad across tumor types and bispecific targets and relies heavily on organoid-derived architecture assumptions.",
       "target": 61,
       "timestamp": "2026-10-07T06:08:02.577721+00:00"
+    },
+    {
+      "main_risk": "The ERK/Fra-1 state may reflect generic treatment injury or selection of pre-existing resistant cells rather than a reproducible fibroblast-mediated interface transition.",
+      "next_test": "Run the preregistered matched longitudinal ex vivo study across independent osteosarcoma lung-metastasis specimens, including untreated, injury, and non-spatial stress controls.",
+      "opponent": 18,
+      "outcome": "win",
+      "reason": "Issue 62 has a tighter, observed biological anchor, a defined competing explanation, and an 8-week specimen-level test that can distinguish spatial induction from generic stress or pre-existing resistance. Issue 18 has broader potential impact, but its central human transition is less established and requires difficult paired biopsies across anatomical sites before a credible readout.",
+      "target": 62,
+      "timestamp": "2026-10-07T13:33:19.313453+00:00"
+    },
+    {
+      "main_risk": "The interface state may be specific to osteosarcoma models or sampling conditions and fail to generalize across specimens.",
+      "next_test": "Apply a locked interface-state definition to independent treated and untreated metastasis specimens and test induction, patient-level prediction, and dependence on fibroblast FGFR signaling.",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "Issue 62 is more tightly fixed to a specific treatment-induced state already observed in the relevant metastatic setting and offers an earlier mechanistic and predictive test. Issue 9 addresses an important clinical problem, but tunnel-state reproducibility, treatment heterogeneity, and the causal/actionable role of retinoid signaling remain less resolved.",
+      "target": 62,
+      "timestamp": "2026-10-07T13:33:19.313476+00:00"
+    },
+    {
+      "main_risk": "The proposed ERK/Fra-1 persistence may be a generic pharmacologic stress response rather than a niche-mediated resistance mechanism.",
+      "next_test": "Use independent paired specimens to compare spatial ERK/Fra-1 induction against composition-only, injury, and non-spatial stress baselines, with fibroblast-pathway perturbation.",
+      "opponent": 59,
+      "outcome": "loss",
+      "reason": "Issue 62 has a narrower and more testable spatial mechanism with a concrete early readout, whereas Issue 59 leaves tumor type, product, compartment, assay, and endpoint highly floating. Therapeutic-cell identity, access-stage measurement, and cross-product transportability make Issue 59 a longer chain of high-risk assumptions.",
+      "target": 62,
+      "timestamp": "2026-10-07T13:33:19.313486+00:00"
+    },
+    {
+      "main_risk": "The spatial transition may not be reproducible or distinguishable from pre-existing resistant subpopulations and ex vivo injury.",
+      "next_test": "Perform the small matched longitudinal MCL1-inhibition study with lineage or state tracking, untreated time-matched controls, and orthogonal viability and injury measurements.",
+      "opponent": 41,
+      "outcome": "loss",
+      "reason": "Issue 62 is anchored in a concrete treatment-resistance phenomenon and can generate useful outcomes from an 8-week specimen study even if the FGFR mechanism fails. Issue 41 has potentially foundational impact, but depends on dense lineage-resolved multi-omic data, causal temporal ordering, and model identifiability across unseen schedules, making its success path substantially longer and riskier.",
+      "target": 62,
+      "timestamp": "2026-10-07T13:33:19.313493+00:00"
+    },
+    {
+      "main_risk": "FADS1 expression or lipid abundance may not measure active local arachidonic-acid signaling or add predictive information beyond T-cell abundance and tumor burden.",
+      "next_test": "First establish reproducible spatial FADS1/lipid and CXCR6 resident-memory measurements across HCC regions, then test association with orthogonal T-cell fitness assays before modeling response.",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "Issue 62 has stronger direct observational grounding and a clearer early branch point than Issue 10. The HCC proposal has high translational upside, but spatial lipid measurements, biologically active arachidonic-acid inference, treatment-context transportability, and clinical response prediction form a more demanding assumption chain.",
+      "target": 62,
+      "timestamp": "2026-10-07T13:33:19.313500+00:00"
     }
   ],
   "k_factor": 24,
@@ -2712,9 +2712,9 @@
     },
     "10": {
       "draws": 0,
-      "games": 27,
-      "losses": 15,
-      "rating": 1467.75,
+      "games": 28,
+      "losses": 16,
+      "rating": 1456.0,
       "wins": 12
     },
     "11": {
@@ -2754,9 +2754,9 @@
     },
     "18": {
       "draws": 1,
-      "games": 27,
-      "losses": 14,
-      "rating": 1476.69,
+      "games": 28,
+      "losses": 15,
+      "rating": 1464.68,
       "wins": 12
     },
     "19": {
@@ -2929,10 +2929,10 @@
     },
     "41": {
       "draws": 0,
-      "games": 20,
+      "games": 21,
       "losses": 11,
-      "rating": 1477.89,
-      "wins": 9
+      "rating": 1490.21,
+      "wins": 10
     },
     "42": {
       "draws": 0,
@@ -3062,10 +3062,10 @@
     },
     "59": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 4,
-      "rating": 1477.41,
-      "wins": 2
+      "rating": 1490.19,
+      "wins": 3
     },
     "6": {
       "draws": 0,
@@ -3090,10 +3090,10 @@
     },
     "62": {
       "draws": 0,
-      "games": 2,
-      "losses": 2,
-      "rating": 1476.43,
-      "wins": 0
+      "games": 7,
+      "losses": 4,
+      "rating": 1486.69,
+      "wins": 3
     },
     "7": {
       "draws": 0,
@@ -3111,9 +3111,9 @@
     },
     "9": {
       "draws": 1,
-      "games": 25,
-      "losses": 13,
-      "rating": 1476.83,
+      "games": 26,
+      "losses": 14,
+      "rating": 1465.23,
       "wins": 11
     }
   },
