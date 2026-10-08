@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The corneal project may be undermined by an imperfect or partially circular small-fiber-neuropathy reference standard, making incremental value difficult to interpret.",
-      "next_test": "Run the prespecified 8-week site-held-out pilot comparing clinical-only, neurophysiology-enhanced, and corneal-imaging-enhanced models, while measuring blinded image reproducibility and reference-standard agreement.",
-      "opponent": 1,
-      "outcome": "win",
-      "reason": "Site-transportable corneal imaging has a clearer six-month validation path, with an early site-held-out test, explicit reproducibility and calibration criteria, and useful outcomes even if imaging adds no value. The organoid project has greater potential clinical impact but depends on rapid culture success, assay fidelity to patient pharmacology, and treatment decisions occurring within the assay window.",
-      "target": 31,
-      "timestamp": "2026-09-22T11:46:47.536227+00:00"
-    },
-    {
-      "main_risk": "Cross-site imaging reproducibility and acquisition failure may be too poor for a stable incremental clinical signal.",
-      "next_test": "Use a site-held-out cohort to test whether the locked corneal imaging pipeline improves calibrated patient-level referral or monitoring decisions over the strongest clinical and neurophysiological baseline.",
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "Corneal imaging offers a more transportable and decision-oriented technology study with a cheap early test and strong validation safeguards. The lung spatial project could yield deeper mechanistic insight, but it requires paired biopsies, reproducible cross-platform neighborhood definitions, and preservation of stromal and immune interactions in tumoroids; several results may remain assay- or sampling-dependent.",
-      "target": 31,
-      "timestamp": "2026-09-22T11:46:47.536246+00:00"
-    },
-    {
-      "main_risk": "The corneal signal may reflect age, diabetes, image quality, operator, or site differences rather than small-fiber neuropathy biology.",
-      "next_test": "Conduct the locked site-held-out pilot with patient-level splits and compare imaging-enhanced calibration and decision value against clinical and neurophysiological baselines, including quality and missingness analyses.",
-      "opponent": 11,
-      "outcome": "win",
-      "reason": "Corneal imaging has broader applicability, a clearer transportability question, and a more feasible early decision point. The blinatumomab project is biologically compelling but narrowly dependent on scarce paired marrow specimens, technically reproducible spatial measurements, and spatial information adding value beyond disease burden and circulating T-cell composition.",
-      "target": 31,
-      "timestamp": "2026-09-22T11:46:47.536255+00:00"
-    },
-    {
-      "main_risk": "Treatment-selection confounding and non-comparable response definitions across lupus cohorts could make apparent regimen-specific performance non-transportable.",
-      "next_test": "Lock the smallest regimen-specific programs and evaluate clinical-only versus clinical-plus-program models in a blinded independent cohort with harmonized response labels and prespecified calibration and net-benefit criteria.",
-      "opponent": 25,
-      "outcome": "loss",
-      "reason": "The lupus nephritis project has a more direct and bounded validation target: determine whether locked regimen-specific expression programs add calibrated decision value to a clinical model in an independent cohort. It also permits informative negative results by identifying regimens where molecular prediction is redundant. Corneal imaging remains promising, but its reference standard, acquisition harmonization, and recalibration requirements create more coupled risks.",
-      "target": 31,
-      "timestamp": "2026-09-22T11:46:47.536263+00:00"
-    },
-    {
-      "main_risk": "A difficult or circular reference standard for small-fiber neuropathy could prevent a credible estimate of incremental diagnostic or monitoring value.",
-      "next_test": "Measure locked corneal nerve features in a site-held-out pilot and determine whether they add prespecified calibrated decision value beyond clinical and neurophysiological assessment with reproducibility ICC of at least 0.80.",
-      "opponent": 15,
-      "outcome": "win",
-      "reason": "Corneal imaging is the stronger current investment because it has a clearer patient-level clinical anchor, broader technology value, stronger early branching test, and useful outcomes from reproducibility or transportability failures. The gastric-cancer niche hypothesis is novel and potentially mechanistic, but depends on a rare disease context, paired spatial specimens, reproducible niche biology, and causal perturbation effects across several model systems.",
-      "target": 31,
-      "timestamp": "2026-09-22T11:46:47.536269+00:00"
-    },
-    {
       "main_risk": "The myocarditis management label may be too subjective or confounded by clinician preference and treatment timing to support a valid incremental-value test.",
       "next_test": "Blind pediatric cardiology reviewers to candidate modalities, predefine the treatment and monitoring decision, and measure inter-rater agreement and outcome completeness before fitting models.",
       "opponent": 6,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 51 has a broader transportability question, simpler established baselines, and an eight-week external test. Issue 61 addresses a clinically meaningful hypothesis, but spatial assay reproducibility, malignant-cell assignment, observational confounding, and 24-week cross-platform validation create a slower and more fragile evidence path.",
       "target": 51,
       "timestamp": "2026-10-08T10:42:27.435868+00:00"
+    },
+    {
+      "main_risk": "The ZNF423-restoration signal may not be reproducible across MPNST patients or may reflect residual tumor, genomic background, or sampling rather than escape.",
+      "next_test": "Run the proposed longitudinal pilot testing whether baseline ZNF423 state and spatial neighborhoods predict early ZNF423-restoration and later escape, compared with clinical and composition-only baselines.",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "The ZNF423 problem has a tighter biological anchor, a more focused patient-level transition, and a feasible early longitudinal test with orthogonal validation. The IFN project has broader potential impact but depends on aligning many modalities, cohorts, timepoints, and confounders before yielding a clear result.",
+      "target": 58,
+      "timestamp": "2026-10-08T18:54:00.907762+00:00"
+    },
+    {
+      "main_risk": "The management endpoint may be non-reproducible or treatment-confounded, making apparent multimodal value reflect referral spectrum, clinician behavior, or missingness rather than improved decision-making.",
+      "next_test": "Blindedly adjudicate the treatment and monitoring decision, then compare locked clinical, clinical-plus-CMR, and clinical-plus-molecular models in a retrospective multi-site pilot.",
+      "opponent": 32,
+      "outcome": "loss",
+      "reason": "The myocarditis problem is anchored to a concrete management decision and supports an early nested-model test of incremental discrimination, calibration, and decision value. It also has credible clinical impact if transportability is demonstrated, whereas the IFN project has greater discovery scope but a substantially longer and more assumption-heavy evidence chain.",
+      "target": 58,
+      "timestamp": "2026-10-08T18:54:00.907785+00:00"
+    },
+    {
+      "main_risk": "MicroRNA changes may be dose-response proxies and fail to provide independent, adequately powered, externally reproducible decision value.",
+      "next_test": "Fit nested baseline-plus-microRNA models using the existing pilot, with nested feature selection, technical replication, dosimetric-risk stratification, calibration, and a prespecified sample-size and external-cohort feasibility assessment.",
+      "opponent": 29,
+      "outcome": "loss",
+      "reason": "The urine microRNA problem has lower broad impact but the clearest fixed clinical-use anchor, strong established baselines, explicit leakage controls, and a cheap test of whether the biomarker adds value beyond dose and symptoms. The IFN project is potentially more important but requires extensive multimodal longitudinal integration before its central distinction can be evaluated.",
+      "target": 58,
+      "timestamp": "2026-10-08T18:54:00.907793+00:00"
+    },
+    {
+      "main_risk": "Multimodal baseline features may encode donor, batch, or cell-composition proxies without making intervention responses identifiable or prospectively predictable.",
+      "next_test": "Freeze expression-only and multimodal models on a small donor-replicated perturbation panel, then test held-out perturbations and orthogonal chromatin, isoform, protein, or functional predictions.",
+      "opponent": 37,
+      "outcome": "loss",
+      "reason": "The virtual-cell problem offers the strongest combination of general technological impact, a clear falsification target, donor- and perturbation-level validation, and useful outcomes even when the multimodal hypothesis fails. It can identify whether extra regulatory-state measurements are necessary rather than merely rewarding model complexity; the IFN project has comparable impact but a more diffuse and resource-intensive trajectory definition.",
+      "target": 58,
+      "timestamp": "2026-10-08T18:54:00.907799+00:00"
+    },
+    {
+      "main_risk": "The IFN trajectory classes may be irreproducible or mainly reflect treatment timing, tissue injury, infection, steroids, tumor burden, or sampling rather than immune execution versus escape.",
+      "next_test": "Predefine trajectory features and test their reproducibility and patient-level outcome association in a small independent longitudinal cohort while controlling for infection, steroid exposure, injury, treatment timing, and clonotype leakage.",
+      "opponent": 6,
+      "outcome": "win",
+      "reason": "The IFN-response problem currently offers broader and more generalizable discovery value: it directly addresses how immune activation transitions into productive control or escape and has explicit patient-level, cohort-held-out, and confounder-aware validation requirements. The glioblastoma mechanics problem has an interesting mechanistic angle, but its mechanical proxies are uncertain and may collapse into hypoxia, necrosis, density, or mesenchymal composition.",
+      "target": 58,
+      "timestamp": "2026-10-08T18:54:00.907805+00:00"
     }
   ],
   "k_factor": 24,
@@ -2761,10 +2761,10 @@
     },
     "19": {
       "draws": 0,
-      "games": 18,
+      "games": 19,
       "losses": 12,
-      "rating": 1426.62,
-      "wins": 6
+      "rating": 1438.77,
+      "wins": 7
     },
     "2": {
       "draws": 0,
@@ -2831,10 +2831,10 @@
     },
     "29": {
       "draws": 0,
-      "games": 19,
+      "games": 20,
       "losses": 13,
-      "rating": 1424.0,
-      "wins": 6
+      "rating": 1435.43,
+      "wins": 7
     },
     "3": {
       "draws": 0,
@@ -2859,10 +2859,10 @@
     },
     "32": {
       "draws": 0,
-      "games": 20,
+      "games": 21,
       "losses": 13,
-      "rating": 1435.37,
-      "wins": 7
+      "rating": 1446.8,
+      "wins": 8
     },
     "33": {
       "draws": 0,
@@ -2894,10 +2894,10 @@
     },
     "37": {
       "draws": 0,
-      "games": 19,
+      "games": 20,
       "losses": 12,
-      "rating": 1442.37,
-      "wins": 7
+      "rating": 1452.78,
+      "wins": 8
     },
     "38": {
       "draws": 0,
@@ -3055,10 +3055,10 @@
     },
     "58": {
       "draws": 0,
-      "games": 6,
-      "losses": 6,
-      "rating": 1430.94,
-      "wins": 0
+      "games": 11,
+      "losses": 10,
+      "rating": 1398.41,
+      "wins": 1
     },
     "59": {
       "draws": 0,
@@ -3069,9 +3069,9 @@
     },
     "6": {
       "draws": 0,
-      "games": 18,
-      "losses": 13,
-      "rating": 1411.33,
+      "games": 19,
+      "losses": 14,
+      "rating": 1398.44,
       "wins": 5
     },
     "60": {
