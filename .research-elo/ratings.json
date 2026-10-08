@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Genotype may add little actionable information beyond serial blood-count trajectories, especially after accounting for dose changes, monitoring intensity, and treatment selection.",
-      "next_test": "Run the prespecified 8-week held-out patient- and site-level comparison of clinical-plus-laboratory, genotype-only, and combined models, focusing on calibration and decision-curve net benefit rather than discrimination alone.",
-      "opponent": 17,
-      "outcome": "win",
-      "reason": "Population-calibrated thiopurine toxicity prediction has a clearer clinical decision anchor, established biological inputs, and a cheaper retrospective patient-level test than the spatial lymphoma benchmark. It can produce useful outcomes even if genotype adds little, by showing when serial blood counts are sufficient or when calibration fails across populations.",
-      "target": 30,
-      "timestamp": "2026-09-22T05:05:50.410412+00:00"
-    },
-    {
-      "main_risk": "TPMT and NUDT15 genotype may be redundant once baseline and serial blood-count information, dose, co-medications, and monitoring intensity are included.",
-      "next_test": "Use two accessible registries or cohorts to test nested clinical-plus-laboratory versus genotype-augmented models in a held-out population or site, with prespecified net-benefit and calibration thresholds.",
-      "opponent": 28,
-      "outcome": "win",
-      "reason": "Thiopurine toxicity prediction has a more specific and clinically actionable endpoint, stronger established biological rationale, and a more direct path to changing monitoring or initial management. The asthma biomarker project faces greater uncertainty about whether risk prediction meaningfully informs biologic eligibility and whether FeNO and eosinophils transport across assay platforms and steroid exposures.",
-      "target": 30,
-      "timestamp": "2026-09-22T05:05:50.410430+00:00"
-    },
-    {
-      "main_risk": "The FAM230F-like incremental signal may not reproduce outside the original spectrum or may fail analytical replication, but for the chosen project the key risk is genotype redundancy against routine monitoring.",
-      "next_test": "Perform an independent-cohort, patient-level nested comparison of locked clinical-plus-laboratory and genotype-augmented toxicity models, with orthogonal genotype confirmation and subgroup calibration.",
-      "opponent": 24,
-      "outcome": "loss",
-      "reason": "Thiopurine pharmacogenetics offers a more mature and tractable route to a validated patient-management decision than the FAM230F HCC proposal, whose value depends on cross-site assay reproducibility, cutoff locking, disease-spectrum control, and proving that the signal is not merely tumor-burden proxy. The thiopurine project also has clearer useful negative branches if genotype adds no value beyond monitoring.",
-      "target": 30,
-      "timestamp": "2026-09-22T05:05:50.410438+00:00"
-    },
-    {
-      "main_risk": "The genotype increment may disappear after accounting for blood-count trajectories and clinical management, leaving no meaningful decision value.",
-      "next_test": "Lock the toxicity endpoint and assay definition, then compare nested genotype-augmented and laboratory-only models in an independent patient/site-held-out cohort with calibration and decision-curve analysis.",
-      "opponent": 25,
-      "outcome": "win",
-      "reason": "Thiopurine toxicity prediction is anchored to a defined pre-treatment management decision and relies on relatively standardized measurements, whereas regimen-specific lupus-nephritis programs require stable expression assays, harmonized response endpoints, adequate cohorts for each regimen, and control of treatment-selection confounding. The thiopurine project therefore has fewer sequential high-risk assumptions and an earlier decisive readout.",
-      "target": 30,
-      "timestamp": "2026-09-22T05:05:50.410442+00:00"
-    },
-    {
-      "main_risk": "The proposed spatial CAF–immune signal may be irreproducible or explained by tumor composition, genotype, disease burden, or sampling variation; for the selected project, the corresponding decisive risk is genotype redundancy beyond serial laboratory monitoring.",
-      "next_test": "Test the locked genotype increment over serial blood-count and clinical baselines in a patient- and site-held-out cohort, requiring calibrated net benefit and stable subgroup performance before expanding.",
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "Thiopurine prediction has a tighter clinical anchor, established candidate variants, a relatively inexpensive early retrospective test, and a credible path to population-specific calibration. The lung adenocarcinoma project combines difficult spatial measurement, paired biopsies, treatment-induced mechanism, external replication, and tumoroid functional validation, creating several long-readout assumptions and a less fixed therapy/application pairing.",
-      "target": 30,
-      "timestamp": "2026-09-22T05:05:50.410447+00:00"
-    },
-    {
       "main_risk": "The corneal project may be undermined by an imperfect or partially circular small-fiber-neuropathy reference standard, making incremental value difficult to interpret.",
       "next_test": "Run the prespecified 8-week site-held-out pilot comparing clinical-only, neurophysiology-enhanced, and corneal-imaging-enhanced models, while measuring blinded image reproducibility and reference-standard agreement.",
       "opponent": 1,
@@ -2699,6 +2654,51 @@
       "reason": "The tamoxifen project has a clearer mechanistic anchor, more mature baselines, and a more credible clinical endpoint than an early heterogeneity trajectory whose measurement may be dominated by sampling, necrosis, and treatment-induced tissue change. The bladder project is also constrained by a specific emerging treatment protocol and may not yield actionable evidence if serial specimens are not biologically comparable.",
       "target": 50,
       "timestamp": "2026-10-08T01:03:19.959750+00:00"
+    },
+    {
+      "main_risk": "Issue 51 may not retain predictive value across assay platforms once lineage, dose, and batch effects are controlled.",
+      "next_test": "Train a simple pathway-level kinase-state model in one cohort and test it without refitting on an independent platform for one matched drug class, comparing it with lineage and expression-only baselines.",
+      "opponent": 43,
+      "outcome": "loss",
+      "reason": "Issue 51 has a tighter biological anchor, a simpler comparison against strong baselines, and an early external-cohort test that can genuinely stop or redirect the project. Issue 43 has broader technology impact but depends on multiple shift types, complex multimodal data, uncertainty gating, and prospective combination validation, creating a longer and riskier readout.",
+      "target": 51,
+      "timestamp": "2026-10-08T10:42:27.435825+00:00"
+    },
+    {
+      "main_risk": "Cross-cohort phosphoproteomic measurements may be too assay-dependent for kinase states to add value beyond lineage and expression.",
+      "next_test": "Perform a locked patient- or model-level external validation of pathway kinase scores for one drug class, including calibration and comparison with lineage and expression-only models.",
+      "opponent": 45,
+      "outcome": "win",
+      "reason": "Issue 51 offers a more transportable and experimentally tractable problem with a clear external-validation decision point. Issue 45 has greater direct clinical stakes, but its value depends on obtaining sufficiently large, independent pediatric cohorts, reproducible functional assays, and unbiased treatment-response outcomes; those dependencies make a six-month investment less reliable.",
+      "target": 51,
+      "timestamp": "2026-10-08T10:42:27.435845+00:00"
+    },
+    {
+      "main_risk": "The kinase signal may reflect lineage, proliferation, or platform artifacts rather than transportable drug-response biology.",
+      "next_test": "Run a no-refit external-cohort test of a simple pathway-level kinase model for one matched drug class against prespecified expression and lineage baselines.",
+      "opponent": 39,
+      "outcome": "win",
+      "reason": "Issue 51 is more fixed around a measurable predictive question and has a cheaper, earlier validation path. Issue 39 combines difficult counterfactual extrapolation with unstable cell-state definitions, donor and tissue shifts, neighborhood structure, and prospective single-cell or spatial experiments, so several high-risk assumptions must succeed before its impact can be judged.",
+      "target": 51,
+      "timestamp": "2026-10-08T10:42:27.435854+00:00"
+    },
+    {
+      "main_risk": "Target engagement may not explain cellular sensitivity once lineage, co-mutations, uptake, and downstream bypass are accounted for.",
+      "next_test": "Measure engagement, pathway suppression, and viability across a focused mutation-defined panel under matched exposure, testing whether engagement adds classification value over mutation and lineage baselines.",
+      "opponent": 55,
+      "outcome": "win",
+      "reason": "Issue 51 has a clearer six-month decision path and broader immediate reuse potential, with an external test followed by orthogonal validation. Issue 55 could yield deeper mechanistic insight, but it requires comparable biochemical engagement assays, causal cellular linkage, held-out genetic backgrounds, and long resistance-evolution experiments, making its success chain substantially longer.",
+      "target": 51,
+      "timestamp": "2026-10-08T10:42:27.435862+00:00"
+    },
+    {
+      "main_risk": "Kinase-activity representations may fail to transport across institutions and phosphoproteomic workflows after leakage-resistant normalization and lineage adjustment.",
+      "next_test": "Lock a simple pathway-level score and evaluate it on an independent cohort or platform for one drug class, reporting calibration and incremental value over expression and lineage baselines.",
+      "opponent": 61,
+      "outcome": "win",
+      "reason": "Issue 51 has a broader transportability question, simpler established baselines, and an eight-week external test. Issue 61 addresses a clinically meaningful hypothesis, but spatial assay reproducibility, malignant-cell assignment, observational confounding, and 24-week cross-platform validation create a slower and more fragile evidence path.",
+      "target": 51,
+      "timestamp": "2026-10-08T10:42:27.435868+00:00"
     }
   ],
   "k_factor": 24,
@@ -2908,9 +2908,9 @@
     },
     "39": {
       "draws": 0,
-      "games": 19,
-      "losses": 7,
-      "rating": 1555.27,
+      "games": 20,
+      "losses": 8,
+      "rating": 1542.9,
       "wins": 12
     },
     "4": {
@@ -2943,10 +2943,10 @@
     },
     "43": {
       "draws": 0,
-      "games": 20,
+      "games": 21,
       "losses": 8,
-      "rating": 1540.47,
-      "wins": 12
+      "rating": 1552.61,
+      "wins": 13
     },
     "44": {
       "draws": 0,
@@ -2957,9 +2957,9 @@
     },
     "45": {
       "draws": 0,
-      "games": 9,
-      "losses": 3,
-      "rating": 1536.32,
+      "games": 10,
+      "losses": 4,
+      "rating": 1524.19,
       "wins": 6
     },
     "46": {
@@ -3006,10 +3006,10 @@
     },
     "51": {
       "draws": 0,
-      "games": 6,
-      "losses": 1,
-      "rating": 1544.61,
-      "wins": 5
+      "games": 11,
+      "losses": 2,
+      "rating": 1578.92,
+      "wins": 9
     },
     "52": {
       "draws": 0,
@@ -3034,9 +3034,9 @@
     },
     "55": {
       "draws": 0,
-      "games": 9,
-      "losses": 3,
-      "rating": 1533.22,
+      "games": 10,
+      "losses": 4,
+      "rating": 1522.04,
       "wins": 6
     },
     "56": {
@@ -3083,9 +3083,9 @@
     },
     "61": {
       "draws": 0,
-      "games": 7,
-      "losses": 2,
-      "rating": 1532.48,
+      "games": 8,
+      "losses": 3,
+      "rating": 1521.71,
       "wins": 5
     },
     "62": {
