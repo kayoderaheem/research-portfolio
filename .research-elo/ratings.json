@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The myocarditis management label may be too subjective or confounded by clinician preference and treatment timing to support a valid incremental-value test.",
-      "next_test": "Blind pediatric cardiology reviewers to candidate modalities, predefine the treatment and monitoring decision, and measure inter-rater agreement and outcome completeness before fitting models.",
-      "opponent": 6,
-      "outcome": "win",
-      "reason": "The myocarditis problem has a clearer patient-level management anchor, a relatively cheap nested-model pilot, and direct decision-curve and calibration readouts. The glioblastoma idea is more novel, but its central mechanical state is difficult to measure from clinical tissue and requires scarce matched longitudinal specimens before its biological contribution can be separated from hypoxia, necrosis, density, or mesenchymal state.",
-      "target": 32,
-      "timestamp": "2026-09-22T17:01:54.936563+00:00"
-    },
-    {
-      "main_risk": "ZNF423 restoration may mark residual tumor, genomic background, or sampling stress rather than a reproducible treatment-escape trajectory.",
-      "next_test": "Use a small longitudinal, patient-separated pilot with orthogonal ZNF423 and stress measurements to test whether baseline state predicts an early restoration trajectory before later escape.",
-      "opponent": 19,
-      "outcome": "loss",
-      "reason": "The MPNST problem has a more differentiated scientific anchor and a concrete prior observation supporting a testable restoration trajectory, with useful outcomes even if spatial features fail because state composition and longitudinal ZNF423 dynamics remain informative. Myocarditis has greater broad clinical impact but depends on several high-risk assumptions about adjudicated treatment decisions, molecular reproducibility, and transportable calibration.",
-      "target": 32,
-      "timestamp": "2026-09-22T17:01:54.936585+00:00"
-    },
-    {
-      "main_risk": "Serial inflammatory trajectories may only reflect postoperative timing or general recovery severity and may not identify a rehabilitation decision that improves outcomes.",
-      "next_test": "Predefine one delayed-recovery endpoint and one rehabilitation escalation rule, then test whether a simple prespecified postoperative inflammatory measurement adds calibrated decision value beyond baseline risk and early function.",
-      "opponent": 23,
-      "outcome": "loss",
-      "reason": "The knee-arthroplasty problem is less novel but more tractable: the population is larger, serial measurements and functional outcomes are practical, and site-held-out validation can quickly establish whether dynamic inflammation adds value beyond early function and frailty. Myocarditis has higher potential clinical impact but a rarer cohort, more heterogeneous assays, and a difficult treatment-intensity target that may not be independently adjudicable.",
-      "target": 32,
-      "timestamp": "2026-09-22T17:01:54.936594+00:00"
-    },
-    {
-      "main_risk": "The apparent treatment-induced spatial myeloid state may be a consequence of lesion shrinkage, organ context, or treatment exposure rather than a transferable determinant of metastatic control.",
-      "next_test": "In paired baseline and early-treatment lesions, lock a focused myeloid interface score and compare it against abundance-only and clinical or lesion-burden baselines using subject-level splits and organ-adjusted analyses.",
-      "opponent": 4,
-      "outcome": "loss",
-      "reason": "The myeloid-niche problem offers a strong combination of impact, tractable spatial validation, and useful negative outcomes: abundance-only, organ-specific, and lesion-size explanations can be tested directly, followed by orthogonal protein or functional assays. Myocarditis is clinically important but carries greater risk from subjective management labels, molecular assay heterogeneity, and transportability across pediatric etiologies and sites.",
-      "target": 32,
-      "timestamp": "2026-09-22T17:01:54.936601+00:00"
-    },
-    {
-      "main_risk": "The myocarditis decision target may not be reproducibly adjudicated independently of the candidate measurements, making apparent predictive value reflect practice variation.",
-      "next_test": "Establish blinded adjudication rules for immunomodulatory treatment consideration and intensive monitoring, quantify reviewer agreement, and audit whether these decisions and short-term outcomes are consistently recorded across sites.",
-      "opponent": 22,
-      "outcome": "win",
-      "reason": "The myocarditis proposal fixes a concrete initial management decision and specifies strong clinical and modality baselines, whereas the multiple-sclerosis proposal leaves the clinical use and outcome horizon more open and requires a long chain linking peripheral immune measurements to compartmentalized CNS inflammation. MS has a promising prior state, but its transportability, treatment-shift calibration, and cross-compartment relevance are all substantial unresolved risks.",
-      "target": 32,
-      "timestamp": "2026-09-22T17:01:54.936608+00:00"
-    },
-    {
       "main_risk": "The apparent identifiability boundary may mainly reflect batch effects, weak-response measurement floors, or related-condition leakage rather than a fundamental limit.",
       "next_test": "Using the existing atlas, run replicate variance and leakage audits followed by predefined complete-drug, dose, and cell-context holdouts against hierarchical and nearest-neighbor baselines.",
       "opponent": 34,
@@ -2699,6 +2654,51 @@
       "reason": "The IFN-response problem currently offers broader and more generalizable discovery value: it directly addresses how immune activation transitions into productive control or escape and has explicit patient-level, cohort-held-out, and confounder-aware validation requirements. The glioblastoma mechanics problem has an interesting mechanistic angle, but its mechanical proxies are uncertain and may collapse into hypoxia, necrosis, density, or mesenchymal composition.",
       "target": 58,
       "timestamp": "2026-10-08T18:54:00.907805+00:00"
+    },
+    {
+      "main_risk": "The UCHL1–mregDC–Treg neighborhood may be a noncausal proxy for tumor burden, hypoxia, or disease severity and add no value beyond plasma UCHL1 and composition.",
+      "next_test": "Use paired pretreatment and early-treatment multiplex imaging to compare a prespecified spatial score against plasma UCHL1, composition, and clinical baselines in patient-level held-out analyses.",
+      "opponent": 64,
+      "outcome": "win",
+      "reason": "Issue 63 has a more concrete clinical anchor: an established HCC treatment, patient-level resistance endpoint, matched circulating biomarker, and a direct incremental-value question. Issue 64 requires several high-risk links from a baseline myeloid niche to a reproducible necrosis-to-adaptive trajectory and then clinical benefit in a comparatively specialized setting.",
+      "target": 63,
+      "timestamp": "2026-10-09T01:15:42.859417+00:00"
+    },
+    {
+      "main_risk": "The required longitudinal human tissue, assay replication, and independent cohort may be unavailable or too small for a reliable patient-level conclusion.",
+      "next_test": "Run the proposed 10-week paired-biopsy multiplex-imaging study and require incremental, calibrated patient-level prediction over plasma UCHL1 and nonspatial composition before expanding.",
+      "opponent": 65,
+      "outcome": "win",
+      "reason": "Issue 63 offers substantially greater credible translational impact through a defined human regimen and resistance problem, while retaining a clear early biomarker test. Issue 65 is more tractable experimentally but is anchored to a murine bleomycin model and bazedoxifene response, making generalization to human fibrosis and clinical utility several steps away.",
+      "target": 63,
+      "timestamp": "2026-10-09T01:15:42.859436+00:00"
+    },
+    {
+      "main_risk": "The apparent spatial circuit may not survive adjustment for target expression, tumor burden, hypoxia, and tissue quality, eliminating its incremental value.",
+      "next_test": "Lock one available treated cohort and fit nested patient-level models comparing clinical and plasma/composition baselines with the prespecified UCHL1 neighborhood score.",
+      "opponent": 57,
+      "outcome": "win",
+      "reason": "Issue 63 is a specific, testable resistance mechanism tied to a named therapy, biomarker, tissue context, and clinical endpoint. Issue 57 leaves the bispecific target, tumor type, assay, and cohort floating, so it is a broad framework rather than a sharply positioned scientific problem and risks becoming a generic spatial-prediction benchmark.",
+      "target": 63,
+      "timestamp": "2026-10-09T01:15:42.859444+00:00"
+    },
+    {
+      "main_risk": "UCHL1-associated neighborhoods may correlate with resistance without representing a treatment-relevant causal circuit or improving calibration and decision value.",
+      "next_test": "Test reproducibility and incremental prediction in replicate pretreatment and early-treatment HCC sections using patient-level splits and plasma, composition, and clinical baselines.",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "Both projects address clinically consequential resistance and require spatial validation, but Issue 63 has stronger stated evidence readiness, a more explicitly bounded biomarker comparison, and a clearer early decision experiment. Issue 11 faces substantial marrow-sampling and longitudinal-selection risks, and spatial accessibility may be difficult to measure reliably in sparse or heterogeneous leukemia specimens.",
+      "target": 63,
+      "timestamp": "2026-10-09T01:15:42.859449+00:00"
+    },
+    {
+      "main_risk": "The spatial association may be confounded and fail to add information beyond circulating UCHL1, disease burden, or immune composition.",
+      "next_test": "Profile paired pretreatment and early-treatment HCC tissue with multiplex imaging and test whether the locked spatial score improves held-out prediction over clinical, plasma, and composition-only models.",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Issue 63 is better positioned for a six-month investment because it connects a defined human therapy to an actionable resistance biomarker and has an inexpensive early continue-or-stop test. Issue 7 has broader discovery potential, but reproducibility across PDAC donors, temporal precedence, separation of plasticity from clonal selection, and pharmacologic actionability form a longer chain of high-risk assumptions.",
+      "target": 63,
+      "timestamp": "2026-10-09T01:15:42.859454+00:00"
     }
   ],
   "k_factor": 24,
@@ -2719,9 +2719,9 @@
     },
     "11": {
       "draws": 1,
-      "games": 23,
-      "losses": 11,
-      "rating": 1505.82,
+      "games": 24,
+      "losses": 12,
+      "rating": 1494.82,
       "wins": 11
     },
     "12": {
@@ -3048,9 +3048,9 @@
     },
     "57": {
       "draws": 0,
-      "games": 8,
-      "losses": 4,
-      "rating": 1503.68,
+      "games": 9,
+      "losses": 5,
+      "rating": 1492.37,
       "wins": 4
     },
     "58": {
@@ -3095,11 +3095,32 @@
       "rating": 1486.69,
       "wins": 3
     },
+    "63": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1556.04,
+      "wins": 5
+    },
+    "64": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "65": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
+    },
     "7": {
       "draws": 0,
-      "games": 33,
-      "losses": 17,
-      "rating": 1491.74,
+      "games": 34,
+      "losses": 18,
+      "rating": 1481.6,
       "wins": 16
     },
     "8": {
