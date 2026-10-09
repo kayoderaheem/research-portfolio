@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The apparent identifiability boundary may mainly reflect batch effects, weak-response measurement floors, or related-condition leakage rather than a fundamental limit.",
-      "next_test": "Using the existing atlas, run replicate variance and leakage audits followed by predefined complete-drug, dose, and cell-context holdouts against hierarchical and nearest-neighbor baselines.",
-      "opponent": 34,
-      "outcome": "win",
-      "reason": "Issue 33 is the stronger current investment because it addresses a broad, reusable validity problem using an apparently available atlas, has explicit leakage-resistant holdouts and strong baselines, and offers a relatively cheap 10-week test. Issue 34 has higher headline impact but depends on access to a frozen model, genuinely unseen therapies, independent organoids, reproducible synergy assays, and calibrated uncertainty under major distribution shift.",
-      "target": 33,
-      "timestamp": "2026-09-22T21:24:35.232504+00:00"
-    },
-    {
-      "main_risk": "Response components that appear non-identifiable may instead reflect inadequate representation, technical noise, or insufficient replication in the atlas.",
-      "next_test": "Partition the atlas by biological replicate and context, then compare simple hierarchical models with multimodal or latent models on locked drug, dose, and context holdouts before adding new assays.",
-      "opponent": 35,
-      "outcome": "win",
-      "reason": "Issue 33 offers broader technology value and a clearer, more tractable anchor: determining when perturbation counterfactuals are identifiable. It can produce useful calibration and experiment-selection criteria even if sophisticated models fail. Issue 35 has stronger mechanistic discovery potential but combines ATRX-state transfer, multimodal integration, causal regulatory inference, localization measurement, and targeted validation in a narrower and riskier setting.",
-      "target": 33,
-      "timestamp": "2026-09-22T21:24:35.232523+00:00"
-    },
-    {
-      "main_risk": "Identifiability analysis may not distinguish biological limits from measurement-density, batch, or response-detection artifacts.",
-      "next_test": "Perform the atlas-level holdout and calibration analysis with replicate-aware splits and matched negative controls; continue only if performance degradation tracks withheld biological structure rather than technical covariates.",
-      "opponent": 27,
-      "outcome": "win",
-      "reason": "Issue 33 is the better current investment because it has a ready-to-analyze perturbation setting, a general scientific output, explicit early falsification criteria, and useful outcomes across model classes. Issue 27 has greater direct clinical relevance, but its incremental temporal value is already uncertain relative to tuned LightGBM and depends on harmonization, a defensible escalation threshold, transport calibration, and access to a third independent ICU database.",
-      "target": 33,
-      "timestamp": "2026-09-22T21:24:35.232533+00:00"
-    },
-    {
-      "main_risk": "The atlas may support methodological conclusions but fail to yield biologically meaningful guidance for selecting or validating counterfactual experiments.",
-      "next_test": "Lock patient/replicate-level splits and test whether response-axis decomposition improves held-out drug and context prediction beyond abundance, pathway, and hierarchical baselines with calibrated uncertainty.",
-      "opponent": 15,
-      "outcome": "loss",
-      "reason": "Issue 33 currently deserves the time because it is more broadly reusable, has stronger evidence readiness, and can be advanced with existing perturbation data before committing to difficult prospective tissue and co-culture work. Issue 15 could yield meaningful patient-level biomarker and therapeutic insight, but its spatial niche association, early persistence endpoint, and causal BCL2/BMP mechanism all require costly matched specimens and independent validation.",
-      "target": 33,
-      "timestamp": "2026-09-22T21:24:35.232543+00:00"
-    },
-    {
-      "main_risk": "The proposed response components may not be separable enough for uncertainty estimates to identify genuinely unsupported predictions.",
-      "next_test": "Use the existing atlas to compare a locked hierarchical reference against response decomposition and uncertainty methods under complete-drug, dose, and cell-context holdouts, including shuffled-label and negative-control analyses.",
-      "opponent": 26,
-      "outcome": "win",
-      "reason": "Issue 33 has a clearer fixed scientific anchor, a defined data resource, stronger validation safeguards, and an early test that can support continue, pivot, or stop decisions. Issue 26 has potentially greater clinical value, but the molecular modality, management endpoint, assay harmonization, and transport setting remain under-specified, with substantial risk of gestational-age, referral, and treatment-decision leakage.",
-      "target": 33,
-      "timestamp": "2026-09-22T21:24:35.232550+00:00"
-    },
-    {
       "main_risk": "The shared glycolytic-inflammatory spatial program may be absent before progression or may add no value beyond tumor composition, site, and clinical covariates.",
       "next_test": "In a patient-held-out or site-held-out pilot, test a preregistered pretreatment or early-treatment spatial score against clinical, site, and composition-only baselines with calibration assessment.",
       "opponent": 18,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 63 is better positioned for a six-month investment because it connects a defined human therapy to an actionable resistance biomarker and has an inexpensive early continue-or-stop test. Issue 7 has broader discovery potential, but reproducibility across PDAC donors, temporal precedence, separation of plasticity from clonal selection, and pharmacologic actionability form a longer chain of high-risk assumptions.",
       "target": 63,
       "timestamp": "2026-10-09T01:15:42.859454+00:00"
+    },
+    {
+      "main_risk": "For Issue 65, the decisive risk is that apparent spatial niches do not predict response beyond baseline lesion severity, fibroblast abundance, or treatment exposure.",
+      "next_test": "Run the prespecified animal-level reanalysis and prospective pretreatment-to-early-treatment replication, comparing composition-only with spatial models using held-out animals and blinded collagen/histology endpoints.",
+      "opponent": 64,
+      "outcome": "win",
+      "reason": "Issue 65 has a clearer near-term path from an available spatial dataset to animal-level validation, with tractable orthogonal assays and useful outcomes even if spatial prediction fails. Issue 64 has greater potential clinical impact, but it depends on assembling paired patient specimens under STING agonist treatment, reproducing a short necrosis-to-adaptive trajectory, and demonstrating value beyond myeloid abundance in a likely small cohort.",
+      "target": 65,
+      "timestamp": "2026-10-09T10:41:22.903559+00:00"
+    },
+    {
+      "main_risk": "For Issue 65, the spatial score may add no reproducible information beyond baseline fibrosis, fibroblast composition, or drug exposure.",
+      "next_test": "Reanalyze the supplied data with animal-level pseudobulk and spatial features, then prospectively test the locked candidate score at pretreatment and early treatment with independent induction batches and orthogonal matrix assays.",
+      "opponent": 62,
+      "outcome": "win",
+      "reason": "Issue 65 currently offers the stronger investment: it starts from an available dataset, has a well-defined animal-level validation path, and can branch into spatial biology, imaging, matrix remodeling, or a negative result about niche specificity. Issue 62 has an interesting mechanistic interface hypothesis, but it requires matched longitudinal lung-metastasis specimens, reliable separation of induced persistence from pre-existing resistant cells or generic injury, and causal fibroblast-FGFR evidence across specimens.",
+      "target": 65,
+      "timestamp": "2026-10-09T10:41:22.903580+00:00"
+    },
+    {
+      "main_risk": "The fibrosis niche association may be model-specific and fail to transport beyond the supplied murine treatment setting.",
+      "next_test": "Perform leakage-resistant animal-level analysis of whether pretreatment spatial niches predict endpoint fibrosis beyond composition and severity, followed by a locked prospective replication with imaging and blinded pathology.",
+      "opponent": 59,
+      "outcome": "win",
+      "reason": "Issue 65 is more investable now because its supplied preclinical dataset and animal-level design support an early, inexpensive discriminating test, while its fixed question can generalize across assays and fibrosis models. Issue 59 has broad translational relevance, but therapeutic T-cell identification, paired patient tissue access, boundary-crossing measurement, and cross-product validation create several expensive dependencies before a meaningful result is available.",
+      "target": 65,
+      "timestamp": "2026-10-09T10:41:22.903589+00:00"
+    },
+    {
+      "main_risk": "The observed fibroblast-state reversal may be marker suppression or selection rather than meaningful remodeling of reversible versus entrenched fibrosis.",
+      "next_test": "Test matched treatment and washout time courses across independent animals, linking spatial state changes to collagen organization, tissue mechanics, blinded pathology, and persistence after drug withdrawal.",
+      "opponent": 41,
+      "outcome": "win",
+      "reason": "Issue 65 has a concrete biological anchor and accessible experimental path, with strong simple baselines and orthogonal tissue-level validation. Issue 41 could produce a more general virtual-cell capability, but it combines difficult causal ordering, lineage-resolved measurement, perturbation-schedule coverage, and model identifiability; a benchmark gain could remain disconnected from real biological prediction.",
+      "target": 65,
+      "timestamp": "2026-10-09T10:41:22.903595+00:00"
+    },
+    {
+      "main_risk": "Spatial features may not improve prediction beyond baseline fibrosis severity, fibroblast abundance, histology, or treatment exposure.",
+      "next_test": "Lock composition-only and spatial models after animal-level reanalysis, then prospectively test them in an independent cohort with matched early treatment samples, collagen/histology endpoints, and calibration-focused validation.",
+      "opponent": 49,
+      "outcome": "win",
+      "reason": "Issue 65 is the stronger six-month investment because it has an available starting dataset, a bounded animal-level validation plan, and informative branches from spatial discovery to orthogonal imaging or a clear negative result. Issue 49 has higher potential precision-medicine value, but requires synchronized exposure sampling, reproducible phosphoproteomics from limited material, valid separation of pharmacologic from biological failure, and functional validation of attribution before clinical usefulness can be credible.",
+      "target": 65,
+      "timestamp": "2026-10-09T10:41:22.903600+00:00"
     }
   ],
   "k_factor": 24,
@@ -2929,9 +2929,9 @@
     },
     "41": {
       "draws": 0,
-      "games": 21,
-      "losses": 11,
-      "rating": 1490.21,
+      "games": 22,
+      "losses": 12,
+      "rating": 1479.35,
       "wins": 10
     },
     "42": {
@@ -2985,9 +2985,9 @@
     },
     "49": {
       "draws": 0,
-      "games": 11,
-      "losses": 6,
-      "rating": 1486.03,
+      "games": 12,
+      "losses": 7,
+      "rating": 1475.68,
       "wins": 5
     },
     "5": {
@@ -3062,9 +3062,9 @@
     },
     "59": {
       "draws": 0,
-      "games": 7,
-      "losses": 4,
-      "rating": 1490.19,
+      "games": 8,
+      "losses": 5,
+      "rating": 1478.94,
       "wins": 3
     },
     "6": {
@@ -3090,9 +3090,9 @@
     },
     "62": {
       "draws": 0,
-      "games": 7,
-      "losses": 4,
-      "rating": 1486.69,
+      "games": 8,
+      "losses": 5,
+      "rating": 1475.16,
       "wins": 3
     },
     "63": {
@@ -3104,17 +3104,17 @@
     },
     "64": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
+      "games": 2,
+      "losses": 2,
+      "rating": 1476.01,
       "wins": 0
     },
     "65": {
       "draws": 0,
-      "games": 1,
+      "games": 6,
       "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "rating": 1544.39,
+      "wins": 5
     },
     "7": {
       "draws": 0,
