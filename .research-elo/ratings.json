@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The shared glycolytic-inflammatory spatial program may be absent before progression or may add no value beyond tumor composition, site, and clinical covariates.",
-      "next_test": "In a patient-held-out or site-held-out pilot, test a preregistered pretreatment or early-treatment spatial score against clinical, site, and composition-only baselines with calibration assessment.",
-      "opponent": 18,
-      "outcome": "loss",
-      "reason": "The cholangiocarcinoma problem has clearer patient-level clinical value, a defined external-validation target, strong composition and clinical baselines, and an early spatial-score test that can stop or redirect the project. The ATRX project has broader discovery potential but depends on several high-risk links from accessibility to causality, transfer, cell-state control, and localization validity.",
-      "target": 35,
-      "timestamp": "2026-09-23T04:51:20.921080+00:00"
-    },
-    {
-      "main_risk": "The model may not be genuinely transferable beyond its training support, or the required pretrained model, preprocessing, and training metadata may be unavailable for a fair prospective test.",
-      "next_test": "Audit model and training-data access, then freeze predictions for a small donor-separated panel of genuinely unseen perturbations and compare against expression-only, ATAC-only, and nearest-state baselines.",
-      "opponent": 34,
-      "outcome": "win",
-      "reason": "The ATRX project offers a more concrete and biologically anchored transfer question with identifiable datasets and an early independent-replicate test. The virtual-cell project has greater potential breadth, but its feasibility depends on access to a frozen model and metadata, genuinely out-of-support perturbations, reproducible organoids, and calibrated uncertainty, making the six-month readout substantially less secure.",
-      "target": 35,
-      "timestamp": "2026-09-23T04:51:20.921101+00:00"
-    },
-    {
-      "main_risk": "The apparent temporal advantage may disappear after controlling for measurement density, leaving no clinically meaningful incremental decision value.",
-      "next_test": "On a patient-held-out MIMIC-IV split, compare snapshot and trajectory models with and without measurement-density features, evaluating net benefit and calibration at prespecified thresholds.",
-      "opponent": 27,
-      "outcome": "loss",
-      "reason": "The ICU project has a lower-risk, decision-oriented question supported by established datasets, patient-disjoint validation, explicit measurement-density controls, and transport/calibration analyses. The ATRX project has stronger novelty potential but requires multiple costly assumptions before causal transfer can be interpreted.",
-      "target": 35,
-      "timestamp": "2026-09-23T04:51:20.921110+00:00"
-    },
-    {
-      "main_risk": "ATRX-associated regulatory features may reflect genotype or global accessibility shifts rather than transferable causal perturbation effects.",
-      "next_test": "Replicate matched ATAC and expression profiles across independent ATRX-deficient and control clones, then test whether accessibility improves held-out perturbation prediction beyond expression-only and genotype/global-accessibility baselines.",
-      "opponent": 7,
-      "outcome": "win",
-      "reason": "The ATRX project is the stronger current investment because it has a tighter discovery anchor, more directly available foundational data, and a comparatively bounded transfer test. The KRAS project is clinically compelling but requires reproducible serial transitions across donors, temporal precedence, spatial benefit, and actionable dependencies, each with a long and high-risk readout.",
-      "target": 35,
-      "timestamp": "2026-09-23T04:51:20.921120+00:00"
-    },
-    {
-      "main_risk": "The molecular measurements may be redundant with biometry, Doppler, and established biomarkers, or fail external calibration because of gestational-age, site, and referral differences.",
-      "next_test": "Lock the index time and management endpoint, fit the clinical-Doppler reference, and test one prespecified molecular panel in a pregnancy-level site-held-out cohort using calibration, net benefit, and subgroup stability.",
-      "opponent": 26,
-      "outcome": "win",
-      "reason": "The ATRX problem is more scientifically specific and testable within six months, with a defined transfer question, explicit leakage-resistant validation, and a clear early experiment. The fetal-growth-restriction project has greater potential clinical impact but depends on an agreed management endpoint, standardized molecular assays, large pregnancy-level external cohorts, and transportable calibration, while the molecular modality remains underspecified.",
-      "target": 35,
-      "timestamp": "2026-09-23T04:51:20.921127+00:00"
-    },
-    {
       "main_risk": "The frozen model, training metadata, genuinely independent perturbations, and suitable donor organoids may not be accessible or sufficiently outside the training support.",
       "next_test": "Freeze predictions for a small donor-separated panel of unseen single agents and combinations, then measure replicate concordance and compare against simple baseline models before expanding the study.",
       "opponent": 19,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 65 is the stronger six-month investment because it has an available starting dataset, a bounded animal-level validation plan, and informative branches from spatial discovery to orthogonal imaging or a clear negative result. Issue 49 has higher potential precision-medicine value, but requires synchronized exposure sampling, reproducible phosphoproteomics from limited material, valid separation of pharmacologic from biological failure, and functional validation of attribution before clinical usefulness can be credible.",
       "target": 65,
       "timestamp": "2026-10-09T10:41:22.903600+00:00"
+    },
+    {
+      "main_risk": "Matched drug exposure, target-proximal phosphosite measurements, and interpretable paired tumor material may not be available with sufficient temporal and technical quality.",
+      "next_test": "Run a small first-cycle paired-sample study with matched pharmacokinetics, testing reproducibility of target-proximal phosphosite changes and separation of pharmacologic from biological nonresponse against exposure-only and genomic baselines.",
+      "opponent": 49,
+      "outcome": "loss",
+      "reason": "Exposure-adjusted attribution of treatment failure has broader precision-medicine value and a clearer actionable distinction than the narrower STING-agonist osteosarcoma niche. It also supports strong exposure-only, genomic, and target-engagement baselines.",
+      "target": 64,
+      "timestamp": "2026-10-09T18:24:02.388433+00:00"
+    },
+    {
+      "main_risk": "The ERK/Fra-1 interface state may be an ex vivo injury or generic pharmacologic-stress artifact rather than a fibroblast-mediated induced transition.",
+      "next_test": "Treat independent matched lung-metastasis specimens with MCL1 inhibition, perform live ERK/Fra-1 and viability imaging with fibroblast-distance annotation, and compare against untreated, non-spatial, and injury controls.",
+      "opponent": 62,
+      "outcome": "loss",
+      "reason": "The MCL1 tumor-lung interface problem has a cheaper eight-week ex vivo discriminating test and can branch quickly among reproducible niche effect, generic stress, or pre-existing resistance. The STING project requires rarer clinical material, longitudinal trajectories, and several high-risk spatial and response assumptions before its central claim can be tested.",
+      "target": 64,
+      "timestamp": "2026-10-09T18:24:02.388457+00:00"
+    },
+    {
+      "main_risk": "The required paired pretreatment and early-on-treatment osteosarcoma cohort may be too small or heterogeneous to establish patient-level incremental value beyond myeloid abundance and burden.",
+      "next_test": "Analyze a small paired STING-treated cohort using locked composition-only and spatial models, testing whether baseline inflammatory myeloid neighborhoods predict an early necrosis-to-adaptive score with calibration and spatial-permutation controls.",
+      "opponent": 59,
+      "outcome": "win",
+      "reason": "The STING problem has a more concrete mechanistic observation, clearer competing explanations, and a more focused earliest test than the broadly parameterized engineered T-cell access proposal. Its spatial question is still clinically relevant while remaining anchored to a defined treatment-induced trajectory.",
+      "target": 64,
+      "timestamp": "2026-10-09T18:24:02.388467+00:00"
+    },
+    {
+      "main_risk": "The STING response trajectory may not be reproducible across patients, or spatial organization may add no information beyond myeloid abundance, tumor burden, and tumor-intrinsic STING programs.",
+      "next_test": "Use paired pretreatment and early-on-treatment specimens to test incremental patient-level prediction of the necrosis-to-adaptive trajectory over composition and clinical baselines before building more elaborate models.",
+      "opponent": 41,
+      "outcome": "win",
+      "reason": "The STING project is an empirical patient-level biological problem with an identifiable clinical trajectory and explicit model comparisons. The virtual-cell proposal depends on correctly identifying causal ordering, reversibility, lineage selection, and history dependence simultaneously, making a six-month technology investment substantially riskier despite potentially broad impact.",
+      "target": 64,
+      "timestamp": "2026-10-09T18:24:02.388474+00:00"
+    },
+    {
+      "main_risk": "The apparent adaptive states may reflect clonal selection, treatment stress, or model-specific artifacts rather than reproducible plastic transitions that precede resistance.",
+      "next_test": "Profile matched pretreatment and early on-treatment samples from independent PDAC donors under KRAS blockade, testing directionally concordant transition scores against untreated controls and held-out time-to-regrowth baselines.",
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "KRAS-adaptation research offers broader disease and treatment relevance, stronger tractability, and a clearer donor-level serial design than the highly specialized STING-agonist osteosarcoma project. Its proposed transition can yield useful outcomes through reproducibility, non-reproducibility, or actionable dependency testing.",
+      "target": 64,
+      "timestamp": "2026-10-09T18:24:02.388482+00:00"
     }
   ],
   "k_factor": 24,
@@ -2929,9 +2929,9 @@
     },
     "41": {
       "draws": 0,
-      "games": 22,
-      "losses": 12,
-      "rating": 1479.35,
+      "games": 23,
+      "losses": 13,
+      "rating": 1466.87,
       "wins": 10
     },
     "42": {
@@ -2985,10 +2985,10 @@
     },
     "49": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 7,
-      "rating": 1475.68,
-      "wins": 5
+      "rating": 1487.69,
+      "wins": 6
     },
     "5": {
       "draws": 3,
@@ -3062,9 +3062,9 @@
     },
     "59": {
       "draws": 0,
-      "games": 8,
-      "losses": 5,
-      "rating": 1478.94,
+      "games": 9,
+      "losses": 6,
+      "rating": 1466.02,
       "wins": 3
     },
     "6": {
@@ -3090,10 +3090,10 @@
     },
     "62": {
       "draws": 0,
-      "games": 8,
+      "games": 9,
       "losses": 5,
-      "rating": 1475.16,
-      "wins": 3
+      "rating": 1486.77,
+      "wins": 4
     },
     "63": {
       "draws": 0,
@@ -3104,10 +3104,10 @@
     },
     "64": {
       "draws": 0,
-      "games": 2,
-      "losses": 2,
-      "rating": 1476.01,
-      "wins": 0
+      "games": 7,
+      "losses": 5,
+      "rating": 1465.92,
+      "wins": 2
     },
     "65": {
       "draws": 0,
@@ -3118,10 +3118,10 @@
     },
     "7": {
       "draws": 0,
-      "games": 34,
+      "games": 35,
       "losses": 18,
-      "rating": 1481.6,
-      "wins": 16
+      "rating": 1493.47,
+      "wins": 17
     },
     "8": {
       "draws": 0,
