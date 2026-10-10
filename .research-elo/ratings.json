@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The choice changes if organoid testing is already operational with a high establishment rate, rapid turnaround, and an available locked cohort with near-term patient outcomes.",
-      "next_test": "Run the predefined drug, dose, and cell-context holdout analysis against hierarchical and nearest-neighbor baselines, measuring calibration and uncertainty before investing in more complex models.",
-      "opponent": 1,
-      "outcome": "win",
-      "reason": "Identifiability limits offer a clearer six-month technology investment: the atlas, leakage-resistant holdouts, strong baselines, calibration metrics, and independent validation can establish a general boundary for when counterfactual perturbation predictions are trustworthy. The organoid project has greater potential clinical value, but its core readout depends on rapid organoid establishment, clinically actionable turnaround, treatment decisions, and sufficiently mature patient outcomes.",
-      "target": 33,
-      "timestamp": "2026-09-23T17:10:20.813676+00:00"
-    },
-    {
-      "main_risk": "The choice changes if independent diffuse gastric cancer samples already show a reproducible spatial BCL2-high/BMP-low signature with paired treatment-persistence outcomes and available perturbation models.",
-      "next_test": "Estimate patient- or experiment-level variance and held-out drug, dose, and context performance in the atlas, comparing response-axis decomposition and calibrated uncertainty with strong simple baselines.",
-      "opponent": 15,
-      "outcome": "win",
-      "reason": "The identifiability problem is more general, better supported by accessible perturbation data, and has a cheaper early decision than the diffuse-gastric-cancer niche hypothesis. The gastric project requires reproducible spatial associations, causal niche protection, and selective BCL2-axis vulnerability across tumors or models, making several high-risk assumptions before clinical relevance is established.",
-      "target": 33,
-      "timestamp": "2026-09-23T17:10:20.813696+00:00"
-    },
-    {
-      "main_risk": "The choice changes if a well-powered paired lung cohort and independently processed validation dataset already exist with adequate spatial quality and complete treatment-response annotations.",
-      "next_test": "Use complete-drug, dose, and cell-context holdouts to test whether uncertainty is calibrated and whether predicted transfer exceeds matched simple and leakage-controlled baselines.",
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "Identifiability limits deserve priority because they directly address whether perturbation models support mechanistic counterfactuals, with a broad reusable evaluation framework and an inexpensive computational readout. The lung adenocarcinoma project has substantial translational potential, but paired biopsies, cross-platform spatial reproducibility, treatment-induced changes, and faithful tumoroid interactions create a longer chain of high-risk assumptions.",
-      "target": 33,
-      "timestamp": "2026-09-23T17:10:20.813705+00:00"
-    },
-    {
-      "main_risk": "The choice changes if an independent, patient-level blinatumomab marrow cohort with paired spatial measurements, MRD outcomes, and sufficient sample size is already available.",
-      "next_test": "Perform patient- or experiment-level nested holdouts, including complete-context and drug extrapolation, and determine whether calibrated uncertainty identifies predictable versus non-identifiable response components.",
-      "opponent": 11,
-      "outcome": "win",
-      "reason": "Identifiability is the stronger current investment because it can be tested immediately on existing perturbation data and can produce useful conclusions even if the favored decomposition fails. The blinatumomab project is clinically important, but spatial marrow accessibility may be difficult to measure reproducibly and may add little beyond disease burden, circulating T-cell composition, antigen density, or pharmacokinetics; external validation and longitudinal tissue also appear difficult within six months.",
-      "target": 33,
-      "timestamp": "2026-09-23T17:10:20.813712+00:00"
-    },
-    {
-      "main_risk": "The choice changes if spatially resolved FADS1 or arachidonic-acid measurements, matched CXCR6-positive T-cell fitness assays, and independent checkpoint-treated HCC cohorts are already assembled and technically validated.",
-      "next_test": "Benchmark calibrated uncertainty and prediction under prespecified patient- or experiment-level drug, dose, and context holdouts, with negative controls and hierarchical simple baselines.",
-      "opponent": 10,
-      "outcome": "win",
-      "reason": "The identifiability project has broader technological impact, stronger immediate data readiness, and a clearer early branch than the HCC metabolic-niche project. The HCC idea combines uncertain spatial lipid measurement, biologically active signaling attribution, treatment-context transportability across checkpoint and CAR-T cohorts, and causal T-cell validation, while the identifiability study can first determine whether transfer limits are real and distinguishable from batch, imbalance, or leakage.",
-      "target": 33,
-      "timestamp": "2026-09-23T17:10:20.813719+00:00"
-    },
-    {
       "main_risk": "The apparent temporal benefit may disappear after controlling for measurement density, leaving insufficient incremental decision value over a static model.",
       "next_test": "Run a patient-disjoint static-versus-trajectory comparison with measurement-density features and frozen external-site calibration and decision-curve evaluation.",
       "opponent": 27,
@@ -2699,6 +2654,51 @@
       "reason": "Regimen-specific lupus nephritis validation has a clearer decision target, simpler fixed anchor, established clinical reference model, and a direct external test of calibration and treatment-enrichment value. The HCC proposal has greater mechanistic novelty but combines spatial measurement, temporal causality, reproducibility, incremental prediction, and functional validation into a higher-risk chain.",
       "target": 63,
       "timestamp": "2026-10-10T00:57:04.389591+00:00"
+    },
+    {
+      "main_risk": "Persistent treatment-expanded clonotypes may reflect inflammation, sampling depth, or exposure rather than tumor-specific immunity, making the added value over simple infiltration or clinical baselines disappear.",
+      "next_test": "Using pretreatment and first on-treatment biopsies, lock persistence metrics and test in held-out patients whether they improve calibrated prediction of durable disease control over clinical covariates, tumor burden, and total T-cell abundance.",
+      "opponent": 54,
+      "outcome": "loss",
+      "reason": "Issue 54 targets a broader and more general scientific distinction—immune engagement versus durable tumor control—and allows useful outcomes even if the proposed clonotype mechanism fails. Its anchor is less tied to one disease protocol than issue 53, while the planned patient-level, external, and orthogonal validation addresses the main transportability concern.",
+      "target": 53,
+      "timestamp": "2026-10-10T09:57:14.118694+00:00"
+    },
+    {
+      "main_risk": "Serial heterogeneity measurements may be dominated by lesion sampling, necrosis, purity, or burden rather than a reproducible resistant-disease signal.",
+      "next_test": "In a retrospective serial cohort, test whether a prespecified early heterogeneity change improves held-out prediction of residual disease beyond baseline HER2, stage, tumor burden, and simple lesion-size change.",
+      "opponent": 50,
+      "outcome": "win",
+      "reason": "Issue 53 is a narrower, more decision-focused problem with a relatively cheap early test and an explicit competing explanation involving sampling and treatment-related tissue changes. Issue 50 has substantial clinical potential, but requires coordinated longitudinal pharmacokinetic, adherence, germline, somatic, ancestry, and progression data, creating more high-risk dependencies before a useful readout.",
+      "target": 53,
+      "timestamp": "2026-10-10T09:57:14.118715+00:00"
+    },
+    {
+      "main_risk": "The available sample size may be inadequate for stable treatment-interaction estimates and calibration across molecular subgroups and institutions.",
+      "next_test": "Before complex multimodal modeling, perform a learning-curve and site-held-out analysis of a compact prespecified signature to determine whether treatment-effect direction and calibration are stable beyond clinical and molecular-only baselines.",
+      "opponent": 2,
+      "outcome": "loss",
+      "reason": "Issue 2 is anchored to differential benefit in a randomized matched-therapy setting, giving it stronger causal leverage and a more general transportability contribution than the protocol-specific association in issue 53. Its site-held-out test can determine whether the signature captures biology rather than institution-specific measurement or selection effects.",
+      "target": 53,
+      "timestamp": "2026-10-10T09:57:14.118724+00:00"
+    },
+    {
+      "main_risk": "The proposed spatial neighborhoods may not reproduce across specimens or platforms and may merely encode tumor composition, genotype, or proliferation.",
+      "next_test": "In paired patient samples, lock a small neighborhood definition and test patient-level replication across an independent specimen set, comparing it directly with composition-only and clinical baselines.",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "Issue 13 offers broader discovery and technology value by testing whether tumor–CAF–immune spatial context explains treatment response beyond composition, with strong evidence readiness and orthogonal functional validation. Issue 53 has clearer clinical framing but is more vulnerable to serial sampling artifacts and a narrow disease-specific protocol.",
+      "target": 53,
+      "timestamp": "2026-10-10T09:57:14.118734+00:00"
+    },
+    {
+      "main_risk": "The heterogeneity trajectory may fail to add information beyond baseline HER2, tumor burden, stage, and standard pathology once measurement error and spatial sampling are controlled.",
+      "next_test": "Measure early within-patient heterogeneity change in serial specimens and compare its patient-level prediction of residual disease against baseline HER2, clinical variables, pathology, and simple residual-volume change.",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "Issue 53 is the stronger current investment because it separates an actionable early response signal from a clearly stated sampling-based alternative without requiring a causal niche mechanism to succeed. Issue 15 combines rare-disease sampling, spatial state reproducibility, persistence measurement, and selective BCL2/BMP perturbation, so several high-risk assumptions must hold before the project yields a dependable result.",
+      "target": 53,
+      "timestamp": "2026-10-10T09:57:14.118741+00:00"
     }
   ],
   "k_factor": 24,
@@ -2733,16 +2733,16 @@
     },
     "13": {
       "draws": 0,
-      "games": 25,
-      "losses": 12,
-      "rating": 1518.26,
+      "games": 26,
+      "losses": 13,
+      "rating": 1505.56,
       "wins": 13
     },
     "15": {
       "draws": 1,
-      "games": 24,
-      "losses": 11,
-      "rating": 1518.44,
+      "games": 25,
+      "losses": 12,
+      "rating": 1506.17,
       "wins": 12
     },
     "17": {
@@ -2768,10 +2768,10 @@
     },
     "2": {
       "draws": 0,
-      "games": 26,
+      "games": 27,
       "losses": 12,
-      "rating": 1518.04,
-      "wins": 14
+      "rating": 1529.75,
+      "wins": 15
     },
     "21": {
       "draws": 0,
@@ -2999,9 +2999,9 @@
     },
     "50": {
       "draws": 0,
-      "games": 11,
-      "losses": 5,
-      "rating": 1510.92,
+      "games": 12,
+      "losses": 6,
+      "rating": 1498.45,
       "wins": 6
     },
     "51": {
@@ -3020,17 +3020,17 @@
     },
     "53": {
       "draws": 0,
-      "games": 7,
-      "losses": 3,
-      "rating": 1509.19,
-      "wins": 4
+      "games": 12,
+      "losses": 5,
+      "rating": 1522.9,
+      "wins": 7
     },
     "54": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 5,
-      "rating": 1508.72,
-      "wins": 6
+      "rating": 1520.74,
+      "wins": 7
     },
     "55": {
       "draws": 0,
