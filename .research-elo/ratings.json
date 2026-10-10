@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The apparent temporal benefit may disappear after controlling for measurement density, leaving insufficient incremental decision value over a static model.",
-      "next_test": "Run a patient-disjoint static-versus-trajectory comparison with measurement-density features and frozen external-site calibration and decision-curve evaluation.",
-      "opponent": 27,
-      "outcome": "loss",
-      "reason": "The ICU problem has a clearer six-month decision path, patient-level leakage-resistant validation, accessible external transport testing, and a direct test of clinical decision value beyond discrimination. The ATRX project is scientifically interesting but depends on several high-risk links among multimodal measurement, causal feature discovery, perturbation validation, and cross-state transfer.",
-      "target": 35,
-      "timestamp": "2026-09-23T21:34:12.999087+00:00"
-    },
-    {
-      "main_risk": "The glycolytic-inflammatory spatial program may not be detectable before progression or may be dominated by anatomical site, tumor composition, or treatment-history effects.",
-      "next_test": "Profile pretreatment and early on-treatment samples from both anatomical sites using a locked pathway and neighborhood score, then test patient-level association with response against composition and clinical baselines.",
-      "opponent": 18,
-      "outcome": "loss",
-      "reason": "The cholangiocarcinoma problem offers greater potential clinical and biological insight by testing whether a resistance program transfers across anatomical sites and patients, rather than remaining a cell-line artifact. Its patient-level spatial baselines, site-held-out validation, and explicit ex vivo and orthogonal branches provide useful outcomes even if the conserved mechanism fails; the ATRX project remains more dependent on complex causal multimodal modeling and specialized perturbation readouts.",
-      "target": 35,
-      "timestamp": "2026-09-23T21:34:12.999110+00:00"
-    },
-    {
-      "main_risk": "Predicted transfer may reflect genotype or global accessibility shifts rather than causal regulatory features, especially with sparse perturbation and single-context data.",
-      "next_test": "Freeze expression-only, ATAC-only, and multimodal models after replicate-aware training and test held-out regulatory perturbations across independent control and ATRX-deficient replicates.",
-      "opponent": 10,
-      "outcome": "win",
-      "reason": "The ATRX project has a clearer transferable discovery anchor and a better-defined causal-versus-correlated question than the HCC proposal, whose key premise requires spatially measurable, biologically active arachidonic-acid niches and may be highly dependent on treatment context and scarce cohorts. ATRX also permits useful modality and perturbation branches if localization or one assay fails.",
-      "target": 35,
-      "timestamp": "2026-09-23T21:34:12.999120+00:00"
-    },
-    {
-      "main_risk": "ATRX-state transfer may fail because accessibility features are sparse or because cell-state composition and genotype labels explain the apparent signal without causal regulatory learning.",
-      "next_test": "Use an independent replicate-aware cohort to compare frozen multimodal predictions with expression-only, ATAC-only, and nearest-state baselines under held-out perturbations and contexts.",
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "The ATRX proposal is the stronger current investment because it fixes a general scientific problem—whether regulatory perturbation effects transfer across chromatin states—while allowing the modality, perturbation class, and endpoint to float. The lung proposal has high potential and strong validation structure, but it depends on reproducible paired spatial changes, platform harmonization, and tumoroids retaining clinically relevant CAF–immune interactions.",
-      "target": 35,
-      "timestamp": "2026-09-23T21:34:12.999127+00:00"
-    },
-    {
-      "main_risk": "The proposed BCL2-high spatial state may be merely a marker of advanced or proliferative clones, making the gastric mechanism—not just its biomarker—noncausal.",
-      "next_test": "Test whether the locked ATRX multimodal model predicts held-out perturbations across independent clones or contexts beyond strong expression, accessibility, and genotype baselines.",
-      "opponent": 15,
-      "outcome": "loss",
-      "reason": "The ATRX problem has a more generalizable scientific payoff and a cleaner transferability anchor than the gastric proposal, which requires both reproducible BMP-low inflammatory fibroblast niches and a selective BCL2/BMP causal vulnerability. ATRX offers an earlier and more informative model-versus-baseline decision, with pivot options if localization, accessibility, or causal perturbation components fail.",
-      "target": 35,
-      "timestamp": "2026-09-23T21:34:12.999134+00:00"
-    },
-    {
       "main_risk": "The pretrained model, metadata, and genuinely independent organoid and donor cohorts may not be accessible or sufficiently outside the training support.",
       "next_test": "Confirm model and training-metadata access, then audit a small candidate panel of drugs, combinations, doses, and organoid donors for true support separation before generating any outcomes.",
       "opponent": 19,
@@ -2699,16 +2654,61 @@
       "reason": "Issue 53 is the stronger current investment because it separates an actionable early response signal from a clearly stated sampling-based alternative without requiring a causal niche mechanism to succeed. Issue 15 combines rare-disease sampling, spatial state reproducibility, persistence measurement, and selective BCL2/BMP perturbation, so several high-risk assumptions must hold before the project yields a dependable result.",
       "target": 53,
       "timestamp": "2026-10-10T09:57:14.118741+00:00"
+    },
+    {
+      "main_risk": "The spatial fibroblast niche signal may be non-specific to baseline lesion severity, treatment exposure, or sampling and fail to add value beyond composition and histology.",
+      "next_test": "Run the prespecified animal-level reanalysis and prospective early-treatment replication, comparing spatial features against composition-only, severity-only, and randomized-region baselines.",
+      "opponent": 60,
+      "outcome": "win",
+      "reason": "Issue 65 has a clearer near-term scientific anchor in an available dataset, animal-level leakage-resistant validation, orthogonal tissue readouts, and an eight-week test that can support continuation or stopping. Issue 60 has greater potential clinical impact, but patient-level predictive value, assay reproducibility, and cross-cohort transport require several high-risk dependencies and a longer readout.",
+      "target": 65,
+      "timestamp": "2026-10-10T17:22:33.096824+00:00"
+    },
+    {
+      "main_risk": "The fibroblast spatial score may not predict treatment response beyond simpler abundance, severity, and histological measures.",
+      "next_test": "Test the locked spatial score on animal-held-out data and a small prospective early-treatment cohort against composition, baseline fibrosis, and histology baselines.",
+      "opponent": 39,
+      "outcome": "win",
+      "reason": "Issue 65 is the stronger six-month investment because it is anchored to an existing experiment and has an early, decision-relevant validation path with useful outcomes even if the transition hypothesis fails. Issue 39 has broader technology potential but depends on reproducible state definitions, genuinely unseen perturbation splits, prospective profiling, and calibrated extrapolation across donors and contexts.",
+      "target": 65,
+      "timestamp": "2026-10-10T17:22:33.096843+00:00"
+    },
+    {
+      "main_risk": "The apparent spatial transition signal may reflect lesion severity or drug exposure rather than a reproducible mechanism of bazedoxifene response.",
+      "next_test": "Perform the animal-level held-out analysis and replicate the most informative pretreatment-to-early-treatment time points with blinded histology and collagen imaging.",
+      "opponent": 2,
+      "outcome": "win",
+      "reason": "Issue 65 offers a feasible, bounded discovery project with an available preclinical dataset, rapid reanalysis, and orthogonal validation. Issue 2 could have substantial patient value, but estimating differential treatment benefit requires adequate randomized subgroup size, harmonized multimodal data, external institutional validation, and stable calibration, making the six-month success path substantially less certain.",
+      "target": 65,
+      "timestamp": "2026-10-10T17:22:33.096849+00:00"
+    },
+    {
+      "main_risk": "Spatial niches may be reproducible molecular patterns without meaningful reversible fibrosis or incremental response prediction.",
+      "next_test": "Reanalyze the supplied data with animal-level separation, then prospectively test the locked score at the early-treatment time point against simple fibrosis and fibroblast-abundance baselines.",
+      "opponent": 1,
+      "outcome": "loss",
+      "reason": "Issue 65 has a more reliable early branch point and does not require organoid establishment, clinically actionable turnaround, or proof that ex vivo responses predict patient benefit. Issue 1 has higher possible clinical impact, but its core chain includes high organoid failure and timing risk, incomplete microenvironment modeling, uncertain patient correlation, and an independent prospective validation requirement.",
+      "target": 65,
+      "timestamp": "2026-10-10T17:22:33.096853+00:00"
+    },
+    {
+      "main_risk": "Temporal features may add no genuine physiological information once measurement density and monitoring intensity are controlled.",
+      "next_test": "Compare static-snapshot and temporal-trajectory models, both with measurement-density features, on a patient-disjoint and hospital-held-out test set, assessing net benefit and calibration rather than AUROC alone.",
+      "opponent": 27,
+      "outcome": "loss",
+      "reason": "Issue 27 is the stronger current investment because it can use established multicenter ICU datasets to test a clinically relevant question with simple strong baselines, patient-level separation, measurement-density controls, calibration, decision curves, and site-held-out validation. Issue 65 is biologically coherent and tractable, but its spatial niche and reversal assumptions are more speculative and its generalizability is narrower.",
+      "target": 65,
+      "timestamp": "2026-10-10T17:22:33.096858+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 30,
+      "games": 31,
       "losses": 14,
-      "rating": 1528.86,
-      "wins": 16
+      "rating": 1542.16,
+      "wins": 17
     },
     "10": {
       "draws": 0,
@@ -2768,9 +2768,9 @@
     },
     "2": {
       "draws": 0,
-      "games": 27,
-      "losses": 12,
-      "rating": 1529.75,
+      "games": 28,
+      "losses": 13,
+      "rating": 1518.64,
       "wins": 15
     },
     "21": {
@@ -2817,10 +2817,10 @@
     },
     "27": {
       "draws": 0,
-      "games": 26,
+      "games": 27,
       "losses": 12,
-      "rating": 1526.15,
-      "wins": 14
+      "rating": 1539.09,
+      "wins": 15
     },
     "28": {
       "draws": 0,
@@ -2908,9 +2908,9 @@
     },
     "39": {
       "draws": 0,
-      "games": 21,
-      "losses": 9,
-      "rating": 1530.97,
+      "games": 22,
+      "losses": 10,
+      "rating": 1519.42,
       "wins": 12
     },
     "4": {
@@ -3076,9 +3076,9 @@
     },
     "60": {
       "draws": 0,
-      "games": 11,
-      "losses": 4,
-      "rating": 1532.38,
+      "games": 12,
+      "losses": 5,
+      "rating": 1520.37,
       "wins": 7
     },
     "61": {
@@ -3111,10 +3111,10 @@
     },
     "65": {
       "draws": 0,
-      "games": 7,
-      "losses": 2,
-      "rating": 1531.98,
-      "wins": 5
+      "games": 12,
+      "losses": 4,
+      "rating": 1540.41,
+      "wins": 8
     },
     "7": {
       "draws": 0,
