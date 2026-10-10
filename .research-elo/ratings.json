@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The pretrained model, metadata, and genuinely independent organoid and donor cohorts may not be accessible or sufficiently outside the training support.",
-      "next_test": "Confirm model and training-metadata access, then audit a small candidate panel of drugs, combinations, doses, and organoid donors for true support separation before generating any outcomes.",
-      "opponent": 19,
-      "outcome": "win",
-      "reason": "The virtual-cell problem has broader scientific and technology impact, a clearer frozen prospective falsification design, and more informative failure branches than the rare-disease spatial trajectory study, which depends on scarce longitudinal MPNST specimens and reproducible ZNF423 transitions.",
-      "target": 34,
-      "timestamp": "2026-09-24T04:59:37.336471+00:00"
-    },
-    {
-      "main_risk": "Temporal proteomic predictions may add no value over baseline proteome, simple dose-response, additive, and mechanistic baselines under genuine distribution shift.",
-      "next_test": "Run a preregistered, donor-separated pilot using frozen predictions on a small balanced set of unseen single agents and combinations, with baseline-only, additive, and no-effect controls.",
-      "opponent": 26,
-      "outcome": "win",
-      "reason": "Prospective virtual-cell validation is more differentiated and reusable across drug-discovery settings, with a direct early falsification test and useful outcomes even if transfer fails. The fetal-growth-restriction study has greater immediate clinical stakes but leaves the molecular modality and management endpoint underspecified and faces substantial site, timing, and treatment-selection confounding.",
-      "target": 34,
-      "timestamp": "2026-09-24T04:59:37.336492+00:00"
-    },
-    {
-      "main_risk": "The apparent prospective gain may be assay or context similarity rather than transferable temporal biology, leaving the model no better than simple response baselines.",
-      "next_test": "Freeze predictions and test them prospectively against donor-separated organoid responses, including endpoint-only, baseline-only, additive, and matched historical-control baselines.",
-      "opponent": 23,
-      "outcome": "win",
-      "reason": "The virtual-cell study offers broader generalizable insight, a sharper scientific anchor, and an earlier stop-or-continue decision than the rehabilitation proposal, whose actionable rehabilitation intervention and differential-benefit endpoint are not yet concretely specified and whose external validation extends beyond six months.",
-      "target": 34,
-      "timestamp": "2026-09-24T04:59:37.336503+00:00"
-    },
-    {
-      "main_risk": "The required organoid and proteomic validation system may be too costly or unavailable, or uncertainty may be poorly calibrated for unseen perturbations.",
-      "next_test": "Perform an access and support audit followed by a small frozen-prediction panel in independent donor organoids with orthogonal viability readouts and strong simple baselines.",
-      "opponent": 6,
-      "outcome": "win",
-      "reason": "The virtual-cell question has higher near-term leverage and a more direct falsification path than the mechanical-niche glioblastoma study, which must first establish that clinical tissue proxies measure mechanics and are not merely hypoxia, necrosis, density, or mesenchymal state.",
-      "target": 34,
-      "timestamp": "2026-09-24T04:59:37.336508+00:00"
-    },
-    {
-      "main_risk": "The multimodal virtual-cell claim may fail because proteomic trajectories do not identify counterfactual drug response beyond simple baseline or mechanistic models.",
-      "next_test": "Test frozen predictions in a small independent organoid cohort spanning unseen drugs and contexts, measuring calibration and incremental value over clinical-style simple response baselines before expanding the assay.",
-      "opponent": 32,
-      "outcome": "win",
-      "reason": "The virtual-cell project provides broader reusable capability and a cleaner early falsification experiment, while pediatric myocarditis has high clinical importance but depends on rare heterogeneous cases, incomplete multimodal testing, treatment-decision confounding, and difficult cross-site calibration.",
-      "target": 34,
-      "timestamp": "2026-09-24T04:59:37.336513+00:00"
-    },
-    {
       "main_risk": "For Issue 33, the main risk is that apparent non-identifiability is actually caused by batch effects, weak-response measurement limits, or inadequate representation rather than a fundamental scientific boundary.",
       "next_test": "For Issue 33, prospectively score complete-drug, complete-dose, and complete-cell-context holdouts against hierarchical and other simple baselines, while checking replicate variance and calibration before adding complex models.",
       "opponent": 24,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 27 is the stronger current investment because it can use established multicenter ICU datasets to test a clinically relevant question with simple strong baselines, patient-level separation, measurement-density controls, calibration, decision curves, and site-held-out validation. Issue 65 is biologically coherent and tractable, but its spatial niche and reversal assumptions are more speculative and its generalizability is narrower.",
       "target": 65,
       "timestamp": "2026-10-10T17:22:33.096858+00:00"
+    },
+    {
+      "main_risk": "Architecture features may be dominated by sampling geometry, tumor burden, or site-specific structure and fail to add reproducible information beyond composition.",
+      "next_test": "Lock the architecture feature set and test patient-level stability and incremental calibrated prediction against clinical and composition baselines before pursuing broader biological interpretation.",
+      "opponent": 67,
+      "outcome": "win",
+      "reason": "Idea 66 has a clearer, more transportable anchor: testing incremental spatial information beyond composition with patient-level validation. It has an earlier and more decisive predictive test, whereas Idea 67 requires difficult longitudinal specimens and depends on several high-risk assumptions about niche-mediated, reproducible treatment-emergent trajectories.",
+      "target": 66,
+      "timestamp": "2026-10-10T21:50:06.797730+00:00"
+    },
+    {
+      "main_risk": "The broader architecture framework may yield statistically reproducible features that still have no clinically meaningful incremental value.",
+      "next_test": "In an available independent or institution-held-out glioblastoma cohort, test locked architecture features against clinical and composition baselines with calibration, uncertainty, and composition-matched spatial controls.",
+      "opponent": 68,
+      "outcome": "win",
+      "reason": "Idea 66 is the stronger current investment because its question is less dependent on access to a rare, specific IL-15-supported therapy cohort and is more flexible across spatial platforms and treatment settings. Idea 68 has attractive clinical specificity, but it requires showing that measured IL-15 access reflects functional cytokine availability and that lesion-level associations transport to patient-level treatment response.",
+      "target": 66,
+      "timestamp": "2026-10-10T21:50:06.797752+00:00"
+    },
+    {
+      "main_risk": "A sufficiently large, independently collected glioblastoma dataset with harmonized treatment-response endpoints and reliable spatial measurements may not be available.",
+      "next_test": "Perform a locked, patient-level nested comparison of architecture, composition, and clinical models in a development cohort, followed by the cheapest genuinely independent cohort or site-held-out test.",
+      "opponent": 50,
+      "outcome": "win",
+      "reason": "Idea 66 poses a cleaner scientific problem with a flexible anchor and useful outcomes even if architecture adds no predictive value. Idea 50 combines exposure, adherence, germline variation, baseline tumor biology, longitudinal evolution, and ancestry calibration, creating a longer chain of assumptions and a less clearly defined decision target despite strong translational appeal.",
+      "target": 66,
+      "timestamp": "2026-10-10T21:50:06.797760+00:00"
+    },
+    {
+      "main_risk": "Spatial relationships in glioblastoma may be unstable across patients or explained by tumor burden, molecular subtype, or sampling geometry.",
+      "next_test": "Use pretreatment specimens to assess replicate-section and leave-one-patient-out feature stability, then test incremental calibrated prediction over clinical and composition baselines with permuted-coordinate controls.",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "Idea 66 offers a more general and methodologically disciplined test of whether tissue architecture contributes transportable response information. Idea 11 is clinically relevant but more dependent on technically reproducible marrow spatial measurements, longitudinal sampling without selection bias, and a spatial accessibility effect that survives strong blood-based and disease-burden baselines.",
+      "target": 66,
+      "timestamp": "2026-10-10T21:50:06.797765+00:00"
+    },
+    {
+      "main_risk": "The glioblastoma architecture signal may not replicate across institutions or add value beyond composition and clinical covariates.",
+      "next_test": "Run the prespecified architecture-versus-composition comparison in a patient-level cohort with site-held-out validation, calibration, and negative spatial controls before expanding to mechanistic or platform-specific work.",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "Idea 66 is a stronger six-month investment because it keeps a clear transportability question while allowing the assay, feature definition, and treatment endpoint to float. Idea 13 couples a broad CAF–immune mechanism, paired on-treatment biopsies, multiple therapy classes, and patient-derived tumoroid fidelity, producing more high-risk dependencies and a potentially forced model-application pairing.",
+      "target": 66,
+      "timestamp": "2026-10-10T21:50:06.797773+00:00"
     }
   ],
   "k_factor": 24,
@@ -2719,9 +2719,9 @@
     },
     "11": {
       "draws": 1,
-      "games": 24,
-      "losses": 12,
-      "rating": 1494.82,
+      "games": 25,
+      "losses": 13,
+      "rating": 1484.19,
       "wins": 11
     },
     "12": {
@@ -2733,9 +2733,9 @@
     },
     "13": {
       "draws": 0,
-      "games": 26,
-      "losses": 13,
-      "rating": 1505.56,
+      "games": 27,
+      "losses": 14,
+      "rating": 1494.93,
       "wins": 13
     },
     "15": {
@@ -2999,9 +2999,9 @@
     },
     "50": {
       "draws": 0,
-      "games": 12,
-      "losses": 6,
-      "rating": 1498.45,
+      "games": 13,
+      "losses": 7,
+      "rating": 1487.32,
       "wins": 6
     },
     "51": {
@@ -3115,6 +3115,27 @@
       "losses": 4,
       "rating": 1540.41,
       "wins": 8
+    },
+    "66": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1555.98,
+      "wins": 5
+    },
+    "67": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "68": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
     },
     "7": {
       "draws": 0,
