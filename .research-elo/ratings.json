@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The frozen model, training metadata, genuinely independent perturbations, and suitable donor organoids may not be accessible or sufficiently outside the training support.",
-      "next_test": "Freeze predictions for a small donor-separated panel of unseen single agents and combinations, then measure replicate concordance and compare against simple baseline models before expanding the study.",
-      "opponent": 19,
-      "outcome": "win",
-      "reason": "Prospective validation of an existing virtual-cell capability could produce a broadly reusable answer across therapies, contexts, and future models, with a clear frozen-prediction test and informative failure modes. The MPNST idea is biologically focused but depends on rare longitudinal specimens and reproducible ZNF423-restoration trajectories that may be difficult to establish within six months.",
-      "target": 34,
-      "timestamp": "2026-09-23T11:46:20.998092+00:00"
-    },
-    {
-      "main_risk": "The proposed KRAS-associated transitions may be treatment- or model-specific consequences of stress or clonal selection rather than reproducible predictors of resistance.",
-      "next_test": "Profile matched pretreatment and early on-treatment samples from several independent PDAC donors and test whether a locked transition score predicts later regrowth better than pretreatment composition and genotype baselines.",
-      "opponent": 7,
-      "outcome": "loss",
-      "reason": "KRAS-transition profiling has a clearer biological anchor, more useful branches if particular states fail to generalize, and a more direct six-month path from serial donor-level profiling to testing temporal precedence. The virtual-cell project is broader, but its success requires simultaneous access to an appropriate model, independent organoids, novel perturbations, calibrated uncertainty, and reproducible proteomic readouts.",
-      "target": 34,
-      "timestamp": "2026-09-23T11:46:20.998114+00:00"
-    },
-    {
-      "main_risk": "The virtual-cell predictions may not generalize because unseen drugs, combinations, doses, or organoids fall outside the model's support and uncertainty may be poorly calibrated.",
-      "next_test": "Run a preregistered, donor-separated pilot on unseen perturbations with frozen predictions, strong simple and mechanistic baselines, and orthogonal viability or cell-death measurements.",
-      "opponent": 26,
-      "outcome": "win",
-      "reason": "The virtual-cell problem offers greater general scientific and technology impact, a direct prospective falsification design, and reusable outputs even when transfer fails. Fetal-growth-restriction stratification has high clinical value but faces a harder path involving endpoint definition, gestational-age leakage, assay standardization, site shift, and external calibration before any management value can be claimed.",
-      "target": 34,
-      "timestamp": "2026-09-23T11:46:20.998123+00:00"
-    },
-    {
-      "main_risk": "The virtual-cell study may be blocked by unavailable model weights or metadata, or by insufficiently independent organoid and perturbation coverage to support a genuine prospective test.",
-      "next_test": "Verify model and training-support access, then audit candidate held-out drugs, combinations, doses, donors, and batches before measuring outcomes; stop if independence cannot be demonstrated.",
-      "opponent": 4,
-      "outcome": "loss",
-      "reason": "The myeloid-niche project has a focused hypothesis and an earlier eight-week assay test, but it still must show that spatial localization is not lesion-size or organ heterogeneity, that the state is functionally meaningful, and that a signature transfers across organs and platforms. The virtual-cell project has higher technical risk but greater breadth, a more explicit falsification framework, and potentially reusable conclusions about a consequential modeling capability.",
-      "target": 34,
-      "timestamp": "2026-09-23T11:46:20.998129+00:00"
-    },
-    {
-      "main_risk": "Proteomic trajectory measurements and organoid phenotypes may be too noisy or assay-specific to distinguish model failure from experimental mismatch within the investment horizon.",
-      "next_test": "Conduct the smallest locked donor-level prospective panel with temporal proteomics, orthogonal phenotype readouts, and baseline-only, endpoint-only, additive, and no-effect baselines to determine whether any incremental signal is reproducible.",
-      "opponent": 23,
-      "outcome": "loss",
-      "reason": "Prospective virtual-cell testing has a stronger general technology payoff and a cheaper early decision than the rehabilitation project, whose clinical endpoint, actionable escalation rule, intervention consistency, confounding by recovery severity, and external calibration all require substantial prospective infrastructure. Negative virtual-cell results would still define limits of counterfactual transfer and inform future benchmarks.",
-      "target": 34,
-      "timestamp": "2026-09-23T11:46:20.998134+00:00"
-    },
-    {
       "main_risk": "The choice changes if organoid testing is already operational with a high establishment rate, rapid turnaround, and an available locked cohort with near-term patient outcomes.",
       "next_test": "Run the predefined drug, dose, and cell-context holdout analysis against hierarchical and nearest-neighbor baselines, measuring calibration and uncertainty before investing in more complex models.",
       "opponent": 1,
@@ -2699,6 +2654,51 @@
       "reason": "KRAS-adaptation research offers broader disease and treatment relevance, stronger tractability, and a clearer donor-level serial design than the highly specialized STING-agonist osteosarcoma project. Its proposed transition can yield useful outcomes through reproducibility, non-reproducibility, or actionable dependency testing.",
       "target": 64,
       "timestamp": "2026-10-09T18:24:02.388482+00:00"
+    },
+    {
+      "main_risk": "The drug-response signals may reflect assay, dose, lineage, or dataset artifacts rather than biology that transports to genuinely unseen drugs and tumor contexts.",
+      "next_test": "Run strict drug-disjoint and double-disjoint reanalysis with simple transcriptomic, structure-only, and additive baselines, then prospectively test a small set of uncertainty-gated predictions in an independent orthogonal assay.",
+      "opponent": 43,
+      "outcome": "loss",
+      "reason": "Transportability limits of drug-response prediction offers broader reusable technology, explicit leakage-resistant shift tests, strong simple baselines, and an early uncertainty-gated validation branch. The HCC proposal has greater clinical specificity but depends on costly tissue access, reproducible spatial states, incremental predictive value, and functional relevance before producing a reliable biomarker.",
+      "target": 63,
+      "timestamp": "2026-10-10T00:57:04.389554+00:00"
+    },
+    {
+      "main_risk": "Intracellular payload exposure may not be measured cleanly enough to separate HER2-mediated delivery from free-payload contamination and assay-specific potency.",
+      "next_test": "Compare HER2-high, HER2-low, and resistant models with matched conjugates, free payload, nonbinding conjugates, and controls while measuring uptake, intracellular payload, and early pharmacodynamic response.",
+      "opponent": 56,
+      "outcome": "loss",
+      "reason": "Exposure-normalized HER2 conjugate mechanisms have a clearer causal anchor, more controllable experiments, and a cheaper eight-week test that can distinguish delivery, payload, and downstream resistance while retaining useful negative branches. The HCC project has higher potential clinical impact but requires several high-risk spatial, temporal, cohort-replication, and functional assumptions.",
+      "target": 63,
+      "timestamp": "2026-10-10T00:57:04.389575+00:00"
+    },
+    {
+      "main_risk": "UCHL1-associated spatial neighborhoods may merely mark disease severity, hypoxia, or overall immune composition rather than add reproducible treatment-specific information.",
+      "next_test": "Use pretreatment and early-treatment patient biopsies to compare a prespecified spatial score against clinical-plus-plasma and composition-only baselines with patient-level held-out validation and replicate-section concordance.",
+      "opponent": 65,
+      "outcome": "win",
+      "reason": "The HCC problem has stronger potential patient and treatment value, a clinically relevant human anchor, and a more consequential external-validation endpoint than the murine fibrosis study. The fibrosis proposal is tractable and biologically coherent but its predictive signal and treatment-induced reversal may not generalize beyond the preclinical model or translate to patient benefit.",
+      "target": 63,
+      "timestamp": "2026-10-10T00:57:04.389581+00:00"
+    },
+    {
+      "main_risk": "The spatial HCC circuit may not provide incremental value beyond plasma UCHL1, disease severity, hypoxia, or cell composition despite its biological plausibility.",
+      "next_test": "Perform a patient-level, leakage-resistant comparison of spatial, composition-only, plasma-plus-clinical, and clinical-only models on pretreatment and early-treatment biopsies, including spatial-permutation controls.",
+      "opponent": 39,
+      "outcome": "win",
+      "reason": "The HCC proposal is more tightly connected to a defined clinical resistance problem and supports meaningful branches through predictive, mechanistic, and functional tests. The unseen-perturbation technology is potentially general but faces severe identifiability, state-definition, extrapolation, and prospective-validation risks, with gains vulnerable to becoming benchmark-specific.",
+      "target": 63,
+      "timestamp": "2026-10-10T00:57:04.389586+00:00"
+    },
+    {
+      "main_risk": "The lupus expression programs may lose predictive value after clinical case-mix adjustment and external-site harmonization, leaving no meaningful decision benefit.",
+      "next_test": "Lock the smallest regimen-specific programs and evaluate clinical-only versus clinical-plus-program models in a blinded independent cohort with harmonized endpoints, calibration, and decision-curve analysis.",
+      "opponent": 25,
+      "outcome": "loss",
+      "reason": "Regimen-specific lupus nephritis validation has a clearer decision target, simpler fixed anchor, established clinical reference model, and a direct external test of calibration and treatment-enrichment value. The HCC proposal has greater mechanistic novelty but combines spatial measurement, temporal causality, reproducibility, incremental prediction, and functional validation into a higher-risk chain.",
+      "target": 63,
+      "timestamp": "2026-10-10T00:57:04.389591+00:00"
     }
   ],
   "k_factor": 24,
@@ -2803,10 +2803,10 @@
     },
     "25": {
       "draws": 1,
-      "games": 23,
+      "games": 24,
       "losses": 8,
-      "rating": 1574.93,
-      "wins": 14
+      "rating": 1586.31,
+      "wins": 15
     },
     "26": {
       "draws": 0,
@@ -2908,9 +2908,9 @@
     },
     "39": {
       "draws": 0,
-      "games": 20,
-      "losses": 8,
-      "rating": 1542.9,
+      "games": 21,
+      "losses": 9,
+      "rating": 1530.97,
       "wins": 12
     },
     "4": {
@@ -2943,10 +2943,10 @@
     },
     "43": {
       "draws": 0,
-      "games": 21,
+      "games": 22,
       "losses": 8,
-      "rating": 1552.61,
-      "wins": 13
+      "rating": 1564.73,
+      "wins": 14
     },
     "44": {
       "draws": 0,
@@ -3041,10 +3041,10 @@
     },
     "56": {
       "draws": 0,
-      "games": 9,
+      "games": 10,
       "losses": 2,
-      "rating": 1560.8,
-      "wins": 7
+      "rating": 1572.22,
+      "wins": 8
     },
     "57": {
       "draws": 0,
@@ -3097,10 +3097,10 @@
     },
     "63": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
-      "rating": 1556.04,
-      "wins": 5
+      "games": 10,
+      "losses": 3,
+      "rating": 1545.46,
+      "wins": 7
     },
     "64": {
       "draws": 0,
@@ -3111,9 +3111,9 @@
     },
     "65": {
       "draws": 0,
-      "games": 6,
-      "losses": 1,
-      "rating": 1544.39,
+      "games": 7,
+      "losses": 2,
+      "rating": 1531.98,
       "wins": 5
     },
     "7": {
