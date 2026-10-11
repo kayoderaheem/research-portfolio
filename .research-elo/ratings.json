@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The spatial BCL2-high niche may be only a correlate of tumor burden, proliferation, or clonal evolution and add no predictive value beyond simpler epithelial features.",
-      "next_test": "In pretreatment and early-treatment patient specimens, apply a locked neighborhood score and test whether it predicts persistence beyond BCL2 abundance, proliferation, stage, and treatment covariates in an independent patient-level split.",
-      "opponent": 15,
-      "outcome": "loss",
-      "reason": "BMP-restraint failure and BCL2-high niches has a clearer patient-level biological anchor, a credible precision-medicine endpoint, and an early spatial replication test with useful outcomes even if the causal mechanism fails. The virtual-cell study has broader potential, but depends on access to a frozen model, genuinely out-of-support perturbations, reproducible organoid phenotypes, and calibrated uncertainty under several kinds of distribution shift.",
-      "target": 34,
-      "timestamp": "2026-09-24T21:35:20.179995+00:00"
-    },
-    {
-      "main_risk": "Spatial marrow organization may be technically irreproducible or add no information beyond disease burden, circulating T-cell composition, antigen-related factors, and clinical risk.",
-      "next_test": "Profile a pilot set of pretreatment marrow samples with reproducible multiplex imaging, then compare a prespecified spatial-accessibility feature against clinical and composition-only baselines using patient-disjoint validation.",
-      "opponent": 11,
-      "outcome": "loss",
-      "reason": "The blinatumomab project addresses a concrete treatment failure with plausible clinical value, uses patient-level validation and strong composition-only baselines, and has a relatively focused early test. The virtual-cell project is more general but carries a longer chain of assumptions about model access, extrapolation beyond training support, organoid fidelity, and uncertainty calibration before producing a useful conclusion.",
-      "target": 34,
-      "timestamp": "2026-09-24T21:35:20.180023+00:00"
-    },
-    {
-      "main_risk": "The apparent temporal advantage may disappear after controlling for measurement density, leaving no clinically meaningful decision value over a tuned static or LightGBM baseline.",
-      "next_test": "On a patient-disjoint MIMIC-IV test set, compare static, temporal, and measurement-density-adjusted models using decision curves and calibration—not AUROC alone—before attempting additional modalities or external transport.",
-      "opponent": 27,
-      "outcome": "loss",
-      "reason": "The ICU calibration project offers the cheapest and earliest decisive test because the core data are available in established databases, the comparison is against strong simple baselines, and measurement-density confounding and external-site calibration are explicit endpoints. Its discovery impact is narrower than the virtual-cell proposal, but its likelihood of yielding an actionable continue, pivot, or stop decision is substantially higher.",
-      "target": 34,
-      "timestamp": "2026-09-24T21:35:20.180033+00:00"
-    },
-    {
-      "main_risk": "The frozen virtual-cell model may not be accessible or its selected unseen drugs, combinations, and organoids may not provide a genuinely independent test outside training support.",
-      "next_test": "Before generating outcomes, audit model and training metadata, chemical and target overlap, latent nearest neighbors, dose ranges, batches, and donor independence for a small balanced held-out panel; stop or redesign if independence cannot be demonstrated.",
-      "opponent": 18,
-      "outcome": "loss",
-      "reason": "The cholangiocarcinoma project has strong translational motivation and useful site-held-out validation, but it relies on an uncertain conserved resistance program, difficult paired biopsies, spatial assay harmonization, and functional confirmation. The virtual-cell proposal more directly tests a high-impact, generalizable capability through preregistered prospective falsification and can produce a reusable benchmark even when its favored transfer hypothesis fails.",
-      "target": 34,
-      "timestamp": "2026-09-24T21:35:20.180047+00:00"
-    },
-    {
-      "main_risk": "Tunnel IL-17A and retinoid states may not replicate across patients or may reflect tunnel burden, disease duration, adherence, or overall inflammation rather than a treatment-relevant mechanism.",
-      "next_test": "Apply a locked two-state classifier to pretreatment tunnel biopsies from patients starting standardized therapy and compare calibrated patient-level prediction against severity, tunnel burden, composition, and pathway-score baselines in an independent cohort.",
-      "opponent": 9,
-      "outcome": "loss",
-      "reason": "The hidradenitis project has a focused tissue state, a clinically meaningful refractory-disease problem, strong patient-level leakage safeguards, and an early classifier replication test with clear refinement and stopping branches. The virtual-cell project has greater generality but substantially more coupled risks involving unseen perturbation extrapolation, organoid relevance, assay reproducibility, and uncertainty calibration.",
-      "target": 34,
-      "timestamp": "2026-09-24T21:35:20.180055+00:00"
-    },
-    {
       "main_risk": "An independent prostate-SBRT cohort with matched urine sampling and standardized toxicity grading may not be obtainable.",
       "next_test": "Audit the pilot for complete DVH/IPSS data, reproducible microRNA measurements, adequate toxicity events, and a realistic external cohort; then compare locked baseline and microRNA-augmented models.",
       "opponent": 21,
@@ -2699,15 +2654,60 @@
       "reason": "Issue 67 has a more sharply defined scientific anchor and a stronger discovery contribution: testing whether a specific pretreatment Schwann-cell niche reproducibly precedes chemotherapy escape and relapse. Issue 13 has broad evidence readiness and strong translational potential, but its therapy class, neighborhood definitions, and optional tumoroid system are relatively floating, increasing the risk of a generic spatial association without a fixed mechanism.",
       "target": 67,
       "timestamp": "2026-10-11T13:00:37.003531+00:00"
+    },
+    {
+      "main_risk": "The central assumption that response relationships remain biologically useful across independent assays and domains may fail because apparent transportability is driven mainly by assay, dose, provenance, or dataset composition.",
+      "next_test": "Run the locked development data under drug-disjoint, tumor-model-disjoint, and double-disjoint splits with strong simple baselines, then test a small uncertainty-gated set of top-ranked predictions in an independent orthogonal assay.",
+      "opponent": 43,
+      "outcome": "loss",
+      "reason": "Problem 43 offers broader and more replaceable technology value: it directly tests when drug-response predictions transport across unseen drugs, tumor models, assays, and institutions, with explicit uncertainty and abstention decisions. Its strict split reanalysis and limited orthogonal validation also provide clearer useful outcomes if complex multimodal models fail, whereas problem 66 depends heavily on scarce, comparable spatial cohorts and reproducible architecture features.",
+      "target": 66,
+      "timestamp": "2026-10-11T19:35:41.346533+00:00"
+    },
+    {
+      "main_risk": "The UCHL1–mregDC–Treg neighborhood may merely track liver disease severity, hypoxia, tumor burden, or total Treg abundance rather than provide an independent or treatment-relevant resistance signal.",
+      "next_test": "Use a patient-level, blinded multiplex-imaging study of pretreatment and early-treatment biopsies to compare the spatial score against plasma UCHL1, composition, and clinical baselines with nested validation and calibration.",
+      "opponent": 63,
+      "outcome": "loss",
+      "reason": "Problem 63 has the stronger current investment case because it anchors a clinically specific question to a defined Atezo/Bev regimen, a plausible UCHL1-associated spatial circuit, paired pretreatment and early-treatment tissue, plasma comparison, and orthogonal imaging and functional validation. It can test incremental patient-level value beyond existing biomarkers while preserving useful mechanistic branches. Problem 66 is rigorous but more dependent on finding transportable architecture signals and harmonized glioblastoma response cohorts.",
+      "target": 66,
+      "timestamp": "2026-10-11T19:35:41.346557+00:00"
+    },
+    {
+      "main_risk": "Spatial relationships may be too patient-specific or technically unstable to add information beyond composition and clinical covariates in an independent glioblastoma cohort.",
+      "next_test": "Before building a complex predictor, quantify patient-level reproducibility of a locked architecture feature set and test composition-matched incremental prediction in a held-out patient cohort or existing independent dataset.",
+      "opponent": 1,
+      "outcome": "win",
+      "reason": "Problem 66 is the better six-month scientific investment because its fixed question—whether reproducible tissue architecture adds transportable information beyond composition—is clear, generalizable, and testable with strong leakage-resistant baselines. Problem 1 has potentially greater clinical value, but organoid establishment, clinically actionable turnaround, ex vivo-to-patient validity, and decision impact form a longer chain of high-risk assumptions whose readouts may arrive too late to guide a reliable branch.",
+      "target": 66,
+      "timestamp": "2026-10-11T19:35:41.346568+00:00"
+    },
+    {
+      "main_risk": "Glioblastoma spatial assays, segmentation, and cohort differences may prevent reliable patient-level architecture features from generalizing beyond the development data.",
+      "next_test": "Estimate feature reproducibility across replicate sections and patients, then compare spatial versus composition-only models using animal- or patient-level splits, spatial permutations, and an independent cohort if available.",
+      "opponent": 65,
+      "outcome": "win",
+      "reason": "Problem 66 deserves priority because it addresses a broader and harder-to-replace technology question—whether spatial context yields transportable treatment-response information beyond composition—with direct relevance to human oncology and explicit external validation requirements. Problem 65 has a cheaper and biologically concrete test, but its murine bleomycin/bazedoxifene setting is narrower, and the connection from spatial state reversal to general fibrosis treatment value is less established.",
+      "target": 66,
+      "timestamp": "2026-10-11T19:35:41.346575+00:00"
+    },
+    {
+      "main_risk": "Measured intracellular payload may not be separable from extracellular free-payload contamination or nonspecific uptake, making the proposed delivery-versus-payload mechanism uninterpretable.",
+      "next_test": "Test matched HER2 conjugates across HER2-high, HER2-low, and resistant models with free-payload, nonbinding-conjugate, and HER2 controls while measuring internalization, intracellular species after washout, and early pharmacodynamic response.",
+      "opponent": 56,
+      "outcome": "loss",
+      "reason": "Problem 56 is the stronger current investment because it has a tight causal anchor, a relatively cheap eight-week discriminating experiment, strong mechanistic controls, and informative outcomes for delivery-limited, payload-limited, or downstream resistance even if the favored model fails. Problem 66 has broader technology impact but requires scarce spatial cohorts, harmonized treatment endpoints, and several high-risk transportability assumptions before producing a decisive result.",
+      "target": 66,
+      "timestamp": "2026-10-11T19:35:41.346587+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 31,
-      "losses": 14,
-      "rating": 1542.16,
+      "games": 32,
+      "losses": 15,
+      "rating": 1529.82,
       "wins": 17
     },
     "10": {
@@ -2943,10 +2943,10 @@
     },
     "43": {
       "draws": 0,
-      "games": 22,
+      "games": 23,
       "losses": 8,
-      "rating": 1564.73,
-      "wins": 14
+      "rating": 1576.43,
+      "wins": 15
     },
     "44": {
       "draws": 0,
@@ -3041,10 +3041,10 @@
     },
     "56": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 2,
-      "rating": 1572.22,
-      "wins": 8
+      "rating": 1583.68,
+      "wins": 9
     },
     "57": {
       "draws": 0,
@@ -3097,10 +3097,10 @@
     },
     "63": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 3,
-      "rating": 1545.46,
-      "wins": 7
+      "rating": 1557.42,
+      "wins": 8
     },
     "64": {
       "draws": 0,
@@ -3111,17 +3111,17 @@
     },
     "65": {
       "draws": 0,
-      "games": 12,
-      "losses": 4,
-      "rating": 1540.41,
+      "games": 13,
+      "losses": 5,
+      "rating": 1528.56,
       "wins": 8
     },
     "66": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
-      "rating": 1555.98,
-      "wins": 5
+      "games": 10,
+      "losses": 3,
+      "rating": 1545.05,
+      "wins": 7
     },
     "67": {
       "draws": 0,
