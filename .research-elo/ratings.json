@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "For B, treatment-induced states may be model-specific stress or clonal-selection effects rather than reproducible, causal resistance transitions.",
-      "next_test": "Profile matched pretreatment and early-treatment samples from independent donors, lock a transition score in training donors, and test held-out prediction of regrowth against pretreatment composition and clinical covariates.",
-      "opponent": 7,
-      "outcome": "loss",
-      "reason": "The KRAS-transition problem has greater near-term clinical value and a clearer six-month decision path: donor-level serial sampling can test temporal precedence and predictive value against strong baseline models before committing to mechanism. The ATRX project is more foundational but depends on several coupled high-risk assumptions, including causal feature identification, reliable localization measurements, and successful transfer across rewired states.",
-      "target": 35,
-      "timestamp": "2026-09-24T17:17:19.606541+00:00"
-    },
-    {
-      "main_risk": "For A, paired biopsies and tumoroid systems may not reproducibly preserve or measure the relevant tumor–CAF–immune interactions across patients and platforms.",
-      "next_test": "In a patient-level paired cohort, prespecify one CAF–immune exclusion neighborhood and test whether its early treatment change adds calibrated predictive value beyond tumor composition and clinical factors, with an independent specimen replication.",
-      "opponent": 13,
-      "outcome": "loss",
-      "reason": "The CAF–immune spatial problem offers stronger patient-level and translational value with a more direct response endpoint, established clinical covariates, orthogonal imaging, and an early paired-biopsy test. It also allows the spatial hypothesis to be rejected cleanly if composition or clinical variables explain the signal. ATRX transfer is potentially generalizable but narrower, more mechanistically demanding, and less supported by an obvious external validation path.",
-      "target": 35,
-      "timestamp": "2026-09-24T17:17:19.606566+00:00"
-    },
-    {
-      "main_risk": "For B, measured FADS1 or lipid abundance may not represent biologically active arachidonic-acid signaling, making the spatial biomarker mechanistically non-identifying.",
-      "next_test": "Use pretreatment HCC tissue to measure FADS1 or lipid-response markers together with CXCR6 resident-memory T-cell fitness, then compare a prespecified proximity feature with composition-only and clinical baselines using patient-level validation.",
-      "opponent": 10,
-      "outcome": "loss",
-      "reason": "The HCC metabolic-niche problem is anchored to a specific mechanistic axis with a clinically meaningful response question and a relatively focused early experiment. It offers useful branches: spatial association, T-cell fitness without clinical prediction, or no reproducible signal. ATRX transfer has broader methodological ambition but requires proving that accessibility adds information, that localization is non-artifactual, and that regulatory perturbations validate inferred causality within six months.",
-      "target": 35,
-      "timestamp": "2026-09-24T17:17:19.606576+00:00"
-    },
-    {
-      "main_risk": "For A, ATRX-associated accessibility may be state-specific or noisy and provide no predictive information beyond expression, genotype, or global accessibility.",
-      "next_test": "Replicate matched ATAC-seq and expression across independent ATRX-deficient and control clones, then test frozen expression-only, ATAC-only, and multimodal models on held-out perturbations and biological replicates.",
-      "opponent": 4,
-      "outcome": "win",
-      "reason": "The ATRX problem has a clearer fixed biological anchor, available state-contrast data, and a differentiated causal-transfer question that can generate useful outcomes even if transfer fails. The myeloid-niche proposal has high potential but is underspecified across metastatic organs, treatments, and lesion contexts; its apparent spatial signal is especially vulnerable to lesion size, organ heterogeneity, and segmentation artifacts. A focused ATRX replicate-and-baseline study therefore offers a stronger current investment for six months.",
-      "target": 35,
-      "timestamp": "2026-09-24T17:17:19.606584+00:00"
-    },
-    {
-      "main_risk": "For A, marrow spatial architecture may be technically variable or insufficiently representative, while response is primarily determined by disease burden, antigen density, pharmacokinetics, or circulating T-cell state.",
-      "next_test": "Analyze pretreatment marrow with a focused multiplex spatial panel, lock leukemia–CD8 neighborhood definitions before outcome modeling, and compare patient-level calibration and discrimination with clinical and composition-only baselines.",
-      "opponent": 11,
-      "outcome": "loss",
-      "reason": "The blinatumomab problem has clearer immediate clinical value and a focused, testable question: whether marrow spatial accessibility adds calibrated patient-level information beyond established blood-based and clinical predictors. It includes orthogonal flow or functional validation and can stop early if spatial neighborhoods are irreproducible. ATRX transfer is scientifically interesting but has a longer causal-validation chain and weaker evidence that protein localization will improve the core readout.",
-      "target": 35,
-      "timestamp": "2026-09-24T17:17:19.606592+00:00"
-    },
-    {
       "main_risk": "The spatial BCL2-high niche may be only a correlate of tumor burden, proliferation, or clonal evolution and add no predictive value beyond simpler epithelial features.",
       "next_test": "In pretreatment and early-treatment patient specimens, apply a locked neighborhood score and test whether it predicts persistence beyond BCL2 abundance, proliferation, stage, and treatment covariates in an independent patient-level split.",
       "opponent": 15,
@@ -2699,6 +2654,51 @@
       "reason": "The bispecific-antibody project targets a broadly relevant treatment capability and directly tests incremental value over target expression, composition, and clinical baselines. It has a plausible path to a reduced pathology-compatible assay and can yield useful conclusions about architecture, composition, or antibody access even if the full spatial signature fails. The IL-15 project is more narrowly tied to a rare therapy and anatomical setting.",
       "target": 68,
       "timestamp": "2026-10-11T05:56:11.179833+00:00"
+    },
+    {
+      "main_risk": "Issue 67 may lack enough paired pretreatment and residual or relapse specimens to establish reproducibility across patients rather than describing rare, patient-specific trajectories.",
+      "next_test": "In an available paired cohort, prespecify the malignant transition and Schwann-cell niche scores and test whether pretreatment spatial proximity predicts the transition after treatment, using patient-level cross-validation against clinical and composition baselines.",
+      "opponent": 49,
+      "outcome": "win",
+      "reason": "Issue 67 has a clearer, biologically anchored question about patient-level reproducibility and tissue context, with explicit leakage-resistant validation, orthogonal spatial testing, and useful outcomes if the favored niche mechanism fails. Issue 49 has broader potential but depends on simultaneously obtaining accurate drug exposure, reliable phosphoproteomics, early biopsies, mechanistic resistance labels, and functional validation.",
+      "target": 67,
+      "timestamp": "2026-10-11T13:00:37.003487+00:00"
+    },
+    {
+      "main_risk": "The integrated tamoxifen model may show no transportable benefit after accounting for adherence, endoxifen exposure, treatment context, and ancestry-related care differences.",
+      "next_test": "Use a locked retrospective cohort analysis to compare CYP2D6-only, exposure-only, clinical/adherence, and integrated models, with external or site-held-out calibration and performance reported separately by ancestry stratum.",
+      "opponent": 50,
+      "outcome": "loss",
+      "reason": "Issue 50 offers greater near-term precision-medicine value and a relatively cheap retrospective branch using existing genotype, exposure, adherence, longitudinal circulating-tumor, and outcome data. Its strong baselines are explicit, and the earliest test can determine whether integrated information adds calibrated value beyond CYP2D6. Issue 67 has stronger discovery novelty but requires scarce, deeply profiled longitudinal spatial specimens and carries more simultaneous biological and sampling risks.",
+      "target": 67,
+      "timestamp": "2026-10-11T13:00:37.003507+00:00"
+    },
+    {
+      "main_risk": "Issue 67 may be unable to distinguish a true niche-mediated transition from residual-disease composition, rare-cell sampling, or patient-specific lineage programs.",
+      "next_test": "Run the prespecified 10-week paired pretreatment/residual-tissue analysis with patient-level held-out evaluation, composition and clinical baselines, and permuted spatial-coordinate negative controls.",
+      "opponent": 62,
+      "outcome": "win",
+      "reason": "Issue 67 is supported by longitudinal human neuroblastoma observations and asks whether a specific pretreatment niche predicts a reproducible treatment-emergent state, making the discovery potentially more transportable than Issue 62's osteosarcoma lung-interface program. Issue 62 has a faster ex vivo test and useful causal perturbation branches, but its starting observation may be model-specific and its generalization requirement is substantial.",
+      "target": 67,
+      "timestamp": "2026-10-11T13:00:37.003517+00:00"
+    },
+    {
+      "main_risk": "Stromal architecture may add no information beyond target expression, immune/stromal composition, tumor burden, exposure, or specimen quality, making the apparent effect non-actionable.",
+      "next_test": "Fit prespecified nested patient-level models in a development cohort and assess whether the spatial architecture score improves held-out calibration, discrimination, and decision value over target expression, composition, and clinical covariates.",
+      "opponent": 57,
+      "outcome": "loss",
+      "reason": "Issue 57 is the stronger six-month investment because it tests a direct incremental clinical-prediction question with clear composition-only baselines, patient-level validation, negative spatial controls, and a feasible path to a reduced pathology assay. Issue 67 has greater mechanistic depth but depends on rarer longitudinal specimens and several high-risk assumptions about a specific Schwann-cell niche and transition.",
+      "target": 67,
+      "timestamp": "2026-10-11T13:00:37.003524+00:00"
+    },
+    {
+      "main_risk": "Issue 67 may fail to replicate across patients because the proposed niche and malignant transition reflect sampling or disease-specific composition rather than a transportable mechanism.",
+      "next_test": "In paired neuroblastoma specimens, lock the niche and transition definitions in training patients and test replication in held-out patients against composition-only, clinical, and spatial-permutation baselines.",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "Issue 67 has a more sharply defined scientific anchor and a stronger discovery contribution: testing whether a specific pretreatment Schwann-cell niche reproducibly precedes chemotherapy escape and relapse. Issue 13 has broad evidence readiness and strong translational potential, but its therapy class, neighborhood definitions, and optional tumoroid system are relatively floating, increasing the risk of a generic spatial association without a fixed mechanism.",
+      "target": 67,
+      "timestamp": "2026-10-11T13:00:37.003531+00:00"
     }
   ],
   "k_factor": 24,
@@ -2733,9 +2733,9 @@
     },
     "13": {
       "draws": 0,
-      "games": 27,
-      "losses": 14,
-      "rating": 1494.93,
+      "games": 28,
+      "losses": 15,
+      "rating": 1483.08,
       "wins": 13
     },
     "15": {
@@ -2985,9 +2985,9 @@
     },
     "49": {
       "draws": 0,
-      "games": 14,
-      "losses": 7,
-      "rating": 1499.3,
+      "games": 15,
+      "losses": 8,
+      "rating": 1487.32,
       "wins": 7
     },
     "5": {
@@ -2999,10 +2999,10 @@
     },
     "50": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 7,
-      "rating": 1498.54,
-      "wins": 7
+      "rating": 1511.0,
+      "wins": 8
     },
     "51": {
       "draws": 0,
@@ -3048,10 +3048,10 @@
     },
     "57": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 5,
-      "rating": 1502.67,
-      "wins": 5
+      "rating": 1514.97,
+      "wins": 6
     },
     "58": {
       "draws": 0,
@@ -3090,9 +3090,9 @@
     },
     "62": {
       "draws": 0,
-      "games": 10,
-      "losses": 5,
-      "rating": 1497.63,
+      "games": 11,
+      "losses": 6,
+      "rating": 1485.7,
       "wins": 5
     },
     "63": {
@@ -3125,10 +3125,10 @@
     },
     "67": {
       "draws": 0,
-      "games": 2,
-      "losses": 1,
-      "rating": 1500.01,
-      "wins": 1
+      "games": 7,
+      "losses": 3,
+      "rating": 1511.01,
+      "wins": 4
     },
     "68": {
       "draws": 0,
