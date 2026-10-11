@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "For Issue 33, the main risk is that apparent non-identifiability is actually caused by batch effects, weak-response measurement limits, or inadequate representation rather than a fundamental scientific boundary.",
-      "next_test": "For Issue 33, prospectively score complete-drug, complete-dose, and complete-cell-context holdouts against hierarchical and other simple baselines, while checking replicate variance and calibration before adding complex models.",
-      "opponent": 24,
-      "outcome": "win",
-      "reason": "Issue 33 offers a broader and more general scientific contribution: it can establish when perturbation models support identifiable counterfactuals, uses strong leakage-resistant validation, and has a flexible anchor that is not tied to one assay or disease. Issue 24 has greater direct clinical potential, but its value depends on access to a suitable independent surveillance cohort, reproducible multi-site cfDNA measurement, and proof that the marker adds value beyond ultrasound and AFP rather than proxying tumor burden.",
-      "target": 33,
-      "timestamp": "2026-09-24T11:55:12.853693+00:00"
-    },
-    {
-      "main_risk": "For Issue 33, uncertainty estimates may not reliably distinguish non-identifiability from distribution shift, technical noise, or poorly represented responsive cells.",
-      "next_test": "Run the predefined atlas holdout benchmark using complete-drug, dose, and cell-context splits, first quantifying replicate reproducibility and comparing hierarchical mixed-effects and pathway baselines with calibrated uncertainty.",
-      "opponent": 28,
-      "outcome": "win",
-      "reason": "Issue 33 is the stronger current investment because it addresses a general limitation of perturbation science, has higher potential for reusable insight, and provides unusually clear holdout designs, strong baselines, uncertainty checks, and useful outcomes even if the favored decomposition fails. Issue 28 addresses an important clinical question, but its expected gain is likely narrower and depends on registry access, adequate event counts, assay harmonization, medication-confounder adjustment, and a defensible connection between exacerbation risk and biologic-eligibility decisions.",
-      "target": 33,
-      "timestamp": "2026-09-24T11:55:12.853709+00:00"
-    },
-    {
-      "main_risk": "For Issue 33, the main risk is that drug, dose, and context effects cannot be separated cleanly enough to support an informative identifiability claim.",
-      "next_test": "Conduct the 12-week preregistered holdout comparison with patient/replicate-level separation, strong hierarchical and composition baselines, negative controls, and calibration reported separately for interpolation and extrapolation.",
-      "opponent": 17,
-      "outcome": "win",
-      "reason": "Issue 33 has the better six-month risk-adjusted profile: it tests a fundamental and generalizable question with accessible retrospective perturbation data, a clear scientific anchor, flexible methods, and early decisions that can support continuation or stopping. Issue 17 could produce clinically relevant evidence about spatial tissue context, but it requires harmonized response labels, reproducible spatial measurements, large multicenter data, and external validation; several high-risk assumptions must succeed before a modest incremental gain is interpretable.",
-      "target": 33,
-      "timestamp": "2026-09-24T11:55:12.853716+00:00"
-    },
-    {
-      "main_risk": "For Issue 33, measured weak responses may be technical floor effects, making the proposed boundary between identifiable and non-identifiable biology ambiguous.",
-      "next_test": "Use technical and biological replicate analyses followed by a site/context-held-out benchmark to determine whether response-axis decomposition improves calibrated prediction over simple variance-partition and transfer baselines.",
-      "opponent": 31,
-      "outcome": "win",
-      "reason": "Issue 33 is more likely to yield a durable result within six months and has broader value across perturbation modeling, with explicit leakage controls, multiple validation axes, and useful conclusions whether transfer succeeds or fails. Issue 31 has meaningful patient-facing potential, but its outcome depends on resolving a difficult reference-standard problem, cross-device and operator reproducibility, informative image failure, site shift, and recalibration; the clinical referral or monitoring decision is also less sharply fixed.",
-      "target": 33,
-      "timestamp": "2026-09-24T11:55:12.853720+00:00"
-    },
-    {
-      "main_risk": "For Issue 33, a failure to transfer across drugs, doses, or contexts may reflect related-condition leakage, batch structure, or class imbalance rather than intrinsic limits of identifiability.",
-      "next_test": "Lock the holdout scheme and evaluate conserved versus context-specific response components against hierarchical mixed-effects, pathway, and nearest-neighbor baselines, with replicate-aware uncertainty calibration and an external perturbation dataset if available.",
-      "opponent": 25,
-      "outcome": "win",
-      "reason": "Issue 33 is the stronger current investment because its central question is broadly reusable, method-agnostic, and testable with an existing atlas, while failed predictions still clarify the limits of counterfactual inference. Issue 25 has substantial precision-medicine relevance, but regimen-specific programs require independent cohorts, harmonized endpoints, locked assays, adjustment for treatment-selection confounding, and sufficient data per regimen; those dependencies make a definitive six-month result less likely.",
-      "target": 33,
-      "timestamp": "2026-09-24T11:55:12.853724+00:00"
-    },
-    {
       "main_risk": "For B, treatment-induced states may be model-specific stress or clonal-selection effects rather than reproducible, causal resistance transitions.",
       "next_test": "Profile matched pretreatment and early-treatment samples from independent donors, lock a transition score in training donors, and test held-out prediction of regrowth against pretreatment composition and clinical covariates.",
       "opponent": 7,
@@ -2699,6 +2654,51 @@
       "reason": "Idea 66 is a stronger six-month investment because it keeps a clear transportability question while allowing the assay, feature definition, and treatment endpoint to float. Idea 13 couples a broad CAF–immune mechanism, paired on-treatment biopsies, multiple therapy classes, and patient-derived tumoroid fidelity, producing more high-risk dependencies and a potentially forced model-application pairing.",
       "target": 66,
       "timestamp": "2026-10-10T21:50:06.797773+00:00"
+    },
+    {
+      "main_risk": "The candidate malignant-cell transition may be patient-specific or reflect changing composition and sampling rather than a reproducible chemotherapy-associated trajectory.",
+      "next_test": "In paired pretreatment and residual or relapse specimens, test whether a prespecified pretreatment Schwann-cell proximity score predicts the transition in leave-one-patient-out analyses with composition and tumor-burden baselines.",
+      "opponent": 67,
+      "outcome": "loss",
+      "reason": "The neuroblastoma project offers broader discovery value and a clearer opportunity to test whether a tissue niche drives a reproducible treatment-emergent state, with longitudinal patient-level data and useful outcomes even if the Schwann-cell mechanism fails. The IL-15 project has clinical relevance but depends on access to a rare, specifically treated brain-metastasis cohort and on difficult cytokine-access measurements.",
+      "target": 68,
+      "timestamp": "2026-10-11T05:56:11.179795+00:00"
+    },
+    {
+      "main_risk": "Paired tumor exposure and phosphoproteomic measurements may be too temporally noisy or tissue-limited to distinguish target engagement from stress and sampling heterogeneity.",
+      "next_test": "Collect baseline and first-cycle samples with matched drug levels and test whether target-proximal phosphosite suppression plus pathway rebound separates later failure mechanisms beyond exposure-only and genomic baselines.",
+      "opponent": 49,
+      "outcome": "loss",
+      "reason": "Exposure-adjusted phosphoproteomics addresses a broadly recurring and actionable distinction between inadequate pharmacology and biological resistance, with strong simple baselines and orthogonal validation paths. It is less dependent than the IL-15 project on a rare treatment setting and can produce useful pharmacology, target-engagement, or resistance findings even if the integrated classifier fails.",
+      "target": 68,
+      "timestamp": "2026-10-11T05:56:11.179813+00:00"
+    },
+    {
+      "main_risk": "Observed pharmacogenomic associations may be dominated by adherence, drug interactions, treatment context, or ancestry-linked access differences rather than causal metabolism or tumor evolution.",
+      "next_test": "In a longitudinal cohort with stored plasma, genotype, adherence, and outcomes, evaluate whether repeated endoxifen exposure and ESR1 evolution improve calibrated prediction over CYP2D6 and clinical baselines within ancestry strata.",
+      "opponent": 50,
+      "outcome": "loss",
+      "reason": "The tamoxifen project has a more accessible retrospective evidence path, substantial clinical relevance, and a fixed question about mechanism-specific calibration across populations. The IL-15 project requires a narrow clinical cohort, specialized spatial assays, and a treatment-specific early functional endpoint before its biomarker value can be assessed.",
+      "target": 68,
+      "timestamp": "2026-10-11T05:56:11.179821+00:00"
+    },
+    {
+      "main_risk": "The ERK/Fra-1 state may represent generic pharmacologic injury or selection of pre-existing resistant cells rather than a fibroblast-mediated tumor-lung interface transition.",
+      "next_test": "Run a small matched longitudinal ex vivo study with untreated controls, time-resolved viability and injury measurements, live ERK/Fra-1 imaging, and fibroblast-distance annotation across independent specimens.",
+      "opponent": 62,
+      "outcome": "loss",
+      "reason": "The MCL1 project has a cheaper eight-week discriminating experiment, direct matched untreated controls, and useful branches distinguishing spatial induction, generic stress, pre-existing selection, and fibroblast dependence. The IL-15 project has greater potential clinical value but requires rare treated brain-metastasis material and assumes that spatial cytokine access is measurable and mechanistically informative.",
+      "target": 68,
+      "timestamp": "2026-10-11T05:56:11.179826+00:00"
+    },
+    {
+      "main_risk": "Measured stromal architecture may be a proxy for tumor burden, target density, specimen quality, or exposure and may not identify functional antibody penetration or effector recruitment.",
+      "next_test": "Fit prespecified nested patient-level models in a development cohort, requiring region-level reliability and testing whether stromal obstruction plus target adjacency improves calibrated prediction over target expression, composition, and clinical covariates.",
+      "opponent": 57,
+      "outcome": "loss",
+      "reason": "The bispecific-antibody project targets a broadly relevant treatment capability and directly tests incremental value over target expression, composition, and clinical baselines. It has a plausible path to a reduced pathology-compatible assay and can yield useful conclusions about architecture, composition, or antibody access even if the full spatial signature fails. The IL-15 project is more narrowly tied to a rare therapy and anatomical setting.",
+      "target": 68,
+      "timestamp": "2026-10-11T05:56:11.179833+00:00"
     }
   ],
   "k_factor": 24,
@@ -2985,10 +2985,10 @@
     },
     "49": {
       "draws": 0,
-      "games": 13,
+      "games": 14,
       "losses": 7,
-      "rating": 1487.69,
-      "wins": 6
+      "rating": 1499.3,
+      "wins": 7
     },
     "5": {
       "draws": 3,
@@ -2999,10 +2999,10 @@
     },
     "50": {
       "draws": 0,
-      "games": 13,
+      "games": 14,
       "losses": 7,
-      "rating": 1487.32,
-      "wins": 6
+      "rating": 1498.54,
+      "wins": 7
     },
     "51": {
       "draws": 0,
@@ -3048,10 +3048,10 @@
     },
     "57": {
       "draws": 0,
-      "games": 9,
+      "games": 10,
       "losses": 5,
-      "rating": 1492.37,
-      "wins": 4
+      "rating": 1502.67,
+      "wins": 5
     },
     "58": {
       "draws": 0,
@@ -3090,10 +3090,10 @@
     },
     "62": {
       "draws": 0,
-      "games": 9,
+      "games": 10,
       "losses": 5,
-      "rating": 1486.77,
-      "wins": 4
+      "rating": 1497.63,
+      "wins": 5
     },
     "63": {
       "draws": 0,
@@ -3125,16 +3125,16 @@
     },
     "67": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "rating": 1500.01,
+      "wins": 1
     },
     "68": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
+      "games": 6,
+      "losses": 6,
+      "rating": 1432.41,
       "wins": 0
     },
     "7": {
