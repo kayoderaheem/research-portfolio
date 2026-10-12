@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The randomized cohort may be too small or imbalanced across molecular subgroups and institutions to estimate stable treatment interactions and calibration.",
-      "next_test": "Lock a compact baseline-plus-early-response signature and evaluate treatment interaction, calibration, and decision benefit in a site-held-out cohort.",
-      "opponent": 5,
-      "outcome": "win",
-      "reason": "The transportability problem is anchored to randomized matched-versus-standard treatment outcomes, with patient-level leakage controls, external validation, and a relatively cheap site-held-out test. The spatial trajectory idea could reveal richer biology, but it depends on obtaining comparable serial tissue and showing that spatial transitions add information beyond composition and treatment-related inflammation.",
-      "target": 2,
-      "timestamp": "2026-09-25T17:17:20.084241+00:00"
-    },
-    {
-      "main_risk": "Insufficient randomized or comparable outcome data may prevent reliable estimation of treatment benefit heterogeneity.",
-      "next_test": "Test a locked multimodal signature against clinical and molecular baselines in a held-out institution, including calibration and missing-modality analyses.",
-      "opponent": 8,
-      "outcome": "win",
-      "reason": "The randomized treatment comparison and explicit focus on transportable differential benefit give the matched-therapy signature a stronger causal and translational anchor than metastatic-site spatial niches. The ALK project faces substantial confounding by anatomical site, prior therapy, lesion sampling, and assay platform, with limited evidence that topology modifies response rather than merely predicting prognosis.",
-      "target": 2,
-      "timestamp": "2026-09-25T17:17:20.084260+00:00"
-    },
-    {
-      "main_risk": "The matched-therapy study may lack sufficient sample size and subgroup balance for stable treatment-interaction estimates across institutions and assays.",
-      "next_test": "Evaluate the locked matched-therapy signature in a site-held-out cohort against clinical-only and molecular-matching baselines, emphasizing interaction confidence intervals and calibration.",
-      "opponent": 3,
-      "outcome": "win",
-      "reason": "The matched-therapy project has a clearer clinical anchor, randomized treatment information, and a more direct early transportability decision. The DNA-damage-tolerance project requires several linked findings—an early mechanism-specific biomarker, specificity against general injury, pharmacologic reversal, and reproducibility—before it can support a treatment decision.",
-      "target": 2,
-      "timestamp": "2026-09-25T17:17:20.084269+00:00"
-    },
-    {
-      "main_risk": "The required randomized or comparable matched-versus-standard data may not provide enough patients for reliable differential-benefit modeling.",
-      "next_test": "Run the locked compact signature in a site-held-out cohort and compare treatment-effect discrimination, calibration, and decision benefit with the molecular-matching and clinical baselines.",
-      "opponent": 1,
-      "outcome": "win",
-      "reason": "The matched-therapy problem has a stronger prospective outcome anchor and a cheaper, more interpretable early test of transportability. Functional organoid profiling could directly influence treatment selection, but it additionally depends on timely culture success, clinically relevant ex vivo pharmacology, sufficient patient-level enrollment, and prospective outcome association before demonstrating utility.",
-      "target": 2,
-      "timestamp": "2026-09-25T17:17:20.084279+00:00"
-    },
-    {
-      "main_risk": "The matched-treatment groups and molecular subgroups may be too sparse or noncomparable to identify transportable treatment-effect heterogeneity.",
-      "next_test": "Perform the pre-specified site-held-out analysis with clinical, molecular, and composition-only baselines, checking calibration and interaction direction before adding complex multimodal features.",
-      "opponent": 13,
-      "outcome": "loss",
-      "reason": "The matched-therapy project is better positioned to distinguish predictive treatment benefit from prognostic biology because it uses a direct matched-versus-standard comparison and emphasizes institution- and assay-level transportability. The CAF–immune project has strong biological potential, but paired biopsies, spatial measurement, heterogeneous therapies, and preservation of stromal and immune interactions create several long-readout dependencies.",
-      "target": 2,
-      "timestamp": "2026-09-25T17:17:20.084289+00:00"
-    },
-    {
       "main_risk": "The apparent reference dependence may be caused mainly by insufficient reference depth or measurement noise rather than a fundamental identifiability problem.",
       "next_test": "Freeze predictions from simple and learned models and re-score them under shared, disjoint, and observation-independent donor-held-out control references, comparing rank and direction concordance with donor-blocked uncertainty.",
       "opponent": 37,
@@ -2699,6 +2654,51 @@
       "reason": "The composition-aware counterfactual project has broader technological utility, a relatively direct held-out perturbation test, strong baseline requirements, and useful outcomes even if the favored model architecture fails. The Schwann-cell project has stronger disease-specific mechanistic appeal but depends on scarce longitudinal spatial material and several high-risk biological reproducibility assumptions.",
       "target": 67,
       "timestamp": "2026-10-12T11:00:26.747943+00:00"
+    },
+    {
+      "main_risk": "The required paired pretreatment and early-on-treatment osteosarcoma STING cohort may be too small or unavailable to estimate spatial effects reliably.",
+      "next_test": "Analyze a small paired cohort to test whether baseline inflammatory myeloid organization predicts an early necrosis-to-adaptive-response score beyond myeloid abundance and clinical covariates.",
+      "opponent": 59,
+      "outcome": "win",
+      "reason": "Issue 64 has a clearer mechanistic anchor, a more coherent link from baseline state to treatment response, and a relatively direct paired-tissue test against strong composition and clinical baselines. Issue 59 addresses an important and general access problem, but therapeutic-cell identity, tissue registration, and product heterogeneity make its readout less reliable within six months.",
+      "target": 64,
+      "timestamp": "2026-10-12T21:18:40.829581+00:00"
+    },
+    {
+      "main_risk": "Additional chromatin or isoform modalities may contribute only donor, batch, or cell-composition proxies rather than genuine information about intervention effects.",
+      "next_test": "Freeze expression-only and multimodal models using independent donor baseline data, then prospectively test predictions for a small replicated perturbation panel with held-out regulatory and functional readouts.",
+      "opponent": 37,
+      "outcome": "loss",
+      "reason": "Issue 37 offers greater general scientific and technological leverage: it directly tests whether regulatory modalities add information for prospective, donor- and perturbation-held-out counterfactual prediction. It also has useful failure branches identifying when virtual-cell claims are not identifiable. Issue 64 is more clinically concrete but narrower and depends heavily on obtaining a rare, well-sampled treatment cohort.",
+      "target": 64,
+      "timestamp": "2026-10-12T21:18:40.829605+00:00"
+    },
+    {
+      "main_risk": "Spatial myeloid organization may add no information beyond abundance, tumor burden, tumor STING competence, or treatment exposure.",
+      "next_test": "Use paired pretreatment and early-on-treatment specimens to test incremental patient-level prediction of the early necrosis-to-adaptive-response trajectory over composition-only and clinical baselines.",
+      "opponent": 68,
+      "outcome": "win",
+      "reason": "Issue 64 is the stronger current investment because its proposed spatial feature is tied to a biologically explicit treatment sequence and can be tested against composition, tumor-intrinsic, and clinical alternatives. Issue 68 depends on the stronger assumption that measured IL-15 abundance and receptor localization represent functional cytokine access, while therapy and lesion-level sampling are likely to be highly heterogeneous.",
+      "target": 64,
+      "timestamp": "2026-10-12T21:18:40.829614+00:00"
+    },
+    {
+      "main_risk": "The osteosarcoma STING cohort may be too limited for robust patient-level spatial modeling and independent validation.",
+      "next_test": "Apply a locked spatial myeloid-state classifier to a small paired cohort and compare calibrated response prediction with clinical, myeloid-abundance, and tumor-STING baselines.",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "Issue 64 has higher potential for a transferable mechanism and a better-defined treatment-induced trajectory, with explicit competing explanations and orthogonal spatial validation. Issue 9 has a useful and more accessible disease unit, but the retinoid program may be chronic-state consequence rather than a treatment-relevant driver, and pathway actionability requires an additional uncertain perturbation step.",
+      "target": 64,
+      "timestamp": "2026-10-12T21:18:40.829621+00:00"
+    },
+    {
+      "main_risk": "The proposed early necrosis-to-adaptive trajectory may not be reproducible across patients or may be confounded by tumor burden and treatment exposure.",
+      "next_test": "Test paired pretreatment and early-treatment samples for reproducible patient-level trajectory prediction beyond baseline abundance, tumor burden, and tumor-intrinsic STING-response scores.",
+      "opponent": 41,
+      "outcome": "win",
+      "reason": "Issue 64 is more likely to produce a decisive result within six months: it has a concrete early tissue test, clinically meaningful endpoints, strong baseline comparisons, and informative outcomes even if spatial organization fails to add predictive value. Issue 41 has high conceptual impact but requires dense lineage-resolved perturbation experiments, causal ordering of chromatin and cohesin changes, and difficult prospective schedule validation before its model claim can be evaluated.",
+      "target": 64,
+      "timestamp": "2026-10-12T21:18:40.829627+00:00"
     }
   ],
   "k_factor": 24,
@@ -2894,10 +2894,10 @@
     },
     "37": {
       "draws": 0,
-      "games": 21,
+      "games": 22,
       "losses": 12,
-      "rating": 1465.7,
-      "wins": 9
+      "rating": 1478.12,
+      "wins": 10
     },
     "38": {
       "draws": 0,
@@ -2929,9 +2929,9 @@
     },
     "41": {
       "draws": 0,
-      "games": 23,
-      "losses": 13,
-      "rating": 1466.87,
+      "games": 24,
+      "losses": 14,
+      "rating": 1455.64,
       "wins": 10
     },
     "42": {
@@ -3062,9 +3062,9 @@
     },
     "59": {
       "draws": 0,
-      "games": 9,
-      "losses": 6,
-      "rating": 1466.02,
+      "games": 10,
+      "losses": 7,
+      "rating": 1454.02,
       "wins": 3
     },
     "6": {
@@ -3104,10 +3104,10 @@
     },
     "64": {
       "draws": 0,
-      "games": 7,
-      "losses": 5,
-      "rating": 1465.92,
-      "wins": 2
+      "games": 12,
+      "losses": 6,
+      "rating": 1500.35,
+      "wins": 6
     },
     "65": {
       "draws": 0,
@@ -3132,9 +3132,9 @@
     },
     "68": {
       "draws": 0,
-      "games": 11,
-      "losses": 7,
-      "rating": 1466.53,
+      "games": 12,
+      "losses": 8,
+      "rating": 1454.49,
       "wins": 4
     },
     "7": {
@@ -3153,9 +3153,9 @@
     },
     "9": {
       "draws": 1,
-      "games": 26,
-      "losses": 14,
-      "rating": 1465.23,
+      "games": 27,
+      "losses": 15,
+      "rating": 1453.65,
       "wins": 11
     }
   },
