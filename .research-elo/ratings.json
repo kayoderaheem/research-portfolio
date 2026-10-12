@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "For Issue 28, the choice would change if no accessible independent registry contains adequate FeNO, medication-exposure, and exacerbation data with comparable ascertainment.",
-      "next_test": "Audit two candidate registries for variable completeness, assay compatibility, corticosteroid exposure, and at least 100 independently ascertained exacerbation events before modeling.",
-      "opponent": 24,
-      "outcome": "win",
-      "reason": "Issue 28 offers a clearer six-month path to a clinically interpretable answer using established biomarkers, explicit external-validation criteria, and a relatively cheap early feasibility check. Issue 24 has greater potential clinical impact, but its value depends on reproducible cross-site cfDNA measurement, a genuinely locked threshold, and evidence that the signal is not merely tumor-burden proxy.",
-      "target": 28,
-      "timestamp": "2026-09-25T11:57:15.885900+00:00"
-    },
-    {
-      "main_risk": "For Issue 28, the choice would change if T2 biomarkers add no value beyond clinical predictors after corticosteroid exposure and assay differences are handled.",
-      "next_test": "Run a locked clinical-only versus clinical-plus-eosinophil/FeNO analysis in one registry, while confirming an independent registry has sufficient events and harmonizable measurements.",
-      "opponent": 31,
-      "outcome": "loss",
-      "reason": "Issue 28 has a more reliable evidence path: routine biomarkers, a well-defined clinical baseline, and tractable calibration and reclassification analyses. Issue 31 faces simultaneous high-risk assumptions about imaging reproducibility, a noncircular reference standard, informative image failure, and site transportability, making a negative result harder to interpret within six months.",
-      "target": 28,
-      "timestamp": "2026-09-25T11:57:15.885922+00:00"
-    },
-    {
-      "main_risk": "For Issue 28, the choice would change if external data show that biomarkers do not improve calibration or decision value beyond prior exacerbations, treatment exposure, and lung function.",
-      "next_test": "Pre-specify and lock the clinical baseline, then test nested biomarker models in a held-out registry with calibration and decision-curve analysis rather than relying on discrimination alone.",
-      "opponent": 25,
-      "outcome": "win",
-      "reason": "Issue 28 is the stronger current investment because it tests a focused, decision-relevant incremental-value question with established measurements and a comparatively short path to external validation. Issue 25 has important treatment-selection potential, but regimen-specific expression programs require substantial protection against treatment-selection bias, endpoint inconsistency, batch effects, and outcome leakage across multiple regimens.",
-      "target": 28,
-      "timestamp": "2026-09-25T11:57:15.885932+00:00"
-    },
-    {
-      "main_risk": "For Issue 28, the choice would change if registry-level assay and treatment-practice differences overwhelm any biomarker signal despite prespecified harmonization and recalibration.",
-      "next_test": "Compare the locked clinical-only and biomarker-augmented models across two registries using patient-level splits, calibration, subgroup stability, and decision curves; stop if transport fails before adding model complexity.",
-      "opponent": 17,
-      "outcome": "win",
-      "reason": "Issue 28 has a clearer scientific anchor and more replaceable technical risk: it can establish whether common T2 measurements add transportable decision value. Issue 17 risks becoming a complex benchmark with uncertain biological or translational payoff, while spatial feature reproducibility, endpoint harmonization, center shift, and adequate independent cohorts are all substantial dependencies.",
-      "target": 28,
-      "timestamp": "2026-09-25T11:57:15.885939+00:00"
-    },
-    {
-      "main_risk": "For Issue 28, the choice would change if the biomarkers prove redundant with routine clinical severity and medication variables in an adequately powered external cohort.",
-      "next_test": "First test the prespecified spatial score in independent paired gastric-cancer specimens against BCL2 abundance and proliferation, while in parallel conducting the cheaper locked clinical-plus-T2 external-validation analysis; prioritize Issue 15 only if the spatial signal replicates.",
-      "opponent": 15,
-      "outcome": "win",
-      "reason": "Issue 28 better balances impact, feasibility, and early decision value: its biomarker question can yield a useful positive or negative answer without requiring a causal mechanism. Issue 15 is more novel and potentially transformative, but depends on reproducing a spatial niche, obtaining paired treatment tissue, and demonstrating selective perturbation effects beyond tumor burden and proliferation.",
-      "target": 28,
-      "timestamp": "2026-09-25T11:57:15.885946+00:00"
-    },
-    {
       "main_risk": "The randomized cohort may be too small or imbalanced across molecular subgroups and institutions to estimate stable treatment interactions and calibration.",
       "next_test": "Lock a compact baseline-plus-early-response signature and evaluate treatment interaction, calibration, and decision benefit in a site-held-out cohort.",
       "opponent": 5,
@@ -2699,6 +2654,51 @@
       "reason": "Prospective falsification of multimodal virtual-cell predictions has the strongest general scientific value and a clear donor-level, leakage-resistant test of whether added regulatory-state measurements improve counterfactual identifiability. It can yield useful conclusions about modality sufficiency even when model gains fail. The IL-15 project is more clinically focused but depends on rare therapy-specific tissue and a narrow disease context.",
       "target": 68,
       "timestamp": "2026-10-12T00:36:57.778971+00:00"
+    },
+    {
+      "main_risk": "The proposed pre-treatment Schwann-cell niche and malignant transition may not reproduce across patients or platforms.",
+      "next_test": "In a small paired pretreatment and residual-or-relapse cohort, lock the niche and transition scores and test patient-level association beyond tumor composition and clinical covariates.",
+      "opponent": 50,
+      "outcome": "win",
+      "reason": "The Schwann-cell project has a tighter biological anchor, a differentiated patient-level reproducibility question, and an early paired-tissue test that can distinguish niche-mediated transition from composition and sampling artifacts. The tamoxifen project has greater potential clinical reach but requires assembling and harmonizing extensive longitudinal pharmacokinetic, adherence, germline, somatic, ancestry, and outcome data before its mechanism-specific value is credible.",
+      "target": 67,
+      "timestamp": "2026-10-12T11:00:26.747896+00:00"
+    },
+    {
+      "main_risk": "The spatial architecture measurements may be unstable within patients and fail to add predictive value beyond target expression, composition, and tumor burden.",
+      "next_test": "Fit locked composition-only and spatially augmented patient-level models in a small development cohort with repeated sections, checking reliability before pursuing functional assays.",
+      "opponent": 57,
+      "outcome": "win",
+      "reason": "The Schwann-cell project asks a more specific and biologically anchored question with a clear longitudinal endpoint and meaningful negative controls. The stromal-architecture project is potentially useful but leaves the bispecific target, tumor type, assay, and architecture definition floating, while transfer from organoid systems to clinical tissue adds another major assumption.",
+      "target": 67,
+      "timestamp": "2026-10-12T11:00:26.747916+00:00"
+    },
+    {
+      "main_risk": "The apparent Schwann-cell-linked transition may reflect patient-specific composition, residual-disease sampling, or technical trajectory artifacts rather than a reproducible mechanism.",
+      "next_test": "Use leave-one-patient-out analysis of paired pretreatment and post-treatment specimens to test whether a pre-specified niche-associated transition replicates beyond baseline malignant-cell composition.",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "The Schwann-cell project offers a clearer cross-patient discovery anchor and an early test focused on whether a treatment-associated transition is reproducible, with useful branches if the niche hypothesis fails. The gastric project combines biomarker prediction, spatial causality, and BCL2/BMP perturbation, creating a longer and riskier chain in which BCL2-high status may simply mark aggressive clones.",
+      "target": 67,
+      "timestamp": "2026-10-12T11:00:26.747926+00:00"
+    },
+    {
+      "main_risk": "The available randomized and external cohorts may be too small or heterogeneous to estimate stable treatment interactions and calibrated transportable signatures.",
+      "next_test": "Before multimodal model development, perform a site-held-out power and stability analysis of treatment-by-feature interactions using clinical and molecular baselines.",
+      "opponent": 2,
+      "outcome": "loss",
+      "reason": "The pancreatic project is anchored to differential benefit in a randomized treatment setting, making its clinical question more causally interpretable and its transportability goal broadly useful. The neuroblastoma project is biologically compelling but primarily observational, dependent on rare serial spatial specimens, and vulnerable to confounding by residual disease and sampling.",
+      "target": 67,
+      "timestamp": "2026-10-12T11:00:26.747933+00:00"
+    },
+    {
+      "main_risk": "Held-out gains may reflect dataset-specific state labels or interpolation among similar perturbations rather than genuine prediction of unseen biological responses.",
+      "next_test": "Run a donor- and target-held-out benchmark with similarity audits, comparing direct composition modeling against compositional regression, expression-first, retrieval, and donor-composition null baselines.",
+      "opponent": 39,
+      "outcome": "loss",
+      "reason": "The composition-aware counterfactual project has broader technological utility, a relatively direct held-out perturbation test, strong baseline requirements, and useful outcomes even if the favored model architecture fails. The Schwann-cell project has stronger disease-specific mechanistic appeal but depends on scarce longitudinal spatial material and several high-risk biological reproducibility assumptions.",
+      "target": 67,
+      "timestamp": "2026-10-12T11:00:26.747943+00:00"
     }
   ],
   "k_factor": 24,
@@ -2740,9 +2740,9 @@
     },
     "15": {
       "draws": 1,
-      "games": 25,
-      "losses": 12,
-      "rating": 1506.17,
+      "games": 26,
+      "losses": 13,
+      "rating": 1495.15,
       "wins": 12
     },
     "17": {
@@ -2768,10 +2768,10 @@
     },
     "2": {
       "draws": 0,
-      "games": 28,
+      "games": 29,
       "losses": 13,
-      "rating": 1518.64,
-      "wins": 15
+      "rating": 1531.57,
+      "wins": 16
     },
     "21": {
       "draws": 0,
@@ -2908,10 +2908,10 @@
     },
     "39": {
       "draws": 0,
-      "games": 22,
+      "games": 23,
       "losses": 10,
-      "rating": 1519.42,
-      "wins": 12
+      "rating": 1531.88,
+      "wins": 13
     },
     "4": {
       "draws": 1,
@@ -2999,9 +2999,9 @@
     },
     "50": {
       "draws": 0,
-      "games": 15,
-      "losses": 7,
-      "rating": 1511.0,
+      "games": 16,
+      "losses": 8,
+      "rating": 1499.0,
       "wins": 8
     },
     "51": {
@@ -3048,9 +3048,9 @@
     },
     "57": {
       "draws": 0,
-      "games": 11,
-      "losses": 5,
-      "rating": 1514.97,
+      "games": 12,
+      "losses": 6,
+      "rating": 1503.25,
       "wins": 6
     },
     "58": {
@@ -3125,10 +3125,10 @@
     },
     "67": {
       "draws": 0,
-      "games": 7,
-      "losses": 3,
-      "rating": 1511.01,
-      "wins": 4
+      "games": 12,
+      "losses": 5,
+      "rating": 1520.36,
+      "wins": 7
     },
     "68": {
       "draws": 0,
