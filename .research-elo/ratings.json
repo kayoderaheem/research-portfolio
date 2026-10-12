@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "An independent prostate-SBRT cohort with matched urine sampling and standardized toxicity grading may not be obtainable.",
-      "next_test": "Audit the pilot for complete DVH/IPSS data, reproducible microRNA measurements, adequate toxicity events, and a realistic external cohort; then compare locked baseline and microRNA-augmented models.",
-      "opponent": 21,
-      "outcome": "win",
-      "reason": "Issue 29 has a narrower clinical anchor, established comparator variables, a patient-level validation plan, and a relatively cheap nested-model test. Issue 21 has greater theoretical impact but spans many modalities, decisions, sites, and implementation assumptions that are unlikely to resolve within six months.",
-      "target": 29,
-      "timestamp": "2026-09-25T05:04:06.280320+00:00"
-    },
-    {
-      "main_risk": "The microRNA signal may be only a dose-related proxy and add no value beyond DVH metrics and baseline symptoms.",
-      "next_test": "Complete technical reproducibility checks and fit patient-level nested baseline-versus-microRNA models with prespecified calibration and decision-value analyses in the existing cohort.",
-      "opponent": 22,
-      "outcome": "win",
-      "reason": "Issue 29 offers a more contained, decision-linked study with an existing pilot, clear clinical and dosimetric baselines, and an early incremental-value test. Issue 22 has major potential but requires reproducible multimodal state definition, cross-site assay transportability, treatment-shift calibration, and possibly compartment-level validation, creating several long-readout risks.",
-      "target": 29,
-      "timestamp": "2026-09-25T05:04:06.280340+00:00"
-    },
-    {
-      "main_risk": "The biomarker may fail to provide independent information once dose and baseline urinary risk are modeled, making the proposed clinical pathway non-actionable.",
-      "next_test": "Verify pilot sample and outcome availability, assay reproducibility, and event count, then test whether the locked microRNA trajectory adds calibrated net benefit over DVH/IPSS models.",
-      "opponent": 12,
-      "outcome": "win",
-      "reason": "Issue 29 has a defined toxicity decision, accessible baseline comparators, and a feasible early test of incremental value. Issue 12 is potentially important for an underserved population, but tissue access, small cohorts, spatial assay feasibility, HIV-status heterogeneity, and external validation make the central claim substantially harder to establish in six months.",
-      "target": 29,
-      "timestamp": "2026-09-25T05:04:06.280346+00:00"
-    },
-    {
-      "main_risk": "The proposed adaptive-fractionation decision may not be clinically established or sufficiently supported by acute-toxicity prediction to justify changing care.",
-      "next_test": "Confirm that the pilot has adequate events and complete DVH/IPSS and microRNA data, then estimate whether the biomarker changes risk classification and decision-curve net benefit at the proposed threshold.",
-      "opponent": 32,
-      "outcome": "loss",
-      "reason": "Issue 29 is more tightly scoped and can yield a decisive result from an existing pilot using objective baseline predictors and a prespecified biomarker increment. Issue 32 has high clinical importance but depends on heterogeneous pediatric referral populations, treatment-derived labels, multimodal missingness, and transportable management thresholds that are difficult to establish retrospectively within six months.",
-      "target": 29,
-      "timestamp": "2026-09-25T05:04:06.280350+00:00"
-    },
-    {
-      "main_risk": "The proposed microRNA signal may not replicate externally or may be entirely explained by dosimetric exposure rather than independent biology.",
-      "next_test": "Run technical replicate/qPCR confirmation and a prespecified patient-level comparison of DVH/IPSS models with versus without microRNA trajectories before investing in external validation.",
-      "opponent": 6,
-      "outcome": "win",
-      "reason": "Issue 29 has a concrete clinical use, existing pilot observations, strong conventional baselines, and an early branch point. Issue 6 is more novel and could generate valuable biology, but mechanical stress is difficult to measure from tissue proxies, causal interpretation is confounded by hypoxia and mesenchymal state, and matched spatial tissue with treatment-linked outcomes is demanding.",
-      "target": 29,
-      "timestamp": "2026-09-25T05:04:06.280355+00:00"
-    },
-    {
       "main_risk": "For Issue 28, the choice would change if no accessible independent registry contains adequate FeNO, medication-exposure, and exacerbation data with comparable ascertainment.",
       "next_test": "Audit two candidate registries for variable completeness, assay compatibility, corticosteroid exposure, and at least 100 independently ascertained exacerbation events before modeling.",
       "opponent": 24,
@@ -2699,6 +2654,51 @@
       "reason": "Problem 56 is the stronger current investment because it has a tight causal anchor, a relatively cheap eight-week discriminating experiment, strong mechanistic controls, and informative outcomes for delivery-limited, payload-limited, or downstream resistance even if the favored model fails. Problem 66 has broader technology impact but requires scarce spatial cohorts, harmonized treatment endpoints, and several high-risk transportability assumptions before producing a decisive result.",
       "target": 66,
       "timestamp": "2026-10-11T19:35:41.346587+00:00"
+    },
+    {
+      "main_risk": "The required pretreatment and early on-treatment brain-metastasis tissue from patients receiving an IL-15-supported innate-cell therapy may be too scarce or heterogeneous for a reliable patient-level test.",
+      "next_test": "In an available treated-tissue pilot, quantify IL-15/IL-15Rα, perivascular localization, and an early innate-cell functional score, then test incremental patient-level prediction beyond lesion burden, clinical variables, and innate-cell abundance.",
+      "opponent": 29,
+      "outcome": "win",
+      "reason": "Local IL-15 access is a more consequential and mechanistically anchored problem, with potential to distinguish delivery failure from activation failure and guide an emerging therapy. It also has useful outcomes if access does not predict function, whereas the urine microRNA project may remain a dose proxy with uncertain ability to change adaptive fractionation decisions.",
+      "target": 68,
+      "timestamp": "2026-10-12T00:36:57.778919+00:00"
+    },
+    {
+      "main_risk": "IL-15/IL-15Rα localization may not measure functional cytokine access or may fail to generalize across lesions and therapy products.",
+      "next_test": "Test whether a prespecified spatial access score predicts early treatment-induced innate-cell function beyond abundance and clinical covariates in a small patient-level pilot with orthogonal protein confirmation.",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "Local IL-15 access states offer a clearer predictive anchor and a nearer-term discriminating experiment than the highly speculative ZNF423-restoration trajectory. The MPNST idea requires reliable malignant-cell assignment, longitudinal sampling, reproducible temporal restoration, spatial causality, and escape outcomes in a rare disease, while the IL-15 project can produce informative results even if spatial features add no value.",
+      "target": 68,
+      "timestamp": "2026-10-12T00:36:57.778946+00:00"
+    },
+    {
+      "main_risk": "Brain-metastasis tissue and matched early-treatment measurements from an IL-15-supported intervention may be unavailable at sufficient patient-level scale.",
+      "next_test": "Use existing or rapidly accessible specimens to test whether baseline spatial IL-15 access predicts an early innate-cell functional response beyond composition, lesion burden, and treatment exposure.",
+      "opponent": 32,
+      "outcome": "win",
+      "reason": "The IL-15 project has a more specific biological failure mode, a tighter fixed anchor, and a direct early functional readout. The myocarditis project has larger potential clinical breadth but depends on defining a treatment or monitoring label that is independent of clinician behavior, integrating incomplete modalities, and demonstrating transportable calibration across sites and etiologies.",
+      "target": 68,
+      "timestamp": "2026-10-12T00:36:57.778956+00:00"
+    },
+    {
+      "main_risk": "The spatial IL-15 state may be an unstable or nonfunctional proxy rather than a reproducible determinant of innate-cell recovery.",
+      "next_test": "Measure IL-15 access and perivascular innate-cell localization before treatment and relate them to early cytotoxicity or residency, with composition-only and clinical baselines plus technical replication.",
+      "opponent": 47,
+      "outcome": "win",
+      "reason": "Local IL-15 access is a bounded, biologically interpretable problem with a concrete therapy-linked early test. The cross-cancer lactate-transport proposal is broader but forces a difficult equivalence between expression, localization, flux, pH, and persistence across cancers, assays, and therapies, creating several long-readout risks before a useful conclusion.",
+      "target": 68,
+      "timestamp": "2026-10-12T00:36:57.778964+00:00"
+    },
+    {
+      "main_risk": "Baseline chromatin or isoform information may add only batch, donor, or cell-composition signal and not identify genuinely feasible perturbation responses.",
+      "next_test": "Run a small donor-replicated perturbation panel, freeze expression-only and multimodal models, and compare held-out response prediction plus prospective chromatin, isoform, protein, or functional readouts.",
+      "opponent": 37,
+      "outcome": "loss",
+      "reason": "Prospective falsification of multimodal virtual-cell predictions has the strongest general scientific value and a clear donor-level, leakage-resistant test of whether added regulatory-state measurements improve counterfactual identifiability. It can yield useful conclusions about modality sufficiency even when model gains fail. The IL-15 project is more clinically focused but depends on rare therapy-specific tissue and a narrow disease context.",
+      "target": 68,
+      "timestamp": "2026-10-12T00:36:57.778971+00:00"
     }
   ],
   "k_factor": 24,
@@ -2761,9 +2761,9 @@
     },
     "19": {
       "draws": 0,
-      "games": 19,
-      "losses": 12,
-      "rating": 1438.77,
+      "games": 20,
+      "losses": 13,
+      "rating": 1426.97,
       "wins": 7
     },
     "2": {
@@ -2831,9 +2831,9 @@
     },
     "29": {
       "draws": 0,
-      "games": 20,
-      "losses": 13,
-      "rating": 1435.43,
+      "games": 21,
+      "losses": 14,
+      "rating": 1423.33,
       "wins": 7
     },
     "3": {
@@ -2859,9 +2859,9 @@
     },
     "32": {
       "draws": 0,
-      "games": 21,
-      "losses": 13,
-      "rating": 1446.8,
+      "games": 22,
+      "losses": 14,
+      "rating": 1435.13,
       "wins": 8
     },
     "33": {
@@ -2894,10 +2894,10 @@
     },
     "37": {
       "draws": 0,
-      "games": 20,
+      "games": 21,
       "losses": 12,
-      "rating": 1452.78,
-      "wins": 8
+      "rating": 1465.7,
+      "wins": 9
     },
     "38": {
       "draws": 0,
@@ -2971,9 +2971,9 @@
     },
     "47": {
       "draws": 0,
-      "games": 8,
-      "losses": 6,
-      "rating": 1452.6,
+      "games": 9,
+      "losses": 7,
+      "rating": 1441.13,
       "wins": 2
     },
     "48": {
@@ -3132,10 +3132,10 @@
     },
     "68": {
       "draws": 0,
-      "games": 6,
-      "losses": 6,
-      "rating": 1432.41,
-      "wins": 0
+      "games": 11,
+      "losses": 7,
+      "rating": 1466.53,
+      "wins": 4
     },
     "7": {
       "draws": 0,
