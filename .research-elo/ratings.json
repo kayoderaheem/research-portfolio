@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The apparent reference dependence may be caused mainly by insufficient reference depth or measurement noise rather than a fundamental identifiability problem.",
-      "next_test": "Freeze predictions from simple and learned models and re-score them under shared, disjoint, and observation-independent donor-held-out control references, comparing rank and direction concordance with donor-blocked uncertainty.",
-      "opponent": 37,
-      "outcome": "win",
-      "reason": "Reference-invariant perturbation-effect identifiability is the stronger current investment because it addresses a foundational, broadly reusable validity problem, has explicit leakage-resistant evaluation, and offers a cheap six-week re-scoring test before committing to new multimodal experiments. The multimodal project has greater mechanistic ambition but depends on costly, well-aligned regulatory measurements, reproducible perturbations, and prospective orthogonal assays.",
-      "target": 36,
-      "timestamp": "2026-09-25T21:39:39.975157+00:00"
-    },
-    {
-      "main_risk": "The proposed reference-invariant metrics may not separate genuine intervention-effect recovery from shared technical artifacts or donor-specific structure.",
-      "next_test": "Run balanced and disjoint-reference evaluations with donor-held-out predictions, permutation and sham controls, and compare simple matched-donor and linear-effect baselines before adding complex models.",
-      "opponent": 38,
-      "outcome": "win",
-      "reason": "Reference-invariant effect identification is more tractable and has a clearer six-week-to-decision path than cross-species decomposition, which requires conserved biology, reliable orthology, baseline-state alignment, calibrated out-of-context uncertainty, and independent validation. Its protocol could also become a prerequisite for judging more ambitious transfer claims.",
-      "target": 36,
-      "timestamp": "2026-09-25T21:39:39.975196+00:00"
-    },
-    {
-      "main_risk": "The evaluation framework may establish instability without yielding a biologically actionable way to improve perturbation prediction or experiment selection.",
-      "next_test": "In donor-derived perturbation datasets, test whether frozen model rankings and effect directions remain stable across reference allocations and whether they outperform matched-donor and linear direct-effect baselines under donor-held-out validation.",
-      "opponent": 3,
-      "outcome": "loss",
-      "reason": "The identifiability problem deserves more time because it is broadly applicable to virtual-cell claims, can be tested using existing perturbation data, and has an early reversible decision point. DNA-damage-tolerance escape has stronger direct therapeutic stakes, but its biomarker-to-mechanism-to-combination-benefit chain is longer, requires difficult longitudinal or model data, and may be confounded by nonspecific treatment injury.",
-      "target": 36,
-      "timestamp": "2026-09-25T21:39:39.975211+00:00"
-    },
-    {
-      "main_risk": "The protocol may identify reference sensitivity but fail to demonstrate that the stable effects correspond to meaningful biology or improve downstream model selection.",
-      "next_test": "Use existing multi-donor perturbation datasets to compare reference-invariant scores against state-reconstruction scores, strong simple baselines, negative controls, and donor-blocked bootstrap intervals.",
-      "opponent": 10,
-      "outcome": "win",
-      "reason": "Reference-invariant perturbation-effect evaluation offers broader technology value, fewer specialized assay and cohort dependencies, and a substantially cheaper earliest test. The HCC niche project is clinically attractive but requires reproducible spatial lipid or FADS1 measurements, adequate pretreatment patient cohorts, control of major clinical confounders, and external validation across treatment contexts.",
-      "target": 36,
-      "timestamp": "2026-09-25T21:39:39.975222+00:00"
-    },
-    {
-      "main_risk": "The general evaluation result may be scientifically sound but too abstract to produce a concrete improvement in resistance prediction or therapeutic decision-making.",
-      "next_test": "Freeze several baseline and learned perturbation models, evaluate them with donor-held-out shared versus disjoint references, and determine whether stable direct-effect rankings predict independent donor responses better than state-output metrics.",
-      "opponent": 7,
-      "outcome": "loss",
-      "reason": "Reference-invariant effect identification is the stronger current investment because it targets a general validity bottleneck, is less dependent on a particular cancer mechanism or assay, and has a rapid discriminating experiment. KRAS adaptive-state work could be more immediately actionable, but it requires reproducible serial transitions, temporal precedence, separation of plasticity from clonal selection and stress, spatial evidence, and actionable dependencies.",
-      "target": 36,
-      "timestamp": "2026-09-25T21:39:39.975231+00:00"
-    },
-    {
       "main_risk": "The added chromatin or isoform modalities may contribute only donor, batch, or cell-composition proxies rather than intervention-relevant information.",
       "next_test": "Run the prespecified donor-blocked ablation on a small matched expression-plus-chromatin perturbation dataset, comparing expression-only and multimodal models on held-out perturbations and donors.",
       "opponent": 37,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 64 is more likely to produce a decisive result within six months: it has a concrete early tissue test, clinically meaningful endpoints, strong baseline comparisons, and informative outcomes even if spatial organization fails to add predictive value. Issue 41 has high conceptual impact but requires dense lineage-resolved perturbation experiments, causal ordering of chromatin and cohesin changes, and difficult prospective schedule validation before its model claim can be evaluated.",
       "target": 64,
       "timestamp": "2026-10-12T21:18:40.829627+00:00"
+    },
+    {
+      "main_risk": "The isoform signal may primarily reflect subtype, clonal composition, or tumor purity rather than a causal or clinically useful resistance mechanism.",
+      "next_test": "Test prespecified recurrent switches in matched sensitive and resistant patient or model pairs, using patient-level splits and adjustment for subtype and total gene expression, then require an isoform-specific functional change.",
+      "opponent": 18,
+      "outcome": "win",
+      "reason": "Isoform switching offers a broader and more flexible mechanism for separating intrinsic from acquired resistance across cancers and drugs, with clear patient-level validation, strong gene-level baselines, and an actionable early test. The cholangiocarcinoma project depends more heavily on costly spatial sampling, paired biopsies, and cross-site transfer of a highly specific niche signature.",
+      "target": 52,
+      "timestamp": "2026-10-13T06:52:13.250063+00:00"
+    },
+    {
+      "main_risk": "The proposed isoform features may not be reproducible in clinical material or may fail to add information beyond total expression and known molecular subtype.",
+      "next_test": "Run a blinded, patient-level comparison of recurrent isoform switches against gene-level, subtype, and clinical baselines in matched ALK-relevant resistance samples, with replicate assay confirmation.",
+      "opponent": 8,
+      "outcome": "loss",
+      "reason": "Isoform switching has a clearer cross-context scientific anchor and a more direct intrinsic-versus-acquired resistance question, while the ALK project risks confounding spatial topology with metastatic site, treatment history, lesion burden, and sampling. Isoform measurements can be evaluated against strong gene-expression and subtype baselines before committing to extensive spatial profiling.",
+      "target": 52,
+      "timestamp": "2026-10-13T06:52:13.250081+00:00"
+    },
+    {
+      "main_risk": "The myeloid state may be a consequence of lesion size, organ-specific immunity, or treatment exposure rather than a driver or transferable predictor of tumor control.",
+      "next_test": "Measure paired baseline and early-treatment lesions with a focused spatial/protein panel and test a prespecified interferon-responsive tumor-interface score against abundance-only, organ-adjusted, and clinical baselines in held-out subjects.",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "Treatment-induced myeloid remodeling has a nearer-term, more discriminating experiment and clearer useful branches: it can distinguish abundance, functional state, and spatial localization, with orthogonal protein and functional validation. The isoform project requires several linked high-risk steps from measurement through causal interaction changes to alternative treatment actionability.",
+      "target": 52,
+      "timestamp": "2026-10-13T06:52:13.250091+00:00"
+    },
+    {
+      "main_risk": "The isoform-defined resistance distinction may not improve treatment selection or reveal actionable biology beyond established genomic, subtype, and expression models.",
+      "next_test": "Use a locked patient-level model to test whether prespecified baseline and serial isoform changes improve prediction over subtype, total gene expression, and genomic alteration baselines, followed by one orthogonal functional assay.",
+      "opponent": 26,
+      "outcome": "win",
+      "reason": "Isoform switching is a more specific and transferable scientific problem than the fetal-growth-restriction proposal's deliberately unspecified molecular modality. It has a defined biological distinction between intrinsic and acquired resistance and can branch into biomarker, mechanism, or alternative-treatment outcomes. The FGR project has greater direct clinical stakes but substantial endpoint, timing, assay-standardization, and external-calibration dependencies before a useful decision is possible.",
+      "target": 52,
+      "timestamp": "2026-10-13T06:52:13.250098+00:00"
+    },
+    {
+      "main_risk": "The isoform signal may be technically unreliable or biologically noncausal, whereas the virtual-cell project could become preferable if model access and a clean prospective test panel are already secured.",
+      "next_test": "First audit isoform reproducibility and incremental prediction in blinded matched samples; proceed only if the signal beats gene-level and subtype baselines and shows an isoform-specific functional effect.",
+      "opponent": 34,
+      "outcome": "win",
+      "reason": "Isoform switching has a more attainable six-month path because its early test can use existing matched resistance material and directly evaluate incremental biological information. The virtual-cell proposal is highly consequential if successful, but depends on access to a frozen model and metadata, genuinely unseen perturbations, reproducible donor organoids, proteomics, and calibrated uncertainty under distribution shift.",
+      "target": 52,
+      "timestamp": "2026-10-13T06:52:13.250105+00:00"
     }
   ],
   "k_factor": 24,
@@ -2754,9 +2754,9 @@
     },
     "18": {
       "draws": 1,
-      "games": 28,
-      "losses": 15,
-      "rating": 1464.68,
+      "games": 29,
+      "losses": 16,
+      "rating": 1452.67,
       "wins": 12
     },
     "19": {
@@ -2810,9 +2810,9 @@
     },
     "26": {
       "draws": 0,
-      "games": 23,
-      "losses": 13,
-      "rating": 1460.99,
+      "games": 24,
+      "losses": 14,
+      "rating": 1449.5,
       "wins": 10
     },
     "27": {
@@ -2873,9 +2873,9 @@
     },
     "34": {
       "draws": 0,
-      "games": 17,
-      "losses": 10,
-      "rating": 1460.7,
+      "games": 18,
+      "losses": 11,
+      "rating": 1449.61,
       "wins": 7
     },
     "35": {
@@ -2915,9 +2915,9 @@
     },
     "4": {
       "draws": 1,
-      "games": 26,
-      "losses": 14,
-      "rating": 1461.7,
+      "games": 27,
+      "losses": 15,
+      "rating": 1449.77,
       "wins": 11
     },
     "40": {
@@ -3013,10 +3013,10 @@
     },
     "52": {
       "draws": 0,
-      "games": 7,
-      "losses": 5,
-      "rating": 1464.28,
-      "wins": 2
+      "games": 12,
+      "losses": 6,
+      "rating": 1498.33,
+      "wins": 6
     },
     "53": {
       "draws": 0,
@@ -3146,10 +3146,10 @@
     },
     "8": {
       "draws": 0,
-      "games": 23,
+      "games": 24,
       "losses": 13,
-      "rating": 1462.81,
-      "wins": 10
+      "rating": 1475.28,
+      "wins": 11
     },
     "9": {
       "draws": 1,
