@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The added modalities may encode donor, batch, or cell-composition proxies rather than information about the causal perturbation response.",
-      "next_test": "Freeze expression-only and multimodal models and compare their donor-blocked predictions on a small replicated perturbation panel, including prospective orthogonal regulatory readouts.",
-      "opponent": 10,
-      "outcome": "win",
-      "reason": "Issue 37 offers a broader, reusable test of whether regulatory measurements make perturbation predictions identifiable, with donor-level leakage controls, strong baselines, and useful outcomes even if multimodal gains fail. Issue 10 has stronger direct clinical relevance but depends on difficult spatial metabolite measurement, tissue heterogeneity, treatment-context transportability, and independent response cohorts.",
-      "target": 37,
-      "timestamp": "2026-09-26T11:31:35.767254+00:00"
-    },
-    {
-      "main_risk": "Issue 37 may become an expensive, weakly identifiable multimodal modeling program if baseline regulatory state does not add information beyond expression.",
-      "next_test": "Use existing or rapidly generated donor-replicated perturbation data to test whether multimodal features improve locked, donor-held-out response and regulatory-effect predictions over expression-only baselines.",
-      "opponent": 8,
-      "outcome": "win",
-      "reason": "Issue 37 has a clearer general scientific anchor, stronger identifiability and leakage safeguards, and a more reusable technology outcome. Issue 8 is biologically plausible but highly exposed to anatomical-site, treatment-history, lesion-sampling, and platform confounding, while requiring difficult external transport across metastatic compartments.",
-      "target": 37,
-      "timestamp": "2026-09-26T11:31:35.767271+00:00"
-    },
-    {
-      "main_risk": "The multimodal representation may not identify functional intervention effects, making apparent prediction gains nonmechanistic.",
-      "next_test": "Run a focused 12-week donor-replicated experiment with pre-registered expression-only and multimodal models, frozen predictions, and orthogonal chromatin, protein, or functional readouts.",
-      "opponent": 4,
-      "outcome": "win",
-      "reason": "Issue 37 provides a generalizable falsification framework for virtual-cell claims and can produce a valuable minimum-measurement or stopping rule even when the favored multimodal hypothesis fails. Issue 4 has meaningful translational potential, but treatment-induced myeloid localization remains difficult to distinguish from lesion size, organ heterogeneity, exposure, and consequence-versus-cause effects, with costly longitudinal spatial validation.",
-      "target": 37,
-      "timestamp": "2026-09-26T11:31:35.767279+00:00"
-    },
-    {
-      "main_risk": "Reference-allocation instability may be largely measurement noise or inadequate reference depth rather than a fundamental evaluation artifact.",
-      "next_test": "Re-score frozen baseline and learned-model predictions under shared, disjoint, and observation-independent references with donor-blocked bootstrap intervals and null permutations.",
-      "opponent": 36,
-      "outcome": "loss",
-      "reason": "Issue 36 is the stronger immediate investment because it isolates a precise benchmarking and identifiability problem, can be tested in about six weeks using frozen predictions, and yields a reusable protocol independent of any one model or modality. Issue 37 is more ambitious but combines multiple modalities, perturbation reproducibility, prospective assays, and functional endpoints before its core claim can be judged.",
-      "target": 37,
-      "timestamp": "2026-09-26T11:31:35.767287+00:00"
-    },
-    {
-      "main_risk": "Multimodal baseline state may not provide incremental information about future perturbation response or functional feasibility.",
-      "next_test": "Freeze expression-only and multimodal predictors and test them prospectively on donor-replicated perturbations, measuring both held-out molecular effects and one orthogonal functional endpoint.",
-      "opponent": 3,
-      "outcome": "win",
-      "reason": "Issue 37 has broader methodological impact, a clearer technology anchor, stronger validation design, and more flexible branches than Issue 3. The DNA-damage-tolerance project requires a dynamic biomarker to precede resistance, distinguish nonspecific injury, and predict selective combination benefit across models and treatments, creating a longer chain of high-risk assumptions.",
-      "target": 37,
-      "timestamp": "2026-09-26T11:31:35.767294+00:00"
-    },
-    {
       "main_risk": "Organoid response and regrowth features may not correlate with patient treatment benefit because culture selection and missing microenvironmental components distort clinical pharmacology.",
       "next_test": "Prospectively measure organoid establishment success, assay-ready turnaround, and treatment-decision timing for every eligible patient, then run a locked pilot comparing organoid predictions with molecular recommendations and blinded patient outcomes.",
       "opponent": 1,
@@ -2699,6 +2654,51 @@
       "reason": "The ATRX project has available state-specific datasets, a generalizable discovery and technology payoff, and a strong falsification structure using perturbation and context holdouts. It can yield useful insight about when chromatin information transfers even if the full multimodal model fails. The TET2 project has greater direct treatment relevance but is limited by rare disease, specimen access, and a longer chain from measurement to causal combination benefit.",
       "target": 46,
       "timestamp": "2026-10-13T16:59:23.815816+00:00"
+    },
+    {
+      "main_risk": "The choice changes if anti-MDA5 cohorts already have reproducible serial molecular assays and enough independent-site patients for a genuinely early transport test.",
+      "next_test": "Fit locked clinical-only and clinical-imaging landmark models, then test a single prespecified molecular score in a small independent-site cohort for incremental calibration and net benefit.",
+      "opponent": 71,
+      "outcome": "win",
+      "reason": "HER2 modality escalation has a clearer near-term decision target, stronger validation structure, and more actionable incremental-value analysis than the highly dynamic, rare-disease molecular monitoring problem.",
+      "target": 69,
+      "timestamp": "2026-10-13T22:51:34.563079+00:00"
+    },
+    {
+      "main_risk": "The choice changes if a sufficiently large, harmonized multi-tumor treated HER2 cohort with matched RNA, spatial, IHC, amplification, and response data already exists.",
+      "next_test": "Evaluate a locked clinical-only model against clinical plus simple conventional CTA measurements in an independent hospital before adding high-dimensional CTA phenotypes.",
+      "opponent": 70,
+      "outcome": "loss",
+      "reason": "CTA phenotypes for prolonged EVAR hospitalization are narrower, cheaper to test, and supported by a clear external-hospital validation path, whereas pan-tumor HER2 modeling combines heterogeneous assays, regimens, endpoints, and transport assumptions.",
+      "target": 69,
+      "timestamp": "2026-10-13T22:51:34.563107+00:00"
+    },
+    {
+      "main_risk": "The choice changes if an accessible paired osteosarcoma STING-agonist cohort already contains adequate pretreatment and early-on-treatment spatial data.",
+      "next_test": "In the available STING cohort, test whether baseline spatial myeloid organization adds value beyond myeloid abundance for predicting one prespecified early necrosis endpoint.",
+      "opponent": 64,
+      "outcome": "win",
+      "reason": "HER2 decision value offers a more feasible patient-level precision-medicine study with explicit baselines, calibration, and independent validation; the STING project requires rare paired serial specimens, reproducible spatial states, and a difficult mechanistic trajectory readout.",
+      "target": 69,
+      "timestamp": "2026-10-13T22:51:34.563116+00:00"
+    },
+    {
+      "main_risk": "The choice changes if a well-powered, diverse tamoxifen cohort with repeated endoxifen, adherence, genotype, and serial ESR1 data is already assembled and externally linkable.",
+      "next_test": "Compare CYP2D6-only, endoxifen-only, and integrated models in a held-out patient cohort, checking calibration and benefit consistency across at least two ancestry strata.",
+      "opponent": 50,
+      "outcome": "win",
+      "reason": "HER2 assessment directly targets a treatment-selection decision and has a clearer modality-escalation framework; the tamoxifen project requires extensive longitudinal pharmacokinetic, adherence, germline, ancestry, and evolving tumor data while separating several intertwined resistance mechanisms.",
+      "target": 69,
+      "timestamp": "2026-10-13T22:51:34.563123+00:00"
+    },
+    {
+      "main_risk": "The choice changes if recurrent isoform switches already have matched sensitive-resistant patient pairs, reliable isoform quantification, and an experimentally accessible drug target.",
+      "next_test": "Test a small prespecified switch set in held-out matched pairs against total-gene-expression and subtype baselines, followed by one orthogonal isoform-specific functional assay.",
+      "opponent": 52,
+      "outcome": "win",
+      "reason": "HER2 provides a fixed clinical anchor, defined incremental decision value, and useful failure branches such as identifying redundant modalities; isoform switching spans cancer types and drugs and needs multiple high-risk measurement, causal, and functional assumptions before yielding a treatment insight.",
+      "target": 69,
+      "timestamp": "2026-10-13T22:51:34.563129+00:00"
     }
   ],
   "k_factor": 24,
@@ -2999,9 +2999,9 @@
     },
     "50": {
       "draws": 0,
-      "games": 16,
-      "losses": 8,
-      "rating": 1499.0,
+      "games": 17,
+      "losses": 9,
+      "rating": 1487.44,
       "wins": 8
     },
     "51": {
@@ -3013,9 +3013,9 @@
     },
     "52": {
       "draws": 0,
-      "games": 12,
-      "losses": 6,
-      "rating": 1498.33,
+      "games": 13,
+      "losses": 7,
+      "rating": 1487.19,
       "wins": 6
     },
     "53": {
@@ -3104,9 +3104,9 @@
     },
     "64": {
       "draws": 0,
-      "games": 12,
-      "losses": 6,
-      "rating": 1500.35,
+      "games": 13,
+      "losses": 7,
+      "rating": 1488.32,
       "wins": 6
     },
     "65": {
@@ -3137,12 +3137,33 @@
       "rating": 1454.49,
       "wins": 4
     },
+    "69": {
+      "draws": 0,
+      "games": 5,
+      "losses": 1,
+      "rating": 1534.32,
+      "wins": 4
+    },
     "7": {
       "draws": 0,
       "games": 35,
       "losses": 18,
       "rating": 1493.47,
       "wins": 17
+    },
+    "70": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1512.41,
+      "wins": 1
+    },
+    "71": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
     },
     "8": {
       "draws": 0,
