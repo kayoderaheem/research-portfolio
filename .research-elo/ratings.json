@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "If history-dependent features do not improve schedule-held-out prediction over simple duration, state, and threshold baselines, the project becomes an expensive modeling exercise without evidence for identifiable hysteresis or causal reversibility.",
-      "next_test": "Prospectively test a small set of unseen perturbation and restoration schedules with live-cell lineage tracking, re-entry fidelity, and one orthogonal cohesin or chromatin readout.",
-      "opponent": 40,
-      "outcome": "win",
-      "reason": "The quiescent-chromatin problem has a clearer mechanistic anchor, stronger general discovery value, and a relatively direct lineage-resolved test of reversibility versus selection. The apoptosis-screening project has translational appeal, but its claimed transportability depends on multiple context, pharmacology, and donor-model assumptions.",
-      "target": 41,
-      "timestamp": "2026-09-27T05:24:44.843146+00:00"
-    },
-    {
-      "main_risk": "The dynamic model may confuse selective survival or generic stress adaptation with reversible chromatin-state recovery, invalidating the proposed biological interpretation.",
-      "next_test": "Use independent depletion and restoration modalities in a small lineage-resolved yeast time course, testing whether recovery predictions persist after controlling for survival selection and baseline stress.",
-      "opponent": 1,
-      "outcome": "win",
-      "reason": "The quiescent-chromatin project offers a cheaper and earlier scientific decision with useful outcomes even if the favored model fails. The organoid precision-medicine project has greater potential clinical value, but six-month progress is constrained by organoid establishment, treatment-decision timing, patient recruitment, and outcome follow-up, with several difficult transportability assumptions.",
-      "target": 41,
-      "timestamp": "2026-09-27T05:24:44.843169+00:00"
-    },
-    {
-      "main_risk": "The proposed chromatin, cohesin, transcription, and re-entry sequence may be correlated consequences of perturbation rather than a transferable causal state-transition mechanism.",
-      "next_test": "Perform schedule-held-out predictions in independent yeast cultures with live-cell lineages, then intervene separately on termination restoration and cohesin stabilization to test causal ordering.",
-      "opponent": 7,
-      "outcome": "win",
-      "reason": "The yeast system provides a more controllable route to distinguish temporal causality, reversibility, and selection than the KRAS project, which requires reproducible treatment-induced transitions across donors, temporal precedence before resistance, and pharmacologic actionability. A successful result from A would establish a general test of history dependence rather than only a context-specific resistance signature.",
-      "target": 41,
-      "timestamp": "2026-09-27T05:24:44.843196+00:00"
-    },
-    {
-      "main_risk": "The yeast mechanism may not generalize beyond the specific termination-factor and quiescence system, limiting the broader value of the virtual-cell claim.",
-      "next_test": "First establish reproducibility and causal relevance within independent yeast strains or quiescence protocols using blinded schedule predictions and orthogonal imaging of cohesin organization.",
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "A has a more decisive early branch and stronger control over perturbation timing and lineage history. The spatial lung project has substantial clinical and biological impact, but paired biopsies, cross-platform neighborhood reproducibility, tumoroid fidelity, and patient-level sample sizes create a longer chain of high-risk assumptions before a spatial effect can be trusted.",
-      "target": 41,
-      "timestamp": "2026-09-27T05:24:44.843207+00:00"
-    },
-    {
-      "main_risk": "If recovery is driven by clone selection or nonspecific adaptation rather than reversible chromatin dynamics, the central problem loses its mechanistic basis.",
-      "next_test": "Run the smallest lineage-resolved restoration-pulse experiment that distinguishes true within-lineage recovery from survival enrichment, paired with a simple static baseline and one orthogonal chromatin or cohesin assay.",
-      "opponent": 15,
-      "outcome": "win",
-      "reason": "A is more likely to produce a useful six-month decision because perturbation schedules and recovery can be experimentally controlled, whereas the gastric-cancer project depends on a poorly established spatial niche signature, early-treatment tissue availability, and a separate causal co-culture mechanism. A also preserves useful branches through static-versus-dynamic model comparisons and selection-aware lineage analysis.",
-      "target": 41,
-      "timestamp": "2026-09-27T05:24:44.843213+00:00"
-    },
-    {
       "main_risk": "The composition model may exploit dataset-specific state definitions or abundance regularities rather than identify genuine perturbation-induced biological shifts.",
       "next_test": "Blindly predict target- and donor-held-out perturbations, then compare compositional error, ranking, calibration, and orthogonal imaging or flow measurements against the strongest regression, retrieval, and expression-first baselines.",
       "opponent": 41,
@@ -2699,6 +2654,51 @@
       "reason": "HER2 modality escalation has broader potential patient value, a clearer treatment-decision anchor, and stronger portability across assays and tumor types if validated. The fibrosis project is more immediately grounded in a supplied dataset and has feasible animal-level validation, but its single-drug, preclinical setting limits near-term generality and clinical leverage.",
       "target": 69,
       "timestamp": "2026-10-14T17:18:30.119968+00:00"
+    },
+    {
+      "main_risk": "The PCOS diagnostic label and referral threshold may be outcome-derived or inconsistent across sites, making apparent modality gains misleading.",
+      "next_test": "Run a patient-level, multicenter nested-model comparison of clinical/reproductive variables, hormones, and lifestyle features against an independently adjudicated PCOS assessment, reporting calibration and decision-curve net benefit.",
+      "opponent": 73,
+      "outcome": "loss",
+      "reason": "PCOS triage has a clearer near-term clinical decision, more tractable data requirements, and a cheaper early test of incremental calibration and net benefit. The YTHDC1 project depends on a technically difficult, clinically transportable condensate assay and treatment-specific cohorts before utility can be established.",
+      "target": 72,
+      "timestamp": "2026-10-14T21:46:34.867349+00:00"
+    },
+    {
+      "main_risk": "Condensate state may be a pharmacodynamic or prognostic correlate rather than a reproducible baseline predictor that adds value beyond simpler molecular features.",
+      "next_test": "Blind and replicate condensate measurements in pretreatment specimens, then test incremental value over YTHDC1 abundance, lineage, and simple molecular baselines in a patient-level held-out cohort.",
+      "opponent": 74,
+      "outcome": "win",
+      "reason": "YTHDC1 condensate state is tied to a defined targeted-treatment decision and could convert a mechanistic observation into a clinically useful biomarker. The maternal-placental-fetal project requires invasive, multicompartment sampling and an incompletely defined neonatal follow-up endpoint, with substantial site and delivery confounding.",
+      "target": 72,
+      "timestamp": "2026-10-14T21:46:34.867371+00:00"
+    },
+    {
+      "main_risk": "The ERK/Fra-1 phenotype may be a generic injury or pre-existing resistant state rather than a fibroblast-mediated treatment-induced transition.",
+      "next_test": "Treat independent matched lung-metastasis specimens longitudinally with MCL1 inhibition and compare the preregistered interface score against untreated, injury, and non-spatial controls while measuring residual viability.",
+      "opponent": 62,
+      "outcome": "loss",
+      "reason": "The tumor-lung interface problem has a shorter, genuinely discriminating first experiment and clearer useful branches: reproducible spatial induction, generic stress, pre-existing resistance, or no signal. The YTHDC1 project has greater potential breadth but requires several high-risk assay, transportability, predictive-validity, and treatment-decision assumptions before a six-month investment can be judged.",
+      "target": 72,
+      "timestamp": "2026-10-14T21:46:34.867384+00:00"
+    },
+    {
+      "main_risk": "BCL2-high epithelial cells may simply mark aggressive or proliferative clones, so spatial niche information may not add predictive or causal value.",
+      "next_test": "Measure the locked pretreatment BMP-low fibroblast/BCL2-high epithelial neighborhood score in paired independent specimens and test whether it predicts early persistence beyond BCL2 abundance, proliferation, and clinical covariates.",
+      "opponent": 15,
+      "outcome": "loss",
+      "reason": "The gastric-cancer project has a clearer mechanistic anchor, a relatively cheap patient-level spatial replication test, and an orthogonal perturbation path if the biomarker fails. YTHDC1 condensate validation is clinically ambitious but depends on difficult assay standardization, external calibration, and proof of treatment-selection value.",
+      "target": 72,
+      "timestamp": "2026-10-14T21:46:34.867391+00:00"
+    },
+    {
+      "main_risk": "Observed single-cell transitions may reflect clonal selection, treatment stress, or sampling time rather than plastic states that precede and cause resistance.",
+      "next_test": "Profile matched pretreatment and early-treatment samples from independent PDAC donors with untreated controls, then test whether a preregistered transition score predicts later regrowth beyond baseline composition and genotype.",
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "KRAS blockade transitions address a broad and consequential resistance problem, have a strong donor-level reproducibility anchor, and offer informative outcomes even if specific transitions are not conserved. YTHDC1 remains more dependent on a difficult condensate assay and on proving baseline treatment-selection value across lineages and platforms.",
+      "target": 72,
+      "timestamp": "2026-10-14T21:46:34.867398+00:00"
     }
   ],
   "k_factor": 24,
@@ -2740,10 +2740,10 @@
     },
     "15": {
       "draws": 1,
-      "games": 26,
+      "games": 27,
       "losses": 13,
-      "rating": 1495.15,
-      "wins": 12
+      "rating": 1506.92,
+      "wins": 13
     },
     "17": {
       "draws": 0,
@@ -3090,10 +3090,10 @@
     },
     "62": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 6,
-      "rating": 1499.34,
-      "wins": 6
+      "rating": 1511.38,
+      "wins": 7
     },
     "63": {
       "draws": 0,
@@ -3146,10 +3146,10 @@
     },
     "7": {
       "draws": 0,
-      "games": 35,
+      "games": 36,
       "losses": 18,
-      "rating": 1493.47,
-      "wins": 17
+      "rating": 1504.89,
+      "wins": 18
     },
     "70": {
       "draws": 0,
@@ -3164,6 +3164,27 @@
       "losses": 3,
       "rating": 1507.62,
       "wins": 4
+    },
+    "72": {
+      "draws": 0,
+      "games": 5,
+      "losses": 4,
+      "rating": 1465.18,
+      "wins": 1
+    },
+    "73": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1512.0,
+      "wins": 1
+    },
+    "74": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1487.59,
+      "wins": 0
     },
     "8": {
       "draws": 0,
