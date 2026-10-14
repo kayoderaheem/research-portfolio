@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Issue 39 may measure dataset-specific or annotation-specific abundance regularities rather than genuine perturbation-induced state transitions.",
-      "next_test": "Blindly predict target- and donor-held-out perturbations using existing matched datasets, with donor-level splits and marker-based versus reference-mapped state definitions, before commissioning new spatial experiments.",
-      "opponent": 41,
-      "outcome": "win",
-      "reason": "Issue 39 offers broader technology and discovery value with a clearer six-month path, stronger independent-cohort and orthogonal-validation design, and an earlier prospective decision point. Issue 41 is highly novel but depends on a substantially more demanding lineage-resolved chromatin and causal-recovery program in a narrow yeast context.",
-      "target": 39,
-      "timestamp": "2026-09-26T21:15:42.236554+00:00"
-    },
-    {
-      "main_risk": "Issue 39 may produce apparently accurate composition forecasts that are driven by sampling, batch, or state-definition artifacts rather than biological counterfactual ability.",
-      "next_test": "Run donor- and target-held-out predictions against replicated single-cell perturbation data and test whether gains persist across independently defined state representations.",
-      "opponent": 40,
-      "outcome": "win",
-      "reason": "Issue 39 is the stronger current investment because its capability is more broadly reusable, its baselines and leakage controls are explicit, and composition prediction has a relatively direct prospective test. Issue 40 has greater eventual clinical specificity but requires reliable mechanistic biomarkers, dose and schedule coverage, and transfer into donor-derived or three-dimensional models.",
-      "target": 39,
-      "timestamp": "2026-09-26T21:15:42.236594+00:00"
-    },
-    {
-      "main_risk": "Issue 39 may not identify true composition changes because observed abundance shifts are dominated by profiling noise, state-label instability, or treatment-dependent sampling bias.",
-      "next_test": "Use replicated, donor-separated held-out perturbations to compare direct composition modeling with compositional regression, expression-first, retrieval, and donor-baseline null models.",
-      "opponent": 3,
-      "outcome": "win",
-      "reason": "Issue 39 has a broader and more tractable technology anchor, a shorter readout, stronger evidence readiness, and useful outcomes even if the favored model fails. Issue 3 could have substantial clinical value, but its chain from early biomarker change to mechanism-specific resistance and combination benefit requires several high-risk longitudinal and functional assumptions.",
-      "target": 39,
-      "timestamp": "2026-09-26T21:15:42.236608+00:00"
-    },
-    {
-      "main_risk": "Issue 39 may mistake context-specific state annotations or abundance regularities for generalizable perturbation-induced composition effects.",
-      "next_test": "Evaluate a locked composition predictor on target- and donor-held-out data, then test the largest predicted gains and losses with focused imaging or flow cytometry in an independent replicate set.",
-      "opponent": 4,
-      "outcome": "win",
-      "reason": "Issue 39 currently offers a more portable scientific capability and a cleaner early decision than Issue 4, which depends on reproducible spatial state measurement, treatment-induced change beyond organ heterogeneity, and transfer across organs and platforms. Issue 4 has stronger eventual translational relevance, but its causal and transportability risks are substantial.",
-      "target": 39,
-      "timestamp": "2026-09-26T21:15:42.236614+00:00"
-    },
-    {
-      "main_risk": "Issue 39 may fail to distinguish genuine compositional counterfactuals from annotation, batch, and sampling artifacts that do not transport across contexts.",
-      "next_test": "Hold out donors, perturbation targets, and tissue contexts, compare against compositional and expression-first baselines, and check whether predicted shifts replicate under independent state definitions.",
-      "opponent": 38,
-      "outcome": "win",
-      "reason": "Issue 39 has a more concrete anchor, shorter earliest test, broader applicability, and more informative failure branches than Issue 38. Cross-species decomposition is important but rests on difficult orthology, baseline-alignment, conservation, and out-of-context calibration assumptions, with orthogonal validation taking longer.",
-      "target": 39,
-      "timestamp": "2026-09-26T21:15:42.236621+00:00"
-    },
-    {
       "main_risk": "Recovery may reflect selection for surviving cells or nonspecific stress adaptation rather than a causal reversible chromatin trajectory.",
       "next_test": "Use live-cell lineage tracking with one perturbation and restoration schedule to test unseen pulse durations, while measuring re-entry fidelity and cohesin organization against static and threshold baselines.",
       "opponent": 41,
@@ -2699,6 +2654,51 @@
       "reason": "Problem 71 has greater translational breadth and a clearer clinically consequential endpoint, with explicit competing explanations and transportability tests. Problem 62 has a cheaper mechanistic assay and a useful early branch, but its central interface state may be model-specific, selected rather than induced, or an ex vivo injury artifact, and generalization is a major unresolved assumption.",
       "target": 71,
       "timestamp": "2026-10-14T05:00:46.494671+00:00"
+    },
+    {
+      "main_risk": "CTA features may add no transportable information after robust clinical modeling and external calibration.",
+      "next_test": "Evaluate a locked clinical-only versus clinical-plus-prespecified-CTA model in an independent hospital, reporting calibration, Brier score, subgroup stability, and decision-curve net benefit.",
+      "opponent": 71,
+      "outcome": "win",
+      "reason": "CTA augmentation for prolonged EVAR hospitalization has a clearer clinical decision, stronger evidence readiness, simpler measurements, and an earlier independent-site test. The molecular dermatomyositis project could have greater clinical impact, but serial sampling, assay reproducibility, treatment-confounding control, and site transport require several high-risk assumptions.",
+      "target": 70,
+      "timestamp": "2026-10-14T12:01:50.514607+00:00"
+    },
+    {
+      "main_risk": "The CTA signal may be site-specific or redundant with clinical variables, eliminating meaningful decision value.",
+      "next_test": "Run the locked CTA augmentation analysis on an independent hospital cohort against clinical and simple-imaging baselines before investing in more complex modeling.",
+      "opponent": 67,
+      "outcome": "win",
+      "reason": "The EVAR problem is more tractable and has a defined early decision test, while the neuroblastoma project depends on obtaining rare paired longitudinal specimens and demonstrating reproducible niche-mediated transitions across patients. Its biological discovery potential is high, but the chain from spatial niche to treatment-emergent state to relapse is substantially riskier within six months.",
+      "target": 70,
+      "timestamp": "2026-10-14T12:01:50.514625+00:00"
+    },
+    {
+      "main_risk": "CTA-derived features may fail to improve calibrated decisions beyond routine clinical and conventional imaging predictors.",
+      "next_test": "Use a held-out independent hospital to compare clinical-only, simple-imaging, and locked CTA models for calibration and net benefit at prespecified hospitalization thresholds.",
+      "opponent": 60,
+      "outcome": "win",
+      "reason": "The EVAR project has a narrower, clinically explicit endpoint, routine baseline comparators, and a relatively cheap external-validation branch. The HCC spatial project has important mechanistic and translational potential, but depends on reproducible cGAS-STING and fibrosis measurements, genuine topology beyond composition, and cross-platform transport that is explicitly a long readout.",
+      "target": 70,
+      "timestamp": "2026-10-14T12:01:50.514632+00:00"
+    },
+    {
+      "main_risk": "The apparent CTA increment may disappear after external calibration and adjustment for acquisition, case-mix, and conventional radiologic information.",
+      "next_test": "Test a locked CTA-augmented model in an independent hospital and compare it with clinical-only and conventional-imaging baselines using patient-level calibration and decision curves.",
+      "opponent": 54,
+      "outcome": "win",
+      "reason": "EVAR offers a more decision-ready and feasible six-month investment with accessible clinical variables, clear patient-level validation, and an early external-site test. T-cell clonotype persistence is biologically compelling but requires longitudinal biopsies, tumor specificity that is difficult to establish, assay robustness, and external transport; transient inflammation could generate misleading associations.",
+      "target": 70,
+      "timestamp": "2026-10-14T12:01:50.514636+00:00"
+    },
+    {
+      "main_risk": "CTA phenotypes may encode only local scanner, segmentation, or case-mix effects rather than portable incremental decision value.",
+      "next_test": "Perform locked external validation of CTA features against clinical, target/simple-imaging, and composition baselines, requiring stable calibration and net benefit across sites and sex strata.",
+      "opponent": 57,
+      "outcome": "win",
+      "reason": "The EVAR question is more sharply anchored to a concrete resource and discharge decision, with stronger evidence readiness and a cheaper falsification test. Stromal architecture for bispecific response could be broadly useful, but the forced link from tissue geometry to drug penetration and effector recruitment, plus assay reduction and site transport, creates more unresolved assumptions.",
+      "target": 70,
+      "timestamp": "2026-10-14T12:01:50.514645+00:00"
     }
   ],
   "k_factor": 24,
@@ -3027,9 +3027,9 @@
     },
     "54": {
       "draws": 0,
-      "games": 12,
-      "losses": 5,
-      "rating": 1520.74,
+      "games": 13,
+      "losses": 6,
+      "rating": 1509.68,
       "wins": 7
     },
     "55": {
@@ -3048,9 +3048,9 @@
     },
     "57": {
       "draws": 0,
-      "games": 12,
-      "losses": 6,
-      "rating": 1503.25,
+      "games": 13,
+      "losses": 7,
+      "rating": 1493.16,
       "wins": 6
     },
     "58": {
@@ -3076,9 +3076,9 @@
     },
     "60": {
       "draws": 0,
-      "games": 12,
-      "losses": 5,
-      "rating": 1520.37,
+      "games": 13,
+      "losses": 6,
+      "rating": 1508.93,
       "wins": 7
     },
     "61": {
@@ -3125,9 +3125,9 @@
     },
     "67": {
       "draws": 0,
-      "games": 12,
-      "losses": 5,
-      "rating": 1520.36,
+      "games": 13,
+      "losses": 6,
+      "rating": 1508.51,
       "wins": 7
     },
     "68": {
@@ -3153,16 +3153,16 @@
     },
     "70": {
       "draws": 0,
-      "games": 1,
+      "games": 6,
       "losses": 0,
-      "rating": 1512.41,
-      "wins": 1
+      "rating": 1569.11,
+      "wins": 6
     },
     "71": {
       "draws": 0,
-      "games": 6,
-      "losses": 2,
-      "rating": 1519.88,
+      "games": 7,
+      "losses": 3,
+      "rating": 1507.62,
       "wins": 4
     },
     "8": {
