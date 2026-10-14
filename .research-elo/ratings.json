@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Organoid response and regrowth features may not correlate with patient treatment benefit because culture selection and missing microenvironmental components distort clinical pharmacology.",
-      "next_test": "Prospectively measure organoid establishment success, assay-ready turnaround, and treatment-decision timing for every eligible patient, then run a locked pilot comparing organoid predictions with molecular recommendations and blinded patient outcomes.",
-      "opponent": 1,
-      "outcome": "loss",
-      "reason": "Time-constrained organoid profiling has a clearer patient-level decision anchor, clinically meaningful outcomes, strong leakage-resistant validation requirements, and an early feasibility test that can assess assay success and turnaround before committing to efficacy claims. Cross-species decomposition is more general but depends on several difficult identifiability assumptions and unusually demanding matched datasets.",
-      "target": 38,
-      "timestamp": "2026-09-26T16:29:08.020949+00:00"
-    },
-    {
-      "main_risk": "The apparent treatment-induced myeloid state may be explained by lesion size, organ-specific baseline immunity, or treatment exposure rather than a transferable response mechanism.",
-      "next_test": "Use paired baseline and early-treatment metastatic samples to test reproducibility of the prespecified functional-interface score and compare it against abundance-only and clinical baselines with patient- or animal-level splits.",
-      "opponent": 4,
-      "outcome": "loss",
-      "reason": "The myeloid-niche project has a more tractable eight-week paired-sample test, a concrete spatial and functional anchor, strong clinical relevance, and useful outcomes even if spatial localization adds no value over abundance. Cross-species transfer requires multiple species, tissues, perturbations, baseline alignment, orthology choices, and independent validation before its central identifiability claim can be judged.",
-      "target": 38,
-      "timestamp": "2026-09-26T16:29:08.020968+00:00"
-    },
-    {
-      "main_risk": "There may be too little genuinely conserved intervention-specific response signal after separating shared cell state, housekeeping programs, and species-context effects.",
-      "next_test": "Train on two species and hold out a complete species-tissue context, comparing the decomposition with pathway and linear baselines while testing response-direction recovery and uncertainty calibration before pursuing new assays.",
-      "opponent": 5,
-      "outcome": "win",
-      "reason": "Cross-species identifiability is a more general scientific problem with a clearer fixed anchor and flexible choices of species, tissue, perturbation, and modality. It also offers informative branches through orthology, baseline-alignment, calibration, and negative-control analyses. The cervical trajectory project has high potential but is more dependent on difficult serial tissue comparability, sampling location, treatment-site confounding, and a forced disease-treatment context.",
-      "target": 38,
-      "timestamp": "2026-09-26T16:29:08.020978+00:00"
-    },
-    {
-      "main_risk": "The cross-species model may learn shared cell-state or orthology-associated expression rather than intervention-specific conserved biology.",
-      "next_test": "Perform leave-one-species-tissue-context-out evaluation using pathway, linear, and nearest-state baselines, with shuffled-orthology and non-targeting perturbation controls and patient/replicate-weighted calibration.",
-      "opponent": 8,
-      "outcome": "win",
-      "reason": "The cross-species problem offers broader, more generalizable insight and a flexible framework for determining when transfer is scientifically justified, whereas the ALK project is vulnerable to anatomical site, prior therapy, sampling, and tumor-burden confounding. The ALK study also requires a locked spatial signature to transfer across sites and an independent cohort, making a negative result difficult to interpret beyond this narrow setting.",
-      "target": 38,
-      "timestamp": "2026-09-26T16:29:08.020984+00:00"
-    },
-    {
-      "main_risk": "The measured FADS1 or arachidonic-acid signal may not represent biologically active local signaling or add information beyond T-cell abundance, tumor antigenicity, and liver disease severity.",
-      "next_test": "First test cross-species response-direction transfer in a held-out species-tissue context using strong pathway and linear baselines, while checking whether uncertainty rejects out-of-context and shuffled-orthology controls.",
-      "opponent": 10,
-      "outcome": "win",
-      "reason": "Cross-species identifiability has substantially greater discovery breadth and can produce useful model-selection and experiment-design rules even when transfer fails. The HCC project is a compelling mechanistic hypothesis but tightly couples a specific metabolite, spatial assay, resident-memory phenotype, and treatment context; spatial lipid measurements may be difficult to interpret as active signaling rather than accumulation, and the clinical cohorts are narrow.",
-      "target": 38,
-      "timestamp": "2026-09-26T16:29:08.020993+00:00"
-    },
-    {
       "main_risk": "Issue 39 may measure dataset-specific or annotation-specific abundance regularities rather than genuine perturbation-induced state transitions.",
       "next_test": "Blindly predict target- and donor-held-out perturbations using existing matched datasets, with donor-level splits and marker-based versus reference-mapped state definitions, before commissioning new spatial experiments.",
       "opponent": 41,
@@ -2699,6 +2654,51 @@
       "reason": "HER2 provides a fixed clinical anchor, defined incremental decision value, and useful failure branches such as identifying redundant modalities; isoform switching spans cancer types and drugs and needs multiple high-risk measurement, causal, and functional assumptions before yielding a treatment insight.",
       "target": 69,
       "timestamp": "2026-10-13T22:51:34.563129+00:00"
+    },
+    {
+      "main_risk": "The molecular module in 71 may add no actionable information beyond clinical trajectory and imaging, especially across sites and treatment contexts.",
+      "next_test": "Fit and externally test the prespecified landmark clinical-imaging model, then assay a small blinded set of serial samples to determine whether the molecular module has reproducible incremental value.",
+      "opponent": 64,
+      "outcome": "win",
+      "reason": "Problem 71 has a clearer clinical decision anchor, stronger safeguards against leakage and transport failure, and a more informative path to showing that molecular data are redundant or useful. Problem 64 has greater mechanistic novelty but depends on rare paired spatial specimens and several high-risk assumptions about a reproducible treatment-induced trajectory.",
+      "target": 71,
+      "timestamp": "2026-10-14T05:00:46.494637+00:00"
+    },
+    {
+      "main_risk": "The anti-MDA5 cohort may be too small or heterogeneous for reliable site-specific calibration and independent validation.",
+      "next_test": "Establish whether an adequately sized multi-site cohort exists and test a locked clinical-imaging landmark model before adding a minimal molecular module.",
+      "opponent": 50,
+      "outcome": "win",
+      "reason": "Problem 71 is more tightly connected to a defined near-term monitoring or treatment-review decision and explicitly tests whether molecular complexity is warranted. Problem 50 has broader population impact, but requires integrating exposure, adherence, ancestry, tumor evolution, and outcomes while separating pharmacologic from biological resistance, creating substantial confounding and data-availability risk.",
+      "target": 71,
+      "timestamp": "2026-10-14T05:00:46.494656+00:00"
+    },
+    {
+      "main_risk": "The molecular measurements in 71 may primarily reflect treatment timing or severity rather than transportable incremental biology.",
+      "next_test": "In a defined treatment landmark cohort, compare the locked clinical-imaging model with a single prespecified molecular score after adjustment for exposure, severity, and prior trajectory.",
+      "opponent": 49,
+      "outcome": "win",
+      "reason": "Problem 71 offers a clearer, clinically anchored and modality-flexible decision problem with an early baseline-model test and useful outcomes even if molecular data are redundant. Problem 49 is potentially important but is underspecified across therapies and tumor types and requires difficult matched exposure, phosphoproteomic, biopsy, external-validation, and functional evidence chains.",
+      "target": 71,
+      "timestamp": "2026-10-14T05:00:46.494662+00:00"
+    },
+    {
+      "main_risk": "Serial molecular sampling and population/site shift may prevent a sufficiently calibrated model in this rare disease.",
+      "next_test": "Run the simplest patient-level landmark analysis to determine whether a prespecified molecular score adds calibrated value beyond clinical and imaging predictors in an independent site.",
+      "opponent": 52,
+      "outcome": "win",
+      "reason": "Problem 71 has a fixed clinical-use anchor and allows the assay, landmark, endpoint, and adaptation strategy to float as evidence accumulates. Problem 52 combines broad cancer and drug scope with high-risk requirements for reproducible isoform measurement, temporal causality, protein-level mechanism, and actionable alternative treatment.",
+      "target": 71,
+      "timestamp": "2026-10-14T05:00:46.494667+00:00"
+    },
+    {
+      "main_risk": "The required serial multimodal data and independent sites for 71 may be unavailable or too sparse to support credible calibration.",
+      "next_test": "First verify multi-site availability and assay reproducibility, then test whether a clinical-imaging backbone outperforms chance and whether a minimal molecular module adds value at prespecified landmarks.",
+      "opponent": 62,
+      "outcome": "loss",
+      "reason": "Problem 71 has greater translational breadth and a clearer clinically consequential endpoint, with explicit competing explanations and transportability tests. Problem 62 has a cheaper mechanistic assay and a useful early branch, but its central interface state may be model-specific, selected rather than induced, or an ex vivo injury artifact, and generalization is a major unresolved assumption.",
+      "target": 71,
+      "timestamp": "2026-10-14T05:00:46.494671+00:00"
     }
   ],
   "k_factor": 24,
@@ -2985,9 +2985,9 @@
     },
     "49": {
       "draws": 0,
-      "games": 15,
-      "losses": 8,
-      "rating": 1487.32,
+      "games": 16,
+      "losses": 9,
+      "rating": 1476.16,
       "wins": 7
     },
     "5": {
@@ -2999,9 +2999,9 @@
     },
     "50": {
       "draws": 0,
-      "games": 17,
-      "losses": 9,
-      "rating": 1487.44,
+      "games": 18,
+      "losses": 10,
+      "rating": 1475.87,
       "wins": 8
     },
     "51": {
@@ -3013,9 +3013,9 @@
     },
     "52": {
       "draws": 0,
-      "games": 13,
-      "losses": 7,
-      "rating": 1487.19,
+      "games": 14,
+      "losses": 8,
+      "rating": 1476.41,
       "wins": 6
     },
     "53": {
@@ -3090,10 +3090,10 @@
     },
     "62": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 6,
-      "rating": 1485.7,
-      "wins": 5
+      "rating": 1499.34,
+      "wins": 6
     },
     "63": {
       "draws": 0,
@@ -3104,9 +3104,9 @@
     },
     "64": {
       "draws": 0,
-      "games": 13,
-      "losses": 7,
-      "rating": 1488.32,
+      "games": 14,
+      "losses": 8,
+      "rating": 1476.31,
       "wins": 6
     },
     "65": {
@@ -3160,10 +3160,10 @@
     },
     "71": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "games": 6,
+      "losses": 2,
+      "rating": 1519.88,
+      "wins": 4
     },
     "8": {
       "draws": 0,
