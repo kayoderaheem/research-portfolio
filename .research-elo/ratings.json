@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Organoid establishment and turnaround may be too unreliable for real treatment decisions, making apparent response associations clinically irrelevant.",
-      "next_test": "Prospectively measure establishment success, assay-ready time, failures, and blinded prediction of treatment response before the next treatment decision in an independent patient cohort.",
-      "opponent": 1,
-      "outcome": "loss",
-      "reason": "Time-constrained patient-derived functional profiling has clearer clinical value and a direct patient-level decision anchor, with leakage-resistant validation and meaningful molecular and clinical baselines. It can establish whether the assay is feasible and actionable before attempting outcome claims.",
-      "target": 40,
-      "timestamp": "2026-09-27T21:25:08.828186+00:00"
-    },
-    {
-      "main_risk": "Predicted combination effects may reflect assay scale or additive pharmacology rather than apoptosis-specific, transportable biology.",
-      "next_test": "Lock predictions from single-agent and limited-combination data, then test blinded combinations in unseen differentiation and p53 contexts with viability, apoptosis, and mitochondrial readouts against Loewe, Bliss, and mechanistic baselines.",
-      "opponent": 3,
-      "outcome": "win",
-      "reason": "The virtual-screening problem has a more tractable six-month path: dose matrices, mechanistic features, strong pharmacologic baselines, and a prospective held-out-context test can quickly establish whether context features add value. The DNA-damage-tolerance project requires several linked biomarker, resistance-mechanism, intervention, and cross-platform assumptions before its clinical usefulness is clear.",
-      "target": 40,
-      "timestamp": "2026-09-27T21:25:08.828211+00:00"
-    },
-    {
-      "main_risk": "The proposed context features may not transfer from related germ-cell-tumor models to donor-derived organoids or three-dimensional systems.",
-      "next_test": "Run the locked held-out-context prediction experiment with orthogonal apoptosis and mitochondrial assays, comparing against pharmacologic and response-only baselines.",
-      "opponent": 10,
-      "outcome": "win",
-      "reason": "Virtual screening offers a clearer early decision and more controllable experimental design than spatial metabolite biomarker development, which depends on technically difficult spatial lipid measurement, clinically annotated HCC cohorts, and proof that proximity is causal rather than a proxy for immune composition or disease severity.",
-      "target": 40,
-      "timestamp": "2026-09-27T21:25:08.828221+00:00"
-    },
-    {
-      "main_risk": "Unseen-context performance may collapse outside related cell lines, leaving no general therapeutic rule despite good within-system predictions.",
-      "next_test": "Prospectively test locked combination and dose predictions in unseen differentiation and p53 contexts, with donor-level separation and apoptosis-specific orthogonal validation.",
-      "opponent": 8,
-      "outcome": "win",
-      "reason": "The apoptosis-combination problem has a stronger near-term evidence path through factorial dose-response experiments, explicit synergy baselines, mechanistic readouts, and a defined blinded transfer test. The ALK spatial-niche project requires reproducible topology across metastatic sites and platforms and then independent transportability beyond anatomical site and treatment history.",
-      "target": 40,
-      "timestamp": "2026-09-27T21:25:08.828228+00:00"
-    },
-    {
-      "main_risk": "Synergy and mechanistic signals may be driven by cell-line identity or viability-assay behavior rather than a reproducible apoptosis mechanism.",
-      "next_test": "Compare the context-conditioned model with single-agent, Loewe/Bliss, pooled-response, nearest-context, and mitochondrial-threshold baselines in a locked independent donor-derived or three-dimensional validation set.",
-      "opponent": 4,
-      "outcome": "win",
-      "reason": "Virtual screening is more suitable for a six-month investment because its anchor is specific but modality- and context-flexible, and its earliest test can distinguish genuine predictive gain from pharmacologic or assay artifacts. Myeloid-niche remodeling depends on paired longitudinal metastatic samples, difficult spatial measurements, lesion-level confounding, and cross-organ signature transfer before a useful biomarker is established.",
-      "target": 40,
-      "timestamp": "2026-09-27T21:25:08.828236+00:00"
-    },
-    {
       "main_risk": "The pancreatic cohorts may be too small or heterogeneous to estimate stable treatment interactions and calibration across institutions.",
       "next_test": "Lock a compact signature using baseline and first-interval data, then test treatment interaction, calibration, and decision benefit in a patient- and site-held-out cohort.",
       "opponent": 2,
@@ -2699,6 +2654,51 @@
       "reason": "A has greater potential to reveal complementary biology and cross-compartment transportability, but B is the stronger six-month investment because diagnostic triage has a more immediate decision target, cheaper data requirements, and clearer early endpoints for net benefit, calibration, and referral burden. B is less novel, yet it can produce a useful result even if hormonal or lifestyle features add no value.",
       "target": 74,
       "timestamp": "2026-10-15T11:39:02.319648+00:00"
+    },
+    {
+      "main_risk": "FADS1 or arachidonic-acid spatial measurements may not reflect biologically active signaling beyond resident-memory T-cell abundance and general tumor or liver disease severity.",
+      "next_test": "Profile pretreatment HCC tissue within 11 weeks to test whether prespecified FADS1 or lipid proximity predicts early checkpoint response and T-cell fitness beyond composition-only baselines.",
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "The HCC niche problem has a clearer biological measurement-to-response chain, a defined patient-level spatial test, and useful outcomes even if the biomarker fails clinically. The YTHDC1 proposal has greater assay, cohort, and transportability risk before treatment-selection value can be established.",
+      "target": 72,
+      "timestamp": "2026-10-15T17:07:25.948560+00:00"
+    },
+    {
+      "main_risk": "Available cross-species perturbation data may be insufficiently matched to identify conserved versus context-specific effects, making apparent transfer mostly composition or orthology artifacts.",
+      "next_test": "Train on two species and selected tissues, hold out a complete species-tissue context, and compare the decomposition against pathway-level and linear baselines with calibration and negative controls.",
+      "opponent": 38,
+      "outcome": "loss",
+      "reason": "Cross-species identifiability offers a broad technology and discovery question with an inexpensive early computational branch: held-out species-tissue contexts can reveal whether transfer is real, calibrated, and distinguishable from orthology or baseline-state artifacts. The YTHDC1 project depends on clinically obtainable specimens, reproducible condensate imaging, incremental value, and external transportability, creating a longer chain of high-risk assumptions.",
+      "target": 72,
+      "timestamp": "2026-10-15T17:07:25.948580+00:00"
+    },
+    {
+      "main_risk": "Baseline condensate state may be a treatment-response or cellular-stress correlate rather than a reproducible predictive biomarker for treatment selection.",
+      "next_test": "Run blinded replicate-specimen imaging and a small baseline-versus-early-treatment analysis, adjusting for proliferation, tumor purity, and YTHDC1 abundance, before investing in external clinical validation.",
+      "opponent": 23,
+      "outcome": "win",
+      "reason": "YTHDC1 condensate state has a sharper mechanistic anchor and an earlier assay-centered decision point than the rehabilitation proposal, whose clinical value depends first on specifying and consistently delivering an actionable rehabilitation intervention. Its predictive-versus-pharmacodynamic competing explanation also creates a useful early branch rather than requiring immediate proof of clinical benefit.",
+      "target": 72,
+      "timestamp": "2026-10-15T17:07:25.948590+00:00"
+    },
+    {
+      "main_risk": "Paired tissue samples may not represent comparable tumor regions across patients, so apparent spatial transitions could be sampling, treatment-site, or tissue-quality artifacts.",
+      "next_test": "Use paired baseline and early-treatment specimens to test transition reproducibility and incremental patient-level prediction over clinical and composition-only baselines with blinded pathology and region-level controls.",
+      "opponent": 5,
+      "outcome": "loss",
+      "reason": "Spatial immune-priming trajectories in cervical chemoradiotherapy address a broader and more established treatment setting and can yield informative biological outcomes even if prediction fails, including distinct resistance states or treatment-induced niche changes. The YTHDC1 proposal is more clinically decision-focused but requires a rarer treatment context and several difficult assay and transportability demonstrations.",
+      "target": 72,
+      "timestamp": "2026-10-15T17:07:25.948597+00:00"
+    },
+    {
+      "main_risk": "Condensate dynamics may not be measurable reproducibly in clinically obtainable specimens or add value beyond simpler molecular and lineage features.",
+      "next_test": "Complete a blinded replicate and cross-site assay-transfer study with predefined quality and agreement thresholds, followed by a locked comparison against abundance, pathway, and simple molecular baselines.",
+      "opponent": 35,
+      "outcome": "win",
+      "reason": "YTHDC1 condensate validation has a direct treatment-selection objective, a clinically interpretable endpoint, and an early assay reproducibility gate. The ATRX transfer project requires multimodal modeling, causal regulatory identification, perturbation validation, and separation of genotype from cell-state effects, with substantial risk that performance reflects state matching rather than causal transfer.",
+      "target": 72,
+      "timestamp": "2026-10-15T17:07:25.948604+00:00"
     }
   ],
   "k_factor": 24,
@@ -2712,10 +2712,10 @@
     },
     "10": {
       "draws": 0,
-      "games": 29,
+      "games": 30,
       "losses": 16,
-      "rating": 1467.63,
-      "wins": 13
+      "rating": 1479.55,
+      "wins": 14
     },
     "11": {
       "draws": 1,
@@ -2789,9 +2789,9 @@
     },
     "23": {
       "draws": 0,
-      "games": 29,
-      "losses": 16,
-      "rating": 1470.21,
+      "games": 30,
+      "losses": 17,
+      "rating": 1457.22,
       "wins": 13
     },
     "24": {
@@ -2880,9 +2880,9 @@
     },
     "35": {
       "draws": 0,
-      "games": 17,
-      "losses": 10,
-      "rating": 1470.75,
+      "games": 18,
+      "losses": 11,
+      "rating": 1457.78,
       "wins": 7
     },
     "36": {
@@ -2901,10 +2901,10 @@
     },
     "38": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 9,
-      "rating": 1460.33,
-      "wins": 5
+      "rating": 1472.09,
+      "wins": 6
     },
     "39": {
       "draws": 0,
@@ -2992,10 +2992,10 @@
     },
     "5": {
       "draws": 3,
-      "games": 20,
+      "games": 21,
       "losses": 10,
-      "rating": 1459.88,
-      "wins": 7
+      "rating": 1471.69,
+      "wins": 8
     },
     "50": {
       "draws": 0,
@@ -3167,10 +3167,10 @@
     },
     "72": {
       "draws": 0,
-      "games": 5,
-      "losses": 4,
-      "rating": 1465.18,
-      "wins": 1
+      "games": 10,
+      "losses": 7,
+      "rating": 1455.65,
+      "wins": 3
     },
     "73": {
       "draws": 0,
