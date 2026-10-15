@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The composition model may exploit dataset-specific state definitions or abundance regularities rather than identify genuine perturbation-induced biological shifts.",
-      "next_test": "Blindly predict target- and donor-held-out perturbations, then compare compositional error, ranking, calibration, and orthogonal imaging or flow measurements against the strongest regression, retrieval, and expression-first baselines.",
-      "opponent": 41,
-      "outcome": "win",
-      "reason": "Composition-aware counterfactuals offer broader technology and discovery value, a clearer fixed scientific anchor, stronger useful branches, and a cheaper 10-week prospective test. The quiescent-chromatin project has higher novelty but depends on several difficult, slow assumptions about causal ordering, lineage selection, and history-dependent reversibility.",
-      "target": 39,
-      "timestamp": "2026-09-27T12:10:25.252540+00:00"
-    },
-    {
-      "main_risk": "FAM230F may add no transportable information beyond ultrasound, AFP, liver disease severity, and tumor-burden proxies once the cutoff and external evaluation are properly locked.",
-      "next_test": "Run blinded multi-site replicate testing and evaluate the locked cfDNA-augmented model against ultrasound-plus-AFP for calibration and decision-curve net benefit in an independent cohort.",
-      "opponent": 24,
-      "outcome": "loss",
-      "reason": "External calibration of HCC surveillance has credible patient value, a well-defined clinical decision, strong leakage-resistant validation requirements, and an early assay-reproducibility plus incremental-net-benefit test. It can produce a decisive positive, recalibration, narrow-risk-stratum, or stop outcome within six months.",
-      "target": 39,
-      "timestamp": "2026-09-27T12:10:25.252564+00:00"
-    },
-    {
-      "main_risk": "State-composition labels and neighborhood definitions may not be reproducible across batches, tissues, or assay modalities, undermining the claimed counterfactual target.",
-      "next_test": "Conduct a donor- and context-held-out perturbation pilot comparing direct composition, compositional regression, retrieval, null, and expression-first baselines, with independently defined states and orthogonal abundance measurements.",
-      "opponent": 31,
-      "outcome": "win",
-      "reason": "Composition-aware counterfactuals have greater breadth and a more flexible technology anchor than corneal imaging, while requiring fewer clinically contested endpoint assumptions. The corneal project faces high risks from acquisition reproducibility, reference-standard construction, informative image failure, and lengthy site recalibration.",
-      "target": 39,
-      "timestamp": "2026-09-27T12:10:25.252576+00:00"
-    },
-    {
-      "main_risk": "The pancreatic signature may reflect treatment selection, institution-specific measurement, or disease burden rather than a transportable differential-treatment-benefit signal.",
-      "next_test": "Before expanding the project, perform a learning-curve and site-held-out analysis of a locked compact signature, testing treatment interaction, calibration, and decision benefit against clinical-only and molecular-matching baselines.",
-      "opponent": 2,
-      "outcome": "win",
-      "reason": "Composition-aware counterfactuals provide broader reusable technology and discovery value, a stronger early-readout structure, and informative outcomes even if the favored architecture fails. The pancreatic precision-medicine project has higher direct clinical stakes but depends on adequate randomized treatment-interaction information, harmonization across assays and institutions, and a sufficiently large independent cohort.",
-      "target": 39,
-      "timestamp": "2026-09-27T12:10:25.252583+00:00"
-    },
-    {
-      "main_risk": "The apparent compositional advantage may be driven by unstable or context-specific state definitions rather than genuine prediction of unseen perturbation effects.",
-      "next_test": "Lock state definitions and a direct composition model using training data only, then test target- and donor-held-out perturbations against the strongest clinical-style compositional and expression-first baselines with calibration and orthogonal validation.",
-      "opponent": 25,
-      "outcome": "win",
-      "reason": "Composition-aware counterfactuals address a broader and more replaceable technology gap with a clearer prospective decision test and more useful failure branches. Lupus-nephritis response programs have clinical relevance, but regimen-specific sample size, treatment-selection confounding, endpoint harmonization, and outcome-dependent feature-selection risks make a robust six-month conclusion less likely.",
-      "target": 39,
-      "timestamp": "2026-09-27T12:10:25.252590+00:00"
-    },
-    {
       "main_risk": "The apparent reference sensitivity may be driven mainly by reference depth or measurement noise rather than a general identifiability problem.",
       "next_test": "Re-score frozen baseline and learned-model predictions under shared, disjoint, and observation-independent donor-held-out references, with donor-blocked uncertainty intervals and negative controls.",
       "opponent": 18,
@@ -2699,6 +2654,51 @@
       "reason": "KRAS blockade transitions address a broad and consequential resistance problem, have a strong donor-level reproducibility anchor, and offer informative outcomes even if specific transitions are not conserved. YTHDC1 remains more dependent on a difficult condensate assay and on proving baseline treatment-selection value across lineages and platforms.",
       "target": 72,
       "timestamp": "2026-10-14T21:46:34.867398+00:00"
+    },
+    {
+      "main_risk": "The PCOS diagnostic endpoint may be inseparable from candidate predictors or referral practice, making apparent incremental value reflect label leakage or spectrum differences.",
+      "next_test": "Run the locked clinical/reproductive, plus-hormone, plus-lifestyle nested comparison in an independent multicenter retrospective cohort with leakage audits, calibration, and decision-curve analysis.",
+      "opponent": 62,
+      "outcome": "win",
+      "reason": "PCOS triage has a clearer decision target, lower assay and specimen burden, and a cheaper early test of incremental value using nested patient-level models. The osteosarcoma project offers stronger mechanistic novelty but depends on scarce matched specimens, spatial measurement, causal fibroblast signaling, and cross-specimen reproducibility.",
+      "target": 73,
+      "timestamp": "2026-10-15T04:49:16.263654+00:00"
+    },
+    {
+      "main_risk": "Hormonal and lifestyle features may add no clinically meaningful information beyond routinely collected clinical and reproductive variables.",
+      "next_test": "Test prespecified nested models in a patient- and institution-separated longitudinal or retrospective cohort, comparing incremental calibration and net benefit against the clinical-only baseline.",
+      "opponent": 54,
+      "outcome": "win",
+      "reason": "PCOS triage is more likely to produce a decision-relevant result within six months because its modality comparison and validation can begin in existing clinical data. The T-cell project has substantial potential impact but requires longitudinal biopsies, reliable clonotype persistence calls, tumor relevance, myeloid integration, and external assay transportability.",
+      "target": 73,
+      "timestamp": "2026-10-15T04:49:16.263673+00:00"
+    },
+    {
+      "main_risk": "The PCOS label or referral threshold may not be independently adjudicable, undermining the claimed decision-value analysis.",
+      "next_test": "Use a held-out multicenter PCOS cohort to evaluate locked nested models and clinician-defined thresholds for calibration, sensitivity, referral burden, and net benefit.",
+      "opponent": 60,
+      "outcome": "loss",
+      "reason": "PCOS triage has a more attainable evidence path and a direct clinical decision endpoint, with a relatively cheap test of whether added modalities are useful or redundant. The HCC project is potentially impactful but relies on reproducible spatial topology, independent tissue cohorts, assay harmonization, and evidence that spatial arrangement adds value beyond composition and disease severity.",
+      "target": 73,
+      "timestamp": "2026-10-15T04:49:16.263680+00:00"
+    },
+    {
+      "main_risk": "Hormonal measurements may show apparent benefit only because of site-specific availability, missingness, or diagnostic-label contamination.",
+      "next_test": "Perform a patient-level, leakage-resistant nested-modality analysis in a development cohort with an untouched site or temporal cohort and prespecified subgroup calibration checks.",
+      "opponent": 67,
+      "outcome": "loss",
+      "reason": "PCOS triage offers a clearer fixed problem, more flexible data requirements, and an earlier branch point than the neuroblastoma niche-transition hypothesis. The neuroblastoma project requires paired specimens across treatment stages, rare-state measurement, trajectory reproducibility across patients, spatial validation, and relapse linkage before its mechanism can be trusted.",
+      "target": 73,
+      "timestamp": "2026-10-15T04:49:16.263685+00:00"
+    },
+    {
+      "main_risk": "The PCOS endpoint may not correspond to a stable, independently adjudicated clinical action threshold across sites.",
+      "next_test": "First lock the PCOS assessment and referral threshold, then compare clinical/reproductive, hormone-added, and lifestyle-added models in an external patient-level cohort with calibration and decision-curve outcomes.",
+      "opponent": 71,
+      "outcome": "loss",
+      "reason": "PCOS triage is the stronger six-month investment because it tests a bounded incremental-value question with a simpler retrospective design and a direct triage use case. Anti-MDA5 ILD has high clinical importance, but serial clinical, imaging, molecular, treatment-aware modeling and leave-one-site-out validation create more dependencies and transportability risks.",
+      "target": 73,
+      "timestamp": "2026-10-15T04:49:16.263692+00:00"
     }
   ],
   "k_factor": 24,
@@ -3027,9 +3027,9 @@
     },
     "54": {
       "draws": 0,
-      "games": 13,
-      "losses": 6,
-      "rating": 1509.68,
+      "games": 14,
+      "losses": 7,
+      "rating": 1498.17,
       "wins": 7
     },
     "55": {
@@ -3076,10 +3076,10 @@
     },
     "60": {
       "draws": 0,
-      "games": 13,
+      "games": 14,
       "losses": 6,
-      "rating": 1508.93,
-      "wins": 7
+      "rating": 1521.85,
+      "wins": 8
     },
     "61": {
       "draws": 0,
@@ -3090,9 +3090,9 @@
     },
     "62": {
       "draws": 0,
-      "games": 13,
-      "losses": 6,
-      "rating": 1511.38,
+      "games": 14,
+      "losses": 7,
+      "rating": 1499.4,
       "wins": 7
     },
     "63": {
@@ -3125,10 +3125,10 @@
     },
     "67": {
       "draws": 0,
-      "games": 13,
+      "games": 14,
       "losses": 6,
-      "rating": 1508.51,
-      "wins": 7
+      "rating": 1521.0,
+      "wins": 8
     },
     "68": {
       "draws": 0,
@@ -3160,10 +3160,10 @@
     },
     "71": {
       "draws": 0,
-      "games": 7,
+      "games": 8,
       "losses": 3,
-      "rating": 1507.62,
-      "wins": 4
+      "rating": 1519.7,
+      "wins": 5
     },
     "72": {
       "draws": 0,
@@ -3174,10 +3174,10 @@
     },
     "73": {
       "draws": 0,
-      "games": 1,
-      "losses": 0,
-      "rating": 1512.0,
-      "wins": 1
+      "games": 6,
+      "losses": 3,
+      "rating": 1498.0,
+      "wins": 3
     },
     "74": {
       "draws": 0,
