@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The apparent reference sensitivity may be driven mainly by reference depth or measurement noise rather than a general identifiability problem.",
-      "next_test": "Re-score frozen baseline and learned-model predictions under shared, disjoint, and observation-independent donor-held-out references, with donor-blocked uncertainty intervals and negative controls.",
-      "opponent": 18,
-      "outcome": "win",
-      "reason": "Reference-invariant perturbation evaluation has broader methodological impact, a clearer donor-level scientific anchor, and a substantially cheaper six-week discriminating test using frozen predictions. The cholangiocarcinoma project has higher potential clinical value but depends on costly longitudinal spatial biopsies, reproducibility across anatomical sites, and a tumor–microenvironment signal that may not transfer beyond cell-line resistance.",
-      "target": 36,
-      "timestamp": "2026-09-27T17:02:14.341527+00:00"
-    },
-    {
-      "main_risk": "The proposed donor-level perturbation effects may be too weak or noisy to support reliable identifiability conclusions across datasets.",
-      "next_test": "Run the prespecified reference-allocation experiment on existing datasets with donor-held-out bootstrap intervals, comparing direct-effect recovery against state reconstruction and null permutations.",
-      "opponent": 9,
-      "outcome": "win",
-      "reason": "The perturbation-identifiability problem is more general, methodologically reusable, and immediately testable than a disease-specific spatial biomarker hypothesis. It has strong leakage-resistant validation and useful outcomes even if the favored metric or model fails, whereas the hidradenitis project requires reproducible tunnel states, predictive incremental value, and actionable pathway biology from difficult spatial samples.",
-      "target": 36,
-      "timestamp": "2026-09-27T17:02:14.341544+00:00"
-    },
-    {
-      "main_risk": "Temporal features may add little physiological information beyond recent values and measurement-density controls, eliminating decision-relevant benefit.",
-      "next_test": "Compare static-snapshot and temporal-slope models, both with measurement-density controls, on a patient-disjoint held-out cohort and assess calibration and decision-curve net benefit rather than AUROC alone.",
-      "opponent": 27,
-      "outcome": "win",
-      "reason": "Reference-invariant evaluation offers broader transferable insight and a low-cost early decision, while the ICU project requires resolving measurement-density confounding, agreeing on an actionable threshold, harmonizing databases, and securing a genuinely independent third cohort. The ICU question has clinical relevance, but its key benefit may disappear after controlling for monitoring intensity and its discrimination advantage over tuned simple models is uncertain.",
-      "target": 36,
-      "timestamp": "2026-09-27T17:02:14.341550+00:00"
-    },
-    {
-      "main_risk": "Spatial context may be the genuinely necessary determinant of blinatumomab response, while the reference-invariance issue proves to be a benchmark artifact with limited biological consequence.",
-      "next_test": "Freeze and re-score existing perturbation-model predictions across independent donor/reference allocations, while requiring concordant effect directions and calibrated donor-level intervals before expanding the evaluation framework.",
-      "opponent": 11,
-      "outcome": "win",
-      "reason": "The perturbation-identifiability project has a clearer, broadly useful scientific anchor, stronger early falsifiability, and lower dependence on scarce longitudinal tissue and technically challenging spatial assays. The leukemia project could uncover important resistance biology, but spatial accessibility must add value beyond disease burden and T-cell composition and must be reproducible in a selected, difficult-to-sample patient population.",
-      "target": 36,
-      "timestamp": "2026-09-27T17:02:14.341554+00:00"
-    },
-    {
-      "main_risk": "The framework may establish robust ranking stability without demonstrating that its metrics correspond to biologically meaningful perturbation effects or improve real model selection.",
-      "next_test": "Apply the locked evaluation protocol to donor-held-out perturbation datasets with strong simple baselines, negative controls, external-cohort testing, and orthogonal validation of a small set of recovered effects.",
-      "opponent": 25,
-      "outcome": "loss",
-      "reason": "Reference-invariant perturbation evaluation is more general, less dependent on regimen-specific cohorts and endpoint harmonization, and has a cheaper decisive experiment with multiple useful branches. Lupus nephritis response programs have greater direct treatment-selection relevance, but external validation is vulnerable to treatment-selection confounding, assay and endpoint differences, and unstable outcome-dependent feature selection.",
-      "target": 36,
-      "timestamp": "2026-09-27T17:02:14.341558+00:00"
-    },
-    {
       "main_risk": "Organoid establishment and turnaround may be too unreliable for real treatment decisions, making apparent response associations clinically irrelevant.",
       "next_test": "Prospectively measure establishment success, assay-ready time, failures, and blinded prediction of treatment response before the next treatment decision in an independent patient cohort.",
       "opponent": 1,
@@ -2699,6 +2654,51 @@
       "reason": "PCOS triage is the stronger six-month investment because it tests a bounded incremental-value question with a simpler retrospective design and a direct triage use case. Anti-MDA5 ILD has high clinical importance, but serial clinical, imaging, molecular, treatment-aware modeling and leave-one-site-out validation create more dependencies and transportability risks.",
       "target": 73,
       "timestamp": "2026-10-15T04:49:16.263692+00:00"
+    },
+    {
+      "main_risk": "Spatial architecture may add no information beyond leukemia burden, antigen density, circulating T-cell state, and clinical risk.",
+      "next_test": "Profile pretreatment marrow from a small patient-level pilot with replicate sections, then compare a locked spatial feature against clinical-plus-composition baselines using held-out patients and calibration as well as discrimination.",
+      "opponent": 11,
+      "outcome": "loss",
+      "reason": "Blinatumomab response and MRD provide more established, proximal endpoints, and a patient-level spatial pilot can test incremental value within months. The biological question is narrower but has clearer clinical relevance and a cheaper falsification path than defining a new neonatal follow-up endpoint and assembling three biospecimen compartments.",
+      "target": 74,
+      "timestamp": "2026-10-15T11:39:02.319603+00:00"
+    },
+    {
+      "main_risk": "Spatial T-cell accessibility may be irreproducible or merely proxy for tumor burden, genotype, or baseline immune composition.",
+      "next_test": "Use pretreatment lung adenocarcinoma tissue to test one prespecified CAF-immune exclusion score against clinical and composition-only baselines, with replicate regions and an independent specimen set before adding tumoroid experiments.",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "A has a more concrete clinical decision target and a plausible early test using existing paired marrow specimens, whereas B requires a precisely defined neonatal endpoint, multisite paired sampling, and proof that molecular risk changes follow-up decisions. B remains valuable but its biological and operational chain is longer before a meaningful result is available.",
+      "target": 74,
+      "timestamp": "2026-10-15T11:39:02.319623+00:00"
+    },
+    {
+      "main_risk": "The bispecific target, tumor setting, and response cohort are underspecified, so the proposed spatial signal may not be testable or transportable within six months.",
+      "next_test": "Choose one available bispecific-treated cohort and test a prespecified stromal-obstruction/target-adjacency score against target-expression, composition, and clinical baselines using patient-level resampling and region-reliability checks.",
+      "opponent": 57,
+      "outcome": "win",
+      "reason": "B is anchored to a specific precision-medicine decision—whether stromal architecture adds value for bispecific response—and has a comparatively direct nested-model test plus functional penetration validation. A has a stronger stated calibration framework, but its follow-up endpoint, actionability, and transportability across maternal-placental-fetal compartments are not yet sufficiently fixed. B is still contingent on access to a defined bispecific-treated cohort.",
+      "target": 74,
+      "timestamp": "2026-10-15T11:39:02.319634+00:00"
+    },
+    {
+      "main_risk": "The multimodal model may learn donor, batch, cell-composition, or perturbation proxies rather than identify intervention-relevant regulatory state.",
+      "next_test": "Run a small donor-replicated perturbation panel, freeze expression-only and multimodal models, and evaluate unseen perturbations at donor level with prospective chromatin or protein assays and calibrated abstention.",
+      "opponent": 37,
+      "outcome": "loss",
+      "reason": "A offers a sharper near-term clinical prediction question with established response readouts and a relatively bounded spatial pilot. B has broader discovery potential and an excellent falsification orientation, but it depends on reproducible donor-replicated perturbations, multimodal alignment, unseen perturbation generalization, and prospective orthogonal assays; several high-risk assumptions must succeed before its contribution is interpretable.",
+      "target": 74,
+      "timestamp": "2026-10-15T11:39:02.319641+00:00"
+    },
+    {
+      "main_risk": "The PCOS reference diagnosis may be label-dependent on the candidate hormonal or reproductive predictors, making apparent incremental value leakage or spectrum-specific.",
+      "next_test": "Lock an adjudicated PCOS assessment independent of candidate predictors and compare clinical/reproductive, plus-hormone, and plus-lifestyle models in a patient-level multicenter dataset, emphasizing calibration and decision-curve net benefit.",
+      "opponent": 73,
+      "outcome": "loss",
+      "reason": "A has greater potential to reveal complementary biology and cross-compartment transportability, but B is the stronger six-month investment because diagnostic triage has a more immediate decision target, cheaper data requirements, and clearer early endpoints for net benefit, calibration, and referral burden. B is less novel, yet it can produce a useful result even if hormonal or lifestyle features add no value.",
+      "target": 74,
+      "timestamp": "2026-10-15T11:39:02.319648+00:00"
     }
   ],
   "k_factor": 24,
@@ -2719,10 +2719,10 @@
     },
     "11": {
       "draws": 1,
-      "games": 25,
+      "games": 26,
       "losses": 13,
-      "rating": 1484.19,
-      "wins": 11
+      "rating": 1496.31,
+      "wins": 12
     },
     "12": {
       "draws": 0,
@@ -2733,10 +2733,10 @@
     },
     "13": {
       "draws": 0,
-      "games": 28,
+      "games": 29,
       "losses": 15,
-      "rating": 1483.08,
-      "wins": 13
+      "rating": 1494.82,
+      "wins": 14
     },
     "15": {
       "draws": 1,
@@ -2894,10 +2894,10 @@
     },
     "37": {
       "draws": 0,
-      "games": 22,
+      "games": 23,
       "losses": 12,
-      "rating": 1478.12,
-      "wins": 10
+      "rating": 1490.07,
+      "wins": 11
     },
     "38": {
       "draws": 0,
@@ -3048,9 +3048,9 @@
     },
     "57": {
       "draws": 0,
-      "games": 13,
-      "losses": 7,
-      "rating": 1493.16,
+      "games": 14,
+      "losses": 8,
+      "rating": 1480.15,
       "wins": 6
     },
     "58": {
@@ -3174,17 +3174,17 @@
     },
     "73": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 3,
-      "rating": 1498.0,
-      "wins": 3
+      "rating": 1508.86,
+      "wins": 4
     },
     "74": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1487.59,
-      "wins": 0
+      "games": 6,
+      "losses": 5,
+      "rating": 1453.93,
+      "wins": 1
     },
     "8": {
       "draws": 0,
