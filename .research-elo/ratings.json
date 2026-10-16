@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The engineered myeloma model may yield signatures that do not transport to independent patient cohorts.",
-      "next_test": "Compare burden-only, genomic-persistence, transcriptomic, and integrated models using strict mouse- or patient-level splits, with calibration and bootstrap uncertainty.",
-      "opponent": 43,
-      "outcome": "win",
-      "reason": "The MRD study has an available longitudinal dataset and a cheap six-week leakage-controlled test that can directly establish whether maximal-response biology adds value beyond residual burden. The transportability study has broader potential, but its key external-cohort and prospective combination-validation requirements are more demanding and its technology contribution could remain benchmark-dependent.",
-      "target": 42,
-      "timestamp": "2026-09-28T21:16:04.253846+00:00"
-    },
-    {
-      "main_risk": "MRD-state features may add no information beyond residual tumor burden or sampling depth.",
-      "next_test": "Run the preregistered six-week patient- or mouse-level comparison of burden-only versus genomic, transcriptomic, and integrated predictors, including reproducibility checks.",
-      "opponent": 44,
-      "outcome": "win",
-      "reason": "The MRD problem has a clearer near-term decision point, existing longitudinal measurements, and a relatively inexpensive test of incremental predictive value. The hypoxia-imaging problem has high clinical upside but depends on proving tracer specificity, spatial tissue alignment, scanner reproducibility, and prospective relevance across heterogeneous settings.",
-      "target": 42,
-      "timestamp": "2026-09-28T21:16:04.253872+00:00"
-    },
-    {
-      "main_risk": "The MRD signature may be model-specific and fail independent longitudinal validation.",
-      "next_test": "Evaluate locked burden-only and integrated MRD signatures with donor- or patient-level resampling, then test reproducibility in an independent longitudinal cohort if available.",
-      "opponent": 7,
-      "outcome": "win",
-      "reason": "The MRD project offers a more contained scientific anchor and an earlier discriminating analysis, whereas the KRAS transition project requires reproducibility across donors, temporal precedence, separation of plasticity from clonal selection and stress, spatial validation, and pharmacologic actionability. Those are several sequential high-risk assumptions for a six-month investment.",
-      "target": 42,
-      "timestamp": "2026-09-28T21:16:04.253882+00:00"
-    },
-    {
-      "main_risk": "The MRD signal may reflect residual burden or treatment-stage effects rather than a specific escape mechanism.",
-      "next_test": "Perform the six-week leakage-resistant comparison of MRD burden, baseline variables, single modalities, and the integrated signature, with calibration and a prespecified improvement threshold.",
-      "opponent": 1,
-      "outcome": "win",
-      "reason": "The MRD project can rapidly test its central claim using existing longitudinal data and strong simple baselines. Functional organoid profiling could have greater direct clinical value, but success depends on timely culture establishment, correlation with patient outcomes, clinically relevant drug panels, and an external prospective cohort, making the readout slower and more fragile.",
-      "target": 42,
-      "timestamp": "2026-09-28T21:16:04.253889+00:00"
-    },
-    {
-      "main_risk": "The apparent MRD predictor may be explained by cellular composition, assay batch, or residual tumor burden rather than resistance biology.",
-      "next_test": "Use patient- or mouse-level splits to compare burden, composition, bulk, genomic-persistence, and integrated MRD models, with assay-replicate reproducibility and calibration.",
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "The MRD study has a concrete longitudinal dataset and a focused early test, while the spatial CAF–immune project requires paired biopsies, reproducible neighborhoods across platforms, adequate patient-level sample size, and functional confirmation in tumoroids. The spatial idea is potentially impactful but currently has more costly dependencies before its biological interpretation is secure.",
-      "target": 42,
-      "timestamp": "2026-09-28T21:16:04.253896+00:00"
-    },
-    {
       "main_risk": "The apparent transportability of drug-response signals may disappear under genuinely independent cohorts and orthogonal assays because assay, dose, lineage, and dataset effects dominate.",
       "next_test": "Reanalyze an available cohort with locked drug-disjoint, tumor-model-disjoint, and double-disjoint splits, comparing uncertainty-gated multimodal models against strong transcriptomic-only, structure-only, and simple additive baselines, then test selected predictions in a small independent long-term assay.",
       "opponent": 43,
@@ -2699,6 +2654,51 @@
       "reason": "The MASLD project asks a broad but well-defined clinical decision-value question and can identify a parsimonious acquisition strategy, redundant modalities, and subgroup-specific calibration. The blinatumomab project is compelling mechanistically, but marrow spatial sampling, longitudinal tissue availability, and assay reproducibility may make the proposed spatial contribution difficult to separate from disease burden, circulating T-cell state, or clinical risk.",
       "target": 76,
       "timestamp": "2026-10-16T04:39:30.084957+00:00"
+    },
+    {
+      "main_risk": "The ERK/Fra-1 state may be a generic drug-stress, injury, or pre-existing resistant-cell signal rather than a reproducible fibroblast-mediated interface transition.",
+      "next_test": "Run the prespecified 8-week matched longitudinal ex vivo study across independent metastasis specimens, including untreated, viability, injury, and fibroblast-signaling controls.",
+      "opponent": 62,
+      "outcome": "loss",
+      "reason": "The osteosarcoma project has a more distinctive mechanistic anchor and a cheaper early readout: reproducibility of the spatial ERK/Fra-1 state can be tested in a small matched ex vivo study before committing to extensive validation. The tuberculoma project has greater immediate clinical relevance, but its success depends on assembling rare longitudinal cohorts and defining an adjudicated reference standard that is independent of MRI and treatment decisions.",
+      "target": 77,
+      "timestamp": "2026-10-16T11:32:42.881925+00:00"
+    },
+    {
+      "main_risk": "Additional modalities may encode donor, batch, or cell-composition proxies without improving prediction of the actual perturbation effect or functional phenotype.",
+      "next_test": "Collect a small donor-replicated perturbation panel, compare frozen expression-only and multimodal models on held-out donors and perturbations, and predefine an orthogonal assay for prospective falsification.",
+      "opponent": 37,
+      "outcome": "loss",
+      "reason": "The virtual-cell project asks a broadly important and falsifiable question, has strong leakage-resistant validation requirements, and can produce useful outcomes even if multimodal features add no value by identifying when regulatory-state counterfactuals are not identifiable. The tuberculoma project has more direct clinical value, but rare-cohort recruitment, outcome adjudication, and separation of active disease from paradoxical reaction make the evidence chain substantially harder.",
+      "target": 77,
+      "timestamp": "2026-10-16T11:32:42.881946+00:00"
+    },
+    {
+      "main_risk": "The apparent CAF–immune neighborhood effect may be explained by tumor genotype, proliferation, disease burden, or sampling variation rather than microenvironment-mediated treatment resistance.",
+      "next_test": "Test a locked CAF–immune exclusion score in a paired patient cohort against composition-only and clinical baselines, with independent-specimen replication and negative spatial controls.",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "The lung adenocarcinoma project combines a clinically relevant response problem with comparatively strong evidence readiness, explicit patient-level baselines, paired treatment sampling, external validation, and orthogonal spatial and functional tests. The tuberculoma project has a compelling clinical need, but its rare disease setting and difficult reference standard make reliable calibration and transportability less likely within six months.",
+      "target": 77,
+      "timestamp": "2026-10-16T11:32:42.881958+00:00"
+    },
+    {
+      "main_risk": "Active or progressive tuberculoma cannot be defined with sufficient independence from MRI persistence, treatment-extension decisions, or clinician ascertainment.",
+      "next_test": "Construct a blinded first-post-treatment-MRI landmark cohort and compare MRI persistence, serial MRI change, and simple clinical-trajectory rules against longitudinal adjudicated outcomes.",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "The tuberculoma project is anchored to a concrete clinical decision, allows the modality and reference standard to evolve, and has a meaningful early decision test with direct patient benefit. The KRAS-transition project has broad mechanistic value but requires reproducibility across models, temporal precedence, spatial added value, and pharmacologic actionability, creating a longer chain of high-risk assumptions before producing a clinically useful result.",
+      "target": 77,
+      "timestamp": "2026-10-16T11:32:42.881966+00:00"
+    },
+    {
+      "main_risk": "The tuberculoma reference outcome may remain too uncertain or circular to distinguish inactive residual lesions, paradoxical reactions, and active infection.",
+      "next_test": "In independent paired specimens, test whether a prespecified neighborhood score predicts patient-level treatment persistence beyond BCL2 abundance, proliferation, and clinical covariates, with orthogonal imaging replication.",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "The tuberculoma project addresses a high-consequence clinical uncertainty and offers useful branches even if a complex multimodal model fails: it can establish when MRI persistence, clinical trajectory, or treatment exposure is sufficient for observation or extension. The gastric-cancer project depends on reproducing a specific spatial niche, demonstrating that BCL2 is selectively causal rather than a marker of aggressive clones, and showing that stromal restoration is actionable.",
+      "target": 77,
+      "timestamp": "2026-10-16T11:32:42.881975+00:00"
     }
   ],
   "k_factor": 24,
@@ -2733,16 +2733,16 @@
     },
     "13": {
       "draws": 0,
-      "games": 29,
+      "games": 30,
       "losses": 15,
-      "rating": 1494.82,
-      "wins": 14
+      "rating": 1506.17,
+      "wins": 15
     },
     "15": {
       "draws": 1,
-      "games": 27,
-      "losses": 13,
-      "rating": 1506.92,
+      "games": 28,
+      "losses": 14,
+      "rating": 1493.93,
       "wins": 13
     },
     "17": {
@@ -2894,10 +2894,10 @@
     },
     "37": {
       "draws": 0,
-      "games": 24,
+      "games": 25,
       "losses": 12,
-      "rating": 1501.64,
-      "wins": 12
+      "rating": 1513.16,
+      "wins": 13
     },
     "38": {
       "draws": 0,
@@ -3090,10 +3090,10 @@
     },
     "62": {
       "draws": 0,
-      "games": 16,
+      "games": 17,
       "losses": 8,
-      "rating": 1500.24,
-      "wins": 8
+      "rating": 1512.22,
+      "wins": 9
     },
     "63": {
       "draws": 0,
@@ -3146,9 +3146,9 @@
     },
     "7": {
       "draws": 0,
-      "games": 36,
-      "losses": 18,
-      "rating": 1504.89,
+      "games": 37,
+      "losses": 19,
+      "rating": 1491.51,
       "wins": 18
     },
     "70": {
@@ -3202,10 +3202,10 @@
     },
     "77": {
       "draws": 0,
-      "games": 2,
-      "losses": 1,
-      "rating": 1499.6,
-      "wins": 1
+      "games": 7,
+      "losses": 4,
+      "rating": 1491.12,
+      "wins": 3
     },
     "8": {
       "draws": 0,
