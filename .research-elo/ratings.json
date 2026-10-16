@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The apparent transportability of drug-response signals may disappear under genuinely independent cohorts and orthogonal assays because assay, dose, lineage, and dataset effects dominate.",
-      "next_test": "Reanalyze an available cohort with locked drug-disjoint, tumor-model-disjoint, and double-disjoint splits, comparing uncertainty-gated multimodal models against strong transcriptomic-only, structure-only, and simple additive baselines, then test selected predictions in a small independent long-term assay.",
-      "opponent": 43,
-      "outcome": "win",
-      "reason": "Problem 43 offers broader reusable value and a clearer early decision path: strict unseen-drug and double-disjoint evaluation, calibrated abstention, and a small orthogonal validation panel can reveal whether the capability transports before major prospective investment. Problem 44 has high clinical potential but depends on tracer specificity, serial imaging, tissue alignment, and cross-site or cross-tumor reproducibility, making its readout slower and more assumption-heavy.",
-      "target": 44,
-      "timestamp": "2026-09-29T01:03:58.776626+00:00"
-    },
-    {
-      "main_risk": "Treatment-induced single-cell transitions may be model- or treatment-specific consequences of burden and sampling time rather than reproducible, temporally antecedent resistance mechanisms.",
-      "next_test": "Profile matched pretreatment and early on-treatment samples from independent PDAC donors with untreated controls, then test a pre-specified transition score using donor-level validation against later regrowth or resistance and orthogonal protein or phospho-readouts.",
-      "opponent": 7,
-      "outcome": "loss",
-      "reason": "Problem 7 has a stronger scientific anchor and more useful branches: it can distinguish reproducible adaptive biology from model-specific stress, clonal selection, or sampling artifacts, and negative results would still clarify which resistance routes are not general. Problem 44 is potentially valuable but relies on CAIX imaging being biologically specific and predictive across heterogeneous tumors, scanners, and treatments before it can support a decision.",
-      "target": 44,
-      "timestamp": "2026-09-29T01:03:58.776643+00:00"
-    },
-    {
-      "main_risk": "Organoid response and regrowth may reflect culture selection or ex vivo pharmacology rather than patient benefit, despite reproducibility within the assay.",
-      "next_test": "Prospectively record every eligible case, establishment success, turnaround time, and treatment deadline, while evaluating a locked short-term-plus-regrowth score against molecular recommendation alone in patient-level held-out cases.",
-      "opponent": 1,
-      "outcome": "loss",
-      "reason": "Problem 1 directly tests whether a functional assay can improve a real treatment decision within a defined clinical window and has strong patient-level baselines, operational readouts, and useful failure branches such as assay failure or lack of incremental value over molecular matching. Problem 44 has comparable potential but requires additional unproven links among tracer uptake, true hypoxia, resistance biology, and cross-tumor transport, with more expensive serial imaging.",
-      "target": 44,
-      "timestamp": "2026-09-29T01:03:58.776651+00:00"
-    },
-    {
-      "main_risk": "Spatial neighborhood associations may be sampling- or composition-driven and fail to replicate across patients, regions, platforms, or treatment contexts.",
-      "next_test": "In a paired lung adenocarcinoma cohort, lock a CAF–immune exclusion definition before outcome analysis and test patient-level replication of its pretreatment and early treatment change against composition-only and clinical baselines, including negative spatial controls.",
-      "opponent": 13,
-      "outcome": "loss",
-      "reason": "Problem 13 is better fixed to a tractable biological setting: it asks whether tumor–CAF–immune neighborhoods add patient-level information beyond composition and clinical factors, with orthogonal imaging and perturbation validation. Problem 44 is more diffuse because tumor type, tracer, treatment, timing, and endpoint all float, while its central measurement may be confounded by perfusion, necrosis, or delivery.",
-      "target": 44,
-      "timestamp": "2026-09-29T01:03:58.776656+00:00"
-    },
-    {
-      "main_risk": "Additional chromatin, isoform, or translation modalities may encode donor, batch, or cell-composition proxies rather than information that identifies true regulatory perturbation effects.",
-      "next_test": "Collect baseline expression and chromatin data from independent donors, freeze expression-only and multimodal models, evaluate held-out perturbations with donor-level splits, and prospectively assay a short list of chromatin, splice, protein, and functional predictions.",
-      "opponent": 37,
-      "outcome": "loss",
-      "reason": "Problem 37 makes a strong technology and discovery investment because it tests falsifiable counterfactual claims, compares against simple expression-only baselines, and can identify the minimum modalities needed even if multimodal models do not win. Problem 44 has greater immediate precision-medicine appeal, but its success depends on several costly measurement and transport assumptions before biological specificity or clinical relevance can be established.",
-      "target": 44,
-      "timestamp": "2026-09-29T01:03:58.776660+00:00"
-    },
-    {
       "main_risk": "The apparent transportability signal may be dominated by assay, dose, lineage, or dataset composition rather than biology.",
       "next_test": "Run strict drug-disjoint and double-disjoint evaluations with simple transcriptomic, drug-structure, and additive baselines, then test calibration and abstention on an external cohort.",
       "opponent": 38,
@@ -2699,6 +2654,51 @@
       "reason": "The tuberculoma project addresses a high-consequence clinical uncertainty and offers useful branches even if a complex multimodal model fails: it can establish when MRI persistence, clinical trajectory, or treatment exposure is sufficient for observation or extension. The gastric-cancer project depends on reproducing a specific spatial niche, demonstrating that BCL2 is selectively causal rather than a marker of aggressive clones, and showing that stromal restoration is actionable.",
       "target": 77,
       "timestamp": "2026-10-16T11:32:42.881975+00:00"
+    },
+    {
+      "main_risk": "The independent cohort, response endpoint, and proteomic assay may be insufficiently compatible for a fair locked evaluation.",
+      "next_test": "Blind a reconstructed locked workflow on an independent cohort and compare it with clinical, MRI-only, proteomics-only, and simple late-fusion baselines at a prespecified decision threshold.",
+      "opponent": 63,
+      "outcome": "win",
+      "reason": "External validation of a locked MRI-proteomic model has a clearer clinical anchor, stronger leakage safeguards, and a cheaper decisive test than the HCC spatial-circuit project, which depends on reproducible cell states, temporal evidence, and functional validation.",
+      "target": 75,
+      "timestamp": "2026-10-16T16:44:50.638425+00:00"
+    },
+    {
+      "main_risk": "Proteomics may add no reproducible decision value beyond clinical variables and MRI, especially after cross-site assay and imaging effects are controlled.",
+      "next_test": "Evaluate the locked multimodal reconstruction in an independent cohort against clinical, MRI-only, proteomics-only, and simple late-fusion baselines with calibration and decision-curve analysis.",
+      "opponent": 66,
+      "outcome": "win",
+      "reason": "The rectal-cancer project asks a focused, clinically actionable transportability question with an early external test and useful negative outcomes. The glioblastoma project has broader technology potential but greater uncertainty in endpoint definition, spatial feature stability, cohort transportability, and treatment alignment.",
+      "target": 75,
+      "timestamp": "2026-10-16T16:44:50.638444+00:00"
+    },
+    {
+      "main_risk": "CTA phenotypes may be redundant with routine clinical and conventional radiologic variables after robust external calibration.",
+      "next_test": "Apply a locked clinical-only versus clinical-plus-prespecified-CTA comparison in an independent hospital cohort, measuring calibration, Brier score, subgroup performance, and net benefit across the agreed action-threshold range.",
+      "opponent": 70,
+      "outcome": "loss",
+      "reason": "The EVAR project is the more feasible current investment: its clinical action, outcome, baseline predictors, and site-transportability question are more concrete, while CTA features are easier to standardize and validate than cross-laboratory proteomics. The rectal project has potentially greater biological and clinical impact but carries more assay, endpoint, and treatment-confounding risk.",
+      "target": 75,
+      "timestamp": "2026-10-16T16:44:50.638454+00:00"
+    },
+    {
+      "main_risk": "An adequately independent and comparable rectal-cancer cohort with compatible MRI, proteomics, treatment, and endpoint data may not be available.",
+      "next_test": "Confirm cohort eligibility and run a blinded locked external evaluation against clinical, MRI-only, proteomics-only, and simple late-fusion baselines before adding complex modeling.",
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "The rectal-cancer study has a narrower fixed anchor, a defined clinical decision, and a 10-week branch point, whereas the lymphoma benchmark requires harmonizing multiple modalities, response labels, spatial assays, and centers before it can establish a meaningful gain. A null result in the rectal study is still directly useful for deciding whether multimodal validation should proceed.",
+      "target": 75,
+      "timestamp": "2026-10-16T16:44:50.638460+00:00"
+    },
+    {
+      "main_risk": "The rectal multimodal signal may fail to transport because of endpoint differences, treatment-selection confounding, or proteomic and MRI protocol shifts.",
+      "next_test": "Blind a locked MRI-proteomic model on an independent rectal-cancer cohort and compare incremental calibrated decision value with clinical and MRI-only baselines.",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "The rectal-cancer problem has a more specific clinical-use endpoint and a clearer external-validation pathway. Corneal imaging has credible translational relevance, but its choice depends on a difficult noncircular reference standard, cross-device reproducibility, informative image failure, and long recalibration readouts.",
+      "target": 75,
+      "timestamp": "2026-10-16T16:44:50.638467+00:00"
     }
   ],
   "k_factor": 24,
@@ -2747,9 +2747,9 @@
     },
     "17": {
       "draws": 0,
-      "games": 21,
-      "losses": 7,
-      "rating": 1575.02,
+      "games": 22,
+      "losses": 8,
+      "rating": 1562.73,
       "wins": 14
     },
     "18": {
@@ -2852,9 +2852,9 @@
     },
     "31": {
       "draws": 0,
-      "games": 25,
-      "losses": 9,
-      "rating": 1575.44,
+      "games": 26,
+      "losses": 10,
+      "rating": 1563.56,
       "wins": 16
     },
     "32": {
@@ -3097,9 +3097,9 @@
     },
     "63": {
       "draws": 0,
-      "games": 11,
-      "losses": 3,
-      "rating": 1557.42,
+      "games": 12,
+      "losses": 4,
+      "rating": 1545.36,
       "wins": 8
     },
     "64": {
@@ -3118,9 +3118,9 @@
     },
     "66": {
       "draws": 0,
-      "games": 10,
-      "losses": 3,
-      "rating": 1545.05,
+      "games": 11,
+      "losses": 4,
+      "rating": 1533.84,
       "wins": 7
     },
     "67": {
@@ -3153,10 +3153,10 @@
     },
     "70": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 0,
-      "rating": 1569.11,
-      "wins": 6
+      "rating": 1581.45,
+      "wins": 7
     },
     "71": {
       "draws": 0,
@@ -3188,10 +3188,10 @@
     },
     "75": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
-      "rating": 1555.81,
-      "wins": 5
+      "games": 10,
+      "losses": 1,
+      "rating": 1590.91,
+      "wins": 9
     },
     "76": {
       "draws": 0,
