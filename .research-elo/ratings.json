@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Matched donor-level perturbation and control data may be too sparse or noisy to estimate transportable direct effects.",
-      "next_test": "Freeze existing model predictions and re-score them under shared, disjoint, and observation-independent reference allocations with donor-blocked uncertainty intervals.",
-      "opponent": 36,
-      "outcome": "loss",
-      "reason": "Reference-invariant perturbation-effect evaluation has broad reusable value, explicit donor-level safeguards, strong baselines, and a cheap six-week re-scoring test that can rapidly distinguish reference artifacts from genuine model signal.",
-      "target": 41,
-      "timestamp": "2026-09-28T14:06:15.408513+00:00"
-    },
-    {
-      "main_risk": "A non-circular, clinically meaningful reference standard may be difficult to define and may limit measurable incremental value.",
-      "next_test": "Run the site-held-out pilot with locked image-quality rules, blinded adjudication, and clinical-only versus clinical-plus-imaging models, emphasizing calibration and decision benefit.",
-      "opponent": 31,
-      "outcome": "loss",
-      "reason": "The corneal-imaging problem has a clearer patient-level decision, credible clinical value, and a focused site-held-out pilot, whereas the virtual-cell study depends on several difficult causal, temporal, and lineage-identification assumptions before its discovery claims become interpretable.",
-      "target": 41,
-      "timestamp": "2026-09-28T14:06:15.408532+00:00"
-    },
-    {
-      "main_risk": "The molecular programs may lose predictive value after adjustment for treatment-selection bias and cohort case mix.",
-      "next_test": "Lock the smallest regimen-specific programs and test clinical-only versus clinical-plus-program prediction in a blinded independent cohort with harmonized response labels.",
-      "opponent": 25,
-      "outcome": "loss",
-      "reason": "Regimen-specific lupus response programs offer a more actionable precision-medicine question with existing compact signals, strong clinical baselines, and a plausible external validation path; the quiescent-chromatin project requires multiple high-risk interventions and dense lineage-resolved measurements.",
-      "target": 41,
-      "timestamp": "2026-09-28T14:06:15.408540+00:00"
-    },
-    {
-      "main_risk": "Lineage-resolved measurements may not distinguish true recovery from selective survival or establish causal ordering among chromatin, cohesin, and transcriptional changes.",
-      "next_test": "Prospectively predict unseen perturbation and restoration schedules using live-cell lineage tracking, then compare dynamic models with static, expression-only, and mechanistic threshold baselines.",
-      "opponent": 2,
-      "outcome": "win",
-      "reason": "The virtual-cell project addresses a general discovery problem—whether history-dependent models can identify reversible biological trajectories—and has useful outcomes even when the favored mechanism fails; the pancreatic project requires stable treatment-effect interactions across institutions, assays, and limited cohorts.",
-      "target": 41,
-      "timestamp": "2026-09-28T14:06:15.408546+00:00"
-    },
-    {
-      "main_risk": "FAM230F may be a non-independent proxy for tumor burden or fail to reproduce across preanalytic workflows and laboratories.",
-      "next_test": "Blind a multi-site sample panel for replicate assay concordance, then evaluate incremental calibration and net benefit over a locked ultrasound-plus-AFP model.",
-      "opponent": 24,
-      "outcome": "loss",
-      "reason": "External calibration of an HCC surveillance triage marker has a concrete clinical endpoint, a relatively focused assay-plus-baseline comparison, and an inexpensive early reproducibility and incremental-value test; the virtual-cell project carries substantially more coupled biological and technical risk.",
-      "target": 41,
-      "timestamp": "2026-09-28T14:06:15.408553+00:00"
-    },
-    {
       "main_risk": "The engineered myeloma model may yield signatures that do not transport to independent patient cohorts.",
       "next_test": "Compare burden-only, genomic-persistence, transcriptomic, and integrated models using strict mouse- or patient-level splits, with calibration and bootstrap uncertainty.",
       "opponent": 43,
@@ -2699,6 +2654,51 @@
       "reason": "External MRI-proteomic validation is supported by an existing study and a relatively direct clinical readout, whereas the spatial blinatumomab project depends on obtaining representative paired marrow specimens and demonstrating reproducible spatial information beyond disease burden and cell composition. The spatial hypothesis is valuable but has higher acquisition and measurement risk.",
       "target": 75,
       "timestamp": "2026-10-15T21:29:39.926315+00:00"
+    },
+    {
+      "main_risk": "The ERK/Fra-1 state may be pharmacologic stress or selection of pre-existing resistant cells rather than a reproducible fibroblast-mediated spatial transition.",
+      "next_test": "Run the preregistered matched longitudinal ex vivo study across independent metastasis specimens with untreated controls, viability/injury measures, and fibroblast-distance annotation.",
+      "opponent": 62,
+      "outcome": "loss",
+      "reason": "The osteosarcoma project has a tighter mechanistic anchor, a more discriminating eight-week specimen-level test, and useful outcomes if the interface state proves generic, pre-existing, or non-causal. The MASLD project has greater potential clinical breadth but depends on assembling extensive heterogeneous data and a defensible fibrosis reference standard before its multimodal question can be answered.",
+      "target": 76,
+      "timestamp": "2026-10-16T04:39:30.084915+00:00"
+    },
+    {
+      "main_risk": "Active or progressive infection may lack an independent, unbiased reference standard, causing the outcome to reproduce the clinical or MRI judgment being modeled.",
+      "next_test": "Build a blinded landmark cohort at the first post-treatment MRI and test MRI persistence alone against prespecified serial MRI, symptom, neurologic, and treatment-exposure features with longitudinal adjudication.",
+      "opponent": 77,
+      "outcome": "loss",
+      "reason": "The tuberculoma problem targets a concrete high-value decision—treatment extension versus observation—and can compare serial MRI and clinical trajectory against a simple persistence baseline without requiring every proposed modality. It also has clear branches if MRI adds little, whereas the MASLD study requires broad multimodal acquisition, cross-site harmonization, and a reliable fibrosis endpoint.",
+      "target": 76,
+      "timestamp": "2026-10-16T04:39:30.084935+00:00"
+    },
+    {
+      "main_risk": "The pediatric MASLD fibrosis endpoint may be unreliable, inconsistently measured, or too entangled with referral and site effects to support transportable calibration.",
+      "next_test": "Lock the endpoint and run the ten-week nested modality-ablation benchmark, including external-site testing, calibration, net benefit, acquisition coverage, and comparison with a strong clinical-laboratory baseline.",
+      "opponent": 54,
+      "outcome": "win",
+      "reason": "The MASLD project has a clearer clinical anchor and a more defensible incremental-value question: which modalities are worth acquiring beyond routine clinical and laboratory data. The checkpoint-clonotype project has substantial biological and translational promise, but tumor relevance, clonotype persistence, biopsy quality, and cross-platform generalization create a longer chain of high-risk assumptions.",
+      "target": 76,
+      "timestamp": "2026-10-16T04:39:30.084944+00:00"
+    },
+    {
+      "main_risk": "Regulatory-state modalities may improve apparent prediction through donor, batch, or cell-composition proxies without identifying the true perturbation response.",
+      "next_test": "Collect baseline expression and chromatin profiles from independent donors, freeze expression-only and multimodal models, and evaluate predictions for a small donor-replicated perturbation panel with held-out orthogonal assays.",
+      "opponent": 37,
+      "outcome": "loss",
+      "reason": "The virtual-cell project has the strongest fixed scientific anchor and earliest falsification path: whether regulatory-state measurements add donor-held-out predictive information beyond expression alone. It explicitly tests prospective counterfactual validity, uses useful negative outcomes and orthogonal assays, and can yield a valuable minimum-observation result even if multimodal gains fail. The MASLD project is clinically important but substantially more dependent on large, heterogeneous, operationally difficult cohorts.",
+      "target": 76,
+      "timestamp": "2026-10-16T04:39:30.084951+00:00"
+    },
+    {
+      "main_risk": "Spatial marrow features may be unavailable or nonrepresentative and add no reproducible information beyond composition, leukemia burden, and treatment-related covariates.",
+      "next_test": "Profile pretreatment marrow in a pilot cohort with replicate sections, quantify prespecified leukemia-CD8 neighborhoods, and compare them against clinical-plus-composition baselines using patient-level held-out evaluation.",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "The MASLD project asks a broad but well-defined clinical decision-value question and can identify a parsimonious acquisition strategy, redundant modalities, and subgroup-specific calibration. The blinatumomab project is compelling mechanistically, but marrow spatial sampling, longitudinal tissue availability, and assay reproducibility may make the proposed spatial contribution difficult to separate from disease burden, circulating T-cell state, or clinical risk.",
+      "target": 76,
+      "timestamp": "2026-10-16T04:39:30.084957+00:00"
     }
   ],
   "k_factor": 24,
@@ -2719,9 +2719,9 @@
     },
     "11": {
       "draws": 1,
-      "games": 27,
-      "losses": 14,
-      "rating": 1486.0,
+      "games": 28,
+      "losses": 15,
+      "rating": 1473.31,
       "wins": 12
     },
     "12": {
@@ -2894,10 +2894,10 @@
     },
     "37": {
       "draws": 0,
-      "games": 23,
+      "games": 24,
       "losses": 12,
-      "rating": 1490.07,
-      "wins": 11
+      "rating": 1501.64,
+      "wins": 12
     },
     "38": {
       "draws": 0,
@@ -3027,9 +3027,9 @@
     },
     "54": {
       "draws": 0,
-      "games": 15,
-      "losses": 8,
-      "rating": 1487.43,
+      "games": 16,
+      "losses": 9,
+      "rating": 1474.65,
       "wins": 7
     },
     "55": {
@@ -3090,10 +3090,10 @@
     },
     "62": {
       "draws": 0,
-      "games": 15,
+      "games": 16,
       "losses": 8,
-      "rating": 1488.23,
-      "wins": 7
+      "rating": 1500.24,
+      "wins": 8
     },
     "63": {
       "draws": 0,
@@ -3195,17 +3195,17 @@
     },
     "76": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 4,
+      "rating": 1478.7,
+      "wins": 2
     },
     "77": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "rating": 1499.6,
+      "wins": 1
     },
     "8": {
       "draws": 0,
