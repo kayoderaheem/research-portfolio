@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The FADS1–arachidonic-acid spatial signal may not be reproducible or may add no information beyond tumor burden, immune composition, liver disease severity, and systemic inflammation.",
-      "next_test": "Profile pretreatment HCC tissue with prespecified FADS1 or lipid, CXCR6, resident-memory, and fitness markers, then compare patient-level composition-only and spatial-proximity models with blinded outcome analysis.",
-      "opponent": 10,
-      "outcome": "loss",
-      "reason": "The HCC project has a tighter mechanistic anchor, clearer causal biology, and an early spatial profiling test that can distinguish metabolic proximity from simple immune composition. The hypoxia project has broader potential, but depends on tracer specificity, spatial tissue alignment, scanner transportability, and cross-tumor generalization, creating a longer chain of high-risk assumptions.",
-      "target": 44,
-      "timestamp": "2026-09-29T22:21:31.760590+00:00"
-    },
-    {
-      "main_risk": "The proposed biomarkers may reflect nonspecific cytotoxic injury, drug exposure, cell-cycle effects, or sampling variation rather than DNA-damage-tolerance-mediated escape.",
-      "next_test": "In independent donor-derived models, measure baseline and early-treatment damage-tolerance features and test whether a locked threshold predicts later regrowth and selective benefit from add-on inhibition.",
-      "opponent": 3,
-      "outcome": "loss",
-      "reason": "DNA-damage-tolerance escape offers a more controllable early decision because patient-derived or donor-derived models can measure dynamic biomarkers and directly test whether pathway inhibition reverses resistance. The hypoxia project requires costly serial imaging, uncertain CAIX specificity, spatially matched tissue, and multisite transportability before causal treatment selection is credible.",
-      "target": 44,
-      "timestamp": "2026-09-29T22:21:31.760611+00:00"
-    },
-    {
-      "main_risk": "Serial inflammation may only track postoperative severity or timing and fail to improve rehabilitation decisions beyond frailty, early function, complications, and routine clinical assessment.",
-      "next_test": "Run a prospective, protocolized landmark cohort using one prespecified delayed-recovery endpoint and rehabilitation decision, comparing clinical, early-function, single-marker, and dynamic multimodal models with site-held-out validation.",
-      "opponent": 23,
-      "outcome": "loss",
-      "reason": "The rehabilitation problem has a clearer clinical decision, established low-cost measurements, credible patient benefit, and a tractable path to testing incremental value over strong clinical and functional baselines. The hypoxia project has greater technological breadth but substantially higher risks involving tracer biology, serial imaging logistics, tissue concordance, and cross-tumor transport.",
-      "target": 44,
-      "timestamp": "2026-09-29T22:21:31.760619+00:00"
-    },
-    {
-      "main_risk": "CAIX-targeted uptake may primarily reflect perfusion, necrosis, tracer delivery, or tumor burden rather than biologically specific hypoxic protection and impending treatment failure.",
-      "next_test": "In a blinded serial-imaging cohort, compare early CAIX uptake change against baseline CAIX, conventional imaging change, and tissue or orthogonal hypoxia measures for prediction of later progression, using patient-level splits.",
-      "opponent": 19,
-      "outcome": "win",
-      "reason": "The hypoxia project has broader potential use and a more mature technology-oriented anchor than the MPNST project. The MPNST proposal depends on rare longitudinal specimens, reliable malignant-cell assignment, reproducible ZNF423 restoration, and spatial context, while the underlying escape trajectory is insufficiently established and difficult to read out quickly.",
-      "target": 44,
-      "timestamp": "2026-09-29T22:21:31.760625+00:00"
-    },
-    {
-      "main_risk": "Any apparent molecular gain may be driven by gestational age, sampling practice, referral spectrum, or post-index management leakage rather than transportable biology beyond fetal biometry and Doppler.",
-      "next_test": "Lock the index time and adverse perinatal endpoint, fit the clinical-biometry-Doppler reference model, and test one prespecified molecular panel in an independent site-held-out cohort using calibration, Brier score, and decision-curve net benefit.",
-      "opponent": 26,
-      "outcome": "loss",
-      "reason": "Fetal growth restriction has a clearly anchored management task, established clinical and Doppler baselines, substantial potential patient value, and a direct site-held-out test of calibrated incremental decision value. The hypoxia project is more technologically differentiated, but its biological specificity, imaging availability, and cross-tumor transportability create greater feasibility and validation risk.",
-      "target": 44,
-      "timestamp": "2026-09-29T22:21:31.760631+00:00"
-    },
-    {
       "main_risk": "The apparent transportability may disappear after controlling for assay scale, dose range, provenance, and dataset composition, leaving no useful biological generalization.",
       "next_test": "Run the prespecified drug-disjoint and double-disjoint evaluation with strong simple baselines, calibration, and applicability-domain abstention before pursuing prospective combination assays.",
       "opponent": 2,
@@ -2699,15 +2654,60 @@
       "reason": "The stromal-architecture problem asks a focused incremental prediction question with explicit composition and target-expression baselines, patient-level leakage controls, functional penetration assays, and a feasible early branch. Pulmonary sepsis could matter more clinically, but its required multimodal data, treatment utility definition, and causal interpretation make six-month success substantially less likely.",
       "target": 79,
       "timestamp": "2026-10-17T04:36:39.812739+00:00"
+    },
+    {
+      "main_risk": "The diagnostic reference standard and verification process may be incomplete or biased across sites, making apparent calibration and sensitivity gains unreliable.",
+      "next_test": "Assemble a consecutive multicenter cohort and, before model fitting, audit complete reference imaging, blinded adjudication, assay comparability, and subgroup case ascertainment.",
+      "opponent": 62,
+      "outcome": "win",
+      "reason": "External validation of a multimodal cerebral venous thrombosis pathway has clearer near-term clinical value, stronger patient-level validation requirements, and a cheaper decision test than establishing a reproducible causal tumor–lung interface state across scarce specimens and assays.",
+      "target": 80,
+      "timestamp": "2026-10-17T10:52:57.497168+00:00"
+    },
+    {
+      "main_risk": "The added clinical and imaging variables may not provide safe incremental value beyond D-dimer and clinical assessment once spectrum, verification, and site effects are controlled.",
+      "next_test": "Run a locked patient- and site-separated comparison of D-dimer-only, clinical-only, clinical-plus-D-dimer, and multimodal models in a consecutive cohort, emphasizing sensitivity, calibration, and missed-case uncertainty.",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "The cerebral venous thrombosis problem offers a more actionable and tractable six-month investment with an early external-validation readout. The virtual-cell project has greater conceptual upside but depends on reproducible perturbations, aligned multimodal measurements, unseen-donor and unseen-perturbation generalization, and prospective orthogonal validation.",
+      "target": 80,
+      "timestamp": "2026-10-17T10:52:57.497191+00:00"
+    },
+    {
+      "main_risk": "A safe threshold may not transport across assays, symptom-duration distributions, referral spectra, or important subgroups, especially with differential imaging verification.",
+      "next_test": "Use a consecutive external cohort to test locked nested models and quantify sensitivity, negative predictive value, calibration, and decision-curve benefit by symptom duration and key clinical subgroups.",
+      "opponent": 73,
+      "outcome": "win",
+      "reason": "Cerebral venous thrombosis triage has a clearer safety-critical decision, a more concrete rule-out endpoint, and a stronger rationale for independent multicenter validation. PCOS triage may have broader volume but faces substantial label-dependence, cohort-specific missingness, and uncertainty that improved prediction changes referral decisions.",
+      "target": 80,
+      "timestamp": "2026-10-17T10:52:57.497200+00:00"
+    },
+    {
+      "main_risk": "The observed multimodal benefit may disappear under independent-site validation because symptom duration, assay behavior, and imaging verification differ systematically.",
+      "next_test": "Audit and analyze a consecutive, independently adjudicated multicenter cohort with patient-level splits and blinded assessment before tuning any triage threshold.",
+      "opponent": 65,
+      "outcome": "win",
+      "reason": "The cerebral venous thrombosis project is more directly translational, has a stronger clinical consequence for false negatives, and can produce a decisive multicenter validation result. The fibrosis project is anchored to a murine treatment dataset and requires spatial reproducibility, reversal rather than marker suppression, tissue-repair linkage, and cross-model transportability.",
+      "target": 80,
+      "timestamp": "2026-10-17T10:52:57.497207+00:00"
+    },
+    {
+      "main_risk": "The pathway may achieve attractive retrospective discrimination but fail to preserve safe sensitivity and calibration across hospitals, assays, and late-presenting or atypical patients.",
+      "next_test": "Prospectively or retrospectively assemble consecutive suspected cases across sites and measure assay turnaround, imaging verification completeness, locked-model sensitivity, calibration, and net benefit before any care-changing study.",
+      "opponent": 1,
+      "outcome": "win",
+      "reason": "External validation of a diagnostic pathway is more likely to yield a useful six-month decision than time-constrained organoid profiling, which requires rapid culture success, clinically relevant ex vivo pharmacology, a locked panel, and evidence that results alter patient outcomes rather than merely correlate with them.",
+      "target": 80,
+      "timestamp": "2026-10-17T10:52:57.497214+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 33,
-      "losses": 16,
-      "rating": 1518.78,
+      "games": 34,
+      "losses": 17,
+      "rating": 1508.13,
       "wins": 17
     },
     "10": {
@@ -2894,9 +2894,9 @@
     },
     "37": {
       "draws": 0,
-      "games": 25,
-      "losses": 12,
-      "rating": 1513.16,
+      "games": 26,
+      "losses": 13,
+      "rating": 1501.55,
       "wins": 13
     },
     "38": {
@@ -3090,9 +3090,9 @@
     },
     "62": {
       "draws": 0,
-      "games": 17,
-      "losses": 8,
-      "rating": 1512.22,
+      "games": 18,
+      "losses": 9,
+      "rating": 1500.23,
       "wins": 9
     },
     "63": {
@@ -3111,9 +3111,9 @@
     },
     "65": {
       "draws": 0,
-      "games": 14,
-      "losses": 6,
-      "rating": 1518.32,
+      "games": 15,
+      "losses": 7,
+      "rating": 1507.31,
       "wins": 8
     },
     "66": {
@@ -3174,9 +3174,9 @@
     },
     "73": {
       "draws": 0,
-      "games": 7,
-      "losses": 3,
-      "rating": 1508.86,
+      "games": 8,
+      "losses": 4,
+      "rating": 1497.8,
       "wins": 4
     },
     "74": {
@@ -3230,10 +3230,10 @@
     },
     "80": {
       "draws": 0,
-      "games": 1,
+      "games": 6,
       "losses": 0,
-      "rating": 1512.41,
-      "wins": 1
+      "rating": 1568.73,
+      "wins": 6
     },
     "9": {
       "draws": 1,
