@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "An independent cohort may not contain sufficiently harmonized regimen, endpoint, and treatment-selection data to support a credible external test.",
-      "next_test": "Lock the smallest regimen-specific programs and compare clinical-only versus clinical-plus-program calibration and decision value in a blinded independent cohort.",
-      "opponent": 25,
-      "outcome": "loss",
-      "reason": "Regimen-specific lupus nephritis prediction has clearer near-term clinical relevance, stronger clinical baselines, and a direct decision-use target. It can test incremental value without requiring a new resistance biology framework, while preserving useful negative results about when molecular programs are redundant or poorly calibrated.",
-      "target": 42,
-      "timestamp": "2026-09-29T18:07:38.313734+00:00"
-    },
-    {
-      "main_risk": "A non-circular, reproducible reference standard may be unavailable or too heterogeneous to establish genuine incremental value.",
-      "next_test": "Run the site-held-out pilot with blinded image-quality adjudication, comparing clinical, neurophysiology-enhanced, and imaging-enhanced models.",
-      "opponent": 31,
-      "outcome": "loss",
-      "reason": "Corneal imaging addresses a defined diagnostic or monitoring pathway with broad clinical applicability and an early site-held-out test. Its fixed clinical anchor and explicit reproducibility, reference-standard, and calibration checks make it a more actionable six-month investment than a myeloma signature whose key evidence may depend on an engineered model transferring to patients.",
-      "target": 42,
-      "timestamp": "2026-09-29T18:07:38.313754+00:00"
-    },
-    {
-      "main_risk": "Matched donor-level perturbation and control data may be too sparse or noisy to estimate direct effects reliably.",
-      "next_test": "Freeze existing model predictions and re-score them under shared, disjoint, and observation-independent control references using donor-blocked uncertainty intervals.",
-      "opponent": 36,
-      "outcome": "loss",
-      "reason": "Reference-invariant perturbation-effect identification is a broad, difficult-to-replace technology problem with a cheap four-to-six-week discriminating test. It can produce valuable protocol, metric, and negative-control outputs even if the favored model class fails, and donor-level validation directly addresses a central benchmark weakness.",
-      "target": 42,
-      "timestamp": "2026-09-29T18:07:38.313764+00:00"
-    },
-    {
-      "main_risk": "The engineered myeloma model's maximal-response signal may not transfer to independent patient or donor cohorts.",
-      "next_test": "Pre-register and run the six-week leakage-controlled comparison of burden-only, genomic-persistence, bulk-transcriptomic, and integrated models with individual-level splits.",
-      "opponent": 17,
-      "outcome": "win",
-      "reason": "The myeloma project has a clearer longitudinal biological anchor and an especially cheap early branch between burden-only prediction and a genuine MRD-state resistance signal. It can yield mechanistic discovery or a defensible conclusion that residual burden, sampling, or composition explains the signal, whereas the lymphoma project requires a larger multicenter spatial-data infrastructure before its central comparison is credible.",
-      "target": 42,
-      "timestamp": "2026-09-29T18:07:38.313771+00:00"
-    },
-    {
-      "main_risk": "The integrated myeloma signature may add no information beyond residual tumor burden and sampling or lineage composition.",
-      "next_test": "Compare the prespecified integrated signature with burden-only and single-modality baselines on held-out patient- or mouse-level longitudinal data, including reproducibility across resampling or assay replicates.",
-      "opponent": 40,
-      "outcome": "win",
-      "reason": "Longitudinal myeloma resistance prediction has more immediately available evidence, a shorter discriminating test, and a clearer validation ladder than context-aware virtual screening. The germ-cell project requires several linked assumptions about mechanistic biomarkers, dose geometry, differentiation state, and transfer beyond cell lines before it can support a useful therapeutic claim.",
-      "target": 42,
-      "timestamp": "2026-09-29T18:07:38.313801+00:00"
-    },
-    {
       "main_risk": "The FADS1–arachidonic-acid spatial signal may not be reproducible or may add no information beyond tumor burden, immune composition, liver disease severity, and systemic inflammation.",
       "next_test": "Profile pretreatment HCC tissue with prespecified FADS1 or lipid, CXCR6, resident-memory, and fitness markers, then compare patient-level composition-only and spatial-proximity models with blinded outcome analysis.",
       "opponent": 10,
@@ -2699,6 +2654,51 @@
       "reason": "The airway project has a nearer-term decision endpoint, a comparatively cheap early validation experiment, and a clearer route to useful negative results such as identifying when ultrasound is redundant or harmful. KRAS state-transition research has important resistance implications but requires reproducibility across donors, temporal precedence, distinction from stress and clonal selection, spatial validation, and pharmacologic actionability before it can support a durable intervention.",
       "target": 78,
       "timestamp": "2026-10-16T21:18:25.228448+00:00"
+    },
+    {
+      "main_risk": "The absence of an independent reference standard for active disease may make labels circular or too uncertain for a trustworthy result.",
+      "next_test": "Build a blinded landmark cohort and compare MRI persistence alone with a prespecified clinical-plus-serial-MRI rule using adjudicated longitudinal outcomes and patient-level splits.",
+      "opponent": 77,
+      "outcome": "loss",
+      "reason": "Intracranial tuberculoma has a clearer decision anchor—active disease versus inactive residual lesion—and a more bounded validation problem. It can test whether serial clinical information adds value over MRI persistence without committing to a large multimodal treatment-effect program.",
+      "target": 79,
+      "timestamp": "2026-10-17T04:36:39.812691+00:00"
+    },
+    {
+      "main_risk": "The BCL2-high spatial association may be a correlate of aggressive tumor biology rather than a niche-mediated, therapeutically actionable mechanism.",
+      "next_test": "In paired diffuse gastric-cancer specimens, test whether a locked BCL2-high epithelial proximity score predicts early persistence beyond BCL2 abundance, proliferation, and clinical covariates, with independent replication.",
+      "opponent": 15,
+      "outcome": "loss",
+      "reason": "The gastric-cancer problem offers a more focused six-month path from spatial observation to mechanistic testing, with explicit abundance and proliferation baselines plus organoid–fibroblast perturbations. The sepsis proposal has greater potential clinical impact but depends on specifying a treatment pathway, acquiring synchronized multimodal longitudinal data, transporting assays, and identifying treatment benefit rather than prognosis.",
+      "target": 79,
+      "timestamp": "2026-10-17T04:36:39.812711+00:00"
+    },
+    {
+      "main_risk": "Spatial CAF–immune features may not replicate across specimens or may merely encode tumor composition, genotype, disease burden, or sampling variation.",
+      "next_test": "Use a paired pretreatment/early-treatment cohort to test a prespecified CAF–immune exclusion score against composition-only and clinical baselines with patient-level held-out validation and an independent specimen set.",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "The lung adenocarcinoma problem has a clearer near-term discriminating experiment, stronger evidence readiness, and a manageable incremental question: whether spatial neighborhoods add calibrated patient-level value beyond composition and clinical variables. Pulmonary sepsis is clinically important, but its proposed multimodal treatment-selection endpoint and causal benefit estimand remain underdefined and technically demanding.",
+      "target": 79,
+      "timestamp": "2026-10-17T04:36:39.812720+00:00"
+    },
+    {
+      "main_risk": "Observed single-cell transitions may be treatment stress, cell-cycle effects, clonal selection, or residual burden rather than reproducible causal precursors of resistance.",
+      "next_test": "Profile matched pretreatment and early-treatment samples from independent PDAC donors and test whether a prespecified transition score predicts later regrowth beyond pretreatment composition, genotype, and baseline burden.",
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "The KRAS-transition problem is a better bounded discovery investment: it has a defined biological anchor, donor-level validation, temporal precedence, orthogonal assays, and actionable perturbation branches. The sepsis proposal has broader clinical stakes but combines several high-risk assumptions whose readouts depend on extensive cohorts, assay transport, and causal treatment-effect analysis.",
+      "target": 79,
+      "timestamp": "2026-10-17T04:36:39.812727+00:00"
+    },
+    {
+      "main_risk": "Pretreatment spatial architecture may be unstable within tumors or may proxy target density, immune abundance, tumor burden, or specimen quality rather than determine bispecific response.",
+      "next_test": "Fit prespecified nested patient-level models to determine whether stromal obstruction and target adjacency improve calibrated response prediction beyond target expression, composition, and clinical covariates, then test the locked score in an independent cohort.",
+      "opponent": 57,
+      "outcome": "loss",
+      "reason": "The stromal-architecture problem asks a focused incremental prediction question with explicit composition and target-expression baselines, patient-level leakage controls, functional penetration assays, and a feasible early branch. Pulmonary sepsis could matter more clinically, but its required multimodal data, treatment utility definition, and causal interpretation make six-month success substantially less likely.",
+      "target": 79,
+      "timestamp": "2026-10-17T04:36:39.812739+00:00"
     }
   ],
   "k_factor": 24,
@@ -2733,17 +2733,17 @@
     },
     "13": {
       "draws": 0,
-      "games": 31,
+      "games": 32,
       "losses": 16,
-      "rating": 1494.35,
-      "wins": 15
+      "rating": 1505.32,
+      "wins": 16
     },
     "15": {
       "draws": 1,
-      "games": 29,
+      "games": 30,
       "losses": 15,
-      "rating": 1482.13,
-      "wins": 13
+      "rating": 1493.92,
+      "wins": 14
     },
     "17": {
       "draws": 0,
@@ -3048,10 +3048,10 @@
     },
     "57": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 8,
-      "rating": 1480.15,
-      "wins": 6
+      "rating": 1490.85,
+      "wins": 7
     },
     "58": {
       "draws": 0,
@@ -3146,10 +3146,10 @@
     },
     "7": {
       "draws": 0,
-      "games": 38,
+      "games": 39,
       "losses": 20,
-      "rating": 1480.6,
-      "wins": 18
+      "rating": 1491.66,
+      "wins": 19
     },
     "70": {
       "draws": 0,
@@ -3202,10 +3202,10 @@
     },
     "77": {
       "draws": 0,
-      "games": 7,
+      "games": 8,
       "losses": 4,
-      "rating": 1491.12,
-      "wins": 3
+      "rating": 1503.01,
+      "wins": 4
     },
     "78": {
       "draws": 0,
@@ -3216,9 +3216,9 @@
     },
     "79": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
+      "games": 6,
+      "losses": 6,
+      "rating": 1431.59,
       "wins": 0
     },
     "8": {
