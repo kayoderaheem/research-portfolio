@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "FAM230F may not add transportable information beyond ultrasound, AFP, liver disease severity, and tumor-burden proxies once cutoff leakage and site effects are controlled.",
-      "next_test": "Blind a multi-site sample panel, lock the assay and threshold using development data only, and compare the biomarker-augmented model with the locked ultrasound-plus-AFP baseline for reproducibility, calibration, and decision-curve net benefit.",
-      "opponent": 24,
-      "outcome": "loss",
-      "reason": "External calibration of an HCC surveillance biomarker has clearer patient-level clinical value, stronger decision anchoring, and a more bounded validation path than composition-aware counterfactual modeling. Its external-cohort, calibration, and net-benefit criteria can produce a decisive result within six months.",
-      "target": 39,
-      "timestamp": "2026-09-30T12:43:42.841678+00:00"
-    },
-    {
-      "main_risk": "Cross-registry assay and treatment-exposure differences may erase any incremental value of eosinophils and FeNO beyond the clinical model.",
-      "next_test": "Confirm access to two independent registries, reconstruct the clinical baseline, and run a nested patient-level biomarker increment analysis with corticosteroid adjustment and external calibration.",
-      "opponent": 28,
-      "outcome": "loss",
-      "reason": "The asthma project has a clearer low-cost early decision, established clinical baselines, accessible patient-level validation metrics, and a direct calibration question across registries. The composition project has broader technological upside but requires several high-risk assumptions about state definitions, extrapolation, and prospective measurement before its value can be judged.",
-      "target": 39,
-      "timestamp": "2026-09-30T12:43:42.841698+00:00"
-    },
-    {
-      "main_risk": "Observed ranking instability may be caused by inadequate reference depth or sampling noise rather than genuine non-identifiability, weakening the proposed protocol's distinct contribution.",
-      "next_test": "Freeze several model predictions and compare shared, disjoint, and observation-independent reference evaluations using donor-blocked bootstrap intervals and perturbation-label nulls.",
-      "opponent": 36,
-      "outcome": "loss",
-      "reason": "Reference-invariant identification addresses a foundational validity problem and has the cheapest, earliest discriminating test: frozen predictions can be rescored under alternative control allocations without new data generation. It also yields useful outcomes if the favored hypothesis fails, whereas composition modeling adds more biological and prospective-data dependencies.",
-      "target": 39,
-      "timestamp": "2026-09-30T12:43:42.841707+00:00"
-    },
-    {
-      "main_risk": "Cell-state definitions and measured abundance shifts may be context- or annotation-dependent, making apparent compositional prediction gains non-identifiable biological effects.",
-      "next_test": "Use existing matched perturbation datasets to freeze state definitions within donor-held-out folds and test target/context-held-out composition predictions against compositional regression, retrieval, expression-first, and null baselines.",
-      "opponent": 31,
-      "outcome": "win",
-      "reason": "Composition-aware counterfactuals offer broader reusable technology value and a more flexible scientific anchor than a modality-specific corneal-imaging application. The project explicitly tests identifiability, context transport, calibration, and orthogonal validation, while the corneal study depends on difficult cross-site acquisition harmonization and a potentially circular clinical reference standard.",
-      "target": 39,
-      "timestamp": "2026-09-30T12:43:42.841714+00:00"
-    },
-    {
-      "main_risk": "Apparent regimen-specific molecular prediction may reflect treatment-selection confounding, cohort composition, or batch signal rather than actionable biology.",
-      "next_test": "Lock the smallest regimen-specific programs and evaluate clinical-only versus clinical-plus-program models in an independent patient-level cohort with nested preprocessing, calibrated decision-curve analysis, and explicit treatment-selection adjustment.",
-      "opponent": 25,
-      "outcome": "loss",
-      "reason": "Treatment-specific lupus nephritis response programs have a concrete clinical decision anchor and can produce useful regimen-specific conclusions even when some programs fail. The composition project has greater general technology breadth, but its success depends on multiple high-risk biological and measurement assumptions and costly prospective perturbation readouts.",
-      "target": 39,
-      "timestamp": "2026-09-30T12:43:42.841726+00:00"
-    },
-    {
       "main_risk": "A sufficiently harmonized multicenter dataset with reproducible spatial measurements and an independent validation center may not be available.",
       "next_test": "Run the preregistered center-held-out nested benchmark, first confirming label harmonization and spatial-feature reproducibility before testing incremental predictive value.",
       "opponent": 17,
@@ -2699,6 +2654,51 @@
       "reason": "Airway assessment has clearer clinical utility, stronger evidence readiness, and a cheaper early branch than serial heterogeneity monitoring in bladder cancer. The bladder proposal is vulnerable to sampling variation, necrosis and tissue-quality effects, and uncertain availability of harmonized serial cohorts before any treatment decision could be supported.",
       "target": 78,
       "timestamp": "2026-10-17T15:41:34.608345+00:00"
+    },
+    {
+      "main_risk": "Lymphocyte changes may mainly reflect adherence, infection, concomitant treatment, or measurement timing rather than anti-drug antibodies.",
+      "next_test": "In a patient-level retrospective cohort, test the prespecified early lymphocyte-change rule against clinical and treatment-history baselines for antibody positivity, including testing burden and calibration.",
+      "opponent": 83,
+      "outcome": "loss",
+      "reason": "Early lymphocyte trajectories address a concrete, actionable testing decision and have a cheaper seven-week readout, whereas methylation must overcome cell-composition, platform, and long-horizon calibration risks before demonstrating value beyond IPSS-M.",
+      "target": 81,
+      "timestamp": "2026-10-17T20:41:32.670805+00:00"
+    },
+    {
+      "main_risk": "The methylation score may add no reproducible calibrated decision value beyond IPSS-M after accounting for cell composition and site effects.",
+      "next_test": "Blindly reconstruct IPSS-M and add the fixed 55-CpG score in a patient-level retrospective cohort, testing calibration and decision curves at prespecified thresholds.",
+      "opponent": 82,
+      "outcome": "win",
+      "reason": "The methylation problem has a defined biomarker, established clinical comparator, peripheral-blood workflow, and an inexpensive early incremental-value test. Alexander disease has greater unmet need but rare, heterogeneous cohorts and multiple high-risk modality, developmental-outcome, and transportability assumptions.",
+      "target": 81,
+      "timestamp": "2026-10-17T20:41:32.670825+00:00"
+    },
+    {
+      "main_risk": "The methylation signal may be redundant with IPSS-M or be explained by blood-cell composition, batch, or site rather than patient-level progression risk.",
+      "next_test": "Perform blinded, patient-level reconstruction of IPSS-M plus the fixed methylation score and assess incremental calibration and net benefit before committing to external validation.",
+      "opponent": 62,
+      "outcome": "win",
+      "reason": "Methylation has a clearer clinical anchor, an established comparator, and a relatively direct path from retrospective evidence to an actionable validation decision. The tumor-lung interface project is mechanistically distinctive but depends on scarce independent specimens, distinguishing induced transition from selection or injury, and proving spatial generalizability.",
+      "target": 81,
+      "timestamp": "2026-10-17T20:41:32.670838+00:00"
+    },
+    {
+      "main_risk": "The methylation score may fail to improve clinically meaningful decisions despite improving statistical discrimination.",
+      "next_test": "Compare locked IPSS-M and IPSS-M-plus-methylation models in a patient- and site-aware retrospective cohort using calibration and decision curves, not discrimination alone.",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "The methylation project offers a focused and testable clinical increment with strong baselines and an early retrospective branch point. The virtual-cell project has potentially broader scientific impact, but its claims require coordinated multimodal measurements, reproducible perturbations, unseen-donor and unseen-perturbation validation, and prospective orthogonal falsification within six months.",
+      "target": 81,
+      "timestamp": "2026-10-17T20:41:32.670846+00:00"
+    },
+    {
+      "main_risk": "The methylation score may not transport or change management after accounting for IPSS-M and clinically relevant calibration.",
+      "next_test": "Run the locked IPSS-M versus IPSS-M-plus-methylation comparison in a patient-level cohort with prespecified treatment or monitoring thresholds and external-site calibration if available.",
+      "opponent": 73,
+      "outcome": "win",
+      "reason": "The methylation proposal has a specific reported signal, a strong established comparator, and a clearly defined incremental decision question. PCOS triage is more broadly applicable, but diagnostic-label dependence, cohort and missingness shifts, and uncertain referral thresholds make its apparent multimodal value especially vulnerable to spectrum and leakage artifacts.",
+      "target": 81,
+      "timestamp": "2026-10-17T20:41:32.670855+00:00"
     }
   ],
   "k_factor": 24,
@@ -2894,9 +2894,9 @@
     },
     "37": {
       "draws": 0,
-      "games": 26,
-      "losses": 13,
-      "rating": 1501.55,
+      "games": 27,
+      "losses": 14,
+      "rating": 1489.92,
       "wins": 13
     },
     "38": {
@@ -3090,9 +3090,9 @@
     },
     "62": {
       "draws": 0,
-      "games": 18,
-      "losses": 9,
-      "rating": 1500.23,
+      "games": 19,
+      "losses": 10,
+      "rating": 1488.24,
       "wins": 9
     },
     "63": {
@@ -3174,9 +3174,9 @@
     },
     "73": {
       "draws": 0,
-      "games": 8,
-      "losses": 4,
-      "rating": 1497.8,
+      "games": 9,
+      "losses": 5,
+      "rating": 1486.7,
       "wins": 4
     },
     "74": {
@@ -3234,6 +3234,27 @@
       "losses": 0,
       "rating": 1568.73,
       "wins": 6
+    },
+    "81": {
+      "draws": 0,
+      "games": 5,
+      "losses": 1,
+      "rating": 1535.13,
+      "wins": 4
+    },
+    "82": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1487.59,
+      "wins": 0
+    },
+    "83": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1512.0,
+      "wins": 1
     },
     "9": {
       "draws": 1,
