@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The apparent transportability may disappear after controlling for assay scale, dose range, provenance, and dataset composition, leaving no useful biological generalization.",
-      "next_test": "Run the prespecified drug-disjoint and double-disjoint evaluation with strong simple baselines, calibration, and applicability-domain abstention before pursuing prospective combination assays.",
-      "opponent": 2,
-      "outcome": "win",
-      "reason": "Drug-response transportability is a broadly useful technology problem with a clearer data path, stronger leakage controls, and an early test that can distinguish biological generalization from assay and dataset artifacts. The pancreatic precision-medicine study has higher direct clinical stakes but depends on sufficiently comparable treatment groups, adequate sample size, and multiple institutions and modalities.",
-      "target": 43,
-      "timestamp": "2026-09-30T05:39:51.907119+00:00"
-    },
-    {
-      "main_risk": "Spatial organization may be the true missing determinant of blinatumomab response, making the broader predictor-focused project less biologically explanatory if its signals remain assay-dependent.",
-      "next_test": "Analyze a patient-level pilot marrow cohort with reproducible spatial features and compare them against clinical and composition-only baselines using strict held-out patients.",
-      "opponent": 11,
-      "outcome": "loss",
-      "reason": "The drug-response problem offers a more accessible and generalizable six-month project with a concrete transportability question and flexible data and modeling choices. The spatial leukemia project could reveal an important resistance mechanism, but it depends on scarce paired marrow specimens, reproducible spatial measurements, and incremental value beyond established clinical and composition features.",
-      "target": 43,
-      "timestamp": "2026-09-30T05:39:51.907139+00:00"
-    },
-    {
-      "main_risk": "The model may show only technical or assay-specific cross-domain differences, with no conserved response signal that supports treatment-ranking decisions.",
-      "next_test": "Perform the locked drug-disjoint and double-disjoint benchmark with transcriptomic-only, drug-only, pharmacologic, and simple ensemble baselines, then test whether uncertainty gating improves error at matched coverage.",
-      "opponent": 41,
-      "outcome": "win",
-      "reason": "Transportability of drug-response prediction has broader technology value, clearer external validation criteria, and a cheaper early branch structure. The quiescent-chromatin project is highly novel, but its success requires causal ordering, lineage-resolved recovery versus selection, adequate temporal coverage, and transfer across strains or protocols, creating several long-readout high-risk assumptions.",
-      "target": 43,
-      "timestamp": "2026-09-30T05:39:51.907148+00:00"
-    },
-    {
-      "main_risk": "Uncertainty estimates may identify dataset shift without identifying whether a prediction is biologically actionable, so the model may not improve combination selection.",
-      "next_test": "Compare locked transportability and uncertainty-gating methods against pharmacologic and simple context baselines on unseen drugs, tumor models, and double-unseen settings before selecting combinations.",
-      "opponent": 40,
-      "outcome": "win",
-      "reason": "The transportability problem addresses a general limitation across drug-response applications and has a stronger competitive position through explicit shift definitions, abstention, and leakage-resistant evaluation. The germ-cell-tumor combination project has a useful mechanistic anchor and good orthogonal validation, but unseen-context transfer and reliable synergy estimation require extensive donor-derived or three-dimensional validation.",
-      "target": 43,
-      "timestamp": "2026-09-30T05:39:51.907157+00:00"
-    },
-    {
-      "main_risk": "The integrated signature may merely encode residual tumor burden, sampling time, lineage composition, or engineered-model artifacts and fail in an independent longitudinal cohort.",
-      "next_test": "Pre-register and run the six-week comparison of burden-only, baseline, bulk, genomic-persistence, single-cell, and integrated models under individual-level leakage-resistant splits, with calibration and resampling stability.",
-      "opponent": 42,
-      "outcome": "loss",
-      "reason": "The longitudinal MRD project has the best immediate decision point: an available six-week dataset can test whether integrated biology adds value beyond residual burden, with patient- or mouse-level separation and clear useful branches. It also has a focused biological anchor rather than requiring a broad infrastructure effort. The main limitation is that its predictive signal may be specific to the engineered model, whereas the drug-response project has broader technology scope.",
-      "target": 43,
-      "timestamp": "2026-09-30T05:39:51.907165+00:00"
-    },
-    {
       "main_risk": "FAM230F may not add transportable information beyond ultrasound, AFP, liver disease severity, and tumor-burden proxies once cutoff leakage and site effects are controlled.",
       "next_test": "Blind a multi-site sample panel, lock the assay and threshold using development data only, and compare the biomarker-augmented model with the locked ultrasound-plus-AFP baseline for reproducibility, calibration, and decision-curve net benefit.",
       "opponent": 24,
@@ -2699,6 +2654,51 @@
       "reason": "External validation of a diagnostic pathway is more likely to yield a useful six-month decision than time-constrained organoid profiling, which requires rapid culture success, clinically relevant ex vivo pharmacology, a locked panel, and evidence that results alter patient outcomes rather than merely correlate with them.",
       "target": 80,
       "timestamp": "2026-10-17T10:52:57.497214+00:00"
+    },
+    {
+      "main_risk": "Ultrasound and optional facial or voice measurements may add no reproducible patient-level information beyond standardized clinical assessment, or may not be reproducible across operators and devices.",
+      "next_test": "Run the prespecified patient-level nested comparison of clinical assessment versus clinical plus ultrasound using a blinded, independently adjudicated difficult-airway endpoint, including operator reproducibility and decision-curve net benefit.",
+      "opponent": 66,
+      "outcome": "win",
+      "reason": "Airway assessment addresses an immediate, general clinical decision with established bedside baselines, a plausible incremental role for ultrasound, and an actionable calibration and decision-value endpoint. It is more likely to produce useful conclusions across modalities than the high-dimensional, cohort-sensitive question of transportable spatial architecture in glioblastoma.",
+      "target": 78,
+      "timestamp": "2026-10-17T15:41:34.608307+00:00"
+    },
+    {
+      "main_risk": "Temporal gains may disappear after controlling for measurement frequency, leaving no clinically meaningful advantage over simple static models.",
+      "next_test": "On a patient- and hospital-held-out MIMIC-IV test set, compare static and temporal models with measurement-density features included in both, then assess net benefit and calibration at prespecified escalation thresholds.",
+      "opponent": 27,
+      "outcome": "loss",
+      "reason": "The ICU problem has a clearer near-term discriminating comparison—temporal trajectories versus recent-value snapshots—and can exploit large patient-level datasets with strong external site validation. Its measurement-density control directly tests whether apparent complexity represents physiology or monitoring practice, whereas the airway project requires more difficult prospective multimodal acquisition.",
+      "target": 78,
+      "timestamp": "2026-10-17T15:41:34.608326+00:00"
+    },
+    {
+      "main_risk": "Ex vivo functional sensitivity may not preserve an in-patient response signal and may add no calibrated decision value beyond genomic, histologic, and clinical baselines.",
+      "next_test": "Use a locked existing or newly assembled patient-level cohort to compare genomic matching alone with genomic plus functional screening, preserving assay failures and evaluating calibration and decision curves on held-out outcomes.",
+      "opponent": 45,
+      "outcome": "win",
+      "reason": "Airway ultrasound has a broad clinical use case, a relatively accessible early workflow test, and a direct decision-value target. Functional screening in pediatric brain tumors could be highly valuable but depends on assay viability, reproducibility, treatment-selection comparability, and adequate independent outcomes—several high-risk assumptions with potentially slow readouts.",
+      "target": 78,
+      "timestamp": "2026-10-17T15:41:34.608334+00:00"
+    },
+    {
+      "main_risk": "The apparent ultrasound signal may be operator-, device-, or site-specific rather than transportable patient biology.",
+      "next_test": "Prospectively or rigorously retrospectively collect repeat ultrasound measurements across operators and devices and test a locked ultrasound increment over clinical predictors with patient-level validation and blinded endpoint adjudication.",
+      "opponent": 40,
+      "outcome": "loss",
+      "reason": "Airway risk stratification offers a more replaceable clinical workflow capability with strong simple baselines and an early test that can distinguish useful ultrasound information from documentation or operator artifacts. Virtual combination screening requires reliable mechanistic biomarkers, adequate dose and schedule coverage, and transfer from cell-line-like systems to donor-derived models, creating a longer chain of high-risk assumptions.",
+      "target": 78,
+      "timestamp": "2026-10-17T15:41:34.608340+00:00"
+    },
+    {
+      "main_risk": "Ultrasound may not improve calibrated decision value beyond standard airway examination once subgroup and site transport are properly tested.",
+      "next_test": "Evaluate clinical-only versus clinical-plus-ultrasound models in a small multi-operator cohort with blinded difficult-airway adjudication, prespecified calibration and net-benefit thresholds, and missingness analysis.",
+      "opponent": 53,
+      "outcome": "win",
+      "reason": "Airway assessment has clearer clinical utility, stronger evidence readiness, and a cheaper early branch than serial heterogeneity monitoring in bladder cancer. The bladder proposal is vulnerable to sampling variation, necrosis and tissue-quality effects, and uncertain availability of harmonized serial cohorts before any treatment decision could be supported.",
+      "target": 78,
+      "timestamp": "2026-10-17T15:41:34.608345+00:00"
     }
   ],
   "k_factor": 24,
@@ -2817,10 +2817,10 @@
     },
     "27": {
       "draws": 0,
-      "games": 28,
+      "games": 29,
       "losses": 13,
-      "rating": 1528.11,
-      "wins": 15
+      "rating": 1540.73,
+      "wins": 16
     },
     "28": {
       "draws": 0,
@@ -2922,10 +2922,10 @@
     },
     "40": {
       "draws": 1,
-      "games": 25,
+      "games": 26,
       "losses": 11,
-      "rating": 1524.1,
-      "wins": 13
+      "rating": 1536.83,
+      "wins": 14
     },
     "41": {
       "draws": 0,
@@ -2957,9 +2957,9 @@
     },
     "45": {
       "draws": 0,
-      "games": 10,
-      "losses": 4,
-      "rating": 1524.19,
+      "games": 11,
+      "losses": 5,
+      "rating": 1512.51,
       "wins": 6
     },
     "46": {
@@ -3020,9 +3020,9 @@
     },
     "53": {
       "draws": 0,
-      "games": 12,
-      "losses": 5,
-      "rating": 1522.9,
+      "games": 13,
+      "losses": 6,
+      "rating": 1511.23,
       "wins": 7
     },
     "54": {
@@ -3118,9 +3118,9 @@
     },
     "66": {
       "draws": 0,
-      "games": 11,
-      "losses": 4,
-      "rating": 1533.84,
+      "games": 12,
+      "losses": 5,
+      "rating": 1521.85,
       "wins": 7
     },
     "67": {
@@ -3209,10 +3209,10 @@
     },
     "78": {
       "draws": 0,
-      "games": 5,
-      "losses": 1,
-      "rating": 1534.12,
-      "wins": 4
+      "games": 10,
+      "losses": 3,
+      "rating": 1544.11,
+      "wins": 7
     },
     "79": {
       "draws": 0,
