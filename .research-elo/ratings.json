@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "CAIX-targeted uptake may primarily reflect perfusion, necrosis, or tumor burden rather than hypoxia-specific resistance.",
-      "next_test": "Run the 10-week blinded serial-imaging pilot against baseline CAIX, conventional imaging change, and orthogonal tissue or perfusion/necrosis measures with patient-level separation.",
-      "opponent": 6,
-      "outcome": "win",
-      "reason": "Early functional hypoxia imaging has a clearer near-term decision anchor, a potentially broad resistance-monitoring payoff, and a cheaper discriminating pilot than the highly novel but assay- and tissue-intensive mechanical-niche project.",
-      "target": 44,
-      "timestamp": "2026-10-01T00:35:50.333021+00:00"
-    },
-    {
-      "main_risk": "The hypoxia trajectory may fail to generalize across tumor types, treatments, scanners, or sites.",
-      "next_test": "Test early CAIX-uptake change in a small independent serial-imaging cohort, using prespecified landmark prediction and orthogonal specificity checks.",
-      "opponent": 22,
-      "outcome": "win",
-      "reason": "The hypoxia project has a more concrete early readout and a fixed resistance-timing question, whereas the multiple-sclerosis project requires a locked assay, independent population, treatment-stratified longitudinal evidence, cross-compartment validity, and transportable calibration before its clinical use is clear.",
-      "target": 44,
-      "timestamp": "2026-10-01T00:35:50.333042+00:00"
-    },
-    {
-      "main_risk": "The hypoxia signal may not add beyond conventional imaging or baseline tissue CAIX because early uptake is nonspecific.",
-      "next_test": "Compare early CAIX-imaging trajectories with conventional imaging, baseline CAIX, and orthogonal hypoxia/perfusion measures in a blinded patient-level pilot before attempting broad transport claims.",
-      "opponent": 29,
-      "outcome": "win",
-      "reason": "Urine microRNA has the cleaner incremental-biomarker design and lower assay risk, but its impact is narrow, the adaptive treatment decision is not yet established as useful, and external matched validation is a major dependency. The hypoxia project offers broader resistance insight and a similarly early but more consequential biological test.",
-      "target": 44,
-      "timestamp": "2026-10-01T00:35:50.333053+00:00"
-    },
-    {
-      "main_risk": "CAIX-targeted imaging may not measure the causal or clinically relevant hypoxic protection state.",
-      "next_test": "Perform the prespecified 10-week serial-imaging test with tissue and orthogonal assays, requiring incremental prediction over conventional imaging and baseline CAIX.",
-      "opponent": 19,
-      "outcome": "win",
-      "reason": "The hypoxia problem is more immediately testable and transferable, with a defined early landmark and established competing baselines. The MPNST project is strongly differentiated but depends on rare matched longitudinal tissue, reliable malignant-cell assignment, reproducible ZNF423 transitions, and spatial information beyond composition.",
-      "target": 44,
-      "timestamp": "2026-10-01T00:35:50.333059+00:00"
-    },
-    {
-      "main_risk": "The CAIX imaging result may be prognostic only and fail to identify a modifiable treatment decision before progression.",
-      "next_test": "Use a retrospective serial cohort to test whether early CAIX change adds calibrated, patient-level decision value beyond conventional imaging and clinical covariates, with tissue or perfusion specificity checks.",
-      "opponent": 32,
-      "outcome": "win",
-      "reason": "Both projects have substantial clinical potential, but the myocarditis proposal has a particularly difficult treatment-label problem, heterogeneous missing modalities, referral and timing bias, and a long calibration-transport chain. The hypoxia project has a more stable scientific anchor and a cheaper early test, while still offering a meaningful resistance-management branch.",
-      "target": 44,
-      "timestamp": "2026-10-01T00:35:50.333068+00:00"
-    },
-    {
       "main_risk": "Issue 43 may fail if apparent cross-domain response signals are driven primarily by assay, dose, provenance, or dataset effects rather than transportable biology.",
       "next_test": "Run strict drug-disjoint and double-disjoint ablations on a development cohort, then test the locked uncertainty-gated model on the smallest genuinely independent cohort or orthogonal assay available.",
       "opponent": 11,
@@ -2699,6 +2654,51 @@
       "reason": "The natalizumab trajectory problem is the stronger six-month investment because it has a simpler patient-level endpoint, an inexpensive early retrospective test, and a more direct path to a calibrated clinical decision. The lung adenocarcinoma problem requires paired biopsies, cross-platform spatial reproducibility, external validation, and functional tumoroid confirmation, with several high-risk assumptions before clinical value can be established.",
       "target": 83,
       "timestamp": "2026-10-17T23:11:03.009359+00:00"
+    },
+    {
+      "main_risk": "The ERK/Fra-1 state may be a generic injury or pre-existing resistant-cell response rather than a reproducible fibroblast-mediated transition.",
+      "next_test": "Run the preregistered small matched longitudinal ex vivo study across independent metastasis specimens with untreated controls, viability/injury controls, and fibroblast-distance annotation.",
+      "opponent": 62,
+      "outcome": "loss",
+      "reason": "Reproducible tumor–lung interface states offer a broader mechanistic and resistance-monitoring payoff, with an 8-week matched-specimen test that can distinguish induction, stress artifact, spatial dependence, and residual viability. The Alexander disease project has strong clinical relevance but depends on scarce serial data, reliable developmental outcomes, and transportable multimodal prediction across sites.",
+      "target": 82,
+      "timestamp": "2026-10-18T04:41:54.763845+00:00"
+    },
+    {
+      "main_risk": "The PCOS diagnostic label or referral process may incorporate candidate predictors, creating leakage or eliminating genuine incremental value.",
+      "next_test": "Use a multicenter retrospective cohort with an independently adjudicated label and locked clinical-only, clinical-plus-hormone, and clinical-plus-lifestyle models, then compare calibration and net benefit at prespecified referral thresholds.",
+      "opponent": 73,
+      "outcome": "loss",
+      "reason": "PCOS triage has broader data and implementation feasibility, a clearer near-term decision threshold, and a relatively cheap nested-modality test of whether hormones or lifestyle data add value beyond routine variables. Alexander disease has greater unmet-need intensity but requires rare longitudinal cohorts, age-sensitive outcomes, and difficult external validation before a monitoring strategy is credible.",
+      "target": 82,
+      "timestamp": "2026-10-18T04:41:54.763864+00:00"
+    },
+    {
+      "main_risk": "A retrospective multimodal model may show apparent improvement from age, baseline severity, treatment exposure, or site effects without separating target engagement from clinical benefit.",
+      "next_test": "Evaluate locked clinical, GFAP-only, MRI-only, genotype-only, and multimodal models in nested patient-level validation, with calibration, decision curves, age/phenotype subgroup analysis, and strict post-outcome exclusion.",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "The Alexander disease problem has a fixed clinical anchor and an early retrospective test that can directly determine whether multimodal data improve prediction beyond clinical baseline. The virtual-cell project could yield more general scientific insight, but it combines difficult donor-blocked modeling, unseen perturbations, multiple regulatory modalities, prospective assays, and functional falsification, creating a longer chain of high-risk assumptions.",
+      "target": 82,
+      "timestamp": "2026-10-18T04:41:54.763872+00:00"
+    },
+    {
+      "main_risk": "Spatial architecture may merely proxy tumor burden, target density, specimen quality, or immune abundance rather than provide independent predictive information.",
+      "next_test": "Fit locked patient-level nested models in an existing treated cohort and test whether the prespecified spatial score improves calibration and decision value beyond target expression, composition, and clinical covariates.",
+      "opponent": 57,
+      "outcome": "loss",
+      "reason": "Pretreatment stromal architecture addresses a potentially general and actionable limitation of bispecific therapy, and its incremental value can be tested against strong composition and target-expression baselines before committing to complex mechanistic work. Alexander disease has higher direct clinical specificity, but its rare-cohort requirements and 12-month outcome dependence make success less likely within six months.",
+      "target": 82,
+      "timestamp": "2026-10-18T04:41:54.763878+00:00"
+    },
+    {
+      "main_risk": "The multimodal GFAP signal may not transport across age, phenotype, treatment exposure, assay workflow, and site, or may not add information beyond baseline clinical severity.",
+      "next_test": "Run the locked nested patient-level comparison of clinical, GFAP trajectory, MRI, genotype, and multimodal models, requiring reproducible incremental net benefit and acceptable calibration before pursuing external validation.",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Alexander disease offers a clinically interpretable monitoring question with an inexpensive retrospective branch point and useful outcomes even if GFAP adds no information. KRAS adaptive-state work has substantial potential, but reproducibility, temporal precedence, spatial specificity, and pharmacologic actionability all require serial donor-level profiling and several orthogonal experiments before a durable resistance mechanism is established.",
+      "target": 82,
+      "timestamp": "2026-10-18T04:41:54.763884+00:00"
     }
   ],
   "k_factor": 24,
@@ -2894,9 +2894,9 @@
     },
     "37": {
       "draws": 0,
-      "games": 27,
-      "losses": 14,
-      "rating": 1489.92,
+      "games": 28,
+      "losses": 15,
+      "rating": 1477.03,
       "wins": 13
     },
     "38": {
@@ -3048,10 +3048,10 @@
     },
     "57": {
       "draws": 0,
-      "games": 15,
+      "games": 16,
       "losses": 8,
-      "rating": 1490.85,
-      "wins": 7
+      "rating": 1502.37,
+      "wins": 8
     },
     "58": {
       "draws": 0,
@@ -3090,10 +3090,10 @@
     },
     "62": {
       "draws": 0,
-      "games": 19,
+      "games": 20,
       "losses": 10,
-      "rating": 1488.24,
-      "wins": 9
+      "rating": 1500.22,
+      "wins": 10
     },
     "63": {
       "draws": 0,
@@ -3146,9 +3146,9 @@
     },
     "7": {
       "draws": 0,
-      "games": 39,
-      "losses": 20,
-      "rating": 1491.66,
+      "games": 40,
+      "losses": 21,
+      "rating": 1478.75,
       "wins": 19
     },
     "70": {
@@ -3174,10 +3174,10 @@
     },
     "73": {
       "draws": 0,
-      "games": 9,
+      "games": 10,
       "losses": 5,
-      "rating": 1486.7,
-      "wins": 4
+      "rating": 1498.32,
+      "wins": 5
     },
     "74": {
       "draws": 0,
@@ -3244,10 +3244,10 @@
     },
     "82": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1487.59,
-      "wins": 0
+      "games": 6,
+      "losses": 4,
+      "rating": 1478.27,
+      "wins": 2
     },
     "83": {
       "draws": 0,
