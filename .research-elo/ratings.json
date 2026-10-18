@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "CAIX-targeted uptake may primarily reflect perfusion, necrosis, delivery, or tumor burden rather than hypoxia-specific resistance.",
-      "next_test": "Run the blinded 10-week serial-imaging study comparing early CAIX uptake change with baseline CAIX, conventional imaging change, and later progression, with spatially matched orthogonal hypoxia and perfusion/necrosis assays.",
-      "opponent": 44,
-      "outcome": "loss",
-      "reason": "Early CAIX-targeted imaging addresses a clinically consequential decision and has a relatively direct patient-level test against established imaging and tissue baselines. The virtual-cell problem is broader, but multimodal measurement, donor and perturbation reproducibility, prospective assay freezing, and functional validation create a longer chain of high-risk assumptions.",
-      "target": 37,
-      "timestamp": "2026-10-01T18:27:51.953976+00:00"
-    },
-    {
-      "main_risk": "FADS1 or arachidonic-acid spatial features may not measure active signaling or add predictive information beyond immune composition, antigenicity, and liver disease severity.",
-      "next_test": "Profile pretreatment HCC tissue in a patient-level development cohort and test a prespecified FADS1/lipid-to-CXCR6+ resident-memory proximity feature against clinical and composition-only models, with orthogonal lipid and T-cell fitness measurements.",
-      "opponent": 10,
-      "outcome": "loss",
-      "reason": "The HCC niche problem has a specific mechanistic anchor, a strong observation motivating the hypothesis, and a feasible 11-week patient-level spatial test with composition-only and clinical baselines. The virtual-cell proposal has greater general scope but depends on assembling and aligning several modalities and proving that added information is not donor, batch, or composition leakage.",
-      "target": 37,
-      "timestamp": "2026-10-01T18:27:51.953996+00:00"
-    },
-    {
-      "main_risk": "The candidate biomarker may track nonspecific drug injury, exposure, cell-cycle suppression, or sampling variation rather than DNA-damage-tolerance-mediated escape.",
-      "next_test": "In independent patient- or donor-derived models, measure baseline and early-treatment biomarkers, lock the threshold, then test prediction of later regrowth and preferential benefit from DNA-damage-tolerance inhibition.",
-      "opponent": 3,
-      "outcome": "win",
-      "reason": "DNA-damage-tolerance escape has a clearer mechanism-linked intervention, functional perturbation models, and an early branch point: a locked biomarker can be tested for predicting regrowth and selective combination benefit within about 10 weeks. The virtual-cell project offers broader insight but requires reproducible cross-donor perturbations and multiple prospective regulatory readouts before its central claim is testable.",
-      "target": 37,
-      "timestamp": "2026-10-01T18:27:51.954005+00:00"
-    },
-    {
-      "main_risk": "Multimodal regulatory features may improve prediction through donor, batch, library-depth, or cell-composition proxies while the intervention effect remains non-identifiable.",
-      "next_test": "Conduct the donor-replicated 12-week pilot with expression-only and multimodal models frozen before testing unseen perturbations, using donor-blocked evaluation and an orthogonal chromatin, splicing, protein, or functional endpoint.",
-      "opponent": 23,
-      "outcome": "loss",
-      "reason": "The virtual-cell problem is the stronger scientific investment because it targets a general question about whether regulatory-state information makes intervention predictions identifiable and falsifiable, with useful outcomes even if multimodality fails. The rehabilitation proposal has clearer clinical framing but depends on defining and delivering a consistent intervention and may find that inflammation merely tracks recovery severity without changing decisions.",
-      "target": 37,
-      "timestamp": "2026-10-01T18:27:51.954017+00:00"
-    },
-    {
-      "main_risk": "The spatial score may be a proxy for anatomical site, treatment history, tumor burden, or sampling differences rather than a transferable response-modifying niche.",
-      "next_test": "Use a patient-level pretreatment development cohort to test a locked tumor–stroma–immune neighborhood score against composition-plus-clinical baselines, with replicate sections and leave-one-site-out evaluation.",
-      "opponent": 8,
-      "outcome": "loss",
-      "reason": "The ALK niche problem is anchored to an observed metastatic-site context and can yield a focused 10-week test of whether spatial topology adds value beyond genotype, site, composition, and clinical covariates. Although rare archival samples and site confounding are important risks, the virtual-cell proposal requires broader multimodal data integration and prospective validation across perturbations, making its success less likely within six months.",
-      "target": 37,
-      "timestamp": "2026-10-01T18:27:51.954024+00:00"
-    },
-    {
       "main_risk": "Functional-screening sensitivity may reflect tissue viability, culture conditions, or assay-specific effects rather than in-patient treatment response beyond genomic and clinical baselines.",
       "next_test": "Run a blinded, patient-level held-out comparison of genomic matching alone versus genomic matching plus locked functional-screening results, retaining assay failures and reporting calibration and decision curves.",
       "opponent": 46,
@@ -2699,6 +2654,51 @@
       "reason": "The methylation question is more decision-ready: it tests a specific incremental contribution to an established risk model and can produce an informative continue, refine, or stop result quickly. Mutation-specific target engagement has important mechanistic and translational potential, but it spans biochemical engagement, cellular context, lineage effects, exposure, and resistance evolution, with weaker evidence readiness and a longer chain of assumptions.",
       "target": 81,
       "timestamp": "2026-10-18T11:17:18.300302+00:00"
+    },
+    {
+      "main_risk": "Treatment-induced single-cell states may be model-specific stress responses or clonal-selection signals rather than reproducible causal precursors of resistance.",
+      "next_test": "Profile matched pretreatment and early on-treatment samples from several independent PDAC donors and test whether a locked transition score predicts later regrowth beyond pretreatment composition and genotype.",
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "KRAS-state transitions offer a more differentiated mechanistic discovery problem with useful outcomes even if the favored transition fails, and donor-level serial profiling can directly test reproducibility and temporal precedence. The MASLD project has strong clinical framing but is a broad modality-selection exercise with substantial endpoint and harmonization risk.",
+      "target": 76,
+      "timestamp": "2026-10-18T15:56:32.900595+00:00"
+    },
+    {
+      "main_risk": "The MASLD fibrosis endpoint or reference standard may be inconsistent, unavailable without post-outcome information, or too weak to support transportable calibration.",
+      "next_test": "Run the locked multi-site nested comparison of the clinical-laboratory baseline with sequential imaging, genetic, lifestyle, and social additions, evaluating external-cohort calibration and threshold-specific net benefit.",
+      "opponent": 82,
+      "outcome": "win",
+      "reason": "MASLD provides a broader and more feasible multi-site decision problem with a clear routine clinical-laboratory baseline, identifiable acquisition tradeoffs, and an early retrospective test. Alexander disease has high patient value, but rare-disease sample size, developmental outcome reliability, treatment-induced GFAP confounding, and cross-site transportability create a longer high-risk chain.",
+      "target": 76,
+      "timestamp": "2026-10-18T15:56:32.900618+00:00"
+    },
+    {
+      "main_risk": "Spatial FADS1 or arachidonic-acid measurements may not be reproducible or biologically active enough to add information beyond immune composition and clinical covariates.",
+      "next_test": "Use pretreatment HCC tissue to test a prespecified metabolic-proximity feature against clinical and composition-only baselines, with technical replicates and orthogonal T-cell fitness measurements.",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "The MASLD project has a cheaper, clearer early decision and a direct clinical acquisition question with strong patient-level validation safeguards. The HCC niche project is more novel and mechanistically appealing, but it requires specialized spatial lipid measurements, adequate pretreatment tissue, reliable sampling, and both predictive and orthogonal mechanistic validation before its clinical relevance is established.",
+      "target": 76,
+      "timestamp": "2026-10-18T15:56:32.900625+00:00"
+    },
+    {
+      "main_risk": "Baseline chromatin or isoform measurements may add donor, batch, or cell-composition proxies without making regulatory perturbation effects identifiable.",
+      "next_test": "Collect donor-replicated baseline expression and chromatin data, freeze expression-only and multimodal models, and evaluate predictions on unseen perturbations with orthogonal chromatin, protein, isoform, or functional assays.",
+      "opponent": 37,
+      "outcome": "loss",
+      "reason": "The virtual-cell project has the strongest general scientific leverage and a fixed falsifiable anchor: whether regulatory-state measurements enable prospective, held-out perturbation prediction. It explicitly supports informative negative results and orthogonal validation, whereas the MASLD project is clinically useful but broader, more observational, and more dependent on endpoint and cohort harmonization.",
+      "target": 76,
+      "timestamp": "2026-10-18T15:56:32.900630+00:00"
+    },
+    {
+      "main_risk": "Candidate isoform switches may merely reflect subtype, spliceosome activity, purity, or resistant-clone expansion rather than isoform-specific drug-response mechanisms.",
+      "next_test": "Test recurrent switches in held-out matched sensitive and resistant pairs after adjustment for subtype and total gene expression, then confirm at least one switch with isoform-specific protein or interaction evidence.",
+      "opponent": 52,
+      "outcome": "win",
+      "reason": "MASLD has a clearer fixed decision, stronger immediate validation structure, and a more economical path to an actionable modality-acquisition recommendation. Isoform switching is potentially important and novel, but the proposal spans cancer types and drugs while requiring reproducible patient measurement, separation from subtype and clonal abundance, causal interaction evidence, and an actionable alternative treatment.",
+      "target": 76,
+      "timestamp": "2026-10-18T15:56:32.900636+00:00"
     }
   ],
   "k_factor": 24,
@@ -2712,9 +2712,9 @@
     },
     "10": {
       "draws": 0,
-      "games": 30,
-      "losses": 16,
-      "rating": 1479.55,
+      "games": 31,
+      "losses": 17,
+      "rating": 1467.53,
       "wins": 14
     },
     "11": {
@@ -2894,10 +2894,10 @@
     },
     "37": {
       "draws": 0,
-      "games": 28,
+      "games": 29,
       "losses": 15,
-      "rating": 1477.03,
-      "wins": 13
+      "rating": 1489.52,
+      "wins": 14
     },
     "38": {
       "draws": 0,
@@ -3013,9 +3013,9 @@
     },
     "52": {
       "draws": 0,
-      "games": 14,
-      "losses": 8,
-      "rating": 1476.41,
+      "games": 15,
+      "losses": 9,
+      "rating": 1464.49,
       "wins": 6
     },
     "53": {
@@ -3146,10 +3146,10 @@
     },
     "7": {
       "draws": 0,
-      "games": 40,
+      "games": 41,
       "losses": 21,
-      "rating": 1478.75,
-      "wins": 19
+      "rating": 1490.75,
+      "wins": 20
     },
     "70": {
       "draws": 0,
@@ -3195,10 +3195,10 @@
     },
     "76": {
       "draws": 0,
-      "games": 6,
-      "losses": 4,
-      "rating": 1478.7,
-      "wins": 2
+      "games": 11,
+      "losses": 6,
+      "rating": 1490.55,
+      "wins": 5
     },
     "77": {
       "draws": 0,
@@ -3244,9 +3244,9 @@
     },
     "82": {
       "draws": 0,
-      "games": 6,
-      "losses": 4,
-      "rating": 1478.27,
+      "games": 7,
+      "losses": 5,
+      "rating": 1465.87,
       "wins": 2
     },
     "83": {
