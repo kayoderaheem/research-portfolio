@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Functional-screening sensitivity may reflect tissue viability, culture conditions, or assay-specific effects rather than in-patient treatment response beyond genomic and clinical baselines.",
-      "next_test": "Run a blinded, patient-level held-out comparison of genomic matching alone versus genomic matching plus locked functional-screening results, retaining assay failures and reporting calibration and decision curves.",
-      "opponent": 46,
-      "outcome": "win",
-      "reason": "Functional screening has a clearer decision-relevant anchor, stronger near-term evidence base, and a cheaper patient-level comparison against genomic matching. The TET2-macrophage proposal has potentially high mechanistic impact but depends on rare paired specimens, reliable compartment-specific clonal measurement, causal co-culture evidence, and therapeutic relevance.",
-      "target": 45,
-      "timestamp": "2026-10-02T00:51:40.674839+00:00"
-    },
-    {
-      "main_risk": "The functional assay may fail to add reproducible information beyond genomic matching, histology, clinical covariates, or simple sensitivity baselines.",
-      "next_test": "Evaluate locked functional-screening rankings against genomic and clinical baselines in an independent patient-level cohort, with assay reproducibility and orthogonal viability readouts assessed before interpreting response prediction.",
-      "opponent": 47,
-      "outcome": "win",
-      "reason": "The pediatric brain-tumor problem is narrower, more clinically anchored, and has a clearer incremental-value test. The cross-cancer MCT proposal compounds high-risk assumptions about activity measurement, biological specificity, cross-assay transportability, and preferential drug sensitization, making a six-month decision less likely.",
-      "target": 45,
-      "timestamp": "2026-10-02T00:51:40.674861+00:00"
-    },
-    {
-      "main_risk": "Temporal-model gains may disappear after controlling for measurement density, or may improve discrimination without producing clinically useful net benefit across sites.",
-      "next_test": "Compare locked static-snapshot and temporal models with measurement-density controls on patient- and hospital-held-out data, using calibration and decision-curve net benefit rather than AUROC alone.",
-      "opponent": 27,
-      "outcome": "loss",
-      "reason": "The ICU proposal has existing patient-disjoint development and external data, a relatively cheap early analysis, and a directly testable question about decision value and calibration. The pediatric screening proposal has greater potential biological and clinical specificity but depends on scarce specimens, assay reproducibility, and response linkage before its central claim can be evaluated.",
-      "target": 45,
-      "timestamp": "2026-10-02T00:51:40.674871+00:00"
-    },
-    {
-      "main_risk": "Screening recommendations may not predict clinical response once genomic matching, histology, treatment selection, tissue quality, and simple drug-sensitivity baselines are controlled.",
-      "next_test": "Use independent donor-level held-out outcomes to test whether locked functional-screening results improve calibrated treatment-response prediction over genomic and clinical baselines, including failed assays as informative missingness.",
-      "opponent": 7,
-      "outcome": "win",
-      "reason": "Functional screening offers a more bounded and decision-relevant validation problem with an existing platform and a relatively direct incremental comparison. The KRAS state-transition project could yield important mechanism, but it requires reproducibility across donors, temporal precedence, spatial relevance, and successful perturbation of actionable dependencies, each with a long and failure-prone readout chain.",
-      "target": 45,
-      "timestamp": "2026-10-02T00:51:40.674878+00:00"
-    },
-    {
-      "main_risk": "The pediatric cohort may be too small or heterogeneous to estimate treatment-response benefit and decision thresholds reliably, causing an apparently promising functional signal to remain clinically non-actionable.",
-      "next_test": "Lock a compact comparison of genomic matching alone versus genomic plus functional screening in an existing cohort, using patient-level held-out outcomes, calibration, uncertainty, and decision curves before expanding assays or modalities.",
-      "opponent": 2,
-      "outcome": "loss",
-      "reason": "The pediatric proposal has a more concrete near-term dataset and a sharply defined incremental-value question than the broader transportability project, whose success depends on adequate randomized treatment-effect information, sample size for interactions, optional biomarker availability, cross-platform harmonization, and an independent cohort. The pancreatic proposal has high potential clinical impact, but its key evidence path is less secure as written.",
-      "target": 45,
-      "timestamp": "2026-10-02T00:51:40.674885+00:00"
-    },
-    {
       "main_risk": "The proposed macrophage genotype and TGFβ state may be too rare or technically unreliable in paired anaplastic-thyroid-cancer specimens to support a reproducible patient-level signal.",
       "next_test": "Run a blinded paired-sample pilot with orthogonal myeloid-compartment TET2 assays and TGFβ activity measurements, testing whether the composite separates resistance beyond tumor-cell resistance alterations and clinical covariates.",
       "opponent": 46,
@@ -2699,6 +2654,51 @@
       "reason": "MASLD has a clearer fixed decision, stronger immediate validation structure, and a more economical path to an actionable modality-acquisition recommendation. Isoform switching is potentially important and novel, but the proposal spans cancer types and drugs while requiring reproducible patient measurement, separation from subtype and clonal abundance, causal interaction evidence, and an actionable alternative treatment.",
       "target": 76,
       "timestamp": "2026-10-18T15:56:32.900636+00:00"
+    },
+    {
+      "main_risk": "The BIS below 40 five-minute-ahead endpoint may not represent an actionable clinical decision, making predictive gains clinically irrelevant.",
+      "next_test": "Run the prespecified patient-level, site-held-out comparison of BIS-only, BIS-plus-context, and multimodal models with alarm-cost decision analysis and clinician review of false alarms.",
+      "opponent": 85,
+      "outcome": "win",
+      "reason": "Vital-sign and medication signals offer a more tractable, decision-focused question with apparently available longitudinal data, strict patient/site-held-out validation, strong baselines, and an eight-week test. The SECmere project has greater possible biological and clinical impact but depends first on technically reproducible particle isolation, distinct biology, and costly external calibration.",
+      "target": 84,
+      "timestamp": "2026-10-18T20:51:43.959219+00:00"
+    },
+    {
+      "main_risk": "Adjustment may show that testosterone and creatinine add no transportable value beyond age and PSA, especially because creatinine may only reflect kidney dysfunction or referral-spectrum differences.",
+      "next_test": "Fit prespecified age- and renal-function-adjusted nested models on existing data and compare PSA-only, age-plus-PSA, and multimarker decision curves at clinically relevant biopsy thresholds.",
+      "opponent": 86,
+      "outcome": "win",
+      "reason": "The PSA, age, testosterone, and creatinine problem has a cheap early readout using existing measurements and directly tests whether an apparent signal survives age and renal-function adjustment. It addresses an important and potentially equitable biopsy-triage need, whereas the anesthesia project has stronger data readiness but a questionable surrogate endpoint and substantial synchronization and cross-site calibration demands.",
+      "target": 84,
+      "timestamp": "2026-10-18T20:51:43.959242+00:00"
+    },
+    {
+      "main_risk": "The deep-anesthesia warning target may be a surrogate without a credible intervention pathway, so even a calibrated multimodal predictor may not change care.",
+      "next_test": "Use available anesthesia time series for an eight-week patient-level and site-held-out alarm-cost comparison against BIS-only and BIS-plus-context baselines.",
+      "opponent": 62,
+      "outcome": "win",
+      "reason": "The anesthesia project has a clearer early decision, more accessible validation path, and lower experimental risk. The tumor-lung ERK project could yield a more novel mechanistic insight, but it requires independent specimens, reliable longitudinal spatial measurement, proof of induction rather than selection, causal fibroblast-FGFR evidence, and cross-platform replication.",
+      "target": 84,
+      "timestamp": "2026-10-18T20:51:43.959253+00:00"
+    },
+    {
+      "main_risk": "The BIS threshold may not map to a clinically actionable intervention, weakening the claimed precision-medicine value.",
+      "next_test": "Perform the locked eight-week patient/site-held-out evaluation with prespecified warning thresholds, calibration, false-alarm burden, and clinician adjudication of candidate warnings.",
+      "opponent": 53,
+      "outcome": "win",
+      "reason": "The anesthesia question can be tested rapidly with available time-series data and has a concrete modality-ablation and alarm-utility design. The bladder-cancer heterogeneity project has potentially greater clinical impact, but serial sampling, lesion comparability, necrosis and tissue-quality effects, and a sufficiently harmonized treated cohort create more high-risk dependencies before a trustworthy result is possible.",
+      "target": 84,
+      "timestamp": "2026-10-18T20:51:43.959260+00:00"
+    },
+    {
+      "main_risk": "Available anesthesia data may not support genuinely independent site-held-out validation, leaving only a retrospective benchmark gain without clinical credibility.",
+      "next_test": "Verify cohort and site availability, then run the locked BIS-only versus multimodal patient-level analysis with external-site calibration and prespecified net-benefit thresholds.",
+      "opponent": 45,
+      "outcome": "win",
+      "reason": "The anesthesia project is the stronger near-term investment because it has clearer data readiness, simpler assay requirements, and an early independent-site decision test. Functional screening in pediatric brain tumors has exceptional potential impact, but the evidence is exploratory, the assay and treatment-ranking chain is fragile, pediatric cohorts are small, and culture conditions and treatment selection may dominate any apparent signal.",
+      "target": 84,
+      "timestamp": "2026-10-18T20:51:43.959267+00:00"
     }
   ],
   "k_factor": 24,
@@ -2957,9 +2957,9 @@
     },
     "45": {
       "draws": 0,
-      "games": 12,
-      "losses": 6,
-      "rating": 1500.49,
+      "games": 13,
+      "losses": 7,
+      "rating": 1490.04,
       "wins": 6
     },
     "46": {
@@ -3020,9 +3020,9 @@
     },
     "53": {
       "draws": 0,
-      "games": 14,
-      "losses": 7,
-      "rating": 1499.67,
+      "games": 15,
+      "losses": 8,
+      "rating": 1488.88,
       "wins": 7
     },
     "54": {
@@ -3090,9 +3090,9 @@
     },
     "62": {
       "draws": 0,
-      "games": 20,
-      "losses": 10,
-      "rating": 1500.22,
+      "games": 21,
+      "losses": 11,
+      "rating": 1489.03,
       "wins": 10
     },
     "63": {
@@ -3255,6 +3255,27 @@
       "losses": 2,
       "rating": 1521.93,
       "wins": 4
+    },
+    "84": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1556.02,
+      "wins": 5
+    },
+    "85": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "86": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
     },
     "9": {
       "draws": 1,
