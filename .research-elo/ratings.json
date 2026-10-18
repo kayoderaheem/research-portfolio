@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Issue 43 may fail if apparent cross-domain response signals are driven primarily by assay, dose, provenance, or dataset effects rather than transportable biology.",
-      "next_test": "Run strict drug-disjoint and double-disjoint ablations on a development cohort, then test the locked uncertainty-gated model on the smallest genuinely independent cohort or orthogonal assay available.",
-      "opponent": 11,
-      "outcome": "win",
-      "reason": "Issue 43 offers broader utility, more accessible retrospective validation, strong leakage-resistant baselines, and an early decision point. Issue 11 has high clinical value but depends on difficult spatial sampling, reproducible tissue measurements, adequate longitudinal specimens, and incremental value beyond established composition and clinical predictors.",
-      "target": 43,
-      "timestamp": "2026-10-01T10:15:16.902722+00:00"
-    },
-    {
-      "main_risk": "Issue 43 may not show that uncertainty or applicability-domain estimates improve treatment-ranking decisions beyond strong simple baselines under genuine unseen-drug and unseen-tumor shifts.",
-      "next_test": "Lock transcriptomic-only, drug-structure-only, additive, and complex models under strict drug-disjoint and double-disjoint splits and measure ranking error, calibration, and abstention utility on held-out shifts.",
-      "opponent": 39,
-      "outcome": "loss",
-      "reason": "Issue 43 is the stronger six-month investment because its scientific anchor is broad and decision-oriented, its data and baselines are comparatively mature, and strict transportability tests can quickly distinguish useful signal from dataset-specific performance. Issue 39 has major conceptual value but requires simultaneously resolving state identifiability, donor and perturbation extrapolation, neighborhood representation, and prospective counterfactual validation.",
-      "target": 43,
-      "timestamp": "2026-10-01T10:15:16.902743+00:00"
-    },
-    {
-      "main_risk": "Issue 43 may produce transportable prediction without demonstrating that relative response rankings or abstention rules are clinically actionable for combination selection.",
-      "next_test": "Use a locked model in an external cohort to compare treatment-ranking and uncertainty-gated utility against clinical, drug-only, tumor-state-only, and simple ensemble baselines.",
-      "opponent": 2,
-      "outcome": "win",
-      "reason": "Issue 43 has a broader technology contribution and a more feasible early readout than Issue 2. The pancreatic-cancer project could have greater direct clinical value, but estimating transportable differential benefit requires adequate randomized interaction power, harmonized multimodal data, and an independent institutional cohort, creating several long-readout dependencies.",
-      "target": 43,
-      "timestamp": "2026-10-01T10:15:16.902751+00:00"
-    },
-    {
-      "main_risk": "Issue 43 may require external cohorts and orthogonal assays that are unavailable or too heterogeneous for a credible six-month transportability test.",
-      "next_test": "Complete a strict leakage audit and nested drug-disjoint/double-disjoint benchmark with measurement-matched simple baselines, then test whether uncertainty gating improves calibrated ranking utility on an independent cohort.",
-      "opponent": 27,
-      "outcome": "win",
-      "reason": "Issue 43 addresses a broader and less incremental problem than Issue 27 and has greater potential leverage across drug-response settings. Issue 27 is relatively tractable and well structured, but its prior temporal-model result did not beat tuned LightGBM, and the central gain may disappear after controlling for measurement density; access to a third independent ICU database is also uncertain.",
-      "target": 43,
-      "timestamp": "2026-10-01T10:15:16.902755+00:00"
-    },
-    {
-      "main_risk": "Issue 43 may fail to establish that its learned response relationships generalize biologically rather than reflecting assay composition, dose range, or compound and tumor-model overlap.",
-      "next_test": "Prospectively evaluate the locked transportability and uncertainty rule on unseen drugs and tumor models, with an orthogonal response assay and explicit abstention thresholds.",
-      "opponent": 41,
-      "outcome": "loss",
-      "reason": "Issue 43 provides a broader, more replaceable technology target with clearer near-term datasets, baselines, and branch points. Issue 41 is unusually novel and could reveal important history-dependent chromatin biology, but it combines uncertain mechanism, demanding lineage-resolved multimodal experiments, causal ordering, schedule extrapolation, and cross-strain transfer within a six-month window.",
-      "target": 43,
-      "timestamp": "2026-10-01T10:15:16.902761+00:00"
-    },
-    {
       "main_risk": "CAIX-targeted uptake may primarily reflect perfusion, necrosis, delivery, or tumor burden rather than hypoxia-specific resistance.",
       "next_test": "Run the blinded 10-week serial-imaging study comparing early CAIX uptake change with baseline CAIX, conventional imaging change, and later progression, with spatially matched orthogonal hypoxia and perfusion/necrosis assays.",
       "opponent": 44,
@@ -2699,6 +2654,51 @@
       "reason": "Alexander disease offers a clinically interpretable monitoring question with an inexpensive retrospective branch point and useful outcomes even if GFAP adds no information. KRAS adaptive-state work has substantial potential, but reproducibility, temporal precedence, spatial specificity, and pharmacologic actionability all require serial donor-level profiling and several orthogonal experiments before a durable resistance mechanism is established.",
       "target": 82,
       "timestamp": "2026-10-18T04:41:54.763884+00:00"
+    },
+    {
+      "main_risk": "The methylation score may add no information beyond IPSS-M or may fail transport because of cell composition, batch, or site effects.",
+      "next_test": "Reconstruct IPSS-M and the locked 55-CpG score in a patient-level retrospective cohort with blinded preprocessing, calibration, and decision-curve analysis.",
+      "opponent": 40,
+      "outcome": "win",
+      "reason": "The methylation problem has a clearer clinical anchor, an already defined score, patient-level leakage controls, and an inexpensive early test of incremental decision value beyond IPSS-M. The virtual-screening problem has broader technological upside but depends on multiple high-risk assumptions about context representation, synergy measurement, and transfer to donor-derived models.",
+      "target": 81,
+      "timestamp": "2026-10-18T11:17:18.300263+00:00"
+    },
+    {
+      "main_risk": "The methylation score may fail independent calibration or provide discrimination without clinically useful reclassification over IPSS-M.",
+      "next_test": "Run the prespecified nested IPSS-M versus IPSS-M-plus-methylation comparison with patient- and site-aware validation, including calibration and net benefit at clinical thresholds.",
+      "opponent": 27,
+      "outcome": "win",
+      "reason": "The methylation project offers a more bounded and immediately testable precision-medicine question with a fixed biomarker and an 8-week retrospective readout. The ICU project is highly relevant and data-accessible, but its temporal advantage may reflect measurement density, prior tuned baselines already challenge the model, and genuine third-database validation is uncertain.",
+      "target": 81,
+      "timestamp": "2026-10-18T11:17:18.300282+00:00"
+    },
+    {
+      "main_risk": "Peripheral-blood methylation may be a nontransportable proxy for leukocyte composition or cohort-specific processing rather than a stable patient-level signal.",
+      "next_test": "Test the locked methylation score beyond IPSS-M in a patient-level cohort with blinded preprocessing, measured cell-composition adjustment, and prespecified calibration and decision-curve criteria.",
+      "opponent": 78,
+      "outcome": "win",
+      "reason": "The methylation problem has a more mature, deployable measurement concept and a lower-cost earliest branch than multimodal airway prediction. Airway assessment could have substantial clinical value, but endpoint adjudication, ultrasound operator and device variability, acquisition feasibility, and optional facial or voice data create several coupled risks before incremental value can be established.",
+      "target": 81,
+      "timestamp": "2026-10-18T11:17:18.300290+00:00"
+    },
+    {
+      "main_risk": "The methylation score may not transport across sites, platforms, treatment eras, or clinically relevant risk groups.",
+      "next_test": "Perform an independent, patient-level validation of IPSS-M plus the 55-CpG score with platform concordance, subgroup calibration, and decision-curve analysis.",
+      "opponent": 63,
+      "outcome": "loss",
+      "reason": "The methylation project is the stronger six-month investment because it has a defined biomarker, established clinical comparator, cheaper early validation, and a direct decision-value endpoint. The UCHL1 spatial-neighborhood hypothesis is biologically compelling, but it requires costly tissue profiling, reproducible cell-state and spatial measurement, external cohort replication, and functional validation while remaining vulnerable to confounding by disease severity.",
+      "target": 81,
+      "timestamp": "2026-10-18T11:17:18.300295+00:00"
+    },
+    {
+      "main_risk": "Methylation may improve statistical discrimination while failing to change calibrated treatment or monitoring decisions.",
+      "next_test": "Use a locked 55-CpG score in a patient-level cohort to compare IPSS-M alone with the augmented model for calibration, reclassification, and net benefit at prespecified thresholds.",
+      "opponent": 55,
+      "outcome": "win",
+      "reason": "The methylation question is more decision-ready: it tests a specific incremental contribution to an established risk model and can produce an informative continue, refine, or stop result quickly. Mutation-specific target engagement has important mechanistic and translational potential, but it spans biochemical engagement, cellular context, lineage effects, exposure, and resistance evolution, with weaker evidence readiness and a longer chain of assumptions.",
+      "target": 81,
+      "timestamp": "2026-10-18T11:17:18.300302+00:00"
     }
   ],
   "k_factor": 24,
@@ -2817,9 +2817,9 @@
     },
     "27": {
       "draws": 0,
-      "games": 29,
-      "losses": 13,
-      "rating": 1540.73,
+      "games": 30,
+      "losses": 14,
+      "rating": 1528.95,
       "wins": 16
     },
     "28": {
@@ -2922,9 +2922,9 @@
     },
     "40": {
       "draws": 1,
-      "games": 26,
-      "losses": 11,
-      "rating": 1536.83,
+      "games": 27,
+      "losses": 12,
+      "rating": 1524.77,
       "wins": 14
     },
     "41": {
@@ -3034,9 +3034,9 @@
     },
     "55": {
       "draws": 0,
-      "games": 10,
-      "losses": 4,
-      "rating": 1522.04,
+      "games": 11,
+      "losses": 5,
+      "rating": 1511.26,
       "wins": 6
     },
     "56": {
@@ -3097,10 +3097,10 @@
     },
     "63": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 4,
-      "rating": 1545.36,
-      "wins": 8
+      "rating": 1558.23,
+      "wins": 9
     },
     "64": {
       "draws": 0,
@@ -3209,9 +3209,9 @@
     },
     "78": {
       "draws": 0,
-      "games": 10,
-      "losses": 3,
-      "rating": 1544.11,
+      "games": 11,
+      "losses": 4,
+      "rating": 1532.62,
       "wins": 7
     },
     "79": {
@@ -3237,10 +3237,10 @@
     },
     "81": {
       "draws": 0,
-      "games": 5,
-      "losses": 1,
-      "rating": 1535.13,
-      "wins": 4
+      "games": 10,
+      "losses": 2,
+      "rating": 1568.37,
+      "wins": 8
     },
     "82": {
       "draws": 0,
