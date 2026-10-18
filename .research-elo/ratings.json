@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The proposed macrophage genotype and TGFβ state may be too rare or technically unreliable in paired anaplastic-thyroid-cancer specimens to support a reproducible patient-level signal.",
-      "next_test": "Run a blinded paired-sample pilot with orthogonal myeloid-compartment TET2 assays and TGFβ activity measurements, testing whether the composite separates resistance beyond tumor-cell resistance alterations and clinical covariates.",
-      "opponent": 46,
-      "outcome": "loss",
-      "reason": "TET2-mutant macrophage-associated TGFβ signaling is a narrower, more causally anchored resistance problem with a concrete tumor–microenvironment perturbation path, whereas the MCT project requires transportable measurement and association across many cancers, assays, and therapies before mechanism is established.",
-      "target": 47,
-      "timestamp": "2026-10-02T09:52:49.274382+00:00"
-    },
-    {
-      "main_risk": "MCT1/MCT4 expression or activity may be a nonspecific correlate of hypoxia, proliferation, purity, or poor prognosis rather than a reproducible persistence mechanism.",
-      "next_test": "In a paired pretreatment/early-treatment pilot, compare a locked MCT transport state against expression-only, proliferation, hypoxia, simple lactate/pH, and established persistence baselines, with independent patient-level validation and functional orthogonal assays.",
-      "opponent": 44,
-      "outcome": "win",
-      "reason": "The lactate-transport problem offers broader biological generality, multiple assay and cancer-context branches, and a relatively direct biomarker-to-functional-perturbation path. The CAIX imaging project depends on tracer specificity, spatial tissue alignment, scanner transportability, and a clinically meaningful decision effect, creating a longer and more fragile chain of assumptions.",
-      "target": 47,
-      "timestamp": "2026-10-02T09:52:49.274404+00:00"
-    },
-    {
-      "main_risk": "Apparent treatment-induced single-cell transitions may reflect technical stress, cell-cycle effects, clonal selection, or sampling rather than reproducible plasticity that precedes resistance.",
-      "next_test": "Profile matched pretreatment and early-treatment samples from independent PDAC donors with untreated controls, then test a prespecified transition score against donor-held-out regrowth or resistance while checking orthogonal phosphoprotein or imaging concordance.",
-      "opponent": 7,
-      "outcome": "loss",
-      "reason": "The KRAS project has the clearer scientific anchor for discovering adaptive resistance mechanisms, explicitly tests temporal precedence, and can produce useful outcomes if transitions prove model-specific or non-actionable. The MCT project has greater breadth but makes several high-risk cross-cancer measurement and transportability assumptions before its mechanistic value is clear.",
-      "target": 47,
-      "timestamp": "2026-10-02T09:52:49.274413+00:00"
-    },
-    {
-      "main_risk": "MCT activity may not be distinguishable from generic hypoxia, proliferation, or tumor-purity effects after adjustment, eliminating the claimed cross-context signal.",
-      "next_test": "Use shared patient-derived specimens to compare MCT transcript, protein, localization, lactate flux, intracellular pH, and isotope tracing, then test a prespecified state against persistence outcomes and simple biological baselines.",
-      "opponent": 10,
-      "outcome": "win",
-      "reason": "The MCT problem has wider potential applicability and a flexible assay and cancer-type scope, while retaining a testable biomarker-to-intervention hypothesis. The HCC niche project is biologically interesting but depends on difficult spatial lipid measurement, local tissue sampling, treatment-context transportability, and proving that proximity adds value beyond immune composition.",
-      "target": 47,
-      "timestamp": "2026-10-02T09:52:49.274420+00:00"
-    },
-    {
-      "main_risk": "The dynamic inflammatory measurements may merely track postoperative severity or sampling time and add no actionable information beyond baseline risk and early function.",
-      "next_test": "Before a large cohort, prospectively define one recovery endpoint and rehabilitation decision, then run a small multicenter landmark pilot comparing a single prespecified inflammatory measurement and trajectory against clinical, frailty, and early-function baselines with calibration and decision-curve analyses.",
-      "opponent": 23,
-      "outcome": "loss",
-      "reason": "The MCT project poses a broader discovery and technology problem with a flexible anchor, cross-context branches, and a direct early biomarker and perturbation test. The rehabilitation project has plausible clinical value but requires first specifying and delivering a consistent rehabilitation decision, then demonstrating incremental decision utility and transportable calibration across sites—a slower and more intervention-dependent path.",
-      "target": 47,
-      "timestamp": "2026-10-02T09:52:49.274426+00:00"
-    },
-    {
       "main_risk": "Treatment-induced single-cell states may be model-specific stress responses or clonal selection rather than reproducible, temporally predictive transitions.",
       "next_test": "Prospectively profile matched pretreatment and early on-treatment samples from independent PDAC donors and test a locked transition score against pretreatment composition and genotype baselines.",
       "opponent": 7,
@@ -2699,6 +2654,51 @@
       "reason": "The anesthesia project is the stronger near-term investment because it has clearer data readiness, simpler assay requirements, and an early independent-site decision test. Functional screening in pediatric brain tumors has exceptional potential impact, but the evidence is exploratory, the assay and treatment-ranking chain is fragile, pediatric cohorts are small, and culture conditions and treatment selection may dominate any apparent signal.",
       "target": 84,
       "timestamp": "2026-10-18T20:51:43.959267+00:00"
+    },
+    {
+      "main_risk": "For issue 86, adjustment for age, renal function, comorbidity, and referral-spectrum bias may eliminate the apparent incremental value of testosterone and creatinine.",
+      "next_test": "Run the prespecified patient-level nested comparison of PSA alone, age plus PSA, and the multimarker model on existing data, with calibration and decision curves at fixed biopsy-referral thresholds.",
+      "opponent": 85,
+      "outcome": "win",
+      "reason": "Issue 86 has a narrower but clinically concrete question, likely accessible individual-level data, strong baselines, and an inexpensive age- and renal-function-adjusted analysis that can quickly determine whether the biomarkers add decision value. Issue 85 has higher potential impact, but its central particle-fraction distinction, assay reproducibility, biological specificity, and cross-site calibration require several high-risk technical steps before a credible result.",
+      "target": 86,
+      "timestamp": "2026-10-18T23:19:31.559670+00:00"
+    },
+    {
+      "main_risk": "For issue 86, the apparent biomarker associations may be entirely explained by age, renal dysfunction, comorbidity, or referral-spectrum bias.",
+      "next_test": "Analyze the existing cohort with locked age- and renal-function-adjusted patient-level validation, comparing PSA and age baselines against the multimarker model for calibration, sensitivity, and net benefit.",
+      "opponent": 53,
+      "outcome": "win",
+      "reason": "Issue 86 offers a cheap, well-defined early test using established clinical measurements and can produce useful outcomes even if the biomarkers fail. Issue 53 has important potential clinical value, but serial heterogeneity is vulnerable to sampling variation, necrosis, assay reproducibility, and treatment-specific availability, with a longer and more demanding validation chain.",
+      "target": 86,
+      "timestamp": "2026-10-18T23:19:31.559689+00:00"
+    },
+    {
+      "main_risk": "For issue 86, the incremental signal may disappear after rigorous adjustment for age, kidney function, comorbidity, and spectrum differences.",
+      "next_test": "Perform the locked patient-level analysis of existing PSA, testosterone, creatinine, age, and renal-function data against strong PSA-based baselines, using prespecified decision thresholds.",
+      "opponent": 62,
+      "outcome": "win",
+      "reason": "Issue 86 has a clearer clinical anchor, lower technical burden, and an early analysis capable of supporting continue, pivot, or stop decisions within six months. Issue 62 could yield a more mechanistic and generalizable resistance insight, but it depends on scarce matched specimens, reproducible spatial measurements, proof of induction rather than selection, and cross-specimen FGFR causality.",
+      "target": 86,
+      "timestamp": "2026-10-18T23:19:31.559703+00:00"
+    },
+    {
+      "main_risk": "For issue 37, multimodal features may capture donor, batch, or cell-composition proxies without identifying perturbation-specific regulatory effects, leaving apparent prediction gains non-mechanistic.",
+      "next_test": "Run a small donor-replicated perturbation panel and compare frozen expression-only and multimodal models on held-out donors and perturbations using simple baselines before expanding modalities or model complexity.",
+      "opponent": 37,
+      "outcome": "loss",
+      "reason": "Issue 37 addresses a broader and potentially more consequential scientific problem: whether multimodal baseline state measurements make virtual-cell perturbation predictions falsifiable and transferable. Its prospective donor- and perturbation-held-out design, strong baselines, and orthogonal validation create useful branches even if the favored model fails, whereas issue 86 is more immediately tractable but likely offers a narrower incremental biomarker result.",
+      "target": 86,
+      "timestamp": "2026-10-18T23:19:31.559710+00:00"
+    },
+    {
+      "main_risk": "For issue 86, rigorous adjustment and external validation may show that testosterone and creatinine provide no clinically meaningful value beyond age and PSA.",
+      "next_test": "Reanalyze an existing patient-level cohort with locked comparisons of PSA alone, age plus PSA, and the testosterone-creatinine model, preserving assay failures and evaluating calibration, sensitivity, and decision curves.",
+      "opponent": 45,
+      "outcome": "win",
+      "reason": "Issue 86 has a more economical and decision-ready six-month path: the clinical endpoint, baseline comparators, leakage controls, and earliest discriminating analysis are explicit. Issue 45 has greater potential clinical impact, but pediatric sample scarcity, assay failure and culture effects, treatment-selection bias, and the need to show value beyond genomic matching create several high-risk dependencies before functional screening can credibly alter treatment decisions.",
+      "target": 86,
+      "timestamp": "2026-10-18T23:19:31.559717+00:00"
     }
   ],
   "k_factor": 24,
@@ -2894,10 +2894,10 @@
     },
     "37": {
       "draws": 0,
-      "games": 29,
+      "games": 30,
       "losses": 15,
-      "rating": 1489.52,
-      "wins": 14
+      "rating": 1502.68,
+      "wins": 15
     },
     "38": {
       "draws": 0,
@@ -2957,9 +2957,9 @@
     },
     "45": {
       "draws": 0,
-      "games": 13,
-      "losses": 7,
-      "rating": 1490.04,
+      "games": 14,
+      "losses": 8,
+      "rating": 1478.73,
       "wins": 6
     },
     "46": {
@@ -3020,9 +3020,9 @@
     },
     "53": {
       "draws": 0,
-      "games": 15,
-      "losses": 8,
-      "rating": 1488.88,
+      "games": 16,
+      "losses": 9,
+      "rating": 1477.28,
       "wins": 7
     },
     "54": {
@@ -3090,9 +3090,9 @@
     },
     "62": {
       "draws": 0,
-      "games": 21,
-      "losses": 11,
-      "rating": 1489.03,
+      "games": 22,
+      "losses": 12,
+      "rating": 1477.82,
       "wins": 10
     },
     "63": {
@@ -3265,17 +3265,17 @@
     },
     "85": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
+      "games": 2,
+      "losses": 2,
+      "rating": 1476.01,
       "wins": 0
     },
     "86": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 2,
+      "rating": 1521.36,
+      "wins": 4
     },
     "9": {
       "draws": 1,
