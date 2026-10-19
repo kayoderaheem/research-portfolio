@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The reproducibility project may show that rankings are driven mainly by lineage, baseline viability, or platform-specific technical structure rather than transferable response biology.",
-      "next_test": "Run the blinded two-laboratory common-panel experiment and estimate patient-level ranking correlation, control failure, and calibration against held-out clinical response before expanding harmonization or mechanistic modeling.",
-      "opponent": 49,
-      "outcome": "win",
-      "reason": "Cross-assay reproducibility is the stronger current investment because it has a broader technology payoff, a clear patient-level scientific anchor, strong leakage-resistant validation design, and an earlier multisite test that can distinguish transferable biology from assay artifacts. The exposure-adjusted phosphoproteomic project has greater mechanistic and clinical upside but depends on several high-risk links: appropriately timed exposure sampling, reproducible phosphosite measurements, valid resistance attribution, and functional confirmation.",
-      "target": 48,
-      "timestamp": "2026-10-02T22:19:15.341295+00:00"
-    },
-    {
-      "main_risk": "The apparent cross-assay agreement may be nonbiological, reflecting tumor lineage, viability baseline, concentration conventions, or shared preprocessing rather than clinically useful reproducibility.",
-      "next_test": "Use locked preprocessing on matched patient-derived samples run in two independent laboratories, comparing ranking stability against single-metric, lineage-adjusted, and baseline-growth baselines.",
-      "opponent": 50,
-      "outcome": "win",
-      "reason": "Cross-assay reproducibility currently deserves more time because it addresses a foundational bottleneck across drugs, tumor types, institutions, and assay platforms, with a relatively direct 10-week decision test and useful outcomes even if the composite metric fails. The tamoxifen project has credible clinical relevance but requires reliable longitudinal exposure, adherence, germline and somatic data, progression timing, and ancestry-stratified calibration; these confounding and missingness risks make its integrated model harder to interpret and validate within six months.",
-      "target": 48,
-      "timestamp": "2026-10-02T22:19:15.341319+00:00"
-    },
-    {
-      "main_risk": "The common-panel study may find low reproducibility, leaving no stable response signal to harmonize across assay contexts.",
-      "next_test": "Blindly test the same tumor-derived models and drug panel across two laboratories, requiring ranking correlation and control-performance thresholds while comparing against simple pharmacology and lineage baselines.",
-      "opponent": 40,
-      "outcome": "win",
-      "reason": "Cross-assay reproducibility is the stronger investment because it has a fixed, generalizable problem and an early empirical test that can support continuation, assay-specific restriction, or stopping. The virtual-screening project combines uncertain synergy estimation, context extrapolation, mechanistic biomarker measurement, and transfer beyond related cell lines or organoids; even a benchmark gain could fail to establish a useful biological rule.",
-      "target": 48,
-      "timestamp": "2026-10-02T22:19:15.341330+00:00"
-    },
-    {
-      "main_risk": "The reproducibility signal may not survive adjustment for lineage, baseline growth, and institution, making the capability less transferable than expected.",
-      "next_test": "Conduct the two-site blinded common-panel pilot and determine whether patient-level rankings remain stable beyond lineage-only and baseline-growth models, with assay failure and calibration reported explicitly.",
-      "opponent": 23,
-      "outcome": "win",
-      "reason": "Cross-assay reproducibility currently merits the time because it offers broader utility, a clearer technology anchor, and a substantially earlier branch point than the rehabilitation project. The knee-arthroplasty idea has meaningful patient potential, but it requires a prespecified actionable rehabilitation decision, consistent intervention delivery, reliable serial measurements, and transportable site-shift calibration; its main value depends on proving decision improvement rather than merely tracking recovery severity.",
-      "target": 48,
-      "timestamp": "2026-10-02T22:19:15.341337+00:00"
-    },
-    {
-      "main_risk": "The pediatric project may have uniquely actionable value in tumors lacking genomic matches, but the reproducibility project could overlook this clinically important subgroup if it optimizes pooled ranking stability.",
-      "next_test": "Compare locked genomic matching alone with genomic-plus-functional ranking in a patient-level held-out pediatric cohort, preserving failed assays and reporting calibration, abstention, subgroup performance, and orthogonal assay concordance.",
-      "opponent": 45,
-      "outcome": "win",
-      "reason": "Cross-assay reproducibility is the stronger current investment because it targets a general obstacle to functional precision oncology, supports independent patient- and site-level validation, and has a cheap early test with informative positive, ambiguous, or negative branches. The pediatric brain-tumor project has high potential clinical impact but is constrained by rare-disease sample size, assay failure and tissue-quality selection, treatment-selection confounding, and limited evidence that screening adds value beyond genomic matching; its stated exploratory outcome is too small to establish transportability.",
-      "target": 48,
-      "timestamp": "2026-10-02T22:19:15.341345+00:00"
-    },
-    {
       "main_risk": "Issue 50 may not have sufficient complete longitudinal exposure, adherence, germline, somatic, and ancestry-stratified outcome data to support reliable calibration.",
       "next_test": "Assemble the retrospective cohort and test whether repeated endoxifen exposure plus baseline or emerging ESR1 information adds calibrated value over CYP2D6, clinical, and adherence baselines in held-out patients.",
       "opponent": 49,
@@ -2699,6 +2654,51 @@
       "reason": "SECmere RNA offers a more generalizable particle-compartment question, an explicit clinical use, and a relatively cheap early branch point. The bladder-cancer heterogeneity project is tightly coupled to a specific treatment and serial tissue protocol, while repeat sampling, necrosis, and spatial heterogeneity may make the measured change an unreliable indicator of residual resistant disease.",
       "target": 85,
       "timestamp": "2026-10-19T04:50:21.098392+00:00"
+    },
+    {
+      "main_risk": "BIS below 40 may be a clinically weak surrogate, so predictive improvement may not translate into an actionable intervention.",
+      "next_test": "Run the preregistered patient-level, site-held-out comparison of BIS-only, BIS-plus-context, and multimodal models with calibration and alarm-cost net benefit.",
+      "opponent": 63,
+      "outcome": "win",
+      "reason": "The anesthesia question has a clearer six-month path to a decisive, leakage-resistant incremental-value result using existing time-series data, with modality ablations and alarm utility providing useful outcomes even if the multimodal hypothesis fails. The HCC proposal has higher biological and clinical ambition but depends on reproducible spatial states, independent tissue cohorts, temporal precedence, and functional validation.",
+      "target": 84,
+      "timestamp": "2026-10-19T13:30:09.856200+00:00"
+    },
+    {
+      "main_risk": "The lymphoma study may lack a sufficiently large, harmonized, independent center-held-out cohort, making spatial gains impossible to distinguish from center, tissue-quality, or sampling artifacts.",
+      "next_test": "Pre-register data access and run the 12-week nested benchmark with one center held out, comparing clinical, composition, imaging or molecular, and spatial models under identical preprocessing and tuning rules.",
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "The anesthesia project offers a faster and more tractable decision, but its endpoint and intervention value are uncertain. The lymphoma problem has broader technology value: it can establish whether spatial context adds reproducible information beyond strong clinical and composition baselines, and a negative result would still prevent costly benchmark-driven model development.",
+      "target": 84,
+      "timestamp": "2026-10-19T13:30:09.856218+00:00"
+    },
+    {
+      "main_risk": "The BIS warning may not correspond to a validated clinical action, leaving a statistically useful forecast without meaningful patient benefit.",
+      "next_test": "Evaluate the anesthesia models on a locked site-held-out cohort with prespecified alarm costs, calibration, false alarms, and clinician-reviewed candidate interventions.",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "The anesthesia proposal is more likely to produce a decisive result within six months because the data streams and baselines are comparatively concrete, and its earliest test directly measures incremental calibrated decision value. Corneal imaging has important clinical potential, but it requires resolving reference-standard circularity, acquisition reproducibility, missingness, and site transportability before its signal can be trusted.",
+      "target": 84,
+      "timestamp": "2026-10-19T13:30:09.856228+00:00"
+    },
+    {
+      "main_risk": "The methylation score may add no information beyond IPSS-M or may reflect blood-cell composition, batch, specimen handling, or treatment-era differences.",
+      "next_test": "Reconstruct IPSS-M and add the locked 55-CpG score in an independent patient-level cohort, testing calibration and decision curves at prespecified management thresholds.",
+      "opponent": 81,
+      "outcome": "loss",
+      "reason": "The methylation question is anchored to an established risk model and a clinically meaningful progression endpoint, with a fixed 55-CpG score that can be tested directly for incremental decision value. It therefore has a stronger scientific and translational anchor than the anesthesia proposal, whose BIS threshold is a potentially weak surrogate and whose intervention pathway remains undefined.",
+      "target": 84,
+      "timestamp": "2026-10-19T13:30:09.856235+00:00"
+    },
+    {
+      "main_risk": "Incomplete or selectively performed reference imaging could create verification and spectrum bias, overstating the safety of a rule-out pathway.",
+      "next_test": "Assemble consecutive suspected cases across sites, audit near-complete blinded imaging adjudication, and test symptom duration plus prespecified clinical variables against D-dimer alone in a locked held-out cohort.",
+      "opponent": 80,
+      "outcome": "loss",
+      "reason": "The cerebral venous thrombosis problem addresses a direct, high-consequence diagnostic decision and has useful branches: it can test D-dimer alone, clinical integration, symptom-duration effects, assay transportability, and verification bias before any prospective intervention. The anesthesia project is easier to execute, but its warning target is less clearly actionable and may yield only surrogate forecasting gains.",
+      "target": 84,
+      "timestamp": "2026-10-19T13:30:09.856246+00:00"
     }
   ],
   "k_factor": 24,
@@ -2747,9 +2747,9 @@
     },
     "17": {
       "draws": 0,
-      "games": 22,
-      "losses": 8,
-      "rating": 1562.73,
+      "games": 23,
+      "losses": 9,
+      "rating": 1550.92,
       "wins": 14
     },
     "18": {
@@ -2852,9 +2852,9 @@
     },
     "31": {
       "draws": 0,
-      "games": 26,
-      "losses": 10,
-      "rating": 1563.56,
+      "games": 27,
+      "losses": 11,
+      "rating": 1552.12,
       "wins": 16
     },
     "32": {
@@ -3097,9 +3097,9 @@
     },
     "63": {
       "draws": 0,
-      "games": 13,
-      "losses": 4,
-      "rating": 1558.23,
+      "games": 14,
+      "losses": 5,
+      "rating": 1546.15,
       "wins": 9
     },
     "64": {
@@ -3230,17 +3230,17 @@
     },
     "80": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 0,
-      "rating": 1568.73,
-      "wins": 6
+      "rating": 1581.07,
+      "wins": 7
     },
     "81": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 2,
-      "rating": 1568.37,
-      "wins": 8
+      "rating": 1581.16,
+      "wins": 9
     },
     "82": {
       "draws": 0,
@@ -3258,10 +3258,10 @@
     },
     "84": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
-      "rating": 1556.02,
-      "wins": 5
+      "games": 10,
+      "losses": 2,
+      "rating": 1566.22,
+      "wins": 8
     },
     "85": {
       "draws": 0,
