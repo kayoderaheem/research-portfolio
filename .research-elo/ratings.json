@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Issue 50 may not have sufficient complete longitudinal exposure, adherence, germline, somatic, and ancestry-stratified outcome data to support reliable calibration.",
-      "next_test": "Assemble the retrospective cohort and test whether repeated endoxifen exposure plus baseline or emerging ESR1 information adds calibrated value over CYP2D6, clinical, and adherence baselines in held-out patients.",
-      "opponent": 49,
-      "outcome": "win",
-      "reason": "Issue 50 has a clearer clinical anchor, stronger patient-level validation plan, and a cheaper retrospective decision point. Issue 49 depends on difficult paired pharmacokinetic, biopsy phosphoproteomic, and functional validation measurements, with several high-risk steps before attribution is credible.",
-      "target": 50,
-      "timestamp": "2026-10-03T05:24:44.179070+00:00"
-    },
-    {
-      "main_risk": "Issue 50 may conflate pharmacogenomic effects with adherence, treatment context, ancestry-linked care differences, or tumor biology despite adjustment.",
-      "next_test": "Run the prespecified patient-level comparison of CYP2D6, clinical/adherence, exposure-only, somatic-only, and integrated models in a retrospective longitudinal cohort with locked held-out evaluation.",
-      "opponent": 40,
-      "outcome": "win",
-      "reason": "Issue 50 addresses a clinically consequential problem with a relatively direct mechanism-specific prediction target and an early retrospective test. Issue 40 is more dependent on the assumption that context-conditioned synergy predictions transfer from selected germ-cell models to unseen donor-derived systems, while also requiring complex dose, schedule, and mechanistic validation.",
-      "target": 50,
-      "timestamp": "2026-10-03T05:24:44.179090+00:00"
-    },
-    {
-      "main_risk": "Issue 50 may lack enough complete and independently collected data to establish ancestry-stratified calibration and separate exposure failure from tumor-intrinsic resistance.",
-      "next_test": "Test the integrated exposure, germline, clinical, adherence, and somatic model against strong baselines in patient-level held-out data, with missingness and ancestry-stratified calibration reported before further data collection.",
-      "opponent": 23,
-      "outcome": "win",
-      "reason": "Issue 50 offers a faster, more bounded retrospective path to a clinically relevant mechanism distinction and can produce useful negative or subgroup-specific results. Issue 23 requires defining and delivering a rehabilitation intervention, collecting serial multimodal measurements, and demonstrating transportable decision value across sites, creating a long and expensive readout chain.",
-      "target": 50,
-      "timestamp": "2026-10-03T05:24:44.179099+00:00"
-    },
-    {
-      "main_risk": "The required longitudinal tamoxifen/endoxifen, tumor-evolution, adherence, and outcome measurements may be too incomplete for mechanism-specific inference.",
-      "next_test": "Evaluate whether endoxifen exposure and ESR1 trajectory improve held-out calibration and mechanism-specific prediction over CYP2D6, clinical, adherence, and baseline imaging or tumor models in an existing cohort.",
-      "opponent": 44,
-      "outcome": "win",
-      "reason": "Issue 50 has a more actionable and testable prediction problem with established clinical measurements and a relatively inexpensive retrospective first branch. Issue 44 relies on uncertain CAIX-tracer specificity, spatially matched tissue validation, cross-scanner reproducibility, and transport across tumor types before an early imaging signal can support a decision.",
-      "target": 50,
-      "timestamp": "2026-10-03T05:24:44.179107+00:00"
-    },
-    {
-      "main_risk": "Functional screening may measure culture viability or tissue quality rather than patient-specific treatment response, and the available pediatric cohort may be too small or selection-biased for reliable incremental estimates.",
-      "next_test": "Perform the locked patient-level comparison of genomic matching alone versus genomic matching plus functional screening, including assay failures, calibration, decision curves, and an independent or institution-held-out cohort if available.",
-      "opponent": 45,
-      "outcome": "loss",
-      "reason": "Issue 45 has a tighter fixed anchor: whether functional screening adds decision value beyond genomic matching. It supports an early locked reanalysis, preserves assay failures and abstention as informative outcomes, and can identify where screening should not be used. Issue 50 has broader potential but requires a much richer longitudinal pharmacokinetic, germline, somatic, and ancestry-diverse dataset.",
-      "target": 50,
-      "timestamp": "2026-10-03T05:24:44.179116+00:00"
-    },
-    {
       "main_risk": "Matched exposure measurements and target-proximal phosphosite changes may be too noisy or unavailable in routine early-treatment specimens to support causal attribution.",
       "next_test": "Run a small paired baseline/first-cycle cohort with drug levels, target-proximal phosphosites, downstream pathway measures, and blinded technical replicates, then compare exposure-adjusted and unadjusted classification against strong clinical and genomic baselines.",
       "opponent": 47,
@@ -2699,6 +2654,51 @@
       "reason": "The cerebral venous thrombosis problem addresses a direct, high-consequence diagnostic decision and has useful branches: it can test D-dimer alone, clinical integration, symptom-duration effects, assay transportability, and verification bias before any prospective intervention. The anesthesia project is easier to execute, but its warning target is less clearly actionable and may yield only surrogate forecasting gains.",
       "target": 84,
       "timestamp": "2026-10-19T13:30:09.856246+00:00"
+    },
+    {
+      "main_risk": "Spatial measurements may not contain enough reproducible information to identify within-cell redistribution beyond abundance and composition.",
+      "next_test": "Use existing paired spatial-perturbation data with replicate-level, perturbation/context-held-out evaluation to compare against count-only, resampling, and transport baselines before generating new data.",
+      "opponent": 88,
+      "outcome": "win",
+      "reason": "Spatial identifiability is a clearer, more flexible technology problem with broader reuse, explicit separation of abundance, composition, and localization, and strong early baselines. The H2Aub proposal is tied to a specific and high-risk causal hierarchy whose generality and perturbation interpretability are uncertain.",
+      "target": 87,
+      "timestamp": "2026-10-19T20:37:32.406245+00:00"
+    },
+    {
+      "main_risk": "Unseen-context spatial prediction may fail because source observations do not identify perturbation-induced localization changes under genuine distribution shift.",
+      "next_test": "Run a locked retrospective holdout by perturbation and cellular context, with independent-control scoring and radial/compartment metrics, before commissioning a new held-out panel.",
+      "opponent": 89,
+      "outcome": "win",
+      "reason": "The spatial proposal has a stronger fixed anchor, broader technology impact, better-specified leakage controls and baselines, and a more direct early falsification path. The stress-history project depends on demonstrating latent memory beyond current state, separating it from viability and generic stress, and transferring across neuronal preparations and schedules.",
+      "target": 87,
+      "timestamp": "2026-10-19T20:37:32.406269+00:00"
+    },
+    {
+      "main_risk": "The diagnostic endpoint or candidate features may be label-derived or otherwise leak the specialist assessment, making apparent incremental value non-actionable.",
+      "next_test": "In an independent multicenter retrospective cohort, preregister the endpoint and fit locked clinical/reproductive, plus-hormone, plus-lifestyle models with patient-level cross-fitting, calibration, and decision-curve analysis.",
+      "opponent": 73,
+      "outcome": "loss",
+      "reason": "PCOS triage offers credible near-term clinical value and a relatively cheap, decision-oriented test of incremental information from hormones and lifestyle features. Its patient-level nested validation and external recalibration plan directly address whether added modalities change referral decisions, whereas the spatial project requires difficult paired imaging data and costly prospective validation.",
+      "target": 87,
+      "timestamp": "2026-10-19T20:37:32.406280+00:00"
+    },
+    {
+      "main_risk": "The spatial virtual-cell model may show no identifiable localization signal after controlling for abundance, composition, imaging geometry, and batch.",
+      "next_test": "Benchmark the proposed spatial score on existing patient-level or replicate-level data against composition-only, target-expression, resampling, and transport baselines using destroyed-adjacency controls.",
+      "opponent": 57,
+      "outcome": "win",
+      "reason": "Spatial virtual-cell identifiability is broader and more differentiated than a narrow bispecific-response application, with a clearer reusable framework and useful outcomes even when prediction fails. The stromal proposal has important clinical relevance but depends on unstable tissue sampling, a likely treatment-specific cohort, a reduced assay, and transfer from architecture to functional drug penetration.",
+      "target": 87,
+      "timestamp": "2026-10-19T20:37:32.406288+00:00"
+    },
+    {
+      "main_risk": "Multimodal regulatory measurements may add only donor, batch, or composition proxies rather than information about intervention responses.",
+      "next_test": "Freeze expression-only and multimodal models on donor-blocked data and test a small replicated perturbation panel with preregistered orthogonal chromatin or localization endpoints.",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "The spatial proposal has a more stable scientific anchor and a more bounded measurement target than the multimodal regulatory-state project, which spans chromatin, isoforms, translation, function, and multiple perturbation classes. It therefore offers a cheaper and clearer earliest decision while retaining broad methodological value.",
+      "target": 87,
+      "timestamp": "2026-10-19T20:37:32.406298+00:00"
     }
   ],
   "k_factor": 24,
@@ -2894,9 +2894,9 @@
     },
     "37": {
       "draws": 0,
-      "games": 30,
-      "losses": 15,
-      "rating": 1502.68,
+      "games": 31,
+      "losses": 16,
+      "rating": 1491.36,
       "wins": 15
     },
     "38": {
@@ -3048,9 +3048,9 @@
     },
     "57": {
       "draws": 0,
-      "games": 16,
-      "losses": 8,
-      "rating": 1502.37,
+      "games": 17,
+      "losses": 9,
+      "rating": 1490.66,
       "wins": 8
     },
     "58": {
@@ -3174,10 +3174,10 @@
     },
     "73": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 5,
-      "rating": 1498.32,
-      "wins": 5
+      "rating": 1511.19,
+      "wins": 6
     },
     "74": {
       "draws": 0,
@@ -3276,6 +3276,27 @@
       "losses": 2,
       "rating": 1521.36,
       "wins": 4
+    },
+    "87": {
+      "draws": 0,
+      "games": 5,
+      "losses": 1,
+      "rating": 1533.75,
+      "wins": 4
+    },
+    "88": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "89": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
     },
     "9": {
       "draws": 1,
