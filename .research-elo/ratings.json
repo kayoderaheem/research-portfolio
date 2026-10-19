@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Treatment-induced single-cell states may be model-specific stress responses or clonal selection rather than reproducible, temporally predictive transitions.",
-      "next_test": "Prospectively profile matched pretreatment and early on-treatment samples from independent PDAC donors and test a locked transition score against pretreatment composition and genotype baselines.",
-      "opponent": 7,
-      "outcome": "loss",
-      "reason": "The KRAS-transition problem has broader biological and translational reach, a clearer donor-level reproducibility question, and useful outcomes even if the favored transition or spatial mechanism fails. The TET2-macrophage problem is highly consequential but depends on a rare disease cohort and a difficult clonal-genotype measurement before causal testing is credible.",
-      "target": 46,
-      "timestamp": "2026-10-02T17:54:14.476158+00:00"
-    },
-    {
-      "main_risk": "Spatial neighborhood associations may reflect tumor genotype, proliferation, disease burden, or sampling rather than treatment-relevant stromal protection.",
-      "next_test": "In a paired patient cohort, evaluate a prespecified CAF–immune neighborhood and its early treatment change against clinical, tumor-composition, and negative spatial baselines with patient-level validation.",
-      "opponent": 13,
-      "outcome": "loss",
-      "reason": "The lung adenocarcinoma spatial problem offers a broader patient population, stronger evidence readiness, and a direct test of whether tissue context adds value beyond composition and clinical variables. The TET2 proposal has an attractive causal hypothesis but unusually high assay, cohort-availability, and disease-specific risks.",
-      "target": 46,
-      "timestamp": "2026-10-02T17:54:14.476179+00:00"
-    },
-    {
-      "main_risk": "Organoid establishment and drug responses may not be available within the treatment window or may reflect culture selection rather than patient pharmacology.",
-      "next_test": "Prospectively measure establishment success, assay turnaround, and locked organoid prediction performance before treatment decisions in an independent patient cohort, compared with molecular recommendations alone.",
-      "opponent": 1,
-      "outcome": "loss",
-      "reason": "Time-constrained organoid profiling addresses a broad and clinically consequential capability, has a flexible scientific anchor, and can produce an early feasibility or predictive-value decision even when the favored score fails. The TET2 project could reveal a valuable mechanism but is constrained by rare anaplastic thyroid cancer specimens and several sequential high-risk measurements.",
-      "target": 46,
-      "timestamp": "2026-10-02T17:54:14.476188+00:00"
-    },
-    {
-      "main_risk": "BCL2-high epithelial cells and their spatial proximity to inflammatory fibroblasts may merely mark aggressive or proliferative clones rather than a causal niche mechanism.",
-      "next_test": "Test the locked BCL2-high/BMP-low fibroblast neighborhood score in independent patient specimens for persistence beyond BCL2 abundance, proliferation, and clinical covariates.",
-      "opponent": 15,
-      "outcome": "loss",
-      "reason": "The diffuse-gastric-cancer problem has a clearer measurable epithelial persistence endpoint, a more directly testable spatial biomarker, and tractable orthogonal co-culture perturbations. The TET2 proposal requires reliable attribution of rare clonal mutations to macrophages and then causal linkage to resistance in a very uncommon cancer setting.",
-      "target": 46,
-      "timestamp": "2026-10-02T17:54:14.476198+00:00"
-    },
-    {
-      "main_risk": "For the virtual-screening project, apparent synergy gains may be assay-scale or pharmacology artifacts that do not transfer to donor-derived or three-dimensional models; for the TET2 project, the required patient material and macrophage clonal-state assay may be unavailable.",
-      "next_test": "For 40, prospectively test locked predictions in unseen donor-derived or 3D contexts against single-agent, Loewe/Bliss, and mechanistic baselines with apoptosis and mitochondrial readouts; for 46, first confirm availability and orthogonal detectability of paired patient samples before causal experiments.",
-      "opponent": 40,
-      "outcome": "draw",
-      "reason": "The virtual-screening problem has broader potential use and a cheap, decisive held-out-context test, while the TET2 problem offers a more biologically meaningful and potentially clinically actionable resistance mechanism. Evidence is insufficient to establish whether the screening model will generalize beyond benchmark-like contexts or whether the rare thyroid-cancer mechanism can be measured and validated within six months.",
-      "target": 46,
-      "timestamp": "2026-10-02T17:54:14.476207+00:00"
-    },
-    {
       "main_risk": "The reproducibility project may show that rankings are driven mainly by lineage, baseline viability, or platform-specific technical structure rather than transferable response biology.",
       "next_test": "Run the blinded two-laboratory common-panel experiment and estimate patient-level ranking correlation, control failure, and calibration against held-out clinical response before expanding harmonization or mechanistic modeling.",
       "opponent": 49,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 86 has a more economical and decision-ready six-month path: the clinical endpoint, baseline comparators, leakage controls, and earliest discriminating analysis are explicit. Issue 45 has greater potential clinical impact, but pediatric sample scarcity, assay failure and culture effects, treatment-selection bias, and the need to show value beyond genomic matching create several high-risk dependencies before functional screening can credibly alter treatment decisions.",
       "target": 86,
       "timestamp": "2026-10-18T23:19:31.559717+00:00"
+    },
+    {
+      "main_risk": "SECmere measurements may reflect isolation batch effects, unequal RNA yield, or contamination rather than a transportable biological compartment.",
+      "next_test": "Run the blinded 10-week paired pilot with patient-level separation, technical replicates, clinical and small-EV baselines, and prespecified calibration and triage-benefit thresholds.",
+      "opponent": 50,
+      "outcome": "win",
+      "reason": "SECmere RNA has a narrower, more testable incremental-value question with a blinded paired pilot, explicit clinical endpoint, and early technical readout. The tamoxifen project requires integrating longitudinal pharmacokinetics, adherence, germline variation, tumor evolution, ancestry calibration, and outcomes, creating a longer chain of confounding and missing-data assumptions before a useful decision is possible.",
+      "target": 85,
+      "timestamp": "2026-10-19T04:50:21.098340+00:00"
+    },
+    {
+      "main_risk": "The required on-treatment phosphoproteomic and exposure measurements may not be reproducible or temporally interpretable in available clinical specimens.",
+      "next_test": "Collect baseline and first-cycle specimens with matched drug levels and test reproducibility and target-proximal signal suppression before building a resistance classifier.",
+      "opponent": 49,
+      "outcome": "win",
+      "reason": "The Alzheimer’s triage problem offers a clearer early decision, a clinically defined endpoint, strong simple baselines, and a relatively contained validation path. Exposure-adjusted phosphoproteomics could be highly impactful, but it depends on obtaining well-timed paired specimens and drug exposure, interpreting phosphosites despite heterogeneity and stress responses, and functionally validating resistance mechanisms within six months.",
+      "target": 85,
+      "timestamp": "2026-10-19T04:50:21.098362+00:00"
+    },
+    {
+      "main_risk": "The apparent SECmere advantage may disappear after controlling for particle isolation quality, RNA quantity, contamination, and site-specific processing effects.",
+      "next_test": "Perform the blinded paired SECmere versus small-EV pilot with technical replicates and patient-level nested validation, requiring improvement beyond clinical plus small-EV baselines.",
+      "opponent": 64,
+      "outcome": "win",
+      "reason": "SECmere RNA has a more actionable and economical earliest test for incremental clinical decision value, with a defined triage use and explicit calibration safeguards. The STING project has strong discovery potential, but it relies on rare paired osteosarcoma specimens, reproducible spatial neighborhoods, a treatment-induced trajectory, and sufficient temporal linkage to response, making several high-risk assumptions necessary before the biological claim can be established.",
+      "target": 85,
+      "timestamp": "2026-10-19T04:50:21.098372+00:00"
+    },
+    {
+      "main_risk": "SECmere RNA may not represent a biologically distinct, reproducible compartment once preanalytic and site effects are controlled.",
+      "next_test": "Test locked SECmere and small-EV models in a blinded paired cohort with site-stratified calibration, technical replicate concordance, and a prespecified triage decision threshold.",
+      "opponent": 8,
+      "outcome": "win",
+      "reason": "The Alzheimer’s project has a more fixed clinical anchor, a cheaper early discriminating experiment, and a direct incremental-value comparison against established clinical and EV baselines. The ALK niche project could generate broader mechanistic insight, but anatomical site, treatment history, lesion sampling, and assay-platform effects are difficult to disentangle, and transport across metastatic compartments is a major unresolved assumption.",
+      "target": 85,
+      "timestamp": "2026-10-19T04:50:21.098382+00:00"
+    },
+    {
+      "main_risk": "SECmere RNA may show apparent discrimination without independent-site calibration or decision benefit beyond clinical variables and conventional EV RNA.",
+      "next_test": "Use a blinded paired pilot to compare SECmere, small-EV, and clinical models, requiring technical reproducibility and incremental calibrated triage benefit before external validation.",
+      "opponent": 53,
+      "outcome": "win",
+      "reason": "SECmere RNA offers a more generalizable particle-compartment question, an explicit clinical use, and a relatively cheap early branch point. The bladder-cancer heterogeneity project is tightly coupled to a specific treatment and serial tissue protocol, while repeat sampling, necrosis, and spatial heterogeneity may make the measured change an unreliable indicator of residual resistant disease.",
+      "target": 85,
+      "timestamp": "2026-10-19T04:50:21.098392+00:00"
     }
   ],
   "k_factor": 24,
@@ -2985,9 +2985,9 @@
     },
     "49": {
       "draws": 0,
-      "games": 16,
-      "losses": 9,
-      "rating": 1476.16,
+      "games": 17,
+      "losses": 10,
+      "rating": 1464.57,
       "wins": 7
     },
     "5": {
@@ -2999,9 +2999,9 @@
     },
     "50": {
       "draws": 0,
-      "games": 18,
-      "losses": 10,
-      "rating": 1475.87,
+      "games": 19,
+      "losses": 11,
+      "rating": 1463.87,
       "wins": 8
     },
     "51": {
@@ -3020,9 +3020,9 @@
     },
     "53": {
       "draws": 0,
-      "games": 16,
-      "losses": 9,
-      "rating": 1477.28,
+      "games": 17,
+      "losses": 10,
+      "rating": 1466.8,
       "wins": 7
     },
     "54": {
@@ -3104,9 +3104,9 @@
     },
     "64": {
       "draws": 0,
-      "games": 14,
-      "losses": 8,
-      "rating": 1476.31,
+      "games": 15,
+      "losses": 9,
+      "rating": 1465.11,
       "wins": 6
     },
     "65": {
@@ -3223,9 +3223,9 @@
     },
     "8": {
       "draws": 0,
-      "games": 24,
-      "losses": 13,
-      "rating": 1475.28,
+      "games": 25,
+      "losses": 14,
+      "rating": 1464.5,
       "wins": 11
     },
     "80": {
@@ -3265,10 +3265,10 @@
     },
     "85": {
       "draws": 0,
-      "games": 2,
+      "games": 7,
       "losses": 2,
-      "rating": 1476.01,
-      "wins": 0
+      "rating": 1532.06,
+      "wins": 5
     },
     "86": {
       "draws": 0,
