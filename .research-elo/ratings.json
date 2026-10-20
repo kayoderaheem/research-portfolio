@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Matched early on-treatment tissue, reliable drug exposure, and target-proximal phosphosite measurements may not be available or temporally interpretable enough to classify failure.",
-      "next_test": "Run a small targeted-therapy pilot with paired baseline/early samples, pharmacokinetic measurements, and a prespecified target-proximal phosphosite panel, then test reproducibility and separation of pharmacologic versus biological nonresponse.",
-      "opponent": 49,
-      "outcome": "loss",
-      "reason": "Exposure-adjusted phosphoproteomics addresses a broader and more immediately actionable failure-attribution problem, with explicit pharmacologic and biological branches and strong baseline comparisons. Isoform switching has substantial mechanistic promise but requires several linked measurements before it can distinguish causation from subtype or clonal composition.",
-      "target": 52,
-      "timestamp": "2026-10-04T12:29:02.414298+00:00"
-    },
-    {
-      "main_risk": "Observed isoform changes may reflect subtype, purity, spliceosome activity, or resistant-clone expansion rather than isoform-specific resistance biology.",
-      "next_test": "In matched sensitive/resistant patient or independently derived model pairs, test a prespecified recurrent-switch panel against total-gene-expression and subtype baselines, with blinded technical replication and one isoform-specific functional assay.",
-      "opponent": 23,
-      "outcome": "win",
-      "reason": "Isoform switching offers a clearer biological anchor and potentially generalizable insight into intrinsic versus acquired resistance, while allowing cancer type, drug, and assay to float. The rehabilitation project has meaningful clinical relevance but depends on first defining and consistently delivering an actionable rehabilitation decision, then demonstrating transportable incremental utility beyond early function and baseline risk.",
-      "target": 52,
-      "timestamp": "2026-10-04T12:29:02.414320+00:00"
-    },
-    {
-      "main_risk": "FADS1 or arachidonic-acid spatial measurements may not represent biologically active local signaling or add information beyond T-cell abundance, tumor burden, and liver-disease context.",
-      "next_test": "Profile pretreatment HCC tissue with multiplex FADS1/lipid-response, CXCR6/resident-memory, and cytotoxicity markers, and test a locked proximity metric against composition-only and clinical baselines with patient-level separation.",
-      "opponent": 10,
-      "outcome": "loss",
-      "reason": "The HCC project has the strongest focused mechanistic starting point: a specific tumor lipid axis, a defined resident-memory T-cell population, spatially testable biology, and an orthogonal functional path. Isoform switching is broader but carries more unresolved measurement, temporal, causal, and treatment-selection dependencies.",
-      "target": 52,
-      "timestamp": "2026-10-04T12:29:02.414329+00:00"
-    },
-    {
-      "main_risk": "Isoform switches may be noncausal markers of clonal composition or tumor state and fail to improve resistance prediction beyond gene-level expression and subtype.",
-      "next_test": "Select one recurrent switch and one relevant drug context, then perform a patient-level held-out comparison against total-gene-expression and subtype baselines plus an isoform-specific protein, interaction, or perturbation readout.",
-      "opponent": 47,
-      "outcome": "win",
-      "reason": "Isoform switching is more flexibly anchored and can be tested in a selected cancer-drug context before attempting generalization. The lactate-transport proposal simultaneously requires cross-cancer and cross-therapy transportability, activity-specific assay concordance, resistance prediction, and biomarker-by-inhibitor interaction, creating too many high-risk branches for a six-month investment.",
-      "target": 52,
-      "timestamp": "2026-10-04T12:29:02.414336+00:00"
-    },
-    {
-      "main_risk": "The apparent IL-17A/retinoid tunnel states may be consequences of tunnel burden, chronic inflammation, or sampling location rather than treatment-relevant biological subtypes.",
-      "next_test": "Apply a locked targeted spatial marker panel to pretreatment tunnel biopsies from patients starting the same therapy, with patient-level held-out validation against clinical, tunnel-burden, composition-only, and nonspatial pathway baselines.",
-      "opponent": 9,
-      "outcome": "loss",
-      "reason": "The hidradenitis project is narrower, more clinically coherent, and has a defined tissue unit, standardized-treatment setting, and relatively direct early test of reproducible tunnel states. Isoform switching spans multiple cancers and resistance states, but its required serial sampling, isoform quantification, clonal disentangling, and functional validation make early interpretation less reliable.",
-      "target": 52,
-      "timestamp": "2026-10-04T12:29:02.414344+00:00"
-    },
-    {
       "main_risk": "The T-cell persistence signal may mainly reflect sampling depth, treatment exposure, or generalized inflammation rather than tumor-specific immunity.",
       "next_test": "In a prespecified longitudinal checkpoint-treated cohort, test whether locked persistence metrics from pretreatment and first on-treatment biopsies improve held-out discrimination of durable disease control over tumor burden and T-cell abundance baselines.",
       "opponent": 56,
@@ -2699,6 +2654,51 @@
       "reason": "The regenerative-history problem is more cleanly scoped and decision-ready, whereas the gastric-cancer proposal requires a reproducible spatial niche, a causal BCL2 effect, treatment-specific vulnerability, and patient-level replication before yielding a robust conclusion.",
       "target": 90,
       "timestamp": "2026-10-20T19:20:34.616067+00:00"
+    },
+    {
+      "main_risk": "Fixed tissue may irreversibly distort perturbation-specific biology, making apparent transfer reflect conserved cell states or marker genes rather than transportable counterfactual effects.",
+      "next_test": "Profile donor-matched fresh, frozen, and fixed aliquots from at least three independent preparations before and after one unseen perturbation, with a targeted orthogonal readout, and compare against simple assay-agnostic baselines.",
+      "opponent": 88,
+      "outcome": "win",
+      "reason": "Assay transportability is a broader, more reusable technology problem with a clear identifiability anchor, flexible experimental choices, and an early paired-aliquot test that can reveal whether fixation preserves perturbation-specific effects. The chromatin project is more mechanistically specific and depends on several high-risk assumptions about H2Aub causality, perturbation specificity, temporal resolution, and cross-context generalization.",
+      "target": 92,
+      "timestamp": "2026-10-20T23:56:46.667895+00:00"
+    },
+    {
+      "main_risk": "The required fresh, frozen, and fixed workflows may not preserve enough shared perturbation signal to identify biological effects independently of assay distortion.",
+      "next_test": "Run the three-workflow, donor-matched aliquot experiment with one unseen perturbation and orthogonal pathway or protein measurements, evaluating donor-level transfer against persistence, cell-type, and simple batch-correction baselines.",
+      "opponent": 62,
+      "outcome": "win",
+      "reason": "Assay-transportable counterfactual prediction has broader technological reach and a more transferable scientific anchor than the osteosarcoma-specific ERK adaptation problem. It offers an earlier, cleaner falsification test and useful outcomes even if only broad state programs, rather than perturbation-specific effects, survive fixation. The ERK project requires reproducibility across rare specimens, separation of induction from selection or injury, causal fibroblast involvement, and a 20-week independent validation.",
+      "target": 92,
+      "timestamp": "2026-10-20T23:56:46.667913+00:00"
+    },
+    {
+      "main_risk": "Spatial architecture may add little reproducible information beyond composition and clinical covariates, leaving the precision-medicine claim dependent on a weak incremental signal.",
+      "next_test": "Fit locked nested patient-level models in an existing development cohort using target expression and composition with and without a prespecified stromal-obstruction/target-adjacency score, then test calibration and decision value on held-out patients.",
+      "opponent": 57,
+      "outcome": "win",
+      "reason": "The assay-transportability problem is more general and less tied to a particular tumor type, drug, spatial niche, and residual-disease endpoint. Its fixed anchor remains valuable across modalities and applications, while the stromal-architecture project must establish that spatial features add patient-level value beyond target expression, composition, burden, and clinical covariates, with substantial tissue and cohort requirements.",
+      "target": 92,
+      "timestamp": "2026-10-20T23:56:46.667922+00:00"
+    },
+    {
+      "main_risk": "Ex vivo drug sensitivity may primarily measure culture quality or assay adaptation and therefore fail to predict patient response despite apparent technical reproducibility.",
+      "next_test": "Perform a locked patient-level comparison of genomic and clinical matching alone versus the addition of functional screening, reporting calibration, decision curves, assay failures, abstention, and performance by actionable-genomic subgroup.",
+      "opponent": 45,
+      "outcome": "loss",
+      "reason": "Functional screening has the strongest near-term decision test because an existing or newly assembled patient cohort and held-out outcomes can directly evaluate incremental value beyond genomic matching. It has clear clinical consequences, strong simple baselines, and an explicit failure mode in which screening should be withheld. The assay-transportability project is more foundational but requires generating paired multi-workflow data before its central question can be tested.",
+      "target": 92,
+      "timestamp": "2026-10-20T23:56:46.667932+00:00"
+    },
+    {
+      "main_risk": "The apparent CAF–immune neighborhood signal may be explained by tumor genotype, baseline proliferation, disease burden, or sampling variation rather than a causal treatment-protective spatial mechanism.",
+      "next_test": "In a paired pretreatment and early on-treatment cohort, test a preregistered CAF–immune exclusion score against composition-only and clinical baselines using patient-level held-out validation and an independent specimen set.",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "The CAF–immune spatial problem currently has stronger evidence readiness and a more immediate patient-level test in lung adenocarcinoma, with paired treatment samples, established spatial platforms, explicit negative controls, and direct response relevance. The assay-transportability project is broader, but its success depends on obtaining multiple donor-matched preservation workflows and proving that fixation retains perturbation-specific information rather than only stable state markers.",
+      "target": 92,
+      "timestamp": "2026-10-20T23:56:46.667939+00:00"
     }
   ],
   "k_factor": 24,
@@ -2733,10 +2733,10 @@
     },
     "13": {
       "draws": 0,
-      "games": 33,
+      "games": 34,
       "losses": 17,
-      "rating": 1493.49,
-      "wins": 16
+      "rating": 1506.05,
+      "wins": 17
     },
     "15": {
       "draws": 1,
@@ -2957,10 +2957,10 @@
     },
     "45": {
       "draws": 0,
-      "games": 15,
+      "games": 16,
       "losses": 8,
-      "rating": 1491.03,
-      "wins": 7
+      "rating": 1504.13,
+      "wins": 8
     },
     "46": {
       "draws": 1,
@@ -3048,9 +3048,9 @@
     },
     "57": {
       "draws": 0,
-      "games": 19,
-      "losses": 10,
-      "rating": 1490.86,
+      "games": 20,
+      "losses": 11,
+      "rating": 1479.58,
       "wins": 9
     },
     "58": {
@@ -3090,9 +3090,9 @@
     },
     "62": {
       "draws": 0,
-      "games": 23,
-      "losses": 12,
-      "rating": 1490.17,
+      "games": 24,
+      "losses": 13,
+      "rating": 1478.51,
       "wins": 11
     },
     "63": {
@@ -3286,9 +3286,9 @@
     },
     "88": {
       "draws": 0,
-      "games": 7,
-      "losses": 4,
-      "rating": 1487.36,
+      "games": 8,
+      "losses": 5,
+      "rating": 1475.38,
       "wins": 3
     },
     "89": {
@@ -3321,10 +3321,10 @@
     },
     "92": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "games": 6,
+      "losses": 3,
+      "rating": 1497.26,
+      "wins": 3
     }
   },
   "version": 2
