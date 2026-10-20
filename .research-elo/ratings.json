@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Cross-cohort phosphoproteomic signals may be dominated by lineage, batch, or drug-exposure effects rather than portable biology.",
-      "next_test": "Train a simple pathway-level model in one cohort and evaluate it, without refitting, on an independently assayed cohort for one matched drug class.",
-      "opponent": 52,
-      "outcome": "win",
-      "reason": "The kinase-state problem has a clearer transportability anchor, stronger external-validation design, and a cheaper eight-week test than the isoform project, which depends on difficult measurement, temporal attribution, and functional causality.",
-      "target": 51,
-      "timestamp": "2026-10-03T21:23:38.643163+00:00"
-    },
-    {
-      "main_risk": "The kinase representation may not add predictive value beyond lineage, proliferation, and expression-based baselines.",
-      "next_test": "Run the prespecified external-cohort test with calibration and comparison against the strongest expression-only and lineage baselines.",
-      "opponent": 53,
-      "outcome": "win",
-      "reason": "The kinase project offers broader and more reusable biological insight with a better-specified early external test; the bladder project has high clinical relevance but is highly vulnerable to serial sampling variation, necrosis, and site-specific heterogeneity.",
-      "target": 51,
-      "timestamp": "2026-10-03T21:23:38.643183+00:00"
-    },
-    {
-      "main_risk": "The kinase signal may correlate with response without supporting a useful experimental selection decision.",
-      "next_test": "Use the locked kinase model to select sensitive and resistant models for an orthogonal drug-response and phosphosignaling experiment.",
-      "opponent": 40,
-      "outcome": "win",
-      "reason": "Transportable kinase states have a more established measurement and validation path, while the virtual-screening project compounds model extrapolation, context representation, synergy definition, and transfer to donor-derived systems; its gains could remain benchmark-specific.",
-      "target": 51,
-      "timestamp": "2026-10-03T21:23:38.643196+00:00"
-    },
-    {
-      "main_risk": "The apparent kinase-state portability may disappear after strict site-, assay-, and lineage-held-out validation.",
-      "next_test": "Evaluate a simple pathway-level kinase classifier on an independent platform or institution before expanding mechanistic work.",
-      "opponent": 9,
-      "outcome": "win",
-      "reason": "The kinase project is less dependent on specialized spatial assays and a narrow disease context, while still offering a generalizable question and a concrete external validation route. The hidradenitis project has meaningful clinical potential but higher uncertainty in state reproducibility and treatment relevance.",
-      "target": 51,
-      "timestamp": "2026-10-03T21:23:38.643203+00:00"
-    },
-    {
-      "main_risk": "The kinase representation may fail to transport across phosphoproteomic workflows and tumor lineages.",
-      "next_test": "Perform an unretrained external-cohort test with calibration and lineage/site-stratified performance against clinical, expression, and simple pathway baselines.",
-      "opponent": 18,
-      "outcome": "win",
-      "reason": "The kinase-state project has a more mature cross-cohort validation framework, shorter earliest decision, and broader reuse potential than the cholangiocarcinoma spatial project, which requires difficult serial biopsies and must separate conserved resistance biology from anatomical-site and composition effects.",
-      "target": 51,
-      "timestamp": "2026-10-03T21:23:38.643210+00:00"
-    },
-    {
       "main_risk": "A heterogeneity trajectory may mainly reflect sampling, necrosis, tumor burden, or assay variation rather than resistant disease.",
       "next_test": "In a locked serial cohort, test whether early heterogeneity change improves prediction of repeat-resection residual disease beyond HER2, stage, burden, and simple lesion-size change.",
       "opponent": 52,
@@ -2699,6 +2654,51 @@
       "reason": "The chromatin project has a stronger fixed scientific anchor and can reveal general causal principles, with clear branches for refining marks, contexts, or endpoints. The MASLD project has credible clinical relevance but its benefit depends on a reliable fibrosis reference standard, adequate cross-site harmonization, and incremental modality value that may be modest after a strong routine-data baseline.",
       "target": 88,
       "timestamp": "2026-10-20T08:39:44.342532+00:00"
+    },
+    {
+      "main_risk": "The difficult-airway endpoint and ultrasound measurements may be inconsistently defined or reproducible across operators and sites, eliminating incremental decision value.",
+      "next_test": "Run the prespecified patient-level pilot comparing clinical predictors with clinical plus ultrasound, using blinded endpoint adjudication, operator/device metadata, calibration, and decision-curve net benefit.",
+      "opponent": 78,
+      "outcome": "loss",
+      "reason": "Airway risk stratification has clearer near-term patient and workflow value, uses a relatively cheap prospective pilot, and supports an actionable decision endpoint with established clinical baselines. The spatial virtual-cell project has broader technology impact but depends on several difficult identifiability, measurement, and distribution-shift assumptions before producing a reliable capability.",
+      "target": 87,
+      "timestamp": "2026-10-20T14:21:22.203238+00:00"
+    },
+    {
+      "main_risk": "Spatial measurements may not be sufficiently reproducible or informative to identify perturbation-induced localization changes under genuine perturbation and context shift.",
+      "next_test": "Prospectively hold out one perturbation and cellular context, then compare locked spatial predictions against source-resampling, transport, count-only, and oracle-localization baselines using independent controls and replicate-level localization metrics.",
+      "opponent": 85,
+      "outcome": "win",
+      "reason": "Spatial virtual-cell responses offer broader reusable technology value and a clearer scientific anchor around separating abundance, composition, and intracellular localization, with informative outcomes even if extrapolation fails. SECmere Alzheimer triage has important clinical potential but is more vulnerable to particle-isolation reproducibility, contamination, spectrum effects, and long external-calibration requirements.",
+      "target": 87,
+      "timestamp": "2026-10-20T14:21:22.203261+00:00"
+    },
+    {
+      "main_risk": "Temporal gains may disappear after controlling for measurement density, or calibration and decision value may fail across hospitals despite preserved discrimination.",
+      "next_test": "Evaluate static-snapshot and temporal models on patient- and hospital-held-out data with measurement-density features included in both models, reporting net benefit, calibration, and subgroup stability at prespecified thresholds.",
+      "opponent": 27,
+      "outcome": "loss",
+      "reason": "The ICU project has a cheaper earliest test using accessible longitudinal cohorts, a direct clinical decision-value question, strong simple baselines, and an explicit measurement-density confounder. It can quickly distinguish useful temporal physiology from monitoring-frequency artifacts, whereas the spatial project requires demanding paired measurements and new held-out experiments before its identifiability claim can be assessed.",
+      "target": 87,
+      "timestamp": "2026-10-20T14:21:22.203270+00:00"
+    },
+    {
+      "main_risk": "Apparent synergy may reflect assay scale, additive pharmacology, or cell-line identity rather than a transportable apoptosis-specific mechanism.",
+      "next_test": "Generate replicated factorial dose matrices across independent differentiation and p53 contexts, measure viability plus apoptosis and mitochondrial priming, and test locked predictions against Loewe, Bliss, pooled-response, and mechanistic baselines.",
+      "opponent": 40,
+      "outcome": "loss",
+      "reason": "Context-aware apoptosis combinations have a more concrete therapeutic anchor, measurable mechanistic biomarkers, established pharmacologic baselines, and a plausible six-month path from dose matrices to locked testing in donor-derived models. The spatial project is broader but carries greater dependence on difficult paired spatial data, identifiability, and unseen-context extrapolation assumptions.",
+      "target": 87,
+      "timestamp": "2026-10-20T14:21:22.203277+00:00"
+    },
+    {
+      "main_risk": "Localization changes may be too noisy or confounded for the model to identify true perturbation effects, making the apparent spatial signal no better than transport or resampling baselines.",
+      "next_test": "Test a locked model on one unseen perturbation and cellular context using independent control wells, replicate-level spatial metrics, composition and coordinate-shuffle negatives, and targeted imaging validation.",
+      "opponent": 89,
+      "outcome": "win",
+      "reason": "Spatial virtual-cell responses have greater breadth as a reusable technology and a sharper separation between abundance, composition, and localization, with strong negative controls and orthogonal validation. Stress-history modeling is highly novel but depends on latent memory being identifiable beyond calcium, viability, cell cycle, and batch, and on transfer across neuronal preparations and schedules.",
+      "target": 87,
+      "timestamp": "2026-10-20T14:21:22.203285+00:00"
     }
   ],
   "k_factor": 24,
@@ -2817,10 +2817,10 @@
     },
     "27": {
       "draws": 0,
-      "games": 30,
+      "games": 31,
       "losses": 14,
-      "rating": 1528.95,
-      "wins": 16
+      "rating": 1541.13,
+      "wins": 17
     },
     "28": {
       "draws": 0,
@@ -2922,10 +2922,10 @@
     },
     "40": {
       "draws": 1,
-      "games": 27,
+      "games": 28,
       "losses": 12,
-      "rating": 1524.77,
-      "wins": 14
+      "rating": 1536.67,
+      "wins": 15
     },
     "41": {
       "draws": 0,
@@ -3209,10 +3209,10 @@
     },
     "78": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 4,
-      "rating": 1532.62,
-      "wins": 7
+      "rating": 1544.66,
+      "wins": 8
     },
     "79": {
       "draws": 0,
@@ -3265,9 +3265,9 @@
     },
     "85": {
       "draws": 0,
-      "games": 7,
-      "losses": 2,
-      "rating": 1532.06,
+      "games": 8,
+      "losses": 3,
+      "rating": 1519.7,
       "wins": 5
     },
     "86": {
@@ -3279,10 +3279,10 @@
     },
     "87": {
       "draws": 0,
-      "games": 5,
-      "losses": 1,
-      "rating": 1533.75,
-      "wins": 4
+      "games": 10,
+      "losses": 4,
+      "rating": 1522.42,
+      "wins": 6
     },
     "88": {
       "draws": 0,
@@ -3293,9 +3293,9 @@
     },
     "89": {
       "draws": 0,
-      "games": 6,
-      "losses": 2,
-      "rating": 1522.34,
+      "games": 7,
+      "losses": 3,
+      "rating": 1509.91,
       "wins": 4
     },
     "9": {
