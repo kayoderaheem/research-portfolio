@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Matched exposure measurements and target-proximal phosphosite changes may be too noisy or unavailable in routine early-treatment specimens to support causal attribution.",
-      "next_test": "Run a small paired baseline/first-cycle cohort with drug levels, target-proximal phosphosites, downstream pathway measures, and blinded technical replicates, then compare exposure-adjusted and unadjusted classification against strong clinical and genomic baselines.",
-      "opponent": 47,
-      "outcome": "win",
-      "reason": "Exposure-adjusted phosphoproteomics has a clearer mechanistic anchor and a more actionable distinction between pharmacologic failure and biological resistance. It supports patient-level validation, orthogonal target-engagement checks, and informative dose, continuation, combination, pivot, or stop decisions, whereas the cross-cancer MCT project requires simultaneous proof of assay-robust transport measurement, cross-context generalization, and selective inhibitor benefit.",
-      "target": 49,
-      "timestamp": "2026-10-03T11:46:51.104114+00:00"
-    },
-    {
-      "main_risk": "The observed phosphoproteomic pattern may reflect heterogeneity, stress, or changing cell composition rather than failure of drug delivery or true resistance.",
-      "next_test": "Test whether early exposure-adjusted target suppression and pathway rebound predict later failure in a patient-level targeted-therapy cohort, using baseline genomics, exposure-only, and unadjusted phosphosite models as prespecified baselines.",
-      "opponent": 8,
-      "outcome": "win",
-      "reason": "Exposure-adjusted phosphoproteomics asks a more directly actionable mechanistic question and can float therapy, sampling, and assay choices while preserving its anchor. The spatial ALK project has substantial discovery value but faces stronger confounding by metastatic site, treatment history, sampling, and anatomical composition, plus expensive cross-platform and cross-site replication requirements.",
-      "target": 49,
-      "timestamp": "2026-10-03T11:46:51.104130+00:00"
-    },
-    {
-      "main_risk": "The required paired tumor or circulating material, pharmacokinetic sampling, and phosphoproteomic measurements may not be feasible or temporally precise enough for early attribution.",
-      "next_test": "Conduct a 12-week paired-sampling pilot with matched drug exposure and target-engagement measurements, and determine whether the locked exposure-adjusted signal adds calibrated classification beyond baseline clinical and genomic models.",
-      "opponent": 23,
-      "outcome": "loss",
-      "reason": "Issue 49 offers a sharper scientific attribution problem, earlier discriminating readout, and more useful outcomes across positive, negative, and ambiguous results. The rehabilitation project has credible clinical relevance but depends on defining and consistently delivering a rehabilitation decision, then demonstrating incremental decision value and transportability across sites over a longer and more operationally complex timeline.",
-      "target": 49,
-      "timestamp": "2026-10-03T11:46:51.104137+00:00"
-    },
-    {
-      "main_risk": "The model may show apparent held-out synergy gains that do not transfer from related cell systems to independent donor-derived organoids or reflect apoptosis-specific causality.",
-      "next_test": "Blindly test predictions for dose combinations in held-out differentiation and p53 contexts, comparing against single-agent pharmacology and Loewe/Bliss baselines with viability, caspase, cytochrome-c, and BH3-profiling readouts.",
-      "opponent": 40,
-      "outcome": "loss",
-      "reason": "Context-aware combination modeling has a cheaper and faster first decision, strong established pharmacology baselines, and a clear prospective test in unseen contexts with orthogonal apoptosis readouts. Issue 49 has greater potential clinical attribution value but combines high-risk specimen acquisition, exposure timing, phosphoproteomic reproducibility, and functional validation before its central claim can be trusted.",
-      "target": 49,
-      "timestamp": "2026-10-03T11:46:51.104141+00:00"
-    },
-    {
-      "main_risk": "Early phosphoproteomic changes may not distinguish inadequate exposure or target engagement from biological resistance because of sampling heterogeneity and weak temporal signal.",
-      "next_test": "Compare exposure-adjusted target-proximal phosphosite suppression and pathway rebound with baseline genomics, exposure-only, and unadjusted phosphoproteomics in paired early-treatment specimens, using blinded technical and orthogonal target-engagement validation.",
-      "opponent": 44,
-      "outcome": "win",
-      "reason": "Exposure-adjusted phosphoproteomics has a more flexible anchor and an earlier, more interpretable decision path than CAIX-targeted imaging. The hypoxia project must establish tracer specificity against perfusion and necrosis, align spatially heterogeneous tissue with imaging, and demonstrate scanner-, site-, and tumor-type transportability before it can support treatment adaptation.",
-      "target": 49,
-      "timestamp": "2026-10-03T11:46:51.104145+00:00"
-    },
-    {
       "main_risk": "The apparent reproducibility may reflect shared lineage, assay conventions, or technical structure rather than clinically meaningful biology.",
       "next_test": "Run the locked pipeline on blinded matched models and drugs processed by two independent laboratories, measuring patient-level ranking agreement and control failure.",
       "opponent": 39,
@@ -2699,6 +2654,51 @@
       "reason": "The spatial proposal has a more stable scientific anchor and a more bounded measurement target than the multimodal regulatory-state project, which spans chromatin, isoforms, translation, function, and multiple perturbation classes. It therefore offers a cheaper and clearer earliest decision while retaining broad methodological value.",
       "target": 87,
       "timestamp": "2026-10-19T20:37:32.406298+00:00"
+    },
+    {
+      "main_risk": "The apparent history signal may be explained by viability, cell cycle, batch, or calcium differences rather than a latent excitation-memory state.",
+      "next_test": "Hold out one complete stimulation and recovery schedule, then test whether history-aware predictions improve preparation-level module and recovery-trajectory error over memoryless baselines in an independent neuronal preparation.",
+      "opponent": 88,
+      "outcome": "win",
+      "reason": "Issue 89 has a clearer, more flexible anchor and an earlier prospective test of whether stimulation history adds predictive information beyond current state. Issue 88 depends on a narrow H2Aub-centered causal hierarchy, multiple quantitative chromatin assays, rescue experiments, and cross-context transfer before producing a reliable conclusion.",
+      "target": 89,
+      "timestamp": "2026-10-20T00:25:25.249695+00:00"
+    },
+    {
+      "main_risk": "The neuronal history effect may not remain identifiable after controlling for viability, cell cycle, calcium activity, batch, and current expression state.",
+      "next_test": "Run the locked multischedule prediction test with preparation-level splits, comparing history-aware and memoryless models on an unseen recovery schedule and independent preparation.",
+      "opponent": 76,
+      "outcome": "win",
+      "reason": "Issue 89 offers a general discovery question with a defined identifiability criterion, strong controls, flexible experimental choices, and informative outcomes if transfer fails. Issue 76 has greater direct clinical potential but depends on access to a reliable fibrosis endpoint, harmonized multisite measurements, external cohorts, and an acquisition pathway that may make apparent multimodal gains difficult to interpret or deploy.",
+      "target": 89,
+      "timestamp": "2026-10-20T00:25:25.249718+00:00"
+    },
+    {
+      "main_risk": "Spatial architecture may merely proxy tumor burden, target density, immune abundance, treatment exposure, or specimen quality rather than provide independent predictive information.",
+      "next_test": "Evaluate a preregistered stromal-obstruction and target-adjacency score in locked patient-level nested models against target-expression, composition, and clinical baselines, with an untouched external cohort.",
+      "opponent": 57,
+      "outcome": "loss",
+      "reason": "Issue 57 asks a concrete patient-level incremental-value question with clinically interpretable baselines, nested validation, and a cheap retrospective branch that can establish whether spatial architecture contributes anything beyond composition and target expression. Issue 89 is more general but requires substantial prospective time-course experimentation before its latent-history claim is distinguishable from ordinary state and quality effects.",
+      "target": 89,
+      "timestamp": "2026-10-20T00:25:25.249728+00:00"
+    },
+    {
+      "main_risk": "Issue 89's history-aware signal may disappear once current calcium, viability, cell-cycle, batch, and expression state are matched or adjusted.",
+      "next_test": "Prospectively predict an entirely held-out excitation and recovery schedule in an independent neuronal preparation, comparing history-aware models with memoryless and calcium/viability-only baselines.",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Issue 89 has a tighter earliest decision and a flexible anchor around identifiability of history-dependent state transitions. Issue 7 combines reproducibility, temporal precedence, spatial localization, and pharmacologic actionability across PDAC donors and models, so several high-risk readouts must succeed before it yields a durable resistance mechanism.",
+      "target": 89,
+      "timestamp": "2026-10-20T00:25:25.249735+00:00"
+    },
+    {
+      "main_risk": "The apparent trajectory benefit may reflect generic toxicity, cell-cycle, batch, or current-state differences rather than a transferable latent stress-history variable.",
+      "next_test": "Freeze memory-aware and memoryless models before data reveal, hold out an intermediate stimulation/recovery schedule and independent preparation, and compare preparation-level trajectory error plus uncertainty calibration.",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "Issue 89 is narrower and more decision-efficient: it can test whether explicit stress history improves counterfactual trajectory prediction without requiring a large stack of regulatory modalities and functional assays. Issue 37 has broader virtual-cell ambition but its multimodal gains could arise from donor, batch, or composition proxies, and unseen perturbation plus orthogonal functional validation creates a longer high-risk chain.",
+      "target": 89,
+      "timestamp": "2026-10-20T00:25:25.249742+00:00"
     }
   ],
   "k_factor": 24,
@@ -2894,9 +2894,9 @@
     },
     "37": {
       "draws": 0,
-      "games": 31,
-      "losses": 16,
-      "rating": 1491.36,
+      "games": 32,
+      "losses": 17,
+      "rating": 1480.04,
       "wins": 15
     },
     "38": {
@@ -3048,10 +3048,10 @@
     },
     "57": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 9,
-      "rating": 1490.66,
-      "wins": 8
+      "rating": 1503.4,
+      "wins": 9
     },
     "58": {
       "draws": 0,
@@ -3146,9 +3146,9 @@
     },
     "7": {
       "draws": 0,
-      "games": 41,
-      "losses": 21,
-      "rating": 1490.75,
+      "games": 42,
+      "losses": 22,
+      "rating": 1479.05,
       "wins": 20
     },
     "70": {
@@ -3195,9 +3195,9 @@
     },
     "76": {
       "draws": 0,
-      "games": 11,
-      "losses": 6,
-      "rating": 1490.55,
+      "games": 12,
+      "losses": 7,
+      "rating": 1478.89,
       "wins": 5
     },
     "77": {
@@ -3286,17 +3286,17 @@
     },
     "88": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
+      "games": 2,
+      "losses": 2,
+      "rating": 1476.01,
       "wins": 0
     },
     "89": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 2,
+      "rating": 1522.34,
+      "wins": 4
     },
     "9": {
       "draws": 1,
