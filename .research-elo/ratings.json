@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "A heterogeneity trajectory may mainly reflect sampling, necrosis, tumor burden, or assay variation rather than resistant disease.",
-      "next_test": "In a locked serial cohort, test whether early heterogeneity change improves prediction of repeat-resection residual disease beyond HER2, stage, burden, and simple lesion-size change.",
-      "opponent": 52,
-      "outcome": "win",
-      "reason": "The bladder-cancer problem has a clearer near-term decision target, patient-level longitudinal design, and an inexpensive retrospective test against strong clinical baselines. The isoform project spans cancer types, drugs, resistance states, measurement platforms, and functional mechanisms, creating more sequential high-risk assumptions before a useful result.",
-      "target": 53,
-      "timestamp": "2026-10-04T06:00:34.329968+00:00"
-    },
-    {
-      "main_risk": "Serial heterogeneity measurements may not be reproducible or biologically aligned across lesions and timepoints.",
-      "next_test": "Use paired baseline and early post-treatment tissue or imaging to compare the locked heterogeneity-change model with HER2, stage, burden, and exposure-independent clinical baselines.",
-      "opponent": 49,
-      "outcome": "win",
-      "reason": "The bladder project asks a focused incremental-value question tied to an identifiable treatment decision and has a feasible early readout. Exposure-adjusted phosphoproteomics could have broader impact, but it requires reliable exposure measurement, target-proximal phosphosite interpretation, separation of stress from resistance, and later functional attribution, with several expensive failure points.",
-      "target": 53,
-      "timestamp": "2026-10-04T06:00:34.329987+00:00"
-    },
-    {
-      "main_risk": "Model gains may not transfer to unseen donor-derived or three-dimensional contexts and may reflect assay-scale artifacts rather than apoptosis-specific biology.",
-      "next_test": "Blindly test locked predictions for held-out drug doses and differentiation or p53 contexts using viability, apoptosis, mitochondrial priming, and negative-control combinations.",
-      "opponent": 40,
-      "outcome": "loss",
-      "reason": "The germ-cell-tumor project offers a controlled, early prospective test of transportable prediction with strong pharmacologic and mechanistic baselines, and failure can still identify limits of context-specific synergy. The bladder project has greater direct clinical relevance but depends on scarce serial specimens, reproducible heterogeneity measurement, and a narrowly specified treatment setting.",
-      "target": 53,
-      "timestamp": "2026-10-04T06:00:34.329996+00:00"
-    },
-    {
-      "main_risk": "Dynamic inflammation may only measure general postoperative severity or timing and add no decision value beyond early function and baseline risk.",
-      "next_test": "Run a locked serial-cohort analysis of early heterogeneity change against residual disease, with patient- and site-aware validation and prespecified calibration and decision thresholds.",
-      "opponent": 23,
-      "outcome": "win",
-      "reason": "The bladder problem has a sharper early endpoint and a bounded retrospective experiment that can establish whether the proposed measurement adds information before attempting a clinical decision. The rehabilitation project has broad potential, but the actionable intervention, assay schedule, and transportable decision rule are not yet sufficiently fixed and require longer prospective validation.",
-      "target": 53,
-      "timestamp": "2026-10-04T06:00:34.330003+00:00"
-    },
-    {
-      "main_risk": "The bladder heterogeneity signal may be dominated by spatial sampling and treatment-induced tissue changes rather than resistant subclones.",
-      "next_test": "Test whether a locked pretreatment tunnel-state classifier predicts response beyond clinical severity, tunnel burden, composition, and non-spatial pathway scores in an independent patient cohort.",
-      "opponent": 9,
-      "outcome": "win",
-      "reason": "The bladder project is more directly tied to an early treatment-assessment decision and defines strong incremental-value baselines and leakage controls. The hidradenitis project is novel and potentially mechanistic, but it must establish reproducible tunnel states across patients, distinguish spatial state from tunnel burden and chronicity, and show that the pathway split is actionable.",
-      "target": 53,
-      "timestamp": "2026-10-04T06:00:34.330010+00:00"
-    },
-    {
       "main_risk": "Matched early on-treatment tissue, reliable drug exposure, and target-proximal phosphosite measurements may not be available or temporally interpretable enough to classify failure.",
       "next_test": "Run a small targeted-therapy pilot with paired baseline/early samples, pharmacokinetic measurements, and a prespecified target-proximal phosphosite panel, then test reproducibility and separation of pharmacologic versus biological nonresponse.",
       "opponent": 49,
@@ -2699,6 +2654,51 @@
       "reason": "Spatial virtual-cell responses have greater breadth as a reusable technology and a sharper separation between abundance, composition, and localization, with strong negative controls and orthogonal validation. Stress-history modeling is highly novel but depends on latent memory being identifiable beyond calcium, viability, cell cycle, and batch, and on transfer across neuronal preparations and schedules.",
       "target": 87,
       "timestamp": "2026-10-20T14:21:22.203285+00:00"
+    },
+    {
+      "main_risk": "The apparent history signal may reflect injury burden or composition rather than a transferable latent regenerative state.",
+      "next_test": "Run the zero-, one-, and two-challenge experiment with a held-out perturbation and matched functional self-renewal and commitment endpoints in independent preparations.",
+      "opponent": 92,
+      "outcome": "win",
+      "reason": "History-dependent perturbation response is a clearer biological problem with a more direct functional test, stronger leakage-resistant validation plan, and more informative outcomes than cross-assay transport, which depends on fixation preserving perturbation-specific signals.",
+      "target": 90,
+      "timestamp": "2026-10-20T19:20:34.616025+00:00"
+    },
+    {
+      "main_risk": "The proposed initiation and pause-turnover states may be non-identifiable even with matched time-resolved measurements.",
+      "next_test": "Collect the dense acute time course for one initiation-associated and one pause-turnover perturbation and perform replicate-aware parameter-recovery and held-out prediction against simple baselines.",
+      "opponent": 91,
+      "outcome": "loss",
+      "reason": "Kinetic identifiability offers a broader mechanistic insight and an earlier eight-week decision point, with orthogonal nascent-RNA and occupancy measurements that can directly test whether causal steps are distinguishable rather than merely predicted.",
+      "target": 90,
+      "timestamp": "2026-10-20T19:20:34.616048+00:00"
+    },
+    {
+      "main_risk": "No sufficiently independent reference standard may exist that separates active disease and paradoxical reaction without incorporating the same clinical or imaging information being predicted.",
+      "next_test": "Build a blinded landmark cohort at the first post-treatment MRI and compare MRI persistence alone with a prespecified clinical-plus-serial-MRI rule using adjudicated outcomes and sensitivity analyses for treatment exposure.",
+      "opponent": 77,
+      "outcome": "loss",
+      "reason": "Distinguishing active intracranial infection from inactive lesions has immediate potential to reduce unnecessary treatment while protecting against undertreatment, and the proposal specifies patient-level, decision-time, external, calibration, and safety-threshold validation rather than a benchmark-only model.",
+      "target": 90,
+      "timestamp": "2026-10-20T19:20:34.616054+00:00"
+    },
+    {
+      "main_risk": "The history representation may fail to transfer across donors or preparations despite improving within-cohort prediction.",
+      "next_test": "Evaluate the held-out challenge schedule in independent biological preparations and require functional error reduction and calibration improvement over current-state and additive baselines.",
+      "opponent": 57,
+      "outcome": "win",
+      "reason": "History-aware virtual-cell extrapolation has a stronger fixed causal anchor, greater flexibility across perturbations and regenerative contexts, and a cheaper early test than spatial architecture prediction, whose incremental value and assay reproducibility remain uncertain.",
+      "target": 90,
+      "timestamp": "2026-10-20T19:20:34.616059+00:00"
+    },
+    {
+      "main_risk": "Repeated regenerative challenge may create a measurable but non-transferable state that does not support counterfactual schedule prediction.",
+      "next_test": "Test whether a history-aware model beats current-state and simple challenge-count baselines on held-out functional endpoints after zero, one, and two challenges.",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "The regenerative-history problem is more cleanly scoped and decision-ready, whereas the gastric-cancer proposal requires a reproducible spatial niche, a causal BCL2 effect, treatment-specific vulnerability, and patient-level replication before yielding a robust conclusion.",
+      "target": 90,
+      "timestamp": "2026-10-20T19:20:34.616067+00:00"
     }
   ],
   "k_factor": 24,
@@ -2740,9 +2740,9 @@
     },
     "15": {
       "draws": 1,
-      "games": 30,
-      "losses": 15,
-      "rating": 1493.92,
+      "games": 31,
+      "losses": 16,
+      "rating": 1482.14,
       "wins": 14
     },
     "17": {
@@ -3048,9 +3048,9 @@
     },
     "57": {
       "draws": 0,
-      "games": 18,
-      "losses": 9,
-      "rating": 1503.4,
+      "games": 19,
+      "losses": 10,
+      "rating": 1490.86,
       "wins": 9
     },
     "58": {
@@ -3202,10 +3202,10 @@
     },
     "77": {
       "draws": 0,
-      "games": 8,
+      "games": 9,
       "losses": 4,
-      "rating": 1503.01,
-      "wins": 4
+      "rating": 1514.89,
+      "wins": 5
     },
     "78": {
       "draws": 0,
@@ -3304,6 +3304,27 @@
       "losses": 15,
       "rating": 1453.65,
       "wins": 11
+    },
+    "90": {
+      "draws": 0,
+      "games": 5,
+      "losses": 2,
+      "rating": 1512.03,
+      "wins": 3
+    },
+    "91": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1512.41,
+      "wins": 1
+    },
+    "92": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
     }
   },
   "version": 2
