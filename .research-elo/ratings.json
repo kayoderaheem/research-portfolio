@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Target engagement may not explain viability or resistance once lineage, co-mutations, exposure, and downstream bypass are considered.",
-      "next_test": "Run the focused, blinded mutation-defined panel with matched engagement, pathway-suppression, and viability measurements, using held-out genetic backgrounds and mutation-only, context-only, and integrated baselines.",
-      "opponent": 9,
-      "outcome": "win",
-      "reason": "Mutation-specific target engagement has a clearer mechanistic anchor, broader transfer potential, and a more controllable early test than the hidradenitis spatial-biomarker project, which depends on reproducing tunnel states and demonstrating added value beyond disease burden and clinical covariates.",
-      "target": 55,
-      "timestamp": "2026-10-04T23:58:50.531997+00:00"
-    },
-    {
-      "main_risk": "Intracellular conjugate or payload exposure may remain inseparable from extracellular free-payload contamination and nonspecific uptake.",
-      "next_test": "Compare HER2-high, HER2-low, and resistant models with matched conjugates, free payload, nonbinding controls, washout-based intracellular exposure assays, and early pharmacodynamic readouts.",
-      "opponent": 56,
-      "outcome": "loss",
-      "reason": "Exposure-normalized HER2 antibody-drug-conjugate mechanisms offer a tighter causal chain and a cheaper eight-week discriminating experiment with strong controls for free payload, nonspecific uptake, HER2 level, and intracellular exposure. The mutation-engagement project is broader but requires more high-risk resistance and transfer assumptions.",
-      "target": 55,
-      "timestamp": "2026-10-04T23:58:50.532013+00:00"
-    },
-    {
-      "main_risk": "Biochemical engagement may fail to predict cellular sensitivity because lineage context, co-mutations, exposure, or downstream bypass dominate response.",
-      "next_test": "Measure engagement, pathway suppression, and viability across matched mutation-defined models, holding out complete genetic backgrounds and comparing against mutation-only and context-only baselines.",
-      "opponent": 18,
-      "outcome": "win",
-      "reason": "Mutation-specific target engagement is more tractable and flexible than the cholangiocarcinoma spatial-resistance hypothesis, which requires patient biopsies, early on-treatment sampling, reproducibility across anatomical sites, and evidence that the signature is not a cell-line or tumor-purity artifact.",
-      "target": 55,
-      "timestamp": "2026-10-04T23:58:50.532020+00:00"
-    },
-    {
-      "main_risk": "The integrated engagement profile may not distinguish target-level failure from downstream biological resistance well enough to improve over simpler context and viability baselines.",
-      "next_test": "Run the focused 12-week panel with blinded replicate engagement, pathway, and viability assays, then test held-out variant-drug pairs and genetic backgrounds against prespecified simple baselines.",
-      "opponent": 49,
-      "outcome": "win",
-      "reason": "Mutation-specific target engagement has a clearer and more experimentally controllable early decision than exposure-adjusted clinical phosphoproteomics, which depends on precisely timed human sampling, reliable tumor or circulating exposure measurements, reproducible residual-biopsy phosphoproteomics, and functional attribution.",
-      "target": 55,
-      "timestamp": "2026-10-04T23:58:50.532024+00:00"
-    },
-    {
-      "main_risk": "Spatial or biochemical target engagement may correlate with response without identifying the causal determinant once tissue context and downstream biology are included.",
-      "next_test": "Use a blinded mutation-defined model panel to test whether engagement plus pathway suppression improves held-out sensitivity classification over mutation identity, structural/pathogenicity scores, and context-only baselines.",
-      "opponent": 10,
-      "outcome": "win",
-      "reason": "Mutation-specific target engagement provides a broader, more portable mechanistic framework with a relatively direct biochemical-to-cellular validation path. The HCC niche project has substantial potential clinical value but relies on difficult spatial lipid measurement, patient sampling, treatment-context transportability, and a mechanism that may add little beyond immune abundance or liver-disease covariates.",
-      "target": 55,
-      "timestamp": "2026-10-04T23:58:50.532028+00:00"
-    },
-    {
       "main_risk": "The key exposure measurements may not reliably separate HER2-mediated intracellular delivery from free-payload contamination or nonspecific uptake.",
       "next_test": "Run the eight-week matched-conjugate experiment with HER2-high, HER2-low, and resistant models, free-payload controls, nonbinding conjugates, washout, intracellular exposure, and early pharmacodynamic readouts.",
       "opponent": 40,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 91 is the stronger current investment because its causal kinetic question is more sharply defined and its matched measurements provide a more direct route to testing identifiability. Issue 89 carries substantial confounding from viability, cell cycle, calcium activity, batch, stimulation protocol, recovery history, and neuronal-context transfer, so its apparent hysteresis may be difficult to distinguish from generic stress or state effects within six months.",
       "target": 91,
       "timestamp": "2026-10-21T04:57:47.807667+00:00"
+    },
+    {
+      "main_risk": "Issue 90 may measure injury burden, composition shifts, or batch effects rather than a transferable regenerative-memory state.",
+      "next_test": "Run zero-, one-, and two-challenge preparations followed by a held-out CARM1-pathway perturbation, and compare history-aware versus current-state models on independent functional endpoints.",
+      "opponent": 55,
+      "outcome": "win",
+      "reason": "Issue 90 has a clearer discovery anchor, stronger evidence-readiness, an explicit 10-week donor-level test, and useful outcomes even if transferable history is not found. Issue 55 has greater potential clinical impact but depends on several costly links from biochemical engagement to cellular sensitivity and then to resistance mechanisms.",
+      "target": 90,
+      "timestamp": "2026-10-21T11:59:05.017891+00:00"
+    },
+    {
+      "main_risk": "The apparent regenerative-history effect may be explained by measurable injury burden or cell-composition changes rather than a predictive latent memory state.",
+      "next_test": "Test held-out challenge schedules in independent biological preparations using pre-perturbation profiles and functional self-renewal or commitment outcomes, with current-state and simple dose-history baselines.",
+      "opponent": 89,
+      "outcome": "win",
+      "reason": "Issue 90 is more specifically anchored in a documented regenerative-history effect and includes functional self-renewal and commitment readouts, whereas issue 89 requires broader neuronal-context transfer and disentangling excitation history from viability, cell cycle, calcium, and batch effects. Issue 90 therefore offers a more focused and earlier decision despite both being high-risk virtual-cell studies.",
+      "target": 90,
+      "timestamp": "2026-10-21T11:59:05.017910+00:00"
+    },
+    {
+      "main_risk": "Issue 90 may fail to generalize beyond the selected regenerative system or perturbation and thus yield a narrow result.",
+      "next_test": "Generate donor- or preparation-level zero-, one-, and two-challenge data with a held-out perturbation schedule, then test calibrated functional prediction against no-history and additive baselines.",
+      "opponent": 92,
+      "outcome": "win",
+      "reason": "Issue 90 has a better-defined biological anchor, stronger evidence readiness, and a more direct early experiment. Issue 92 has broad technology value, but assay transport requires that fixation preserve perturbation-specific biology and that assay distortion be learned independently; the stated supporting evidence is especially limited.",
+      "target": 90,
+      "timestamp": "2026-10-21T11:59:05.017918+00:00"
+    },
+    {
+      "main_risk": "Issue 90 may produce a technically improved predictor without demonstrating a generalizable biological memory mechanism or meaningful value beyond one regenerative model.",
+      "next_test": "Prospectively hold out a challenge schedule and an independent preparation, requiring improvement in donor-level functional prediction and calibration over strong no-history baselines.",
+      "opponent": 77,
+      "outcome": "win",
+      "reason": "Issue 77 has greater immediate clinical relevance, but its success depends on a difficult non-circular reference standard, adequate longitudinal cohorts, adherence measurement, and cross-site MRI transport. Issue 90 offers a more controllable six-month investment with a concrete early experiment, leakage-resistant validation, and informative stop or pivot outcomes.",
+      "target": 90,
+      "timestamp": "2026-10-21T11:59:05.017924+00:00"
+    },
+    {
+      "main_risk": "The apparent benefit of functional screening may reflect culture quality, treatment-selection bias, or outcome leakage rather than patient-specific predictive information.",
+      "next_test": "Perform a patient- and site-level held-out comparison of genomic matching alone versus genomic matching plus locked functional screening, reporting calibration, decision curves, assay failures, and abstention.",
+      "opponent": 45,
+      "outcome": "loss",
+      "reason": "Issue 45 addresses a directly consequential treatment-decision question and has an unusually cheap early branch through locked reanalysis of an existing cohort. Its incremental value can be tested against genomic, clinical, and simple screening baselines without first committing to a new virtual-cell architecture. Issue 90 is scientifically compelling but has higher uncertainty about biological transfer and functional readout generalization.",
+      "target": 90,
+      "timestamp": "2026-10-21T11:59:05.017931+00:00"
     }
   ],
   "k_factor": 24,
@@ -2957,10 +2957,10 @@
     },
     "45": {
       "draws": 0,
-      "games": 16,
+      "games": 17,
       "losses": 8,
-      "rating": 1504.13,
-      "wins": 8
+      "rating": 1517.55,
+      "wins": 9
     },
     "46": {
       "draws": 1,
@@ -3034,9 +3034,9 @@
     },
     "55": {
       "draws": 0,
-      "games": 12,
-      "losses": 6,
-      "rating": 1499.71,
+      "games": 13,
+      "losses": 7,
+      "rating": 1487.72,
       "wins": 6
     },
     "56": {
@@ -3202,9 +3202,9 @@
     },
     "77": {
       "draws": 0,
-      "games": 10,
-      "losses": 5,
-      "rating": 1503.17,
+      "games": 11,
+      "losses": 6,
+      "rating": 1492.25,
       "wins": 5
     },
     "78": {
@@ -3293,9 +3293,9 @@
     },
     "89": {
       "draws": 0,
-      "games": 8,
-      "losses": 4,
-      "rating": 1498.77,
+      "games": 9,
+      "losses": 5,
+      "rating": 1487.23,
       "wins": 4
     },
     "9": {
@@ -3307,10 +3307,10 @@
     },
     "90": {
       "draws": 0,
-      "games": 6,
-      "losses": 3,
-      "rating": 1500.04,
-      "wins": 3
+      "games": 11,
+      "losses": 4,
+      "rating": 1532.16,
+      "wins": 7
     },
     "91": {
       "draws": 0,
@@ -3321,9 +3321,9 @@
     },
     "92": {
       "draws": 0,
-      "games": 6,
-      "losses": 3,
-      "rating": 1497.26,
+      "games": 7,
+      "losses": 4,
+      "rating": 1486.17,
       "wins": 3
     }
   },
