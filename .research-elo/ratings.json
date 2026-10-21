@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The T-cell persistence signal may mainly reflect sampling depth, treatment exposure, or generalized inflammation rather than tumor-specific immunity.",
-      "next_test": "In a prespecified longitudinal checkpoint-treated cohort, test whether locked persistence metrics from pretreatment and first on-treatment biopsies improve held-out discrimination of durable disease control over tumor burden and T-cell abundance baselines.",
-      "opponent": 56,
-      "outcome": "win",
-      "reason": "Persistence of tumor-relevant T-cell clonotypes addresses a clinically important distinction between immune engagement and effective tumor control, with patient-level leakage controls, external validation, and orthogonal spatial confirmation. The ADC project has a cheaper and more controllable assay path but is largely preclinical and depends on mechanistic measurements transferring across models and conjugate architectures.",
-      "target": 54,
-      "timestamp": "2026-10-04T18:40:00.550430+00:00"
-    },
-    {
-      "main_risk": "Persistent clonotypes may not be tumor-reactive and may fail to generalize across biopsy timing, tissue compartments, or assay platforms.",
-      "next_test": "Evaluate locked clonotype-persistence and myeloid metrics in an independent patient-level longitudinal cohort against clinical and infiltration-only baselines.",
-      "opponent": 55,
-      "outcome": "win",
-      "reason": "The T-cell project has a more direct and clinically consequential endpoint, a clearer distinction between prognostic immune activation and response-relevant biology, and a practical path to external patient-level validation. Mutation-specific engagement is potentially broad but requires linked biochemical, cellular, lineage, and resistance evidence, making its causal chain longer and its transferability less certain.",
-      "target": 54,
-      "timestamp": "2026-10-04T18:40:00.550451+00:00"
-    },
-    {
-      "main_risk": "Longitudinal tissue availability and assay quality may be insufficient to establish a reproducible persistence signal.",
-      "next_test": "Use first on-treatment and pretreatment samples to test whether persistence metrics distinguish durable disease control from early progression before investing in broader spatial or multi-institutional development.",
-      "opponent": 18,
-      "outcome": "win",
-      "reason": "The T-cell problem has stronger near-term translational value and a more transportable biological anchor than the cholangiocarcinoma hypothesis, which is heavily dependent on a shared glycolytic-inflammatory state inferred from cell-line resistance and may be confounded by anatomical site, tumor purity, and culture adaptation. Its proposed validation also explicitly tests incremental value, calibration, and external generalization.",
-      "target": 54,
-      "timestamp": "2026-10-04T18:40:00.550461+00:00"
-    },
-    {
-      "main_risk": "The spatially defined clonotype signal may be non-specific inflammation rather than durable tumor-relevant immunity.",
-      "next_test": "Run a locked, patient-level analysis of pretreatment and early on-treatment samples to determine whether persistence adds calibrated predictive value beyond tumor burden, infiltration, and repertoire diversity.",
-      "opponent": 9,
-      "outcome": "win",
-      "reason": "The T-cell project is anchored to a broadly important response-versus-resistance problem and proposes stronger patient-level, external, and assay-robust validation. The hidradenitis project has meaningful clinical relevance, but its inferred IL-17/retinoid tunnel states and their treatment actionability remain less established, with substantial dependence on biopsy heterogeneity and treatment-context variation.",
-      "target": 54,
-      "timestamp": "2026-10-04T18:40:00.550468+00:00"
-    },
-    {
-      "main_risk": "The persistence-plus-myeloid score may require costly longitudinal biopsies without delivering incremental value over simpler clinical or immune-abundance baselines.",
-      "next_test": "Prespecify and evaluate the combined score in a longitudinal patient cohort, comparing it with clinical covariates, tumor burden, T-cell infiltration, repertoire diversity, and myeloid signatures on held-out patients.",
-      "opponent": 40,
-      "outcome": "loss",
-      "reason": "The T-cell project offers a stronger biological and translational contribution than a virtual combination-screening model whose apparent gains could reduce to assay-scale effects, pharmacologic additivity, or related-cell-line similarity. It also has clearer clinical endpoints and more defensible leakage-resistant validation, while retaining useful branches if clonotype, myeloid, or spatial components fail individually.",
-      "target": 54,
-      "timestamp": "2026-10-04T18:40:00.550475+00:00"
-    },
-    {
       "main_risk": "Target engagement may not explain viability or resistance once lineage, co-mutations, exposure, and downstream bypass are considered.",
       "next_test": "Run the focused, blinded mutation-defined panel with matched engagement, pathway-suppression, and viability measurements, using held-out genetic backgrounds and mutation-only, context-only, and integrated baselines.",
       "opponent": 9,
@@ -2699,6 +2654,51 @@
       "reason": "The CAF–immune spatial problem currently has stronger evidence readiness and a more immediate patient-level test in lung adenocarcinoma, with paired treatment samples, established spatial platforms, explicit negative controls, and direct response relevance. The assay-transportability project is broader, but its success depends on obtaining multiple donor-matched preservation workflows and proving that fixation retains perturbation-specific information rather than only stable state markers.",
       "target": 92,
       "timestamp": "2026-10-20T23:56:46.667939+00:00"
+    },
+    {
+      "main_risk": "The nascent-RNA and polymerase-occupancy measurements may not contain enough information to distinguish initiation, pause release, and turnover, making the central parameters non-identifiable.",
+      "next_test": "Run the prespecified 0–240 minute matched nascent-RNA and polymerase-occupancy time course for one initiation perturbation and one pause-turnover perturbation, with replicate-aware parameter recovery and held-out perturbation prediction.",
+      "opponent": 90,
+      "outcome": "win",
+      "reason": "Issue 91 has a tighter mechanistic anchor, clearer causal measurements, stronger leakage-resistant validation, and an early dense time-course test that can directly establish whether kinetic states are identifiable. Issue 90 has high potential impact but depends on more difficult history-dependent regenerative experiments, reproducible functional endpoints, and transfer across donors or preparations.",
+      "target": 91,
+      "timestamp": "2026-10-21T04:57:47.807620+00:00"
+    },
+    {
+      "main_risk": "The kinetic modalities may fail to separate the proposed causal steps, so apparent prediction gains could reflect perturbation-specific marker patterns rather than transferable mechanism.",
+      "next_test": "Collect the acute matched time course for two mechanistically distinct perturbations and test frozen, perturbation-held-out predictions against steady-state and simple state-space baselines with calibrated uncertainty.",
+      "opponent": 55,
+      "outcome": "win",
+      "reason": "Issue 91 offers a more general discovery problem with a focused, falsifiable identifiability test and does not require the longer resistance-evolution chain in Issue 55. Issue 55 has credible precision-medicine relevance, but its conclusions depend on comparable engagement assays, causal linkage to viability across contexts, and 16-week resistance classification, while mutation, lineage, exposure, and co-mutation effects create substantial transfer risk.",
+      "target": 91,
+      "timestamp": "2026-10-21T04:57:47.807639+00:00"
+    },
+    {
+      "main_risk": "The PCOS reference standard or candidate predictors may be circular or site-specific, causing apparent hormonal or lifestyle value to reflect label construction, missingness, or spectrum differences rather than actionable incremental information.",
+      "next_test": "Audit predictor provenance and label independence, then run a locked patient-level nested comparison of clinical/reproductive variables with sequential hormone and lifestyle additions, including decision curves and calibration on an untouched site or temporal cohort.",
+      "opponent": 73,
+      "outcome": "loss",
+      "reason": "Issue 73 has the stronger near-term investment case because it addresses a concrete clinical triage decision, supports an inexpensive retrospective first test, and explicitly measures incremental calibration and decision value rather than benchmark accuracy. Issue 91 is scientifically important but requires costly, technically demanding perturbation and orthogonal kinetic assays before its central claim can be assessed.",
+      "target": 91,
+      "timestamp": "2026-10-21T04:57:47.807649+00:00"
+    },
+    {
+      "main_risk": "Kinetic state parameters may be non-identifiable from the proposed modalities even with dense sampling, undermining causal interpretation and prospective extrapolation.",
+      "next_test": "Perform the blinded acute perturbation time course with replicate-aware identifiability analysis and compare the kinetic model against nascent-RNA-only, steady-state, and other simple baselines on a held-out perturbation.",
+      "opponent": 77,
+      "outcome": "win",
+      "reason": "Issue 91 has a clearer scientific anchor, more tractable early readout, and broader mechanistic generality than Issue 77. The tuberculoma problem has high clinical value, but it depends on a difficult non-circular reference standard, adequate longitudinal cohorts for a rare condition, and cross-center MRI harmonization; simple MRI or clinical rules may also explain most of the signal.",
+      "target": 91,
+      "timestamp": "2026-10-21T04:57:47.807656+00:00"
+    },
+    {
+      "main_risk": "The excitation-history signal may be explained by current calcium, viability, cell-cycle, or batch variables rather than a transferable latent memory state.",
+      "next_test": "Use matched current-state cells with different stimulation histories, including viability- and calcium-controlled negative conditions, and test prospective prediction of one held-out intermediate recovery schedule in an independent neuronal preparation.",
+      "opponent": 89,
+      "outcome": "win",
+      "reason": "Issue 91 is the stronger current investment because its causal kinetic question is more sharply defined and its matched measurements provide a more direct route to testing identifiability. Issue 89 carries substantial confounding from viability, cell cycle, calcium activity, batch, stimulation protocol, recovery history, and neuronal-context transfer, so its apparent hysteresis may be difficult to distinguish from generic stress or state effects within six months.",
+      "target": 91,
+      "timestamp": "2026-10-21T04:57:47.807667+00:00"
     }
   ],
   "k_factor": 24,
@@ -3034,9 +3034,9 @@
     },
     "55": {
       "draws": 0,
-      "games": 11,
-      "losses": 5,
-      "rating": 1511.26,
+      "games": 12,
+      "losses": 6,
+      "rating": 1499.71,
       "wins": 6
     },
     "56": {
@@ -3174,10 +3174,10 @@
     },
     "73": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 5,
-      "rating": 1511.19,
-      "wins": 6
+      "rating": 1524.04,
+      "wins": 7
     },
     "74": {
       "draws": 0,
@@ -3202,9 +3202,9 @@
     },
     "77": {
       "draws": 0,
-      "games": 9,
-      "losses": 4,
-      "rating": 1514.89,
+      "games": 10,
+      "losses": 5,
+      "rating": 1503.17,
       "wins": 5
     },
     "78": {
@@ -3293,9 +3293,9 @@
     },
     "89": {
       "draws": 0,
-      "games": 7,
-      "losses": 3,
-      "rating": 1509.91,
+      "games": 8,
+      "losses": 4,
+      "rating": 1498.77,
       "wins": 4
     },
     "9": {
@@ -3307,17 +3307,17 @@
     },
     "90": {
       "draws": 0,
-      "games": 5,
-      "losses": 2,
-      "rating": 1512.03,
+      "games": 6,
+      "losses": 3,
+      "rating": 1500.04,
       "wins": 3
     },
     "91": {
       "draws": 0,
-      "games": 1,
-      "losses": 0,
-      "rating": 1512.41,
-      "wins": 1
+      "games": 6,
+      "losses": 1,
+      "rating": 1545.96,
+      "wins": 5
     },
     "92": {
       "draws": 0,
