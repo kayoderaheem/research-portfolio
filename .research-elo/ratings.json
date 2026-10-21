@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Cross-domain predictive signal may primarily reflect assay, dose, lineage, or dataset artifacts rather than biology that generalizes to new drugs and tumors.",
-      "next_test": "Run the locked models under strict drug-disjoint and double-disjoint splits, then test a small set of top-ranked combinations in an independent orthogonal assay with abstention and calibration assessed.",
-      "opponent": 43,
-      "outcome": "loss",
-      "reason": "Transportability limits of drug-response prediction has broader technology value, stronger near-term evidence readiness, explicit leakage-resistant baselines, and a relatively cheap external and orthogonal validation path. The T-cell project has greater biological depth but depends on difficult tumor-specific clonotype attribution, longitudinal tissue access, and cross-platform reproducibility.",
-      "target": 54,
-      "timestamp": "2026-10-05T14:51:51.190945+00:00"
-    },
-    {
-      "main_risk": "Exposure and pharmacodynamic features may add little beyond HER2 abundance, free-payload sensitivity, proliferation, or nonspecific uptake and may not transfer to independent patient-derived models.",
-      "next_test": "In HER2-high, HER2-low, and resistant models, compare matched conjugates, free payload, nonbinding conjugates, and controls while measuring uptake, intracellular payload, and early pharmacodynamic response.",
-      "opponent": 56,
-      "outcome": "loss",
-      "reason": "Exposure-normalized HER2 ADC mechanisms offers a clearer causal anchor, tractable matched-control experiments, and useful outcomes even if the favored model fails by separating delivery, payload, and downstream resistance. The T-cell project has higher potential breadth but requires more difficult longitudinal, spatial, assay-robust evidence before its central signal can be trusted.",
-      "target": 54,
-      "timestamp": "2026-10-05T14:51:51.190972+00:00"
-    },
-    {
-      "main_risk": "Persistent treatment-expanded clonotypes may reflect inflammation, sampling depth, tumor burden, or exposure rather than tumor-relevant immunity.",
-      "next_test": "Lock persistence and myeloid metrics in a longitudinal checkpoint-treated cohort and test held-out durable disease-control discrimination against clinical, infiltration, diversity, and myeloid baselines using patient-level splits.",
-      "opponent": 41,
-      "outcome": "win",
-      "reason": "The T-cell project addresses a consequential biological distinction with a flexible anchor, clinically meaningful endpoints, and a plausible path to independent-cohort validation. The virtual-cell project is highly novel but stacks assumptions about causal ordering, lineage-resolved recovery, temporal identifiability, and model validity, making it a riskier six-month investment with a more forced method-system pairing.",
-      "target": 54,
-      "timestamp": "2026-10-05T14:51:51.190985+00:00"
-    },
-    {
-      "main_risk": "Ex vivo sensitivity may mainly reflect tissue viability, culture adaptation, assay conditions, or treatment-selection bias rather than patient-specific therapeutic response.",
-      "next_test": "Use a locked patient-level held-out cohort to compare genomic and clinical matching alone versus the addition of functional screening, reporting calibration, decision curves, missing-assay handling, and actionable-subgroup stability.",
-      "opponent": 45,
-      "outcome": "loss",
-      "reason": "Functional screening beyond genomic matching has the clearest direct precision-medicine decision question, strong patient-level baselines, clinically interpretable incremental-value analyses, and an early retrospective test that can support continuation or stopping. The T-cell project is scientifically compelling but has more demanding tissue, assay, and transportability requirements before clinical usefulness can be established.",
-      "target": 54,
-      "timestamp": "2026-10-05T14:51:51.190992+00:00"
-    },
-    {
-      "main_risk": "Persistent clonotype expansion may not identify tumor-specific immunity or improve response prediction beyond treatment exposure, tumor burden, and generalized inflammation.",
-      "next_test": "Prespecify persistence, expansion, and myeloid metrics in paired pretreatment/on-treatment samples and test incremental held-out prediction of durable benefit against strong clinical and repertoire baselines.",
-      "opponent": 55,
-      "outcome": "win",
-      "reason": "The T-cell project has broader potential impact and a more transportable fixed biological problem than the mutation-specific engagement project, while explicitly testing clinical covariates, external cohorts, assay differences, and orthogonal measurements. Mutation-specific engagement is mechanistically attractive but narrower and depends on selected variant-drug panels, context transfer, and lengthy resistance evolution experiments.",
-      "target": 54,
-      "timestamp": "2026-10-05T14:51:51.190999+00:00"
-    },
-    {
       "main_risk": "Spatial architecture may be a proxy for target density, tumor burden, specimen quality, or immune composition rather than an independent predictor.",
       "next_test": "Run the prespecified patient-level comparison of composition-only versus spatially augmented models with locked covariates, calibration, and external or cohort-held-out validation.",
       "opponent": 58,
@@ -2699,15 +2654,60 @@
       "reason": "Issue 86 provides a concrete, clinically actionable question and a low-cost early test with strong simple baselines and clear stop criteria. Issue 66 is a valuable technology problem, but its benefit depends on finding spatial relationships that are both reproducible across highly heterogeneous glioblastomas and genuinely incremental over composition and clinical covariates.",
       "target": 86,
       "timestamp": "2026-10-21T17:19:00.559215+00:00"
+    },
+    {
+      "main_risk": "The choice would change if matrix GTP and nucleotide-exchange effects cannot be measured or separated from ATP depletion, membrane-potential changes, or nonspecific mitochondrial stress.",
+      "next_test": "Run the preregistered short time course with ATP-synthase inhibition, nucleotide-exchange modulation, matrix-GTP rescue, matched controls, and orthogonal ATP/GTP, membrane-potential, translation, and viability assays in independent preparations.",
+      "opponent": 94,
+      "outcome": "win",
+      "reason": "Issue 93 is the more focused and experimentally discriminable problem: its causal anchor is narrower, its intervention matrix directly tests competing mechanisms, and its earliest readout is shorter. Issue 94 depends on separating direct, paracrine, contact, target-depletion, survival, and composition effects while also extrapolating to an unseen construct, creating more high-risk dependencies.",
+      "target": 93,
+      "timestamp": "2026-10-21T21:47:51.479609+00:00"
+    },
+    {
+      "main_risk": "The choice would change if early measurements cannot identify matrix-GTP limitation independently of correlated bioenergetic stress signals.",
+      "next_test": "Test whether independent biological preparations show the predicted mediator-specific ordering and rescue responses without fitting the rescue data, using orthogonal metabolite and mitochondrial-translation assays.",
+      "opponent": 95,
+      "outcome": "win",
+      "reason": "Issue 93 has a clearer fixed mechanistic anchor, fewer sequential assumptions, and an earlier test that can distinguish continue, pivot, or stop. Issue 95 requires lineage-aware separation of selection from transition, reproducibility of a specific resistance state, and transfer across an unseen therapy, with the decisive validation potentially taking 20 weeks.",
+      "target": 93,
+      "timestamp": "2026-10-21T21:47:51.479636+00:00"
+    },
+    {
+      "main_risk": "The choice would change if the CAF–immune neighborhood is not reproducible across specimens or adds no calibrated patient-level information beyond tumor composition and clinical covariates.",
+      "next_test": "In a paired patient cohort, test a prespecified neighborhood and early treatment change against composition-only and clinical baselines using patient-level held-out validation and an independent specimen set.",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "Issue 13 offers stronger near-term patient and translational value, with patient-level leakage-resistant validation, established clinical and composition baselines, external-cohort testing, and orthogonal spatial and functional validation. Issue 93 is scientifically coherent but is a technically demanding technology project whose causal identifiability and transfer across contexts remain uncertain.",
+      "target": 93,
+      "timestamp": "2026-10-21T21:47:51.479646+00:00"
+    },
+    {
+      "main_risk": "The choice would change if a blinded, clinically independent reference standard for active or progressive tuberculoma can be established with sufficient outcome and microbiological support.",
+      "next_test": "For issue 93, run the independent eight-week perturbation-and-rescue experiment and determine whether mediator-specific predictions outperform measured-metabolite and expression-only baselines.",
+      "opponent": 77,
+      "outcome": "win",
+      "reason": "Issue 93 currently has the stronger research investment profile because it has a narrower mechanistic question, a more direct intervention-based falsification strategy, and a cheaper early decision than the clinically valuable but reference-standard-limited tuberculoma project. Issue 77 depends on adjudicating active disease without circularity, handling paradoxical reactions, and obtaining transportable multicenter validation.",
+      "target": 93,
+      "timestamp": "2026-10-21T21:47:51.479653+00:00"
+    },
+    {
+      "main_risk": "The choice would change if organoids can be established reliably within the treatment-decision window and a locked functional score shows prospective, calibrated benefit over molecular recommendations.",
+      "next_test": "For issue 93, prospectively test mediator-specific predictions and rescue direction in independent preparations before using rescue data for fitting, with simple measured-metabolite and expression-only baselines.",
+      "opponent": 1,
+      "outcome": "win",
+      "reason": "Issue 93 is the stronger current investment because it targets a generalizable technology capability, has a fixed causal anchor, explicit competing mechanisms, and an early test that can yield informative negative results. Issue 1 has greater direct clinical appeal but requires timely organoid establishment, clinically relevant pharmacology, correlation with patient benefit, and resistance prediction across independent cohorts before utility is credible.",
+      "target": 93,
+      "timestamp": "2026-10-21T21:47:51.479660+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 36,
-      "losses": 18,
-      "rating": 1509.09,
+      "games": 37,
+      "losses": 19,
+      "rating": 1497.55,
       "wins": 18
     },
     "10": {
@@ -2733,10 +2733,10 @@
     },
     "13": {
       "draws": 0,
-      "games": 34,
+      "games": 35,
       "losses": 17,
-      "rating": 1506.05,
-      "wins": 17
+      "rating": 1518.66,
+      "wins": 18
     },
     "15": {
       "draws": 1,
@@ -3202,9 +3202,9 @@
     },
     "77": {
       "draws": 0,
-      "games": 11,
-      "losses": 6,
-      "rating": 1492.25,
+      "games": 12,
+      "losses": 7,
+      "rating": 1480.9,
       "wins": 5
     },
     "78": {
@@ -3325,6 +3325,27 @@
       "losses": 4,
       "rating": 1486.17,
       "wins": 3
+    },
+    "93": {
+      "draws": 0,
+      "games": 5,
+      "losses": 1,
+      "rating": 1533.87,
+      "wins": 4
+    },
+    "94": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "95": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
     }
   },
   "version": 2
