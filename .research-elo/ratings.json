@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The key exposure measurements may not reliably separate HER2-mediated intracellular delivery from free-payload contamination or nonspecific uptake.",
-      "next_test": "Run the eight-week matched-conjugate experiment with HER2-high, HER2-low, and resistant models, free-payload controls, nonbinding conjugates, washout, intracellular exposure, and early pharmacodynamic readouts.",
-      "opponent": 40,
-      "outcome": "win",
-      "reason": "Issue 56 has a clearer causal anchor, a more interpretable experimental design, and an earlier test that can distinguish delivery, payload, and downstream resistance while preserving useful outcomes if the favored model fails. Issue 40 depends on several high-risk assumptions about context transfer, synergy measurement, and mechanistic generalization.",
-      "target": 56,
-      "timestamp": "2026-10-05T05:50:00.433019+00:00"
-    },
-    {
-      "main_risk": "The available cohort may be too small, selected, or confounded by treatment choice to establish incremental patient-level predictive or decision value.",
-      "next_test": "Perform the locked reanalysis comparing genomic-clinical matching alone with the addition of functional screening in patient-held-out data, including calibration, decision curves, missing-assay handling, and subgroup results.",
-      "opponent": 45,
-      "outcome": "loss",
-      "reason": "Issue 45 addresses a more consequential clinical decision and directly tests incremental value beyond genomic matching using patient-level validation, calibration, decision curves, and assay-failure handling. Issue 56 is mechanistically cleaner but its value remains several steps removed from patient benefit and requires a demanding exposure and pharmacodynamic measurement chain.",
-      "target": 56,
-      "timestamp": "2026-10-05T05:50:00.433037+00:00"
-    },
-    {
-      "main_risk": "Exposure-normalized features may fail to distinguish target-delivery limitations from free-payload exposure, assay-duration effects, or nonspecific uptake.",
-      "next_test": "Use the eight-week control-rich exposure and pharmacodynamic experiment to test whether temporal response differences persist after matched intracellular payload exposure and measurement of extracellular contamination.",
-      "opponent": 27,
-      "outcome": "win",
-      "reason": "Issue 56 offers a stronger mechanistic discovery problem with explicit competing explanations and an early experiment that can produce actionable branches. Issue 27 has useful transport and decision-value goals, but its prior temporal model did not beat tuned LightGBM, measurement-density confounding is substantial, and access to a genuinely independent third database is uncertain.",
-      "target": 56,
-      "timestamp": "2026-10-05T05:50:00.433049+00:00"
-    },
-    {
-      "main_risk": "Issue 56 may yield exposure and pharmacodynamic correlates that rank conjugates but do not transfer across independent patient-derived models.",
-      "next_test": "Test the locked exposure-normalized mechanism score in a small independent panel spanning HER2 abundance and resistance, using free-payload and nonbinding-conjugate controls.",
-      "opponent": 7,
-      "outcome": "win",
-      "reason": "Issue 56 has a narrower causal chain, stronger early discriminating test, and more flexible model and assay choices. Issue 7 combines reproducibility, temporal precedence, spatial localization, and pharmacologic actionability, creating multiple long-readout dependencies before it can identify a durable resistance mechanism.",
-      "target": 56,
-      "timestamp": "2026-10-05T05:50:00.433057+00:00"
-    },
-    {
-      "main_risk": "The spatial or exposure measurements may be technically reproducible yet fail to add information beyond simpler abundance and clinical baselines.",
-      "next_test": "For Issue 56, compare HER2-high, HER2-low, and resistant models with matched HER2 and nonbinding conjugates, free payload, intracellular exposure, and early pharmacodynamic measurements before expanding architectures.",
-      "opponent": 11,
-      "outcome": "win",
-      "reason": "Issue 56 is more tractable within six months and its earliest experiment can separate several mechanistic failure modes with strong controls. Issue 11 has important clinical relevance, but spatial architecture may be difficult to measure reproducibly, marrow sampling may be selective, and the proposed incremental value over clinical and composition baselines is uncertain.",
-      "target": 56,
-      "timestamp": "2026-10-05T05:50:00.433064+00:00"
-    },
-    {
       "main_risk": "Cross-domain predictive signal may primarily reflect assay, dose, lineage, or dataset artifacts rather than biology that generalizes to new drugs and tumors.",
       "next_test": "Run the locked models under strict drug-disjoint and double-disjoint splits, then test a small set of top-ranked combinations in an independent orthogonal assay with abstention and calibration assessed.",
       "opponent": 43,
@@ -2699,15 +2654,60 @@
       "reason": "Issue 45 addresses a directly consequential treatment-decision question and has an unusually cheap early branch through locked reanalysis of an existing cohort. Its incremental value can be tested against genomic, clinical, and simple screening baselines without first committing to a new virtual-cell architecture. Issue 90 is scientifically compelling but has higher uncertainty about biological transfer and functional readout generalization.",
       "target": 90,
       "timestamp": "2026-10-21T11:59:05.017931+00:00"
+    },
+    {
+      "main_risk": "For issue 86, the apparent biomarker signal may disappear after age, renal-function, comorbidity, and referral-spectrum adjustment.",
+      "next_test": "Run the prespecified eight-week patient-level analysis comparing PSA alone, age plus PSA, and the multimarker model at biopsy-referral thresholds, ideally using a temporally held-out or external cohort.",
+      "opponent": 1,
+      "outcome": "win",
+      "reason": "Issue 86 has a lower-risk, clinically anchored question, existing measurements, strong leakage-resistant baselines, and an eight-week analysis that can stop or redirect the project. Issue 1 has greater potential impact, but requires rapid organoid establishment, clinically relevant ex vivo response, resistance prediction, and independent validation within a narrow treatment window.",
+      "target": 86,
+      "timestamp": "2026-10-21T17:19:00.559168+00:00"
+    },
+    {
+      "main_risk": "For issue 86, adjustment may eliminate the incremental value of testosterone and creatinine, leaving no clinically useful gain beyond age and PSA.",
+      "next_test": "Use existing patient-level data for nested age- and renal-function-adjusted validation, with calibration and decision-curve comparisons against age plus PSA.",
+      "opponent": 61,
+      "outcome": "win",
+      "reason": "Issue 86 offers a cheaper and earlier decision with readily interpretable clinical baselines and a clear transportability test. Issue 61 could reveal important tumor–immune biology, but its incremental spatial signal, malignant-cell attribution, assay reproducibility, and cross-cohort transport remain several high-risk assumptions with a longer validation path.",
+      "target": 86,
+      "timestamp": "2026-10-21T17:19:00.559188+00:00"
+    },
+    {
+      "main_risk": "For issue 86, the originating case-control differences may be entirely explained by age, kidney dysfunction, disease severity, or referral bias.",
+      "next_test": "Test whether the biomarker combination adds patient-level calibration or net benefit after prespecified age and renal-function adjustment in held-out data.",
+      "opponent": 67,
+      "outcome": "loss",
+      "reason": "Issue 86 has a fixed clinical decision anchor, an inexpensive early test, and useful negative outcomes if the biomarkers fail. Issue 67 has strong discovery potential, but depends on scarce paired longitudinal specimens, reproducible trajectory measurement, genuine niche-mediated transitions, and replication across patients and platforms.",
+      "target": 86,
+      "timestamp": "2026-10-21T17:19:00.559198+00:00"
+    },
+    {
+      "main_risk": "For issue 86, the added biomarkers may provide no net benefit once age, renal function, comorbidity, and prostate-related covariates are handled correctly.",
+      "next_test": "Analyze a held-out pilot or external cohort with locked PSA, age, testosterone, and creatinine models and compare calibration, sensitivity, unnecessary biopsies, and decision curves.",
+      "opponent": 60,
+      "outcome": "win",
+      "reason": "Issue 86 is more ready for a six-month investment because its clinical outcome, baselines, confounders, and eight-week branch point are explicitly defined. Issue 60 has substantial potential clinical impact, but spatial topology, cGAS–STING measurement, fibrosis timing, and cross-platform transport each pose material risks before any clinical value can be established.",
+      "target": 86,
+      "timestamp": "2026-10-21T17:19:00.559205+00:00"
+    },
+    {
+      "main_risk": "For issue 86, the signal may fail to transport beyond the originating hospital or vanish after confounding adjustment.",
+      "next_test": "Perform patient-level nested validation of the multimarker model and, if promising, lock it for testing in a different site or temporally held-out cohort.",
+      "opponent": 66,
+      "outcome": "win",
+      "reason": "Issue 86 provides a concrete, clinically actionable question and a low-cost early test with strong simple baselines and clear stop criteria. Issue 66 is a valuable technology problem, but its benefit depends on finding spatial relationships that are both reproducible across highly heterogeneous glioblastomas and genuinely incremental over composition and clinical covariates.",
+      "target": 86,
+      "timestamp": "2026-10-21T17:19:00.559215+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 35,
-      "losses": 17,
-      "rating": 1521.08,
+      "games": 36,
+      "losses": 18,
+      "rating": 1509.09,
       "wins": 18
     },
     "10": {
@@ -3076,16 +3076,16 @@
     },
     "60": {
       "draws": 0,
-      "games": 14,
-      "losses": 6,
-      "rating": 1521.85,
+      "games": 15,
+      "losses": 7,
+      "rating": 1510.2,
       "wins": 8
     },
     "61": {
       "draws": 0,
-      "games": 8,
-      "losses": 3,
-      "rating": 1521.71,
+      "games": 9,
+      "losses": 4,
+      "rating": 1510.11,
       "wins": 5
     },
     "62": {
@@ -3118,17 +3118,17 @@
     },
     "66": {
       "draws": 0,
-      "games": 12,
-      "losses": 5,
-      "rating": 1521.85,
+      "games": 13,
+      "losses": 6,
+      "rating": 1510.61,
       "wins": 7
     },
     "67": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 6,
-      "rating": 1521.0,
-      "wins": 8
+      "rating": 1533.83,
+      "wins": 9
     },
     "68": {
       "draws": 0,
@@ -3272,10 +3272,10 @@
     },
     "86": {
       "draws": 0,
-      "games": 6,
-      "losses": 2,
-      "rating": 1521.36,
-      "wins": 4
+      "games": 11,
+      "losses": 3,
+      "rating": 1555.01,
+      "wins": 8
     },
     "87": {
       "draws": 0,
