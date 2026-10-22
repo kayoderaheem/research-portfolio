@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The apparent spatial signal in issue 60 may be fully explained by tumor burden, immune abundance, etiology, or tissue-quality differences rather than topology.",
-      "next_test": "Run the preregistered pilot comparing the locked spatial score with clinical, composition-only, and shuffled-topology baselines in patient-held-out pretreatment specimens.",
-      "opponent": 62,
-      "outcome": "win",
-      "reason": "Issue 60 has a clearer patient-level clinical anchor, a prospective treatment context, strong leakage-resistant baselines, and an early held-out test of incremental spatial value. Issue 62 depends on scarce matched longitudinal metastasis specimens and several high-risk causal assumptions linking fibroblast signaling to a treatment-induced state.",
-      "target": 60,
-      "timestamp": "2026-10-06T22:41:18.990211+00:00"
-    },
-    {
-      "main_risk": "The cGAS-STING/fibrosis spatial feature may not transport across assays, institutions, or heterogeneous HCC sampling.",
-      "next_test": "Measure replicate-section reliability and held-out incremental discrimination against clinical, composition, and shuffled-topology controls before expanding the assay.",
-      "opponent": 61,
-      "outcome": "win",
-      "reason": "Issue 60 is better supported by a prospective HCC treatment setting and a specific question about incremental prediction beyond established clinical and compositional variables. Issue 61 is similarly tractable but relies more on an unverified spatial interpretation of IGF2BP3/MHC-I competence and cytotoxic T-cell proximity, with no clear advantage over the stronger HCC evidence anchor.",
-      "target": 60,
-      "timestamp": "2026-10-06T22:41:18.990228+00:00"
-    },
-    {
-      "main_risk": "The spatial predictor in issue 60 may show no reproducible incremental value beyond composition and clinical covariates.",
-      "next_test": "Test the preregistered topology score in a held-out pilot with patient-level splits, calibration, and a composition-preserving randomized-topology control.",
-      "opponent": 41,
-      "outcome": "win",
-      "reason": "Issue 60 offers a nearer-term, clinically relevant decision with a cheap early branch and useful negative outcomes. Issue 41 has potentially broader discovery impact, but its value depends on dense lineage-resolved measurements, causal ordering, schedule coverage, and successful dynamic-model generalization, making six-month success less likely.",
-      "target": 60,
-      "timestamp": "2026-10-06T22:41:18.990234+00:00"
-    },
-    {
-      "main_risk": "The spatial association in issue 60 could be a proxy for disease severity, immune abundance, or tissue quality rather than a treatment-relevant barrier.",
-      "next_test": "Evaluate whether a locked cGAS-STING/T-cell/fibrosis topology score improves patient-held-out response prediction over clinical and composition-only models.",
-      "opponent": 57,
-      "outcome": "win",
-      "reason": "Issue 60 has a fixed treatment context, a prospective clinical anchor, and an explicit external-validation path. Issue 57 leaves the bispecific target, tumor type, assay, and endpoint floating, while its motivating evidence is mainly organoid architecture and indirect framework evidence, so the scientific problem is less sharply positioned.",
-      "target": 60,
-      "timestamp": "2026-10-06T22:41:18.990238+00:00"
-    },
-    {
-      "main_risk": "Issue 60 may identify spatial correlates that do not add information beyond tumor burden, immune composition, etiology, or baseline liver function.",
-      "next_test": "Use an independent held-out HCC pilot to compare the locked spatial feature against clinical, composition-only, and shuffled-topology baselines with calibration and subgroup stability.",
-      "opponent": 7,
-      "outcome": "win",
-      "reason": "Issue 60 has a more concrete clinical use case, a defined incremental-prediction question, and an early test that can support continuation, refinement, or stopping. Issue 7 could yield important resistance biology, but it requires reproducible transitions across donors, temporal precedence, and pharmacologic actionability, creating a longer chain of high-risk assumptions.",
-      "target": 60,
-      "timestamp": "2026-10-06T22:41:18.990243+00:00"
-    },
-    {
       "main_risk": "The spatial tumor–T-cell interface may add no information beyond IGF2BP3, MHC-I, CD8 abundance, tumor purity, and overall inflammatory state.",
       "next_test": "Run the preregistered multiplex-imaging pilot in a patient-held-out TNBC cohort and compare the locked spatial score with expression, composition, and clinical baselines.",
       "opponent": 18,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 73 has a clearer near-term clinical decision question, established simple baselines, and a feasible multicohort nested-model test of incremental value, whereas issue 93 carries substantially greater assay and causal-identification risk.",
       "target": 93,
       "timestamp": "2026-10-22T17:16:39.313995+00:00"
+    },
+    {
+      "main_risk": "For 83, lymphocyte trajectories may add no information beyond confounding factors such as infection, steroids, adherence, or timing.",
+      "next_test": "Test the prespecified lymphocyte rule against a clinical-monitoring baseline for antibody positivity in a patient-level retrospective cohort.",
+      "opponent": 67,
+      "outcome": "win",
+      "reason": "83 offers a narrower but actionable clinical decision, patient-level validation, and a relatively cheap retrospective test; 67 depends on difficult paired spatial specimens and reproducible niche-transition biology.",
+      "target": 83,
+      "timestamp": "2026-10-22T21:42:28.331609+00:00"
+    },
+    {
+      "main_risk": "For 83, antibody positivity and testing decisions may be too sparse or inconsistently measured for reliable calibration.",
+      "next_test": "Run the 7-week patient-level retrospective incremental-value analysis before committing to multimodal prospective development.",
+      "opponent": 87,
+      "outcome": "win",
+      "reason": "83 has a clearer near-term decision endpoint and lower experimental burden, whereas 87 requires demonstrating that unseen spatial localization effects are identifiable under substantial distribution shift.",
+      "target": 83,
+      "timestamp": "2026-10-22T21:42:28.331632+00:00"
+    },
+    {
+      "main_risk": "83 may fail if lymphocyte dynamics are a nonspecific exposure or illness marker rather than a useful antibody-testing trigger.",
+      "next_test": "Evaluate the locked lymphocyte-change rule against clinical and treatment-history baselines in existing longitudinal data.",
+      "opponent": 93,
+      "outcome": "win",
+      "reason": "83 is more clinically actionable and experimentally tractable than 93, whose central GTP-mediated mechanism requires costly matched metabolite, membrane-potential, translation, and rescue measurements with difficult causal separation.",
+      "target": 83,
+      "timestamp": "2026-10-22T21:42:28.331642+00:00"
+    },
+    {
+      "main_risk": "83 may not achieve transportable calibration across laboratories and patient populations.",
+      "next_test": "Perform site-held-out retrospective validation of antibody positivity and net benefit using only measurements available before testing.",
+      "opponent": 2,
+      "outcome": "win",
+      "reason": "83 supports an early, bounded decision using routine longitudinal measurements, while 2 depends on adequate randomized treatment-interaction power, heterogeneous molecular workflows, and independent institutional cohorts that are not assured.",
+      "target": 83,
+      "timestamp": "2026-10-22T21:42:28.331649+00:00"
+    },
+    {
+      "main_risk": "83 may show an apparent signal that is explained entirely by treatment timing, infection, concomitant medication, or adherence.",
+      "next_test": "Compare the prespecified lymphocyte trigger with clinical, treatment-history, and baseline-count baselines in a leakage-resistant patient-level cohort.",
+      "opponent": 39,
+      "outcome": "win",
+      "reason": "83 has a specific clinical action, inexpensive measurements, and a fast falsification path; 39 has broader technology impact but substantial uncertainty around state definitions, true extrapolation, and prospective compositional identifiability.",
+      "target": 83,
+      "timestamp": "2026-10-22T21:42:28.331658+00:00"
     }
   ],
   "k_factor": 24,
@@ -2768,9 +2768,9 @@
     },
     "2": {
       "draws": 0,
-      "games": 30,
-      "losses": 14,
-      "rating": 1520.08,
+      "games": 31,
+      "losses": 15,
+      "rating": 1509.34,
       "wins": 16
     },
     "21": {
@@ -2908,9 +2908,9 @@
     },
     "39": {
       "draws": 0,
-      "games": 24,
-      "losses": 11,
-      "rating": 1519.96,
+      "games": 25,
+      "losses": 12,
+      "rating": 1509.59,
       "wins": 13
     },
     "4": {
@@ -3125,9 +3125,9 @@
     },
     "67": {
       "draws": 0,
-      "games": 16,
-      "losses": 7,
-      "rating": 1521.83,
+      "games": 17,
+      "losses": 8,
+      "rating": 1509.83,
       "wins": 9
     },
     "68": {
@@ -3251,10 +3251,10 @@
     },
     "83": {
       "draws": 0,
-      "games": 6,
+      "games": 11,
       "losses": 2,
-      "rating": 1521.93,
-      "wins": 4
+      "rating": 1577.8,
+      "wins": 9
     },
     "84": {
       "draws": 0,
@@ -3279,9 +3279,9 @@
     },
     "87": {
       "draws": 0,
-      "games": 10,
-      "losses": 4,
-      "rating": 1522.42,
+      "games": 11,
+      "losses": 5,
+      "rating": 1510.82,
       "wins": 6
     },
     "88": {
@@ -3328,9 +3328,9 @@
     },
     "93": {
       "draws": 0,
-      "games": 10,
-      "losses": 4,
-      "rating": 1521.04,
+      "games": 11,
+      "losses": 5,
+      "rating": 1509.88,
       "wins": 6
     },
     "94": {
