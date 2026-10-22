@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The spatial signal may mainly reflect tumor burden, immune abundance, sampling location, or technical differences rather than therapeutic-cell access.",
-      "next_test": "In a paired pretreatment/early-treatment cohort, test whether preregistered access features predict response beyond clinical covariates and composition, with multiplex-imaging replication and patient-level splits.",
-      "opponent": 41,
-      "outcome": "win",
-      "reason": "Spatial access states address a clinically consequential and biologically specific failure point, with patient-level validation, orthogonal imaging, and composition-only baselines that can distinguish entry from persistence or killing. The virtual-cell project depends on several difficult causal and lineage-resolved assumptions before its dynamic model can be meaningfully falsified.",
-      "target": 59,
-      "timestamp": "2026-10-06T16:00:14.851198+00:00"
-    },
-    {
-      "main_risk": "Apparent synergy may be assay-scale or additive-pharmacology artifact and may fail to transfer from cell models to donor-derived or three-dimensional systems.",
-      "next_test": "Lock a small prediction panel and prospectively test drug combinations across held-out differentiation and p53 contexts using viability, apoptosis, mitochondrial priming, and Loewe/Bliss/HSA baselines.",
-      "opponent": 40,
-      "outcome": "loss",
-      "reason": "Context-aware combination screening offers a cheaper, more controllable six-month path: factorial dose matrices, established pharmacologic baselines, mechanistic apoptosis assays, and a prospective test in unseen contexts can rapidly establish whether the model adds value. The spatial project requires scarce paired clinical tissue, reliable therapeutic-cell identification, and cross-platform spatial validation before its central claim is testable.",
-      "target": 59,
-      "timestamp": "2026-10-06T16:00:14.851215+00:00"
-    },
-    {
-      "main_risk": "The apparent temporal advantage may disappear after controlling for monitoring and measurement density, leaving no clinically meaningful incremental decision value.",
-      "next_test": "Run a locked patient-level comparison of snapshot, temporal, and measurement-density-controlled models, then evaluate net benefit and calibration on frozen external hospital data before adding modalities.",
-      "opponent": 27,
-      "outcome": "loss",
-      "reason": "The ICU project has the strongest immediate decision structure: patient-disjoint development, established static and boosting baselines, explicit measurement-density confounding, decision-curve outcomes, calibration, and external site transport. It can produce a useful answer even if temporal features add no value, whereas the spatial project has higher discovery upside but substantially greater tissue, assay, and cohort-access risk.",
-      "target": 59,
-      "timestamp": "2026-10-06T16:00:14.851222+00:00"
-    },
-    {
-      "main_risk": "Lineage, co-mutation, uptake, or exposure effects may dominate response, making target engagement add little beyond mutation and cellular context.",
-      "next_test": "Use a focused held-out mutation-by-drug panel in matched models to test whether integrated engagement, pathway suppression, and viability outperform mutation-only, lineage-only, and viability-only baselines.",
-      "opponent": 55,
-      "outcome": "loss",
-      "reason": "Mutation-specific target engagement has a clear mechanistic anchor and a relatively direct early readout linking biochemical engagement to pathway suppression and viability, with isogenic models and orthogonal assays capable of separating target failure from downstream resistance. The spatial proposal has broader tissue insight but depends on difficult product tracking, paired specimens, and reproducible spatial boundary measurements.",
-      "target": 59,
-      "timestamp": "2026-10-06T16:00:14.851227+00:00"
-    },
-    {
-      "main_risk": "Spatial measurements may not identify therapeutic cells or causal access stages reliably enough across patients and platforms.",
-      "next_test": "Analyze paired pretreatment and early on-treatment specimens to determine whether a locked spatial access score predicts response beyond composition and treatment exposure, with orthogonal imaging and explicit technical uncertainty.",
-      "opponent": 1,
-      "outcome": "loss",
-      "reason": "Spatial access states provide a clearer discovery anchor and more useful failure branches than organoid functional profiling: exclusion, failed entry, poor proximity, and persistence can each motivate different interventions even if prediction fails. The organoid project has major clinical potential but requires rapid prospective culture success, treatment-decision timing, patient-level outcome association, and transportability before it can support clinical claims.",
-      "target": 59,
-      "timestamp": "2026-10-06T16:00:14.851230+00:00"
-    },
-    {
       "main_risk": "The apparent spatial signal in issue 60 may be fully explained by tumor burden, immune abundance, etiology, or tissue-quality differences rather than topology.",
       "next_test": "Run the preregistered pilot comparing the locked spatial score with clinical, composition-only, and shuffled-topology baselines in patient-held-out pretreatment specimens.",
       "opponent": 62,
@@ -2699,6 +2654,51 @@
       "reason": "The gastric-cancer project has a focused patient-level biomarker anchor, a plausible orthogonal mechanistic follow-up, and an early replication test that can stop or refine the project before extensive modeling. It directly addresses treatment persistence and clinical stratification. The paracrine virtual-cell project is broader but relies on high-risk identifiability of direct versus indirect effects and extensive assay integration.",
       "target": 94,
       "timestamp": "2026-10-22T12:01:38.716931+00:00"
+    },
+    {
+      "main_risk": "Matrix GTP may not be sufficiently observable or separable from ATP depletion, membrane-potential changes, and nonspecific mitochondrial stress.",
+      "next_test": "Run the preregistered short time course with ATP synthase inhibition, nucleotide-exchange rescue, matrix-GTP rescue, matched controls, and orthogonal metabolite and translation assays.",
+      "opponent": 67,
+      "outcome": "win",
+      "reason": "Issue 93 has a clearer mechanistic anchor, broader reusable technology value, and a falsifiable early rescue experiment, whereas issue 67 depends on scarce longitudinal spatial specimens and reproducibility across patients.",
+      "target": 93,
+      "timestamp": "2026-10-22T17:16:39.313948+00:00"
+    },
+    {
+      "main_risk": "The apparent history effect may be explained by injury burden or cell-composition changes rather than a transferable regenerative state.",
+      "next_test": "Compare zero-, one-, and two-challenge preparations followed by a held-out CARM1-pathway perturbation, using pre-perturbation profiles and independent functional assays.",
+      "opponent": 90,
+      "outcome": "loss",
+      "reason": "Issue 90 has a more direct experimental test of history dependence, functional endpoints, and useful outcomes even if the favored latent-memory explanation fails; issue 93 requires several difficult intermediate measurements to establish identifiability.",
+      "target": 93,
+      "timestamp": "2026-10-22T17:16:39.313968+00:00"
+    },
+    {
+      "main_risk": "The proposed GTP-mediated mechanism may be unidentifiable because correlated bioenergetic perturbations produce indistinguishable observations.",
+      "next_test": "Test whether matched ATP, GTP, membrane-potential, exchange, and mitochondrial-translation measurements distinguish competing causal models under rescue perturbations.",
+      "opponent": 40,
+      "outcome": "win",
+      "reason": "Issue 93 targets a general causal-identifiability problem with orthogonal validation and informative failure branches, while issue 40 risks becoming a benchmark of context-specific synergy and has a difficult transfer step into donor-derived or three-dimensional models.",
+      "target": 93,
+      "timestamp": "2026-10-22T17:16:39.313977+00:00"
+    },
+    {
+      "main_risk": "Temporal features may add no genuine physiological information once measurement density and a tuned static baseline are controlled.",
+      "next_test": "Evaluate locked static versus temporal models on patient- and site-held-out data, including measurement-density controls, calibration, and decision-curve net benefit.",
+      "opponent": 27,
+      "outcome": "loss",
+      "reason": "Issue 27 offers the cheapest and most decision-relevant early test, with accessible retrospective data, patient-disjoint validation, strong baselines, and explicit control of measurement-density confounding; issue 93 requires a bespoke, high-risk multimodal experimental system.",
+      "target": 93,
+      "timestamp": "2026-10-22T17:16:39.313988+00:00"
+    },
+    {
+      "main_risk": "Hormonal and lifestyle gains may reflect label leakage, missingness, or population spectrum differences rather than complementary diagnostic information.",
+      "next_test": "Run the locked clinical/reproductive, plus-hormone, plus-lifestyle sequence with independent label adjudication, patient-level cross-fitting, calibration, and decision-curve analysis.",
+      "opponent": 73,
+      "outcome": "loss",
+      "reason": "Issue 73 has a clearer near-term clinical decision question, established simple baselines, and a feasible multicohort nested-model test of incremental value, whereas issue 93 carries substantially greater assay and causal-identification risk.",
+      "target": 93,
+      "timestamp": "2026-10-22T17:16:39.313995+00:00"
     }
   ],
   "k_factor": 24,
@@ -2817,10 +2817,10 @@
     },
     "27": {
       "draws": 0,
-      "games": 31,
+      "games": 32,
       "losses": 14,
-      "rating": 1541.13,
-      "wins": 17
+      "rating": 1553.28,
+      "wins": 18
     },
     "28": {
       "draws": 0,
@@ -2922,9 +2922,9 @@
     },
     "40": {
       "draws": 1,
-      "games": 28,
-      "losses": 12,
-      "rating": 1536.67,
+      "games": 29,
+      "losses": 13,
+      "rating": 1524.56,
       "wins": 15
     },
     "41": {
@@ -3125,9 +3125,9 @@
     },
     "67": {
       "draws": 0,
-      "games": 15,
-      "losses": 6,
-      "rating": 1533.83,
+      "games": 16,
+      "losses": 7,
+      "rating": 1521.83,
       "wins": 9
     },
     "68": {
@@ -3174,10 +3174,10 @@
     },
     "73": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 5,
-      "rating": 1524.04,
-      "wins": 7
+      "rating": 1536.36,
+      "wins": 8
     },
     "74": {
       "draws": 0,
@@ -3307,10 +3307,10 @@
     },
     "90": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 4,
-      "rating": 1532.16,
-      "wins": 7
+      "rating": 1544.63,
+      "wins": 8
     },
     "91": {
       "draws": 0,
@@ -3328,10 +3328,10 @@
     },
     "93": {
       "draws": 0,
-      "games": 5,
-      "losses": 1,
-      "rating": 1533.87,
-      "wins": 4
+      "games": 10,
+      "losses": 4,
+      "rating": 1521.04,
+      "wins": 6
     },
     "94": {
       "draws": 0,
