@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Spatial architecture may only proxy tumor burden, target density, immune composition, or specimen quality and fail to add validated patient-level value.",
-      "next_test": "Fit prespecified patient-level composition-only and spatially augmented models in a development cohort, with region-level reliability checks and strict held-out patient evaluation.",
-      "opponent": 57,
-      "outcome": "loss",
-      "reason": "Pre-existing stromal architecture is a clearer, narrower incremental-prediction problem with defined patient-level baselines, decision metrics, external validation, and a feasible early nested-model test. The IFN-trajectory project has greater conceptual breadth but combines longitudinal sampling, spatial profiling, clonotypes, cross-platform integration, and causal interpretation, creating a longer chain of high-risk assumptions.",
-      "target": 58,
-      "timestamp": "2026-10-06T06:29:02.426519+00:00"
-    },
-    {
-      "main_risk": "The apparent adaptive states may be treatment-specific stress or clonal selection rather than reproducible plastic transitions that precede resistance.",
-      "next_test": "Profile matched pretreatment and early on-treatment samples from independent PDAC donors and test a locked transition score against later regrowth, using donor-level validation and untreated controls.",
-      "opponent": 7,
-      "outcome": "loss",
-      "reason": "KRAS-blockade transitions have a more fixed biological anchor, a defined disease and treatment context, and a direct serial-donor test of temporal precedence and reproducibility. The IFN project spans multiple diseases, treatments, modalities, and endpoints, making harmonization and interpretation substantially less tractable within six months.",
-      "target": 58,
-      "timestamp": "2026-10-06T06:29:02.426538+00:00"
-    },
-    {
-      "main_risk": "The glycolytic-inflammatory neighborhood may be a cell-line-derived or site-confounded proxy for tumor purity, proliferation, or anatomical origin rather than a conserved resistance transition.",
-      "next_test": "Measure the prespecified neighborhood score in pretreatment and early on-treatment biopsies from both intrahepatic and extrahepatic disease, holding out one site and comparing against composition and clinical baselines.",
-      "opponent": 18,
-      "outcome": "loss",
-      "reason": "The cholangiocarcinoma project asks a focused, transferable question about conserved versus anatomical-site-specific resistance biology and has a concrete site-held-out validation design. The IFN project has potentially broader impact but requires simultaneous success across longitudinal trajectories, spatial context, clonotype function, and heterogeneous treatment cohorts.",
-      "target": 58,
-      "timestamp": "2026-10-06T06:29:02.426547+00:00"
-    },
-    {
-      "main_risk": "Tunnel IL-17A and retinoid states may mainly reflect tunnel burden, chronicity, adherence, or general inflammation rather than a treatment-relevant biological state.",
-      "next_test": "Apply a locked spatial tunnel-state classifier to pretreatment biopsies from patients beginning standardized therapy and compare calibrated patient-level prediction with severity, tunnel-burden, composition, and pathway-score baselines.",
-      "opponent": 9,
-      "outcome": "loss",
-      "reason": "The hidradenitis project has a specific tissue unit, a comparatively focused classifier, and an early test that can assess reproducibility and incremental prediction before committing to combination mechanisms. The IFN project offers broader discovery potential but is substantially more operationally complex and vulnerable to treatment, injury, infection, steroid, and sampling confounding.",
-      "target": 58,
-      "timestamp": "2026-10-06T06:29:02.426552+00:00"
-    },
-    {
-      "main_risk": "Drug exposure and phosphosite measurements may lack sufficient temporal and tumor-specific accuracy, making apparent pathway rebound indistinguishable from sampling heterogeneity or generic treatment stress.",
-      "next_test": "Collect matched drug levels and baseline/first-cycle samples in a targeted-therapy cohort, then test locked exposure-adjusted target engagement and pathway-rebound features against later failure with stress-response and exposure-only controls.",
-      "opponent": 49,
-      "outcome": "loss",
-      "reason": "Exposure-adjusted phosphoproteomics has a strong fixed anchor—mechanistically attributing treatment failure—and connects directly to an actionable experimental decision such as dose optimization or combination selection. The IFN proposal is broader and potentially more general, but its multi-modal trajectory framework has more coupled assumptions and less immediate interpretability of failure modes.",
-      "target": 58,
-      "timestamp": "2026-10-06T06:29:02.426558+00:00"
-    },
-    {
       "main_risk": "The spatial signal may mainly reflect tumor burden, immune abundance, sampling location, or technical differences rather than therapeutic-cell access.",
       "next_test": "In a paired pretreatment/early-treatment cohort, test whether preregistered access features predict response beyond clinical covariates and composition, with multiplex-imaging replication and patient-level splits.",
       "opponent": 41,
@@ -2699,16 +2654,61 @@
       "reason": "The gastric-cancer project has a clearer patient-level anchor, more credible clinical relevance, and a shorter earliest decision. A locked spatial score can be tested against BCL2 abundance, proliferation, and clinical covariates, with independent-cohort replication and orthogonal imaging. The virtual-cell resistance idea is broader but relies on several high-risk identifiability and cross-therapy extrapolation assumptions that are unlikely to resolve within six months.",
       "target": 95,
       "timestamp": "2026-10-22T04:58:24.814615+00:00"
+    },
+    {
+      "main_risk": "Target engagement may add little beyond lineage, exposure, co-mutation, and assay context, leaving the integrated profile poorly transferable.",
+      "next_test": "Run a focused, blinded panel of mutation-defined models measuring engagement, pathway suppression, and viability across matched concentration-response curves, then test held-out variant-drug pairs against mutation-only and context-only baselines.",
+      "opponent": 55,
+      "outcome": "loss",
+      "reason": "Mutation-specific target engagement has clearer precision-medicine value, stronger causal readouts, and a more bounded path from biochemical engagement to pathway suppression and cellular response. Its validation can be performed with matched models and leakage-resistant held-out genetic backgrounds, whereas the virtual-cell proposal depends on disentangling several paracrine, compositional, and target-depletion effects simultaneously.",
+      "target": 94,
+      "timestamp": "2026-10-22T12:01:38.716885+00:00"
+    },
+    {
+      "main_risk": "Apparent hysteresis may be caused by viability, cell-cycle, calcium, or batch effects rather than a persistent excitation-history state.",
+      "next_test": "Withhold one intermediate recovery schedule and prospectively predict module trajectories in an independent neuronal preparation, comparing the history-aware model with memoryless and calcium/viability baselines.",
+      "opponent": 89,
+      "outcome": "loss",
+      "reason": "The stress-history problem has a cleaner scientific anchor and cheaper discriminating experiment: matched stimulation histories, recovery schedules, and neuronal preparations can directly test whether history predicts future state beyond current measurements. The paracrine project has potentially broad impact but requires simultaneous identification of direct effects, soluble signaling, target depletion, composition, and construct transfer, creating a longer and riskier readout chain.",
+      "target": 94,
+      "timestamp": "2026-10-22T12:01:38.716908+00:00"
+    },
+    {
+      "main_risk": "Organoid establishment and ex vivo response may not be timely or biologically representative enough to predict patient benefit.",
+      "next_test": "Prospectively track every eligible metastatic case through organoid establishment, assay readiness, treatment-decision deadlines, and blinded outcome prediction using a locked short-term-plus-regrowth score.",
+      "opponent": 1,
+      "outcome": "loss",
+      "reason": "Time-constrained organoid profiling addresses an explicit clinical decision and can produce useful outcomes even if organoid response is only informative for selected treatment classes or features. It has patient-level validation, clear molecular and clinical baselines, and an operational feasibility test; the paracrine virtual-cell proposal has more mechanistic ambition but substantially greater identifiability and assay burden.",
+      "target": 94,
+      "timestamp": "2026-10-22T12:01:38.716918+00:00"
+    },
+    {
+      "main_risk": "Fixation may destroy or distort perturbation-specific regulatory effects, leaving only stable cell-state markers that cannot support the claimed transfer.",
+      "next_test": "Profile donor-matched fresh, frozen, and fixed aliquots from at least three independent preparations before and after one held-out perturbation, using a targeted orthogonal functional or protein endpoint and comparing against simple persistence and batch-correction baselines.",
+      "opponent": 92,
+      "outcome": "loss",
+      "reason": "Assay transportability is a more sharply testable technology problem with broad downstream utility and a direct paired-aliquot design. Donor-level fresh, frozen, and fixed comparisons can establish whether perturbation signals survive measurement distortion before committing to complex modeling. The paracrine proposal requires multiple intervention types and extensive multicellular data before its counterfactual claims become identifiable.",
+      "target": 94,
+      "timestamp": "2026-10-22T12:01:38.716925+00:00"
+    },
+    {
+      "main_risk": "The BCL2-high spatial pattern may merely mark tumor abundance, proliferation, or advanced clone state rather than a causal niche-supported resistance mechanism.",
+      "next_test": "Apply a locked spatial neighborhood score to paired pretreatment and early-treatment specimens, testing whether it predicts patient-level persistence beyond BCL2 abundance, proliferation, and clinical covariates in an independent cohort.",
+      "opponent": 15,
+      "outcome": "loss",
+      "reason": "The gastric-cancer project has a focused patient-level biomarker anchor, a plausible orthogonal mechanistic follow-up, and an early replication test that can stop or refine the project before extensive modeling. It directly addresses treatment persistence and clinical stratification. The paracrine virtual-cell project is broader but relies on high-risk identifiability of direct versus indirect effects and extensive assay integration.",
+      "target": 94,
+      "timestamp": "2026-10-22T12:01:38.716931+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 37,
+      "games": 38,
       "losses": 19,
-      "rating": 1497.55,
-      "wins": 18
+      "rating": 1508.82,
+      "wins": 19
     },
     "10": {
       "draws": 0,
@@ -2740,10 +2740,10 @@
     },
     "15": {
       "draws": 1,
-      "games": 32,
+      "games": 33,
       "losses": 16,
-      "rating": 1492.78,
-      "wins": 15
+      "rating": 1503.45,
+      "wins": 16
     },
     "17": {
       "draws": 0,
@@ -3034,10 +3034,10 @@
     },
     "55": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 7,
-      "rating": 1499.33,
-      "wins": 7
+      "rating": 1511.35,
+      "wins": 8
     },
     "56": {
       "draws": 0,
@@ -3293,10 +3293,10 @@
     },
     "89": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 5,
-      "rating": 1498.46,
-      "wins": 5
+      "rating": 1510.1,
+      "wins": 6
     },
     "9": {
       "draws": 1,
@@ -3321,10 +3321,10 @@
     },
     "92": {
       "draws": 0,
-      "games": 8,
+      "games": 9,
       "losses": 4,
-      "rating": 1497.05,
-      "wins": 4
+      "rating": 1507.95,
+      "wins": 5
     },
     "93": {
       "draws": 0,
@@ -3335,9 +3335,9 @@
     },
     "94": {
       "draws": 0,
-      "games": 2,
-      "losses": 1,
-      "rating": 1500.01,
+      "games": 7,
+      "losses": 6,
+      "rating": 1443.51,
       "wins": 1
     },
     "95": {
