@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Spatial architecture may be a proxy for target density, tumor burden, specimen quality, or immune composition rather than an independent predictor.",
-      "next_test": "Run the prespecified patient-level comparison of composition-only versus spatially augmented models with locked covariates, calibration, and external or cohort-held-out validation.",
-      "opponent": 58,
-      "outcome": "win",
-      "reason": "Issue 57 has a clearer incremental clinical question, stronger baseline structure, and a relatively cheap patient-level nested-model test. Issue 58 requires coordinated longitudinal single-cell, receptor, spatial, and outcome data, with several difficult causal and cross-cohort assumptions before producing a reliable result.",
-      "target": 57,
-      "timestamp": "2026-10-05T22:03:32.557210+00:00"
-    },
-    {
-      "main_risk": "The apparent spatial architecture signal may not represent functional antibody or effector-cell access and may disappear after adjustment for composition and tumor burden.",
-      "next_test": "Test a locked stromal-obstruction and target-adjacency score in patient-level nested models against target expression, composition, and clinical baselines, with orthogonal penetration or access measurements where available.",
-      "opponent": 59,
-      "outcome": "loss",
-      "reason": "Issue 57 offers a broader and more directly testable incremental prediction problem with established clinical covariates and a clear pathology-reduction path. Issue 59 depends more heavily on paired tissue, product-specific therapeutic-T-cell identification, early on-treatment sampling, and reliable access-state measurement, making the six-month readout riskier.",
-      "target": 57,
-      "timestamp": "2026-10-05T22:03:32.557233+00:00"
-    },
-    {
-      "main_risk": "The context-aware model may not generalize beyond related cell lines or training-like contexts, making apparent synergy a cell-line or assay artifact.",
-      "next_test": "Prospectively test a locked prediction list of combinations and doses in donor-derived organoids or xenografts held out by donor, measuring viability, apoptosis, mitochondrial priming, and calibration against Loewe/Bliss and mechanistic baselines.",
-      "opponent": 40,
-      "outcome": "loss",
-      "reason": "Issue 40 has a more controllable six-month path: strong pharmacologic baselines, explicit context-held-out evaluation, prospective blinded testing, and orthogonal apoptosis readouts. Issue 57 has greater potential clinical value but depends on access to suitable treated cohorts, reliable spatial measurements, and an incremental signal that may be difficult to establish in limited samples.",
-      "target": 57,
-      "timestamp": "2026-10-05T22:03:32.557243+00:00"
-    },
-    {
-      "main_risk": "Temporal-model gains may be driven entirely by measurement density, and any residual improvement may not survive cross-site recalibration or yield clinically meaningful net benefit.",
-      "next_test": "Compare frozen static and temporal models across held-out hospitals after controlling for measurement density, then assess calibration and decision-curve net benefit at prespecified escalation thresholds.",
-      "opponent": 27,
-      "outcome": "loss",
-      "reason": "Issue 27 has the strongest likelihood of producing a decision-relevant answer within six months: accessible datasets, patient-disjoint evaluation, external hospital validation, and explicit calibration and net-benefit criteria. Issue 57 is potentially more novel but has higher cohort, assay, and measurement-reliability risks before clinical utility can be assessed.",
-      "target": 57,
-      "timestamp": "2026-10-05T22:03:32.557250+00:00"
-    },
-    {
-      "main_risk": "Spatial architecture may add no independent information beyond target expression, composition, tumor burden, and specimen quality.",
-      "next_test": "Fit patient- or donor-level nested models using a locked spatial score and test incremental discrimination, calibration, and decision value against composition and clinical baselines before investing in functional validation.",
-      "opponent": 7,
-      "outcome": "win",
-      "reason": "Issue 57 has a more bounded predictive objective and a cleaner early branch than Issue 7, while still allowing mechanistic follow-up. Issue 7 requires reproducible treatment-induced transitions, temporal precedence, spatial value, and pharmacologic actionability across donors or models, creating several sequential high-risk assumptions.",
-      "target": 57,
-      "timestamp": "2026-10-05T22:03:32.557257+00:00"
-    },
-    {
       "main_risk": "Spatial architecture may only proxy tumor burden, target density, immune composition, or specimen quality and fail to add validated patient-level value.",
       "next_test": "Fit prespecified patient-level composition-only and spatially augmented models in a development cohort, with region-level reliability checks and strict held-out patient evaluation.",
       "opponent": 57,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 93 is the stronger current investment because it targets a generalizable technology capability, has a fixed causal anchor, explicit competing mechanisms, and an early test that can yield informative negative results. Issue 1 has greater direct clinical appeal but requires timely organoid establishment, clinically relevant pharmacology, correlation with patient benefit, and resistance prediction across independent cohorts before utility is credible.",
       "target": 93,
       "timestamp": "2026-10-21T21:47:51.479660+00:00"
+    },
+    {
+      "main_risk": "The observed neighborhood remodeling may be driven by survival, target depletion, or composition rather than paracrine signaling, making direct-versus-paracrine effects poorly identifiable.",
+      "next_test": "Run the paired intervention matrix with one engineered construct and prospectively predict a held-out target burden in an independent co-culture preparation, comparing against composition-only and conditioned-medium baselines.",
+      "opponent": 94,
+      "outcome": "loss",
+      "reason": "Paracrine effects have a clearer, cheaper discriminating experiment using paired mono-culture, conditioned-medium, transwell, contact, and target-depletion controls. It can separate direct effects, soluble signaling, composition, and target depletion while supporting useful negative outcomes. The resistance project has broader potential but requires lineage-resolved attribution, multiple therapies, independent contexts, and longer transfer validation.",
+      "target": 95,
+      "timestamp": "2026-10-22T04:58:24.814566+00:00"
+    },
+    {
+      "main_risk": "Target engagement may add little beyond lineage, exposure, co-mutations, and cellular context, so the integrated profile may not generalize across genetic backgrounds.",
+      "next_test": "Measure blinded engagement, pathway suppression, and viability across a focused mutation-defined model panel, then test held-out sensitivity and mechanism classification against mutation-only and context-only baselines.",
+      "opponent": 55,
+      "outcome": "loss",
+      "reason": "Mutation-specific target engagement has stronger near-term feasibility and a more direct precision-medicine contribution. Biochemical engagement, pathway suppression, and viability can be measured in a focused panel within a defined 12-week test, with isogenic and genetic-background splits. The virtual-cell resistance project depends on identifying trajectories, transferring across unseen therapies, and validating long-term resistance mechanisms.",
+      "target": 95,
+      "timestamp": "2026-10-22T04:58:24.814587+00:00"
+    },
+    {
+      "main_risk": "The apparent memory and hysteresis may be generic toxicity, cell-cycle, batch, or viability effects rather than excitation-history biology, and may not transfer across neuronal contexts.",
+      "next_test": "Hold out an intermediate excitation/recovery schedule and an independent neuronal preparation, prospectively comparing a history-aware model with memoryless, trajectory-matching, and calcium/viability baselines using preparation-level errors and interval coverage.",
+      "opponent": 89,
+      "outcome": "loss",
+      "reason": "Stress-history transfer offers a more tractable six-month decision: matched stimulation histories, recovery schedules, and neuronal preparations can directly test whether history predicts future state beyond current calcium, expression, viability, and cell cycle. It has a shorter earliest test and useful branches if hysteresis is absent. The resistance project has greater potential clinical impact but requires difficult separation of induction from selection and credible transfer to unseen therapies and contexts.",
+      "target": 95,
+      "timestamp": "2026-10-22T04:58:24.814596+00:00"
+    },
+    {
+      "main_risk": "Fresh, frozen, and fixed workflows may not preserve enough perturbation-specific regulatory signal for assay correction to recover, leaving only composition or stable marker concordance.",
+      "next_test": "Profile donor-matched fresh, frozen, and fixed aliquots from independent preparations before and after one unseen perturbation, using a targeted orthogonal readout and comparing measurement-aware correction with simple batch and cell-type baselines.",
+      "opponent": 92,
+      "outcome": "loss",
+      "reason": "Assay transport addresses a broad and difficult-to-replace technology need with a concrete transportability question and a relatively direct paired-aliquot test. Donor-level splits, perturbation-held-out evaluation, uncertainty, and orthogonal assays can reveal whether fixed tissue preserves perturbation-specific biology or only broad cell-state markers. The resistance project is biologically important but has more interacting high-risk assumptions and longer readouts.",
+      "target": 95,
+      "timestamp": "2026-10-22T04:58:24.814604+00:00"
+    },
+    {
+      "main_risk": "The spatial association may be noncausal and reflect clonal abundance, proliferation, or disease severity; the proposed niche score may not add information beyond simpler epithelial measurements.",
+      "next_test": "Apply a prespecified BCL2-high epithelial/BMP-low fibroblast proximity score to paired pretreatment and early-treatment patient samples, testing patient-level replication beyond BCL2 abundance, proliferation, and clinical covariates.",
+      "opponent": 15,
+      "outcome": "loss",
+      "reason": "The gastric-cancer project has a clearer patient-level anchor, more credible clinical relevance, and a shorter earliest decision. A locked spatial score can be tested against BCL2 abundance, proliferation, and clinical covariates, with independent-cohort replication and orthogonal imaging. The virtual-cell resistance idea is broader but relies on several high-risk identifiability and cross-therapy extrapolation assumptions that are unlikely to resolve within six months.",
+      "target": 95,
+      "timestamp": "2026-10-22T04:58:24.814615+00:00"
     }
   ],
   "k_factor": 24,
@@ -2740,10 +2740,10 @@
     },
     "15": {
       "draws": 1,
-      "games": 31,
+      "games": 32,
       "losses": 16,
-      "rating": 1482.14,
-      "wins": 14
+      "rating": 1492.78,
+      "wins": 15
     },
     "17": {
       "draws": 0,
@@ -3034,10 +3034,10 @@
     },
     "55": {
       "draws": 0,
-      "games": 13,
+      "games": 14,
       "losses": 7,
-      "rating": 1487.72,
-      "wins": 6
+      "rating": 1499.33,
+      "wins": 7
     },
     "56": {
       "draws": 0,
@@ -3293,10 +3293,10 @@
     },
     "89": {
       "draws": 0,
-      "games": 9,
+      "games": 10,
       "losses": 5,
-      "rating": 1487.23,
-      "wins": 4
+      "rating": 1498.46,
+      "wins": 5
     },
     "9": {
       "draws": 1,
@@ -3321,10 +3321,10 @@
     },
     "92": {
       "draws": 0,
-      "games": 7,
+      "games": 8,
       "losses": 4,
-      "rating": 1486.17,
-      "wins": 3
+      "rating": 1497.05,
+      "wins": 4
     },
     "93": {
       "draws": 0,
@@ -3335,16 +3335,16 @@
     },
     "94": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "rating": 1500.01,
+      "wins": 1
     },
     "95": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
+      "games": 6,
+      "losses": 6,
+      "rating": 1432.04,
       "wins": 0
     }
   },
