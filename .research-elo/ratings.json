@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The spatial signal may be non-incremental, merely reflecting tumor burden, immune abundance, etiology, tissue quality, or other clinical covariates.",
-      "next_test": "Run the preregistered patient-level held-out pilot comparing the locked topology score with clinical, composition, and shuffled-topology baselines, including calibration and tissue-quality strata.",
-      "opponent": 51,
-      "outcome": "win",
-      "reason": "The HCC project has a clearer patient-level clinical anchor, an explicit incremental-value question, biologically interpretable spatial mechanisms, and a relatively direct held-out pilot. The kinase project has broader potential, but cross-assay phosphoproteomic transportability, harmonized drug-response labels, and pathway-specific generalization create a longer chain of high-risk assumptions.",
-      "target": 60,
-      "timestamp": "2026-10-07T20:39:40.322282+00:00"
-    },
-    {
-      "main_risk": "The lymphoma benchmark may show little or no transportable spatial gain once center, imaging, molecular, and composition baselines are properly controlled.",
-      "next_test": "Complete the center-held-out nested benchmark with locked preprocessing and compare calibrated spatial-context performance against the International Prognostic Index plus composition baseline.",
-      "opponent": 17,
-      "outcome": "loss",
-      "reason": "The lymphoma project more directly addresses a broad and reusable technology question, has stronger evidence readiness and multicenter benchmarking structure, and explicitly tests whether spatial context adds value beyond established clinical and composition baselines. The HCC project offers stronger mechanistic specificity but depends on a narrower treatment cohort, reproducible cGAS-STING measurement, and transport across spatial platforms.",
-      "target": 60,
-      "timestamp": "2026-10-07T20:39:40.322301+00:00"
-    },
-    {
-      "main_risk": "Measured intracellular payload and pharmacodynamic differences may still be dominated by nonspecific uptake, free-payload contamination, proliferation, or assay-duration effects rather than HER2-mediated delivery.",
-      "next_test": "Compare HER2-high, HER2-low, and resistant models with matched conjugates, free payload, and nonbinding controls while measuring internalization, intracellular exposure, and early pharmacodynamic response.",
-      "opponent": 56,
-      "outcome": "loss",
-      "reason": "The HER2 conjugate project has a more controllable causal chain, faster and cheaper discriminating experiments, and useful outcomes under either delivery-limited or payload-limited resistance. It can directly manipulate conjugate architecture, free payload, target abundance, and exposure, whereas the HCC project requires difficult patient-level spatial measurement and external clinical transport before its mechanism is established.",
-      "target": 60,
-      "timestamp": "2026-10-07T20:39:40.322308+00:00"
-    },
-    {
-      "main_risk": "The reference standard may be circular or heterogeneous, and apparent imaging value may reflect diabetes severity, age, site, reader, or image-quality differences rather than incremental biological information.",
-      "next_test": "Run the site-held-out pilot using a blinded, prespecified reference standard and compare clinical-only, neurophysiology-enhanced, and imaging-enhanced models with reproducibility and calibration assessment.",
-      "opponent": 31,
-      "outcome": "loss",
-      "reason": "Corneal nerve imaging has a defined diagnostic or monitoring pathway, a relatively accessible modality, and a clear site-held-out validation question. Its value can be evaluated against clinical and neurophysiological baselines without requiring a specialized spatial transcriptomic mechanism. The HCC project may have greater mechanistic novelty but faces more restrictive cohort, assay, and treatment-specific dependencies.",
-      "target": 60,
-      "timestamp": "2026-10-07T20:39:40.322313+00:00"
-    },
-    {
-      "main_risk": "Apparent gains may reflect dataset-specific state labels, donor or batch structure, near-duplicate perturbations, or interpolation rather than genuine prediction of unseen biological composition changes.",
-      "next_test": "Blindly test target- and donor-held-out perturbations and compare state-abundance and neighborhood predictions against compositional regression, expression-first, retrieval, and donor-preserving null baselines.",
-      "opponent": 39,
-      "outcome": "loss",
-      "reason": "The perturbation-composition project addresses a broadly useful capability, has clear prospective held-out tests, and can produce informative outcomes through target, context, state-definition, or orthogonal-validation branches even if the preferred model fails. The HCC project has stronger immediate clinical framing but depends on expensive, difficult-to-transport spatial assays and a specific therapy context.",
-      "target": 60,
-      "timestamp": "2026-10-07T20:39:40.322317+00:00"
-    },
-    {
       "main_risk": "The spatial interface may be an assay-sensitive surrogate for inflamed histology or tumor purity rather than a transportable biological predictor.",
       "next_test": "Run the preregistered pilot multiplex assay with replicate sections and patient-level held-out comparison against IGF2BP3, MHC-I, CD8, and randomized-spatial baselines.",
       "opponent": 61,
@@ -2699,6 +2654,51 @@
       "reason": "The cholangiocarcinoma problem has a direct treatment-resistance anchor, an early measurable outcome, explicit cross-anatomical-site testing, and useful functional follow-up through ex vivo assays. The maternal-placental-fetal study faces a more difficult endpoint and larger multimodal transportability burden before demonstrating clinical utility.",
       "target": 74,
       "timestamp": "2026-10-23T11:47:17.362892+00:00"
+    },
+    {
+      "main_risk": "The multimodal signal may reflect prognosis, severity, treatment timing, or site-specific assay behavior rather than treatment benefit.",
+      "next_test": "Run the locked 12-week repeated-measurement pilot with nested models against clinical-severity and single-modality baselines, evaluating calibration and decision value on held-out patients.",
+      "opponent": 79,
+      "outcome": "loss",
+      "reason": "Pulmonary sepsis has broader credible clinical value and a defined treatment-decision endpoint, with patient-level validation, external transport testing, and an early pilot that can assess incremental decision value. The virtual-cell proposal has greater discovery leverage but depends on several high-risk assumptions about identifying transitions and transferring across unseen therapies.",
+      "target": 95,
+      "timestamp": "2026-10-23T17:14:35.335409+00:00"
+    },
+    {
+      "main_risk": "The management label may be inconsistently defined or circular with the candidate modalities, undermining clinical-use validation.",
+      "next_test": "Establish blinded treatment and monitoring adjudication rules, then test locked clinical, clinical-plus-MRI, and clinical-plus-molecular models in a patient- and site-separated pilot.",
+      "opponent": 32,
+      "outcome": "loss",
+      "reason": "Myocarditis offers a clearer near-term clinical-use question and a relatively cheap retrospective discriminating test comparing modality increments against strong clinical baselines. The virtual-cell project has substantial scientific upside but requires multiple difficult longitudinal, lineage, assay, and cross-therapy transfer assumptions before its central claim can be evaluated.",
+      "target": 95,
+      "timestamp": "2026-10-23T17:14:35.335427+00:00"
+    },
+    {
+      "main_risk": "ZNF423 restoration and its spatial associations may not reproduce across patients or may merely track residual tumor, genomic background, or treatment-related assay stress.",
+      "next_test": "Use the 12-week longitudinal pilot to test whether baseline ZNF423 and spatial features predict early restoration and later escape beyond clinical and composition baselines, with orthogonal protein confirmation.",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "The ZNF423 project has a more focused biological anchor, a bounded spatial-transition hypothesis, and an early test that can distinguish reproducible transition biology from composition-only association. The virtual-cell proposal is broader but compounds identifiability, reproducibility, and unseen-therapy transfer risks, with longer readouts and weaker competitive positioning.",
+      "target": 95,
+      "timestamp": "2026-10-23T17:14:35.335434+00:00"
+    },
+    {
+      "main_risk": "An external prostate-SBRT cohort with matched urine sampling, dosimetry, and standardized toxicity grading may be unavailable or too small for credible validation.",
+      "next_test": "First verify assay reproducibility, DVH/IPSS completeness, and attainable external-cohort size; then run nested-model tests of incremental value over dosimetric and clinical predictors.",
+      "opponent": 29,
+      "outcome": "loss",
+      "reason": "The urine microRNA project is less impactful but substantially more bounded and tractable: it specifies a decision, strong dosimetric and clinical comparators, leakage-resistant patient-level validation, and inexpensive early technical and incremental-value checks. The virtual-cell project has higher potential impact but too many high-risk assumptions for a six-month investment.",
+      "target": 95,
+      "timestamp": "2026-10-23T17:14:35.335439+00:00"
+    },
+    {
+      "main_risk": "The biomarker may measure generic drug injury, exposure, or cell-cycle suppression rather than a specific causal DNA-damage-tolerance escape state.",
+      "next_test": "In independent donor-derived models, lock an early biomarker threshold and test prediction of regrowth plus selective benefit from add-on inhibition against viability and static replication-stress baselines.",
+      "opponent": 3,
+      "outcome": "loss",
+      "reason": "DNA-damage-tolerance escape has a tighter mechanism-to-intervention chain, functional perturbation tests, a 10-week early readout, and useful outcomes even if the preferred biomarker fails. The virtual-cell proposal relies on identifying therapy-induced transitions and extrapolating them to unseen therapies, making success less likely within six months.",
+      "target": 95,
+      "timestamp": "2026-10-23T17:14:35.335444+00:00"
     }
   ],
   "k_factor": 24,
@@ -2761,10 +2761,10 @@
     },
     "19": {
       "draws": 0,
-      "games": 20,
+      "games": 21,
       "losses": 13,
-      "rating": 1426.97,
-      "wins": 7
+      "rating": 1438.33,
+      "wins": 8
     },
     "2": {
       "draws": 0,
@@ -2831,17 +2831,17 @@
     },
     "29": {
       "draws": 0,
-      "games": 21,
+      "games": 22,
       "losses": 14,
-      "rating": 1423.33,
-      "wins": 7
+      "rating": 1434.43,
+      "wins": 8
     },
     "3": {
       "draws": 0,
-      "games": 25,
+      "games": 26,
       "losses": 15,
-      "rating": 1440.83,
-      "wins": 10
+      "rating": 1450.95,
+      "wins": 11
     },
     "30": {
       "draws": 0,
@@ -2859,10 +2859,10 @@
     },
     "32": {
       "draws": 0,
-      "games": 22,
+      "games": 23,
       "losses": 14,
-      "rating": 1435.13,
-      "wins": 8
+      "rating": 1446.61,
+      "wins": 9
     },
     "33": {
       "draws": 0,
@@ -3216,10 +3216,10 @@
     },
     "79": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 6,
-      "rating": 1431.59,
-      "wins": 0
+      "rating": 1443.61,
+      "wins": 1
     },
     "8": {
       "draws": 0,
@@ -3342,9 +3342,9 @@
     },
     "95": {
       "draws": 0,
-      "games": 6,
-      "losses": 6,
-      "rating": 1432.04,
+      "games": 11,
+      "losses": 11,
+      "rating": 1375.96,
       "wins": 0
     }
   },
