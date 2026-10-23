@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The ERK/Fra-1 state may reflect generic treatment injury or selection of pre-existing resistant cells rather than a reproducible fibroblast-mediated interface transition.",
-      "next_test": "Run the preregistered matched longitudinal ex vivo study across independent osteosarcoma lung-metastasis specimens, including untreated, injury, and non-spatial stress controls.",
-      "opponent": 18,
-      "outcome": "win",
-      "reason": "Issue 62 has a tighter, observed biological anchor, a defined competing explanation, and an 8-week specimen-level test that can distinguish spatial induction from generic stress or pre-existing resistance. Issue 18 has broader potential impact, but its central human transition is less established and requires difficult paired biopsies across anatomical sites before a credible readout.",
-      "target": 62,
-      "timestamp": "2026-10-07T13:33:19.313453+00:00"
-    },
-    {
-      "main_risk": "The interface state may be specific to osteosarcoma models or sampling conditions and fail to generalize across specimens.",
-      "next_test": "Apply a locked interface-state definition to independent treated and untreated metastasis specimens and test induction, patient-level prediction, and dependence on fibroblast FGFR signaling.",
-      "opponent": 9,
-      "outcome": "win",
-      "reason": "Issue 62 is more tightly fixed to a specific treatment-induced state already observed in the relevant metastatic setting and offers an earlier mechanistic and predictive test. Issue 9 addresses an important clinical problem, but tunnel-state reproducibility, treatment heterogeneity, and the causal/actionable role of retinoid signaling remain less resolved.",
-      "target": 62,
-      "timestamp": "2026-10-07T13:33:19.313476+00:00"
-    },
-    {
-      "main_risk": "The proposed ERK/Fra-1 persistence may be a generic pharmacologic stress response rather than a niche-mediated resistance mechanism.",
-      "next_test": "Use independent paired specimens to compare spatial ERK/Fra-1 induction against composition-only, injury, and non-spatial stress baselines, with fibroblast-pathway perturbation.",
-      "opponent": 59,
-      "outcome": "loss",
-      "reason": "Issue 62 has a narrower and more testable spatial mechanism with a concrete early readout, whereas Issue 59 leaves tumor type, product, compartment, assay, and endpoint highly floating. Therapeutic-cell identity, access-stage measurement, and cross-product transportability make Issue 59 a longer chain of high-risk assumptions.",
-      "target": 62,
-      "timestamp": "2026-10-07T13:33:19.313486+00:00"
-    },
-    {
-      "main_risk": "The spatial transition may not be reproducible or distinguishable from pre-existing resistant subpopulations and ex vivo injury.",
-      "next_test": "Perform the small matched longitudinal MCL1-inhibition study with lineage or state tracking, untreated time-matched controls, and orthogonal viability and injury measurements.",
-      "opponent": 41,
-      "outcome": "loss",
-      "reason": "Issue 62 is anchored in a concrete treatment-resistance phenomenon and can generate useful outcomes from an 8-week specimen study even if the FGFR mechanism fails. Issue 41 has potentially foundational impact, but depends on dense lineage-resolved multi-omic data, causal temporal ordering, and model identifiability across unseen schedules, making its success path substantially longer and riskier.",
-      "target": 62,
-      "timestamp": "2026-10-07T13:33:19.313493+00:00"
-    },
-    {
-      "main_risk": "FADS1 expression or lipid abundance may not measure active local arachidonic-acid signaling or add predictive information beyond T-cell abundance and tumor burden.",
-      "next_test": "First establish reproducible spatial FADS1/lipid and CXCR6 resident-memory measurements across HCC regions, then test association with orthogonal T-cell fitness assays before modeling response.",
-      "opponent": 10,
-      "outcome": "win",
-      "reason": "Issue 62 has stronger direct observational grounding and a clearer early branch point than Issue 10. The HCC proposal has high translational upside, but spatial lipid measurements, biologically active arachidonic-acid inference, treatment-context transportability, and clinical response prediction form a more demanding assumption chain.",
-      "target": 62,
-      "timestamp": "2026-10-07T13:33:19.313500+00:00"
-    },
-    {
       "main_risk": "The spatial signal may be non-incremental, merely reflecting tumor burden, immune abundance, etiology, tissue quality, or other clinical covariates.",
       "next_test": "Run the preregistered patient-level held-out pilot comparing the locked topology score with clinical, composition, and shuffled-topology baselines, including calibration and tissue-quality strata.",
       "opponent": 51,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 91 has a stronger discovery anchor and a shorter, more decisive experimental path. Issue 31 has credible clinical value, but reference-standard circularity, cross-site imaging reproducibility, missingness, and calibration transport make success dependent on several difficult validation steps.",
       "target": 91,
       "timestamp": "2026-10-23T05:00:12.488247+00:00"
+    },
+    {
+      "main_risk": "Therapeutic T cells may not be identifiable or spatially measured reproducibly enough across patient samples.",
+      "next_test": "Analyze paired pretreatment and early on-treatment tissues with orthogonal imaging to test whether predefined access features predict patient-level early T-cell movement or tumor proximity beyond composition.",
+      "opponent": 59,
+      "outcome": "loss",
+      "reason": "The spatial-access problem has a clearer mechanistic anchor, broader relevance across adoptive T-cell settings, and an early paired-tissue test that can distinguish access failure from abundance or treatment effects. The maternal-placental-fetal study requires difficult endpoint definition, multimodal sampling, and transportable calibration before its clinical value is knowable.",
+      "target": 74,
+      "timestamp": "2026-10-23T11:47:17.362841+00:00"
+    },
+    {
+      "main_risk": "The proposed IL-17A/retinoid tunnel states may not replicate across patients or may add nothing beyond tunnel burden and inflammation.",
+      "next_test": "Apply a locked spatial-state classifier to pretreatment tunnel biopsies from patients starting standardized therapy and compare calibrated patient-level prediction with clinical and composition baselines.",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "The hidradenitis problem is more focused and tractable, with a defined tissue unit, clinically relevant response, and a relatively cheap locked-classifier test. The maternal-placental-fetal proposal depends on assembling paired multimodal specimens, defining an actionable neonatal endpoint, and demonstrating transportability and decision value.",
+      "target": 74,
+      "timestamp": "2026-10-23T11:47:17.362863+00:00"
+    },
+    {
+      "main_risk": "Early DNA-damage-tolerance biomarker changes may reflect nonspecific treatment injury or exposure rather than future resistance.",
+      "next_test": "In independent donor-derived models, test whether an early locked biomarker predicts later regrowth and selectively identifies benefit from add-on DNA-damage-tolerance inhibition.",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "DNA-damage-tolerance escape has a strong mechanism-linked anchor and a functional early test using longitudinal models, with informative outcomes even if the favored biomarker fails. The maternal-placental-fetal project has greater cohort, endpoint, and cross-site logistics and a longer path to a credible decision value estimate.",
+      "target": 74,
+      "timestamp": "2026-10-23T11:47:17.362872+00:00"
+    },
+    {
+      "main_risk": "The neonatal immune-metabolic endpoint may be too heterogeneous or weakly linked to a changeable follow-up decision.",
+      "next_test": "Use paired maternal, placental, and cord samples to test reproducibility and incremental value over BMI and clinical baselines for a prespecified blinded neonatal endpoint.",
+      "opponent": 68,
+      "outcome": "win",
+      "reason": "The maternal-placental-fetal problem is less tied to a narrowly specified therapy and could establish a broadly reusable framework for transportable developmental biomarkers. The IL-15 project is compelling mechanistically but depends on access to rare, therapy-exposed brain-metastasis tissue and assumes that a specific cytokine-access state is actionable.",
+      "target": 74,
+      "timestamp": "2026-10-23T11:47:17.362880+00:00"
+    },
+    {
+      "main_risk": "The glycolytic-inflammatory spatial program may be a cell-line or site-specific artifact and fail to generalize across patients.",
+      "next_test": "Profile pretreatment and early on-treatment biopsies across intrahepatic and extrahepatic disease and test a locked neighborhood score against clinical, site, and composition baselines.",
+      "opponent": 18,
+      "outcome": "loss",
+      "reason": "The cholangiocarcinoma problem has a direct treatment-resistance anchor, an early measurable outcome, explicit cross-anatomical-site testing, and useful functional follow-up through ex vivo assays. The maternal-placental-fetal study faces a more difficult endpoint and larger multimodal transportability burden before demonstrating clinical utility.",
+      "target": 74,
+      "timestamp": "2026-10-23T11:47:17.362892+00:00"
     }
   ],
   "k_factor": 24,
@@ -2754,10 +2754,10 @@
     },
     "18": {
       "draws": 1,
-      "games": 29,
+      "games": 30,
       "losses": 16,
-      "rating": 1452.67,
-      "wins": 12
+      "rating": 1464.77,
+      "wins": 13
     },
     "19": {
       "draws": 0,
@@ -2838,9 +2838,9 @@
     },
     "3": {
       "draws": 0,
-      "games": 24,
-      "losses": 14,
-      "rating": 1453.63,
+      "games": 25,
+      "losses": 15,
+      "rating": 1440.83,
       "wins": 10
     },
     "30": {
@@ -3062,10 +3062,10 @@
     },
     "59": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 7,
-      "rating": 1454.02,
-      "wins": 3
+      "rating": 1466.02,
+      "wins": 4
     },
     "6": {
       "draws": 0,
@@ -3132,9 +3132,9 @@
     },
     "68": {
       "draws": 0,
-      "games": 12,
-      "losses": 8,
-      "rating": 1454.49,
+      "games": 13,
+      "losses": 9,
+      "rating": 1442.1,
       "wins": 4
     },
     "69": {
@@ -3181,10 +3181,10 @@
     },
     "74": {
       "draws": 0,
-      "games": 6,
-      "losses": 5,
-      "rating": 1453.93,
-      "wins": 1
+      "games": 11,
+      "losses": 8,
+      "rating": 1443.42,
+      "wins": 3
     },
     "75": {
       "draws": 0,
@@ -3300,10 +3300,10 @@
     },
     "9": {
       "draws": 1,
-      "games": 27,
+      "games": 28,
       "losses": 15,
-      "rating": 1453.65,
-      "wins": 11
+      "rating": 1465.25,
+      "wins": 12
     },
     "90": {
       "draws": 0,
