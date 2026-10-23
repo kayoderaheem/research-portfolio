@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The spatial tumor–T-cell interface may add no information beyond IGF2BP3, MHC-I, CD8 abundance, tumor purity, and overall inflammatory state.",
-      "next_test": "Run the preregistered multiplex-imaging pilot in a patient-held-out TNBC cohort and compare the locked spatial score with expression, composition, and clinical baselines.",
-      "opponent": 18,
-      "outcome": "win",
-      "reason": "Issue 61 is the stronger current investment because it has a tighter patient-level predictive question, a more direct clinical endpoint, and a cheaper pretreatment pilot than issue 18's demanding paired longitudinal, multi-site cholangiocarcinoma design.",
-      "target": 61,
-      "timestamp": "2026-10-07T06:08:02.577674+00:00"
-    },
-    {
-      "main_risk": "The spatial feature may be non-transportable across TNBC cohorts or may fail to provide incremental value over tumor-intrinsic and immune-composition measures.",
-      "next_test": "Measure the prespecified IGF2BP3/NLRC5/MHC-I–CD8 interface in a small independent TNBC imaging cohort and test reproducibility plus incremental held-out prediction.",
-      "opponent": 62,
-      "outcome": "win",
-      "reason": "Issue 61 offers a more accessible and clinically anchored biomarker test with a defined checkpoint-response endpoint, whereas issue 62 depends on scarce osteosarcoma lung-metastasis specimens, ex vivo fidelity, treatment-induced rather than selected states, and causal fibroblast signaling.",
-      "target": 61,
-      "timestamp": "2026-10-07T06:08:02.577693+00:00"
-    },
-    {
-      "main_risk": "Spatial co-localization may be an incidental correlate of inflamed histology rather than an actionable checkpoint-response mechanism.",
-      "next_test": "Use a small, locked multiplex-imaging study to test whether the spatial interface improves held-out response prediction over strong non-spatial baselines.",
-      "opponent": 41,
-      "outcome": "win",
-      "reason": "Issue 61 has a clearer scientific anchor, a nearer-term patient-level decision, and fewer coupled assumptions than issue 41, which requires dense lineage-resolved data, causal ordering of chromatin processes, and successful history-dependent model identification.",
-      "target": 61,
-      "timestamp": "2026-10-07T06:08:02.577706+00:00"
-    },
-    {
-      "main_risk": "The apparent TNBC spatial signal may be explained by tumor purity, PD-L1 or general inflammation rather than a distinct IGF2BP3-linked competence interface.",
-      "next_test": "Apply a locked interface classifier to pretreatment TNBC samples from patients starting a standardized checkpoint regimen and compare calibrated patient-level prediction with clinical, expression, and composition models.",
-      "opponent": 9,
-      "outcome": "win",
-      "reason": "Issue 61 is more decision-ready: its biomarker, comparator models, endpoint, and external-validation path are more sharply specified. Issue 9 has important clinical relevance but greater uncertainty around tunnel-state reproducibility, treatment heterogeneity, adherence, and whether the retinoid/IL-17 split is actionable.",
-      "target": 61,
-      "timestamp": "2026-10-07T06:08:02.577714+00:00"
-    },
-    {
-      "main_risk": "The interface score may not add decision value beyond target expression, immune composition, stromal burden, and clinical covariates.",
-      "next_test": "In an available checkpoint-treated TNBC cohort, run the locked spatial pilot and require reproducibility and incremental calibrated prediction before expanding to external validation.",
-      "opponent": 57,
-      "outcome": "loss",
-      "reason": "Issue 61 is the stronger six-month investment because it fixes a biologically specific, clinically testable anchor and identifies a concrete assay and cohort, while issue 57 remains broad across tumor types and bispecific targets and relies heavily on organoid-derived architecture assumptions.",
-      "target": 61,
-      "timestamp": "2026-10-07T06:08:02.577721+00:00"
-    },
-    {
       "main_risk": "The ERK/Fra-1 state may reflect generic treatment injury or selection of pre-existing resistant cells rather than a reproducible fibroblast-mediated interface transition.",
       "next_test": "Run the preregistered matched longitudinal ex vivo study across independent osteosarcoma lung-metastasis specimens, including untreated, injury, and non-spatial stress controls.",
       "opponent": 18,
@@ -2699,6 +2654,51 @@
       "reason": "83 has a specific clinical action, inexpensive measurements, and a fast falsification path; 39 has broader technology impact but substantial uncertainty around state definitions, true extrapolation, and prospective compositional identifiability.",
       "target": 83,
       "timestamp": "2026-10-22T21:42:28.331658+00:00"
+    },
+    {
+      "main_risk": "Kinetic states may remain non-identifiable from the proposed nascent-RNA and polymerase-occupancy measurements.",
+      "next_test": "Run the dense two-factor acute time course with replicate-aware parameter recovery and held-out perturbation prediction.",
+      "opponent": 63,
+      "outcome": "win",
+      "reason": "Issue 91 has a clearer mechanistic anchor, broader discovery value, and an early perturbation experiment that can test identifiability before major scaling. Issue 63 has strong clinical potential but depends on difficult spatial reproducibility, patient-level external validation, and functional causality.",
+      "target": 91,
+      "timestamp": "2026-10-23T05:00:12.488203+00:00"
+    },
+    {
+      "main_risk": "The measured kinetic modalities may not distinguish initiation, pause release, and turnover without marker-specific or assay-timing artifacts.",
+      "next_test": "Compare kinetic and steady-state models on the prespecified acute time course using perturbation-held-out, leakage-resistant validation.",
+      "opponent": 78,
+      "outcome": "loss",
+      "reason": "Issue 91 offers a more focused and transferable scientific question with direct early measurements and useful outcomes even if the favored model fails. Issue 78 has substantial clinical impact, but endpoint definition, operator/device variation, acquisition feasibility, and subgroup transport create a longer risk chain.",
+      "target": 91,
+      "timestamp": "2026-10-23T05:00:12.488225+00:00"
+    },
+    {
+      "main_risk": "Acute initiation and post-initiation effects may not be separable in the available time window.",
+      "next_test": "Profile initiation-associated and pause-turnover perturbations at dense early time points and test held-out prediction against simple baselines.",
+      "opponent": 90,
+      "outcome": "loss",
+      "reason": "Issue 91 is more immediately testable and measures the proposed causal dynamics directly, whereas Issue 90 requires history to be represented, transferred across donors, and linked to reproducible functional outcomes. The kinetic project also has a simpler early branch point.",
+      "target": 91,
+      "timestamp": "2026-10-23T05:00:12.488234+00:00"
+    },
+    {
+      "main_risk": "The apparent kinetic-model gain may disappear under perturbation- and replicate-held-out evaluation.",
+      "next_test": "Conduct the preregistered acute time-course benchmark with steady-state, linear state-space, and regularized baselines.",
+      "opponent": 17,
+      "outcome": "loss",
+      "reason": "Issue 91 has greater mechanistic discovery value and a concrete eight-week identifiability test. Issue 17 is a valuable rigorously designed benchmark, but its contribution is more incremental and depends heavily on access to harmonized multicenter data and an independent validation cohort.",
+      "target": 91,
+      "timestamp": "2026-10-23T05:00:12.488241+00:00"
+    },
+    {
+      "main_risk": "The observations may not support reliable patient- or perturbation-level kinetic identification.",
+      "next_test": "Use matched acute perturbations and orthogonal pause-duration or polymerase-residence measurements to test identifiability and prospective prediction.",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "Issue 91 has a stronger discovery anchor and a shorter, more decisive experimental path. Issue 31 has credible clinical value, but reference-standard circularity, cross-site imaging reproducibility, missingness, and calibration transport make success dependent on several difficult validation steps.",
+      "target": 91,
+      "timestamp": "2026-10-23T05:00:12.488247+00:00"
     }
   ],
   "k_factor": 24,
@@ -2747,10 +2747,10 @@
     },
     "17": {
       "draws": 0,
-      "games": 23,
+      "games": 24,
       "losses": 9,
-      "rating": 1550.92,
-      "wins": 14
+      "rating": 1562.32,
+      "wins": 15
     },
     "18": {
       "draws": 1,
@@ -2852,9 +2852,9 @@
     },
     "31": {
       "draws": 0,
-      "games": 27,
-      "losses": 11,
-      "rating": 1552.12,
+      "games": 28,
+      "losses": 12,
+      "rating": 1539.09,
       "wins": 16
     },
     "32": {
@@ -3097,9 +3097,9 @@
     },
     "63": {
       "draws": 0,
-      "games": 14,
-      "losses": 5,
-      "rating": 1546.15,
+      "games": 15,
+      "losses": 6,
+      "rating": 1534.14,
       "wins": 9
     },
     "64": {
@@ -3209,10 +3209,10 @@
     },
     "78": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 4,
-      "rating": 1544.66,
-      "wins": 8
+      "rating": 1557.12,
+      "wins": 9
     },
     "79": {
       "draws": 0,
@@ -3307,17 +3307,17 @@
     },
     "90": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 4,
-      "rating": 1544.63,
-      "wins": 8
+      "rating": 1556.66,
+      "wins": 9
     },
     "91": {
       "draws": 0,
-      "games": 6,
-      "losses": 1,
-      "rating": 1545.96,
-      "wins": 5
+      "games": 11,
+      "losses": 4,
+      "rating": 1535.11,
+      "wins": 7
     },
     "92": {
       "draws": 0,

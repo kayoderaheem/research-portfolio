@@ -121,15 +121,15 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | 16 | [#83 — [Idea] Decision value of lymphocyte trajectories for early anti-drug-antibody testing during natalizumab therapy](https://github.com/kayoderaheem/research-portfolio/issues/83) | **1578** | 11 | 9W / 0D / 2L |
 | 17 | [#43 — [Idea] Transportability limits of multimodal drug-response prediction under unseen-drug and unseen-tumor shifts](https://github.com/kayoderaheem/research-portfolio/issues/43) | **1576** | 23 | 15W / 0D / 8L |
 | 18 | [#84 — [Idea] Decision value of vital-sign and medication signals beyond BIS for early deep-anesthesia warnings](https://github.com/kayoderaheem/research-portfolio/issues/84) | **1566** | 10 | 8W / 0D / 2L |
-| 19 | [#86 — [Idea] Age-calibrated incremental value of testosterone and creatinine beyond PSA for prostate biopsy triage](https://github.com/kayoderaheem/research-portfolio/issues/86) | **1555** | 11 | 8W / 0D / 3L |
-| 20 | [#27 — [Idea] Decision-value and site-transportable calibration of temporal multimodal deterioration risk in ICU care](https://github.com/kayoderaheem/research-portfolio/issues/27) | **1553** | 32 | 18W / 0D / 14L |
-| 21 | [#31 — [Idea] Site-transportable multimodal validation of corneal nerve imaging for small-fiber neuropathy](https://github.com/kayoderaheem/research-portfolio/issues/31) | **1552** | 27 | 16W / 0D / 11L |
-| 22 | [#17 — [Idea] Patient-level tissue-context gain over composition for multimodal lymphoma treatment-response prediction](https://github.com/kayoderaheem/research-portfolio/issues/17) | **1551** | 23 | 14W / 0D / 9L |
-| 23 | [#63 — [Idea] UCHL1-defined dendritic-cell–Treg neighborhoods as a resistance mechanism to Atezo/Bev in hepatocellular carcinoma](https://github.com/kayoderaheem/research-portfolio/issues/63) | **1546** | 14 | 9W / 0D / 5L |
-| 24 | [#91 — [Idea] Kinetic identifiability of acute transcriptional perturbations in virtual cells](https://github.com/kayoderaheem/research-portfolio/issues/91) | **1546** | 6 | 5W / 0D / 1L |
-| 25 | [#78 — [Idea] Incremental decision value of ultrasound-enhanced airway risk stratification across clinical populations](https://github.com/kayoderaheem/research-portfolio/issues/78) | **1545** | 12 | 8W / 0D / 4L |
-| 26 | [#90 — [Idea] Prospective limits of virtual-cell extrapolation across regenerative history](https://github.com/kayoderaheem/research-portfolio/issues/90) | **1545** | 12 | 8W / 0D / 4L |
-| 27 | [#73 — [Idea] Incremental decision value of hormonal and lifestyle signals for PCOS diagnostic triage](https://github.com/kayoderaheem/research-portfolio/issues/73) | **1536** | 13 | 8W / 0D / 5L |
+| 19 | [#17 — [Idea] Patient-level tissue-context gain over composition for multimodal lymphoma treatment-response prediction](https://github.com/kayoderaheem/research-portfolio/issues/17) | **1562** | 24 | 15W / 0D / 9L |
+| 20 | [#78 — [Idea] Incremental decision value of ultrasound-enhanced airway risk stratification across clinical populations](https://github.com/kayoderaheem/research-portfolio/issues/78) | **1557** | 13 | 9W / 0D / 4L |
+| 21 | [#90 — [Idea] Prospective limits of virtual-cell extrapolation across regenerative history](https://github.com/kayoderaheem/research-portfolio/issues/90) | **1557** | 13 | 9W / 0D / 4L |
+| 22 | [#86 — [Idea] Age-calibrated incremental value of testosterone and creatinine beyond PSA for prostate biopsy triage](https://github.com/kayoderaheem/research-portfolio/issues/86) | **1555** | 11 | 8W / 0D / 3L |
+| 23 | [#27 — [Idea] Decision-value and site-transportable calibration of temporal multimodal deterioration risk in ICU care](https://github.com/kayoderaheem/research-portfolio/issues/27) | **1553** | 32 | 18W / 0D / 14L |
+| 24 | [#31 — [Idea] Site-transportable multimodal validation of corneal nerve imaging for small-fiber neuropathy](https://github.com/kayoderaheem/research-portfolio/issues/31) | **1539** | 28 | 16W / 0D / 12L |
+| 25 | [#73 — [Idea] Incremental decision value of hormonal and lifestyle signals for PCOS diagnostic triage](https://github.com/kayoderaheem/research-portfolio/issues/73) | **1536** | 13 | 8W / 0D / 5L |
+| 26 | [#91 — [Idea] Kinetic identifiability of acute transcriptional perturbations in virtual cells](https://github.com/kayoderaheem/research-portfolio/issues/91) | **1535** | 11 | 7W / 0D / 4L |
+| 27 | [#63 — [Idea] UCHL1-defined dendritic-cell–Treg neighborhoods as a resistance mechanism to Atezo/Bev in hepatocellular carcinoma](https://github.com/kayoderaheem/research-portfolio/issues/63) | **1534** | 15 | 9W / 0D / 6L |
 | 28 | [#40 — [Idea] Context-aware virtual screening of apoptosis combinations in germ cell tumors](https://github.com/kayoderaheem/research-portfolio/issues/40) | **1525** | 29 | 15W / 1D / 13L |
 | 29 | [#65 — [Idea] Spatial fibroblast-state transitions as predictors of bazedoxifene response in cutaneous fibrosis](https://github.com/kayoderaheem/research-portfolio/issues/65) | **1520** | 16 | 9W / 0D / 7L |
 | 30 | [#71 — [Idea] Dynamic clinical-imaging-molecular calibration for treatment-aware risk in anti-MDA5 dermatomyositis-associated ILD](https://github.com/kayoderaheem/research-portfolio/issues/71) | **1520** | 8 | 5W / 0D / 3L |
@@ -196,7 +196,7 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | 91 | [#21 — [Idea] Decision-value thresholds for multimodal treatment matching in opioid use disorder](https://github.com/kayoderaheem/research-portfolio/issues/21) | **1371** | 16 | 2W / 0D / 14L |
 | 92 | [#12 — [Idea] Antigen-presentation escape neighborhoods predicting checkpoint response in melanoma with HIV](https://github.com/kayoderaheem/research-portfolio/issues/12) | **1367** | 16 | 2W / 0D / 14L |
 
-_Last synchronized: 2026-10-22 21:42 UTC._
+_Last synchronized: 2026-10-23 05:00 UTC._
 <!-- RESEARCH_ELO_END -->
 
 ## Add ideas manually
