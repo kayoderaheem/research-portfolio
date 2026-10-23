@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The spatial interface may be an assay-sensitive surrogate for inflamed histology or tumor purity rather than a transportable biological predictor.",
-      "next_test": "Run the preregistered pilot multiplex assay with replicate sections and patient-level held-out comparison against IGF2BP3, MHC-I, CD8, and randomized-spatial baselines.",
-      "opponent": 61,
-      "outcome": "loss",
-      "reason": "The spatial TNBC problem has a sharper incremental scientific question, strong patient-level validation safeguards, and an early reproducibility test that can distinguish meaningful spatial biology from composition alone. The tamoxifen project has greater clinical breadth but requires a more demanding chain linking pharmacokinetics, adherence, germline variation, tumor evolution, ancestry, and outcomes.",
-      "target": 50,
-      "timestamp": "2026-10-08T01:03:19.959706+00:00"
-    },
-    {
-      "main_risk": "The apparent fibrosis and cGAS-STING boundary may mainly encode tumor burden, liver disease severity, or tissue-quality variation.",
-      "next_test": "Evaluate a locked topology score in a held-out pilot cohort against clinical, composition-only, and adjacency-destroying controls, including calibration and tissue-quality strata.",
-      "opponent": 60,
-      "outcome": "loss",
-      "reason": "The HCC project offers a focused test of whether tissue topology adds information beyond established clinical and compositional predictors, with clear negative controls and a mechanistic branch even if prediction fails. The tamoxifen project has important potential value but depends on simultaneously obtaining reliable longitudinal exposure, tumor evolution, adherence, ancestry, and outcome data.",
-      "target": 50,
-      "timestamp": "2026-10-08T01:03:19.959729+00:00"
-    },
-    {
-      "main_risk": "Endoxifen exposure and somatic evolution may not provide separable information beyond adherence, treatment context, and tumor burden.",
-      "next_test": "In a retrospective longitudinal cohort, test whether repeated endoxifen measurements plus baseline or emerging ESR1 status improve held-out, ancestry-stratified calibration over CYP2D6, adherence, and clinical baselines.",
-      "opponent": 54,
-      "outcome": "win",
-      "reason": "The tamoxifen problem has a clearer clinical decision anchor and a stronger near-term baseline hierarchy: CYP2D6, exposure, adherence, clinical factors, and somatic resistance can be compared directly. The T-cell-clone project faces a harder identification problem because persistence and expansion may still reflect nonspecific inflammation, sampling depth, or exposure rather than tumor-reactive immunity.",
-      "target": 50,
-      "timestamp": "2026-10-08T01:03:19.959737+00:00"
-    },
-    {
-      "main_risk": "Biochemical engagement may not predict cellular killing or resistance once lineage, co-mutations, uptake, and downstream pathway context are included.",
-      "next_test": "Measure engagement, pathway suppression, and viability across blinded isogenic or model-family-held-out mutation-drug pairs and compare with mutation-label and structural-score baselines.",
-      "opponent": 55,
-      "outcome": "loss",
-      "reason": "Mutation-specific target engagement is a more fixed and experimentally controllable problem with a cheap 12-week assay path, orthogonal mechanistic readouts, and reusable value across variant-drug pairs. The tamoxifen project has higher immediate clinical relevance but requires a much larger, heterogeneous observational dataset and several high-risk integration steps before a reliable decision signal is established.",
-      "target": 50,
-      "timestamp": "2026-10-08T01:03:19.959743+00:00"
-    },
-    {
-      "main_risk": "The tamoxifen study may be infeasible because complete patient-level cohorts combining pharmacokinetics, adherence, germline data, serial tumor evolution, and diverse external validation are unavailable.",
-      "next_test": "First verify a sufficiently powered, independent patient-level cohort with stored serial plasma, genotype, adherence, tumor or ctDNA, and outcomes; then test the locked integrated model against CYP2D6, exposure-only, and clinical baselines.",
-      "opponent": 53,
-      "outcome": "win",
-      "reason": "The tamoxifen project has a clearer mechanistic anchor, more mature baselines, and a more credible clinical endpoint than an early heterogeneity trajectory whose measurement may be dominated by sampling, necrosis, and treatment-induced tissue change. The bladder project is also constrained by a specific emerging treatment protocol and may not yield actionable evidence if serial specimens are not biologically comparable.",
-      "target": 50,
-      "timestamp": "2026-10-08T01:03:19.959750+00:00"
-    },
-    {
       "main_risk": "Issue 51 may not retain predictive value across assay platforms once lineage, dose, and batch effects are controlled.",
       "next_test": "Train a simple pathway-level kinase-state model in one cohort and test it without refitting on an independent platform for one matched drug class, comparing it with lineage and expression-only baselines.",
       "opponent": 43,
@@ -2699,6 +2654,51 @@
       "reason": "DNA-damage-tolerance escape has a tighter mechanism-to-intervention chain, functional perturbation tests, a 10-week early readout, and useful outcomes even if the preferred biomarker fails. The virtual-cell proposal relies on identifying therapy-induced transitions and extrapolating them to unseen therapies, making success less likely within six months.",
       "target": 95,
       "timestamp": "2026-10-23T17:14:35.335444+00:00"
+    },
+    {
+      "main_risk": "Alexander cohorts may be too small or heterogeneous to estimate transportable multimodal benefit.",
+      "next_test": "Run patient-level nested validation comparing clinical, GFAP-only, MRI-only, and multimodal prediction of 12-month functional change.",
+      "opponent": 59,
+      "outcome": "win",
+      "reason": "Alexander disease offers a clearer clinical anchor and a more feasible early retrospective test; the spatial T-cell project depends on scarce paired tissues, reliable product-cell identification, and generalization across products and tumors.",
+      "target": 82,
+      "timestamp": "2026-10-23T21:29:09.801655+00:00"
+    },
+    {
+      "main_risk": "The proposed IL-17/retinoid spatial states may be descriptive consequences of chronic tunnels rather than treatment-relevant predictors.",
+      "next_test": "Apply the locked tunnel-state classifier in an independent pretreatment cohort and compare calibrated prediction against clinical, burden, and composition baselines.",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "Hidradenitis suppurativa has a broader, more accessible patient base and a comparatively tractable locked-state replication test, while Alexander disease faces rare-disease sample limitations and difficult developmental outcome modeling.",
+      "target": 82,
+      "timestamp": "2026-10-23T21:29:09.801680+00:00"
+    },
+    {
+      "main_risk": "GFAP suppression and developmental heterogeneity may prevent reliable separation of target engagement from functional outcome.",
+      "next_test": "Use a retrospective serial cohort to test incremental patient-level net benefit of multimodal prediction over clinical and GFAP-only baselines.",
+      "opponent": 64,
+      "outcome": "win",
+      "reason": "Alexander monitoring has a clearer validated biomarker context and a more direct clinical decision, whereas the STING project requires scarce longitudinal specimens and several unproven links from myeloid spatial state to necrosis, adaptive immunity, and benefit.",
+      "target": 82,
+      "timestamp": "2026-10-23T21:29:09.801689+00:00"
+    },
+    {
+      "main_risk": "A reliable fibrosis reference standard may be unavailable or introduce verification and spectrum bias.",
+      "next_test": "Perform locked leave-one-site-out comparisons of the clinical-laboratory baseline with sequential imaging, genetic, lifestyle, and social additions.",
+      "opponent": 76,
+      "outcome": "loss",
+      "reason": "Pediatric MASLD offers broader potential data access, a practical modality-acquisition question, and strong transportability-focused validation; Alexander disease is clinically important but constrained by rarity, heterogeneous outcomes, and treatment-confounded GFAP.",
+      "target": 82,
+      "timestamp": "2026-10-23T21:29:09.801698+00:00"
+    },
+    {
+      "main_risk": "The 12-month functional endpoint may be too noisy or age-dependent for calibrated prediction in a rare cohort.",
+      "next_test": "Evaluate patient-level nested validation of multimodal Alexander disease models against clinical, GFAP-only, MRI-only, and genotype baselines.",
+      "opponent": 53,
+      "outcome": "loss",
+      "reason": "Alexander disease provides a more coherent biomarker-to-clinical-outcome problem and a cleaner early decision test than bladder heterogeneity, where serial sampling may not measure the same tumor and heterogeneity changes may mainly reflect necrosis or sampling.",
+      "target": 82,
+      "timestamp": "2026-10-23T21:29:09.801732+00:00"
     }
   ],
   "k_factor": 24,
@@ -3020,10 +3020,10 @@
     },
     "53": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 10,
-      "rating": 1466.8,
-      "wins": 7
+      "rating": 1478.74,
+      "wins": 8
     },
     "54": {
       "draws": 0,
@@ -3062,9 +3062,9 @@
     },
     "59": {
       "draws": 0,
-      "games": 11,
-      "losses": 7,
-      "rating": 1466.02,
+      "games": 12,
+      "losses": 8,
+      "rating": 1454.01,
       "wins": 4
     },
     "6": {
@@ -3104,9 +3104,9 @@
     },
     "64": {
       "draws": 0,
-      "games": 15,
-      "losses": 9,
-      "rating": 1465.11,
+      "games": 16,
+      "losses": 10,
+      "rating": 1453.12,
       "wins": 6
     },
     "65": {
@@ -3195,10 +3195,10 @@
     },
     "76": {
       "draws": 0,
-      "games": 13,
+      "games": 14,
       "losses": 8,
-      "rating": 1466.76,
-      "wins": 5
+      "rating": 1479.13,
+      "wins": 6
     },
     "77": {
       "draws": 0,
@@ -3244,10 +3244,10 @@
     },
     "82": {
       "draws": 0,
-      "games": 7,
-      "losses": 5,
-      "rating": 1465.87,
-      "wins": 2
+      "games": 12,
+      "losses": 8,
+      "rating": 1453.12,
+      "wins": 4
     },
     "83": {
       "draws": 0,
@@ -3300,10 +3300,10 @@
     },
     "9": {
       "draws": 1,
-      "games": 28,
+      "games": 29,
       "losses": 15,
-      "rating": 1465.25,
-      "wins": 12
+      "rating": 1477.69,
+      "wins": 13
     },
     "90": {
       "draws": 0,
