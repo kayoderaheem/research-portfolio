@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The UCHL1–mregDC–Treg neighborhood may be a noncausal proxy for tumor burden, hypoxia, or disease severity and add no value beyond plasma UCHL1 and composition.",
-      "next_test": "Use paired pretreatment and early-treatment multiplex imaging to compare a prespecified spatial score against plasma UCHL1, composition, and clinical baselines in patient-level held-out analyses.",
-      "opponent": 64,
-      "outcome": "win",
-      "reason": "Issue 63 has a more concrete clinical anchor: an established HCC treatment, patient-level resistance endpoint, matched circulating biomarker, and a direct incremental-value question. Issue 64 requires several high-risk links from a baseline myeloid niche to a reproducible necrosis-to-adaptive trajectory and then clinical benefit in a comparatively specialized setting.",
-      "target": 63,
-      "timestamp": "2026-10-09T01:15:42.859417+00:00"
-    },
-    {
-      "main_risk": "The required longitudinal human tissue, assay replication, and independent cohort may be unavailable or too small for a reliable patient-level conclusion.",
-      "next_test": "Run the proposed 10-week paired-biopsy multiplex-imaging study and require incremental, calibrated patient-level prediction over plasma UCHL1 and nonspatial composition before expanding.",
-      "opponent": 65,
-      "outcome": "win",
-      "reason": "Issue 63 offers substantially greater credible translational impact through a defined human regimen and resistance problem, while retaining a clear early biomarker test. Issue 65 is more tractable experimentally but is anchored to a murine bleomycin model and bazedoxifene response, making generalization to human fibrosis and clinical utility several steps away.",
-      "target": 63,
-      "timestamp": "2026-10-09T01:15:42.859436+00:00"
-    },
-    {
-      "main_risk": "The apparent spatial circuit may not survive adjustment for target expression, tumor burden, hypoxia, and tissue quality, eliminating its incremental value.",
-      "next_test": "Lock one available treated cohort and fit nested patient-level models comparing clinical and plasma/composition baselines with the prespecified UCHL1 neighborhood score.",
-      "opponent": 57,
-      "outcome": "win",
-      "reason": "Issue 63 is a specific, testable resistance mechanism tied to a named therapy, biomarker, tissue context, and clinical endpoint. Issue 57 leaves the bispecific target, tumor type, assay, and cohort floating, so it is a broad framework rather than a sharply positioned scientific problem and risks becoming a generic spatial-prediction benchmark.",
-      "target": 63,
-      "timestamp": "2026-10-09T01:15:42.859444+00:00"
-    },
-    {
-      "main_risk": "UCHL1-associated neighborhoods may correlate with resistance without representing a treatment-relevant causal circuit or improving calibration and decision value.",
-      "next_test": "Test reproducibility and incremental prediction in replicate pretreatment and early-treatment HCC sections using patient-level splits and plasma, composition, and clinical baselines.",
-      "opponent": 11,
-      "outcome": "win",
-      "reason": "Both projects address clinically consequential resistance and require spatial validation, but Issue 63 has stronger stated evidence readiness, a more explicitly bounded biomarker comparison, and a clearer early decision experiment. Issue 11 faces substantial marrow-sampling and longitudinal-selection risks, and spatial accessibility may be difficult to measure reliably in sparse or heterogeneous leukemia specimens.",
-      "target": 63,
-      "timestamp": "2026-10-09T01:15:42.859449+00:00"
-    },
-    {
-      "main_risk": "The spatial association may be confounded and fail to add information beyond circulating UCHL1, disease burden, or immune composition.",
-      "next_test": "Profile paired pretreatment and early-treatment HCC tissue with multiplex imaging and test whether the locked spatial score improves held-out prediction over clinical, plasma, and composition-only models.",
-      "opponent": 7,
-      "outcome": "win",
-      "reason": "Issue 63 is better positioned for a six-month investment because it connects a defined human therapy to an actionable resistance biomarker and has an inexpensive early continue-or-stop test. Issue 7 has broader discovery potential, but reproducibility across PDAC donors, temporal precedence, separation of plasticity from clonal selection, and pharmacologic actionability form a longer chain of high-risk assumptions.",
-      "target": 63,
-      "timestamp": "2026-10-09T01:15:42.859454+00:00"
-    },
-    {
       "main_risk": "For Issue 65, the decisive risk is that apparent spatial niches do not predict response beyond baseline lesion severity, fibroblast abundance, or treatment exposure.",
       "next_test": "Run the prespecified animal-level reanalysis and prospective pretreatment-to-early-treatment replication, comparing composition-only with spatial models using held-out animals and blinded collagen/histology endpoints.",
       "opponent": 64,
@@ -2699,6 +2654,51 @@
       "reason": "CVT rule-out has greater potential consequence and broader diagnostic relevance, with an explicit external-validation and silent-implementation path; the natalizumab trigger is inexpensive and tractable but its actionable antibody-testing endpoint and confounding are less secure.",
       "target": 80,
       "timestamp": "2026-10-24T11:11:52.846815+00:00"
+    },
+    {
+      "main_risk": "Molecular measurements may add no actionable information beyond clinical trajectory and imaging across sites.",
+      "next_test": "Run a blinded paired pilot testing whether a prespecified molecular module adds calibrated decision value to a locked clinical-imaging landmark model.",
+      "opponent": 85,
+      "outcome": "win",
+      "reason": "The anti-MDA5 ILD problem has a clearer treatment-timed clinical use, stronger transportability safeguards, and a more informative calibration-focused decision framework than the highly assay-sensitive SECmere comparison.",
+      "target": 71,
+      "timestamp": "2026-10-24T16:02:28.915507+00:00"
+    },
+    {
+      "main_risk": "Adequate serial, harmonized, multi-site ILD data may not be available within six months.",
+      "next_test": "Fit the locked clinical-only and clinical-imaging landmark baselines, then test incremental molecular value in an existing patient-level pilot cohort.",
+      "opponent": 65,
+      "outcome": "win",
+      "reason": "The anti-MDA5 ILD problem offers greater credible patient impact and a clearer independent-site validation path, whereas the fibrosis proposal is anchored to a murine model and faces substantial uncertainty about whether spatial states predict meaningful repair.",
+      "target": 71,
+      "timestamp": "2026-10-24T16:02:28.915530+00:00"
+    },
+    {
+      "main_risk": "CAF-immune neighborhood signals may not replicate beyond tumor composition, genotype, or baseline proliferation.",
+      "next_test": "In a patient-held-out paired cohort, compare a prespecified spatial model against composition-only and clinical baselines with calibration and negative spatial controls.",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "The lung adenocarcinoma problem has broader biological and translational scope, stronger stated access to paired spatial and functional data, and useful mechanistic branches even if spatial features fail to improve prediction.",
+      "target": 71,
+      "timestamp": "2026-10-24T16:02:28.915539+00:00"
+    },
+    {
+      "main_risk": "Ex vivo sensitivity may reflect culture viability or assay conditions rather than patient-specific treatment response.",
+      "next_test": "Use a locked patient-level held-out analysis to compare genomic matching alone with genomic matching plus functional screening, preserving assay failures and uncertainty.",
+      "opponent": 45,
+      "outcome": "loss",
+      "reason": "Functional screening has a direct treatment-decision endpoint, strong genomic and clinical comparators, an existing-data reanalysis route, and a valuable negative result if it does not improve calibrated decisions.",
+      "target": 71,
+      "timestamp": "2026-10-24T16:02:28.915546+00:00"
+    },
+    {
+      "main_risk": "The molecular module may be redundant or confounded by treatment timing and disease severity.",
+      "next_test": "Perform a landmark clinical-imaging baseline analysis and blinded incremental-value test using a small prespecified molecular panel.",
+      "opponent": 40,
+      "outcome": "win",
+      "reason": "The anti-MDA5 ILD problem addresses a defined clinical decision with credible patient value and transportability testing, while the virtual-screening proposal risks producing benchmark gains or context-specific synergy predictions that do not transfer to donor-derived models.",
+      "target": 71,
+      "timestamp": "2026-10-24T16:02:28.915553+00:00"
     }
   ],
   "k_factor": 24,
@@ -2733,9 +2733,9 @@
     },
     "13": {
       "draws": 0,
-      "games": 35,
-      "losses": 17,
-      "rating": 1518.66,
+      "games": 36,
+      "losses": 18,
+      "rating": 1507.51,
       "wins": 18
     },
     "15": {
@@ -2922,9 +2922,9 @@
     },
     "40": {
       "draws": 1,
-      "games": 29,
-      "losses": 13,
-      "rating": 1524.56,
+      "games": 30,
+      "losses": 14,
+      "rating": 1513.13,
       "wins": 15
     },
     "41": {
@@ -2957,10 +2957,10 @@
     },
     "45": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 8,
-      "rating": 1517.55,
-      "wins": 9
+      "rating": 1530.82,
+      "wins": 10
     },
     "46": {
       "draws": 1,
@@ -3111,9 +3111,9 @@
     },
     "65": {
       "draws": 0,
-      "games": 16,
-      "losses": 7,
-      "rating": 1519.84,
+      "games": 17,
+      "losses": 8,
+      "rating": 1508.25,
       "wins": 9
     },
     "66": {
@@ -3160,10 +3160,10 @@
     },
     "71": {
       "draws": 0,
-      "games": 8,
-      "losses": 3,
-      "rating": 1519.7,
-      "wins": 5
+      "games": 13,
+      "losses": 4,
+      "rating": 1552.6,
+      "wins": 9
     },
     "72": {
       "draws": 0,
@@ -3265,9 +3265,9 @@
     },
     "85": {
       "draws": 0,
-      "games": 8,
-      "losses": 3,
-      "rating": 1519.7,
+      "games": 9,
+      "losses": 4,
+      "rating": 1507.7,
       "wins": 5
     },
     "86": {
