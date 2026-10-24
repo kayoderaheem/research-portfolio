@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The ZNF423-restoration signal may not be reproducible across MPNST patients or may reflect residual tumor, genomic background, or sampling rather than escape.",
-      "next_test": "Run the proposed longitudinal pilot testing whether baseline ZNF423 state and spatial neighborhoods predict early ZNF423-restoration and later escape, compared with clinical and composition-only baselines.",
-      "opponent": 19,
-      "outcome": "loss",
-      "reason": "The ZNF423 problem has a tighter biological anchor, a more focused patient-level transition, and a feasible early longitudinal test with orthogonal validation. The IFN project has broader potential impact but depends on aligning many modalities, cohorts, timepoints, and confounders before yielding a clear result.",
-      "target": 58,
-      "timestamp": "2026-10-08T18:54:00.907762+00:00"
-    },
-    {
-      "main_risk": "The management endpoint may be non-reproducible or treatment-confounded, making apparent multimodal value reflect referral spectrum, clinician behavior, or missingness rather than improved decision-making.",
-      "next_test": "Blindedly adjudicate the treatment and monitoring decision, then compare locked clinical, clinical-plus-CMR, and clinical-plus-molecular models in a retrospective multi-site pilot.",
-      "opponent": 32,
-      "outcome": "loss",
-      "reason": "The myocarditis problem is anchored to a concrete management decision and supports an early nested-model test of incremental discrimination, calibration, and decision value. It also has credible clinical impact if transportability is demonstrated, whereas the IFN project has greater discovery scope but a substantially longer and more assumption-heavy evidence chain.",
-      "target": 58,
-      "timestamp": "2026-10-08T18:54:00.907785+00:00"
-    },
-    {
-      "main_risk": "MicroRNA changes may be dose-response proxies and fail to provide independent, adequately powered, externally reproducible decision value.",
-      "next_test": "Fit nested baseline-plus-microRNA models using the existing pilot, with nested feature selection, technical replication, dosimetric-risk stratification, calibration, and a prespecified sample-size and external-cohort feasibility assessment.",
-      "opponent": 29,
-      "outcome": "loss",
-      "reason": "The urine microRNA problem has lower broad impact but the clearest fixed clinical-use anchor, strong established baselines, explicit leakage controls, and a cheap test of whether the biomarker adds value beyond dose and symptoms. The IFN project is potentially more important but requires extensive multimodal longitudinal integration before its central distinction can be evaluated.",
-      "target": 58,
-      "timestamp": "2026-10-08T18:54:00.907793+00:00"
-    },
-    {
-      "main_risk": "Multimodal baseline features may encode donor, batch, or cell-composition proxies without making intervention responses identifiable or prospectively predictable.",
-      "next_test": "Freeze expression-only and multimodal models on a small donor-replicated perturbation panel, then test held-out perturbations and orthogonal chromatin, isoform, protein, or functional predictions.",
-      "opponent": 37,
-      "outcome": "loss",
-      "reason": "The virtual-cell problem offers the strongest combination of general technological impact, a clear falsification target, donor- and perturbation-level validation, and useful outcomes even when the multimodal hypothesis fails. It can identify whether extra regulatory-state measurements are necessary rather than merely rewarding model complexity; the IFN project has comparable impact but a more diffuse and resource-intensive trajectory definition.",
-      "target": 58,
-      "timestamp": "2026-10-08T18:54:00.907799+00:00"
-    },
-    {
-      "main_risk": "The IFN trajectory classes may be irreproducible or mainly reflect treatment timing, tissue injury, infection, steroids, tumor burden, or sampling rather than immune execution versus escape.",
-      "next_test": "Predefine trajectory features and test their reproducibility and patient-level outcome association in a small independent longitudinal cohort while controlling for infection, steroid exposure, injury, treatment timing, and clonotype leakage.",
-      "opponent": 6,
-      "outcome": "win",
-      "reason": "The IFN-response problem currently offers broader and more generalizable discovery value: it directly addresses how immune activation transitions into productive control or escape and has explicit patient-level, cohort-held-out, and confounder-aware validation requirements. The glioblastoma mechanics problem has an interesting mechanistic angle, but its mechanical proxies are uncertain and may collapse into hypoxia, necrosis, density, or mesenchymal composition.",
-      "target": 58,
-      "timestamp": "2026-10-08T18:54:00.907805+00:00"
-    },
-    {
       "main_risk": "The UCHL1–mregDC–Treg neighborhood may be a noncausal proxy for tumor burden, hypoxia, or disease severity and add no value beyond plasma UCHL1 and composition.",
       "next_test": "Use paired pretreatment and early-treatment multiplex imaging to compare a prespecified spatial score against plasma UCHL1, composition, and clinical baselines in patient-level held-out analyses.",
       "opponent": 64,
@@ -2699,6 +2654,51 @@
       "reason": "The IL-15 project has a tighter predictive anchor and an inexpensive eight-week early-function test, with explicit composition baselines and spatial negative controls; sepsis is more broadly impactful but substantially harder to execute and interpret within six months.",
       "target": 79,
       "timestamp": "2026-10-24T04:45:01.066489+00:00"
+    },
+    {
+      "main_risk": "CVT reference-standard completeness and verification bias may make apparently strong rule-out performance unreliable.",
+      "next_test": "Audit a consecutive multicenter CVT cohort for complete blinded imaging adjudication, then compare D-dimer-only, clinical, and multimodal models with patient- and site-held-out validation.",
+      "opponent": 81,
+      "outcome": "win",
+      "reason": "External validation of a multimodal CVT pathway has a clearer near-term clinical decision and an earlier, genuinely discriminating multicenter test; the methylation project depends more heavily on assay, cell-composition, and long-horizon calibration transportability.",
+      "target": 80,
+      "timestamp": "2026-10-24T11:11:52.846774+00:00"
+    },
+    {
+      "main_risk": "The multimodal CVT gain may disappear after accounting for symptom duration, referral spectrum, and verification bias.",
+      "next_test": "Run the prespecified multicenter, patient-level held-out comparison of D-dimer and clinical baselines against the multimodal pathway, reporting sensitivity, calibration, and net benefit.",
+      "opponent": 70,
+      "outcome": "loss",
+      "reason": "The CVT problem addresses a higher-consequence diagnostic decision and has a more direct safety-oriented endpoint, while the EVAR imaging proposal has narrower impact and substantial risk that CTA features add little beyond robust clinical predictors.",
+      "target": 80,
+      "timestamp": "2026-10-24T11:11:52.846791+00:00"
+    },
+    {
+      "main_risk": "The CVT cohort may be too small or selectively verified to estimate missed-case risk with adequate precision.",
+      "next_test": "Test a simple symptom-duration-plus-clinical model against D-dimer alone in an independent consecutive cohort before adding richer imaging features.",
+      "opponent": 51,
+      "outcome": "win",
+      "reason": "CVT external validation is more clinically anchored, replaceable only with reliable diagnostic evidence, and has a clearer success criterion; the kinase project requires cross-platform biological measurement stability, comparable drug-response labels, and lineage-independent transportability.",
+      "target": 80,
+      "timestamp": "2026-10-24T11:11:52.846799+00:00"
+    },
+    {
+      "main_risk": "CVT biomarker and imaging inputs may not support a safe threshold across sites and important subgroups.",
+      "next_test": "Perform blinded multicenter validation of D-dimer plus symptom duration and standardized clinical variables, including subgroup sensitivity and calibration.",
+      "opponent": 56,
+      "outcome": "win",
+      "reason": "The CVT pathway offers a nearer-term, clinically consequential decision with a direct external-validation branch, whereas the HER2 project requires several linked exposure, trafficking, payload, and pharmacodynamic assumptions before its mechanistic score can be useful.",
+      "target": 80,
+      "timestamp": "2026-10-24T11:11:52.846808+00:00"
+    },
+    {
+      "main_risk": "Lymphocyte trajectories may be too confounded by timing, infection, steroids, adherence, or laboratory variation to improve antibody-testing decisions.",
+      "next_test": "Compare the prespecified lymphocyte-change rule with clinical and treatment-history baselines in a temporally defined, independently validated cohort, measuring calibration, testing burden, and net benefit.",
+      "opponent": 83,
+      "outcome": "win",
+      "reason": "CVT rule-out has greater potential consequence and broader diagnostic relevance, with an explicit external-validation and silent-implementation path; the natalizumab trigger is inexpensive and tractable but its actionable antibody-testing endpoint and confounding are less secure.",
+      "target": 80,
+      "timestamp": "2026-10-24T11:11:52.846815+00:00"
     }
   ],
   "k_factor": 24,
@@ -3006,9 +3006,9 @@
     },
     "51": {
       "draws": 0,
-      "games": 11,
-      "losses": 2,
-      "rating": 1578.92,
+      "games": 12,
+      "losses": 3,
+      "rating": 1566.98,
       "wins": 9
     },
     "52": {
@@ -3041,9 +3041,9 @@
     },
     "56": {
       "draws": 0,
-      "games": 11,
-      "losses": 2,
-      "rating": 1583.68,
+      "games": 12,
+      "losses": 3,
+      "rating": 1571.99,
       "wins": 9
     },
     "57": {
@@ -3153,10 +3153,10 @@
     },
     "70": {
       "draws": 0,
-      "games": 7,
+      "games": 8,
       "losses": 0,
-      "rating": 1581.45,
-      "wins": 7
+      "rating": 1593.85,
+      "wins": 8
     },
     "71": {
       "draws": 0,
@@ -3230,16 +3230,16 @@
     },
     "80": {
       "draws": 0,
-      "games": 7,
-      "losses": 0,
-      "rating": 1581.07,
-      "wins": 7
+      "games": 12,
+      "losses": 1,
+      "rating": 1615.39,
+      "wins": 11
     },
     "81": {
       "draws": 0,
-      "games": 11,
-      "losses": 2,
-      "rating": 1581.16,
+      "games": 12,
+      "losses": 3,
+      "rating": 1569.16,
       "wins": 9
     },
     "82": {
@@ -3251,9 +3251,9 @@
     },
     "83": {
       "draws": 0,
-      "games": 11,
-      "losses": 2,
-      "rating": 1577.8,
+      "games": 12,
+      "losses": 3,
+      "rating": 1566.71,
       "wins": 9
     },
     "84": {
