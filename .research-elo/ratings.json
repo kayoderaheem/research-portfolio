@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Issue 51 may not retain predictive value across assay platforms once lineage, dose, and batch effects are controlled.",
-      "next_test": "Train a simple pathway-level kinase-state model in one cohort and test it without refitting on an independent platform for one matched drug class, comparing it with lineage and expression-only baselines.",
-      "opponent": 43,
-      "outcome": "loss",
-      "reason": "Issue 51 has a tighter biological anchor, a simpler comparison against strong baselines, and an early external-cohort test that can genuinely stop or redirect the project. Issue 43 has broader technology impact but depends on multiple shift types, complex multimodal data, uncertainty gating, and prospective combination validation, creating a longer and riskier readout.",
-      "target": 51,
-      "timestamp": "2026-10-08T10:42:27.435825+00:00"
-    },
-    {
-      "main_risk": "Cross-cohort phosphoproteomic measurements may be too assay-dependent for kinase states to add value beyond lineage and expression.",
-      "next_test": "Perform a locked patient- or model-level external validation of pathway kinase scores for one drug class, including calibration and comparison with lineage and expression-only models.",
-      "opponent": 45,
-      "outcome": "win",
-      "reason": "Issue 51 offers a more transportable and experimentally tractable problem with a clear external-validation decision point. Issue 45 has greater direct clinical stakes, but its value depends on obtaining sufficiently large, independent pediatric cohorts, reproducible functional assays, and unbiased treatment-response outcomes; those dependencies make a six-month investment less reliable.",
-      "target": 51,
-      "timestamp": "2026-10-08T10:42:27.435845+00:00"
-    },
-    {
-      "main_risk": "The kinase signal may reflect lineage, proliferation, or platform artifacts rather than transportable drug-response biology.",
-      "next_test": "Run a no-refit external-cohort test of a simple pathway-level kinase model for one matched drug class against prespecified expression and lineage baselines.",
-      "opponent": 39,
-      "outcome": "win",
-      "reason": "Issue 51 is more fixed around a measurable predictive question and has a cheaper, earlier validation path. Issue 39 combines difficult counterfactual extrapolation with unstable cell-state definitions, donor and tissue shifts, neighborhood structure, and prospective single-cell or spatial experiments, so several high-risk assumptions must succeed before its impact can be judged.",
-      "target": 51,
-      "timestamp": "2026-10-08T10:42:27.435854+00:00"
-    },
-    {
-      "main_risk": "Target engagement may not explain cellular sensitivity once lineage, co-mutations, uptake, and downstream bypass are accounted for.",
-      "next_test": "Measure engagement, pathway suppression, and viability across a focused mutation-defined panel under matched exposure, testing whether engagement adds classification value over mutation and lineage baselines.",
-      "opponent": 55,
-      "outcome": "win",
-      "reason": "Issue 51 has a clearer six-month decision path and broader immediate reuse potential, with an external test followed by orthogonal validation. Issue 55 could yield deeper mechanistic insight, but it requires comparable biochemical engagement assays, causal cellular linkage, held-out genetic backgrounds, and long resistance-evolution experiments, making its success chain substantially longer.",
-      "target": 51,
-      "timestamp": "2026-10-08T10:42:27.435862+00:00"
-    },
-    {
-      "main_risk": "Kinase-activity representations may fail to transport across institutions and phosphoproteomic workflows after leakage-resistant normalization and lineage adjustment.",
-      "next_test": "Lock a simple pathway-level score and evaluate it on an independent cohort or platform for one drug class, reporting calibration and incremental value over expression and lineage baselines.",
-      "opponent": 61,
-      "outcome": "win",
-      "reason": "Issue 51 has a broader transportability question, simpler established baselines, and an eight-week external test. Issue 61 addresses a clinically meaningful hypothesis, but spatial assay reproducibility, malignant-cell assignment, observational confounding, and 24-week cross-platform validation create a slower and more fragile evidence path.",
-      "target": 51,
-      "timestamp": "2026-10-08T10:42:27.435868+00:00"
-    },
-    {
       "main_risk": "The ZNF423-restoration signal may not be reproducible across MPNST patients or may reflect residual tumor, genomic background, or sampling rather than escape.",
       "next_test": "Run the proposed longitudinal pilot testing whether baseline ZNF423 state and spatial neighborhoods predict early ZNF423-restoration and later escape, compared with clinical and composition-only baselines.",
       "opponent": 19,
@@ -2699,6 +2654,51 @@
       "reason": "Alexander disease provides a more coherent biomarker-to-clinical-outcome problem and a cleaner early decision test than bladder heterogeneity, where serial sampling may not measure the same tumor and heterogeneity changes may mainly reflect necrosis or sampling.",
       "target": 82,
       "timestamp": "2026-10-23T21:29:09.801732+00:00"
+    },
+    {
+      "main_risk": "Direct and paracrine effects may remain unidentifiable because composition, survival, target depletion, and stress responses mimic signaling.",
+      "next_test": "Run paired mono-culture, conditioned-medium, transwell, contact, and target-depletion experiments, then prospectively predict a held-out burden in independent co-cultures.",
+      "opponent": 94,
+      "outcome": "loss",
+      "reason": "The astrocyte project has a clearer mechanistic anchor, controlled perturbation branches, and a credible 10-week falsification test; sepsis requires costly longitudinal, multimodal, and causal-treatment assumptions before its value is readable.",
+      "target": 79,
+      "timestamp": "2026-10-24T04:45:01.066439+00:00"
+    },
+    {
+      "main_risk": "Molecular modalities may not identify treatment benefit beyond severity and standard care, making the apparent multimodal gain non-actionable.",
+      "next_test": "Lock treatment pathways, utility thresholds, and eligibility with clinicians, then test nested clinical, pathogen, host-response, and multimodal models in a patient/site-held-out pilot.",
+      "opponent": 74,
+      "outcome": "win",
+      "reason": "Sepsis has greater immediate clinical decision relevance and a more actionable treatment-selection anchor, whereas the maternal-placental-fetal project leaves the follow-up endpoint and action threshold insufficiently defined and may mainly capture site or delivery confounding.",
+      "target": 79,
+      "timestamp": "2026-10-24T04:45:01.066459+00:00"
+    },
+    {
+      "main_risk": "Multimodal signals may encode severity, timing, or deterioration rather than a reproducible treatment-relevant biological state.",
+      "next_test": "Conduct a locked patient-level pilot comparing clinical and microbiology baselines with pathogen, host-response, and repeated multimodal models using held-out patients and orthogonal assays.",
+      "opponent": 44,
+      "outcome": "win",
+      "reason": "Sepsis offers broader clinical impact and a defined incremental-value question, while hypoxia imaging depends on tracer specificity, spatial tissue alignment, cross-scanner transport, and tumor-type generalization, creating a longer high-risk validation chain.",
+      "target": 79,
+      "timestamp": "2026-10-24T04:45:01.066473+00:00"
+    },
+    {
+      "main_risk": "Recovery may reflect selective survival or generic stress adaptation rather than reversible chromatin-state dynamics.",
+      "next_test": "Prospectively predict unseen restoration pulse durations and timings using live-cell lineage tracking, cohesin imaging, and re-entry assays against static and expression-only baselines.",
+      "opponent": 41,
+      "outcome": "loss",
+      "reason": "The yeast project has a more tractable, falsifiable six-month path: controlled perturbation schedules, lineage-level validation, and useful outcomes even if the dynamic model fails. Sepsis has higher translational stakes but requires several expensive causal and transport assumptions.",
+      "target": 79,
+      "timestamp": "2026-10-24T04:45:01.066480+00:00"
+    },
+    {
+      "main_risk": "Pretreatment IL-15 access measurements may be technically unreliable or therapy-specific and fail to add value beyond innate-cell abundance, tumor burden, or delivery.",
+      "next_test": "Measure IL-15/IL-15Rα access and perivascular localization pretreatment and test patient-level prediction of an early on-treatment cytotoxicity or residency endpoint.",
+      "opponent": 68,
+      "outcome": "loss",
+      "reason": "The IL-15 project has a tighter predictive anchor and an inexpensive eight-week early-function test, with explicit composition baselines and spatial negative controls; sepsis is more broadly impactful but substantially harder to execute and interpret within six months.",
+      "target": 79,
+      "timestamp": "2026-10-24T04:45:01.066489+00:00"
     }
   ],
   "k_factor": 24,
@@ -2929,10 +2929,10 @@
     },
     "41": {
       "draws": 0,
-      "games": 25,
+      "games": 26,
       "losses": 15,
-      "rating": 1442.88,
-      "wins": 10
+      "rating": 1455.33,
+      "wins": 11
     },
     "42": {
       "draws": 0,
@@ -2950,9 +2950,9 @@
     },
     "44": {
       "draws": 0,
-      "games": 21,
-      "losses": 13,
-      "rating": 1443.26,
+      "games": 22,
+      "losses": 14,
+      "rating": 1431.29,
       "wins": 8
     },
     "45": {
@@ -3132,10 +3132,10 @@
     },
     "68": {
       "draws": 0,
-      "games": 13,
+      "games": 14,
       "losses": 9,
-      "rating": 1442.1,
-      "wins": 4
+      "rating": 1454.15,
+      "wins": 5
     },
     "69": {
       "draws": 0,
@@ -3181,9 +3181,9 @@
     },
     "74": {
       "draws": 0,
-      "games": 11,
-      "losses": 8,
-      "rating": 1443.42,
+      "games": 12,
+      "losses": 9,
+      "rating": 1431.01,
       "wins": 3
     },
     "75": {
@@ -3216,10 +3216,10 @@
     },
     "79": {
       "draws": 0,
-      "games": 7,
-      "losses": 6,
-      "rating": 1443.61,
-      "wins": 1
+      "games": 12,
+      "losses": 9,
+      "rating": 1431.49,
+      "wins": 3
     },
     "8": {
       "draws": 0,
@@ -3335,10 +3335,10 @@
     },
     "94": {
       "draws": 0,
-      "games": 7,
+      "games": 8,
       "losses": 6,
-      "rating": 1443.51,
-      "wins": 1
+      "rating": 1455.51,
+      "wins": 2
     },
     "95": {
       "draws": 0,
