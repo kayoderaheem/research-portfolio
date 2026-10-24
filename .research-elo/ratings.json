@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Matched drug exposure, target-proximal phosphosite measurements, and interpretable paired tumor material may not be available with sufficient temporal and technical quality.",
-      "next_test": "Run a small first-cycle paired-sample study with matched pharmacokinetics, testing reproducibility of target-proximal phosphosite changes and separation of pharmacologic from biological nonresponse against exposure-only and genomic baselines.",
-      "opponent": 49,
-      "outcome": "loss",
-      "reason": "Exposure-adjusted attribution of treatment failure has broader precision-medicine value and a clearer actionable distinction than the narrower STING-agonist osteosarcoma niche. It also supports strong exposure-only, genomic, and target-engagement baselines.",
-      "target": 64,
-      "timestamp": "2026-10-09T18:24:02.388433+00:00"
-    },
-    {
-      "main_risk": "The ERK/Fra-1 interface state may be an ex vivo injury or generic pharmacologic-stress artifact rather than a fibroblast-mediated induced transition.",
-      "next_test": "Treat independent matched lung-metastasis specimens with MCL1 inhibition, perform live ERK/Fra-1 and viability imaging with fibroblast-distance annotation, and compare against untreated, non-spatial, and injury controls.",
-      "opponent": 62,
-      "outcome": "loss",
-      "reason": "The MCL1 tumor-lung interface problem has a cheaper eight-week ex vivo discriminating test and can branch quickly among reproducible niche effect, generic stress, or pre-existing resistance. The STING project requires rarer clinical material, longitudinal trajectories, and several high-risk spatial and response assumptions before its central claim can be tested.",
-      "target": 64,
-      "timestamp": "2026-10-09T18:24:02.388457+00:00"
-    },
-    {
-      "main_risk": "The required paired pretreatment and early-on-treatment osteosarcoma cohort may be too small or heterogeneous to establish patient-level incremental value beyond myeloid abundance and burden.",
-      "next_test": "Analyze a small paired STING-treated cohort using locked composition-only and spatial models, testing whether baseline inflammatory myeloid neighborhoods predict an early necrosis-to-adaptive score with calibration and spatial-permutation controls.",
-      "opponent": 59,
-      "outcome": "win",
-      "reason": "The STING problem has a more concrete mechanistic observation, clearer competing explanations, and a more focused earliest test than the broadly parameterized engineered T-cell access proposal. Its spatial question is still clinically relevant while remaining anchored to a defined treatment-induced trajectory.",
-      "target": 64,
-      "timestamp": "2026-10-09T18:24:02.388467+00:00"
-    },
-    {
-      "main_risk": "The STING response trajectory may not be reproducible across patients, or spatial organization may add no information beyond myeloid abundance, tumor burden, and tumor-intrinsic STING programs.",
-      "next_test": "Use paired pretreatment and early-on-treatment specimens to test incremental patient-level prediction of the necrosis-to-adaptive trajectory over composition and clinical baselines before building more elaborate models.",
-      "opponent": 41,
-      "outcome": "win",
-      "reason": "The STING project is an empirical patient-level biological problem with an identifiable clinical trajectory and explicit model comparisons. The virtual-cell proposal depends on correctly identifying causal ordering, reversibility, lineage selection, and history dependence simultaneously, making a six-month technology investment substantially riskier despite potentially broad impact.",
-      "target": 64,
-      "timestamp": "2026-10-09T18:24:02.388474+00:00"
-    },
-    {
-      "main_risk": "The apparent adaptive states may reflect clonal selection, treatment stress, or model-specific artifacts rather than reproducible plastic transitions that precede resistance.",
-      "next_test": "Profile matched pretreatment and early on-treatment samples from independent PDAC donors under KRAS blockade, testing directionally concordant transition scores against untreated controls and held-out time-to-regrowth baselines.",
-      "opponent": 7,
-      "outcome": "loss",
-      "reason": "KRAS-adaptation research offers broader disease and treatment relevance, stronger tractability, and a clearer donor-level serial design than the highly specialized STING-agonist osteosarcoma project. Its proposed transition can yield useful outcomes through reproducibility, non-reproducibility, or actionable dependency testing.",
-      "target": 64,
-      "timestamp": "2026-10-09T18:24:02.388482+00:00"
-    },
-    {
       "main_risk": "The drug-response signals may reflect assay, dose, lineage, or dataset artifacts rather than biology that transports to genuinely unseen drugs and tumor contexts.",
       "next_test": "Run strict drug-disjoint and double-disjoint reanalysis with simple transcriptomic, structure-only, and additive baselines, then prospectively test a small set of uncertainty-gated predictions in an independent orthogonal assay.",
       "opponent": 43,
@@ -2699,6 +2654,51 @@
       "reason": "The FGF project has a clearer discovery anchor, shorter and more informative readout, and useful outcomes if generalization fails. The SECmere project could have clinical value but is exposed to substantial particle-isolation, contamination, spectrum, calibration, and multi-site validation risks.",
       "target": 96,
       "timestamp": "2026-10-24T20:56:16.137231+00:00"
+    },
+    {
+      "main_risk": "The measured chromatin features may not uniquely identify direct COMPASS cooperation rather than feedback or assay effects.",
+      "next_test": "Predict one prespecified held-out perturbation pair from single and partial-pair data, then test direction with matched chromatin and RNA assays.",
+      "opponent": 98,
+      "outcome": "loss",
+      "reason": "Histone perturbation cooperation has a tighter mechanistic anchor, explicit biochemical validation, and an earlier eight-week test than the broader tissue-level mechanical-memory problem.",
+      "target": 97,
+      "timestamp": "2026-10-24T23:20:36.444032+00:00"
+    },
+    {
+      "main_risk": "Spatial BCL2-high niche associations may add no information beyond epithelial abundance, proliferation, disease stage, and clonal evolution.",
+      "next_test": "In paired pretreatment and early-treatment specimens, test whether the locked neighborhood score predicts persistence beyond BCL2 abundance and proliferation.",
+      "opponent": 15,
+      "outcome": "loss",
+      "reason": "The gastric-cancer problem offers stronger direct patient and treatment relevance, a clear patient-level spatial endpoint, and useful biomarker-versus-mechanism branches despite greater cohort demands.",
+      "target": 97,
+      "timestamp": "2026-10-24T23:20:36.444049+00:00"
+    },
+    {
+      "main_risk": "AT1 mechanosignaling may be only a correlate of injury rather than the cause of persistent endothelial state.",
+      "next_test": "Prospectively predict one unseen restriction-recovery schedule with and without AT1 mechanosignaling perturbation across independent preparations.",
+      "opponent": 77,
+      "outcome": "win",
+      "reason": "The mechanical-recovery problem has a more tractable eight-week prospective test and a clearer experimental perturbation framework; the tuberculoma project depends on a difficult, independent reference standard and multicenter transportability.",
+      "target": 97,
+      "timestamp": "2026-10-24T23:20:36.444056+00:00"
+    },
+    {
+      "main_risk": "SECmere RNA may contain a reproducible, clinically incremental signal that the mechanical project cannot match in translational value.",
+      "next_test": "Run the blinded eight-week mechanical perturbation test while comparing against persistence-only, dose-only, and composition-adjusted baselines.",
+      "opponent": 85,
+      "outcome": "win",
+      "reason": "Mechanical-state prediction has a clearer causal perturbation and earlier decision point, whereas SECmere performance is highly exposed to particle-isolation artifacts, site calibration, and a lengthy external validation requirement.",
+      "target": 97,
+      "timestamp": "2026-10-24T23:20:36.444062+00:00"
+    },
+    {
+      "main_risk": "Baseline regulatory-state measurements may provide substantial predictive information beyond expression and make the broader framework more generalizable.",
+      "next_test": "Use a small donor-replicated perturbation panel to compare frozen expression-only and multimodal models on one held-out perturbation and orthogonal endpoint.",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "The mechanical project has a narrower anchor, fewer required modalities, and an earlier falsifiable experiment; the multimodal virtual-cell framework risks becoming an expensive modality-combination benchmark without demonstrated intervention identifiability.",
+      "target": 97,
+      "timestamp": "2026-10-24T23:20:36.444068+00:00"
     }
   ],
   "k_factor": 24,
@@ -2740,10 +2740,10 @@
     },
     "15": {
       "draws": 1,
-      "games": 34,
+      "games": 35,
       "losses": 17,
-      "rating": 1492.14,
-      "wins": 16
+      "rating": 1503.6,
+      "wins": 17
     },
     "17": {
       "draws": 0,
@@ -2894,9 +2894,9 @@
     },
     "37": {
       "draws": 0,
-      "games": 32,
-      "losses": 17,
-      "rating": 1480.04,
+      "games": 33,
+      "losses": 18,
+      "rating": 1468.39,
       "wins": 15
     },
     "38": {
@@ -3202,9 +3202,9 @@
     },
     "77": {
       "draws": 0,
-      "games": 12,
-      "losses": 7,
-      "rating": 1480.9,
+      "games": 13,
+      "losses": 8,
+      "rating": 1468.35,
       "wins": 5
     },
     "78": {
@@ -3265,9 +3265,9 @@
     },
     "85": {
       "draws": 0,
-      "games": 10,
-      "losses": 5,
-      "rating": 1496.19,
+      "games": 11,
+      "losses": 6,
+      "rating": 1483.54,
       "wins": 5
     },
     "86": {
@@ -3356,17 +3356,17 @@
     },
     "97": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 3,
+      "rating": 1501.79,
+      "wins": 3
     },
     "98": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "rating": 1500.01,
+      "wins": 1
     }
   },
   "version": 2
