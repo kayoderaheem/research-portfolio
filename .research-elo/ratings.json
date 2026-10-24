@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "For Issue 65, the decisive risk is that apparent spatial niches do not predict response beyond baseline lesion severity, fibroblast abundance, or treatment exposure.",
-      "next_test": "Run the prespecified animal-level reanalysis and prospective pretreatment-to-early-treatment replication, comparing composition-only with spatial models using held-out animals and blinded collagen/histology endpoints.",
-      "opponent": 64,
-      "outcome": "win",
-      "reason": "Issue 65 has a clearer near-term path from an available spatial dataset to animal-level validation, with tractable orthogonal assays and useful outcomes even if spatial prediction fails. Issue 64 has greater potential clinical impact, but it depends on assembling paired patient specimens under STING agonist treatment, reproducing a short necrosis-to-adaptive trajectory, and demonstrating value beyond myeloid abundance in a likely small cohort.",
-      "target": 65,
-      "timestamp": "2026-10-09T10:41:22.903559+00:00"
-    },
-    {
-      "main_risk": "For Issue 65, the spatial score may add no reproducible information beyond baseline fibrosis, fibroblast composition, or drug exposure.",
-      "next_test": "Reanalyze the supplied data with animal-level pseudobulk and spatial features, then prospectively test the locked candidate score at pretreatment and early treatment with independent induction batches and orthogonal matrix assays.",
-      "opponent": 62,
-      "outcome": "win",
-      "reason": "Issue 65 currently offers the stronger investment: it starts from an available dataset, has a well-defined animal-level validation path, and can branch into spatial biology, imaging, matrix remodeling, or a negative result about niche specificity. Issue 62 has an interesting mechanistic interface hypothesis, but it requires matched longitudinal lung-metastasis specimens, reliable separation of induced persistence from pre-existing resistant cells or generic injury, and causal fibroblast-FGFR evidence across specimens.",
-      "target": 65,
-      "timestamp": "2026-10-09T10:41:22.903580+00:00"
-    },
-    {
-      "main_risk": "The fibrosis niche association may be model-specific and fail to transport beyond the supplied murine treatment setting.",
-      "next_test": "Perform leakage-resistant animal-level analysis of whether pretreatment spatial niches predict endpoint fibrosis beyond composition and severity, followed by a locked prospective replication with imaging and blinded pathology.",
-      "opponent": 59,
-      "outcome": "win",
-      "reason": "Issue 65 is more investable now because its supplied preclinical dataset and animal-level design support an early, inexpensive discriminating test, while its fixed question can generalize across assays and fibrosis models. Issue 59 has broad translational relevance, but therapeutic T-cell identification, paired patient tissue access, boundary-crossing measurement, and cross-product validation create several expensive dependencies before a meaningful result is available.",
-      "target": 65,
-      "timestamp": "2026-10-09T10:41:22.903589+00:00"
-    },
-    {
-      "main_risk": "The observed fibroblast-state reversal may be marker suppression or selection rather than meaningful remodeling of reversible versus entrenched fibrosis.",
-      "next_test": "Test matched treatment and washout time courses across independent animals, linking spatial state changes to collagen organization, tissue mechanics, blinded pathology, and persistence after drug withdrawal.",
-      "opponent": 41,
-      "outcome": "win",
-      "reason": "Issue 65 has a concrete biological anchor and accessible experimental path, with strong simple baselines and orthogonal tissue-level validation. Issue 41 could produce a more general virtual-cell capability, but it combines difficult causal ordering, lineage-resolved measurement, perturbation-schedule coverage, and model identifiability; a benchmark gain could remain disconnected from real biological prediction.",
-      "target": 65,
-      "timestamp": "2026-10-09T10:41:22.903595+00:00"
-    },
-    {
-      "main_risk": "Spatial features may not improve prediction beyond baseline fibrosis severity, fibroblast abundance, histology, or treatment exposure.",
-      "next_test": "Lock composition-only and spatial models after animal-level reanalysis, then prospectively test them in an independent cohort with matched early treatment samples, collagen/histology endpoints, and calibration-focused validation.",
-      "opponent": 49,
-      "outcome": "win",
-      "reason": "Issue 65 is the stronger six-month investment because it has an available starting dataset, a bounded animal-level validation plan, and informative branches from spatial discovery to orthogonal imaging or a clear negative result. Issue 49 has higher potential precision-medicine value, but requires synchronized exposure sampling, reproducible phosphoproteomics from limited material, valid separation of pharmacologic from biological failure, and functional validation of attribution before clinical usefulness can be credible.",
-      "target": 65,
-      "timestamp": "2026-10-09T10:41:22.903600+00:00"
-    },
-    {
       "main_risk": "Matched drug exposure, target-proximal phosphosite measurements, and interpretable paired tumor material may not be available with sufficient temporal and technical quality.",
       "next_test": "Run a small first-cycle paired-sample study with matched pharmacokinetics, testing reproducibility of target-proximal phosphosite changes and separation of pharmacologic from biological nonresponse against exposure-only and genomic baselines.",
       "opponent": 49,
@@ -2699,6 +2654,51 @@
       "reason": "The anti-MDA5 ILD problem addresses a defined clinical decision with credible patient value and transportability testing, while the virtual-screening proposal risks producing benchmark gains or context-specific synergy predictions that do not transfer to donor-derived models.",
       "target": 71,
       "timestamp": "2026-10-24T16:02:28.915553+00:00"
+    },
+    {
+      "main_risk": "FGF signatures may reflect generic stress or selective survival rather than a reversible state.",
+      "next_test": "Train on FGF1/FGF2 trajectories and predict a held-out dose and washout course in an independent preparation.",
+      "opponent": 98,
+      "outcome": "win",
+      "reason": "FGF state reversibility has a clearer biological anchor, an earlier prospective test, and useful conclusions even if prediction fails; the chromatin project requires more assays and stronger identifiability assumptions before interaction claims are credible.",
+      "target": 96,
+      "timestamp": "2026-10-24T20:56:16.137182+00:00"
+    },
+    {
+      "main_risk": "Morphology and molecular measurements may not add information beyond pathway activity or transcriptomics.",
+      "next_test": "Prospectively predict held-out FGF dose and washout trajectories, including recovery, in an independent donor-derived preparation.",
+      "opponent": 97,
+      "outcome": "win",
+      "reason": "The FGF project is more tractable and its multimodal causal and reversibility tests can quickly distinguish a real state transition from stress or selection. The mechanical-memory project depends more heavily on quantitative force control, injury separation, and reproducibility across preparations.",
+      "target": 96,
+      "timestamp": "2026-10-24T20:56:16.137206+00:00"
+    },
+    {
+      "main_risk": "FGF-associated profiles may be non-specific stress or cell-selection effects.",
+      "next_test": "Test pathway inhibition and lineage-resolved exposure/washout trajectories to establish necessity and true reversibility.",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "FGF oligodendrocyte biology offers a broader discovery problem with a cheaper early decision and strong residual value. The gastric project has greater potential clinical value but requires scarce patient-level spatial cohorts, reproducible niche scoring, and a causal intervention chain.",
+      "target": 96,
+      "timestamp": "2026-10-24T20:56:16.137215+00:00"
+    },
+    {
+      "main_risk": "The proposed CAF–immune neighborhood may not replicate across specimens, platforms, or treatment classes.",
+      "next_test": "In a paired patient cohort, test whether a prespecified neighborhood and its early treatment change predict response beyond composition and clinical covariates.",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "The lung project is the stronger current investment because it combines substantial patient relevance with comparatively ready data, explicit patient-level validation, strong baselines, and orthogonal functional testing. The FGF project is more mechanistically focused but its virtual-cell extrapolation remains less established.",
+      "target": 96,
+      "timestamp": "2026-10-24T20:56:16.137222+00:00"
+    },
+    {
+      "main_risk": "SECmere RNA performance may be a batch or RNA-yield artifact rather than a distinct transportable biological signal.",
+      "next_test": "Run a blinded paired technical-replicate pilot with locked patient-level validation comparing SECmere, small-EV, clinical, and fused baselines.",
+      "opponent": 85,
+      "outcome": "win",
+      "reason": "The FGF project has a clearer discovery anchor, shorter and more informative readout, and useful outcomes if generalization fails. The SECmere project could have clinical value but is exposed to substantial particle-isolation, contamination, spectrum, calibration, and multi-site validation risks.",
+      "target": 96,
+      "timestamp": "2026-10-24T20:56:16.137231+00:00"
     }
   ],
   "k_factor": 24,
@@ -2733,16 +2733,16 @@
     },
     "13": {
       "draws": 0,
-      "games": 36,
+      "games": 37,
       "losses": 18,
-      "rating": 1507.51,
-      "wins": 18
+      "rating": 1520.45,
+      "wins": 19
     },
     "15": {
       "draws": 1,
-      "games": 33,
-      "losses": 16,
-      "rating": 1503.45,
+      "games": 34,
+      "losses": 17,
+      "rating": 1492.14,
       "wins": 16
     },
     "17": {
@@ -3265,9 +3265,9 @@
     },
     "85": {
       "draws": 0,
-      "games": 9,
-      "losses": 4,
-      "rating": 1507.7,
+      "games": 10,
+      "losses": 5,
+      "rating": 1496.19,
       "wins": 5
     },
     "86": {
@@ -3345,6 +3345,27 @@
       "games": 11,
       "losses": 11,
       "rating": 1375.96,
+      "wins": 0
+    },
+    "96": {
+      "draws": 0,
+      "games": 5,
+      "losses": 1,
+      "rating": 1533.47,
+      "wins": 4
+    },
+    "97": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
+    },
+    "98": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
       "wins": 0
     }
   },
