@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Architecture features may be dominated by sampling geometry, tumor burden, or site-specific structure and fail to add reproducible information beyond composition.",
-      "next_test": "Lock the architecture feature set and test patient-level stability and incremental calibrated prediction against clinical and composition baselines before pursuing broader biological interpretation.",
-      "opponent": 67,
-      "outcome": "win",
-      "reason": "Idea 66 has a clearer, more transportable anchor: testing incremental spatial information beyond composition with patient-level validation. It has an earlier and more decisive predictive test, whereas Idea 67 requires difficult longitudinal specimens and depends on several high-risk assumptions about niche-mediated, reproducible treatment-emergent trajectories.",
-      "target": 66,
-      "timestamp": "2026-10-10T21:50:06.797730+00:00"
-    },
-    {
-      "main_risk": "The broader architecture framework may yield statistically reproducible features that still have no clinically meaningful incremental value.",
-      "next_test": "In an available independent or institution-held-out glioblastoma cohort, test locked architecture features against clinical and composition baselines with calibration, uncertainty, and composition-matched spatial controls.",
-      "opponent": 68,
-      "outcome": "win",
-      "reason": "Idea 66 is the stronger current investment because its question is less dependent on access to a rare, specific IL-15-supported therapy cohort and is more flexible across spatial platforms and treatment settings. Idea 68 has attractive clinical specificity, but it requires showing that measured IL-15 access reflects functional cytokine availability and that lesion-level associations transport to patient-level treatment response.",
-      "target": 66,
-      "timestamp": "2026-10-10T21:50:06.797752+00:00"
-    },
-    {
-      "main_risk": "A sufficiently large, independently collected glioblastoma dataset with harmonized treatment-response endpoints and reliable spatial measurements may not be available.",
-      "next_test": "Perform a locked, patient-level nested comparison of architecture, composition, and clinical models in a development cohort, followed by the cheapest genuinely independent cohort or site-held-out test.",
-      "opponent": 50,
-      "outcome": "win",
-      "reason": "Idea 66 poses a cleaner scientific problem with a flexible anchor and useful outcomes even if architecture adds no predictive value. Idea 50 combines exposure, adherence, germline variation, baseline tumor biology, longitudinal evolution, and ancestry calibration, creating a longer chain of assumptions and a less clearly defined decision target despite strong translational appeal.",
-      "target": 66,
-      "timestamp": "2026-10-10T21:50:06.797760+00:00"
-    },
-    {
-      "main_risk": "Spatial relationships in glioblastoma may be unstable across patients or explained by tumor burden, molecular subtype, or sampling geometry.",
-      "next_test": "Use pretreatment specimens to assess replicate-section and leave-one-patient-out feature stability, then test incremental calibrated prediction over clinical and composition baselines with permuted-coordinate controls.",
-      "opponent": 11,
-      "outcome": "win",
-      "reason": "Idea 66 offers a more general and methodologically disciplined test of whether tissue architecture contributes transportable response information. Idea 11 is clinically relevant but more dependent on technically reproducible marrow spatial measurements, longitudinal sampling without selection bias, and a spatial accessibility effect that survives strong blood-based and disease-burden baselines.",
-      "target": 66,
-      "timestamp": "2026-10-10T21:50:06.797765+00:00"
-    },
-    {
-      "main_risk": "The glioblastoma architecture signal may not replicate across institutions or add value beyond composition and clinical covariates.",
-      "next_test": "Run the prespecified architecture-versus-composition comparison in a patient-level cohort with site-held-out validation, calibration, and negative spatial controls before expanding to mechanistic or platform-specific work.",
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "Idea 66 is a stronger six-month investment because it keeps a clear transportability question while allowing the assay, feature definition, and treatment endpoint to float. Idea 13 couples a broad CAF–immune mechanism, paired on-treatment biopsies, multiple therapy classes, and patient-derived tumoroid fidelity, producing more high-risk dependencies and a potentially forced model-application pairing.",
-      "target": 66,
-      "timestamp": "2026-10-10T21:50:06.797773+00:00"
-    },
-    {
       "main_risk": "The candidate malignant-cell transition may be patient-specific or reflect changing composition and sampling rather than a reproducible chemotherapy-associated trajectory.",
       "next_test": "In paired pretreatment and residual or relapse specimens, test whether a prespecified pretreatment Schwann-cell proximity score predicts the transition in leave-one-patient-out analyses with composition and tumor-burden baselines.",
       "opponent": 67,
@@ -2699,6 +2654,51 @@
       "reason": "The pediatric MASLD problem directly addresses modality acquisition, transportability, calibration, and clinical decision value, with a practical sequential-modality test; the mechanical project is more speculative and depends on validating a difficult causal memory mechanism.",
       "target": 97,
       "timestamp": "2026-10-25T16:30:44.898345+00:00"
+    },
+    {
+      "main_risk": "The required multi-omic measurements may not identify direct cooperation rather than feedback or assay-scaling artifacts.",
+      "next_test": "Fit interaction and additive models on single perturbations plus one held-out pair with matched chromatin and RNA readouts.",
+      "opponent": 92,
+      "outcome": "win",
+      "reason": "It has a sharper mechanistic anchor and an earlier perturbation-based decision test, whereas assay transport across fresh, frozen, and fixed tissue requires more difficult paired data and validation.",
+      "target": 98,
+      "timestamp": "2026-10-25T20:56:33.170939+00:00"
+    },
+    {
+      "main_risk": "Spatial features may add no information beyond target expression, composition, tumor burden, or specimen quality.",
+      "next_test": "Evaluate a locked stromal-obstruction and target-adjacency score in nested patient-level models against an external or held-out cohort.",
+      "opponent": 57,
+      "outcome": "loss",
+      "reason": "Patient-level spatial architecture has direct treatment-selection relevance and can be tested incrementally against strong composition and clinical baselines, while the chromatin project carries a larger multi-assay mechanistic burden.",
+      "target": 98,
+      "timestamp": "2026-10-25T20:56:33.170959+00:00"
+    },
+    {
+      "main_risk": "Sample size, treatment mixtures, and optional biomarker availability may be insufficient for stable treatment-interaction estimation.",
+      "next_test": "Lock a compact baseline-plus-early-response signature and perform site-held-out interaction, calibration, and learning-curve analyses.",
+      "opponent": 2,
+      "outcome": "loss",
+      "reason": "The randomized treatment comparison offers greater potential clinical value and a stronger causal anchor for transportable differential-benefit signatures than the highly demanding mechanistic virtual-cell study.",
+      "target": 98,
+      "timestamp": "2026-10-25T20:56:33.170968+00:00"
+    },
+    {
+      "main_risk": "Cell-state definitions and apparent composition gains may reflect dataset-specific annotation or batch structure.",
+      "next_test": "Blindly test target- and donor-held-out perturbations against compositional regression, expression-first, retrieval, and null baselines.",
+      "opponent": 39,
+      "outcome": "loss",
+      "reason": "Directly predicting compositional shifts is a broader and more testable technology problem with useful outcomes even when expression reconstruction fails, whereas the chromatin project depends on extensive coordinated assays and transfer across contexts.",
+      "target": 98,
+      "timestamp": "2026-10-25T20:56:33.170978+00:00"
+    },
+    {
+      "main_risk": "The proposed Schwann-cell-associated transition may be patient-specific or confounded by changing tumor composition and sampling.",
+      "next_test": "Use leave-one-patient-out analysis of pretreatment niche proximity versus a preregistered post-treatment transition score before investing in expanded spatial validation.",
+      "opponent": 67,
+      "outcome": "win",
+      "reason": "The chromatin project has a clearer early perturbational readout and more controllable experimental anchor; the neuroblastoma niche hypothesis depends on scarce longitudinal patient specimens and reproducibility of rare transitions.",
+      "target": 98,
+      "timestamp": "2026-10-25T20:56:33.170988+00:00"
     }
   ],
   "k_factor": 24,
@@ -2768,10 +2768,10 @@
     },
     "2": {
       "draws": 0,
-      "games": 31,
+      "games": 32,
       "losses": 15,
-      "rating": 1509.34,
-      "wins": 16
+      "rating": 1521.01,
+      "wins": 17
     },
     "21": {
       "draws": 0,
@@ -2908,10 +2908,10 @@
     },
     "39": {
       "draws": 0,
-      "games": 25,
+      "games": 26,
       "losses": 12,
-      "rating": 1509.59,
-      "wins": 13
+      "rating": 1520.85,
+      "wins": 14
     },
     "4": {
       "draws": 1,
@@ -3048,10 +3048,10 @@
     },
     "57": {
       "draws": 0,
-      "games": 21,
+      "games": 22,
       "losses": 11,
-      "rating": 1491.56,
-      "wins": 10
+      "rating": 1504.28,
+      "wins": 11
     },
     "58": {
       "draws": 0,
@@ -3125,9 +3125,9 @@
     },
     "67": {
       "draws": 0,
-      "games": 17,
-      "losses": 8,
-      "rating": 1509.83,
+      "games": 18,
+      "losses": 9,
+      "rating": 1496.7,
       "wins": 9
     },
     "68": {
@@ -3321,9 +3321,9 @@
     },
     "92": {
       "draws": 0,
-      "games": 11,
-      "losses": 5,
-      "rating": 1507.05,
+      "games": 12,
+      "losses": 6,
+      "rating": 1494.82,
       "wins": 6
     },
     "93": {
@@ -3363,10 +3363,10 @@
     },
     "98": {
       "draws": 0,
-      "games": 8,
-      "losses": 4,
-      "rating": 1500.29,
-      "wins": 4
+      "games": 13,
+      "losses": 7,
+      "rating": 1490.0,
+      "wins": 6
     }
   },
   "version": 2
