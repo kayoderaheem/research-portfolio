@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The drug-response signals may reflect assay, dose, lineage, or dataset artifacts rather than biology that transports to genuinely unseen drugs and tumor contexts.",
-      "next_test": "Run strict drug-disjoint and double-disjoint reanalysis with simple transcriptomic, structure-only, and additive baselines, then prospectively test a small set of uncertainty-gated predictions in an independent orthogonal assay.",
-      "opponent": 43,
-      "outcome": "loss",
-      "reason": "Transportability limits of drug-response prediction offers broader reusable technology, explicit leakage-resistant shift tests, strong simple baselines, and an early uncertainty-gated validation branch. The HCC proposal has greater clinical specificity but depends on costly tissue access, reproducible spatial states, incremental predictive value, and functional relevance before producing a reliable biomarker.",
-      "target": 63,
-      "timestamp": "2026-10-10T00:57:04.389554+00:00"
-    },
-    {
-      "main_risk": "Intracellular payload exposure may not be measured cleanly enough to separate HER2-mediated delivery from free-payload contamination and assay-specific potency.",
-      "next_test": "Compare HER2-high, HER2-low, and resistant models with matched conjugates, free payload, nonbinding conjugates, and controls while measuring uptake, intracellular payload, and early pharmacodynamic response.",
-      "opponent": 56,
-      "outcome": "loss",
-      "reason": "Exposure-normalized HER2 conjugate mechanisms have a clearer causal anchor, more controllable experiments, and a cheaper eight-week test that can distinguish delivery, payload, and downstream resistance while retaining useful negative branches. The HCC project has higher potential clinical impact but requires several high-risk spatial, temporal, cohort-replication, and functional assumptions.",
-      "target": 63,
-      "timestamp": "2026-10-10T00:57:04.389575+00:00"
-    },
-    {
-      "main_risk": "UCHL1-associated spatial neighborhoods may merely mark disease severity, hypoxia, or overall immune composition rather than add reproducible treatment-specific information.",
-      "next_test": "Use pretreatment and early-treatment patient biopsies to compare a prespecified spatial score against clinical-plus-plasma and composition-only baselines with patient-level held-out validation and replicate-section concordance.",
-      "opponent": 65,
-      "outcome": "win",
-      "reason": "The HCC problem has stronger potential patient and treatment value, a clinically relevant human anchor, and a more consequential external-validation endpoint than the murine fibrosis study. The fibrosis proposal is tractable and biologically coherent but its predictive signal and treatment-induced reversal may not generalize beyond the preclinical model or translate to patient benefit.",
-      "target": 63,
-      "timestamp": "2026-10-10T00:57:04.389581+00:00"
-    },
-    {
-      "main_risk": "The spatial HCC circuit may not provide incremental value beyond plasma UCHL1, disease severity, hypoxia, or cell composition despite its biological plausibility.",
-      "next_test": "Perform a patient-level, leakage-resistant comparison of spatial, composition-only, plasma-plus-clinical, and clinical-only models on pretreatment and early-treatment biopsies, including spatial-permutation controls.",
-      "opponent": 39,
-      "outcome": "win",
-      "reason": "The HCC proposal is more tightly connected to a defined clinical resistance problem and supports meaningful branches through predictive, mechanistic, and functional tests. The unseen-perturbation technology is potentially general but faces severe identifiability, state-definition, extrapolation, and prospective-validation risks, with gains vulnerable to becoming benchmark-specific.",
-      "target": 63,
-      "timestamp": "2026-10-10T00:57:04.389586+00:00"
-    },
-    {
-      "main_risk": "The lupus expression programs may lose predictive value after clinical case-mix adjustment and external-site harmonization, leaving no meaningful decision benefit.",
-      "next_test": "Lock the smallest regimen-specific programs and evaluate clinical-only versus clinical-plus-program models in a blinded independent cohort with harmonized endpoints, calibration, and decision-curve analysis.",
-      "opponent": 25,
-      "outcome": "loss",
-      "reason": "Regimen-specific lupus nephritis validation has a clearer decision target, simpler fixed anchor, established clinical reference model, and a direct external test of calibration and treatment-enrichment value. The HCC proposal has greater mechanistic novelty but combines spatial measurement, temporal causality, reproducibility, incremental prediction, and functional validation into a higher-risk chain.",
-      "target": 63,
-      "timestamp": "2026-10-10T00:57:04.389591+00:00"
-    },
-    {
       "main_risk": "Persistent treatment-expanded clonotypes may reflect inflammation, sampling depth, or exposure rather than tumor-specific immunity, making the added value over simple infiltration or clinical baselines disappear.",
       "next_test": "Using pretreatment and first on-treatment biopsies, lock persistence metrics and test in held-out patients whether they improve calibrated prediction of durable disease control over clinical covariates, tumor burden, and total T-cell abundance.",
       "opponent": 54,
@@ -2699,16 +2654,61 @@
       "reason": "The mechanical project has a narrower anchor, fewer required modalities, and an earlier falsifiable experiment; the multimodal virtual-cell framework risks becoming an expensive modality-combination benchmark without demonstrated intervention identifiability.",
       "target": 97,
       "timestamp": "2026-10-24T23:20:36.444068+00:00"
+    },
+    {
+      "main_risk": "The measured chromatin layers may not identify direct cooperation rather than correlated downstream state.",
+      "next_test": "Fit additive and interaction models on single perturbations plus a subset of pairs, then prospectively test one held-out pair with matched chromatin and RNA readouts.",
+      "opponent": 97,
+      "outcome": "win",
+      "reason": "Issue 98 has a tighter mechanistic anchor, an explicit competing explanation, and an earlier held-out perturbation test; issue 97 depends on reproducing a complex AT1-endothelial memory across preparations and separating it from injury.",
+      "target": 98,
+      "timestamp": "2026-10-25T04:51:58.691998+00:00"
+    },
+    {
+      "main_risk": "Issue 98 may require too many costly multiomic measurements to estimate interaction effects reliably.",
+      "next_test": "Measure a preselected held-out perturbation pair with the minimum chromatin and transcriptional layers needed to compare interaction-aware and additive models.",
+      "opponent": 15,
+      "outcome": "loss",
+      "reason": "Issue 98 offers a clearer early causal-identifiability decision and useful atlas value if prediction fails. Issue 15 has greater clinical upside but requires reproducible spatial biomarker performance, patient-level cohorts, and causal niche perturbation, creating a longer high-risk chain.",
+      "target": 98,
+      "timestamp": "2026-10-25T04:51:58.692017+00:00"
+    },
+    {
+      "main_risk": "Issue 98's apparent interaction may be assay scaling, feedback, or cell-state composition rather than cooperation.",
+      "next_test": "Use donor- or clone-separated single and paired perturbations to test one held-out combination against additive, regularized, and mechanistic baselines.",
+      "opponent": 92,
+      "outcome": "win",
+      "reason": "Issue 98 addresses a concrete biological mechanism with nearer-term perturbation validation. Issue 92 is broadly useful but starts from very limited assay evidence and must establish paired donor-level biological signal, assay mappings, and transportability before model gains are credible.",
+      "target": 98,
+      "timestamp": "2026-10-25T04:51:58.692027+00:00"
+    },
+    {
+      "main_risk": "Spatial fibroblast niches may add no predictive information beyond baseline fibrosis, treatment exposure, or fibroblast abundance.",
+      "next_test": "Perform animal-level pseudobulk and spatial-neighborhood analysis, then prospectively replicate the strongest pretreatment score with blinded histology and collagen architecture.",
+      "opponent": 65,
+      "outcome": "loss",
+      "reason": "Issue 65 is better positioned for six months: it has an existing preclinical spatial dataset, a tractable reanalysis-to-replication path, and a focused endpoint. Issue 98 is more general but requires a large, technically demanding multiomic perturbation program with several high-risk identifiability assumptions.",
+      "target": 98,
+      "timestamp": "2026-10-25T04:51:58.692034+00:00"
+    },
+    {
+      "main_risk": "Issue 98 may show model performance only in the measured contexts and fail to transfer to unseen perturbations or cell states.",
+      "next_test": "Run the preregistered held-out-pair experiment and compare interaction-aware prediction with additive, mechanistic, and nearest-context baselines using donor-level calibration.",
+      "opponent": 1,
+      "outcome": "loss",
+      "reason": "Issue 98 has a cheaper and earlier scientific decision with strong discovery value and useful negative branches. Issue 1 has greater potential clinical impact, but turnaround, organoid establishment, culture fidelity, treatment assignment, and prospective outcome validation make success dependent on a longer chain of assumptions.",
+      "target": 98,
+      "timestamp": "2026-10-25T04:51:58.692041+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 38,
+      "games": 39,
       "losses": 19,
-      "rating": 1508.82,
-      "wins": 19
+      "rating": 1520.51,
+      "wins": 20
     },
     "10": {
       "draws": 0,
@@ -2740,10 +2740,10 @@
     },
     "15": {
       "draws": 1,
-      "games": 35,
+      "games": 36,
       "losses": 17,
-      "rating": 1503.6,
-      "wins": 17
+      "rating": 1515.89,
+      "wins": 18
     },
     "17": {
       "draws": 0,
@@ -3111,10 +3111,10 @@
     },
     "65": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 8,
-      "rating": 1508.25,
-      "wins": 9
+      "rating": 1520.38,
+      "wins": 10
     },
     "66": {
       "draws": 0,
@@ -3321,9 +3321,9 @@
     },
     "92": {
       "draws": 0,
-      "games": 9,
-      "losses": 4,
-      "rating": 1507.95,
+      "games": 10,
+      "losses": 5,
+      "rating": 1495.67,
       "wins": 5
     },
     "93": {
@@ -3356,17 +3356,17 @@
     },
     "97": {
       "draws": 0,
-      "games": 6,
-      "losses": 3,
-      "rating": 1501.79,
+      "games": 7,
+      "losses": 4,
+      "rating": 1489.73,
       "wins": 3
     },
     "98": {
       "draws": 0,
-      "games": 2,
-      "losses": 1,
-      "rating": 1500.01,
-      "wins": 1
+      "games": 7,
+      "losses": 4,
+      "rating": 1488.24,
+      "wins": 3
     }
   },
   "version": 2
