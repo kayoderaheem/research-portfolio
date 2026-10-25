@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Persistent treatment-expanded clonotypes may reflect inflammation, sampling depth, or exposure rather than tumor-specific immunity, making the added value over simple infiltration or clinical baselines disappear.",
-      "next_test": "Using pretreatment and first on-treatment biopsies, lock persistence metrics and test in held-out patients whether they improve calibrated prediction of durable disease control over clinical covariates, tumor burden, and total T-cell abundance.",
-      "opponent": 54,
-      "outcome": "loss",
-      "reason": "Issue 54 targets a broader and more general scientific distinction—immune engagement versus durable tumor control—and allows useful outcomes even if the proposed clonotype mechanism fails. Its anchor is less tied to one disease protocol than issue 53, while the planned patient-level, external, and orthogonal validation addresses the main transportability concern.",
-      "target": 53,
-      "timestamp": "2026-10-10T09:57:14.118694+00:00"
-    },
-    {
-      "main_risk": "Serial heterogeneity measurements may be dominated by lesion sampling, necrosis, purity, or burden rather than a reproducible resistant-disease signal.",
-      "next_test": "In a retrospective serial cohort, test whether a prespecified early heterogeneity change improves held-out prediction of residual disease beyond baseline HER2, stage, tumor burden, and simple lesion-size change.",
-      "opponent": 50,
-      "outcome": "win",
-      "reason": "Issue 53 is a narrower, more decision-focused problem with a relatively cheap early test and an explicit competing explanation involving sampling and treatment-related tissue changes. Issue 50 has substantial clinical potential, but requires coordinated longitudinal pharmacokinetic, adherence, germline, somatic, ancestry, and progression data, creating more high-risk dependencies before a useful readout.",
-      "target": 53,
-      "timestamp": "2026-10-10T09:57:14.118715+00:00"
-    },
-    {
-      "main_risk": "The available sample size may be inadequate for stable treatment-interaction estimates and calibration across molecular subgroups and institutions.",
-      "next_test": "Before complex multimodal modeling, perform a learning-curve and site-held-out analysis of a compact prespecified signature to determine whether treatment-effect direction and calibration are stable beyond clinical and molecular-only baselines.",
-      "opponent": 2,
-      "outcome": "loss",
-      "reason": "Issue 2 is anchored to differential benefit in a randomized matched-therapy setting, giving it stronger causal leverage and a more general transportability contribution than the protocol-specific association in issue 53. Its site-held-out test can determine whether the signature captures biology rather than institution-specific measurement or selection effects.",
-      "target": 53,
-      "timestamp": "2026-10-10T09:57:14.118724+00:00"
-    },
-    {
-      "main_risk": "The proposed spatial neighborhoods may not reproduce across specimens or platforms and may merely encode tumor composition, genotype, or proliferation.",
-      "next_test": "In paired patient samples, lock a small neighborhood definition and test patient-level replication across an independent specimen set, comparing it directly with composition-only and clinical baselines.",
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "Issue 13 offers broader discovery and technology value by testing whether tumor–CAF–immune spatial context explains treatment response beyond composition, with strong evidence readiness and orthogonal functional validation. Issue 53 has clearer clinical framing but is more vulnerable to serial sampling artifacts and a narrow disease-specific protocol.",
-      "target": 53,
-      "timestamp": "2026-10-10T09:57:14.118734+00:00"
-    },
-    {
-      "main_risk": "The heterogeneity trajectory may fail to add information beyond baseline HER2, tumor burden, stage, and standard pathology once measurement error and spatial sampling are controlled.",
-      "next_test": "Measure early within-patient heterogeneity change in serial specimens and compare its patient-level prediction of residual disease against baseline HER2, clinical variables, pathology, and simple residual-volume change.",
-      "opponent": 15,
-      "outcome": "win",
-      "reason": "Issue 53 is the stronger current investment because it separates an actionable early response signal from a clearly stated sampling-based alternative without requiring a causal niche mechanism to succeed. Issue 15 combines rare-disease sampling, spatial state reproducibility, persistence measurement, and selective BCL2/BMP perturbation, so several high-risk assumptions must hold before the project yields a dependable result.",
-      "target": 53,
-      "timestamp": "2026-10-10T09:57:14.118741+00:00"
-    },
-    {
       "main_risk": "The spatial fibroblast niche signal may be non-specific to baseline lesion severity, treatment exposure, or sampling and fail to add value beyond composition and histology.",
       "next_test": "Run the prespecified animal-level reanalysis and prospective early-treatment replication, comparing spatial features against composition-only, severity-only, and randomized-region baselines.",
       "opponent": 60,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 98 has a cheaper and earlier scientific decision with strong discovery value and useful negative branches. Issue 1 has greater potential clinical impact, but turnaround, organoid establishment, culture fidelity, treatment assignment, and prospective outcome validation make success dependent on a longer chain of assumptions.",
       "target": 98,
       "timestamp": "2026-10-25T04:51:58.692041+00:00"
+    },
+    {
+      "main_risk": "The spatial UCHL1–mregDC–Treg association may be confounded by disease severity or add no value beyond plasma UCHL1 and cell composition.",
+      "next_test": "Run the prespecified patient-level multiplex-imaging comparison of spatial versus nonspatial models in pretreatment and early-treatment samples.",
+      "opponent": 63,
+      "outcome": "loss",
+      "reason": "The HCC project has clearer near-term patient-level decision value, stronger evidence readiness, and a direct incremental-value test against clinical and plasma baselines. The oligodendrocyte project is more mechanistically ambitious but couples several high-risk assumptions across state identity, reversibility, multimodal benefit, and tissue transfer.",
+      "target": 96,
+      "timestamp": "2026-10-25T11:41:42.246242+00:00"
+    },
+    {
+      "main_risk": "Nascent RNA and polymerase occupancy may not identify transferable initiation versus pause-turnover states even with dense sampling.",
+      "next_test": "Collect the 0–240-minute matched time course for one initiation and one pause-turnover perturbation and test perturbation-held-out prediction against the steady-state baseline.",
+      "opponent": 91,
+      "outcome": "loss",
+      "reason": "Kinetic identifiability is the tighter scientific problem, with a cheaper dense time-course test, clearer causal perturbations, simpler baselines, and an orthogonal mechanistic readout. The FGF project requires broader multimodal integration and transfer across contexts before its central claim can be assessed.",
+      "target": 96,
+      "timestamp": "2026-10-25T11:41:42.246266+00:00"
+    },
+    {
+      "main_risk": "Ex vivo sensitivity may primarily reflect tissue quality or culture adaptation rather than patient-specific treatment response.",
+      "next_test": "Perform the locked retrospective comparison of genomic matching alone versus genomic plus functional screening on held-out patient outcomes, retaining failed assays.",
+      "opponent": 45,
+      "outcome": "loss",
+      "reason": "Functional screening addresses a consequential treatment-selection question and can initially be evaluated through a locked patient-level reanalysis with decision curves, calibration, assay failures, and genomic baselines. The virtual-cell proposal has greater discovery breadth but more sequential biological and technical risks before producing actionable evidence.",
+      "target": 96,
+      "timestamp": "2026-10-25T11:41:42.246278+00:00"
+    },
+    {
+      "main_risk": "The diagnostic label or missingness patterns may leak information and make apparent modality gains cohort-specific rather than biologically or clinically incremental.",
+      "next_test": "Run the locked multicenter nested comparison of clinical/reproductive, hormone-added, and lifestyle-added models with patient-level separation, calibration, and decision-curve analysis.",
+      "opponent": 73,
+      "outcome": "loss",
+      "reason": "PCOS triage has a clear clinical decision anchor, relatively inexpensive nested-model tests, and useful negative outcomes if hormones or lifestyle data add no decision value. The FGF project is a higher-risk discovery program with multiple difficult-to-validate assumptions and expensive context transfer.",
+      "target": 96,
+      "timestamp": "2026-10-25T11:41:42.246285+00:00"
+    },
+    {
+      "main_risk": "A non-circular reference standard and cross-site acquisition may be insufficiently reliable, making apparent imaging value an artifact of site, reader, or disease-spectrum differences.",
+      "next_test": "Run the blinded site-held-out pilot comparing clinical, neurophysiology-enhanced, and imaging-enhanced models with locked image-quality and reference-standard rules.",
+      "opponent": 31,
+      "outcome": "loss",
+      "reason": "Corneal nerve imaging has a concrete, difficult-to-replace clinical technology question and an early site-held-out test that directly measures incremental value, reproducibility, calibration, and transportability. The FGF proposal offers broader discovery potential but depends on several unproven multimodal and tissue-context assumptions.",
+      "target": 96,
+      "timestamp": "2026-10-25T11:41:42.246292+00:00"
     }
   ],
   "k_factor": 24,
@@ -2852,10 +2852,10 @@
     },
     "31": {
       "draws": 0,
-      "games": 28,
+      "games": 29,
       "losses": 12,
-      "rating": 1539.09,
-      "wins": 16
+      "rating": 1549.34,
+      "wins": 17
     },
     "32": {
       "draws": 0,
@@ -2957,10 +2957,10 @@
     },
     "45": {
       "draws": 0,
-      "games": 18,
+      "games": 19,
       "losses": 8,
-      "rating": 1530.82,
-      "wins": 10
+      "rating": 1542.1,
+      "wins": 11
     },
     "46": {
       "draws": 1,
@@ -3097,10 +3097,10 @@
     },
     "63": {
       "draws": 0,
-      "games": 15,
+      "games": 16,
       "losses": 6,
-      "rating": 1534.14,
-      "wins": 9
+      "rating": 1546.12,
+      "wins": 10
     },
     "64": {
       "draws": 0,
@@ -3174,10 +3174,10 @@
     },
     "73": {
       "draws": 0,
-      "games": 13,
+      "games": 14,
       "losses": 5,
-      "rating": 1536.36,
-      "wins": 8
+      "rating": 1547.06,
+      "wins": 9
     },
     "74": {
       "draws": 0,
@@ -3314,10 +3314,10 @@
     },
     "91": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 4,
-      "rating": 1535.11,
-      "wins": 7
+      "rating": 1546.64,
+      "wins": 8
     },
     "92": {
       "draws": 0,
@@ -3349,9 +3349,9 @@
     },
     "96": {
       "draws": 0,
-      "games": 5,
-      "losses": 1,
-      "rating": 1533.47,
+      "games": 10,
+      "losses": 6,
+      "rating": 1477.73,
       "wins": 4
     },
     "97": {
