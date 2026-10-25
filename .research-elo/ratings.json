@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The candidate malignant-cell transition may be patient-specific or reflect changing composition and sampling rather than a reproducible chemotherapy-associated trajectory.",
-      "next_test": "In paired pretreatment and residual or relapse specimens, test whether a prespecified pretreatment Schwann-cell proximity score predicts the transition in leave-one-patient-out analyses with composition and tumor-burden baselines.",
-      "opponent": 67,
-      "outcome": "loss",
-      "reason": "The neuroblastoma project offers broader discovery value and a clearer opportunity to test whether a tissue niche drives a reproducible treatment-emergent state, with longitudinal patient-level data and useful outcomes even if the Schwann-cell mechanism fails. The IL-15 project has clinical relevance but depends on access to a rare, specifically treated brain-metastasis cohort and on difficult cytokine-access measurements.",
-      "target": 68,
-      "timestamp": "2026-10-11T05:56:11.179795+00:00"
-    },
-    {
-      "main_risk": "Paired tumor exposure and phosphoproteomic measurements may be too temporally noisy or tissue-limited to distinguish target engagement from stress and sampling heterogeneity.",
-      "next_test": "Collect baseline and first-cycle samples with matched drug levels and test whether target-proximal phosphosite suppression plus pathway rebound separates later failure mechanisms beyond exposure-only and genomic baselines.",
-      "opponent": 49,
-      "outcome": "loss",
-      "reason": "Exposure-adjusted phosphoproteomics addresses a broadly recurring and actionable distinction between inadequate pharmacology and biological resistance, with strong simple baselines and orthogonal validation paths. It is less dependent than the IL-15 project on a rare treatment setting and can produce useful pharmacology, target-engagement, or resistance findings even if the integrated classifier fails.",
-      "target": 68,
-      "timestamp": "2026-10-11T05:56:11.179813+00:00"
-    },
-    {
-      "main_risk": "Observed pharmacogenomic associations may be dominated by adherence, drug interactions, treatment context, or ancestry-linked access differences rather than causal metabolism or tumor evolution.",
-      "next_test": "In a longitudinal cohort with stored plasma, genotype, adherence, and outcomes, evaluate whether repeated endoxifen exposure and ESR1 evolution improve calibrated prediction over CYP2D6 and clinical baselines within ancestry strata.",
-      "opponent": 50,
-      "outcome": "loss",
-      "reason": "The tamoxifen project has a more accessible retrospective evidence path, substantial clinical relevance, and a fixed question about mechanism-specific calibration across populations. The IL-15 project requires a narrow clinical cohort, specialized spatial assays, and a treatment-specific early functional endpoint before its biomarker value can be assessed.",
-      "target": 68,
-      "timestamp": "2026-10-11T05:56:11.179821+00:00"
-    },
-    {
-      "main_risk": "The ERK/Fra-1 state may represent generic pharmacologic injury or selection of pre-existing resistant cells rather than a fibroblast-mediated tumor-lung interface transition.",
-      "next_test": "Run a small matched longitudinal ex vivo study with untreated controls, time-resolved viability and injury measurements, live ERK/Fra-1 imaging, and fibroblast-distance annotation across independent specimens.",
-      "opponent": 62,
-      "outcome": "loss",
-      "reason": "The MCL1 project has a cheaper eight-week discriminating experiment, direct matched untreated controls, and useful branches distinguishing spatial induction, generic stress, pre-existing selection, and fibroblast dependence. The IL-15 project has greater potential clinical value but requires rare treated brain-metastasis material and assumes that spatial cytokine access is measurable and mechanistically informative.",
-      "target": 68,
-      "timestamp": "2026-10-11T05:56:11.179826+00:00"
-    },
-    {
-      "main_risk": "Measured stromal architecture may be a proxy for tumor burden, target density, specimen quality, or exposure and may not identify functional antibody penetration or effector recruitment.",
-      "next_test": "Fit prespecified nested patient-level models in a development cohort, requiring region-level reliability and testing whether stromal obstruction plus target adjacency improves calibrated prediction over target expression, composition, and clinical covariates.",
-      "opponent": 57,
-      "outcome": "loss",
-      "reason": "The bispecific-antibody project targets a broadly relevant treatment capability and directly tests incremental value over target expression, composition, and clinical baselines. It has a plausible path to a reduced pathology-compatible assay and can yield useful conclusions about architecture, composition, or antibody access even if the full spatial signature fails. The IL-15 project is more narrowly tied to a rare therapy and anatomical setting.",
-      "target": 68,
-      "timestamp": "2026-10-11T05:56:11.179833+00:00"
-    },
-    {
       "main_risk": "Issue 67 may lack enough paired pretreatment and residual or relapse specimens to establish reproducibility across patients rather than describing rare, patient-specific trajectories.",
       "next_test": "In an available paired cohort, prespecify the malignant transition and Schwann-cell niche scores and test whether pretreatment spatial proximity predicts the transition after treatment, using patient-level cross-validation against clinical and composition baselines.",
       "opponent": 49,
@@ -2699,6 +2654,51 @@
       "reason": "The chromatin project has a clearer early perturbational readout and more controllable experimental anchor; the neuroblastoma niche hypothesis depends on scarce longitudinal patient specimens and reproducibility of rare transitions.",
       "target": 98,
       "timestamp": "2026-10-25T20:56:33.170988+00:00"
+    },
+    {
+      "main_risk": "The spatial tunnel states may not predict response beyond disease burden, clinical covariates, and sampling variation.",
+      "next_test": "Apply a locked spatial classifier to pretreatment biopsies and compare calibrated patient-level prediction against clinical and composition-only baselines.",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "The hidradenitis problem has clearer near-term clinical value, a more focused biomarker question, and a cheaper patient-level validation path than the multi-assay causal chromatin program.",
+      "target": 88,
+      "timestamp": "2026-10-25T23:19:40.952173+00:00"
+    },
+    {
+      "main_risk": "Apparent reversibility may reflect selection or generic stress rather than a causal FGF-induced state transition.",
+      "next_test": "Train on FGF1/FGF2 trajectories and prospectively predict a held-out dose and washout trajectory in an independent preparation.",
+      "opponent": 96,
+      "outcome": "loss",
+      "reason": "The oligodendrocyte problem has a tighter biological anchor, measurable reversible phenotypes, and a feasible early test with useful outcomes even if multimodal modeling fails.",
+      "target": 88,
+      "timestamp": "2026-10-25T23:19:40.952194+00:00"
+    },
+    {
+      "main_risk": "The ERK/Fra-1 state may be generic treatment injury or selection rather than a conserved fibroblast-mediated spatial transition.",
+      "next_test": "Run a small matched longitudinal ex vivo study with untreated controls, spatial distance annotation, live ERK/Fra-1 imaging, and residual-viability measurement.",
+      "opponent": 62,
+      "outcome": "loss",
+      "reason": "The tumor–lung interface problem offers a rapid, mechanistically informative reproducibility test with direct resistance relevance, whereas the chromatin project requires more linked high-risk assumptions and longer readouts.",
+      "target": 88,
+      "timestamp": "2026-10-25T23:19:40.952204+00:00"
+    },
+    {
+      "main_risk": "Acute H2Aub depletion may cause nonspecific toxicity or context-specific chromatin collapse rather than a transferable regulatory hierarchy.",
+      "next_test": "Hold out H2Aub depletion in one lineage and test early direct-target direction and timing against expression-only and additive-mark baselines with rescue controls.",
+      "opponent": 38,
+      "outcome": "win",
+      "reason": "The chromatin problem has a more specific causal anchor and a direct prospective perturbation test; the cross-species project depends on difficult decomposition, orthology, baseline alignment, and broad context coverage before its claims are identifiable.",
+      "target": 88,
+      "timestamp": "2026-10-25T23:19:40.952214+00:00"
+    },
+    {
+      "main_risk": "The chromatin hierarchy may fail to generalize beyond its discovery developmental context or may be non-identifiable from the proposed measurements.",
+      "next_test": "Prospectively test an unseen developmental lineage after acute H2Aub depletion, using preregistered direct targets, early time points, and matched rescue and stress controls.",
+      "opponent": 53,
+      "outcome": "win",
+      "reason": "The chromatin problem is more scientifically anchored and mechanistically informative, while the bladder heterogeneity project faces major sampling, assay reproducibility, cohort availability, and decision-action uncertainties before clinical value can be established.",
+      "target": 88,
+      "timestamp": "2026-10-25T23:19:40.952223+00:00"
     }
   ],
   "k_factor": 24,
@@ -2901,9 +2901,9 @@
     },
     "38": {
       "draws": 0,
-      "games": 15,
-      "losses": 9,
-      "rating": 1472.09,
+      "games": 16,
+      "losses": 10,
+      "rating": 1459.01,
       "wins": 6
     },
     "39": {
@@ -3020,9 +3020,9 @@
     },
     "53": {
       "draws": 0,
-      "games": 18,
-      "losses": 10,
-      "rating": 1478.74,
+      "games": 19,
+      "losses": 11,
+      "rating": 1465.89,
       "wins": 8
     },
     "54": {
@@ -3090,10 +3090,10 @@
     },
     "62": {
       "draws": 0,
-      "games": 24,
+      "games": 25,
       "losses": 13,
-      "rating": 1478.51,
-      "wins": 11
+      "rating": 1489.59,
+      "wins": 12
     },
     "63": {
       "draws": 0,
@@ -3286,10 +3286,10 @@
     },
     "88": {
       "draws": 0,
-      "games": 8,
-      "losses": 5,
-      "rating": 1475.38,
-      "wins": 3
+      "games": 13,
+      "losses": 8,
+      "rating": 1466.8,
+      "wins": 5
     },
     "89": {
       "draws": 0,
@@ -3300,10 +3300,10 @@
     },
     "9": {
       "draws": 1,
-      "games": 29,
+      "games": 30,
       "losses": 15,
-      "rating": 1477.69,
-      "wins": 13
+      "rating": 1489.61,
+      "wins": 14
     },
     "90": {
       "draws": 0,
@@ -3349,10 +3349,10 @@
     },
     "96": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 6,
-      "rating": 1477.73,
-      "wins": 4
+      "rating": 1489.24,
+      "wins": 5
     },
     "97": {
       "draws": 0,
