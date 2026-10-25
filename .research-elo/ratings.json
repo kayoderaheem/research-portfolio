@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The spatial fibroblast niche signal may be non-specific to baseline lesion severity, treatment exposure, or sampling and fail to add value beyond composition and histology.",
-      "next_test": "Run the prespecified animal-level reanalysis and prospective early-treatment replication, comparing spatial features against composition-only, severity-only, and randomized-region baselines.",
-      "opponent": 60,
-      "outcome": "win",
-      "reason": "Issue 65 has a clearer near-term scientific anchor in an available dataset, animal-level leakage-resistant validation, orthogonal tissue readouts, and an eight-week test that can support continuation or stopping. Issue 60 has greater potential clinical impact, but patient-level predictive value, assay reproducibility, and cross-cohort transport require several high-risk dependencies and a longer readout.",
-      "target": 65,
-      "timestamp": "2026-10-10T17:22:33.096824+00:00"
-    },
-    {
-      "main_risk": "The fibroblast spatial score may not predict treatment response beyond simpler abundance, severity, and histological measures.",
-      "next_test": "Test the locked spatial score on animal-held-out data and a small prospective early-treatment cohort against composition, baseline fibrosis, and histology baselines.",
-      "opponent": 39,
-      "outcome": "win",
-      "reason": "Issue 65 is the stronger six-month investment because it is anchored to an existing experiment and has an early, decision-relevant validation path with useful outcomes even if the transition hypothesis fails. Issue 39 has broader technology potential but depends on reproducible state definitions, genuinely unseen perturbation splits, prospective profiling, and calibrated extrapolation across donors and contexts.",
-      "target": 65,
-      "timestamp": "2026-10-10T17:22:33.096843+00:00"
-    },
-    {
-      "main_risk": "The apparent spatial transition signal may reflect lesion severity or drug exposure rather than a reproducible mechanism of bazedoxifene response.",
-      "next_test": "Perform the animal-level held-out analysis and replicate the most informative pretreatment-to-early-treatment time points with blinded histology and collagen imaging.",
-      "opponent": 2,
-      "outcome": "win",
-      "reason": "Issue 65 offers a feasible, bounded discovery project with an available preclinical dataset, rapid reanalysis, and orthogonal validation. Issue 2 could have substantial patient value, but estimating differential treatment benefit requires adequate randomized subgroup size, harmonized multimodal data, external institutional validation, and stable calibration, making the six-month success path substantially less certain.",
-      "target": 65,
-      "timestamp": "2026-10-10T17:22:33.096849+00:00"
-    },
-    {
-      "main_risk": "Spatial niches may be reproducible molecular patterns without meaningful reversible fibrosis or incremental response prediction.",
-      "next_test": "Reanalyze the supplied data with animal-level separation, then prospectively test the locked score at the early-treatment time point against simple fibrosis and fibroblast-abundance baselines.",
-      "opponent": 1,
-      "outcome": "loss",
-      "reason": "Issue 65 has a more reliable early branch point and does not require organoid establishment, clinically actionable turnaround, or proof that ex vivo responses predict patient benefit. Issue 1 has higher possible clinical impact, but its core chain includes high organoid failure and timing risk, incomplete microenvironment modeling, uncertain patient correlation, and an independent prospective validation requirement.",
-      "target": 65,
-      "timestamp": "2026-10-10T17:22:33.096853+00:00"
-    },
-    {
-      "main_risk": "Temporal features may add no genuine physiological information once measurement density and monitoring intensity are controlled.",
-      "next_test": "Compare static-snapshot and temporal-trajectory models, both with measurement-density features, on a patient-disjoint and hospital-held-out test set, assessing net benefit and calibration rather than AUROC alone.",
-      "opponent": 27,
-      "outcome": "loss",
-      "reason": "Issue 27 is the stronger current investment because it can use established multicenter ICU datasets to test a clinically relevant question with simple strong baselines, patient-level separation, measurement-density controls, calibration, decision curves, and site-held-out validation. Issue 65 is biologically coherent and tractable, but its spatial niche and reversal assumptions are more speculative and its generalizability is narrower.",
-      "target": 65,
-      "timestamp": "2026-10-10T17:22:33.096858+00:00"
-    },
-    {
       "main_risk": "Architecture features may be dominated by sampling geometry, tumor burden, or site-specific structure and fail to add reproducible information beyond composition.",
       "next_test": "Lock the architecture feature set and test patient-level stability and incremental calibrated prediction against clinical and composition baselines before pursuing broader biological interpretation.",
       "opponent": 67,
@@ -2699,6 +2654,51 @@
       "reason": "Corneal nerve imaging has a concrete, difficult-to-replace clinical technology question and an early site-held-out test that directly measures incremental value, reproducibility, calibration, and transportability. The FGF proposal offers broader discovery potential but depends on several unproven multimodal and tissue-context assumptions.",
       "target": 96,
       "timestamp": "2026-10-25T11:41:42.246292+00:00"
+    },
+    {
+      "main_risk": "Histone and occupancy measurements may not identify direct cooperation rather than feedback or assay-scaling effects.",
+      "next_test": "Predict a prespecified held-out histone-mark perturbation pair from single and limited paired perturbations, using matched chromatin and RNA readouts.",
+      "opponent": 98,
+      "outcome": "loss",
+      "reason": "The histone-code problem has a tighter mechanistic anchor, a more direct early perturbation test, and useful outcomes even if cooperative prediction fails; the lung project depends more heavily on proving a causal tissue-level memory mechanism.",
+      "target": 97,
+      "timestamp": "2026-10-25T16:30:44.898293+00:00"
+    },
+    {
+      "main_risk": "Fixation may destroy perturbation-specific biological information, making transfer fundamentally non-identifiable.",
+      "next_test": "Profile donor-matched fresh, frozen, and fixed aliquots before and after one unseen perturbation with an orthogonal targeted readout.",
+      "opponent": 92,
+      "outcome": "loss",
+      "reason": "Assay transportability is a clearer technology problem with a general use case and a direct donor-matched aliquot experiment, whereas the mechanical-recovery project requires several difficult causal and cross-preparation assumptions before its virtual-cell claims are credible.",
+      "target": 97,
+      "timestamp": "2026-10-25T16:30:44.898315+00:00"
+    },
+    {
+      "main_risk": "The persistent endothelial signal may be injury, inflammation, or composition rather than AT1 mechanotransduction memory.",
+      "next_test": "Prospectively test an unseen restriction-recovery schedule with and without AT1-directed mechanosignaling perturbation in independent preparations.",
+      "opponent": 85,
+      "outcome": "win",
+      "reason": "The mechanical-recovery project offers a more coherent discovery anchor and better-defined pivot paths, while the SECmere project has substantial unresolved risks in fraction identity, technical reproducibility, spectrum bias, and external calibration before clinical value can be assessed.",
+      "target": 97,
+      "timestamp": "2026-10-25T16:30:44.898329+00:00"
+    },
+    {
+      "main_risk": "Spatial architecture may only proxy target density, tumor burden, immune abundance, or specimen quality.",
+      "next_test": "Evaluate a locked stromal-obstruction and target-adjacency score in patient-level nested models against response beyond target expression, composition, and clinical covariates.",
+      "opponent": 57,
+      "outcome": "loss",
+      "reason": "Patient-level spatial architecture has credible clinical relevance and can be tested incrementally against strong composition and clinical baselines, while the mechanical virtual-cell project carries higher causal and transferability risk and a less immediate translational endpoint.",
+      "target": 97,
+      "timestamp": "2026-10-25T16:30:44.898336+00:00"
+    },
+    {
+      "main_risk": "The fibrosis endpoint or reference standard may be unreliable or contaminated by post-outcome information.",
+      "next_test": "Run the locked multi-site benchmark comparing the clinical-laboratory baseline with sequential modality additions using patient-level splits and a predefined threshold.",
+      "opponent": 76,
+      "outcome": "loss",
+      "reason": "The pediatric MASLD problem directly addresses modality acquisition, transportability, calibration, and clinical decision value, with a practical sequential-modality test; the mechanical project is more speculative and depends on validating a difficult causal memory mechanism.",
+      "target": 97,
+      "timestamp": "2026-10-25T16:30:44.898345+00:00"
     }
   ],
   "k_factor": 24,
@@ -3048,10 +3048,10 @@
     },
     "57": {
       "draws": 0,
-      "games": 20,
+      "games": 21,
       "losses": 11,
-      "rating": 1479.58,
-      "wins": 9
+      "rating": 1491.56,
+      "wins": 10
     },
     "58": {
       "draws": 0,
@@ -3195,10 +3195,10 @@
     },
     "76": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 8,
-      "rating": 1479.13,
-      "wins": 6
+      "rating": 1490.71,
+      "wins": 7
     },
     "77": {
       "draws": 0,
@@ -3265,9 +3265,9 @@
     },
     "85": {
       "draws": 0,
-      "games": 11,
-      "losses": 6,
-      "rating": 1483.54,
+      "games": 12,
+      "losses": 7,
+      "rating": 1470.95,
       "wins": 5
     },
     "86": {
@@ -3321,10 +3321,10 @@
     },
     "92": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 5,
-      "rating": 1495.67,
-      "wins": 5
+      "rating": 1507.05,
+      "wins": 6
     },
     "93": {
       "draws": 0,
@@ -3356,17 +3356,17 @@
     },
     "97": {
       "draws": 0,
-      "games": 7,
-      "losses": 4,
-      "rating": 1489.73,
-      "wins": 3
+      "games": 12,
+      "losses": 8,
+      "rating": 1455.33,
+      "wins": 4
     },
     "98": {
       "draws": 0,
-      "games": 7,
+      "games": 8,
       "losses": 4,
-      "rating": 1488.24,
-      "wins": 3
+      "rating": 1500.29,
+      "wins": 4
     }
   },
   "version": 2
