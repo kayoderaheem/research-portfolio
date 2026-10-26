@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The required pretreatment and early on-treatment brain-metastasis tissue from patients receiving an IL-15-supported innate-cell therapy may be too scarce or heterogeneous for a reliable patient-level test.",
-      "next_test": "In an available treated-tissue pilot, quantify IL-15/IL-15Rα, perivascular localization, and an early innate-cell functional score, then test incremental patient-level prediction beyond lesion burden, clinical variables, and innate-cell abundance.",
-      "opponent": 29,
-      "outcome": "win",
-      "reason": "Local IL-15 access is a more consequential and mechanistically anchored problem, with potential to distinguish delivery failure from activation failure and guide an emerging therapy. It also has useful outcomes if access does not predict function, whereas the urine microRNA project may remain a dose proxy with uncertain ability to change adaptive fractionation decisions.",
-      "target": 68,
-      "timestamp": "2026-10-12T00:36:57.778919+00:00"
-    },
-    {
-      "main_risk": "IL-15/IL-15Rα localization may not measure functional cytokine access or may fail to generalize across lesions and therapy products.",
-      "next_test": "Test whether a prespecified spatial access score predicts early treatment-induced innate-cell function beyond abundance and clinical covariates in a small patient-level pilot with orthogonal protein confirmation.",
-      "opponent": 19,
-      "outcome": "win",
-      "reason": "Local IL-15 access states offer a clearer predictive anchor and a nearer-term discriminating experiment than the highly speculative ZNF423-restoration trajectory. The MPNST idea requires reliable malignant-cell assignment, longitudinal sampling, reproducible temporal restoration, spatial causality, and escape outcomes in a rare disease, while the IL-15 project can produce informative results even if spatial features add no value.",
-      "target": 68,
-      "timestamp": "2026-10-12T00:36:57.778946+00:00"
-    },
-    {
-      "main_risk": "Brain-metastasis tissue and matched early-treatment measurements from an IL-15-supported intervention may be unavailable at sufficient patient-level scale.",
-      "next_test": "Use existing or rapidly accessible specimens to test whether baseline spatial IL-15 access predicts an early innate-cell functional response beyond composition, lesion burden, and treatment exposure.",
-      "opponent": 32,
-      "outcome": "win",
-      "reason": "The IL-15 project has a more specific biological failure mode, a tighter fixed anchor, and a direct early functional readout. The myocarditis project has larger potential clinical breadth but depends on defining a treatment or monitoring label that is independent of clinician behavior, integrating incomplete modalities, and demonstrating transportable calibration across sites and etiologies.",
-      "target": 68,
-      "timestamp": "2026-10-12T00:36:57.778956+00:00"
-    },
-    {
-      "main_risk": "The spatial IL-15 state may be an unstable or nonfunctional proxy rather than a reproducible determinant of innate-cell recovery.",
-      "next_test": "Measure IL-15 access and perivascular innate-cell localization before treatment and relate them to early cytotoxicity or residency, with composition-only and clinical baselines plus technical replication.",
-      "opponent": 47,
-      "outcome": "win",
-      "reason": "Local IL-15 access is a bounded, biologically interpretable problem with a concrete therapy-linked early test. The cross-cancer lactate-transport proposal is broader but forces a difficult equivalence between expression, localization, flux, pH, and persistence across cancers, assays, and therapies, creating several long-readout risks before a useful conclusion.",
-      "target": 68,
-      "timestamp": "2026-10-12T00:36:57.778964+00:00"
-    },
-    {
-      "main_risk": "Baseline chromatin or isoform information may add only batch, donor, or cell-composition signal and not identify genuinely feasible perturbation responses.",
-      "next_test": "Run a small donor-replicated perturbation panel, freeze expression-only and multimodal models, and compare held-out response prediction plus prospective chromatin, isoform, protein, or functional readouts.",
-      "opponent": 37,
-      "outcome": "loss",
-      "reason": "Prospective falsification of multimodal virtual-cell predictions has the strongest general scientific value and a clear donor-level, leakage-resistant test of whether added regulatory-state measurements improve counterfactual identifiability. It can yield useful conclusions about modality sufficiency even when model gains fail. The IL-15 project is more clinically focused but depends on rare therapy-specific tissue and a narrow disease context.",
-      "target": 68,
-      "timestamp": "2026-10-12T00:36:57.778971+00:00"
-    },
-    {
       "main_risk": "The proposed pre-treatment Schwann-cell niche and malignant transition may not reproduce across patients or platforms.",
       "next_test": "In a small paired pretreatment and residual-or-relapse cohort, lock the niche and transition scores and test patient-level association beyond tumor composition and clinical covariates.",
       "opponent": 50,
@@ -2699,6 +2654,51 @@
       "reason": "EVAR is narrower but has a fixed decision anchor, compatible outcome definition, and cheaper early branch. The pan-tumor HER2 proposal combines heterogeneous diseases, assays, regimens, and treatment-selection biases, weakening causal and transportable interpretation.",
       "target": 70,
       "timestamp": "2026-10-26T13:13:56.814999+00:00"
+    },
+    {
+      "main_risk": "Issue 61 may not add information beyond IGF2BP3, MHC-I, CD8 abundance, and inflamed-tumor composition.",
+      "next_test": "Run the preregistered multiplex-imaging pilot with patient-level held-out validation against the strongest non-spatial baselines.",
+      "opponent": 89,
+      "outcome": "win",
+      "reason": "Issue 61 has a clearer patient-level anchor, a plausible incremental biomarker question, and an early assay-and-prediction test that can produce a decision within six months. Issue 89 has broader technology potential but depends on identifying latent history beyond current state and transferring across schedules and neuronal contexts.",
+      "target": 61,
+      "timestamp": "2026-10-26T20:34:07.902737+00:00"
+    },
+    {
+      "main_risk": "The apparent cGAS–STING/fibrosis spatial signal may be confounded by tumor burden, liver disease, etiology, or tissue quality rather than treatment-relevant topology.",
+      "next_test": "Analyze a locked held-out pilot of pretreatment HCC specimens, comparing topology against clinical, composition-only, and randomized-topology baselines with calibration assessment.",
+      "opponent": 60,
+      "outcome": "loss",
+      "reason": "Issue 60 has a stronger stated competitive position because it is anchored to a prospective HCC treatment setting and directly tests a clinically consequential TACE–checkpoint response problem. Its mechanism also supports useful outcomes even if topology is not predictive, whereas Issue 61 depends more heavily on transportability of a specific IGF2BP3-centered biomarker.",
+      "target": 61,
+      "timestamp": "2026-10-26T20:34:07.902758+00:00"
+    },
+    {
+      "main_risk": "Issue 61's spatial interface may be incidental adjacency or a surrogate for general immune inflammation rather than effective antigen-presentation opportunity.",
+      "next_test": "Test reproducibility and incremental patient-level prediction in a small multiplex-imaging cohort before investing in external validation.",
+      "opponent": 93,
+      "outcome": "win",
+      "reason": "Issue 61 offers a more tractable, clinically interpretable six-month decision with a concrete early assay test and flexible measurement choices. Issue 93 has potentially reusable mechanistic value but requires several difficult causal-identification assumptions and matched metabolite, membrane, translation, rescue, and cross-context data.",
+      "target": 61,
+      "timestamp": "2026-10-26T20:34:07.902766+00:00"
+    },
+    {
+      "main_risk": "The IGF2BP3/NLRC5/MHC-I spatial feature may fail to transport across TNBC cohorts or assay platforms.",
+      "next_test": "Lock the spatial feature in a pilot and compare it with expression, CD8 composition, bulk signatures, and randomized spatial-label controls using patient-level held-out prediction.",
+      "opponent": 66,
+      "outcome": "win",
+      "reason": "Issue 61 is more scientifically anchored by a specific tumor-intrinsic immune-competence program and a clinically meaningful checkpoint-response endpoint, while retaining flexibility in assay and definition. Issue 66 is a valuable transportability framework but is broader, more method-led, and faces substantial endpoint, site, and architecture instability risks.",
+      "target": 61,
+      "timestamp": "2026-10-26T20:34:07.902774+00:00"
+    },
+    {
+      "main_risk": "Issue 61 may show no reproducible predictive value beyond tumor-intrinsic expression and immune-cell abundance.",
+      "next_test": "Perform a preregistered multiplex-imaging pilot with replicate-section reproducibility and held-out incremental prediction over non-spatial baselines.",
+      "opponent": 87,
+      "outcome": "win",
+      "reason": "Issue 61 has a clearer biological anchor, credible precision-medicine relevance, and a cheaper early branch point. Issue 87 could yield a broadly useful spatial virtual-cell capability, but separating localization from abundance and composition under unseen perturbations and contexts is a high-risk identifiability problem requiring substantial new data.",
+      "target": 61,
+      "timestamp": "2026-10-26T20:34:07.902780+00:00"
     }
   ],
   "k_factor": 24,
@@ -3076,17 +3076,17 @@
     },
     "60": {
       "draws": 0,
-      "games": 15,
+      "games": 16,
       "losses": 7,
-      "rating": 1510.2,
-      "wins": 8
+      "rating": 1522.61,
+      "wins": 9
     },
     "61": {
       "draws": 0,
-      "games": 9,
-      "losses": 4,
-      "rating": 1510.11,
-      "wins": 5
+      "games": 14,
+      "losses": 5,
+      "rating": 1544.55,
+      "wins": 9
     },
     "62": {
       "draws": 0,
@@ -3118,9 +3118,9 @@
     },
     "66": {
       "draws": 0,
-      "games": 13,
-      "losses": 6,
-      "rating": 1510.61,
+      "games": 14,
+      "losses": 7,
+      "rating": 1498.99,
       "wins": 7
     },
     "67": {
@@ -3279,9 +3279,9 @@
     },
     "87": {
       "draws": 0,
-      "games": 11,
-      "losses": 5,
-      "rating": 1510.82,
+      "games": 12,
+      "losses": 6,
+      "rating": 1499.6,
       "wins": 6
     },
     "88": {
@@ -3293,9 +3293,9 @@
     },
     "89": {
       "draws": 0,
-      "games": 11,
-      "losses": 5,
-      "rating": 1510.1,
+      "games": 12,
+      "losses": 6,
+      "rating": 1498.1,
       "wins": 6
     },
     "9": {
@@ -3328,9 +3328,9 @@
     },
     "93": {
       "draws": 0,
-      "games": 11,
-      "losses": 5,
-      "rating": 1509.88,
+      "games": 12,
+      "losses": 6,
+      "rating": 1497.87,
       "wins": 6
     },
     "94": {
