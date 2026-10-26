@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Issue 67 may lack enough paired pretreatment and residual or relapse specimens to establish reproducibility across patients rather than describing rare, patient-specific trajectories.",
-      "next_test": "In an available paired cohort, prespecify the malignant transition and Schwann-cell niche scores and test whether pretreatment spatial proximity predicts the transition after treatment, using patient-level cross-validation against clinical and composition baselines.",
-      "opponent": 49,
-      "outcome": "win",
-      "reason": "Issue 67 has a clearer, biologically anchored question about patient-level reproducibility and tissue context, with explicit leakage-resistant validation, orthogonal spatial testing, and useful outcomes if the favored niche mechanism fails. Issue 49 has broader potential but depends on simultaneously obtaining accurate drug exposure, reliable phosphoproteomics, early biopsies, mechanistic resistance labels, and functional validation.",
-      "target": 67,
-      "timestamp": "2026-10-11T13:00:37.003487+00:00"
-    },
-    {
-      "main_risk": "The integrated tamoxifen model may show no transportable benefit after accounting for adherence, endoxifen exposure, treatment context, and ancestry-related care differences.",
-      "next_test": "Use a locked retrospective cohort analysis to compare CYP2D6-only, exposure-only, clinical/adherence, and integrated models, with external or site-held-out calibration and performance reported separately by ancestry stratum.",
-      "opponent": 50,
-      "outcome": "loss",
-      "reason": "Issue 50 offers greater near-term precision-medicine value and a relatively cheap retrospective branch using existing genotype, exposure, adherence, longitudinal circulating-tumor, and outcome data. Its strong baselines are explicit, and the earliest test can determine whether integrated information adds calibrated value beyond CYP2D6. Issue 67 has stronger discovery novelty but requires scarce, deeply profiled longitudinal spatial specimens and carries more simultaneous biological and sampling risks.",
-      "target": 67,
-      "timestamp": "2026-10-11T13:00:37.003507+00:00"
-    },
-    {
-      "main_risk": "Issue 67 may be unable to distinguish a true niche-mediated transition from residual-disease composition, rare-cell sampling, or patient-specific lineage programs.",
-      "next_test": "Run the prespecified 10-week paired pretreatment/residual-tissue analysis with patient-level held-out evaluation, composition and clinical baselines, and permuted spatial-coordinate negative controls.",
-      "opponent": 62,
-      "outcome": "win",
-      "reason": "Issue 67 is supported by longitudinal human neuroblastoma observations and asks whether a specific pretreatment niche predicts a reproducible treatment-emergent state, making the discovery potentially more transportable than Issue 62's osteosarcoma lung-interface program. Issue 62 has a faster ex vivo test and useful causal perturbation branches, but its starting observation may be model-specific and its generalization requirement is substantial.",
-      "target": 67,
-      "timestamp": "2026-10-11T13:00:37.003517+00:00"
-    },
-    {
-      "main_risk": "Stromal architecture may add no information beyond target expression, immune/stromal composition, tumor burden, exposure, or specimen quality, making the apparent effect non-actionable.",
-      "next_test": "Fit prespecified nested patient-level models in a development cohort and assess whether the spatial architecture score improves held-out calibration, discrimination, and decision value over target expression, composition, and clinical covariates.",
-      "opponent": 57,
-      "outcome": "loss",
-      "reason": "Issue 57 is the stronger six-month investment because it tests a direct incremental clinical-prediction question with clear composition-only baselines, patient-level validation, negative spatial controls, and a feasible path to a reduced pathology assay. Issue 67 has greater mechanistic depth but depends on rarer longitudinal specimens and several high-risk assumptions about a specific Schwann-cell niche and transition.",
-      "target": 67,
-      "timestamp": "2026-10-11T13:00:37.003524+00:00"
-    },
-    {
-      "main_risk": "Issue 67 may fail to replicate across patients because the proposed niche and malignant transition reflect sampling or disease-specific composition rather than a transportable mechanism.",
-      "next_test": "In paired neuroblastoma specimens, lock the niche and transition definitions in training patients and test replication in held-out patients against composition-only, clinical, and spatial-permutation baselines.",
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "Issue 67 has a more sharply defined scientific anchor and a stronger discovery contribution: testing whether a specific pretreatment Schwann-cell niche reproducibly precedes chemotherapy escape and relapse. Issue 13 has broad evidence readiness and strong translational potential, but its therapy class, neighborhood definitions, and optional tumoroid system are relatively floating, increasing the risk of a generic spatial association without a fixed mechanism.",
-      "target": 67,
-      "timestamp": "2026-10-11T13:00:37.003531+00:00"
-    },
-    {
       "main_risk": "The central assumption that response relationships remain biologically useful across independent assays and domains may fail because apparent transportability is driven mainly by assay, dose, provenance, or dataset composition.",
       "next_test": "Run the locked development data under drug-disjoint, tumor-model-disjoint, and double-disjoint splits with strong simple baselines, then test a small uncertainty-gated set of top-ranked predictions in an independent orthogonal assay.",
       "opponent": 43,
@@ -2699,6 +2654,51 @@
       "reason": "The chromatin problem is more scientifically anchored and mechanistically informative, while the bladder heterogeneity project faces major sampling, assay reproducibility, cohort availability, and decision-action uncertainties before clinical value can be established.",
       "target": 88,
       "timestamp": "2026-10-25T23:19:40.952223+00:00"
+    },
+    {
+      "main_risk": "The measurements may not identify paracrine effects separately from survival, target depletion, stress, and composition changes.",
+      "next_test": "Run paired mono-culture, conditioned-medium, transwell, contact, and target-depletion experiments with one engineered design and a held-out target burden.",
+      "opponent": 72,
+      "outcome": "win",
+      "reason": "Astrocyte co-culture interventions offer a more direct, controlled test of causal identifiability with informative outcomes even if the virtual-cell model fails; the clinical biomarker requires scarce treatment-linked specimens, assay reproducibility, incremental value, and external calibration.",
+      "target": 94,
+      "timestamp": "2026-10-26T04:56:00.571286+00:00"
+    },
+    {
+      "main_risk": "Recovery may reflect selective survival or nonspecific stress adaptation rather than reversible chromatin history.",
+      "next_test": "Prospectively predict unseen perturbation and restoration schedules using live-cell lineage tracking, cohesin imaging, and re-entry assays.",
+      "opponent": 41,
+      "outcome": "loss",
+      "reason": "The quiescent-yeast problem has a clearer dynamic scientific anchor, more tractable lineage-resolved experiments, and a cheaper falsification path than the highly multimodal mammalian co-culture project.",
+      "target": 94,
+      "timestamp": "2026-10-26T04:56:00.571309+00:00"
+    },
+    {
+      "main_risk": "Persistent endothelial states may be driven by injury or composition rather than AT1 mechanosignaling.",
+      "next_test": "Perturb AT1 mechanosensing during restriction and test endothelial persistence, injury, viability, and recovery across independent preparations.",
+      "opponent": 97,
+      "outcome": "loss",
+      "reason": "The alveolar project has a focused two-cell causal mechanism and an eight-week test that can separate mechanotransduction from injury, while the astrocyte project requires more interventions, modalities, and extrapolation assumptions.",
+      "target": 94,
+      "timestamp": "2026-10-26T04:56:00.571321+00:00"
+    },
+    {
+      "main_risk": "Spatial IL-15 access may add no predictive information beyond abundance, tumor burden, delivery, or lesion differences.",
+      "next_test": "Measure pretreatment IL-15/IL-15Rα access and test patient-level prediction of an early functional response beyond composition and clinical covariates.",
+      "opponent": 68,
+      "outcome": "win",
+      "reason": "The astrocyte problem is experimentally controllable and can yield mechanistic insight without requiring rare treated-patient cohorts; the IL-15 biomarker depends on difficult spatial measurement, therapy-linked tissue, and patient-level validation.",
+      "target": 94,
+      "timestamp": "2026-10-26T04:56:00.571328+00:00"
+    },
+    {
+      "main_risk": "Direct, paracrine, target-depletion, and composition effects may remain non-identifiable even with paired co-culture conditions.",
+      "next_test": "Prospectively predict a held-out target burden after matched mono-culture, conditioned-medium, transwell, contact, and target-depletion experiments.",
+      "opponent": 59,
+      "outcome": "loss",
+      "reason": "The astrocyte project has a tighter causal intervention design and a more affordable early branch than the T-cell access project, which requires paired clinical tissues, reliable product-cell identification, spatial registration, and external panel transportability.",
+      "target": 94,
+      "timestamp": "2026-10-26T04:56:00.571339+00:00"
     }
   ],
   "k_factor": 24,
@@ -2929,10 +2929,10 @@
     },
     "41": {
       "draws": 0,
-      "games": 26,
+      "games": 27,
       "losses": 15,
-      "rating": 1455.33,
-      "wins": 11
+      "rating": 1467.75,
+      "wins": 12
     },
     "42": {
       "draws": 0,
@@ -3062,10 +3062,10 @@
     },
     "59": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 8,
-      "rating": 1454.01,
-      "wins": 4
+      "rating": 1466.06,
+      "wins": 5
     },
     "6": {
       "draws": 0,
@@ -3132,9 +3132,9 @@
     },
     "68": {
       "draws": 0,
-      "games": 14,
-      "losses": 9,
-      "rating": 1454.15,
+      "games": 15,
+      "losses": 10,
+      "rating": 1441.77,
       "wins": 5
     },
     "69": {
@@ -3167,9 +3167,9 @@
     },
     "72": {
       "draws": 0,
-      "games": 10,
-      "losses": 7,
-      "rating": 1455.65,
+      "games": 11,
+      "losses": 8,
+      "rating": 1443.65,
       "wins": 3
     },
     "73": {
@@ -3335,10 +3335,10 @@
     },
     "94": {
       "draws": 0,
-      "games": 8,
-      "losses": 6,
-      "rating": 1455.51,
-      "wins": 2
+      "games": 13,
+      "losses": 9,
+      "rating": 1443.43,
+      "wins": 4
     },
     "95": {
       "draws": 0,
@@ -3356,10 +3356,10 @@
     },
     "97": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 8,
-      "rating": 1455.33,
-      "wins": 4
+      "rating": 1467.32,
+      "wins": 5
     },
     "98": {
       "draws": 0,
