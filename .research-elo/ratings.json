@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The central assumption that response relationships remain biologically useful across independent assays and domains may fail because apparent transportability is driven mainly by assay, dose, provenance, or dataset composition.",
-      "next_test": "Run the locked development data under drug-disjoint, tumor-model-disjoint, and double-disjoint splits with strong simple baselines, then test a small uncertainty-gated set of top-ranked predictions in an independent orthogonal assay.",
-      "opponent": 43,
-      "outcome": "loss",
-      "reason": "Problem 43 offers broader and more replaceable technology value: it directly tests when drug-response predictions transport across unseen drugs, tumor models, assays, and institutions, with explicit uncertainty and abstention decisions. Its strict split reanalysis and limited orthogonal validation also provide clearer useful outcomes if complex multimodal models fail, whereas problem 66 depends heavily on scarce, comparable spatial cohorts and reproducible architecture features.",
-      "target": 66,
-      "timestamp": "2026-10-11T19:35:41.346533+00:00"
-    },
-    {
-      "main_risk": "The UCHL1–mregDC–Treg neighborhood may merely track liver disease severity, hypoxia, tumor burden, or total Treg abundance rather than provide an independent or treatment-relevant resistance signal.",
-      "next_test": "Use a patient-level, blinded multiplex-imaging study of pretreatment and early-treatment biopsies to compare the spatial score against plasma UCHL1, composition, and clinical baselines with nested validation and calibration.",
-      "opponent": 63,
-      "outcome": "loss",
-      "reason": "Problem 63 has the stronger current investment case because it anchors a clinically specific question to a defined Atezo/Bev regimen, a plausible UCHL1-associated spatial circuit, paired pretreatment and early-treatment tissue, plasma comparison, and orthogonal imaging and functional validation. It can test incremental patient-level value beyond existing biomarkers while preserving useful mechanistic branches. Problem 66 is rigorous but more dependent on finding transportable architecture signals and harmonized glioblastoma response cohorts.",
-      "target": 66,
-      "timestamp": "2026-10-11T19:35:41.346557+00:00"
-    },
-    {
-      "main_risk": "Spatial relationships may be too patient-specific or technically unstable to add information beyond composition and clinical covariates in an independent glioblastoma cohort.",
-      "next_test": "Before building a complex predictor, quantify patient-level reproducibility of a locked architecture feature set and test composition-matched incremental prediction in a held-out patient cohort or existing independent dataset.",
-      "opponent": 1,
-      "outcome": "win",
-      "reason": "Problem 66 is the better six-month scientific investment because its fixed question—whether reproducible tissue architecture adds transportable information beyond composition—is clear, generalizable, and testable with strong leakage-resistant baselines. Problem 1 has potentially greater clinical value, but organoid establishment, clinically actionable turnaround, ex vivo-to-patient validity, and decision impact form a longer chain of high-risk assumptions whose readouts may arrive too late to guide a reliable branch.",
-      "target": 66,
-      "timestamp": "2026-10-11T19:35:41.346568+00:00"
-    },
-    {
-      "main_risk": "Glioblastoma spatial assays, segmentation, and cohort differences may prevent reliable patient-level architecture features from generalizing beyond the development data.",
-      "next_test": "Estimate feature reproducibility across replicate sections and patients, then compare spatial versus composition-only models using animal- or patient-level splits, spatial permutations, and an independent cohort if available.",
-      "opponent": 65,
-      "outcome": "win",
-      "reason": "Problem 66 deserves priority because it addresses a broader and harder-to-replace technology question—whether spatial context yields transportable treatment-response information beyond composition—with direct relevance to human oncology and explicit external validation requirements. Problem 65 has a cheaper and biologically concrete test, but its murine bleomycin/bazedoxifene setting is narrower, and the connection from spatial state reversal to general fibrosis treatment value is less established.",
-      "target": 66,
-      "timestamp": "2026-10-11T19:35:41.346575+00:00"
-    },
-    {
-      "main_risk": "Measured intracellular payload may not be separable from extracellular free-payload contamination or nonspecific uptake, making the proposed delivery-versus-payload mechanism uninterpretable.",
-      "next_test": "Test matched HER2 conjugates across HER2-high, HER2-low, and resistant models with free-payload, nonbinding-conjugate, and HER2 controls while measuring internalization, intracellular species after washout, and early pharmacodynamic response.",
-      "opponent": 56,
-      "outcome": "loss",
-      "reason": "Problem 56 is the stronger current investment because it has a tight causal anchor, a relatively cheap eight-week discriminating experiment, strong mechanistic controls, and informative outcomes for delivery-limited, payload-limited, or downstream resistance even if the favored model fails. Problem 66 has broader technology impact but requires scarce spatial cohorts, harmonized treatment endpoints, and several high-risk transportability assumptions before producing a decisive result.",
-      "target": 66,
-      "timestamp": "2026-10-11T19:35:41.346587+00:00"
-    },
-    {
       "main_risk": "The required pretreatment and early on-treatment brain-metastasis tissue from patients receiving an IL-15-supported innate-cell therapy may be too scarce or heterogeneous for a reliable patient-level test.",
       "next_test": "In an available treated-tissue pilot, quantify IL-15/IL-15Rα, perivascular localization, and an early innate-cell functional score, then test incremental patient-level prediction beyond lesion burden, clinical variables, and innate-cell abundance.",
       "opponent": 29,
@@ -2699,6 +2654,51 @@
       "reason": "The astrocyte project has a tighter causal intervention design and a more affordable early branch than the T-cell access project, which requires paired clinical tissues, reliable product-cell identification, spatial registration, and external panel transportability.",
       "target": 94,
       "timestamp": "2026-10-26T04:56:00.571339+00:00"
+    },
+    {
+      "main_risk": "FAM230F may be assay-sensitive or mainly reflect tumor burden, making its apparent gain non-transportable.",
+      "next_test": "Run blinded multi-site replicate testing and evaluate the locked marker against ultrasound-plus-AFP at a prespecified threshold.",
+      "opponent": 24,
+      "outcome": "loss",
+      "reason": "HCC triage has greater potential clinical impact and a clear external-validation path, while preserving useful negative outcomes if cfDNA adds no value.",
+      "target": 70,
+      "timestamp": "2026-10-26T13:13:56.814958+00:00"
+    },
+    {
+      "main_risk": "CTA features may encode site-specific acquisition or preprocessing artifacts rather than portable biological information.",
+      "next_test": "Evaluate locked clinical-only and CTA-augmented models on an independent hospital cohort with patient-level leakage control and calibration analysis.",
+      "opponent": 42,
+      "outcome": "win",
+      "reason": "EVAR offers a bounded, decision-relevant transportability question with an early external-site test; the myeloma project depends on a longer chain from engineered-model signals to clinically transferable resistance biology.",
+      "target": 70,
+      "timestamp": "2026-10-26T13:13:56.814977+00:00"
+    },
+    {
+      "main_risk": "Imaging-derived incremental value may disappear after robust external calibration and simple imaging baselines.",
+      "next_test": "Compare locked CTA augmentation with clinical and conventional radiologic baselines in an independent hospital cohort using decision-curve net benefit.",
+      "opponent": 48,
+      "outcome": "win",
+      "reason": "EVAR has a clearer clinical decision, stronger near-term data structure, and a more credible six-month endpoint; cross-assay drug ranking requires difficult harmonization and convincing links to treatment outcomes.",
+      "target": 70,
+      "timestamp": "2026-10-26T13:13:56.814985+00:00"
+    },
+    {
+      "main_risk": "The EVAR problem may yield only a modest, site-specific gain with limited broader scientific generality.",
+      "next_test": "Lock preprocessing and thresholds, then test CTA incremental value against clinical and simple imaging baselines in an external cohort.",
+      "opponent": 75,
+      "outcome": "win",
+      "reason": "EVAR is more ready for a decisive external validation, whereas MRI-proteomic validation faces reconstruction, treatment-selection, endpoint, and assay-transfer risks that could consume the project before establishing a reliable signal.",
+      "target": 70,
+      "timestamp": "2026-10-26T13:13:56.814992+00:00"
+    },
+    {
+      "main_risk": "CTA-derived value may not change management even if statistical performance improves.",
+      "next_test": "Measure external net benefit and calibration across prespecified hospitalization thresholds and sex strata against a locked clinical baseline.",
+      "opponent": 69,
+      "outcome": "win",
+      "reason": "EVAR is narrower but has a fixed decision anchor, compatible outcome definition, and cheaper early branch. The pan-tumor HER2 proposal combines heterogeneous diseases, assays, regimens, and treatment-selection biases, weakening causal and transportable interpretation.",
+      "target": 70,
+      "timestamp": "2026-10-26T13:13:56.814999+00:00"
     }
   ],
   "k_factor": 24,
@@ -2796,10 +2796,10 @@
     },
     "24": {
       "draws": 1,
-      "games": 21,
+      "games": 22,
       "losses": 6,
-      "rating": 1594.2,
-      "wins": 14
+      "rating": 1606.19,
+      "wins": 15
     },
     "25": {
       "draws": 1,
@@ -2936,9 +2936,9 @@
     },
     "42": {
       "draws": 0,
-      "games": 16,
-      "losses": 4,
-      "rating": 1594.4,
+      "games": 17,
+      "losses": 5,
+      "rating": 1581.97,
       "wins": 12
     },
     "43": {
@@ -2978,9 +2978,9 @@
     },
     "48": {
       "draws": 0,
-      "games": 10,
-      "losses": 1,
-      "rating": 1591.69,
+      "games": 11,
+      "losses": 2,
+      "rating": 1579.78,
       "wins": 9
     },
     "49": {
@@ -3139,9 +3139,9 @@
     },
     "69": {
       "draws": 0,
-      "games": 10,
-      "losses": 1,
-      "rating": 1589.99,
+      "games": 11,
+      "losses": 2,
+      "rating": 1578.94,
       "wins": 9
     },
     "7": {
@@ -3153,10 +3153,10 @@
     },
     "70": {
       "draws": 0,
-      "games": 8,
-      "losses": 0,
-      "rating": 1593.85,
-      "wins": 8
+      "games": 13,
+      "losses": 1,
+      "rating": 1628.72,
+      "wins": 12
     },
     "71": {
       "draws": 0,
@@ -3188,9 +3188,9 @@
     },
     "75": {
       "draws": 0,
-      "games": 10,
-      "losses": 1,
-      "rating": 1590.91,
+      "games": 11,
+      "losses": 2,
+      "rating": 1579.44,
       "wins": 9
     },
     "76": {
