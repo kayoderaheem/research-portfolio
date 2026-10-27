@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The proposed pre-treatment Schwann-cell niche and malignant transition may not reproduce across patients or platforms.",
-      "next_test": "In a small paired pretreatment and residual-or-relapse cohort, lock the niche and transition scores and test patient-level association beyond tumor composition and clinical covariates.",
-      "opponent": 50,
-      "outcome": "win",
-      "reason": "The Schwann-cell project has a tighter biological anchor, a differentiated patient-level reproducibility question, and an early paired-tissue test that can distinguish niche-mediated transition from composition and sampling artifacts. The tamoxifen project has greater potential clinical reach but requires assembling and harmonizing extensive longitudinal pharmacokinetic, adherence, germline, somatic, ancestry, and outcome data before its mechanism-specific value is credible.",
-      "target": 67,
-      "timestamp": "2026-10-12T11:00:26.747896+00:00"
-    },
-    {
-      "main_risk": "The spatial architecture measurements may be unstable within patients and fail to add predictive value beyond target expression, composition, and tumor burden.",
-      "next_test": "Fit locked composition-only and spatially augmented patient-level models in a small development cohort with repeated sections, checking reliability before pursuing functional assays.",
-      "opponent": 57,
-      "outcome": "win",
-      "reason": "The Schwann-cell project asks a more specific and biologically anchored question with a clear longitudinal endpoint and meaningful negative controls. The stromal-architecture project is potentially useful but leaves the bispecific target, tumor type, assay, and architecture definition floating, while transfer from organoid systems to clinical tissue adds another major assumption.",
-      "target": 67,
-      "timestamp": "2026-10-12T11:00:26.747916+00:00"
-    },
-    {
-      "main_risk": "The apparent Schwann-cell-linked transition may reflect patient-specific composition, residual-disease sampling, or technical trajectory artifacts rather than a reproducible mechanism.",
-      "next_test": "Use leave-one-patient-out analysis of paired pretreatment and post-treatment specimens to test whether a pre-specified niche-associated transition replicates beyond baseline malignant-cell composition.",
-      "opponent": 15,
-      "outcome": "win",
-      "reason": "The Schwann-cell project offers a clearer cross-patient discovery anchor and an early test focused on whether a treatment-associated transition is reproducible, with useful branches if the niche hypothesis fails. The gastric project combines biomarker prediction, spatial causality, and BCL2/BMP perturbation, creating a longer and riskier chain in which BCL2-high status may simply mark aggressive clones.",
-      "target": 67,
-      "timestamp": "2026-10-12T11:00:26.747926+00:00"
-    },
-    {
-      "main_risk": "The available randomized and external cohorts may be too small or heterogeneous to estimate stable treatment interactions and calibrated transportable signatures.",
-      "next_test": "Before multimodal model development, perform a site-held-out power and stability analysis of treatment-by-feature interactions using clinical and molecular baselines.",
-      "opponent": 2,
-      "outcome": "loss",
-      "reason": "The pancreatic project is anchored to differential benefit in a randomized treatment setting, making its clinical question more causally interpretable and its transportability goal broadly useful. The neuroblastoma project is biologically compelling but primarily observational, dependent on rare serial spatial specimens, and vulnerable to confounding by residual disease and sampling.",
-      "target": 67,
-      "timestamp": "2026-10-12T11:00:26.747933+00:00"
-    },
-    {
-      "main_risk": "Held-out gains may reflect dataset-specific state labels or interpolation among similar perturbations rather than genuine prediction of unseen biological responses.",
-      "next_test": "Run a donor- and target-held-out benchmark with similarity audits, comparing direct composition modeling against compositional regression, expression-first, retrieval, and donor-composition null baselines.",
-      "opponent": 39,
-      "outcome": "loss",
-      "reason": "The composition-aware counterfactual project has broader technological utility, a relatively direct held-out perturbation test, strong baseline requirements, and useful outcomes even if the favored model architecture fails. The Schwann-cell project has stronger disease-specific mechanistic appeal but depends on scarce longitudinal spatial material and several high-risk biological reproducibility assumptions.",
-      "target": 67,
-      "timestamp": "2026-10-12T11:00:26.747943+00:00"
-    },
-    {
       "main_risk": "The required paired pretreatment and early-on-treatment osteosarcoma STING cohort may be too small or unavailable to estimate spatial effects reliably.",
       "next_test": "Analyze a small paired cohort to test whether baseline inflammatory myeloid organization predicts an early necrosis-to-adaptive-response score beyond myeloid abundance and clinical covariates.",
       "opponent": 59,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 61 has a clearer biological anchor, credible precision-medicine relevance, and a cheaper early branch point. Issue 87 could yield a broadly useful spatial virtual-cell capability, but separating localization from abundance and composition under unseen perturbations and contexts is a high-risk identifiability problem requiring substantial new data.",
       "target": 61,
       "timestamp": "2026-10-26T20:34:07.902780+00:00"
+    },
+    {
+      "main_risk": "Spatial IL-15 measurements may not reflect functional cytokine access or predict response beyond innate-cell abundance.",
+      "next_test": "Test pretreatment IL-15/IL-15Rα spatial features against early on-treatment innate-cell function using patient-level validation.",
+      "opponent": 68,
+      "outcome": "loss",
+      "reason": "IL-15 access has a clearer treatment-linked biological anchor, direct precision-medicine relevance, and a cheaper early test than the highly confounded, cross-cancer lactate signal.",
+      "target": 47,
+      "timestamp": "2026-10-27T00:31:51.246001+00:00"
+    },
+    {
+      "main_risk": "Lactate-transport measurements may remain nonspecific for persistence after adjustment for hypoxia, proliferation, purity, and exposure.",
+      "next_test": "Run a paired early-treatment pilot with locked transport features and test prediction against strong clinical, proliferation, hypoxia, and persister baselines.",
+      "opponent": 94,
+      "outcome": "win",
+      "reason": "The lactate project offers a more accessible early biomarker-and-function test and useful negative outcomes, whereas virtual-cell counterfactuals require difficult causal identifiability and unseen-construct generalization.",
+      "target": 47,
+      "timestamp": "2026-10-27T00:31:51.246024+00:00"
+    },
+    {
+      "main_risk": "Condensate state may be a pharmacodynamic or stress marker rather than a reproducible pretreatment predictor that improves simpler molecular baselines.",
+      "next_test": "Blindly assess assay reproducibility and incremental baseline-response value in pretreatment specimens before expanding to combination selection.",
+      "opponent": 72,
+      "outcome": "loss",
+      "reason": "YTHDC1 condensate state is tied to a specific treatment decision and has a clearer incremental-value question, while cross-cancer lactate validation carries broader confounding and transportability risks.",
+      "target": 47,
+      "timestamp": "2026-10-27T00:31:51.246035+00:00"
+    },
+    {
+      "main_risk": "The apparent ZNF423-restoration trajectory may reflect residual tumor, genomic context, or sampling rather than a reproducible escape mechanism.",
+      "next_test": "Use matched longitudinal MPNST samples to test whether baseline ZNF423 and spatial features predict early restoration and later escape beyond composition and clinical covariates.",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "ZNF423 restoration provides a focused, mechanistically anchored escape trajectory with longitudinal and spatial tests, whereas the lactate proposal spans too many cancers, therapies, assays, and competing explanations.",
+      "target": 47,
+      "timestamp": "2026-10-27T00:31:51.246041+00:00"
+    },
+    {
+      "main_risk": "The management endpoint may not be independently and reproducibly adjudicated without being entangled with existing clinical decisions and referral bias.",
+      "next_test": "Blindly adjudicate the treatment or monitoring target, then compare locked clinical, imaging, and molecular nested models for calibration and decision-curve net benefit.",
+      "opponent": 32,
+      "outcome": "loss",
+      "reason": "Multimodal myocarditis triage addresses an immediate patient-level management decision, has strong established baselines, and supports a relatively cheap retrospective multi-site decision-value test.",
+      "target": 47,
+      "timestamp": "2026-10-27T00:31:51.246048+00:00"
     }
   ],
   "k_factor": 24,
@@ -2761,10 +2761,10 @@
     },
     "19": {
       "draws": 0,
-      "games": 21,
+      "games": 22,
       "losses": 13,
-      "rating": 1438.33,
-      "wins": 8
+      "rating": 1450.03,
+      "wins": 9
     },
     "2": {
       "draws": 0,
@@ -2859,10 +2859,10 @@
     },
     "32": {
       "draws": 0,
-      "games": 23,
+      "games": 24,
       "losses": 14,
-      "rating": 1446.61,
-      "wins": 9
+      "rating": 1457.62,
+      "wins": 10
     },
     "33": {
       "draws": 0,
@@ -2971,10 +2971,10 @@
     },
     "47": {
       "draws": 0,
-      "games": 9,
-      "losses": 7,
-      "rating": 1441.13,
-      "wins": 2
+      "games": 14,
+      "losses": 11,
+      "rating": 1407.0,
+      "wins": 3
     },
     "48": {
       "draws": 0,
@@ -3132,10 +3132,10 @@
     },
     "68": {
       "draws": 0,
-      "games": 15,
+      "games": 16,
       "losses": 10,
-      "rating": 1441.77,
-      "wins": 5
+      "rating": 1453.75,
+      "wins": 6
     },
     "69": {
       "draws": 0,
@@ -3167,10 +3167,10 @@
     },
     "72": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 8,
-      "rating": 1443.65,
-      "wins": 3
+      "rating": 1455.58,
+      "wins": 4
     },
     "73": {
       "draws": 0,
@@ -3335,9 +3335,9 @@
     },
     "94": {
       "draws": 0,
-      "games": 13,
-      "losses": 9,
-      "rating": 1443.43,
+      "games": 14,
+      "losses": 10,
+      "rating": 1430.94,
       "wins": 4
     },
     "95": {
