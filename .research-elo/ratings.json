@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The isoform signal may primarily reflect subtype, clonal composition, or tumor purity rather than a causal or clinically useful resistance mechanism.",
-      "next_test": "Test prespecified recurrent switches in matched sensitive and resistant patient or model pairs, using patient-level splits and adjustment for subtype and total gene expression, then require an isoform-specific functional change.",
-      "opponent": 18,
-      "outcome": "win",
-      "reason": "Isoform switching offers a broader and more flexible mechanism for separating intrinsic from acquired resistance across cancers and drugs, with clear patient-level validation, strong gene-level baselines, and an actionable early test. The cholangiocarcinoma project depends more heavily on costly spatial sampling, paired biopsies, and cross-site transfer of a highly specific niche signature.",
-      "target": 52,
-      "timestamp": "2026-10-13T06:52:13.250063+00:00"
-    },
-    {
-      "main_risk": "The proposed isoform features may not be reproducible in clinical material or may fail to add information beyond total expression and known molecular subtype.",
-      "next_test": "Run a blinded, patient-level comparison of recurrent isoform switches against gene-level, subtype, and clinical baselines in matched ALK-relevant resistance samples, with replicate assay confirmation.",
-      "opponent": 8,
-      "outcome": "loss",
-      "reason": "Isoform switching has a clearer cross-context scientific anchor and a more direct intrinsic-versus-acquired resistance question, while the ALK project risks confounding spatial topology with metastatic site, treatment history, lesion burden, and sampling. Isoform measurements can be evaluated against strong gene-expression and subtype baselines before committing to extensive spatial profiling.",
-      "target": 52,
-      "timestamp": "2026-10-13T06:52:13.250081+00:00"
-    },
-    {
-      "main_risk": "The myeloid state may be a consequence of lesion size, organ-specific immunity, or treatment exposure rather than a driver or transferable predictor of tumor control.",
-      "next_test": "Measure paired baseline and early-treatment lesions with a focused spatial/protein panel and test a prespecified interferon-responsive tumor-interface score against abundance-only, organ-adjusted, and clinical baselines in held-out subjects.",
-      "opponent": 4,
-      "outcome": "win",
-      "reason": "Treatment-induced myeloid remodeling has a nearer-term, more discriminating experiment and clearer useful branches: it can distinguish abundance, functional state, and spatial localization, with orthogonal protein and functional validation. The isoform project requires several linked high-risk steps from measurement through causal interaction changes to alternative treatment actionability.",
-      "target": 52,
-      "timestamp": "2026-10-13T06:52:13.250091+00:00"
-    },
-    {
-      "main_risk": "The isoform-defined resistance distinction may not improve treatment selection or reveal actionable biology beyond established genomic, subtype, and expression models.",
-      "next_test": "Use a locked patient-level model to test whether prespecified baseline and serial isoform changes improve prediction over subtype, total gene expression, and genomic alteration baselines, followed by one orthogonal functional assay.",
-      "opponent": 26,
-      "outcome": "win",
-      "reason": "Isoform switching is a more specific and transferable scientific problem than the fetal-growth-restriction proposal's deliberately unspecified molecular modality. It has a defined biological distinction between intrinsic and acquired resistance and can branch into biomarker, mechanism, or alternative-treatment outcomes. The FGR project has greater direct clinical stakes but substantial endpoint, timing, assay-standardization, and external-calibration dependencies before a useful decision is possible.",
-      "target": 52,
-      "timestamp": "2026-10-13T06:52:13.250098+00:00"
-    },
-    {
-      "main_risk": "The isoform signal may be technically unreliable or biologically noncausal, whereas the virtual-cell project could become preferable if model access and a clean prospective test panel are already secured.",
-      "next_test": "First audit isoform reproducibility and incremental prediction in blinded matched samples; proceed only if the signal beats gene-level and subtype baselines and shows an isoform-specific functional effect.",
-      "opponent": 34,
-      "outcome": "win",
-      "reason": "Isoform switching has a more attainable six-month path because its early test can use existing matched resistance material and directly evaluate incremental biological information. The virtual-cell proposal is highly consequential if successful, but depends on access to a frozen model and metadata, genuinely unseen perturbations, reproducible donor organoids, proteomics, and calibrated uncertainty under distribution shift.",
-      "target": 52,
-      "timestamp": "2026-10-13T06:52:13.250105+00:00"
-    },
-    {
       "main_risk": "The rehabilitation decision and escalation strategy may not be sufficiently prespecified or consistently deliverable to demonstrate clinical decision value.",
       "next_test": "Specify one rehabilitation decision and endpoint, then run a blinded multicenter pilot testing whether serial inflammation improves prediction beyond baseline frailty, clinical variables, and early function.",
       "opponent": 23,
@@ -2699,6 +2654,51 @@
       "reason": "Exposure-normalized HER2 conjugate mechanisms can produce actionable biological explanations and informative branches through matched controls and orthogonal assays, rather than relying on nominal potency or retrospective prediction alone.",
       "target": 84,
       "timestamp": "2026-10-27T09:07:14.230396+00:00"
+    },
+    {
+      "main_risk": "FGF-associated profiles may reflect generic stress, maturation, or selective survival rather than a reversible state transition.",
+      "next_test": "Train on FGF1/FGF2 trajectories and prospectively predict a held-out dose and washout trajectory in an independent preparation.",
+      "opponent": 62,
+      "outcome": "win",
+      "reason": "96 has a clearer reversible-state scientific anchor, broader discovery value, and a cheaper 10-week prospective test with useful outcomes even if prediction fails. 62 has strong translational relevance but depends on scarce specimens, spatial sampling, and reproducibility across patients.",
+      "target": 96,
+      "timestamp": "2026-10-27T15:24:53.346098+00:00"
+    },
+    {
+      "main_risk": "The multimodal oligodendrocyte measurements may not identify a true reversible transition or may not transfer beyond culture.",
+      "next_test": "Test held-out FGF dose and washout prediction in an independent oligodendrocyte preparation, including viability and orthogonal myelin readouts.",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "96 offers broader mechanistic insight and flexible model/context choices, with an early test that can distinguish pathway-state identifiability from assay failure. 9 has greater immediate clinical relevance but depends on heterogeneous treatment response, biopsy sampling, and proving spatial states add value beyond disease burden and clinical covariates.",
+      "target": 96,
+      "timestamp": "2026-10-27T15:24:53.346121+00:00"
+    },
+    {
+      "main_risk": "Observed interaction effects may be compositional, feedback-driven, or assay-scaling artifacts rather than cooperative histone-code biology.",
+      "next_test": "Predict a prespecified held-out histone-mark or Bre2-interface perturbation from single and selected paired perturbations, then test direction with orthogonal COMPASS assays.",
+      "opponent": 98,
+      "outcome": "loss",
+      "reason": "98 has the tighter biochemical anchor, a more interpretable causal hypothesis, an earlier eight-week held-out-combination test, and strong residual value as a context-specific chromatin response atlas. 96 requires more modalities and contexts before its counterfactual claims become identifiable.",
+      "target": 96,
+      "timestamp": "2026-10-27T15:24:53.346132+00:00"
+    },
+    {
+      "main_risk": "The multimodal model may add no transportable decision value beyond routine clinical and laboratory variables.",
+      "next_test": "Run the locked sequential-modality comparison with patient-level nested validation and held-out-site calibration against the clinical-laboratory baseline.",
+      "opponent": 76,
+      "outcome": "loss",
+      "reason": "96 is more tractable within six months, has a focused discovery anchor, and permits early continuation, refinement, or stopping before committing to broad clinical data infrastructure. 76 has higher potential patient value but depends on a reliable fibrosis endpoint, multi-site harmonization, access-sensitive missingness, and external calibration.",
+      "target": 96,
+      "timestamp": "2026-10-27T15:24:53.346138+00:00"
+    },
+    {
+      "main_risk": "Morphology and molecular profiles may not transfer across preparations or distinguish FGF biology from generic injury and selection.",
+      "next_test": "Train on FGF1/FGF2 exposure-washout trajectories and predict an unseen perturbation in an independent preparation with orthogonal myelin validation.",
+      "opponent": 92,
+      "outcome": "loss",
+      "reason": "96 is anchored to a specific biological transition and pathology output, while 92 faces a difficult assay-transport problem with limited evidence that fixation preserves perturbation-specific effects. 96 also has a cheaper early readout and informative failure branches.",
+      "target": 96,
+      "timestamp": "2026-10-27T15:24:53.346147+00:00"
     }
   ],
   "k_factor": 24,
@@ -3090,9 +3090,9 @@
     },
     "62": {
       "draws": 0,
-      "games": 25,
-      "losses": 13,
-      "rating": 1489.59,
+      "games": 26,
+      "losses": 14,
+      "rating": 1477.58,
       "wins": 12
     },
     "63": {
@@ -3195,10 +3195,10 @@
     },
     "76": {
       "draws": 0,
-      "games": 15,
+      "games": 16,
       "losses": 8,
-      "rating": 1490.71,
-      "wins": 7
+      "rating": 1503.03,
+      "wins": 8
     },
     "77": {
       "draws": 0,
@@ -3300,9 +3300,9 @@
     },
     "9": {
       "draws": 1,
-      "games": 30,
-      "losses": 15,
-      "rating": 1489.61,
+      "games": 31,
+      "losses": 16,
+      "rating": 1478.01,
       "wins": 14
     },
     "90": {
@@ -3321,10 +3321,10 @@
     },
     "92": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 6,
-      "rating": 1494.82,
-      "wins": 6
+      "rating": 1506.58,
+      "wins": 7
     },
     "93": {
       "draws": 0,
@@ -3349,10 +3349,10 @@
     },
     "96": {
       "draws": 0,
-      "games": 11,
-      "losses": 6,
-      "rating": 1489.24,
-      "wins": 5
+      "games": 16,
+      "losses": 9,
+      "rating": 1475.98,
+      "wins": 7
     },
     "97": {
       "draws": 0,
@@ -3363,10 +3363,10 @@
     },
     "98": {
       "draws": 0,
-      "games": 13,
+      "games": 14,
       "losses": 7,
-      "rating": 1490.0,
-      "wins": 6
+      "rating": 1502.79,
+      "wins": 7
     }
   },
   "version": 2
