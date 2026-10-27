@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The required paired pretreatment and early-on-treatment osteosarcoma STING cohort may be too small or unavailable to estimate spatial effects reliably.",
-      "next_test": "Analyze a small paired cohort to test whether baseline inflammatory myeloid organization predicts an early necrosis-to-adaptive-response score beyond myeloid abundance and clinical covariates.",
-      "opponent": 59,
-      "outcome": "win",
-      "reason": "Issue 64 has a clearer mechanistic anchor, a more coherent link from baseline state to treatment response, and a relatively direct paired-tissue test against strong composition and clinical baselines. Issue 59 addresses an important and general access problem, but therapeutic-cell identity, tissue registration, and product heterogeneity make its readout less reliable within six months.",
-      "target": 64,
-      "timestamp": "2026-10-12T21:18:40.829581+00:00"
-    },
-    {
-      "main_risk": "Additional chromatin or isoform modalities may contribute only donor, batch, or cell-composition proxies rather than genuine information about intervention effects.",
-      "next_test": "Freeze expression-only and multimodal models using independent donor baseline data, then prospectively test predictions for a small replicated perturbation panel with held-out regulatory and functional readouts.",
-      "opponent": 37,
-      "outcome": "loss",
-      "reason": "Issue 37 offers greater general scientific and technological leverage: it directly tests whether regulatory modalities add information for prospective, donor- and perturbation-held-out counterfactual prediction. It also has useful failure branches identifying when virtual-cell claims are not identifiable. Issue 64 is more clinically concrete but narrower and depends heavily on obtaining a rare, well-sampled treatment cohort.",
-      "target": 64,
-      "timestamp": "2026-10-12T21:18:40.829605+00:00"
-    },
-    {
-      "main_risk": "Spatial myeloid organization may add no information beyond abundance, tumor burden, tumor STING competence, or treatment exposure.",
-      "next_test": "Use paired pretreatment and early-on-treatment specimens to test incremental patient-level prediction of the early necrosis-to-adaptive-response trajectory over composition-only and clinical baselines.",
-      "opponent": 68,
-      "outcome": "win",
-      "reason": "Issue 64 is the stronger current investment because its proposed spatial feature is tied to a biologically explicit treatment sequence and can be tested against composition, tumor-intrinsic, and clinical alternatives. Issue 68 depends on the stronger assumption that measured IL-15 abundance and receptor localization represent functional cytokine access, while therapy and lesion-level sampling are likely to be highly heterogeneous.",
-      "target": 64,
-      "timestamp": "2026-10-12T21:18:40.829614+00:00"
-    },
-    {
-      "main_risk": "The osteosarcoma STING cohort may be too limited for robust patient-level spatial modeling and independent validation.",
-      "next_test": "Apply a locked spatial myeloid-state classifier to a small paired cohort and compare calibrated response prediction with clinical, myeloid-abundance, and tumor-STING baselines.",
-      "opponent": 9,
-      "outcome": "win",
-      "reason": "Issue 64 has higher potential for a transferable mechanism and a better-defined treatment-induced trajectory, with explicit competing explanations and orthogonal spatial validation. Issue 9 has a useful and more accessible disease unit, but the retinoid program may be chronic-state consequence rather than a treatment-relevant driver, and pathway actionability requires an additional uncertain perturbation step.",
-      "target": 64,
-      "timestamp": "2026-10-12T21:18:40.829621+00:00"
-    },
-    {
-      "main_risk": "The proposed early necrosis-to-adaptive trajectory may not be reproducible across patients or may be confounded by tumor burden and treatment exposure.",
-      "next_test": "Test paired pretreatment and early-treatment samples for reproducible patient-level trajectory prediction beyond baseline abundance, tumor burden, and tumor-intrinsic STING-response scores.",
-      "opponent": 41,
-      "outcome": "win",
-      "reason": "Issue 64 is more likely to produce a decisive result within six months: it has a concrete early tissue test, clinically meaningful endpoints, strong baseline comparisons, and informative outcomes even if spatial organization fails to add predictive value. Issue 41 has high conceptual impact but requires dense lineage-resolved perturbation experiments, causal ordering of chromatin and cohesin changes, and difficult prospective schedule validation before its model claim can be evaluated.",
-      "target": 64,
-      "timestamp": "2026-10-12T21:18:40.829627+00:00"
-    },
-    {
       "main_risk": "The isoform signal may primarily reflect subtype, clonal composition, or tumor purity rather than a causal or clinically useful resistance mechanism.",
       "next_test": "Test prespecified recurrent switches in matched sensitive and resistant patient or model pairs, using patient-level splits and adjustment for subtype and total gene expression, then require an isoform-specific functional change.",
       "opponent": 18,
@@ -2699,6 +2654,51 @@
       "reason": "Multimodal myocarditis triage addresses an immediate patient-level management decision, has strong established baselines, and supports a relatively cheap retrospective multi-site decision-value test.",
       "target": 47,
       "timestamp": "2026-10-27T00:31:51.246048+00:00"
+    },
+    {
+      "main_risk": "BIS below 40 may not be sufficiently actionable to justify an early-warning intervention.",
+      "next_test": "Run the prespecified patient- and site-held-out comparison of BIS-only versus multimodal models with calibration and alarm-cost utility.",
+      "opponent": 83,
+      "outcome": "win",
+      "reason": "Anesthesia has a clearer near-term decision test, stronger leakage-resistant validation plan, and more immediate potential to establish whether added signals reduce clinically relevant alarm error beyond BIS.",
+      "target": 84,
+      "timestamp": "2026-10-27T09:07:14.230349+00:00"
+    },
+    {
+      "main_risk": "Cross-platform kinase scores may primarily encode assay, lineage, or batch effects rather than transferable biology.",
+      "next_test": "Lock a simple pathway-level score in one cohort and test it without refitting on an independent platform and matched drug class.",
+      "opponent": 51,
+      "outcome": "loss",
+      "reason": "Transportable kinase states offer broader discovery and technology value, with a fixed biological anchor and a decisive external-cohort test; the proposal also supports useful outcomes if individual phosphosites or platforms fail.",
+      "target": 84,
+      "timestamp": "2026-10-27T09:07:14.230372+00:00"
+    },
+    {
+      "main_risk": "The BIS threshold may be a surrogate without a validated intervention or meaningful clinical utility.",
+      "next_test": "Perform the strict patient- and site-held-out incremental-value and alarm-utility analysis beyond BIS trajectory alone.",
+      "opponent": 81,
+      "outcome": "loss",
+      "reason": "Anesthesia is more immediately testable with available time-series structure, strong baselines, and an eight-week branch point, whereas methylation requires longer external validation and has substantial platform, cell-composition, and clinical-use uncertainty.",
+      "target": 84,
+      "timestamp": "2026-10-27T09:07:14.230381+00:00"
+    },
+    {
+      "main_risk": "A sufficiently large, harmonized, independent multicenter cohort with reproducible spatial measurements may not exist.",
+      "next_test": "Verify cohort access and run the locked 12-week center-held-out benchmark against clinical and composition baselines.",
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "The lymphoma project addresses a general and important question about whether spatial context adds biology beyond composition, with strong negative controls and external center validation; anesthesia is more tractable but its endpoint and intervention value are less secure.",
+      "target": 84,
+      "timestamp": "2026-10-27T09:07:14.230389+00:00"
+    },
+    {
+      "main_risk": "Intracellular payload exposure may not be measured cleanly enough to distinguish delivery failure from payload resistance.",
+      "next_test": "Compare HER2-high, HER2-low, and resistant models with matched conjugates, free payload, and nonbinding controls while measuring uptake, intracellular payload, and early pharmacodynamic response.",
+      "opponent": 56,
+      "outcome": "loss",
+      "reason": "Exposure-normalized HER2 conjugate mechanisms can produce actionable biological explanations and informative branches through matched controls and orthogonal assays, rather than relying on nominal potency or retrospective prediction alone.",
+      "target": 84,
+      "timestamp": "2026-10-27T09:07:14.230396+00:00"
     }
   ],
   "k_factor": 24,
@@ -2747,9 +2747,9 @@
     },
     "17": {
       "draws": 0,
-      "games": 24,
-      "losses": 9,
-      "rating": 1562.32,
+      "games": 25,
+      "losses": 10,
+      "rating": 1550.03,
       "wins": 15
     },
     "18": {
@@ -3006,10 +3006,10 @@
     },
     "51": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 3,
-      "rating": 1566.98,
-      "wins": 9
+      "rating": 1579.37,
+      "wins": 10
     },
     "52": {
       "draws": 0,
@@ -3041,10 +3041,10 @@
     },
     "56": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 3,
-      "rating": 1571.99,
-      "wins": 9
+      "rating": 1583.79,
+      "wins": 10
     },
     "57": {
       "draws": 0,
@@ -3237,10 +3237,10 @@
     },
     "81": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 3,
-      "rating": 1569.16,
-      "wins": 9
+      "rating": 1581.05,
+      "wins": 10
     },
     "82": {
       "draws": 0,
@@ -3251,17 +3251,17 @@
     },
     "83": {
       "draws": 0,
-      "games": 12,
-      "losses": 3,
-      "rating": 1566.71,
+      "games": 13,
+      "losses": 4,
+      "rating": 1554.69,
       "wins": 9
     },
     "84": {
       "draws": 0,
-      "games": 10,
-      "losses": 2,
-      "rating": 1566.22,
-      "wins": 8
+      "games": 15,
+      "losses": 5,
+      "rating": 1554.45,
+      "wins": 10
     },
     "85": {
       "draws": 0,
