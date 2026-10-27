@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The rehabilitation decision and escalation strategy may not be sufficiently prespecified or consistently deliverable to demonstrate clinical decision value.",
-      "next_test": "Specify one rehabilitation decision and endpoint, then run a blinded multicenter pilot testing whether serial inflammation improves prediction beyond baseline frailty, clinical variables, and early function.",
-      "opponent": 23,
-      "outcome": "loss",
-      "reason": "Dynamic recovery monitoring after knee arthroplasty addresses a broader clinical population and has a more tractable prospective validation path, with patient-level leakage controls, strong clinical baselines, and useful outputs even if inflammation adds little. The TET2 project is more mechanistically distinctive but depends on rare paired tumor specimens, reliable macrophage clonal assignment, and a causal combination effect.",
-      "target": 46,
-      "timestamp": "2026-10-13T16:59:23.815778+00:00"
-    },
-    {
-      "main_risk": "FADS1 or arachidonic-acid measurements may not represent biologically active local signaling rather than nonspecific lipid accumulation or tumor-state severity.",
-      "next_test": "Use pretreatment HCC tissue to test, with blinded patient-level analysis, whether spatial FADS1/lipid proximity predicts T-cell fitness beyond cell abundance and agrees with orthogonal lipid and functional assays.",
-      "opponent": 10,
-      "outcome": "loss",
-      "reason": "The HCC project offers broader relevance to checkpoint and cellular therapy, a differentiated spatial biological mechanism, and multiple informative branches through composition-only, metabolic-only, spatial, and orthogonal functional comparisons. TET2-mutant macrophage resistance in anaplastic thyroid cancer is potentially important but constrained by rare disease, difficult paired sampling, and several high-risk causal and measurement assumptions.",
-      "target": 46,
-      "timestamp": "2026-10-13T16:59:23.815798+00:00"
-    },
-    {
-      "main_risk": "TET2-mutant macrophages may be too difficult to measure reliably in available paired specimens, making the proposed biomarker non-reproducible before causal testing is possible.",
-      "next_test": "Perform a blinded paired-specimen feasibility pilot using orthogonal DNA and myeloid immunophenotyping assays to establish whether macrophage TET2 burden and TGFβ activity are reproducibly measurable and separate resistance from baseline disease severity.",
-      "opponent": 41,
-      "outcome": "win",
-      "reason": "The TET2 project has a clearer near-term translational problem and a defined biomarker-to-mechanism-to-combination decision path, whereas the virtual-cell project requires dense lineage-resolved multimodal data and assumes that learned history dependence will be identifiable and causally meaningful. Its clinical scope is narrow, but its earliest test can directly determine whether the proposed macrophage state separates resistance and supports a pivot.",
-      "target": 46,
-      "timestamp": "2026-10-13T16:59:23.815806+00:00"
-    },
-    {
-      "main_risk": "TET2-mutant macrophage/TGFβ activity may be a nonspecific marker of age, tumor burden, or aggressive microenvironment rather than a reversible resistance mechanism.",
-      "next_test": "In a blinded paired-sample pilot, quantify TET2-mutant macrophages and TGFβ activity with orthogonal assays and compare their resistance association against tumor-cell resistance alterations and clinical burden.",
-      "opponent": 44,
-      "outcome": "win",
-      "reason": "The TET2 project keeps a clearer disease and mechanistic anchor, while the CAIX imaging project floats across tumor types, treatments, tracers, and decisions and faces substantial risks from perfusion, necrosis, spatial mismatch, scanner variation, and uncertain clinical actionability. TET2 also has a more direct mechanistic perturbation route rather than primarily retrospective prediction.",
-      "target": 46,
-      "timestamp": "2026-10-13T16:59:23.815811+00:00"
-    },
-    {
-      "main_risk": "ATRX loss and associated chromatin changes may be model- or clone-specific, so apparent transfer may reflect genotype or state matching rather than causal regulatory features.",
-      "next_test": "Freeze predictions from expression-only, ATAC-only, nearest-state, and multimodal models, then test held-out regulatory perturbations in independent control and ATRX-deficient biological replicates with matched expression and localization readouts.",
-      "opponent": 35,
-      "outcome": "loss",
-      "reason": "The ATRX project has available state-specific datasets, a generalizable discovery and technology payoff, and a strong falsification structure using perturbation and context holdouts. It can yield useful insight about when chromatin information transfers even if the full multimodal model fails. The TET2 project has greater direct treatment relevance but is limited by rare disease, specimen access, and a longer chain from measurement to causal combination benefit.",
-      "target": 46,
-      "timestamp": "2026-10-13T16:59:23.815816+00:00"
-    },
-    {
       "main_risk": "The choice changes if anti-MDA5 cohorts already have reproducible serial molecular assays and enough independent-site patients for a genuinely early transport test.",
       "next_test": "Fit locked clinical-only and clinical-imaging landmark models, then test a single prespecified molecular score in a small independent-site cohort for incremental calibration and net benefit.",
       "opponent": 71,
@@ -2699,6 +2654,51 @@
       "reason": "96 is anchored to a specific biological transition and pathology output, while 92 faces a difficult assay-transport problem with limited evidence that fixation preserves perturbation-specific effects. 96 also has a cheaper early readout and informative failure branches.",
       "target": 96,
       "timestamp": "2026-10-27T15:24:53.346147+00:00"
+    },
+    {
+      "main_risk": "Issue 86 may lose its apparent biomarker value after age, renal-function, and referral-spectrum adjustment.",
+      "next_test": "Run patient-level nested validation of PSA-only, age-plus-PSA, and multimarker models with prespecified calibration and biopsy-referral decision curves.",
+      "opponent": 83,
+      "outcome": "win",
+      "reason": "Issue 86 has a clearer, cheaper early test using existing biomarkers and a clinically direct triage endpoint; issue 83 depends on variable longitudinal sampling, antibody ascertainment, and transportable lymphocyte thresholds.",
+      "target": 86,
+      "timestamp": "2026-10-27T22:21:16.668379+00:00"
+    },
+    {
+      "main_risk": "The BIS<40 warning may not represent an actionable clinical outcome, making issue 84's apparent predictive gains non-meaningful.",
+      "next_test": "For issue 86, test incremental calibration and net benefit after age and renal-function adjustment in a patient- and site-held-out cohort.",
+      "opponent": 84,
+      "outcome": "win",
+      "reason": "Issue 86 targets a clinically interpretable biopsy decision with inexpensive measurements and explicit confounding controls, whereas issue 84 relies on BIS below 40 as an uncertain surrogate and faces substantial synchronization, alarm-burden, and site-shift risks.",
+      "target": 86,
+      "timestamp": "2026-10-27T22:21:16.668399+00:00"
+    },
+    {
+      "main_risk": "The missing description of proposal B could materially change impact, feasibility, or competitive position.",
+      "next_test": "Provide the complete proposal content for issue 86 before making an investment choice.",
+      "opponent": 90,
+      "outcome": "draw",
+      "reason": "Issue 86 is fully specified and has a practical early validation path, but issue 86 is the only proposal identified for B, so there is insufficient evidence to compare distinct scientific problems.",
+      "target": 86,
+      "timestamp": "2026-10-27T22:21:16.668408+00:00"
+    },
+    {
+      "main_risk": "Issue 86's incremental biomarkers may disappear after adjustment for age, renal function, comorbidity, and referral bias.",
+      "next_test": "Run the prespecified age- and renal-function-adjusted multimarker comparison with patient-level validation and decision curves.",
+      "opponent": 27,
+      "outcome": "win",
+      "reason": "Issue 86 offers a focused precision-medicine question with inexpensive measurements, strong confounding checks, and an early stop rule; issue 27 carries higher data-access, cross-database harmonization, measurement-density, and third-cohort risks while its temporal gain may be benchmark-level rather than decision-changing.",
+      "target": 86,
+      "timestamp": "2026-10-27T22:21:16.668412+00:00"
+    },
+    {
+      "main_risk": "Issue 86 may not transport beyond the originating hospital or may show no incremental value over age plus PSA.",
+      "next_test": "Evaluate PSA-only, age-plus-PSA, and biomarker-augmented models on held-out patients and an independent site, including calibration and net benefit.",
+      "opponent": 78,
+      "outcome": "win",
+      "reason": "Issue 86 has a more bounded and operationally feasible study using routine serum data and an identifiable decision endpoint; issue 78 has high potential impact but substantial endpoint-adjudication, ultrasound-operator, acquisition, subgroup, and multimodal feasibility risks.",
+      "target": 86,
+      "timestamp": "2026-10-27T22:21:16.668418+00:00"
     }
   ],
   "k_factor": 24,
@@ -2817,9 +2817,9 @@
     },
     "27": {
       "draws": 0,
-      "games": 32,
-      "losses": 14,
-      "rating": 1553.28,
+      "games": 33,
+      "losses": 15,
+      "rating": 1542.13,
       "wins": 18
     },
     "28": {
@@ -3209,9 +3209,9 @@
     },
     "78": {
       "draws": 0,
-      "games": 13,
-      "losses": 4,
-      "rating": 1557.12,
+      "games": 14,
+      "losses": 5,
+      "rating": 1546.22,
       "wins": 9
     },
     "79": {
@@ -3251,16 +3251,16 @@
     },
     "83": {
       "draws": 0,
-      "games": 13,
-      "losses": 4,
-      "rating": 1554.69,
+      "games": 14,
+      "losses": 5,
+      "rating": 1542.7,
       "wins": 9
     },
     "84": {
       "draws": 0,
-      "games": 15,
-      "losses": 5,
-      "rating": 1554.45,
+      "games": 16,
+      "losses": 6,
+      "rating": 1542.88,
       "wins": 10
     },
     "85": {
@@ -3271,11 +3271,11 @@
       "wins": 5
     },
     "86": {
-      "draws": 0,
-      "games": 11,
+      "draws": 1,
+      "games": 16,
       "losses": 3,
-      "rating": 1555.01,
-      "wins": 8
+      "rating": 1599.86,
+      "wins": 12
     },
     "87": {
       "draws": 0,
@@ -3306,10 +3306,10 @@
       "wins": 14
     },
     "90": {
-      "draws": 0,
-      "games": 13,
+      "draws": 1,
+      "games": 14,
       "losses": 4,
-      "rating": 1556.66,
+      "rating": 1557.42,
       "wins": 9
     },
     "91": {
