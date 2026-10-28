@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "CTA features may add no transportable information after robust clinical modeling and external calibration.",
-      "next_test": "Evaluate a locked clinical-only versus clinical-plus-prespecified-CTA model in an independent hospital, reporting calibration, Brier score, subgroup stability, and decision-curve net benefit.",
-      "opponent": 71,
-      "outcome": "win",
-      "reason": "CTA augmentation for prolonged EVAR hospitalization has a clearer clinical decision, stronger evidence readiness, simpler measurements, and an earlier independent-site test. The molecular dermatomyositis project could have greater clinical impact, but serial sampling, assay reproducibility, treatment-confounding control, and site transport require several high-risk assumptions.",
-      "target": 70,
-      "timestamp": "2026-10-14T12:01:50.514607+00:00"
-    },
-    {
-      "main_risk": "The CTA signal may be site-specific or redundant with clinical variables, eliminating meaningful decision value.",
-      "next_test": "Run the locked CTA augmentation analysis on an independent hospital cohort against clinical and simple-imaging baselines before investing in more complex modeling.",
-      "opponent": 67,
-      "outcome": "win",
-      "reason": "The EVAR problem is more tractable and has a defined early decision test, while the neuroblastoma project depends on obtaining rare paired longitudinal specimens and demonstrating reproducible niche-mediated transitions across patients. Its biological discovery potential is high, but the chain from spatial niche to treatment-emergent state to relapse is substantially riskier within six months.",
-      "target": 70,
-      "timestamp": "2026-10-14T12:01:50.514625+00:00"
-    },
-    {
-      "main_risk": "CTA-derived features may fail to improve calibrated decisions beyond routine clinical and conventional imaging predictors.",
-      "next_test": "Use a held-out independent hospital to compare clinical-only, simple-imaging, and locked CTA models for calibration and net benefit at prespecified hospitalization thresholds.",
-      "opponent": 60,
-      "outcome": "win",
-      "reason": "The EVAR project has a narrower, clinically explicit endpoint, routine baseline comparators, and a relatively cheap external-validation branch. The HCC spatial project has important mechanistic and translational potential, but depends on reproducible cGAS-STING and fibrosis measurements, genuine topology beyond composition, and cross-platform transport that is explicitly a long readout.",
-      "target": 70,
-      "timestamp": "2026-10-14T12:01:50.514632+00:00"
-    },
-    {
-      "main_risk": "The apparent CTA increment may disappear after external calibration and adjustment for acquisition, case-mix, and conventional radiologic information.",
-      "next_test": "Test a locked CTA-augmented model in an independent hospital and compare it with clinical-only and conventional-imaging baselines using patient-level calibration and decision curves.",
-      "opponent": 54,
-      "outcome": "win",
-      "reason": "EVAR offers a more decision-ready and feasible six-month investment with accessible clinical variables, clear patient-level validation, and an early external-site test. T-cell clonotype persistence is biologically compelling but requires longitudinal biopsies, tumor specificity that is difficult to establish, assay robustness, and external transport; transient inflammation could generate misleading associations.",
-      "target": 70,
-      "timestamp": "2026-10-14T12:01:50.514636+00:00"
-    },
-    {
-      "main_risk": "CTA phenotypes may encode only local scanner, segmentation, or case-mix effects rather than portable incremental decision value.",
-      "next_test": "Perform locked external validation of CTA features against clinical, target/simple-imaging, and composition baselines, requiring stable calibration and net benefit across sites and sex strata.",
-      "opponent": 57,
-      "outcome": "win",
-      "reason": "The EVAR question is more sharply anchored to a concrete resource and discharge decision, with stronger evidence readiness and a cheaper falsification test. Stromal architecture for bispecific response could be broadly useful, but the forced link from tissue geometry to drug penetration and effector recruitment, plus assay reduction and site transport, creates more unresolved assumptions.",
-      "target": 70,
-      "timestamp": "2026-10-14T12:01:50.514645+00:00"
-    },
-    {
       "main_risk": "HER2 RNA and spatial signals may reflect tumor type, tissue quality, treatment selection, or assay effects rather than transportable treatment-response biology.",
       "next_test": "In a locked independent treated cohort, compare standard amplification/IHC against RNA augmentation specifically in prespecified discordant cases and quantify calibration and net decision benefit.",
       "opponent": 39,
@@ -2699,6 +2654,51 @@
       "reason": "The opioid-use-disorder project targets a concrete patient-important decision and explicitly tests incremental net benefit, calibration, equity, and implementation rather than benchmark performance; it is therefore the stronger six-month investment despite multimodal complexity.",
       "target": 58,
       "timestamp": "2026-10-28T13:07:00.523715+00:00"
+    },
+    {
+      "main_risk": "Idea 87 may be unable to identify true within-cell localization changes under distribution shift.",
+      "next_test": "Prospectively test one unseen perturbation and cellular context against count-only, transport, and source-resampling baselines using independent control wells.",
+      "opponent": 66,
+      "outcome": "win",
+      "reason": "Idea 87 has a clearer technology anchor, broader reusable insight, stronger leakage-resistant evaluation, and an early prospective test. Idea 66 has greater clinical relevance but depends more heavily on scarce aligned cohorts and transportable treatment endpoints.",
+      "target": 87,
+      "timestamp": "2026-10-28T20:20:35.817037+00:00"
+    },
+    {
+      "main_risk": "Spatial measurements may not contain enough information to separate localization effects from abundance and composition.",
+      "next_test": "Evaluate localization and abundance separately on one held-out perturbation-context combination with matched source states and independent controls.",
+      "opponent": 89,
+      "outcome": "win",
+      "reason": "Idea 87 offers a broader identifiability problem with clearer spatial controls and useful outcomes even if prediction fails. Idea 89 requires several high-risk assumptions about latent excitation memory, hysteresis, and transfer across neuronal contexts.",
+      "target": 87,
+      "timestamp": "2026-10-28T20:20:35.817060+00:00"
+    },
+    {
+      "main_risk": "Matrix GTP effects may remain confounded with ATP depletion, membrane potential, or nonspecific mitochondrial stress.",
+      "next_test": "Run the preregistered short time course with ATP-synthase inhibition, GTP and exchange rescues, matched controls, and mediator-specific assays.",
+      "opponent": 93,
+      "outcome": "loss",
+      "reason": "Idea 93 has the strongest fixed mechanistic anchor, a focused eight-week rescue experiment, orthogonal measurements, and informative outcomes across competing causal explanations. Idea 87 is broader but requires more complex spatial data and extrapolation assumptions before establishing identifiability.",
+      "target": 87,
+      "timestamp": "2026-10-28T20:20:35.817094+00:00"
+    },
+    {
+      "main_risk": "Idea 87's spatial predictions may not generalize across perturbations, contexts, or imaging batches.",
+      "next_test": "Test one unseen perturbation and cell context prospectively, reporting replicate-level localization error, calibration, and composition-controlled baselines.",
+      "opponent": 67,
+      "outcome": "win",
+      "reason": "Idea 87 provides a more general, flexible technology question with a shorter and cleaner earliest decision. Idea 67 has important relapse relevance but depends on scarce longitudinal patient specimens, reproducible cross-patient trajectories, and a niche mechanism that may be difficult to transport.",
+      "target": 87,
+      "timestamp": "2026-10-28T20:20:35.817102+00:00"
+    },
+    {
+      "main_risk": "Idea 87 may show benchmark gains driven by imaging geometry or conserved composition rather than biological localization mechanisms.",
+      "next_test": "Use independent controls and negative spatial controls to test whether a held-out localization prediction survives composition matching and coordinate shuffling.",
+      "opponent": 98,
+      "outcome": "win",
+      "reason": "Idea 87 has broader methodological impact, a clearer identifiability framework, and more flexible modality and context choices. Idea 98 requires a costly multi-layer chromatin experiment and assumes cooperative effects can be distinguished from feedback, composition, and assay scaling.",
+      "target": 87,
+      "timestamp": "2026-10-28T20:20:35.817111+00:00"
     }
   ],
   "k_factor": 24,
@@ -3118,16 +3118,16 @@
     },
     "66": {
       "draws": 0,
-      "games": 14,
-      "losses": 7,
-      "rating": 1498.99,
+      "games": 15,
+      "losses": 8,
+      "rating": 1487.01,
       "wins": 7
     },
     "67": {
       "draws": 0,
-      "games": 18,
-      "losses": 9,
-      "rating": 1496.7,
+      "games": 19,
+      "losses": 10,
+      "rating": 1485.17,
       "wins": 9
     },
     "68": {
@@ -3279,10 +3279,10 @@
     },
     "87": {
       "draws": 0,
-      "games": 12,
-      "losses": 6,
-      "rating": 1499.6,
-      "wins": 6
+      "games": 17,
+      "losses": 7,
+      "rating": 1533.12,
+      "wins": 10
     },
     "88": {
       "draws": 0,
@@ -3293,9 +3293,9 @@
     },
     "89": {
       "draws": 0,
-      "games": 12,
-      "losses": 6,
-      "rating": 1498.1,
+      "games": 13,
+      "losses": 7,
+      "rating": 1486.57,
       "wins": 6
     },
     "9": {
@@ -3328,10 +3328,10 @@
     },
     "93": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 6,
-      "rating": 1497.87,
-      "wins": 6
+      "rating": 1510.74,
+      "wins": 7
     },
     "94": {
       "draws": 0,
@@ -3363,9 +3363,9 @@
     },
     "98": {
       "draws": 0,
-      "games": 14,
-      "losses": 7,
-      "rating": 1502.79,
+      "games": 15,
+      "losses": 8,
+      "rating": 1491.44,
       "wins": 7
     }
   },
