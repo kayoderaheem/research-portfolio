@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The choice changes if anti-MDA5 cohorts already have reproducible serial molecular assays and enough independent-site patients for a genuinely early transport test.",
-      "next_test": "Fit locked clinical-only and clinical-imaging landmark models, then test a single prespecified molecular score in a small independent-site cohort for incremental calibration and net benefit.",
-      "opponent": 71,
-      "outcome": "win",
-      "reason": "HER2 modality escalation has a clearer near-term decision target, stronger validation structure, and more actionable incremental-value analysis than the highly dynamic, rare-disease molecular monitoring problem.",
-      "target": 69,
-      "timestamp": "2026-10-13T22:51:34.563079+00:00"
-    },
-    {
-      "main_risk": "The choice changes if a sufficiently large, harmonized multi-tumor treated HER2 cohort with matched RNA, spatial, IHC, amplification, and response data already exists.",
-      "next_test": "Evaluate a locked clinical-only model against clinical plus simple conventional CTA measurements in an independent hospital before adding high-dimensional CTA phenotypes.",
-      "opponent": 70,
-      "outcome": "loss",
-      "reason": "CTA phenotypes for prolonged EVAR hospitalization are narrower, cheaper to test, and supported by a clear external-hospital validation path, whereas pan-tumor HER2 modeling combines heterogeneous assays, regimens, endpoints, and transport assumptions.",
-      "target": 69,
-      "timestamp": "2026-10-13T22:51:34.563107+00:00"
-    },
-    {
-      "main_risk": "The choice changes if an accessible paired osteosarcoma STING-agonist cohort already contains adequate pretreatment and early-on-treatment spatial data.",
-      "next_test": "In the available STING cohort, test whether baseline spatial myeloid organization adds value beyond myeloid abundance for predicting one prespecified early necrosis endpoint.",
-      "opponent": 64,
-      "outcome": "win",
-      "reason": "HER2 decision value offers a more feasible patient-level precision-medicine study with explicit baselines, calibration, and independent validation; the STING project requires rare paired serial specimens, reproducible spatial states, and a difficult mechanistic trajectory readout.",
-      "target": 69,
-      "timestamp": "2026-10-13T22:51:34.563116+00:00"
-    },
-    {
-      "main_risk": "The choice changes if a well-powered, diverse tamoxifen cohort with repeated endoxifen, adherence, genotype, and serial ESR1 data is already assembled and externally linkable.",
-      "next_test": "Compare CYP2D6-only, endoxifen-only, and integrated models in a held-out patient cohort, checking calibration and benefit consistency across at least two ancestry strata.",
-      "opponent": 50,
-      "outcome": "win",
-      "reason": "HER2 assessment directly targets a treatment-selection decision and has a clearer modality-escalation framework; the tamoxifen project requires extensive longitudinal pharmacokinetic, adherence, germline, ancestry, and evolving tumor data while separating several intertwined resistance mechanisms.",
-      "target": 69,
-      "timestamp": "2026-10-13T22:51:34.563123+00:00"
-    },
-    {
-      "main_risk": "The choice changes if recurrent isoform switches already have matched sensitive-resistant patient pairs, reliable isoform quantification, and an experimentally accessible drug target.",
-      "next_test": "Test a small prespecified switch set in held-out matched pairs against total-gene-expression and subtype baselines, followed by one orthogonal isoform-specific functional assay.",
-      "opponent": 52,
-      "outcome": "win",
-      "reason": "HER2 provides a fixed clinical anchor, defined incremental decision value, and useful failure branches such as identifying redundant modalities; isoform switching spans cancer types and drugs and needs multiple high-risk measurement, causal, and functional assumptions before yielding a treatment insight.",
-      "target": 69,
-      "timestamp": "2026-10-13T22:51:34.563129+00:00"
-    },
-    {
       "main_risk": "The molecular module in 71 may add no actionable information beyond clinical trajectory and imaging, especially across sites and treatment contexts.",
       "next_test": "Fit and externally test the prespecified landmark clinical-imaging model, then assay a small blinded set of serial samples to determine whether the molecular module has reproducible incremental value.",
       "opponent": 64,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 86 has a more bounded and operationally feasible study using routine serum data and an identifiable decision endpoint; issue 78 has high potential impact but substantial endpoint-adjudication, ultrasound-operator, acquisition, subgroup, and multimodal feasibility risks.",
       "target": 86,
       "timestamp": "2026-10-27T22:21:16.668418+00:00"
+    },
+    {
+      "main_risk": "Treatment response and assay behavior may not be comparable across tumor types, regimens, and sites.",
+      "next_test": "Lock amplification/IHC and clinical baselines, then test RNA and spatial additions in an independent treated cohort with calibration and decision-curve analysis.",
+      "opponent": 51,
+      "outcome": "win",
+      "reason": "HER2 assessment has clearer patient-level treatment-decision value, stronger clinical anchoring, and a more actionable modality-escalation pathway than a high-risk cross-platform kinase-state prediction program.",
+      "target": 69,
+      "timestamp": "2026-10-28T05:51:51.515383+00:00"
+    },
+    {
+      "main_risk": "The apparent HER2 modality gains may reflect tumor type, tissue quality, treatment selection, or assay-specific confounding.",
+      "next_test": "Evaluate locked standard, RNA-augmented, and spatial-augmented HER2 models in an independent treated cohort before investing in broad multimodal integration.",
+      "opponent": 75,
+      "outcome": "win",
+      "reason": "HER2 offers broader potential clinical impact and a clearer generalizable discordance problem, whereas the MRI-proteomic project depends on reconstructing a narrowly situated workflow and obtaining a closely matched external rectal-cancer cohort.",
+      "target": 69,
+      "timestamp": "2026-10-28T05:51:51.515404+00:00"
+    },
+    {
+      "main_risk": "Agreement between functional assays may not translate into clinically meaningful treatment-response prediction.",
+      "next_test": "Run the same blinded patient-derived models and drug panel in two laboratories and measure patient-level ranking concordance, quality failure, and baseline-adjusted performance.",
+      "opponent": 48,
+      "outcome": "loss",
+      "reason": "Cross-assay drug-sensitivity reproducibility addresses a foundational technology bottleneck with a direct, relatively cheap multisite pilot and useful assay-specific outcomes even if universal rankings fail; HER2 requires more consequential but difficult cross-tumor clinical harmonization.",
+      "target": 69,
+      "timestamp": "2026-10-28T05:51:51.515420+00:00"
+    },
+    {
+      "main_risk": "HER2 signals may not transport across tumor types, regimens, sites, and assay platforms.",
+      "next_test": "Conduct an independent treated-cohort comparison of standard HER2 assessment versus RNA and spatial additions, focusing on calibration and net benefit.",
+      "opponent": 81,
+      "outcome": "win",
+      "reason": "HER2 has greater potential breadth and immediate treatment-selection relevance, while the methylation project is constrained to incremental value over a strong existing score and requires long external calibration and endpoint validation.",
+      "target": 69,
+      "timestamp": "2026-10-28T05:51:51.515427+00:00"
+    },
+    {
+      "main_risk": "RNA or spatial HER2 measurements may add complexity without improving calibrated treatment decisions beyond amplification and IHC.",
+      "next_test": "Test locked incremental HER2 models in discordant and heterogeneous cases from an independent treated cohort, using prespecified decision thresholds and external calibration.",
+      "opponent": 43,
+      "outcome": "win",
+      "reason": "HER2 provides a more clinically anchored and decision-oriented problem with a credible early validation path; the unseen-drug/unseen-tumor project combines substantial distribution-shift, uncertainty, assay, and prospective-combination assumptions and risks becoming benchmark-driven.",
+      "target": 69,
+      "timestamp": "2026-10-28T05:51:51.515436+00:00"
     }
   ],
   "k_factor": 24,
@@ -2943,9 +2943,9 @@
     },
     "43": {
       "draws": 0,
-      "games": 23,
-      "losses": 8,
-      "rating": 1576.43,
+      "games": 24,
+      "losses": 9,
+      "rating": 1565.29,
       "wins": 15
     },
     "44": {
@@ -2978,10 +2978,10 @@
     },
     "48": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 2,
-      "rating": 1579.78,
-      "wins": 9
+      "rating": 1592.57,
+      "wins": 10
     },
     "49": {
       "draws": 0,
@@ -3006,9 +3006,9 @@
     },
     "51": {
       "draws": 0,
-      "games": 13,
-      "losses": 3,
-      "rating": 1579.37,
+      "games": 14,
+      "losses": 4,
+      "rating": 1567.36,
       "wins": 10
     },
     "52": {
@@ -3139,10 +3139,10 @@
     },
     "69": {
       "draws": 0,
-      "games": 11,
-      "losses": 2,
-      "rating": 1578.94,
-      "wins": 9
+      "games": 16,
+      "losses": 3,
+      "rating": 1612.6,
+      "wins": 13
     },
     "7": {
       "draws": 0,
@@ -3188,9 +3188,9 @@
     },
     "75": {
       "draws": 0,
-      "games": 11,
-      "losses": 2,
-      "rating": 1579.44,
+      "games": 12,
+      "losses": 3,
+      "rating": 1567.84,
       "wins": 9
     },
     "76": {
@@ -3237,9 +3237,9 @@
     },
     "81": {
       "draws": 0,
-      "games": 13,
-      "losses": 3,
-      "rating": 1581.05,
+      "games": 14,
+      "losses": 4,
+      "rating": 1569.35,
       "wins": 10
     },
     "82": {
