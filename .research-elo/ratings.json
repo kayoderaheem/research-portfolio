@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The molecular module in 71 may add no actionable information beyond clinical trajectory and imaging, especially across sites and treatment contexts.",
-      "next_test": "Fit and externally test the prespecified landmark clinical-imaging model, then assay a small blinded set of serial samples to determine whether the molecular module has reproducible incremental value.",
-      "opponent": 64,
-      "outcome": "win",
-      "reason": "Problem 71 has a clearer clinical decision anchor, stronger safeguards against leakage and transport failure, and a more informative path to showing that molecular data are redundant or useful. Problem 64 has greater mechanistic novelty but depends on rare paired spatial specimens and several high-risk assumptions about a reproducible treatment-induced trajectory.",
-      "target": 71,
-      "timestamp": "2026-10-14T05:00:46.494637+00:00"
-    },
-    {
-      "main_risk": "The anti-MDA5 cohort may be too small or heterogeneous for reliable site-specific calibration and independent validation.",
-      "next_test": "Establish whether an adequately sized multi-site cohort exists and test a locked clinical-imaging landmark model before adding a minimal molecular module.",
-      "opponent": 50,
-      "outcome": "win",
-      "reason": "Problem 71 is more tightly connected to a defined near-term monitoring or treatment-review decision and explicitly tests whether molecular complexity is warranted. Problem 50 has broader population impact, but requires integrating exposure, adherence, ancestry, tumor evolution, and outcomes while separating pharmacologic from biological resistance, creating substantial confounding and data-availability risk.",
-      "target": 71,
-      "timestamp": "2026-10-14T05:00:46.494656+00:00"
-    },
-    {
-      "main_risk": "The molecular measurements in 71 may primarily reflect treatment timing or severity rather than transportable incremental biology.",
-      "next_test": "In a defined treatment landmark cohort, compare the locked clinical-imaging model with a single prespecified molecular score after adjustment for exposure, severity, and prior trajectory.",
-      "opponent": 49,
-      "outcome": "win",
-      "reason": "Problem 71 offers a clearer, clinically anchored and modality-flexible decision problem with an early baseline-model test and useful outcomes even if molecular data are redundant. Problem 49 is potentially important but is underspecified across therapies and tumor types and requires difficult matched exposure, phosphoproteomic, biopsy, external-validation, and functional evidence chains.",
-      "target": 71,
-      "timestamp": "2026-10-14T05:00:46.494662+00:00"
-    },
-    {
-      "main_risk": "Serial molecular sampling and population/site shift may prevent a sufficiently calibrated model in this rare disease.",
-      "next_test": "Run the simplest patient-level landmark analysis to determine whether a prespecified molecular score adds calibrated value beyond clinical and imaging predictors in an independent site.",
-      "opponent": 52,
-      "outcome": "win",
-      "reason": "Problem 71 has a fixed clinical-use anchor and allows the assay, landmark, endpoint, and adaptation strategy to float as evidence accumulates. Problem 52 combines broad cancer and drug scope with high-risk requirements for reproducible isoform measurement, temporal causality, protein-level mechanism, and actionable alternative treatment.",
-      "target": 71,
-      "timestamp": "2026-10-14T05:00:46.494667+00:00"
-    },
-    {
-      "main_risk": "The required serial multimodal data and independent sites for 71 may be unavailable or too sparse to support credible calibration.",
-      "next_test": "First verify multi-site availability and assay reproducibility, then test whether a clinical-imaging backbone outperforms chance and whether a minimal molecular module adds value at prespecified landmarks.",
-      "opponent": 62,
-      "outcome": "loss",
-      "reason": "Problem 71 has greater translational breadth and a clearer clinically consequential endpoint, with explicit competing explanations and transportability tests. Problem 62 has a cheaper mechanistic assay and a useful early branch, but its central interface state may be model-specific, selected rather than induced, or an ex vivo injury artifact, and generalization is a major unresolved assumption.",
-      "target": 71,
-      "timestamp": "2026-10-14T05:00:46.494671+00:00"
-    },
-    {
       "main_risk": "CTA features may add no transportable information after robust clinical modeling and external calibration.",
       "next_test": "Evaluate a locked clinical-only versus clinical-plus-prespecified-CTA model in an independent hospital, reporting calibration, Brier score, subgroup stability, and decision-curve net benefit.",
       "opponent": 71,
@@ -2699,6 +2654,51 @@
       "reason": "HER2 provides a more clinically anchored and decision-oriented problem with a credible early validation path; the unseen-drug/unseen-tumor project combines substantial distribution-shift, uncertainty, assay, and prospective-combination assumptions and risks becoming benchmark-driven.",
       "target": 69,
       "timestamp": "2026-10-28T05:51:51.515436+00:00"
+    },
+    {
+      "main_risk": "The apparent trajectories may primarily reflect treatment timing, tissue injury, infection, or sampling rather than immune execution or escape.",
+      "next_test": "Apply preregistered trajectory features to an independent patient-level cohort with infection, steroid, injury, and exposure covariates, testing reproducibility before outcome modeling.",
+      "opponent": 6,
+      "outcome": "win",
+      "reason": "IFN trajectories address a broader and more generalizable biological problem, with a clearer patient-level anchor and informative outcomes even if the favored execution-versus-escape model fails.",
+      "target": 58,
+      "timestamp": "2026-10-28T13:07:00.523673+00:00"
+    },
+    {
+      "main_risk": "The immune state may be a treatment- or severity-associated correlate that does not retain calibrated clinical value across sites and compartments.",
+      "next_test": "Lock one assay, prediction horizon, and outcome, then evaluate analytical repeatability and external-cohort calibration against clinical and single-modality baselines.",
+      "opponent": 22,
+      "outcome": "loss",
+      "reason": "The multiple-sclerosis project has a more bounded clinical use, stronger evidence readiness, and a direct transportability decision, while the IFN project requires a broader and more expensive multimodal discovery program.",
+      "target": 58,
+      "timestamp": "2026-10-28T13:07:00.523694+00:00"
+    },
+    {
+      "main_risk": "IFN trajectory classes may be noncausal mixtures of inflammation, injury, infection, and sampling effects.",
+      "next_test": "Test trajectory reproducibility and patient-level outcome association in a held-out cohort before adding spatial and clonotype integration.",
+      "opponent": 47,
+      "outcome": "win",
+      "reason": "IFN trajectories have a stronger fixed scientific anchor and broader biological insight potential; the lactate project combines cross-cancer generalization with difficult activity measurement and an additional intervention claim.",
+      "target": 58,
+      "timestamp": "2026-10-28T13:07:00.523703+00:00"
+    },
+    {
+      "main_risk": "The observed IFN patterns may not distinguish productive immune engagement from generic inflammatory or injury responses.",
+      "next_test": "Run a cohort-held-out replication of a locked, low-dimensional IFN trajectory classifier with strong clinical and static biomarker baselines.",
+      "opponent": 95,
+      "outcome": "win",
+      "reason": "The IFN problem is more empirically grounded and offers earlier, useful branches, whereas virtual-cell prediction for unseen therapies depends on difficult identification of transition versus selection and extrapolation across therapies.",
+      "target": 58,
+      "timestamp": "2026-10-28T13:07:00.523708+00:00"
+    },
+    {
+      "main_risk": "No added modality may provide reliable treatment-effect information beyond a strong clinical baseline under real-world site and population shift.",
+      "next_test": "Predefine one treatment decision and outcome, then perform a multi-site patient-level nested comparison of the clinical baseline versus each added modality, including missingness, calibration, and decision-curve net benefit.",
+      "opponent": 21,
+      "outcome": "loss",
+      "reason": "The opioid-use-disorder project targets a concrete patient-important decision and explicitly tests incremental net benefit, calibration, equity, and implementation rather than benchmark performance; it is therefore the stronger six-month investment despite multimodal complexity.",
+      "target": 58,
+      "timestamp": "2026-10-28T13:07:00.523715+00:00"
     }
   ],
   "k_factor": 24,
@@ -2775,17 +2775,17 @@
     },
     "21": {
       "draws": 0,
-      "games": 16,
+      "games": 17,
       "losses": 14,
-      "rating": 1371.17,
-      "wins": 2
+      "rating": 1384.89,
+      "wins": 3
     },
     "22": {
       "draws": 0,
-      "games": 18,
+      "games": 19,
       "losses": 13,
-      "rating": 1400.9,
-      "wins": 5
+      "rating": 1413.23,
+      "wins": 6
     },
     "23": {
       "draws": 0,
@@ -2971,9 +2971,9 @@
     },
     "47": {
       "draws": 0,
-      "games": 14,
-      "losses": 11,
-      "rating": 1407.0,
+      "games": 15,
+      "losses": 12,
+      "rating": 1394.69,
       "wins": 3
     },
     "48": {
@@ -3055,10 +3055,10 @@
     },
     "58": {
       "draws": 0,
-      "games": 11,
-      "losses": 10,
-      "rating": 1398.41,
-      "wins": 1
+      "games": 16,
+      "losses": 12,
+      "rating": 1407.48,
+      "wins": 4
     },
     "59": {
       "draws": 0,
@@ -3069,9 +3069,9 @@
     },
     "6": {
       "draws": 0,
-      "games": 19,
-      "losses": 14,
-      "rating": 1398.44,
+      "games": 20,
+      "losses": 15,
+      "rating": 1386.44,
       "wins": 5
     },
     "60": {
@@ -3342,9 +3342,9 @@
     },
     "95": {
       "draws": 0,
-      "games": 11,
-      "losses": 11,
-      "rating": 1375.96,
+      "games": 12,
+      "losses": 12,
+      "rating": 1365.15,
       "wins": 0
     },
     "96": {
