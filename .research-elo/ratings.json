@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "HER2 RNA and spatial signals may reflect tumor type, tissue quality, treatment selection, or assay effects rather than transportable treatment-response biology.",
-      "next_test": "In a locked independent treated cohort, compare standard amplification/IHC against RNA augmentation specifically in prespecified discordant cases and quantify calibration and net decision benefit.",
-      "opponent": 39,
-      "outcome": "win",
-      "reason": "HER2 modality escalation addresses a defined treatment decision, has strong clinical baselines, and can produce useful results from discordant-assessment subgroups even if one modality adds little. The perturbation project has broader technology potential but depends on reproducible state definitions, genuinely unseen perturbation extrapolation, and prospective composition readouts, creating more high-risk links.",
-      "target": 69,
-      "timestamp": "2026-10-14T17:18:30.119921+00:00"
-    },
-    {
-      "main_risk": "Cross-tumor and cross-regimen response endpoints may not support a fair, clinically interpretable estimate of incremental HER2 decision value.",
-      "next_test": "Lock the standard amplification/IHC baseline and test whether RNA or spatial features improve calibrated net benefit in an independent treated cohort without refitting thresholds.",
-      "opponent": 2,
-      "outcome": "win",
-      "reason": "HER2 assessment has a clearer incremental-value question, stronger evidence readiness, and a practical branch structure across standard, RNA, and spatial measurements. The pancreatic project has high clinical impact and potentially stronger causal treatment-effect framing, but depends on adequate randomized subgroup sample sizes, multimodal data completeness, and an independent institution for transport validation.",
-      "target": 69,
-      "timestamp": "2026-10-14T17:18:30.119943+00:00"
-    },
-    {
-      "main_risk": "Functional organoid responses may not represent patient pharmacology or clinical benefit, especially when cultures fail or results arrive after the treatment decision.",
-      "next_test": "Prospectively measure organoid establishment and assay turnaround for every eligible case, then test whether a locked functional score adds patient-level predictive value over molecular recommendations in cases completed before treatment choice.",
-      "opponent": 1,
-      "outcome": "win",
-      "reason": "HER2 modality escalation is more likely to yield a decision-relevant result within six months because it builds on established assessments and can evaluate incremental value without requiring rapid organoid establishment for each patient. The organoid project could substantially change precision treatment, but culture success, turnaround time, missing microenvironment, pharmacologic validity, and prospective outcome linkage form a longer high-risk chain.",
-      "target": 69,
-      "timestamp": "2026-10-14T17:18:30.119954+00:00"
-    },
-    {
-      "main_risk": "Treatment selection, incompatible response definitions, and assay/site differences may prevent a valid cross-tumor estimate of HER2 biomarker decision value.",
-      "next_test": "Run a prespecified external-cohort comparison of standard HER2 assessment versus RNA and spatial additions, reporting calibration and decision-curve net benefit by tumor type and discordance state.",
-      "opponent": 27,
-      "outcome": "win",
-      "reason": "HER2 biomarker escalation has greater potential clinical value and a broader, differentiated precision-medicine question than the ICU comparison, whose temporal advantage may collapse after controlling for measurement density and whose contribution is mainly validation of a familiar risk-modeling pattern. HER2 also offers useful branches through standard-only, RNA, spatial, or discordance-specific strategies.",
-      "target": 69,
-      "timestamp": "2026-10-14T17:18:30.119961+00:00"
-    },
-    {
-      "main_risk": "The required independent, treated, multimodal HER2 cohorts may be unavailable or may show no clinically meaningful incremental value beyond amplification and IHC.",
-      "next_test": "Confirm access to an independent treated cohort and estimate the locked standard-baseline performance before investing in spatial integration; proceed only if RNA or spatial data can improve calibrated net benefit in a prespecified subgroup.",
-      "opponent": 65,
-      "outcome": "win",
-      "reason": "HER2 modality escalation has broader potential patient value, a clearer treatment-decision anchor, and stronger portability across assays and tumor types if validated. The fibrosis project is more immediately grounded in a supplied dataset and has feasible animal-level validation, but its single-drug, preclinical setting limits near-term generality and clinical leverage.",
-      "target": 69,
-      "timestamp": "2026-10-14T17:18:30.119968+00:00"
-    },
-    {
       "main_risk": "The PCOS diagnostic label and referral threshold may be outcome-derived or inconsistent across sites, making apparent modality gains misleading.",
       "next_test": "Run a patient-level, multicenter nested-model comparison of clinical/reproductive variables, hormones, and lifestyle features against an independently adjudicated PCOS assessment, reporting calibration and decision-curve net benefit.",
       "opponent": 73,
@@ -2699,6 +2654,51 @@
       "reason": "Idea 87 has broader methodological impact, a clearer identifiability framework, and more flexible modality and context choices. Idea 98 requires a costly multi-layer chromatin experiment and assumes cooperative effects can be distinguished from feedback, composition, and assay scaling.",
       "target": 87,
       "timestamp": "2026-10-28T20:20:35.817111+00:00"
+    },
+    {
+      "main_risk": "SECmere measurements may reflect batch, yield, or contamination differences rather than a distinct transportable biological signal.",
+      "next_test": "Run a blinded paired-sample pilot with technical replicates comparing SECmere, small-EV, clinical, and combined models under patient-level validation.",
+      "opponent": 5,
+      "outcome": "win",
+      "reason": "SECmere triage has a clearer clinical decision anchor, broader validation framework, and an earlier test of incremental value than the substantially more demanding serial spatial-tissue study.",
+      "target": 85,
+      "timestamp": "2026-10-29T01:01:38.901874+00:00"
+    },
+    {
+      "main_risk": "Baseline multimodal measurements may not identify perturbation responses beyond donor, batch, or cell-composition proxies.",
+      "next_test": "Use a small donor-replicated perturbation panel to compare frozen expression-only and multimodal models on held-out donors and perturbations.",
+      "opponent": 37,
+      "outcome": "loss",
+      "reason": "Prospective multimodal virtual-cell falsification offers broader general scientific insight, explicit mechanistic failure modes, and useful outcomes even if added modalities do not improve prediction.",
+      "target": 85,
+      "timestamp": "2026-10-29T01:01:38.901895+00:00"
+    },
+    {
+      "main_risk": "The SECmere signal may fail to remain calibrated across collection sites and clinical spectra.",
+      "next_test": "Conduct the blinded paired-sample pilot with prespecified calibration and technical-reproducibility thresholds before external validation.",
+      "opponent": 77,
+      "outcome": "win",
+      "reason": "SECmere RNA addresses a broader, reusable liquid-biopsy validation problem with a defined triage endpoint, whereas tuberculoma discrimination faces a particularly difficult reference standard and limited transportability across sites.",
+      "target": 85,
+      "timestamp": "2026-10-29T01:01:38.901903+00:00"
+    },
+    {
+      "main_risk": "SECmere fraction differences may be technical artifacts rather than biologically distinct signals.",
+      "next_test": "Test blinded technical and biological reproducibility of paired SECmere and small-EV samples before outcome modeling.",
+      "opponent": 41,
+      "outcome": "win",
+      "reason": "SECmere triage has more immediate clinical relevance, clearer decision criteria, and a lower-risk early branch than the yeast virtual-cell project, which requires dense lineage, chromatin, cohesin, and recovery measurements to establish reversibility.",
+      "target": 85,
+      "timestamp": "2026-10-29T01:01:38.901909+00:00"
+    },
+    {
+      "main_risk": "FADS1 or arachidonic-acid measurements may not represent biologically active local signaling or add value beyond immune composition and clinical covariates.",
+      "next_test": "Profile pretreatment HCC tissue with orthogonal FADS1/lipid and T-cell fitness measurements, then test the prespecified proximity feature against composition-only baselines.",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "SECmere offers a more clinically defined and broadly reusable validation question, while the HCC niche project depends on difficult spatial lipid measurements, a specific mechanistic chain, and transport across treatment contexts.",
+      "target": 85,
+      "timestamp": "2026-10-29T01:01:38.901914+00:00"
     }
   ],
   "k_factor": 24,
@@ -2712,9 +2712,9 @@
     },
     "10": {
       "draws": 0,
-      "games": 31,
-      "losses": 17,
-      "rating": 1467.53,
+      "games": 32,
+      "losses": 18,
+      "rating": 1456.44,
       "wins": 14
     },
     "11": {
@@ -2894,10 +2894,10 @@
     },
     "37": {
       "draws": 0,
-      "games": 33,
+      "games": 34,
       "losses": 18,
-      "rating": 1468.39,
-      "wins": 15
+      "rating": 1480.89,
+      "wins": 16
     },
     "38": {
       "draws": 0,
@@ -2929,9 +2929,9 @@
     },
     "41": {
       "draws": 0,
-      "games": 27,
-      "losses": 15,
-      "rating": 1467.75,
+      "games": 28,
+      "losses": 16,
+      "rating": 1456.26,
       "wins": 12
     },
     "42": {
@@ -2992,9 +2992,9 @@
     },
     "5": {
       "draws": 3,
-      "games": 21,
-      "losses": 10,
-      "rating": 1471.69,
+      "games": 22,
+      "losses": 11,
+      "rating": 1459.66,
       "wins": 8
     },
     "50": {
@@ -3202,9 +3202,9 @@
     },
     "77": {
       "draws": 0,
-      "games": 13,
-      "losses": 8,
-      "rating": 1468.35,
+      "games": 14,
+      "losses": 9,
+      "rating": 1456.42,
       "wins": 5
     },
     "78": {
@@ -3265,10 +3265,10 @@
     },
     "85": {
       "draws": 0,
-      "games": 12,
-      "losses": 7,
-      "rating": 1470.95,
-      "wins": 5
+      "games": 17,
+      "losses": 8,
+      "rating": 1504.99,
+      "wins": 9
     },
     "86": {
       "draws": 1,
