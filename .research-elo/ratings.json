@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The PCOS diagnostic label and referral threshold may be outcome-derived or inconsistent across sites, making apparent modality gains misleading.",
-      "next_test": "Run a patient-level, multicenter nested-model comparison of clinical/reproductive variables, hormones, and lifestyle features against an independently adjudicated PCOS assessment, reporting calibration and decision-curve net benefit.",
-      "opponent": 73,
-      "outcome": "loss",
-      "reason": "PCOS triage has a clearer near-term clinical decision, more tractable data requirements, and a cheaper early test of incremental calibration and net benefit. The YTHDC1 project depends on a technically difficult, clinically transportable condensate assay and treatment-specific cohorts before utility can be established.",
-      "target": 72,
-      "timestamp": "2026-10-14T21:46:34.867349+00:00"
-    },
-    {
-      "main_risk": "Condensate state may be a pharmacodynamic or prognostic correlate rather than a reproducible baseline predictor that adds value beyond simpler molecular features.",
-      "next_test": "Blind and replicate condensate measurements in pretreatment specimens, then test incremental value over YTHDC1 abundance, lineage, and simple molecular baselines in a patient-level held-out cohort.",
-      "opponent": 74,
-      "outcome": "win",
-      "reason": "YTHDC1 condensate state is tied to a defined targeted-treatment decision and could convert a mechanistic observation into a clinically useful biomarker. The maternal-placental-fetal project requires invasive, multicompartment sampling and an incompletely defined neonatal follow-up endpoint, with substantial site and delivery confounding.",
-      "target": 72,
-      "timestamp": "2026-10-14T21:46:34.867371+00:00"
-    },
-    {
-      "main_risk": "The ERK/Fra-1 phenotype may be a generic injury or pre-existing resistant state rather than a fibroblast-mediated treatment-induced transition.",
-      "next_test": "Treat independent matched lung-metastasis specimens longitudinally with MCL1 inhibition and compare the preregistered interface score against untreated, injury, and non-spatial controls while measuring residual viability.",
-      "opponent": 62,
-      "outcome": "loss",
-      "reason": "The tumor-lung interface problem has a shorter, genuinely discriminating first experiment and clearer useful branches: reproducible spatial induction, generic stress, pre-existing resistance, or no signal. The YTHDC1 project has greater potential breadth but requires several high-risk assay, transportability, predictive-validity, and treatment-decision assumptions before a six-month investment can be judged.",
-      "target": 72,
-      "timestamp": "2026-10-14T21:46:34.867384+00:00"
-    },
-    {
-      "main_risk": "BCL2-high epithelial cells may simply mark aggressive or proliferative clones, so spatial niche information may not add predictive or causal value.",
-      "next_test": "Measure the locked pretreatment BMP-low fibroblast/BCL2-high epithelial neighborhood score in paired independent specimens and test whether it predicts early persistence beyond BCL2 abundance, proliferation, and clinical covariates.",
-      "opponent": 15,
-      "outcome": "loss",
-      "reason": "The gastric-cancer project has a clearer mechanistic anchor, a relatively cheap patient-level spatial replication test, and an orthogonal perturbation path if the biomarker fails. YTHDC1 condensate validation is clinically ambitious but depends on difficult assay standardization, external calibration, and proof of treatment-selection value.",
-      "target": 72,
-      "timestamp": "2026-10-14T21:46:34.867391+00:00"
-    },
-    {
-      "main_risk": "Observed single-cell transitions may reflect clonal selection, treatment stress, or sampling time rather than plastic states that precede and cause resistance.",
-      "next_test": "Profile matched pretreatment and early-treatment samples from independent PDAC donors with untreated controls, then test whether a preregistered transition score predicts later regrowth beyond baseline composition and genotype.",
-      "opponent": 7,
-      "outcome": "loss",
-      "reason": "KRAS blockade transitions address a broad and consequential resistance problem, have a strong donor-level reproducibility anchor, and offer informative outcomes even if specific transitions are not conserved. YTHDC1 remains more dependent on a difficult condensate assay and on proving baseline treatment-selection value across lineages and platforms.",
-      "target": 72,
-      "timestamp": "2026-10-14T21:46:34.867398+00:00"
-    },
-    {
       "main_risk": "The PCOS diagnostic endpoint may be inseparable from candidate predictors or referral practice, making apparent incremental value reflect label leakage or spectrum differences.",
       "next_test": "Run the locked clinical/reproductive, plus-hormone, plus-lifestyle nested comparison in an independent multicenter retrospective cohort with leakage audits, calibration, and decision-curve analysis.",
       "opponent": 62,
@@ -2699,6 +2654,51 @@
       "reason": "SECmere offers a more clinically defined and broadly reusable validation question, while the HCC niche project depends on difficult spatial lipid measurements, a specific mechanistic chain, and transport across treatment contexts.",
       "target": 85,
       "timestamp": "2026-10-29T01:01:38.901914+00:00"
+    },
+    {
+      "main_risk": "The dynamic model may capture selection or generic stress rather than causal reversible chromatin trajectories.",
+      "next_test": "Prospectively predict unseen perturbation and restoration schedules using lineage tracking, cohesin imaging, and re-entry assays.",
+      "opponent": 41,
+      "outcome": "loss",
+      "reason": "The resettable-chromatin problem has a clearer discovery anchor, schedule-held-out falsification test, and informative outcomes even if the favored dynamic model fails; the biomarker project depends on a difficult clinical assay and scarce treatment-linked specimens.",
+      "target": 72,
+      "timestamp": "2026-10-29T10:07:42.625240+00:00"
+    },
+    {
+      "main_risk": "The reference standard for active disease may be circular or too uncertain to support valid model evaluation.",
+      "next_test": "Build a blinded first post-treatment MRI landmark cohort and compare MRI persistence with prespecified clinical-plus-trajectory models against adjudicated outcomes.",
+      "opponent": 77,
+      "outcome": "loss",
+      "reason": "Intracranial tuberculoma has a direct clinical decision, comparatively accessible longitudinal measurements, strong simple baselines, and an early test that can assess calibrated treatment-extension decisions; the condensate project requires a scarce, highly specialized assay and externally treated cohort.",
+      "target": 72,
+      "timestamp": "2026-10-29T10:07:42.625264+00:00"
+    },
+    {
+      "main_risk": "Spatial FADS1 or arachidonic-acid measurements may reflect nonspecific lipid accumulation rather than active T-cell-suppressive signaling.",
+      "next_test": "Profile pretreatment tissue and test whether spatial metabolic proximity predicts T-cell fitness beyond abundance, with orthogonal lipid and functional assays.",
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "The HCC niche problem has a tighter mechanistic anchor, feasible early spatial and orthogonal functional tests, and useful branches distinguishing composition, metabolism, and spatial proximity; the YTHDC1 project has greater clinical ambition but substantially higher assay, cohort, and transportability risk.",
+      "target": 72,
+      "timestamp": "2026-10-29T10:07:42.625273+00:00"
+    },
+    {
+      "main_risk": "Serial inflammation may only track postoperative severity or timing without changing rehabilitation decisions.",
+      "next_test": "Run a prespecified landmark analysis comparing clinical and early-function baselines with serial inflammatory trajectories for delayed recovery and decision-curve benefit.",
+      "opponent": 23,
+      "outcome": "loss",
+      "reason": "Dynamic rehabilitation monitoring offers a more tractable prospective cohort, a concrete decision target, established clinical baselines, and a plausible early incremental-value analysis; the YTHDC1 project is more novel but relies on several high-risk clinical-assay and external-validation assumptions.",
+      "target": 72,
+      "timestamp": "2026-10-29T10:07:42.625280+00:00"
+    },
+    {
+      "main_risk": "Pretreatment IL-15/IL-15Rα spatial measurements may not represent functional cytokine access or predict response independently of abundance and delivery.",
+      "next_test": "Measure pretreatment access and perivascular localization, then test patient-level prediction of early on-treatment innate-cell function with orthogonal validation.",
+      "opponent": 68,
+      "outcome": "loss",
+      "reason": "The IL-15 access problem is tightly coupled to a defined therapy, has an early functional readout, and can distinguish delivery/access failure from intrinsic cellular dysfunction; the YTHDC1 project requires a harder-to-standardize condensate assay and broader clinical transportability.",
+      "target": 72,
+      "timestamp": "2026-10-29T10:07:42.625288+00:00"
     }
   ],
   "k_factor": 24,
@@ -2712,10 +2712,10 @@
     },
     "10": {
       "draws": 0,
-      "games": 32,
+      "games": 33,
       "losses": 18,
-      "rating": 1456.44,
-      "wins": 14
+      "rating": 1467.6,
+      "wins": 15
     },
     "11": {
       "draws": 1,
@@ -2789,10 +2789,10 @@
     },
     "23": {
       "draws": 0,
-      "games": 30,
+      "games": 31,
       "losses": 17,
-      "rating": 1457.22,
-      "wins": 13
+      "rating": 1467.97,
+      "wins": 14
     },
     "24": {
       "draws": 1,
@@ -2929,10 +2929,10 @@
     },
     "41": {
       "draws": 0,
-      "games": 28,
+      "games": 29,
       "losses": 16,
-      "rating": 1456.26,
-      "wins": 12
+      "rating": 1468.24,
+      "wins": 13
     },
     "42": {
       "draws": 0,
@@ -3132,10 +3132,10 @@
     },
     "68": {
       "draws": 0,
-      "games": 16,
+      "games": 17,
       "losses": 10,
-      "rating": 1453.75,
-      "wins": 6
+      "rating": 1464.25,
+      "wins": 7
     },
     "69": {
       "draws": 0,
@@ -3167,9 +3167,9 @@
     },
     "72": {
       "draws": 0,
-      "games": 12,
-      "losses": 8,
-      "rating": 1455.58,
+      "games": 17,
+      "losses": 13,
+      "rating": 1399.63,
       "wins": 4
     },
     "73": {
@@ -3202,10 +3202,10 @@
     },
     "77": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 9,
-      "rating": 1456.42,
-      "wins": 5
+      "rating": 1467.98,
+      "wins": 6
     },
     "78": {
       "draws": 0,
