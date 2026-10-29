@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The PCOS diagnostic endpoint may be inseparable from candidate predictors or referral practice, making apparent incremental value reflect label leakage or spectrum differences.",
-      "next_test": "Run the locked clinical/reproductive, plus-hormone, plus-lifestyle nested comparison in an independent multicenter retrospective cohort with leakage audits, calibration, and decision-curve analysis.",
-      "opponent": 62,
-      "outcome": "win",
-      "reason": "PCOS triage has a clearer decision target, lower assay and specimen burden, and a cheaper early test of incremental value using nested patient-level models. The osteosarcoma project offers stronger mechanistic novelty but depends on scarce matched specimens, spatial measurement, causal fibroblast signaling, and cross-specimen reproducibility.",
-      "target": 73,
-      "timestamp": "2026-10-15T04:49:16.263654+00:00"
-    },
-    {
-      "main_risk": "Hormonal and lifestyle features may add no clinically meaningful information beyond routinely collected clinical and reproductive variables.",
-      "next_test": "Test prespecified nested models in a patient- and institution-separated longitudinal or retrospective cohort, comparing incremental calibration and net benefit against the clinical-only baseline.",
-      "opponent": 54,
-      "outcome": "win",
-      "reason": "PCOS triage is more likely to produce a decision-relevant result within six months because its modality comparison and validation can begin in existing clinical data. The T-cell project has substantial potential impact but requires longitudinal biopsies, reliable clonotype persistence calls, tumor relevance, myeloid integration, and external assay transportability.",
-      "target": 73,
-      "timestamp": "2026-10-15T04:49:16.263673+00:00"
-    },
-    {
-      "main_risk": "The PCOS label or referral threshold may not be independently adjudicable, undermining the claimed decision-value analysis.",
-      "next_test": "Use a held-out multicenter PCOS cohort to evaluate locked nested models and clinician-defined thresholds for calibration, sensitivity, referral burden, and net benefit.",
-      "opponent": 60,
-      "outcome": "loss",
-      "reason": "PCOS triage has a more attainable evidence path and a direct clinical decision endpoint, with a relatively cheap test of whether added modalities are useful or redundant. The HCC project is potentially impactful but relies on reproducible spatial topology, independent tissue cohorts, assay harmonization, and evidence that spatial arrangement adds value beyond composition and disease severity.",
-      "target": 73,
-      "timestamp": "2026-10-15T04:49:16.263680+00:00"
-    },
-    {
-      "main_risk": "Hormonal measurements may show apparent benefit only because of site-specific availability, missingness, or diagnostic-label contamination.",
-      "next_test": "Perform a patient-level, leakage-resistant nested-modality analysis in a development cohort with an untouched site or temporal cohort and prespecified subgroup calibration checks.",
-      "opponent": 67,
-      "outcome": "loss",
-      "reason": "PCOS triage offers a clearer fixed problem, more flexible data requirements, and an earlier branch point than the neuroblastoma niche-transition hypothesis. The neuroblastoma project requires paired specimens across treatment stages, rare-state measurement, trajectory reproducibility across patients, spatial validation, and relapse linkage before its mechanism can be trusted.",
-      "target": 73,
-      "timestamp": "2026-10-15T04:49:16.263685+00:00"
-    },
-    {
-      "main_risk": "The PCOS endpoint may not correspond to a stable, independently adjudicated clinical action threshold across sites.",
-      "next_test": "First lock the PCOS assessment and referral threshold, then compare clinical/reproductive, hormone-added, and lifestyle-added models in an external patient-level cohort with calibration and decision-curve outcomes.",
-      "opponent": 71,
-      "outcome": "loss",
-      "reason": "PCOS triage is the stronger six-month investment because it tests a bounded incremental-value question with a simpler retrospective design and a direct triage use case. Anti-MDA5 ILD has high clinical importance, but serial clinical, imaging, molecular, treatment-aware modeling and leave-one-site-out validation create more dependencies and transportability risks.",
-      "target": 73,
-      "timestamp": "2026-10-15T04:49:16.263692+00:00"
-    },
-    {
       "main_risk": "Spatial architecture may add no information beyond leukemia burden, antigen density, circulating T-cell state, and clinical risk.",
       "next_test": "Profile pretreatment marrow from a small patient-level pilot with replicate sections, then compare a locked spatial feature against clinical-plus-composition baselines using held-out patients and calibration as well as discrimination.",
       "opponent": 11,
@@ -2699,6 +2654,51 @@
       "reason": "The IL-15 access problem is tightly coupled to a defined therapy, has an early functional readout, and can distinguish delivery/access failure from intrinsic cellular dysfunction; the YTHDC1 project requires a harder-to-standardize condensate assay and broader clinical transportability.",
       "target": 72,
       "timestamp": "2026-10-29T10:07:42.625288+00:00"
+    },
+    {
+      "main_risk": "PCOS labels or hormonal measurements may encode the diagnostic assessment or fail to transport across sites.",
+      "next_test": "Run locked nested patient-level models on an external cohort, measuring incremental calibration and decision-curve net benefit beyond clinical and reproductive variables.",
+      "opponent": 73,
+      "outcome": "loss",
+      "reason": "PCOS triage has clearer near-term clinical decision value, patient-level validation, strong baselines, and a relatively cheap multicenter retrospective test; the virtual-cell project depends on costly, technically fragile kinetic identifiability.",
+      "target": 91,
+      "timestamp": "2026-10-29T18:31:56.209461+00:00"
+    },
+    {
+      "main_risk": "Ultrasound measurements may not be reproducible across operators and devices, eliminating incremental value.",
+      "next_test": "Conduct a site-held-out pilot comparing standardized clinical assessment with clinical plus ultrasound using a blinded, independently adjudicated difficult-airway endpoint.",
+      "opponent": 78,
+      "outcome": "loss",
+      "reason": "Airway risk stratification has a clearer pre-induction use case, established clinical baselines, and an early patient-level pilot that can test calibration and net benefit; the virtual-cell project has multiple high-risk assay and latent-state assumptions.",
+      "target": 91,
+      "timestamp": "2026-10-29T18:31:56.209486+00:00"
+    },
+    {
+      "main_risk": "The UCHL1 spatial neighborhood may reflect disease severity or correlated immune composition rather than a transferable resistance mechanism.",
+      "next_test": "Profile pretreatment and early-treatment biopsies with locked multiplex imaging and test patient-level incremental prediction over plasma UCHL1, composition, and clinical covariates.",
+      "opponent": 63,
+      "outcome": "loss",
+      "reason": "The HCC project has a more specific biomarker anchor, stronger evidence readiness, a clinically relevant resistance endpoint, and an early spatial assay test with orthogonal validation branches; the virtual-cell project is broader but substantially more technically uncertain.",
+      "target": 91,
+      "timestamp": "2026-10-29T18:31:56.209496+00:00"
+    },
+    {
+      "main_risk": "Spatial co-localization may add no information beyond tumor-intrinsic immune competence and CD8 abundance, or fail across assay platforms.",
+      "next_test": "Run a preregistered pilot with replicate-section imaging and patient-level held-out response prediction against IGF2BP3, MHC-I, CD8, and bulk immune baselines.",
+      "opponent": 61,
+      "outcome": "loss",
+      "reason": "The TNBC project offers a concrete patient-level predictive question, strong non-spatial baselines, randomized spatial controls, and a defined pilot reproducibility test; it is a more focused investment than the virtual-cell program's broad identifiability challenge.",
+      "target": 91,
+      "timestamp": "2026-10-29T18:31:56.209503+00:00"
+    },
+    {
+      "main_risk": "The reference standard may be circular or corneal imaging may be irreproducible across devices and sites.",
+      "next_test": "Perform a site-held-out pilot with blinded reference-standard adjudication, duplicate imaging, and comparison against clinical plus neurophysiological baselines.",
+      "opponent": 31,
+      "outcome": "loss",
+      "reason": "Corneal nerve imaging has a defined clinical pathway, established comparators, site-held-out validation, and an early test of reproducibility plus decision value; the virtual-cell study requires several expensive experiments before its causal states are identifiable.",
+      "target": 91,
+      "timestamp": "2026-10-29T18:31:56.209510+00:00"
     }
   ],
   "k_factor": 24,
@@ -2852,10 +2852,10 @@
     },
     "31": {
       "draws": 0,
-      "games": 29,
+      "games": 30,
       "losses": 12,
-      "rating": 1549.34,
-      "wins": 17
+      "rating": 1559.68,
+      "wins": 18
     },
     "32": {
       "draws": 0,
@@ -3083,10 +3083,10 @@
     },
     "61": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 5,
-      "rating": 1544.55,
-      "wins": 9
+      "rating": 1555.42,
+      "wins": 10
     },
     "62": {
       "draws": 0,
@@ -3097,10 +3097,10 @@
     },
     "63": {
       "draws": 0,
-      "games": 16,
+      "games": 17,
       "losses": 6,
-      "rating": 1546.12,
-      "wins": 10
+      "rating": 1557.32,
+      "wins": 11
     },
     "64": {
       "draws": 0,
@@ -3174,10 +3174,10 @@
     },
     "73": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 5,
-      "rating": 1547.06,
-      "wins": 9
+      "rating": 1559.05,
+      "wins": 10
     },
     "74": {
       "draws": 0,
@@ -3209,10 +3209,10 @@
     },
     "78": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 5,
-      "rating": 1546.22,
-      "wins": 9
+      "rating": 1557.82,
+      "wins": 10
     },
     "79": {
       "draws": 0,
@@ -3314,9 +3314,9 @@
     },
     "91": {
       "draws": 0,
-      "games": 12,
-      "losses": 4,
-      "rating": 1546.64,
+      "games": 17,
+      "losses": 9,
+      "rating": 1490.64,
       "wins": 8
     },
     "92": {
