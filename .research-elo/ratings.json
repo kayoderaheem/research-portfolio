@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The ERK/Fra-1 state may be pharmacologic stress or selection of pre-existing resistant cells rather than a reproducible fibroblast-mediated spatial transition.",
-      "next_test": "Run the preregistered matched longitudinal ex vivo study across independent metastasis specimens with untreated controls, viability/injury measures, and fibroblast-distance annotation.",
-      "opponent": 62,
-      "outcome": "loss",
-      "reason": "The osteosarcoma project has a tighter mechanistic anchor, a more discriminating eight-week specimen-level test, and useful outcomes if the interface state proves generic, pre-existing, or non-causal. The MASLD project has greater potential clinical breadth but depends on assembling extensive heterogeneous data and a defensible fibrosis reference standard before its multimodal question can be answered.",
-      "target": 76,
-      "timestamp": "2026-10-16T04:39:30.084915+00:00"
-    },
-    {
-      "main_risk": "Active or progressive infection may lack an independent, unbiased reference standard, causing the outcome to reproduce the clinical or MRI judgment being modeled.",
-      "next_test": "Build a blinded landmark cohort at the first post-treatment MRI and test MRI persistence alone against prespecified serial MRI, symptom, neurologic, and treatment-exposure features with longitudinal adjudication.",
-      "opponent": 77,
-      "outcome": "loss",
-      "reason": "The tuberculoma problem targets a concrete high-value decision—treatment extension versus observation—and can compare serial MRI and clinical trajectory against a simple persistence baseline without requiring every proposed modality. It also has clear branches if MRI adds little, whereas the MASLD study requires broad multimodal acquisition, cross-site harmonization, and a reliable fibrosis endpoint.",
-      "target": 76,
-      "timestamp": "2026-10-16T04:39:30.084935+00:00"
-    },
-    {
-      "main_risk": "The pediatric MASLD fibrosis endpoint may be unreliable, inconsistently measured, or too entangled with referral and site effects to support transportable calibration.",
-      "next_test": "Lock the endpoint and run the ten-week nested modality-ablation benchmark, including external-site testing, calibration, net benefit, acquisition coverage, and comparison with a strong clinical-laboratory baseline.",
-      "opponent": 54,
-      "outcome": "win",
-      "reason": "The MASLD project has a clearer clinical anchor and a more defensible incremental-value question: which modalities are worth acquiring beyond routine clinical and laboratory data. The checkpoint-clonotype project has substantial biological and translational promise, but tumor relevance, clonotype persistence, biopsy quality, and cross-platform generalization create a longer chain of high-risk assumptions.",
-      "target": 76,
-      "timestamp": "2026-10-16T04:39:30.084944+00:00"
-    },
-    {
-      "main_risk": "Regulatory-state modalities may improve apparent prediction through donor, batch, or cell-composition proxies without identifying the true perturbation response.",
-      "next_test": "Collect baseline expression and chromatin profiles from independent donors, freeze expression-only and multimodal models, and evaluate predictions for a small donor-replicated perturbation panel with held-out orthogonal assays.",
-      "opponent": 37,
-      "outcome": "loss",
-      "reason": "The virtual-cell project has the strongest fixed scientific anchor and earliest falsification path: whether regulatory-state measurements add donor-held-out predictive information beyond expression alone. It explicitly tests prospective counterfactual validity, uses useful negative outcomes and orthogonal assays, and can yield a valuable minimum-observation result even if multimodal gains fail. The MASLD project is clinically important but substantially more dependent on large, heterogeneous, operationally difficult cohorts.",
-      "target": 76,
-      "timestamp": "2026-10-16T04:39:30.084951+00:00"
-    },
-    {
-      "main_risk": "Spatial marrow features may be unavailable or nonrepresentative and add no reproducible information beyond composition, leukemia burden, and treatment-related covariates.",
-      "next_test": "Profile pretreatment marrow in a pilot cohort with replicate sections, quantify prespecified leukemia-CD8 neighborhoods, and compare them against clinical-plus-composition baselines using patient-level held-out evaluation.",
-      "opponent": 11,
-      "outcome": "win",
-      "reason": "The MASLD project asks a broad but well-defined clinical decision-value question and can identify a parsimonious acquisition strategy, redundant modalities, and subgroup-specific calibration. The blinatumomab project is compelling mechanistically, but marrow spatial sampling, longitudinal tissue availability, and assay reproducibility may make the proposed spatial contribution difficult to separate from disease burden, circulating T-cell state, or clinical risk.",
-      "target": 76,
-      "timestamp": "2026-10-16T04:39:30.084957+00:00"
-    },
-    {
       "main_risk": "The ERK/Fra-1 state may be a generic drug-stress, injury, or pre-existing resistant-cell signal rather than a reproducible fibroblast-mediated interface transition.",
       "next_test": "Run the prespecified 8-week matched longitudinal ex vivo study across independent metastasis specimens, including untreated, viability, injury, and fibroblast-signaling controls.",
       "opponent": 62,
@@ -2699,6 +2654,51 @@
       "reason": "Separating resistance timing has greater near-term clinical relevance and broader biological applicability than a narrowly specified cooperative histone-code model requiring many coordinated assays and context transfer.",
       "target": 101,
       "timestamp": "2026-10-30T18:04:03.926143+00:00"
+    },
+    {
+      "main_risk": "The ratiometric signal may not preserve patient-level biology across platforms or add value beyond clinical risk and MRD.",
+      "next_test": "Blindly test matched diagnostic samples on both assays and evaluate locked prediction of early MRD against prespecified clinical baselines.",
+      "opponent": 103,
+      "outcome": "win",
+      "reason": "Issue 102 has a narrower, clinically anchored question, strong patient-level validation safeguards, and a relatively cheap paired external-assay test. Issue 103 depends on accurate exposure measurement, causal attribution, and successful exposure correction before its clinical value can be read out.",
+      "target": 102,
+      "timestamp": "2026-10-30T22:26:49.803269+00:00"
+    },
+    {
+      "main_risk": "Cross-platform assay concordance and incremental value may fail despite associations in the original setting.",
+      "next_test": "Run locked paired-assay evaluation in an independent cohort, with patient-level splitting, calibration, and comparison against clinical-risk baselines.",
+      "opponent": 104,
+      "outcome": "win",
+      "reason": "Issue 102 offers a clearer transportability problem, stronger immediate assay-validation design, and less dependence on adequate sex-stratified sample sizes and disentangling biological effects from treatment and cohort confounding.",
+      "target": 102,
+      "timestamp": "2026-10-30T22:26:49.803289+00:00"
+    },
+    {
+      "main_risk": "The functional response metric may not transport or improve on clinical risk and MRD.",
+      "next_test": "Blindly evaluate the locked ratiometric metric on paired samples using an independent assay and external MRD outcomes.",
+      "opponent": 101,
+      "outcome": "win",
+      "reason": "Issue 102 has a shorter, more decisive external-validation path and a tractable fixed anchor. Issue 101 has greater potential causal and clinical impact but requires scarce paired longitudinal specimens, separation of treatment-induced damage from selection, and treatment-specific salvage-effect evidence.",
+      "target": 102,
+      "timestamp": "2026-10-30T22:26:49.803298+00:00"
+    },
+    {
+      "main_risk": "The proposed ratiometric signal may be assay-specific rather than a reproducible patient-level sensitivity measure.",
+      "next_test": "Perform the prespecified 10-week paired microfluidic and orthogonal-assay test with locked MRD prediction.",
+      "opponent": 93,
+      "outcome": "win",
+      "reason": "Issue 102 is closer to an actionable, testable validation question with established baselines and an external cohort. Issue 93 could yield a broadly useful technology, but mechanism identifiability depends on difficult measurement of correlated bioenergetic intermediates and successful prediction of unseen rescues.",
+      "target": 102,
+      "timestamp": "2026-10-30T22:26:49.803305+00:00"
+    },
+    {
+      "main_risk": "The external cohort may show no calibrated incremental value beyond clinical risk, MRD, or simpler response summaries.",
+      "next_test": "Blindly evaluate the locked ratiometric metric on an independent patient cohort and orthogonal assay against prespecified single-agent, clinical-risk, and MRD baselines.",
+      "opponent": 55,
+      "outcome": "win",
+      "reason": "Issue 102 provides a more immediate and falsifiable investment through external clinical and orthogonal-assay validation. Issue 55 is mechanistically compelling, but requires biochemical engagement to translate into cellular response and then into reliable resistance-mechanism prediction across genetic backgrounds.",
+      "target": 102,
+      "timestamp": "2026-10-30T22:26:49.803316+00:00"
     }
   ],
   "k_factor": 24,
@@ -2726,10 +2726,31 @@
     },
     "101": {
       "draws": 0,
-      "games": 6,
-      "losses": 3,
-      "rating": 1499.67,
+      "games": 7,
+      "losses": 4,
+      "rating": 1488.49,
       "wins": 3
+    },
+    "102": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1555.97,
+      "wins": 5
+    },
+    "103": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "104": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
     },
     "11": {
       "draws": 1,
@@ -3048,9 +3069,9 @@
     },
     "55": {
       "draws": 0,
-      "games": 16,
-      "losses": 8,
-      "rating": 1499.37,
+      "games": 17,
+      "losses": 9,
+      "rating": 1488.96,
       "wins": 8
     },
     "56": {
@@ -3342,9 +3363,9 @@
     },
     "93": {
       "draws": 0,
-      "games": 14,
-      "losses": 7,
-      "rating": 1499.6,
+      "games": 15,
+      "losses": 8,
+      "rating": 1488.81,
       "wins": 7
     },
     "94": {
