@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The independent rectal-cancer cohort may not contain sufficiently consistent MRI, proteomic, treatment, and response data for a valid locked evaluation.",
-      "next_test": "Freeze the reconstruction pipeline and audit endpoint definitions, modality availability, and site independence in a candidate external rectal-cancer cohort before accessing outcomes.",
-      "opponent": 77,
-      "outcome": "win",
-      "reason": "External MRI-proteomic validation has a clearer clinical endpoint, an existing workflow to lock, stronger baseline comparisons, and a cheaper path to an actionable continue-or-stop decision. The tuberculoma project has greater unmet need but depends on a difficult, non-circular reference standard and adequate longitudinal follow-up.",
-      "target": 75,
-      "timestamp": "2026-10-15T21:29:39.926264+00:00"
-    },
-    {
-      "main_risk": "The reported MRI-proteomic gain may be irreproducible because of development-cohort leakage, zero-imputation artifacts, or assay and acquisition differences.",
-      "next_test": "Run a blinded, locked external evaluation against clinical-laboratory, MRI-only, proteomics-only, and simple late-fusion baselines with prespecified calibration and net-benefit criteria.",
-      "opponent": 76,
-      "outcome": "win",
-      "reason": "External validation of a specific prior finding is more tightly anchored and tractable than evaluating a broad set of clinical, imaging, genetic, lifestyle, and social modalities in a heterogeneous pediatric population. It offers a faster decision about whether multimodal value survives external calibration and strong simple baselines.",
-      "target": 75,
-      "timestamp": "2026-10-15T21:29:39.926286+00:00"
-    },
-    {
-      "main_risk": "The external rectal-cancer cohort may be too different in treatment, imaging, proteomic assay, or endpoint definition to support an interpretable validation.",
-      "next_test": "Complete a data and protocol compatibility audit, then evaluate the locked model on a small blinded external cohort before investing in mechanistic expansion.",
-      "opponent": 62,
-      "outcome": "win",
-      "reason": "The rectal-cancer project can directly test transportability and clinical decision value using an existing model and external cohort, while the osteosarcoma project requires scarce matched specimens and must establish that ERK/Fra-1 persistence is induced, spatially niche-mediated, causal, and generalizable. The latter is scientifically interesting but stacks several long-readout assumptions.",
-      "target": 75,
-      "timestamp": "2026-10-15T21:29:39.926298+00:00"
-    },
-    {
-      "main_risk": "Persistent proteomic signal may add no transportable decision value beyond MRI and clinical variables once leakage and cohort effects are controlled.",
-      "next_test": "Perform the prespecified locked external comparison with clinical, MRI-only, proteomics-only, and simple fusion baselines, including calibration and decision-curve analysis.",
-      "opponent": 54,
-      "outcome": "win",
-      "reason": "MRI-proteomic validation has a defined prior signal, a concrete external clinical-use question, and an early test that can distinguish reproducibility from artifact. The T-cell-clone project has high potential impact but depends on reliably identifying tumor-relevant clonotypes, adequate longitudinal biopsies, and cross-platform persistence signals rather than nonspecific inflammation.",
-      "target": 75,
-      "timestamp": "2026-10-15T21:29:39.926305+00:00"
-    },
-    {
-      "main_risk": "The external rectal-cancer study may fail to reproduce because the original multimodal result reflects site-specific preprocessing, missing-data handling, or treatment-selection effects.",
-      "next_test": "Lock the prior workflow and test it blindly in an independent rectal-cancer cohort against clinical and MRI-only baselines before pursuing broader clinical-use claims.",
-      "opponent": 11,
-      "outcome": "win",
-      "reason": "External MRI-proteomic validation is supported by an existing study and a relatively direct clinical readout, whereas the spatial blinatumomab project depends on obtaining representative paired marrow specimens and demonstrating reproducible spatial information beyond disease burden and cell composition. The spatial hypothesis is valuable but has higher acquisition and measurement risk.",
-      "target": 75,
-      "timestamp": "2026-10-15T21:29:39.926315+00:00"
-    },
-    {
       "main_risk": "The ERK/Fra-1 state may be pharmacologic stress or selection of pre-existing resistant cells rather than a reproducible fibroblast-mediated spatial transition.",
       "next_test": "Run the preregistered matched longitudinal ex vivo study across independent metastasis specimens with untreated controls, viability/injury measures, and fibroblast-distance annotation.",
       "opponent": 62,
@@ -2699,6 +2654,51 @@
       "reason": "Transportable functional treatment ranking has greater immediate translational leverage and a stronger external-validation framework than spatial architecture prediction, whose incremental value over composition and target expression remains uncertain.",
       "target": 100,
       "timestamp": "2026-10-30T10:09:36.972664+00:00"
+    },
+    {
+      "main_risk": "Spatial features may be patient-, site-, or sampling-specific and add no transportable information beyond composition and clinical covariates.",
+      "next_test": "Before outcome modeling, test leave-one-patient-out reproducibility and batch predictability of the locked spatial feature set.",
+      "opponent": 66,
+      "outcome": "loss",
+      "reason": "Architecture-aware prediction has a clearer technology anchor, an early patient-level stability test, and informative negative outcomes, while the lymphoma study requires several difficult causal and treatment-effect assumptions before clinical value is established.",
+      "target": 101,
+      "timestamp": "2026-10-30T18:04:03.926074+00:00"
+    },
+    {
+      "main_risk": "Longitudinal molecular differences may reflect sampling, purity, lineage, or treatment exposure rather than causal resistance timing.",
+      "next_test": "Run a blinded paired baseline-relapse analysis with lineage and clonality confirmation, then test whether timing features add value over relapse-only and clinical baselines.",
+      "opponent": 89,
+      "outcome": "win",
+      "reason": "Separating pre-existing from therapy-selected resistance addresses a more immediate clinical decision and can exploit paired retrospective samples for an early branch, with useful descriptive value even if treatment prediction fails.",
+      "target": 101,
+      "timestamp": "2026-10-30T18:04:03.926099+00:00"
+    },
+    {
+      "main_risk": "Paired samples may not distinguish therapy selection from sampling and disease-composition changes well enough to support treatment decisions.",
+      "next_test": "Use paired specimens to test whether longitudinal resistance timing is reproducible and predictive beyond relapse-only profiling before pursuing mechanistic niche claims.",
+      "opponent": 67,
+      "outcome": "win",
+      "reason": "The lymphoma problem is broader and less dependent on a specific niche mechanism; it retains value for resistance chronology and sampling-confounding analysis, whereas the neuroblastoma study requires a rare, reproducible Schwann-cell spatial transition and transportable clinical signal.",
+      "target": 101,
+      "timestamp": "2026-10-30T18:04:03.926118+00:00"
+    },
+    {
+      "main_risk": "Nascent RNA and polymerase occupancy may not uniquely identify initiation, pause release, and turnover states.",
+      "next_test": "Collect the dense acute perturbation time course and perform replicate-aware parameter-recovery and held-out perturbation tests against simple state-space baselines.",
+      "opponent": 91,
+      "outcome": "loss",
+      "reason": "Kinetic identifiability offers a strong mechanistic anchor, a relatively cheap dense time-course test, and clear orthogonal validation, with useful outcomes even if virtual-cell transfer fails; the lymphoma project needs larger cohorts and high-risk treatment-effect interaction evidence.",
+      "target": 101,
+      "timestamp": "2026-10-30T18:04:03.926129+00:00"
+    },
+    {
+      "main_risk": "The apparent timing signal may be confounded by sampling and treatment exposure, undermining causal interpretation and salvage selection.",
+      "next_test": "Evaluate a locked longitudinal model in held-out paired patients with orthogonal clonality confirmation and comparison against relapse-only baselines.",
+      "opponent": 98,
+      "outcome": "win",
+      "reason": "Separating resistance timing has greater near-term clinical relevance and broader biological applicability than a narrowly specified cooperative histone-code model requiring many coordinated assays and context transfer.",
+      "target": 101,
+      "timestamp": "2026-10-30T18:04:03.926143+00:00"
     }
   ],
   "k_factor": 24,
@@ -2726,10 +2726,10 @@
     },
     "101": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1487.59,
-      "wins": 0
+      "games": 6,
+      "losses": 3,
+      "rating": 1499.67,
+      "wins": 3
     },
     "11": {
       "draws": 1,
@@ -3132,16 +3132,16 @@
     },
     "66": {
       "draws": 0,
-      "games": 15,
+      "games": 16,
       "losses": 8,
-      "rating": 1487.01,
-      "wins": 7
+      "rating": 1499.03,
+      "wins": 8
     },
     "67": {
       "draws": 0,
-      "games": 19,
-      "losses": 10,
-      "rating": 1485.17,
+      "games": 20,
+      "losses": 11,
+      "rating": 1473.27,
       "wins": 9
     },
     "68": {
@@ -3307,9 +3307,9 @@
     },
     "89": {
       "draws": 0,
-      "games": 13,
-      "losses": 7,
-      "rating": 1486.57,
+      "games": 14,
+      "losses": 8,
+      "rating": 1474.19,
       "wins": 6
     },
     "9": {
@@ -3328,10 +3328,10 @@
     },
     "91": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 9,
-      "rating": 1490.64,
-      "wins": 8
+      "rating": 1502.96,
+      "wins": 9
     },
     "92": {
       "draws": 0,
@@ -3377,9 +3377,9 @@
     },
     "98": {
       "draws": 0,
-      "games": 15,
-      "losses": 8,
-      "rating": 1491.44,
+      "games": 16,
+      "losses": 9,
+      "rating": 1479.3,
       "wins": 7
     },
     "99": {
