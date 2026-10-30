@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Spatial architecture may add no information beyond leukemia burden, antigen density, circulating T-cell state, and clinical risk.",
-      "next_test": "Profile pretreatment marrow from a small patient-level pilot with replicate sections, then compare a locked spatial feature against clinical-plus-composition baselines using held-out patients and calibration as well as discrimination.",
-      "opponent": 11,
-      "outcome": "loss",
-      "reason": "Blinatumomab response and MRD provide more established, proximal endpoints, and a patient-level spatial pilot can test incremental value within months. The biological question is narrower but has clearer clinical relevance and a cheaper falsification path than defining a new neonatal follow-up endpoint and assembling three biospecimen compartments.",
-      "target": 74,
-      "timestamp": "2026-10-15T11:39:02.319603+00:00"
-    },
-    {
-      "main_risk": "Spatial T-cell accessibility may be irreproducible or merely proxy for tumor burden, genotype, or baseline immune composition.",
-      "next_test": "Use pretreatment lung adenocarcinoma tissue to test one prespecified CAF-immune exclusion score against clinical and composition-only baselines, with replicate regions and an independent specimen set before adding tumoroid experiments.",
-      "opponent": 13,
-      "outcome": "loss",
-      "reason": "A has a more concrete clinical decision target and a plausible early test using existing paired marrow specimens, whereas B requires a precisely defined neonatal endpoint, multisite paired sampling, and proof that molecular risk changes follow-up decisions. B remains valuable but its biological and operational chain is longer before a meaningful result is available.",
-      "target": 74,
-      "timestamp": "2026-10-15T11:39:02.319623+00:00"
-    },
-    {
-      "main_risk": "The bispecific target, tumor setting, and response cohort are underspecified, so the proposed spatial signal may not be testable or transportable within six months.",
-      "next_test": "Choose one available bispecific-treated cohort and test a prespecified stromal-obstruction/target-adjacency score against target-expression, composition, and clinical baselines using patient-level resampling and region-reliability checks.",
-      "opponent": 57,
-      "outcome": "win",
-      "reason": "B is anchored to a specific precision-medicine decision—whether stromal architecture adds value for bispecific response—and has a comparatively direct nested-model test plus functional penetration validation. A has a stronger stated calibration framework, but its follow-up endpoint, actionability, and transportability across maternal-placental-fetal compartments are not yet sufficiently fixed. B is still contingent on access to a defined bispecific-treated cohort.",
-      "target": 74,
-      "timestamp": "2026-10-15T11:39:02.319634+00:00"
-    },
-    {
-      "main_risk": "The multimodal model may learn donor, batch, cell-composition, or perturbation proxies rather than identify intervention-relevant regulatory state.",
-      "next_test": "Run a small donor-replicated perturbation panel, freeze expression-only and multimodal models, and evaluate unseen perturbations at donor level with prospective chromatin or protein assays and calibrated abstention.",
-      "opponent": 37,
-      "outcome": "loss",
-      "reason": "A offers a sharper near-term clinical prediction question with established response readouts and a relatively bounded spatial pilot. B has broader discovery potential and an excellent falsification orientation, but it depends on reproducible donor-replicated perturbations, multimodal alignment, unseen perturbation generalization, and prospective orthogonal assays; several high-risk assumptions must succeed before its contribution is interpretable.",
-      "target": 74,
-      "timestamp": "2026-10-15T11:39:02.319641+00:00"
-    },
-    {
-      "main_risk": "The PCOS reference diagnosis may be label-dependent on the candidate hormonal or reproductive predictors, making apparent incremental value leakage or spectrum-specific.",
-      "next_test": "Lock an adjudicated PCOS assessment independent of candidate predictors and compare clinical/reproductive, plus-hormone, and plus-lifestyle models in a patient-level multicenter dataset, emphasizing calibration and decision-curve net benefit.",
-      "opponent": 73,
-      "outcome": "loss",
-      "reason": "A has greater potential to reveal complementary biology and cross-compartment transportability, but B is the stronger six-month investment because diagnostic triage has a more immediate decision target, cheaper data requirements, and clearer early endpoints for net benefit, calibration, and referral burden. B is less novel, yet it can produce a useful result even if hormonal or lifestyle features add no value.",
-      "target": 74,
-      "timestamp": "2026-10-15T11:39:02.319648+00:00"
-    },
-    {
       "main_risk": "FADS1 or arachidonic-acid spatial measurements may not reflect biologically active signaling beyond resident-memory T-cell abundance and general tumor or liver disease severity.",
       "next_test": "Profile pretreatment HCC tissue within 11 weeks to test whether prespecified FADS1 or lipid proximity predicts early checkpoint response and T-cell fitness beyond composition-only baselines.",
       "opponent": 10,
@@ -2699,6 +2654,51 @@
       "reason": "Corneal nerve imaging has a defined clinical pathway, established comparators, site-held-out validation, and an early test of reproducibility plus decision value; the virtual-cell study requires several expensive experiments before its causal states are identifiable.",
       "target": 91,
       "timestamp": "2026-10-29T18:31:56.209510+00:00"
+    },
+    {
+      "main_risk": "Ex vivo response may not preserve in-patient treatment benefit despite cross-site assay agreement.",
+      "next_test": "Run the locked two-laboratory blinded replicate and patient-level rank-concordance pilot before reading clinical outcomes.",
+      "opponent": 100,
+      "outcome": "loss",
+      "reason": "Decision-preserving assay transportability is a clearer, more testable problem with a concrete two-site reproducibility test and useful failure outcomes, whereas treatment recommendations require difficult causal adjustment and several high-risk assumptions.",
+      "target": 99,
+      "timestamp": "2026-10-30T01:07:06.264141+00:00"
+    },
+    {
+      "main_risk": "Observed treatment outcomes may be too confounded to evaluate recommendation quality or treatment benefit credibly.",
+      "next_test": "Evaluate locked abstaining and forced models on an independent institution and temporal treatment-shift cohort with selective-risk and calibration metrics.",
+      "opponent": 101,
+      "outcome": "win",
+      "reason": "Abstention-calibrated recommendations have a shorter, decision-relevant benchmark and can yield actionable safety, calibration, or failure results; longitudinal resistance timing requires costly paired samples and difficult separation of treatment-induced damage from selection.",
+      "target": 99,
+      "timestamp": "2026-10-30T01:07:06.264161+00:00"
+    },
+    {
+      "main_risk": "The fibrosis reference standard may be unreliable, inconsistently available, or partly entangled with post-outcome information.",
+      "next_test": "Run the locked multi-site nested benchmark comparing the clinical-laboratory baseline with sequential modality additions at a prespecified threshold.",
+      "opponent": 76,
+      "outcome": "loss",
+      "reason": "Population- and site-calibrated fibrosis triage has a stable clinical anchor, strong simple baselines, explicit modality-ablation logic, and a credible external-validation pathway without forcing a fully autonomous treatment recommendation.",
+      "target": 99,
+      "timestamp": "2026-10-30T01:07:06.264171+00:00"
+    },
+    {
+      "main_risk": "Spatial features may merely proxy target density, tumor burden, immune composition, or specimen quality rather than provide independent predictive information.",
+      "next_test": "Test a prespecified stromal-obstruction and target-adjacency score against composition and clinical baselines in a locked patient-level development and held-out cohort analysis.",
+      "opponent": 57,
+      "outcome": "loss",
+      "reason": "Spatial architecture offers a focused incremental biological question with patient-level validation, strong composition-only baselines, negative controls, and orthogonal functional tests; it is less operationally and causally overextended than automated treatment recommendation.",
+      "target": 99,
+      "timestamp": "2026-10-30T01:07:06.264178+00:00"
+    },
+    {
+      "main_risk": "SECmere performance may reflect isolation batch effects, unequal RNA yield, contamination, or case-control spectrum rather than a transportable biological signal.",
+      "next_test": "Run the blinded paired-sample pilot with technical replicates comparing SECmere, small-EV, clinical, and fused models before external validation.",
+      "opponent": 85,
+      "outcome": "loss",
+      "reason": "SECmere triage has a sharply defined incremental-value question, paired particle-fraction controls, a cheap blinded pilot, and informative technical or clinical failure branches; the recommendation project carries greater causal and safety-validation burden.",
+      "target": 99,
+      "timestamp": "2026-10-30T01:07:06.264185+00:00"
     }
   ],
   "k_factor": 24,
@@ -2716,6 +2716,20 @@
       "losses": 18,
       "rating": 1467.6,
       "wins": 15
+    },
+    "100": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1512.0,
+      "wins": 1
+    },
+    "101": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1487.59,
+      "wins": 0
     },
     "11": {
       "draws": 1,
@@ -3048,10 +3062,10 @@
     },
     "57": {
       "draws": 0,
-      "games": 22,
+      "games": 23,
       "losses": 11,
-      "rating": 1504.28,
-      "wins": 11
+      "rating": 1515.74,
+      "wins": 12
     },
     "58": {
       "draws": 0,
@@ -3195,10 +3209,10 @@
     },
     "76": {
       "draws": 0,
-      "games": 16,
+      "games": 17,
       "losses": 8,
-      "rating": 1503.03,
-      "wins": 8
+      "rating": 1514.94,
+      "wins": 9
     },
     "77": {
       "draws": 0,
@@ -3265,10 +3279,10 @@
     },
     "85": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 8,
-      "rating": 1504.99,
-      "wins": 9
+      "rating": 1516.03,
+      "wins": 10
     },
     "86": {
       "draws": 1,
@@ -3367,6 +3381,13 @@
       "losses": 8,
       "rating": 1491.44,
       "wins": 7
+    },
+    "99": {
+      "draws": 0,
+      "games": 5,
+      "losses": 4,
+      "rating": 1466.0,
+      "wins": 1
     }
   },
   "version": 2
