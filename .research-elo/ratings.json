@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "FADS1 or arachidonic-acid spatial measurements may not reflect biologically active signaling beyond resident-memory T-cell abundance and general tumor or liver disease severity.",
-      "next_test": "Profile pretreatment HCC tissue within 11 weeks to test whether prespecified FADS1 or lipid proximity predicts early checkpoint response and T-cell fitness beyond composition-only baselines.",
-      "opponent": 10,
-      "outcome": "loss",
-      "reason": "The HCC niche problem has a clearer biological measurement-to-response chain, a defined patient-level spatial test, and useful outcomes even if the biomarker fails clinically. The YTHDC1 proposal has greater assay, cohort, and transportability risk before treatment-selection value can be established.",
-      "target": 72,
-      "timestamp": "2026-10-15T17:07:25.948560+00:00"
-    },
-    {
-      "main_risk": "Available cross-species perturbation data may be insufficiently matched to identify conserved versus context-specific effects, making apparent transfer mostly composition or orthology artifacts.",
-      "next_test": "Train on two species and selected tissues, hold out a complete species-tissue context, and compare the decomposition against pathway-level and linear baselines with calibration and negative controls.",
-      "opponent": 38,
-      "outcome": "loss",
-      "reason": "Cross-species identifiability offers a broad technology and discovery question with an inexpensive early computational branch: held-out species-tissue contexts can reveal whether transfer is real, calibrated, and distinguishable from orthology or baseline-state artifacts. The YTHDC1 project depends on clinically obtainable specimens, reproducible condensate imaging, incremental value, and external transportability, creating a longer chain of high-risk assumptions.",
-      "target": 72,
-      "timestamp": "2026-10-15T17:07:25.948580+00:00"
-    },
-    {
-      "main_risk": "Baseline condensate state may be a treatment-response or cellular-stress correlate rather than a reproducible predictive biomarker for treatment selection.",
-      "next_test": "Run blinded replicate-specimen imaging and a small baseline-versus-early-treatment analysis, adjusting for proliferation, tumor purity, and YTHDC1 abundance, before investing in external clinical validation.",
-      "opponent": 23,
-      "outcome": "win",
-      "reason": "YTHDC1 condensate state has a sharper mechanistic anchor and an earlier assay-centered decision point than the rehabilitation proposal, whose clinical value depends first on specifying and consistently delivering an actionable rehabilitation intervention. Its predictive-versus-pharmacodynamic competing explanation also creates a useful early branch rather than requiring immediate proof of clinical benefit.",
-      "target": 72,
-      "timestamp": "2026-10-15T17:07:25.948590+00:00"
-    },
-    {
-      "main_risk": "Paired tissue samples may not represent comparable tumor regions across patients, so apparent spatial transitions could be sampling, treatment-site, or tissue-quality artifacts.",
-      "next_test": "Use paired baseline and early-treatment specimens to test transition reproducibility and incremental patient-level prediction over clinical and composition-only baselines with blinded pathology and region-level controls.",
-      "opponent": 5,
-      "outcome": "loss",
-      "reason": "Spatial immune-priming trajectories in cervical chemoradiotherapy address a broader and more established treatment setting and can yield informative biological outcomes even if prediction fails, including distinct resistance states or treatment-induced niche changes. The YTHDC1 proposal is more clinically decision-focused but requires a rarer treatment context and several difficult assay and transportability demonstrations.",
-      "target": 72,
-      "timestamp": "2026-10-15T17:07:25.948597+00:00"
-    },
-    {
-      "main_risk": "Condensate dynamics may not be measurable reproducibly in clinically obtainable specimens or add value beyond simpler molecular and lineage features.",
-      "next_test": "Complete a blinded replicate and cross-site assay-transfer study with predefined quality and agreement thresholds, followed by a locked comparison against abundance, pathway, and simple molecular baselines.",
-      "opponent": 35,
-      "outcome": "win",
-      "reason": "YTHDC1 condensate validation has a direct treatment-selection objective, a clinically interpretable endpoint, and an early assay reproducibility gate. The ATRX transfer project requires multimodal modeling, causal regulatory identification, perturbation validation, and separation of genotype from cell-state effects, with substantial risk that performance reflects state matching rather than causal transfer.",
-      "target": 72,
-      "timestamp": "2026-10-15T17:07:25.948604+00:00"
-    },
-    {
       "main_risk": "The independent rectal-cancer cohort may not contain sufficiently consistent MRI, proteomic, treatment, and response data for a valid locked evaluation.",
       "next_test": "Freeze the reconstruction pipeline and audit endpoint definitions, modality availability, and site independence in a candidate external rectal-cancer cohort before accessing outcomes.",
       "opponent": 77,
@@ -2699,6 +2654,51 @@
       "reason": "SECmere triage has a sharply defined incremental-value question, paired particle-fraction controls, a cheap blinded pilot, and informative technical or clinical failure branches; the recommendation project carries greater causal and safety-validation burden.",
       "target": 99,
       "timestamp": "2026-10-30T01:07:06.264185+00:00"
+    },
+    {
+      "main_risk": "Cross-site assay concordance may not predict actual patient treatment benefit.",
+      "next_test": "Run the locked two-laboratory blinded pilot with replicate specimens and compare patient-level treatment rankings.",
+      "opponent": 55,
+      "outcome": "win",
+      "reason": "Decision-preserving assay transport has clearer clinical value, a defined cross-institution validation anchor, and a cheap early reproducibility test; the mutation-engagement project requires several linked mechanistic and resistance assumptions.",
+      "target": 100,
+      "timestamp": "2026-10-30T10:09:36.972616+00:00"
+    },
+    {
+      "main_risk": "Ex vivo response may fail to preserve in-patient treatment benefit after tissue removal.",
+      "next_test": "Measure blinded cross-site rank concordance and calibration before using outcomes for treatment-selection claims.",
+      "opponent": 40,
+      "outcome": "win",
+      "reason": "The transportability problem is more clinically actionable and has stronger decision-focused validation than virtual combination screening, whose predictions depend on difficult context transfer and may yield benchmark-only gains.",
+      "target": 100,
+      "timestamp": "2026-10-30T10:09:36.972638+00:00"
+    },
+    {
+      "main_risk": "Biological response may be confounded by specimen quality, treatment context, or culture artifacts.",
+      "next_test": "Perform the locked two-site pilot and test whether treatment rankings remain concordant across implementations.",
+      "opponent": 93,
+      "outcome": "win",
+      "reason": "The assay-transport problem offers a direct clinical decision endpoint, independent-site validation, and informative failure modes, whereas the virtual-cell proposal depends on difficult causal identifiability of tightly correlated bioenergetic intermediates.",
+      "target": 100,
+      "timestamp": "2026-10-30T10:09:36.972648+00:00"
+    },
+    {
+      "main_risk": "The fibrosis reference standard and added modalities may not provide reliable incremental value under site and population shift.",
+      "next_test": "Compare the locked clinical-laboratory baseline with sequential modality additions on a held-out site, reporting calibration and threshold-specific net benefit.",
+      "opponent": 76,
+      "outcome": "win",
+      "reason": "Functional assay transport addresses a concrete treatment-selection decision with a differentiated cross-institution test and useful negative outcomes; multimodal fibrosis triage has clinical promise but depends on endpoint quality, heterogeneous access, and costly modality integration.",
+      "target": 100,
+      "timestamp": "2026-10-30T10:09:36.972655+00:00"
+    },
+    {
+      "main_risk": "Spatial architecture may be a noncausal proxy for tumor burden, target density, or specimen quality, while ex vivo results may also fail clinically.",
+      "next_test": "Run the locked cross-site functional assay pilot and quantify whether treatment ordering is reproducible before pursuing clinical utility.",
+      "opponent": 57,
+      "outcome": "win",
+      "reason": "Transportable functional treatment ranking has greater immediate translational leverage and a stronger external-validation framework than spatial architecture prediction, whose incremental value over composition and target expression remains uncertain.",
+      "target": 100,
+      "timestamp": "2026-10-30T10:09:36.972664+00:00"
     }
   ],
   "k_factor": 24,
@@ -2719,10 +2719,10 @@
     },
     "100": {
       "draws": 0,
-      "games": 1,
+      "games": 6,
       "losses": 0,
-      "rating": 1512.0,
-      "wins": 1
+      "rating": 1568.21,
+      "wins": 6
     },
     "101": {
       "draws": 0,
@@ -2936,9 +2936,9 @@
     },
     "40": {
       "draws": 1,
-      "games": 30,
-      "losses": 14,
-      "rating": 1513.13,
+      "games": 31,
+      "losses": 15,
+      "rating": 1501.5,
       "wins": 15
     },
     "41": {
@@ -3048,9 +3048,9 @@
     },
     "55": {
       "draws": 0,
-      "games": 15,
-      "losses": 7,
-      "rating": 1511.35,
+      "games": 16,
+      "losses": 8,
+      "rating": 1499.37,
       "wins": 8
     },
     "56": {
@@ -3062,9 +3062,9 @@
     },
     "57": {
       "draws": 0,
-      "games": 23,
-      "losses": 11,
-      "rating": 1515.74,
+      "games": 24,
+      "losses": 12,
+      "rating": 1505.18,
       "wins": 12
     },
     "58": {
@@ -3209,9 +3209,9 @@
     },
     "76": {
       "draws": 0,
-      "games": 17,
-      "losses": 8,
-      "rating": 1514.94,
+      "games": 18,
+      "losses": 9,
+      "rating": 1504.04,
       "wins": 9
     },
     "77": {
@@ -3342,9 +3342,9 @@
     },
     "93": {
       "draws": 0,
-      "games": 13,
-      "losses": 6,
-      "rating": 1510.74,
+      "games": 14,
+      "losses": 7,
+      "rating": 1499.6,
       "wins": 7
     },
     "94": {
