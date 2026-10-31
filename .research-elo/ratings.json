@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The independent cohort, response endpoint, and proteomic assay may be insufficiently compatible for a fair locked evaluation.",
-      "next_test": "Blind a reconstructed locked workflow on an independent cohort and compare it with clinical, MRI-only, proteomics-only, and simple late-fusion baselines at a prespecified decision threshold.",
-      "opponent": 63,
-      "outcome": "win",
-      "reason": "External validation of a locked MRI-proteomic model has a clearer clinical anchor, stronger leakage safeguards, and a cheaper decisive test than the HCC spatial-circuit project, which depends on reproducible cell states, temporal evidence, and functional validation.",
-      "target": 75,
-      "timestamp": "2026-10-16T16:44:50.638425+00:00"
-    },
-    {
-      "main_risk": "Proteomics may add no reproducible decision value beyond clinical variables and MRI, especially after cross-site assay and imaging effects are controlled.",
-      "next_test": "Evaluate the locked multimodal reconstruction in an independent cohort against clinical, MRI-only, proteomics-only, and simple late-fusion baselines with calibration and decision-curve analysis.",
-      "opponent": 66,
-      "outcome": "win",
-      "reason": "The rectal-cancer project asks a focused, clinically actionable transportability question with an early external test and useful negative outcomes. The glioblastoma project has broader technology potential but greater uncertainty in endpoint definition, spatial feature stability, cohort transportability, and treatment alignment.",
-      "target": 75,
-      "timestamp": "2026-10-16T16:44:50.638444+00:00"
-    },
-    {
-      "main_risk": "CTA phenotypes may be redundant with routine clinical and conventional radiologic variables after robust external calibration.",
-      "next_test": "Apply a locked clinical-only versus clinical-plus-prespecified-CTA comparison in an independent hospital cohort, measuring calibration, Brier score, subgroup performance, and net benefit across the agreed action-threshold range.",
-      "opponent": 70,
-      "outcome": "loss",
-      "reason": "The EVAR project is the more feasible current investment: its clinical action, outcome, baseline predictors, and site-transportability question are more concrete, while CTA features are easier to standardize and validate than cross-laboratory proteomics. The rectal project has potentially greater biological and clinical impact but carries more assay, endpoint, and treatment-confounding risk.",
-      "target": 75,
-      "timestamp": "2026-10-16T16:44:50.638454+00:00"
-    },
-    {
-      "main_risk": "An adequately independent and comparable rectal-cancer cohort with compatible MRI, proteomics, treatment, and endpoint data may not be available.",
-      "next_test": "Confirm cohort eligibility and run a blinded locked external evaluation against clinical, MRI-only, proteomics-only, and simple late-fusion baselines before adding complex modeling.",
-      "opponent": 17,
-      "outcome": "win",
-      "reason": "The rectal-cancer study has a narrower fixed anchor, a defined clinical decision, and a 10-week branch point, whereas the lymphoma benchmark requires harmonizing multiple modalities, response labels, spatial assays, and centers before it can establish a meaningful gain. A null result in the rectal study is still directly useful for deciding whether multimodal validation should proceed.",
-      "target": 75,
-      "timestamp": "2026-10-16T16:44:50.638460+00:00"
-    },
-    {
-      "main_risk": "The rectal multimodal signal may fail to transport because of endpoint differences, treatment-selection confounding, or proteomic and MRI protocol shifts.",
-      "next_test": "Blind a locked MRI-proteomic model on an independent rectal-cancer cohort and compare incremental calibrated decision value with clinical and MRI-only baselines.",
-      "opponent": 31,
-      "outcome": "win",
-      "reason": "The rectal-cancer problem has a more specific clinical-use endpoint and a clearer external-validation pathway. Corneal imaging has credible translational relevance, but its choice depends on a difficult noncircular reference standard, cross-device reproducibility, informative image failure, and long recalibration readouts.",
-      "target": 75,
-      "timestamp": "2026-10-16T16:44:50.638467+00:00"
-    },
-    {
       "main_risk": "The difficult-airway endpoint and ultrasound measurements may be insufficiently reproducible across operators, devices, and sites, eliminating apparent incremental value.",
       "next_test": "Run the prespecified 10-week patient-level nested comparison of clinical assessment versus clinical plus ultrasound using blinded endpoint adjudication, with operator/device reproducibility and subgroup net benefit as go/no-go criteria.",
       "opponent": 79,
@@ -2699,6 +2654,51 @@
       "reason": "Sex-stratified transportability has a concrete external-validation experiment and useful outcomes even if the sex hypothesis fails. The virtual-cell regulatory-state project has greater technology ambition, but multimodal alignment, unseen perturbation generalization, and functional falsification require more costly and uncertain prospective work.",
       "target": 104,
       "timestamp": "2026-10-31T05:53:31.848175+00:00"
+    },
+    {
+      "main_risk": "Therapy-selected evolution may remain inseparable from treatment-induced damage, sampling variation, or disease burden.",
+      "next_test": "Run a blinded paired baseline-relapse analysis with locked signatures, held-out patients, and orthogonal clonality confirmation.",
+      "opponent": 101,
+      "outcome": "loss",
+      "reason": "Paired longitudinal lymphoma profiling addresses a broader and more general causal problem than the narrow FGFR exposure setting, with reusable insight even if treatment-selection claims fail.",
+      "target": 103,
+      "timestamp": "2026-10-31T12:43:16.388237+00:00"
+    },
+    {
+      "main_risk": "ATP, GTP, membrane potential, and translation changes may be too correlated to identify a unique causal mediator.",
+      "next_test": "Test preregistered predictions in independent preparations with ATP-synthase inhibition, GTP and exchange rescues, orthogonal metabolite assays, and held-out rescue data.",
+      "opponent": 93,
+      "outcome": "loss",
+      "reason": "The virtual-cell problem offers broader technological leverage, an explicit mechanistic anchor, and an inexpensive rescue-based falsification test with useful outcomes even if GTP is not causal.",
+      "target": 103,
+      "timestamp": "2026-10-31T12:43:16.388258+00:00"
+    },
+    {
+      "main_risk": "Correcting measured exposure may not improve tumor response, making exposure association clinically non-actionable.",
+      "next_test": "Prospectively pair pharmacokinetics, interaction review, genotype, serial molecular response, and pharmacodynamic markers before treatment changes.",
+      "opponent": 62,
+      "outcome": "win",
+      "reason": "Pharmacologic misclassification of resistance has clearer near-term clinical value and a defined patient-level decision, whereas the spatial osteosarcoma mechanism requires costly reproducibility, causality, and cross-platform validation.",
+      "target": 103,
+      "timestamp": "2026-10-31T12:43:16.388267+00:00"
+    },
+    {
+      "main_risk": "Observed low exposure or molecular response may reflect adherence, disease burden, or treatment selection rather than phenoconversion.",
+      "next_test": "Conduct the prespecified 12-week exposure-correction study with genotype, pharmacokinetics, interaction review, serial ctDNA, and orthogonal pharmacodynamics.",
+      "opponent": 96,
+      "outcome": "win",
+      "reason": "The FGFR project has a more concrete precision-medicine decision and earlier clinical readout; the virtual-cell project depends on difficult state identifiability, true reversibility, and transfer across tissue contexts.",
+      "target": 103,
+      "timestamp": "2026-10-31T12:43:16.388273+00:00"
+    },
+    {
+      "main_risk": "Exposure correction may not produce a measurable response improvement or may be unsafe.",
+      "next_test": "Perform the prospective pharmacokinetic, medication-interaction, genotype, and early-response study with prespecified correction and safety thresholds.",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "Exposure-mediated treatment failure is tied to an actionable patient-level intervention and has a clearer early branch than a spatial hidradenitis biomarker whose pathway states may be correlational and biopsy-sensitive.",
+      "target": 103,
+      "timestamp": "2026-10-31T12:43:16.388284+00:00"
     }
   ],
   "k_factor": 24,
@@ -2726,10 +2726,10 @@
     },
     "101": {
       "draws": 0,
-      "games": 8,
+      "games": 9,
       "losses": 5,
-      "rating": 1476.49,
-      "wins": 3
+      "rating": 1488.5,
+      "wins": 4
     },
     "102": {
       "draws": 0,
@@ -2740,10 +2740,10 @@
     },
     "103": {
       "draws": 0,
-      "games": 2,
-      "losses": 2,
-      "rating": 1476.83,
-      "wins": 0
+      "games": 7,
+      "losses": 5,
+      "rating": 1466.42,
+      "wins": 2
     },
     "104": {
       "draws": 0,
@@ -3125,9 +3125,9 @@
     },
     "62": {
       "draws": 0,
-      "games": 26,
-      "losses": 14,
-      "rating": 1477.58,
+      "games": 27,
+      "losses": 15,
+      "rating": 1464.74,
       "wins": 12
     },
     "63": {
@@ -3335,10 +3335,10 @@
     },
     "9": {
       "draws": 1,
-      "games": 31,
+      "games": 32,
       "losses": 16,
-      "rating": 1478.01,
-      "wins": 14
+      "rating": 1490.02,
+      "wins": 15
     },
     "90": {
       "draws": 1,
@@ -3363,10 +3363,10 @@
     },
     "93": {
       "draws": 0,
-      "games": 16,
+      "games": 17,
       "losses": 9,
-      "rating": 1477.21,
-      "wins": 7
+      "rating": 1488.78,
+      "wins": 8
     },
     "94": {
       "draws": 0,
@@ -3384,9 +3384,9 @@
     },
     "96": {
       "draws": 0,
-      "games": 16,
-      "losses": 9,
-      "rating": 1475.98,
+      "games": 17,
+      "losses": 10,
+      "rating": 1463.64,
       "wins": 7
     },
     "97": {
