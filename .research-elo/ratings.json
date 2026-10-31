@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The ERK/Fra-1 state may be a generic drug-stress, injury, or pre-existing resistant-cell signal rather than a reproducible fibroblast-mediated interface transition.",
-      "next_test": "Run the prespecified 8-week matched longitudinal ex vivo study across independent metastasis specimens, including untreated, viability, injury, and fibroblast-signaling controls.",
-      "opponent": 62,
-      "outcome": "loss",
-      "reason": "The osteosarcoma project has a more distinctive mechanistic anchor and a cheaper early readout: reproducibility of the spatial ERK/Fra-1 state can be tested in a small matched ex vivo study before committing to extensive validation. The tuberculoma project has greater immediate clinical relevance, but its success depends on assembling rare longitudinal cohorts and defining an adjudicated reference standard that is independent of MRI and treatment decisions.",
-      "target": 77,
-      "timestamp": "2026-10-16T11:32:42.881925+00:00"
-    },
-    {
-      "main_risk": "Additional modalities may encode donor, batch, or cell-composition proxies without improving prediction of the actual perturbation effect or functional phenotype.",
-      "next_test": "Collect a small donor-replicated perturbation panel, compare frozen expression-only and multimodal models on held-out donors and perturbations, and predefine an orthogonal assay for prospective falsification.",
-      "opponent": 37,
-      "outcome": "loss",
-      "reason": "The virtual-cell project asks a broadly important and falsifiable question, has strong leakage-resistant validation requirements, and can produce useful outcomes even if multimodal features add no value by identifying when regulatory-state counterfactuals are not identifiable. The tuberculoma project has more direct clinical value, but rare-cohort recruitment, outcome adjudication, and separation of active disease from paradoxical reaction make the evidence chain substantially harder.",
-      "target": 77,
-      "timestamp": "2026-10-16T11:32:42.881946+00:00"
-    },
-    {
-      "main_risk": "The apparent CAF–immune neighborhood effect may be explained by tumor genotype, proliferation, disease burden, or sampling variation rather than microenvironment-mediated treatment resistance.",
-      "next_test": "Test a locked CAF–immune exclusion score in a paired patient cohort against composition-only and clinical baselines, with independent-specimen replication and negative spatial controls.",
-      "opponent": 13,
-      "outcome": "loss",
-      "reason": "The lung adenocarcinoma project combines a clinically relevant response problem with comparatively strong evidence readiness, explicit patient-level baselines, paired treatment sampling, external validation, and orthogonal spatial and functional tests. The tuberculoma project has a compelling clinical need, but its rare disease setting and difficult reference standard make reliable calibration and transportability less likely within six months.",
-      "target": 77,
-      "timestamp": "2026-10-16T11:32:42.881958+00:00"
-    },
-    {
-      "main_risk": "Active or progressive tuberculoma cannot be defined with sufficient independence from MRI persistence, treatment-extension decisions, or clinician ascertainment.",
-      "next_test": "Construct a blinded first-post-treatment-MRI landmark cohort and compare MRI persistence, serial MRI change, and simple clinical-trajectory rules against longitudinal adjudicated outcomes.",
-      "opponent": 7,
-      "outcome": "win",
-      "reason": "The tuberculoma project is anchored to a concrete clinical decision, allows the modality and reference standard to evolve, and has a meaningful early decision test with direct patient benefit. The KRAS-transition project has broad mechanistic value but requires reproducibility across models, temporal precedence, spatial added value, and pharmacologic actionability, creating a longer chain of high-risk assumptions before producing a clinically useful result.",
-      "target": 77,
-      "timestamp": "2026-10-16T11:32:42.881966+00:00"
-    },
-    {
-      "main_risk": "The tuberculoma reference outcome may remain too uncertain or circular to distinguish inactive residual lesions, paradoxical reactions, and active infection.",
-      "next_test": "In independent paired specimens, test whether a prespecified neighborhood score predicts patient-level treatment persistence beyond BCL2 abundance, proliferation, and clinical covariates, with orthogonal imaging replication.",
-      "opponent": 15,
-      "outcome": "win",
-      "reason": "The tuberculoma project addresses a high-consequence clinical uncertainty and offers useful branches even if a complex multimodal model fails: it can establish when MRI persistence, clinical trajectory, or treatment exposure is sufficient for observation or extension. The gastric-cancer project depends on reproducing a specific spatial niche, demonstrating that BCL2 is selectively causal rather than a marker of aggressive clones, and showing that stromal restoration is actionable.",
-      "target": 77,
-      "timestamp": "2026-10-16T11:32:42.881975+00:00"
-    },
-    {
       "main_risk": "The independent cohort, response endpoint, and proteomic assay may be insufficiently compatible for a fair locked evaluation.",
       "next_test": "Blind a reconstructed locked workflow on an independent cohort and compare it with clinical, MRI-only, proteomics-only, and simple late-fusion baselines at a prespecified decision threshold.",
       "opponent": 63,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 102 provides a more immediate and falsifiable investment through external clinical and orthogonal-assay validation. Issue 55 is mechanistically compelling, but requires biochemical engagement to translate into cellular response and then into reliable resistance-mechanism prediction across genetic backgrounds.",
       "target": 102,
       "timestamp": "2026-10-30T22:26:49.803316+00:00"
+    },
+    {
+      "main_risk": "Adequately sized, genuinely independent checkpoint-treated cohorts may not support stable sex-specific calibration.",
+      "next_test": "Run the locked feature set on two independent cohorts, reporting patient- and site-held-out calibration and decision benefit by sex.",
+      "opponent": 101,
+      "outcome": "win",
+      "reason": "Sex-stratified transportability has a clearer six-month retrospective test, stronger leakage-resistant validation plan, and a more credible early decision point than the paired longitudinal resistance project, whose causal timing and treatment-effect claims require several difficult assumptions.",
+      "target": 104,
+      "timestamp": "2026-10-31T05:53:31.848127+00:00"
+    },
+    {
+      "main_risk": "Observed sex effects may disappear after adjustment for clinical composition, treatment exposure, and assay batch.",
+      "next_test": "Perform the prespecified external-cohort evaluation with subgroup calibration against clinical, established-biomarker, and bulk-signature baselines.",
+      "opponent": 93,
+      "outcome": "win",
+      "reason": "The transportability problem is more investable now: its measurements and baselines are established, and external validation can quickly distinguish biological heterogeneity from confounding. The virtual-cell project has broader technological upside but depends on difficult mediator identifiability and bespoke matched assays.",
+      "target": 104,
+      "timestamp": "2026-10-31T05:53:31.848147+00:00"
+    },
+    {
+      "main_risk": "Sex-specific performance differences may be unstable or attributable to cohort composition rather than biology.",
+      "next_test": "Evaluate the locked immune-response features externally with prespecified adjustment, calibration, and net-benefit analyses by sex.",
+      "opponent": 103,
+      "outcome": "win",
+      "reason": "Sex-stratified transportability offers a clearer evidence-ready path, including independent cohorts, strong baselines, and an early retrospective decision. Pharmacogenomic phenoconversion could have high clinical value but requires prospective pharmacokinetics, accurate active-exposure measurement, and a difficult within-patient response correction test.",
+      "target": 104,
+      "timestamp": "2026-10-31T05:53:31.848157+00:00"
+    },
+    {
+      "main_risk": "Spatial or morphology-derived signals may not add robust information beyond clinical and established biomarker baselines.",
+      "next_test": "Run a locked two-cohort evaluation comparing pooled, interaction, and sex-stratified models against clinical, PD-L1, bulk, and morphology baselines.",
+      "opponent": 55,
+      "outcome": "win",
+      "reason": "Transportability across sex and cohorts is a more immediately testable clinical problem with clearer data requirements and earlier readout. Mutation-specific target engagement is potentially more mechanistically powerful, but biochemical comparability, lineage context, and resistance classification create a longer chain of high-risk assumptions.",
+      "target": 104,
+      "timestamp": "2026-10-31T05:53:31.848164+00:00"
+    },
+    {
+      "main_risk": "Available external cohorts may be too small or imbalanced for reliable subgroup calibration and interaction estimates.",
+      "next_test": "Conduct the locked external-cohort test with patient- and institution-aware splits, subgroup calibration, and decision-curve comparison to established baselines.",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "Sex-stratified transportability has a concrete external-validation experiment and useful outcomes even if the sex hypothesis fails. The virtual-cell regulatory-state project has greater technology ambition, but multimodal alignment, unseen perturbation generalization, and functional falsification require more costly and uncertain prospective work.",
+      "target": 104,
+      "timestamp": "2026-10-31T05:53:31.848175+00:00"
     }
   ],
   "k_factor": 24,
@@ -2726,9 +2726,9 @@
     },
     "101": {
       "draws": 0,
-      "games": 7,
-      "losses": 4,
-      "rating": 1488.49,
+      "games": 8,
+      "losses": 5,
+      "rating": 1476.49,
       "wins": 3
     },
     "102": {
@@ -2740,17 +2740,17 @@
     },
     "103": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
+      "games": 2,
+      "losses": 2,
+      "rating": 1476.83,
       "wins": 0
     },
     "104": {
       "draws": 0,
-      "games": 1,
+      "games": 6,
       "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "rating": 1544.18,
+      "wins": 5
     },
     "11": {
       "draws": 1,
@@ -2929,9 +2929,9 @@
     },
     "37": {
       "draws": 0,
-      "games": 34,
-      "losses": 18,
-      "rating": 1480.89,
+      "games": 35,
+      "losses": 19,
+      "rating": 1470.71,
       "wins": 16
     },
     "38": {
@@ -3069,9 +3069,9 @@
     },
     "55": {
       "draws": 0,
-      "games": 17,
-      "losses": 9,
-      "rating": 1488.96,
+      "games": 18,
+      "losses": 10,
+      "rating": 1478.14,
       "wins": 8
     },
     "56": {
@@ -3363,9 +3363,9 @@
     },
     "93": {
       "draws": 0,
-      "games": 15,
-      "losses": 8,
-      "rating": 1488.81,
+      "games": 16,
+      "losses": 9,
+      "rating": 1477.21,
       "wins": 7
     },
     "94": {
