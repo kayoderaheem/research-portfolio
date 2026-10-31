@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The difficult-airway endpoint and ultrasound measurements may be insufficiently reproducible across operators, devices, and sites, eliminating apparent incremental value.",
-      "next_test": "Run the prespecified 10-week patient-level nested comparison of clinical assessment versus clinical plus ultrasound using blinded endpoint adjudication, with operator/device reproducibility and subgroup net benefit as go/no-go criteria.",
-      "opponent": 79,
-      "outcome": "win",
-      "reason": "Airway risk stratification has a clearer near-term clinical decision, simpler outcome definition than treatment-benefit modeling in sepsis, and a feasible patient-level multicenter pilot. It can test incremental decision value and subgroup calibration before committing to complex multimodal development. Sepsis has greater theoretical treatment impact but depends on specifying actionable treatment pathways, disentangling prognosis from treatment effect, transporting repeated molecular assays, and controlling time-varying confounding.",
-      "target": 78,
-      "timestamp": "2026-10-16T21:18:25.228390+00:00"
-    },
-    {
-      "main_risk": "Incomplete or selectively performed reference imaging, combined with inaccurate symptom onset, could produce verification and spectrum bias that makes the rule-out performance unreliable.",
-      "next_test": "Assemble a consecutive suspected-CVT cohort with blinded imaging adjudication and test symptom duration plus prespecified clinical variables against D-dimer alone for sensitivity, negative predictive value, calibration, and decision value.",
-      "opponent": 80,
-      "outcome": "loss",
-      "reason": "External validation of the cerebral venous thrombosis pathway is the stronger six-month investment because it has a focused diagnostic anchor, established simple baselines, a relatively cheap consecutive-cohort test, and an explicit safety threshold. The airway project has broader modality and equity ambitions but requires more acquisition infrastructure, operator standardization, and endpoint validation before its added modalities can be judged.",
-      "target": 78,
-      "timestamp": "2026-10-16T21:18:25.228412+00:00"
-    },
-    {
-      "main_risk": "Ultrasound or optional facial/voice features may add no robust patient-level information beyond standardized clinical airway assessment once acquisition and site effects are controlled.",
-      "next_test": "Complete the 10-week paired-specimen pilot measuring the locked spatial BCL2–fibroblast score and the airway clinical-plus-ultrasound model in held-out patients; the airway project should continue only if ultrasound improves calibrated net benefit, while the gastric project should continue only if spatial proximity replicates beyond BCL2 abundance and proliferation.",
-      "opponent": 15,
-      "outcome": "win",
-      "reason": "The airway problem offers a more credible path from measurement to a clinically useful decision within six months, with patient-level validation and an early nested-model test that can distinguish useful ultrasound information from redundant or biased multimodal signals. The gastric project could reveal a more novel mechanism, but it combines uncertain spatial reproducibility, early persistence measurement, and causal BCL2/BMP-niche perturbation, creating a longer chain of high-risk assumptions.",
-      "target": 78,
-      "timestamp": "2026-10-16T21:18:25.228423+00:00"
-    },
-    {
-      "main_risk": "CAF–immune spatial neighborhoods may be sampling- or platform-specific correlates of tumor composition, genotype, or disease burden rather than reproducible drivers of treatment response.",
-      "next_test": "In a paired lung cohort, lock a prespecified neighborhood score and test whether it predicts response beyond clinical covariates and composition in held-out patients, followed by replication with an independent assay or specimen set.",
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "Airway risk stratification is more tractable and clinically actionable, but the lung adenocarcinoma problem has greater discovery breadth and a stronger opportunity to separate tumor-intrinsic from microenvironment-mediated response across spatial, orthogonal, and functional evidence. Its fixed anchor remains patient-level treatment response while assay, therapy, and perturbation details can float, and the initial paired-cohort test can reject composition-only explanations before extensive tumoroid work.",
-      "target": 78,
-      "timestamp": "2026-10-16T21:18:25.228431+00:00"
-    },
-    {
-      "main_risk": "The airway endpoint or ultrasound protocol may not generalize across operators, devices, sites, and demographic groups, causing apparent gains to disappear under transport validation.",
-      "next_test": "Run the locked 10-week clinical-versus-ultrasound comparison with patient/site-separated splits, blinded endpoint adjudication, operator agreement, calibration, and subgroup decision-curve analysis.",
-      "opponent": 7,
-      "outcome": "win",
-      "reason": "The airway project has a nearer-term decision endpoint, a comparatively cheap early validation experiment, and a clearer route to useful negative results such as identifying when ultrasound is redundant or harmful. KRAS state-transition research has important resistance implications but requires reproducibility across donors, temporal precedence, distinction from stress and clonal selection, spatial validation, and pharmacologic actionability before it can support a durable intervention.",
-      "target": 78,
-      "timestamp": "2026-10-16T21:18:25.228448+00:00"
-    },
-    {
       "main_risk": "The absence of an independent reference standard for active disease may make labels circular or too uncertain for a trustworthy result.",
       "next_test": "Build a blinded landmark cohort and compare MRI persistence alone with a prespecified clinical-plus-serial-MRI rule using adjudicated longitudinal outcomes and patient-level splits.",
       "opponent": 77,
@@ -2699,6 +2654,51 @@
       "reason": "Exposure-mediated treatment failure is tied to an actionable patient-level intervention and has a clearer early branch than a spatial hidradenitis biomarker whose pathway states may be correlational and biopsy-sensitive.",
       "target": 103,
       "timestamp": "2026-10-31T12:43:16.388284+00:00"
+    },
+    {
+      "main_risk": "The 3D niche effect may be dominated by batch variability or generic stress rather than clinically relevant resistance.",
+      "next_test": "Run blinded paired isolated-cell and bone-mimetic drug-response assays across two laboratories.",
+      "opponent": 107,
+      "outcome": "win",
+      "reason": "Bone-niche testing has a clearer patient-level biological anchor and an earlier paired, cross-laboratory decision test; the flux project depends more heavily on technically identifiable and clinically feasible flux estimates.",
+      "target": 105,
+      "timestamp": "2026-10-31T19:21:24.651938+00:00"
+    },
+    {
+      "main_risk": "Early recurrent trajectories may be culture or treatment-stress artifacts that do not transport to patients.",
+      "next_test": "Generate six independent evolution replicates with three early sampling points and test a locked recurrence score in held-out replicates.",
+      "opponent": 106,
+      "outcome": "loss",
+      "reason": "Replicate-aware resistance trajectories offer broader mechanistic and actionable discovery, with a relatively direct early test of recurrence, lead time, and functional resistance before committing to patient validation.",
+      "target": 105,
+      "timestamp": "2026-10-31T19:21:24.651957+00:00"
+    },
+    {
+      "main_risk": "Niche discordance may not improve patient-level prediction beyond simpler isolated-cell or clinical baselines.",
+      "next_test": "Test prespecified niche-discordance features in blinded paired assays across two laboratories and compare them with isolated-cell response.",
+      "opponent": 66,
+      "outcome": "win",
+      "reason": "Bone-niche dependence addresses a more direct precision-medicine problem and has a concrete paired assay to distinguish intrinsic from microenvironment-mediated response; the architecture project faces greater cross-cohort and spatial-feature transport risk.",
+      "target": 105,
+      "timestamp": "2026-10-31T19:21:24.651967+00:00"
+    },
+    {
+      "main_risk": "The 3D niche system may add variability without identifying clinically useful resistance biology.",
+      "next_test": "Perform the two-laboratory blinded paired assay using one established and one mechanistically distinct therapy.",
+      "opponent": 40,
+      "outcome": "win",
+      "reason": "Bone-niche response is anchored to a clinically meaningful resistance mechanism and retains value if the predictive hypothesis fails, whereas virtual screening risks becoming a benchmark-specific model of synergy with uncertain transfer beyond related models.",
+      "target": 105,
+      "timestamp": "2026-10-31T19:21:24.651978+00:00"
+    },
+    {
+      "main_risk": "Nascent-RNA and occupancy measurements may not uniquely identify initiation, pause-release, and turnover states.",
+      "next_test": "Collect the dense six-timepoint matched nascent-RNA and polymerase-occupancy time course for initiation and pause-turnover perturbations.",
+      "opponent": 91,
+      "outcome": "loss",
+      "reason": "Kinetic identifiability has a compact, mechanistically focused experiment with an early readout and broad relevance to causal virtual-cell modeling; the bone project requires more costly model, cohort, and laboratory coordination before its clinical value is clear.",
+      "target": 105,
+      "timestamp": "2026-10-31T19:21:24.651987+00:00"
     }
   ],
   "k_factor": 24,
@@ -2751,6 +2751,27 @@
       "losses": 1,
       "rating": 1544.18,
       "wins": 5
+    },
+    "105": {
+      "draws": 0,
+      "games": 5,
+      "losses": 2,
+      "rating": 1510.52,
+      "wins": 3
+    },
+    "106": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1512.41,
+      "wins": 1
+    },
+    "107": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
     },
     "11": {
       "draws": 1,
@@ -2957,9 +2978,9 @@
     },
     "40": {
       "draws": 1,
-      "games": 31,
-      "losses": 15,
-      "rating": 1501.5,
+      "games": 32,
+      "losses": 16,
+      "rating": 1489.85,
       "wins": 15
     },
     "41": {
@@ -3153,9 +3174,9 @@
     },
     "66": {
       "draws": 0,
-      "games": 16,
-      "losses": 8,
-      "rating": 1499.03,
+      "games": 17,
+      "losses": 9,
+      "rating": 1487.05,
       "wins": 8
     },
     "67": {
@@ -3349,10 +3370,10 @@
     },
     "91": {
       "draws": 0,
-      "games": 18,
+      "games": 19,
       "losses": 9,
-      "rating": 1502.96,
-      "wins": 9
+      "rating": 1515.66,
+      "wins": 10
     },
     "92": {
       "draws": 0,
