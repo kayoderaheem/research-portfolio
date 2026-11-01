@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The diagnostic reference standard and verification process may be incomplete or biased across sites, making apparent calibration and sensitivity gains unreliable.",
-      "next_test": "Assemble a consecutive multicenter cohort and, before model fitting, audit complete reference imaging, blinded adjudication, assay comparability, and subgroup case ascertainment.",
-      "opponent": 62,
-      "outcome": "win",
-      "reason": "External validation of a multimodal cerebral venous thrombosis pathway has clearer near-term clinical value, stronger patient-level validation requirements, and a cheaper decision test than establishing a reproducible causal tumor–lung interface state across scarce specimens and assays.",
-      "target": 80,
-      "timestamp": "2026-10-17T10:52:57.497168+00:00"
-    },
-    {
-      "main_risk": "The added clinical and imaging variables may not provide safe incremental value beyond D-dimer and clinical assessment once spectrum, verification, and site effects are controlled.",
-      "next_test": "Run a locked patient- and site-separated comparison of D-dimer-only, clinical-only, clinical-plus-D-dimer, and multimodal models in a consecutive cohort, emphasizing sensitivity, calibration, and missed-case uncertainty.",
-      "opponent": 37,
-      "outcome": "win",
-      "reason": "The cerebral venous thrombosis problem offers a more actionable and tractable six-month investment with an early external-validation readout. The virtual-cell project has greater conceptual upside but depends on reproducible perturbations, aligned multimodal measurements, unseen-donor and unseen-perturbation generalization, and prospective orthogonal validation.",
-      "target": 80,
-      "timestamp": "2026-10-17T10:52:57.497191+00:00"
-    },
-    {
-      "main_risk": "A safe threshold may not transport across assays, symptom-duration distributions, referral spectra, or important subgroups, especially with differential imaging verification.",
-      "next_test": "Use a consecutive external cohort to test locked nested models and quantify sensitivity, negative predictive value, calibration, and decision-curve benefit by symptom duration and key clinical subgroups.",
-      "opponent": 73,
-      "outcome": "win",
-      "reason": "Cerebral venous thrombosis triage has a clearer safety-critical decision, a more concrete rule-out endpoint, and a stronger rationale for independent multicenter validation. PCOS triage may have broader volume but faces substantial label-dependence, cohort-specific missingness, and uncertainty that improved prediction changes referral decisions.",
-      "target": 80,
-      "timestamp": "2026-10-17T10:52:57.497200+00:00"
-    },
-    {
-      "main_risk": "The observed multimodal benefit may disappear under independent-site validation because symptom duration, assay behavior, and imaging verification differ systematically.",
-      "next_test": "Audit and analyze a consecutive, independently adjudicated multicenter cohort with patient-level splits and blinded assessment before tuning any triage threshold.",
-      "opponent": 65,
-      "outcome": "win",
-      "reason": "The cerebral venous thrombosis project is more directly translational, has a stronger clinical consequence for false negatives, and can produce a decisive multicenter validation result. The fibrosis project is anchored to a murine treatment dataset and requires spatial reproducibility, reversal rather than marker suppression, tissue-repair linkage, and cross-model transportability.",
-      "target": 80,
-      "timestamp": "2026-10-17T10:52:57.497207+00:00"
-    },
-    {
-      "main_risk": "The pathway may achieve attractive retrospective discrimination but fail to preserve safe sensitivity and calibration across hospitals, assays, and late-presenting or atypical patients.",
-      "next_test": "Prospectively or retrospectively assemble consecutive suspected cases across sites and measure assay turnaround, imaging verification completeness, locked-model sensitivity, calibration, and net benefit before any care-changing study.",
-      "opponent": 1,
-      "outcome": "win",
-      "reason": "External validation of a diagnostic pathway is more likely to yield a useful six-month decision than time-constrained organoid profiling, which requires rapid culture success, clinically relevant ex vivo pharmacology, a locked panel, and evidence that results alter patient outcomes rather than merely correlate with them.",
-      "target": 80,
-      "timestamp": "2026-10-17T10:52:57.497214+00:00"
-    },
-    {
       "main_risk": "Ultrasound and optional facial or voice measurements may add no reproducible patient-level information beyond standardized clinical assessment, or may not be reproducible across operators and devices.",
       "next_test": "Run the prespecified patient-level nested comparison of clinical assessment versus clinical plus ultrasound using a blinded, independently adjudicated difficult-airway endpoint, including operator reproducibility and decision-curve net benefit.",
       "opponent": 66,
@@ -2699,6 +2654,51 @@
       "reason": "The hidradenitis problem has credible patient value, a focused spatial anchor, and a relatively cheap ten-week patient-level prediction test; flux has broader scope but substantially greater measurement and identifiability risk.",
       "target": 107,
       "timestamp": "2026-11-01T00:11:08.604939+00:00"
+    },
+    {
+      "main_risk": "In-vitro recurrence may reflect shared culture or assay artifacts and fail to predict patient resistance.",
+      "next_test": "Run six independent evolution replicates with early timepoints and blinded held-out prediction plus functional testing of recurrent mechanisms.",
+      "opponent": 105,
+      "outcome": "win",
+      "reason": "Replicate-aware resistance trajectories offer a clearer early decision and broader mechanistic value than a cross-laboratory 3D myeloma platform whose biological and clinical transportability are both uncertain.",
+      "target": 106,
+      "timestamp": "2026-11-01T06:18:12.395887+00:00"
+    },
+    {
+      "main_risk": "Nascent-RNA and occupancy measurements may not uniquely identify initiation versus pause-turnover effects.",
+      "next_test": "Collect the dense acute-perturbation time course and test held-out perturbation prediction against state-space and steady-state baselines.",
+      "opponent": 91,
+      "outcome": "loss",
+      "reason": "Kinetic identifiability has a tighter scientific anchor, a shorter discriminating experiment, and a more direct test of whether the measurements support causal interpretation than the longer chain from evolution replicates to clinical treatment decisions.",
+      "target": 106,
+      "timestamp": "2026-11-01T06:18:12.395910+00:00"
+    },
+    {
+      "main_risk": "Recurrent experimental mechanisms may not transport to patient cohorts or map to effective salvage therapies.",
+      "next_test": "Test whether early recurrent trajectories predict resistance in held-out replicates and confirm at least two candidates functionally.",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "Replicate-aware resistance mechanisms provide broader, more flexible discovery value and a less forced disease-specific pairing than the gastric-cancer spatial niche hypothesis, which requires reproducible spatial association and causal BCL2/BMP effects.",
+      "target": 106,
+      "timestamp": "2026-11-01T06:18:12.395919+00:00"
+    },
+    {
+      "main_risk": "Particle isolation and RNA-yield batch effects may create a non-transportable signal despite apparent case-control discrimination.",
+      "next_test": "Run a blinded paired pilot with technical replicates, patient-level nested validation, calibration, and prespecified triage decision benefit.",
+      "opponent": 85,
+      "outcome": "loss",
+      "reason": "SECmere RNA has a defined clinical triage use, paired modality comparison, and an early incremental-value test against strong baselines, whereas resistance trajectories require several additional steps before clinical usefulness is credible.",
+      "target": 106,
+      "timestamp": "2026-11-01T06:18:12.395925+00:00"
+    },
+    {
+      "main_risk": "The model may identify only stable cell-state or marker differences rather than transportable perturbation-specific biology.",
+      "next_test": "Use donor-matched fresh, frozen, and fixed aliquots with one unseen perturbation and an orthogonal readout, evaluated donor-wise against simple baselines.",
+      "opponent": 92,
+      "outcome": "win",
+      "reason": "Replicate-aware resistance evolution is more directly testable and biologically anchored than cross-assay virtual-cell transport, which depends on preserving perturbation effects through fixation and estimating assay distortion without target-assay training data.",
+      "target": 106,
+      "timestamp": "2026-11-01T06:18:12.395930+00:00"
     }
   ],
   "k_factor": 24,
@@ -2754,17 +2754,17 @@
     },
     "105": {
       "draws": 0,
-      "games": 5,
-      "losses": 2,
-      "rating": 1510.52,
+      "games": 6,
+      "losses": 3,
+      "rating": 1498.59,
       "wins": 3
     },
     "106": {
       "draws": 0,
-      "games": 1,
-      "losses": 0,
-      "rating": 1512.41,
-      "wins": 1
+      "games": 6,
+      "losses": 2,
+      "rating": 1523.71,
+      "wins": 4
     },
     "107": {
       "draws": 0,
@@ -2796,9 +2796,9 @@
     },
     "15": {
       "draws": 1,
-      "games": 36,
-      "losses": 17,
-      "rating": 1515.89,
+      "games": 37,
+      "losses": 18,
+      "rating": 1503.76,
       "wins": 18
     },
     "17": {
@@ -3321,10 +3321,10 @@
     },
     "85": {
       "draws": 0,
-      "games": 18,
+      "games": 19,
       "losses": 8,
-      "rating": 1516.03,
-      "wins": 10
+      "rating": 1528.31,
+      "wins": 11
     },
     "86": {
       "draws": 1,
@@ -3370,16 +3370,16 @@
     },
     "91": {
       "draws": 0,
-      "games": 19,
+      "games": 20,
       "losses": 9,
-      "rating": 1515.66,
-      "wins": 10
+      "rating": 1527.96,
+      "wins": 11
     },
     "92": {
       "draws": 0,
-      "games": 13,
-      "losses": 6,
-      "rating": 1506.58,
+      "games": 14,
+      "losses": 7,
+      "rating": 1494.76,
       "wins": 7
     },
     "93": {
