@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Ultrasound and optional facial or voice measurements may add no reproducible patient-level information beyond standardized clinical assessment, or may not be reproducible across operators and devices.",
-      "next_test": "Run the prespecified patient-level nested comparison of clinical assessment versus clinical plus ultrasound using a blinded, independently adjudicated difficult-airway endpoint, including operator reproducibility and decision-curve net benefit.",
-      "opponent": 66,
-      "outcome": "win",
-      "reason": "Airway assessment addresses an immediate, general clinical decision with established bedside baselines, a plausible incremental role for ultrasound, and an actionable calibration and decision-value endpoint. It is more likely to produce useful conclusions across modalities than the high-dimensional, cohort-sensitive question of transportable spatial architecture in glioblastoma.",
-      "target": 78,
-      "timestamp": "2026-10-17T15:41:34.608307+00:00"
-    },
-    {
-      "main_risk": "Temporal gains may disappear after controlling for measurement frequency, leaving no clinically meaningful advantage over simple static models.",
-      "next_test": "On a patient- and hospital-held-out MIMIC-IV test set, compare static and temporal models with measurement-density features included in both, then assess net benefit and calibration at prespecified escalation thresholds.",
-      "opponent": 27,
-      "outcome": "loss",
-      "reason": "The ICU problem has a clearer near-term discriminating comparison—temporal trajectories versus recent-value snapshots—and can exploit large patient-level datasets with strong external site validation. Its measurement-density control directly tests whether apparent complexity represents physiology or monitoring practice, whereas the airway project requires more difficult prospective multimodal acquisition.",
-      "target": 78,
-      "timestamp": "2026-10-17T15:41:34.608326+00:00"
-    },
-    {
-      "main_risk": "Ex vivo functional sensitivity may not preserve an in-patient response signal and may add no calibrated decision value beyond genomic, histologic, and clinical baselines.",
-      "next_test": "Use a locked existing or newly assembled patient-level cohort to compare genomic matching alone with genomic plus functional screening, preserving assay failures and evaluating calibration and decision curves on held-out outcomes.",
-      "opponent": 45,
-      "outcome": "win",
-      "reason": "Airway ultrasound has a broad clinical use case, a relatively accessible early workflow test, and a direct decision-value target. Functional screening in pediatric brain tumors could be highly valuable but depends on assay viability, reproducibility, treatment-selection comparability, and adequate independent outcomes—several high-risk assumptions with potentially slow readouts.",
-      "target": 78,
-      "timestamp": "2026-10-17T15:41:34.608334+00:00"
-    },
-    {
-      "main_risk": "The apparent ultrasound signal may be operator-, device-, or site-specific rather than transportable patient biology.",
-      "next_test": "Prospectively or rigorously retrospectively collect repeat ultrasound measurements across operators and devices and test a locked ultrasound increment over clinical predictors with patient-level validation and blinded endpoint adjudication.",
-      "opponent": 40,
-      "outcome": "loss",
-      "reason": "Airway risk stratification offers a more replaceable clinical workflow capability with strong simple baselines and an early test that can distinguish useful ultrasound information from documentation or operator artifacts. Virtual combination screening requires reliable mechanistic biomarkers, adequate dose and schedule coverage, and transfer from cell-line-like systems to donor-derived models, creating a longer chain of high-risk assumptions.",
-      "target": 78,
-      "timestamp": "2026-10-17T15:41:34.608340+00:00"
-    },
-    {
-      "main_risk": "Ultrasound may not improve calibrated decision value beyond standard airway examination once subgroup and site transport are properly tested.",
-      "next_test": "Evaluate clinical-only versus clinical-plus-ultrasound models in a small multi-operator cohort with blinded difficult-airway adjudication, prespecified calibration and net-benefit thresholds, and missingness analysis.",
-      "opponent": 53,
-      "outcome": "win",
-      "reason": "Airway assessment has clearer clinical utility, stronger evidence readiness, and a cheaper early branch than serial heterogeneity monitoring in bladder cancer. The bladder proposal is vulnerable to sampling variation, necrosis and tissue-quality effects, and uncertain availability of harmonized serial cohorts before any treatment decision could be supported.",
-      "target": 78,
-      "timestamp": "2026-10-17T15:41:34.608345+00:00"
-    },
-    {
       "main_risk": "Lymphocyte changes may mainly reflect adherence, infection, concomitant treatment, or measurement timing rather than anti-drug antibodies.",
       "next_test": "In a patient-level retrospective cohort, test the prespecified early lymphocyte-change rule against clinical and treatment-history baselines for antibody positivity, including testing burden and calibration.",
       "opponent": 83,
@@ -2699,6 +2654,51 @@
       "reason": "Replicate-aware resistance evolution is more directly testable and biologically anchored than cross-assay virtual-cell transport, which depends on preserving perturbation effects through fixation and estimating assay distortion without target-assay training data.",
       "target": 106,
       "timestamp": "2026-11-01T06:18:12.395930+00:00"
+    },
+    {
+      "main_risk": "Observed treatment outcomes may be too confounded to serve as a valid reference for recommendation quality.",
+      "next_test": "Run the locked retrospective benchmark on an independent institution and temporal treatment-shift cohort, comparing selective risk and high-severity errors at matched coverage.",
+      "opponent": 59,
+      "outcome": "win",
+      "reason": "Abstention-calibrated recommendations offer broader reusable technology, stronger leakage-resistant validation, and a relatively cheap external-shift benchmark with explicit safety thresholds. The spatial project has greater assay, tissue, and therapeutic-cell attribution risk before its biological claim can be tested.",
+      "target": 99,
+      "timestamp": "2026-11-01T16:05:58.010781+00:00"
+    },
+    {
+      "main_risk": "Improved calibration or abstention may not translate into better treatment decisions because retrospective outcomes do not identify counterfactual treatment benefit.",
+      "next_test": "Evaluate locked treatment rankings and abstention on an independent cohort with indication-aware adjustment, matched coverage, calibration, and clinically weighted errors.",
+      "opponent": 53,
+      "outcome": "win",
+      "reason": "The recommendation problem has greater breadth, clearer generalizable safety value, and a stronger early decision framework than the highly protocol- and cohort-dependent bladder heterogeneity study. It also explicitly tests whether added complexity beats clinician, rule-based, and simple statistical baselines.",
+      "target": 99,
+      "timestamp": "2026-11-01T16:05:58.010801+00:00"
+    },
+    {
+      "main_risk": "Exposure correction may not improve tumor response, making pharmacokinetic variation a correlate rather than an actionable cause of resistance.",
+      "next_test": "Prospectively pair early pharmacokinetics, interaction review, genotype, pharmacodynamic inhibition, and serial ctDNA before any treatment change, then test response after prespecified exposure correction.",
+      "opponent": 103,
+      "outcome": "win",
+      "reason": "Phenoconversion addresses a specific, potentially reversible and clinically consequential failure mode with a clear mechanistic anchor and an early prospective test combining exposure, interactions, genotype, pharmacodynamics, and response. The recommendation project is broader but depends more heavily on confounded observational treatment comparisons and uncertain clinical utility.",
+      "target": 99,
+      "timestamp": "2026-11-01T16:05:58.010811+00:00"
+    },
+    {
+      "main_risk": "The recommendation benchmark may measure predictive association rather than causal treatment benefit under treatment and patient shifts.",
+      "next_test": "Run the prespecified independent-shift benchmark and determine whether abstention reduces severe errors at useful coverage while maintaining calibration.",
+      "opponent": 88,
+      "outcome": "win",
+      "reason": "Abstention-calibrated recommendations have a more attainable near-term validation path and broader technology utility. The chromatin counterfactual project has high discovery upside but requires several difficult assumptions about perturbation specificity, quantitative chromatin measurement, temporal identifiability, and transfer to unseen contexts.",
+      "target": 99,
+      "timestamp": "2026-11-01T16:05:58.010818+00:00"
+    },
+    {
+      "main_risk": "The glycolytic-inflammatory spatial program may be a cell-line or anatomical-site artifact that adds nothing beyond composition, tumor burden, or clinical covariates.",
+      "next_test": "Profile paired pretreatment and early on-treatment biopsies and test a locked spatial neighborhood score against clinical, anatomical-site, and composition-only baselines in both disease sites.",
+      "opponent": 18,
+      "outcome": "loss",
+      "reason": "The cholangiocarcinoma project has a tighter biological anchor, a coherent mechanism-to-measurement path, and useful outcomes even if the shared program fails, including separation of conserved from site-specific resistance biology. The recommendation project is broader, but its decision target is more vulnerable to confounding and uncertain counterfactual validity.",
+      "target": 99,
+      "timestamp": "2026-11-01T16:05:58.010825+00:00"
     }
   ],
   "k_factor": 24,
@@ -2740,9 +2740,9 @@
     },
     "103": {
       "draws": 0,
-      "games": 7,
-      "losses": 5,
-      "rating": 1466.42,
+      "games": 8,
+      "losses": 6,
+      "rating": 1455.22,
       "wins": 2
     },
     "104": {
@@ -2810,10 +2810,10 @@
     },
     "18": {
       "draws": 1,
-      "games": 30,
+      "games": 31,
       "losses": 16,
-      "rating": 1464.77,
-      "wins": 13
+      "rating": 1478.38,
+      "wins": 14
     },
     "19": {
       "draws": 0,
@@ -3076,9 +3076,9 @@
     },
     "53": {
       "draws": 0,
-      "games": 19,
-      "losses": 11,
-      "rating": 1465.89,
+      "games": 20,
+      "losses": 12,
+      "rating": 1454.31,
       "wins": 8
     },
     "54": {
@@ -3118,9 +3118,9 @@
     },
     "59": {
       "draws": 0,
-      "games": 13,
-      "losses": 8,
-      "rating": 1466.06,
+      "games": 14,
+      "losses": 9,
+      "rating": 1454.06,
       "wins": 5
     },
     "6": {
@@ -3342,9 +3342,9 @@
     },
     "88": {
       "draws": 0,
-      "games": 13,
-      "losses": 8,
-      "rating": 1466.8,
+      "games": 14,
+      "losses": 9,
+      "rating": 1455.97,
       "wins": 5
     },
     "89": {
@@ -3426,10 +3426,10 @@
     },
     "99": {
       "draws": 0,
-      "games": 5,
-      "losses": 4,
-      "rating": 1466.0,
-      "wins": 1
+      "games": 10,
+      "losses": 5,
+      "rating": 1498.0,
+      "wins": 5
     }
   },
   "version": 2
