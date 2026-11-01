@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Lymphocyte changes may mainly reflect adherence, infection, concomitant treatment, or measurement timing rather than anti-drug antibodies.",
-      "next_test": "In a patient-level retrospective cohort, test the prespecified early lymphocyte-change rule against clinical and treatment-history baselines for antibody positivity, including testing burden and calibration.",
-      "opponent": 83,
-      "outcome": "loss",
-      "reason": "Early lymphocyte trajectories address a concrete, actionable testing decision and have a cheaper seven-week readout, whereas methylation must overcome cell-composition, platform, and long-horizon calibration risks before demonstrating value beyond IPSS-M.",
-      "target": 81,
-      "timestamp": "2026-10-17T20:41:32.670805+00:00"
-    },
-    {
-      "main_risk": "The methylation score may add no reproducible calibrated decision value beyond IPSS-M after accounting for cell composition and site effects.",
-      "next_test": "Blindly reconstruct IPSS-M and add the fixed 55-CpG score in a patient-level retrospective cohort, testing calibration and decision curves at prespecified thresholds.",
-      "opponent": 82,
-      "outcome": "win",
-      "reason": "The methylation problem has a defined biomarker, established clinical comparator, peripheral-blood workflow, and an inexpensive early incremental-value test. Alexander disease has greater unmet need but rare, heterogeneous cohorts and multiple high-risk modality, developmental-outcome, and transportability assumptions.",
-      "target": 81,
-      "timestamp": "2026-10-17T20:41:32.670825+00:00"
-    },
-    {
-      "main_risk": "The methylation signal may be redundant with IPSS-M or be explained by blood-cell composition, batch, or site rather than patient-level progression risk.",
-      "next_test": "Perform blinded, patient-level reconstruction of IPSS-M plus the fixed methylation score and assess incremental calibration and net benefit before committing to external validation.",
-      "opponent": 62,
-      "outcome": "win",
-      "reason": "Methylation has a clearer clinical anchor, an established comparator, and a relatively direct path from retrospective evidence to an actionable validation decision. The tumor-lung interface project is mechanistically distinctive but depends on scarce independent specimens, distinguishing induced transition from selection or injury, and proving spatial generalizability.",
-      "target": 81,
-      "timestamp": "2026-10-17T20:41:32.670838+00:00"
-    },
-    {
-      "main_risk": "The methylation score may fail to improve clinically meaningful decisions despite improving statistical discrimination.",
-      "next_test": "Compare locked IPSS-M and IPSS-M-plus-methylation models in a patient- and site-aware retrospective cohort using calibration and decision curves, not discrimination alone.",
-      "opponent": 37,
-      "outcome": "win",
-      "reason": "The methylation project offers a focused and testable clinical increment with strong baselines and an early retrospective branch point. The virtual-cell project has potentially broader scientific impact, but its claims require coordinated multimodal measurements, reproducible perturbations, unseen-donor and unseen-perturbation validation, and prospective orthogonal falsification within six months.",
-      "target": 81,
-      "timestamp": "2026-10-17T20:41:32.670846+00:00"
-    },
-    {
-      "main_risk": "The methylation score may not transport or change management after accounting for IPSS-M and clinically relevant calibration.",
-      "next_test": "Run the locked IPSS-M versus IPSS-M-plus-methylation comparison in a patient-level cohort with prespecified treatment or monitoring thresholds and external-site calibration if available.",
-      "opponent": 73,
-      "outcome": "win",
-      "reason": "The methylation proposal has a specific reported signal, a strong established comparator, and a clearly defined incremental decision question. PCOS triage is more broadly applicable, but diagnostic-label dependence, cohort and missingness shifts, and uncertain referral thresholds make its apparent multimodal value especially vulnerable to spectrum and leakage artifacts.",
-      "target": 81,
-      "timestamp": "2026-10-17T20:41:32.670855+00:00"
-    },
-    {
       "main_risk": "Lymphocyte changes may be driven by infection, treatment timing, adherence, or concomitant medications and may not add value beyond routine monitoring.",
       "next_test": "Run the prespecified patient-level comparison of the early lymphocyte-change rule against clinical and treatment-history baselines, measuring calibration, decision-curve net benefit, and testing burden.",
       "opponent": 45,
@@ -2699,6 +2654,51 @@
       "reason": "The cholangiocarcinoma project has a tighter biological anchor, a coherent mechanism-to-measurement path, and useful outcomes even if the shared program fails, including separation of conserved from site-specific resistance biology. The recommendation project is broader, but its decision target is more vulnerable to confounding and uncertain counterfactual validity.",
       "target": 99,
       "timestamp": "2026-11-01T16:05:58.010825+00:00"
+    },
+    {
+      "main_risk": "CD44v9 perturbation may cause nonspecific toxicity or fail to reproduce across independent PDAC donors.",
+      "next_test": "In at least six independent PDO donors, test CD44v9 perturbation plus treatment versus treatment alone using both viability and post-washout regrowth.",
+      "opponent": 110,
+      "outcome": "win",
+      "reason": "CD44v9 causality has a clearer, faster donor-level perturbation test with informative positive, negative, and marker-only outcomes, whereas the osteosarcoma project depends on ctDNA detectability, multicenter harmonization, and later relapse readouts.",
+      "target": 108,
+      "timestamp": "2026-11-01T22:08:13.562459+00:00"
+    },
+    {
+      "main_risk": "Genome features may add only annotation or treatment-reporting opportunities rather than reproducible response information.",
+      "next_test": "Run the locked CD44v9 perturbation interaction test across independent PDO donors with orthogonal perturbation controls.",
+      "opponent": 109,
+      "outcome": "win",
+      "reason": "The CD44v9 project has a more focused causal anchor, nearer-term functional readout, and stronger useful branches. Genome-derived structural markers offer broad potential but face high overfitting, specimen-quality, treatment-confounding, and uncertain mechanistic-value risks.",
+      "target": 108,
+      "timestamp": "2026-11-01T22:08:13.562482+00:00"
+    },
+    {
+      "main_risk": "The CD44v9 effect may be context-specific or reflect stromal and immune remodeling rather than tumor-cell dependence.",
+      "next_test": "Measure treatment interaction after CD44v9 perturbation across independent donors and tumor-only, CAF, and immune-containing contexts.",
+      "opponent": 66,
+      "outcome": "win",
+      "reason": "CD44v9 offers a direct causal intervention and a defined early decision threshold, while architecture-aware glioblastoma prediction requires spatial features to transport across patients and sites beyond composition and clinical baselines.",
+      "target": 108,
+      "timestamp": "2026-11-01T22:08:13.562488+00:00"
+    },
+    {
+      "main_risk": "CD44v9 may be a marker of tolerant lineage rather than a therapeutically necessary state.",
+      "next_test": "Perform the prespecified six-donor perturbation-plus-treatment experiment and require concordance in viability and regrowth.",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "CD44v9 has the stronger current investment case because it tests a causal resistance mechanism with an early functional assay and clear pivot options. The hidradenitis project is clinically relevant but more dependent on reproducible tunnel-state classification, treatment heterogeneity, and observational prediction.",
+      "target": 108,
+      "timestamp": "2026-11-01T22:08:13.562493+00:00"
+    },
+    {
+      "main_risk": "The proposed GTP-mediated route may not be identifiable from the available perturbations and measurements, even if predictions fit expression data.",
+      "next_test": "Run the short time-course with ATP-synthase inhibition, GTP and exchange rescues, orthogonal metabolite and translation assays, and held-out rescue prediction.",
+      "opponent": 93,
+      "outcome": "win",
+      "reason": "CD44v9 is more tractable and decision-ready: its causal claim can be tested directly in patient-derived models. The virtual-cell project has broad technology upside but requires several difficult measurements and assumes causal intermediates are identifiable despite correlated metabolic and stress effects.",
+      "target": 108,
+      "timestamp": "2026-11-01T22:08:13.562499+00:00"
     }
   ],
   "k_factor": 24,
@@ -2773,12 +2773,33 @@
       "rating": 1452.99,
       "wins": 1
     },
+    "108": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1556.05,
+      "wins": 5
+    },
+    "109": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
+    },
     "11": {
       "draws": 1,
       "games": 29,
       "losses": 16,
       "rating": 1461.39,
       "wins": 12
+    },
+    "110": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
     },
     "12": {
       "draws": 0,
@@ -3174,9 +3195,9 @@
     },
     "66": {
       "draws": 0,
-      "games": 18,
-      "losses": 9,
-      "rating": 1499.07,
+      "games": 19,
+      "losses": 10,
+      "rating": 1487.92,
       "wins": 9
     },
     "67": {
@@ -3356,9 +3377,9 @@
     },
     "9": {
       "draws": 1,
-      "games": 33,
-      "losses": 16,
-      "rating": 1501.13,
+      "games": 34,
+      "losses": 17,
+      "rating": 1490.29,
       "wins": 16
     },
     "90": {
@@ -3384,9 +3405,9 @@
     },
     "93": {
       "draws": 0,
-      "games": 18,
-      "losses": 9,
-      "rating": 1501.17,
+      "games": 19,
+      "losses": 10,
+      "rating": 1490.7,
       "wins": 9
     },
     "94": {
