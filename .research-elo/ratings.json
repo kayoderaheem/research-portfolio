@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The absence of an independent reference standard for active disease may make labels circular or too uncertain for a trustworthy result.",
-      "next_test": "Build a blinded landmark cohort and compare MRI persistence alone with a prespecified clinical-plus-serial-MRI rule using adjudicated longitudinal outcomes and patient-level splits.",
-      "opponent": 77,
-      "outcome": "loss",
-      "reason": "Intracranial tuberculoma has a clearer decision anchor—active disease versus inactive residual lesion—and a more bounded validation problem. It can test whether serial clinical information adds value over MRI persistence without committing to a large multimodal treatment-effect program.",
-      "target": 79,
-      "timestamp": "2026-10-17T04:36:39.812691+00:00"
-    },
-    {
-      "main_risk": "The BCL2-high spatial association may be a correlate of aggressive tumor biology rather than a niche-mediated, therapeutically actionable mechanism.",
-      "next_test": "In paired diffuse gastric-cancer specimens, test whether a locked BCL2-high epithelial proximity score predicts early persistence beyond BCL2 abundance, proliferation, and clinical covariates, with independent replication.",
-      "opponent": 15,
-      "outcome": "loss",
-      "reason": "The gastric-cancer problem offers a more focused six-month path from spatial observation to mechanistic testing, with explicit abundance and proliferation baselines plus organoid–fibroblast perturbations. The sepsis proposal has greater potential clinical impact but depends on specifying a treatment pathway, acquiring synchronized multimodal longitudinal data, transporting assays, and identifying treatment benefit rather than prognosis.",
-      "target": 79,
-      "timestamp": "2026-10-17T04:36:39.812711+00:00"
-    },
-    {
-      "main_risk": "Spatial CAF–immune features may not replicate across specimens or may merely encode tumor composition, genotype, disease burden, or sampling variation.",
-      "next_test": "Use a paired pretreatment/early-treatment cohort to test a prespecified CAF–immune exclusion score against composition-only and clinical baselines with patient-level held-out validation and an independent specimen set.",
-      "opponent": 13,
-      "outcome": "loss",
-      "reason": "The lung adenocarcinoma problem has a clearer near-term discriminating experiment, stronger evidence readiness, and a manageable incremental question: whether spatial neighborhoods add calibrated patient-level value beyond composition and clinical variables. Pulmonary sepsis is clinically important, but its proposed multimodal treatment-selection endpoint and causal benefit estimand remain underdefined and technically demanding.",
-      "target": 79,
-      "timestamp": "2026-10-17T04:36:39.812720+00:00"
-    },
-    {
-      "main_risk": "Observed single-cell transitions may be treatment stress, cell-cycle effects, clonal selection, or residual burden rather than reproducible causal precursors of resistance.",
-      "next_test": "Profile matched pretreatment and early-treatment samples from independent PDAC donors and test whether a prespecified transition score predicts later regrowth beyond pretreatment composition, genotype, and baseline burden.",
-      "opponent": 7,
-      "outcome": "loss",
-      "reason": "The KRAS-transition problem is a better bounded discovery investment: it has a defined biological anchor, donor-level validation, temporal precedence, orthogonal assays, and actionable perturbation branches. The sepsis proposal has broader clinical stakes but combines several high-risk assumptions whose readouts depend on extensive cohorts, assay transport, and causal treatment-effect analysis.",
-      "target": 79,
-      "timestamp": "2026-10-17T04:36:39.812727+00:00"
-    },
-    {
-      "main_risk": "Pretreatment spatial architecture may be unstable within tumors or may proxy target density, immune abundance, tumor burden, or specimen quality rather than determine bispecific response.",
-      "next_test": "Fit prespecified nested patient-level models to determine whether stromal obstruction and target adjacency improve calibrated response prediction beyond target expression, composition, and clinical covariates, then test the locked score in an independent cohort.",
-      "opponent": 57,
-      "outcome": "loss",
-      "reason": "The stromal-architecture problem asks a focused incremental prediction question with explicit composition and target-expression baselines, patient-level leakage controls, functional penetration assays, and a feasible early branch. Pulmonary sepsis could matter more clinically, but its required multimodal data, treatment utility definition, and causal interpretation make six-month success substantially less likely.",
-      "target": 79,
-      "timestamp": "2026-10-17T04:36:39.812739+00:00"
-    },
-    {
       "main_risk": "The diagnostic reference standard and verification process may be incomplete or biased across sites, making apparent calibration and sensitivity gains unreliable.",
       "next_test": "Assemble a consecutive multicenter cohort and, before model fitting, audit complete reference imaging, blinded adjudication, assay comparability, and subgroup case ascertainment.",
       "opponent": 62,
@@ -2699,6 +2654,51 @@
       "reason": "Kinetic identifiability has a compact, mechanistically focused experiment with an early readout and broad relevance to causal virtual-cell modeling; the bone project requires more costly model, cohort, and laboratory coordination before its clinical value is clear.",
       "target": 105,
       "timestamp": "2026-10-31T19:21:24.651987+00:00"
+    },
+    {
+      "main_risk": "Flux parameters may be non-identifiable or add no information beyond abundance, exposure, and clinical covariates.",
+      "next_test": "Blindly compare nested flux, abundance, exposure, and clinical models in paired patient samples with an external-cohort holdout.",
+      "opponent": 101,
+      "outcome": "win",
+      "reason": "Flux signatures offer broader biological insight, a clearer early transportability test, and informative outcomes even if flux adds no value; the lymphoma project requires difficult longitudinal specimens and treatment-effect evidence.",
+      "target": 107,
+      "timestamp": "2026-11-01T00:11:08.604873+00:00"
+    },
+    {
+      "main_risk": "ATP, GTP, membrane potential, and translation effects may be too correlated to identify a specific causal route.",
+      "next_test": "Run an independent short time course with ATP-synthase inhibition, GTP and exchange rescues, matched controls, and orthogonal mediator assays.",
+      "opponent": 93,
+      "outcome": "loss",
+      "reason": "The virtual-cell problem has a cheaper eight-week perturbation-and-rescue test, a fixed mechanistic anchor, and reusable technology value, whereas flux analysis depends on complex tracer measurements and clinically heterogeneous samples.",
+      "target": 107,
+      "timestamp": "2026-11-01T00:11:08.604893+00:00"
+    },
+    {
+      "main_risk": "Spatial features may encode site, sampling geometry, or patient identity rather than transportable treatment biology.",
+      "next_test": "Estimate patient-level feature stability and incremental external-cohort performance against composition and clinical baselines using a locked feature set.",
+      "opponent": 66,
+      "outcome": "loss",
+      "reason": "Architecture-aware prediction has a more direct early stability test, strong patient-level validation structure, and a clear technology question about incremental information beyond composition; flux requires more specialized and potentially non-identifiable measurements.",
+      "target": 107,
+      "timestamp": "2026-11-01T00:11:08.604920+00:00"
+    },
+    {
+      "main_risk": "Predicted synergy may not transfer beyond related cell lines or may reflect additivity and assay scale rather than apoptosis mechanism.",
+      "next_test": "Blindly test locked combinations and dose ranges in unseen differentiation and p53 contexts using viability, apoptosis, and mitochondrial readouts.",
+      "opponent": 40,
+      "outcome": "loss",
+      "reason": "Context-aware combination screening can be tested prospectively with established pharmacologic baselines and orthogonal apoptosis assays, while flux signatures require harder-to-access tracer, exposure, and clinical sampling infrastructure.",
+      "target": 107,
+      "timestamp": "2026-11-01T00:11:08.604928+00:00"
+    },
+    {
+      "main_risk": "Tunnel IL-17/retinoid states may be inconsistent across patients or add no value beyond tunnel burden, inflammation, and clinical covariates.",
+      "next_test": "Apply a locked spatial classifier to pretreatment biopsies from patients starting standardized therapy and compare calibrated prediction with clinical and composition baselines.",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "The hidradenitis problem has credible patient value, a focused spatial anchor, and a relatively cheap ten-week patient-level prediction test; flux has broader scope but substantially greater measurement and identifiability risk.",
+      "target": 107,
+      "timestamp": "2026-11-01T00:11:08.604939+00:00"
     }
   ],
   "k_factor": 24,
@@ -2726,9 +2726,9 @@
     },
     "101": {
       "draws": 0,
-      "games": 9,
-      "losses": 5,
-      "rating": 1488.5,
+      "games": 10,
+      "losses": 6,
+      "rating": 1476.48,
       "wins": 4
     },
     "102": {
@@ -2768,10 +2768,10 @@
     },
     "107": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "games": 6,
+      "losses": 5,
+      "rating": 1452.99,
+      "wins": 1
     },
     "11": {
       "draws": 1,
@@ -2978,10 +2978,10 @@
     },
     "40": {
       "draws": 1,
-      "games": 32,
+      "games": 33,
       "losses": 16,
-      "rating": 1489.85,
-      "wins": 15
+      "rating": 1501.36,
+      "wins": 16
     },
     "41": {
       "draws": 0,
@@ -3174,10 +3174,10 @@
     },
     "66": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 9,
-      "rating": 1487.05,
-      "wins": 8
+      "rating": 1499.07,
+      "wins": 9
     },
     "67": {
       "draws": 0,
@@ -3356,10 +3356,10 @@
     },
     "9": {
       "draws": 1,
-      "games": 32,
+      "games": 33,
       "losses": 16,
-      "rating": 1490.02,
-      "wins": 15
+      "rating": 1501.13,
+      "wins": 16
     },
     "90": {
       "draws": 1,
@@ -3384,10 +3384,10 @@
     },
     "93": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 9,
-      "rating": 1488.78,
-      "wins": 8
+      "rating": 1501.17,
+      "wins": 9
     },
     "94": {
       "draws": 0,
