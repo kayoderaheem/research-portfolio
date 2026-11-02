@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The ERK/Fra-1 state may be a generic injury or pre-existing resistant-cell response rather than a reproducible fibroblast-mediated transition.",
-      "next_test": "Run the preregistered small matched longitudinal ex vivo study across independent metastasis specimens with untreated controls, viability/injury controls, and fibroblast-distance annotation.",
-      "opponent": 62,
-      "outcome": "loss",
-      "reason": "Reproducible tumor–lung interface states offer a broader mechanistic and resistance-monitoring payoff, with an 8-week matched-specimen test that can distinguish induction, stress artifact, spatial dependence, and residual viability. The Alexander disease project has strong clinical relevance but depends on scarce serial data, reliable developmental outcomes, and transportable multimodal prediction across sites.",
-      "target": 82,
-      "timestamp": "2026-10-18T04:41:54.763845+00:00"
-    },
-    {
-      "main_risk": "The PCOS diagnostic label or referral process may incorporate candidate predictors, creating leakage or eliminating genuine incremental value.",
-      "next_test": "Use a multicenter retrospective cohort with an independently adjudicated label and locked clinical-only, clinical-plus-hormone, and clinical-plus-lifestyle models, then compare calibration and net benefit at prespecified referral thresholds.",
-      "opponent": 73,
-      "outcome": "loss",
-      "reason": "PCOS triage has broader data and implementation feasibility, a clearer near-term decision threshold, and a relatively cheap nested-modality test of whether hormones or lifestyle data add value beyond routine variables. Alexander disease has greater unmet-need intensity but requires rare longitudinal cohorts, age-sensitive outcomes, and difficult external validation before a monitoring strategy is credible.",
-      "target": 82,
-      "timestamp": "2026-10-18T04:41:54.763864+00:00"
-    },
-    {
-      "main_risk": "A retrospective multimodal model may show apparent improvement from age, baseline severity, treatment exposure, or site effects without separating target engagement from clinical benefit.",
-      "next_test": "Evaluate locked clinical, GFAP-only, MRI-only, genotype-only, and multimodal models in nested patient-level validation, with calibration, decision curves, age/phenotype subgroup analysis, and strict post-outcome exclusion.",
-      "opponent": 37,
-      "outcome": "win",
-      "reason": "The Alexander disease problem has a fixed clinical anchor and an early retrospective test that can directly determine whether multimodal data improve prediction beyond clinical baseline. The virtual-cell project could yield more general scientific insight, but it combines difficult donor-blocked modeling, unseen perturbations, multiple regulatory modalities, prospective assays, and functional falsification, creating a longer chain of high-risk assumptions.",
-      "target": 82,
-      "timestamp": "2026-10-18T04:41:54.763872+00:00"
-    },
-    {
-      "main_risk": "Spatial architecture may merely proxy tumor burden, target density, specimen quality, or immune abundance rather than provide independent predictive information.",
-      "next_test": "Fit locked patient-level nested models in an existing treated cohort and test whether the prespecified spatial score improves calibration and decision value beyond target expression, composition, and clinical covariates.",
-      "opponent": 57,
-      "outcome": "loss",
-      "reason": "Pretreatment stromal architecture addresses a potentially general and actionable limitation of bispecific therapy, and its incremental value can be tested against strong composition and target-expression baselines before committing to complex mechanistic work. Alexander disease has higher direct clinical specificity, but its rare-cohort requirements and 12-month outcome dependence make success less likely within six months.",
-      "target": 82,
-      "timestamp": "2026-10-18T04:41:54.763878+00:00"
-    },
-    {
-      "main_risk": "The multimodal GFAP signal may not transport across age, phenotype, treatment exposure, assay workflow, and site, or may not add information beyond baseline clinical severity.",
-      "next_test": "Run the locked nested patient-level comparison of clinical, GFAP trajectory, MRI, genotype, and multimodal models, requiring reproducible incremental net benefit and acceptable calibration before pursuing external validation.",
-      "opponent": 7,
-      "outcome": "win",
-      "reason": "Alexander disease offers a clinically interpretable monitoring question with an inexpensive retrospective branch point and useful outcomes even if GFAP adds no information. KRAS adaptive-state work has substantial potential, but reproducibility, temporal precedence, spatial specificity, and pharmacologic actionability all require serial donor-level profiling and several orthogonal experiments before a durable resistance mechanism is established.",
-      "target": 82,
-      "timestamp": "2026-10-18T04:41:54.763884+00:00"
-    },
-    {
       "main_risk": "The methylation score may add no information beyond IPSS-M or may fail transport because of cell composition, batch, or site effects.",
       "next_test": "Reconstruct IPSS-M and the locked 55-CpG score in a patient-level retrospective cohort with blinded preprocessing, calibration, and decision-curve analysis.",
       "opponent": 40,
@@ -2699,6 +2654,51 @@
       "reason": "The FFPE genome problem has clearer treatment relevance, more mature clinical baselines, and a more actionable validation path, while fresh-to-fixed virtual-cell transport requires several high-risk assumptions about preserved perturbation biology and assay distortion.",
       "target": 109,
       "timestamp": "2026-11-02T06:19:41.620394+00:00"
+    },
+    {
+      "main_risk": "Baseline and relapse changes may reflect sampling, purity, lineage, or treatment exposure rather than therapy-selected resistance.",
+      "next_test": "Blind and lock analysis of paired baseline-relapse samples, then test salvage-response prediction in an independent patient-held-out cohort.",
+      "opponent": 101,
+      "outcome": "loss",
+      "reason": "Paired longitudinal lymphoma profiling has broader mechanistic and clinical value, stronger competitive differentiation, and a feasible retrospective held-out test before treatment-adaptation claims.",
+      "target": 110,
+      "timestamp": "2026-11-02T19:33:44.052766+00:00"
+    },
+    {
+      "main_risk": "ctDNA may be undetectable or unreliable in a substantial fraction of patients.",
+      "next_test": "Prospectively measure ctDNA detectability and early imaging changes against resection histology in a small multicenter cohort.",
+      "opponent": 109,
+      "outcome": "win",
+      "reason": "Osteosarcoma response concordance is more tightly anchored to a defined clinical decision and has a clearer disease-specific endpoint than the heterogeneous, assay-heavy genome-versus-exome proposal.",
+      "target": 110,
+      "timestamp": "2026-11-02T19:33:44.052780+00:00"
+    },
+    {
+      "main_risk": "Apparent excitation memory may actually reflect viability, cell cycle, batch, or current-state differences.",
+      "next_test": "Hold out an entire stimulation-recovery schedule and independent preparation, testing preparation-level trajectory error and uncertainty coverage against memoryless baselines.",
+      "opponent": 89,
+      "outcome": "loss",
+      "reason": "The virtual-cell problem offers more general discovery value, a direct identifiability test, and useful outcomes even if transfer fails, whereas the osteosarcoma study depends on several scarce multimodal measurements.",
+      "target": 110,
+      "timestamp": "2026-11-02T19:33:44.052789+00:00"
+    },
+    {
+      "main_risk": "Target engagement may not explain viability because lineage, co-mutations, exposure, or downstream bypass dominate response.",
+      "next_test": "Measure engagement, pathway suppression, and viability across matched isogenic mutation-defined models under controlled exposure.",
+      "opponent": 55,
+      "outcome": "loss",
+      "reason": "Mutation-specific target engagement links biochemical mechanism to cellular response and resistance, with focused causal experiments and broad reuse across mutation-directed therapies.",
+      "target": 110,
+      "timestamp": "2026-11-02T19:33:44.052793+00:00"
+    },
+    {
+      "main_risk": "The glycolytic-inflammatory spatial program may be an artifact of cell composition, anatomical site, or prolonged culture adaptation rather than conserved resistance biology.",
+      "next_test": "Test a prespecified spatial neighborhood score in pretreatment and early on-treatment patient biopsies with site-held-out validation.",
+      "opponent": 18,
+      "outcome": "loss",
+      "reason": "Spatial cholangiocarcinoma profiling addresses a potentially transferable tumor–microenvironment mechanism across anatomical sites and includes orthogonal functional validation, offering broader impact than the rare-disease endpoint study.",
+      "target": 110,
+      "timestamp": "2026-11-02T19:33:44.052797+00:00"
     }
   ],
   "k_factor": 24,
@@ -2726,10 +2726,10 @@
     },
     "101": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 6,
-      "rating": 1476.48,
-      "wins": 4
+      "rating": 1488.46,
+      "wins": 5
     },
     "102": {
       "draws": 0,
@@ -2782,9 +2782,9 @@
     },
     "109": {
       "draws": 0,
-      "games": 6,
-      "losses": 4,
-      "rating": 1477.6,
+      "games": 7,
+      "losses": 5,
+      "rating": 1465.13,
       "wins": 2
     },
     "11": {
@@ -2796,10 +2796,10 @@
     },
     "110": {
       "draws": 0,
-      "games": 2,
-      "losses": 2,
-      "rating": 1476.01,
-      "wins": 0
+      "games": 7,
+      "losses": 6,
+      "rating": 1441.77,
+      "wins": 1
     },
     "12": {
       "draws": 0,
@@ -2831,10 +2831,10 @@
     },
     "18": {
       "draws": 1,
-      "games": 31,
+      "games": 32,
       "losses": 16,
-      "rating": 1478.38,
-      "wins": 14
+      "rating": 1489.5,
+      "wins": 15
     },
     "19": {
       "draws": 0,
@@ -3111,10 +3111,10 @@
     },
     "55": {
       "draws": 0,
-      "games": 18,
+      "games": 19,
       "losses": 10,
-      "rating": 1478.14,
-      "wins": 8
+      "rating": 1489.67,
+      "wins": 9
     },
     "56": {
       "draws": 0,
@@ -3370,10 +3370,10 @@
     },
     "89": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 8,
-      "rating": 1474.19,
-      "wins": 6
+      "rating": 1486.27,
+      "wins": 7
     },
     "9": {
       "draws": 1,
