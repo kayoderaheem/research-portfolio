@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Lymphocyte changes may be driven by infection, treatment timing, adherence, or concomitant medications and may not add value beyond routine monitoring.",
-      "next_test": "Run the prespecified patient-level comparison of the early lymphocyte-change rule against clinical and treatment-history baselines, measuring calibration, decision-curve net benefit, and testing burden.",
-      "opponent": 45,
-      "outcome": "win",
-      "reason": "The lymphocyte-trajectory problem has a clearer near-term decision endpoint, a cheaper retrospective test, and fewer technical dependencies than functional screening in pediatric brain tumors, while still offering clinically actionable and generalizable biomarker insight.",
-      "target": 83,
-      "timestamp": "2026-10-17T23:11:03.009315+00:00"
-    },
-    {
-      "main_risk": "The lymphocyte trajectory may fail to remain calibrated across laboratories, sites, treatment durations, and confounding clinical contexts.",
-      "next_test": "Evaluate whether a locked early lymphocyte rule improves antibody-positivity decision value over clinical monitoring and treatment history in a retrospective longitudinal cohort with patient-level validation.",
-      "opponent": 53,
-      "outcome": "win",
-      "reason": "The natalizumab problem is more tractable and has an earlier, lower-cost discriminating test. The bladder-cancer heterogeneity problem depends on serial tissue comparability, reproducible heterogeneity measurement, and a still-uncertain treatment decision, creating more long-readout risk.",
-      "target": 83,
-      "timestamp": "2026-10-17T23:11:03.009335+00:00"
-    },
-    {
-      "main_risk": "Anti-drug-antibody testing may not be the right actionable intermediate endpoint, or the trigger may produce false positives without improving downstream management.",
-      "next_test": "Test the locked multimodal trigger against routine clinical monitoring for antibody positivity and net benefit without using future disease activity as a predictor.",
-      "opponent": 1,
-      "outcome": "loss",
-      "reason": "Time-constrained organoid profiling has potentially greater impact, but it requires successful rapid culture establishment, clinically relevant assay response, treatment-decision timing, and later patient-outcome readout. The lymphocyte project offers a simpler early test with a defined actionable endpoint and more useful stop-or-refine branches.",
-      "target": 83,
-      "timestamp": "2026-10-17T23:11:03.009345+00:00"
-    },
-    {
-      "main_risk": "The bazedoxifene-associated spatial state reversal may be marker suppression or animal-model-specific biology rather than meaningful tissue repair or a transportable principle.",
-      "next_test": "Reanalyze the supplied dataset with animal-level inference and test whether baseline spatial niches predict blinded histologic and collagen-remodeling outcomes in an independent induction batch.",
-      "opponent": 65,
-      "outcome": "loss",
-      "reason": "The spatial fibrosis problem has a real supplied-data advantage and a relatively cheap eight-week animal-level test, making it competitive despite weaker immediate clinical relevance. The natalizumab project requires broader longitudinal clinical data, external calibration, and proof that testing changes care; its feasibility is less established in the written proposal.",
-      "target": 83,
-      "timestamp": "2026-10-17T23:11:03.009352+00:00"
-    },
-    {
-      "main_risk": "The apparent lymphocyte signal may be explained by exposure, infection, adherence, or measurement timing and may not provide incremental decision value.",
-      "next_test": "Compare the prespecified lymphocyte trajectory plus exposure model with clinical and treatment-history baselines in a patient- and site-separated cohort, including calibration and decision-curve analysis.",
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "The natalizumab trajectory problem is the stronger six-month investment because it has a simpler patient-level endpoint, an inexpensive early retrospective test, and a more direct path to a calibrated clinical decision. The lung adenocarcinoma problem requires paired biopsies, cross-platform spatial reproducibility, external validation, and functional tumoroid confirmation, with several high-risk assumptions before clinical value can be established.",
-      "target": 83,
-      "timestamp": "2026-10-17T23:11:03.009359+00:00"
-    },
-    {
       "main_risk": "The ERK/Fra-1 state may be a generic injury or pre-existing resistant-cell response rather than a reproducible fibroblast-mediated transition.",
       "next_test": "Run the preregistered small matched longitudinal ex vivo study across independent metastasis specimens with untreated controls, viability/injury controls, and fibroblast-distance annotation.",
       "opponent": 62,
@@ -2699,6 +2654,51 @@
       "reason": "CD44v9 is more tractable and decision-ready: its causal claim can be tested directly in patient-derived models. The virtual-cell project has broad technology upside but requires several difficult measurements and assumes causal intermediates are identifiable despite correlated metabolic and stress effects.",
       "target": 108,
       "timestamp": "2026-11-01T22:08:13.562499+00:00"
+    },
+    {
+      "main_risk": "Structural features may not add reproducible treatment-response information after adjustment for specimen quality, treatment selection, and established biomarkers.",
+      "next_test": "Run the locked low-dimensional feature classifier with patient-level nested validation in matched FFPE genome/exome samples.",
+      "opponent": 110,
+      "outcome": "win",
+      "reason": "Genome-derived structural features offer broader potential clinical value and a clearer incremental-value test than the rare, measurement-intensive osteosarcoma multimodal endpoint problem.",
+      "target": 109,
+      "timestamp": "2026-11-02T06:19:41.620348+00:00"
+    },
+    {
+      "main_risk": "Genome-derived structural signals may be technically reproducible but biologically noninformative for response prediction.",
+      "next_test": "Test a preregistered compact structural-feature set against clinical, panel, and exome baselines in an independent patient-level cohort.",
+      "opponent": 66,
+      "outcome": "loss",
+      "reason": "The FFPE genome problem has a more direct precision-medicine endpoint, stronger established baselines, and a clearer path to clinically interpretable incremental value than architecture features whose transportability is explicitly uncertain.",
+      "target": 109,
+      "timestamp": "2026-11-02T06:19:41.620369+00:00"
+    },
+    {
+      "main_risk": "The apparent genome advantage may reflect annotation or interpretation opportunities rather than predictive biological information.",
+      "next_test": "Measure external reproducibility and treatment-response gain of locked structural features after controlling for FFPE quality and clinical covariates.",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "Genome-derived resistance markers address a broader treatment-selection problem with clearer external validation and decision relevance, whereas the hidradenitis proposal depends on a less established spatial state and forced pathway-treatment pairing.",
+      "target": 109,
+      "timestamp": "2026-11-02T06:19:41.620379+00:00"
+    },
+    {
+      "main_risk": "ATP, GTP, membrane potential, and mitochondrial translation may remain too correlated or insufficiently observable to identify a unique causal route.",
+      "next_test": "Run the preregistered short time course with ATP-synthase inhibition, GTP and exchange rescues, orthogonal mediator assays, and independent biological preparations.",
+      "opponent": 93,
+      "outcome": "loss",
+      "reason": "Mechanism-identifiable virtual cells provide a more general technology contribution and a cheaper, highly discriminating causal test with useful outcomes even if the proposed GTP mechanism fails; the FFPE project requires harder-to-secure matched clinical cohorts and delayed outcome readouts.",
+      "target": 109,
+      "timestamp": "2026-11-02T06:19:41.620387+00:00"
+    },
+    {
+      "main_risk": "Structural and copy-number calls from FFPE genome sequencing may not be sufficiently reproducible or incremental for response prediction.",
+      "next_test": "Evaluate a locked compact feature set in patient-level held-out matched samples, including orthogonal structural-call confirmation and calibration.",
+      "opponent": 92,
+      "outcome": "win",
+      "reason": "The FFPE genome problem has clearer treatment relevance, more mature clinical baselines, and a more actionable validation path, while fresh-to-fixed virtual-cell transport requires several high-risk assumptions about preserved perturbation biology and assay distortion.",
+      "target": 109,
+      "timestamp": "2026-11-02T06:19:41.620394+00:00"
     }
   ],
   "k_factor": 24,
@@ -2782,10 +2782,10 @@
     },
     "109": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 4,
+      "rating": 1477.6,
+      "wins": 2
     },
     "11": {
       "draws": 1,
@@ -2796,9 +2796,9 @@
     },
     "110": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
+      "games": 2,
+      "losses": 2,
+      "rating": 1476.01,
       "wins": 0
     },
     "12": {
@@ -3195,10 +3195,10 @@
     },
     "66": {
       "draws": 0,
-      "games": 19,
+      "games": 20,
       "losses": 10,
-      "rating": 1487.92,
-      "wins": 9
+      "rating": 1500.35,
+      "wins": 10
     },
     "67": {
       "draws": 0,
@@ -3377,10 +3377,10 @@
     },
     "9": {
       "draws": 1,
-      "games": 34,
+      "games": 35,
       "losses": 17,
-      "rating": 1490.29,
-      "wins": 16
+      "rating": 1502.21,
+      "wins": 17
     },
     "90": {
       "draws": 1,
@@ -3398,17 +3398,17 @@
     },
     "92": {
       "draws": 0,
-      "games": 14,
-      "losses": 7,
-      "rating": 1494.76,
+      "games": 15,
+      "losses": 8,
+      "rating": 1481.72,
       "wins": 7
     },
     "93": {
       "draws": 0,
-      "games": 19,
+      "games": 20,
       "losses": 10,
-      "rating": 1490.7,
-      "wins": 9
+      "rating": 1502.19,
+      "wins": 10
     },
     "94": {
       "draws": 0,
