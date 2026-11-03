@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The methylation score may add no information beyond IPSS-M or may fail transport because of cell composition, batch, or site effects.",
-      "next_test": "Reconstruct IPSS-M and the locked 55-CpG score in a patient-level retrospective cohort with blinded preprocessing, calibration, and decision-curve analysis.",
-      "opponent": 40,
-      "outcome": "win",
-      "reason": "The methylation problem has a clearer clinical anchor, an already defined score, patient-level leakage controls, and an inexpensive early test of incremental decision value beyond IPSS-M. The virtual-screening problem has broader technological upside but depends on multiple high-risk assumptions about context representation, synergy measurement, and transfer to donor-derived models.",
-      "target": 81,
-      "timestamp": "2026-10-18T11:17:18.300263+00:00"
-    },
-    {
-      "main_risk": "The methylation score may fail independent calibration or provide discrimination without clinically useful reclassification over IPSS-M.",
-      "next_test": "Run the prespecified nested IPSS-M versus IPSS-M-plus-methylation comparison with patient- and site-aware validation, including calibration and net benefit at clinical thresholds.",
-      "opponent": 27,
-      "outcome": "win",
-      "reason": "The methylation project offers a more bounded and immediately testable precision-medicine question with a fixed biomarker and an 8-week retrospective readout. The ICU project is highly relevant and data-accessible, but its temporal advantage may reflect measurement density, prior tuned baselines already challenge the model, and genuine third-database validation is uncertain.",
-      "target": 81,
-      "timestamp": "2026-10-18T11:17:18.300282+00:00"
-    },
-    {
-      "main_risk": "Peripheral-blood methylation may be a nontransportable proxy for leukocyte composition or cohort-specific processing rather than a stable patient-level signal.",
-      "next_test": "Test the locked methylation score beyond IPSS-M in a patient-level cohort with blinded preprocessing, measured cell-composition adjustment, and prespecified calibration and decision-curve criteria.",
-      "opponent": 78,
-      "outcome": "win",
-      "reason": "The methylation problem has a more mature, deployable measurement concept and a lower-cost earliest branch than multimodal airway prediction. Airway assessment could have substantial clinical value, but endpoint adjudication, ultrasound operator and device variability, acquisition feasibility, and optional facial or voice data create several coupled risks before incremental value can be established.",
-      "target": 81,
-      "timestamp": "2026-10-18T11:17:18.300290+00:00"
-    },
-    {
-      "main_risk": "The methylation score may not transport across sites, platforms, treatment eras, or clinically relevant risk groups.",
-      "next_test": "Perform an independent, patient-level validation of IPSS-M plus the 55-CpG score with platform concordance, subgroup calibration, and decision-curve analysis.",
-      "opponent": 63,
-      "outcome": "loss",
-      "reason": "The methylation project is the stronger six-month investment because it has a defined biomarker, established clinical comparator, cheaper early validation, and a direct decision-value endpoint. The UCHL1 spatial-neighborhood hypothesis is biologically compelling, but it requires costly tissue profiling, reproducible cell-state and spatial measurement, external cohort replication, and functional validation while remaining vulnerable to confounding by disease severity.",
-      "target": 81,
-      "timestamp": "2026-10-18T11:17:18.300295+00:00"
-    },
-    {
-      "main_risk": "Methylation may improve statistical discrimination while failing to change calibrated treatment or monitoring decisions.",
-      "next_test": "Use a locked 55-CpG score in a patient-level cohort to compare IPSS-M alone with the augmented model for calibration, reclassification, and net benefit at prespecified thresholds.",
-      "opponent": 55,
-      "outcome": "win",
-      "reason": "The methylation question is more decision-ready: it tests a specific incremental contribution to an established risk model and can produce an informative continue, refine, or stop result quickly. Mutation-specific target engagement has important mechanistic and translational potential, but it spans biochemical engagement, cellular context, lineage effects, exposure, and resistance evolution, with weaker evidence readiness and a longer chain of assumptions.",
-      "target": 81,
-      "timestamp": "2026-10-18T11:17:18.300302+00:00"
-    },
-    {
       "main_risk": "Treatment-induced single-cell states may be model-specific stress responses or clonal-selection signals rather than reproducible causal precursors of resistance.",
       "next_test": "Profile matched pretreatment and early on-treatment samples from several independent PDAC donors and test whether a locked transition score predicts later regrowth beyond pretreatment composition and genotype.",
       "opponent": 7,
@@ -2699,6 +2654,51 @@
       "reason": "Spatial cholangiocarcinoma profiling addresses a potentially transferable tumor–microenvironment mechanism across anatomical sites and includes orthogonal functional validation, offering broader impact than the rare-disease endpoint study.",
       "target": 110,
       "timestamp": "2026-11-02T19:33:44.052797+00:00"
+    },
+    {
+      "main_risk": "Cell-specific ASO measurements may reflect recovery, exposure, or composition artifacts rather than true niche-dependent engagement.",
+      "next_test": "Run the small matched pretreatment/on-treatment cohort with recovery controls and patient-level replication before building a predictive signature.",
+      "opponent": 113,
+      "outcome": "win",
+      "reason": "Cell-resolved ASO engagement has a clearer mechanistic anchor, a shorter discriminating experiment, and useful outcomes even if prediction fails. The lineage-transition project depends on difficult longitudinal sampling and several high-risk cross-patient reproducibility assumptions.",
+      "target": 111,
+      "timestamp": "2026-11-03T02:56:48.800665+00:00"
+    },
+    {
+      "main_risk": "The apparent cell-specific signal may disappear after correcting for target abundance, exposure, recovery, and tissue composition.",
+      "next_test": "Measure baseline state, spatial location, intracellular ASO, and target knockdown in a small matched cohort, then test reproducibility across treatment cohorts.",
+      "opponent": 112,
+      "outcome": "loss",
+      "reason": "The ASO problem more directly links a measurable mechanistic intermediate—cell-specific target engagement—to response and toxicity, with greater flexibility across targets and tissues. The electrochemotherapy project requires reproducible spatial geometry, early remodeling, and regional response prediction, with substantial lesion and patient heterogeneity.",
+      "target": 111,
+      "timestamp": "2026-11-03T02:56:48.800688+00:00"
+    },
+    {
+      "main_risk": "Cell-resolved engagement may be technically measurable but not reproducible or incrementally informative beyond bulk pharmacodynamics.",
+      "next_test": "Compare cell-resolved versus bulk engagement and composition in an independent matched treatment cohort using locked technical controls.",
+      "opponent": 66,
+      "outcome": "loss",
+      "reason": "Cell-resolved pharmacodynamics offers a more concrete biological readout and an earlier decision than architecture-aware glioblastoma prediction, whose transportability across institutions and cohorts is a central unresolved risk. The ASO study can still produce mechanistic value without a successful clinical predictor.",
+      "target": 111,
+      "timestamp": "2026-11-03T02:56:48.800696+00:00"
+    },
+    {
+      "main_risk": "Niche-associated ASO differences may not explain response or safety after technical and exposure confounding is removed.",
+      "next_test": "Test whether cell-specific uptake and target knockdown reproducibly explain response variance beyond bulk exposure and knockdown.",
+      "opponent": 40,
+      "outcome": "win",
+      "reason": "The ASO project has a more focused causal measurement and clearer early branch points. Virtual screening requires reliable synergy measurement, mechanistic biomarkers, context transfer beyond cell lines, and prospective validation in donor-derived or three-dimensional models, creating a longer chain of high-risk assumptions.",
+      "target": 111,
+      "timestamp": "2026-11-03T02:56:48.800704+00:00"
+    },
+    {
+      "main_risk": "Cell-resolved ASO activity may not add information beyond bulk exposure, target abundance, or tissue composition.",
+      "next_test": "Perform the prespecified matched cell-resolved engagement experiment with independent animal or donor-level replication and orthogonal target-engagement validation.",
+      "opponent": 105,
+      "outcome": "loss",
+      "reason": "The ASO problem is more tightly anchored to a measurable pharmacodynamic mechanism and offers broader portability across targets, tissues, and assay platforms. The myeloma project has strong clinical relevance but depends on maintaining patient cells, reproducing complex bone niches across laboratories, and linking ex vivo categories to outcomes.",
+      "target": 111,
+      "timestamp": "2026-11-03T02:56:48.800709+00:00"
     }
   ],
   "k_factor": 24,
@@ -2754,10 +2754,10 @@
     },
     "105": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 3,
-      "rating": 1498.59,
-      "wins": 3
+      "rating": 1510.64,
+      "wins": 4
     },
     "106": {
       "draws": 0,
@@ -2800,6 +2800,27 @@
       "losses": 6,
       "rating": 1441.77,
       "wins": 1
+    },
+    "111": {
+      "draws": 0,
+      "games": 5,
+      "losses": 3,
+      "rating": 1488.04,
+      "wins": 2
+    },
+    "112": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1512.41,
+      "wins": 1
+    },
+    "113": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
     },
     "12": {
       "draws": 0,
@@ -2999,9 +3020,9 @@
     },
     "40": {
       "draws": 1,
-      "games": 33,
-      "losses": 16,
-      "rating": 1501.36,
+      "games": 34,
+      "losses": 17,
+      "rating": 1488.89,
       "wins": 16
     },
     "41": {
@@ -3195,10 +3216,10 @@
     },
     "66": {
       "draws": 0,
-      "games": 20,
+      "games": 21,
       "losses": 10,
-      "rating": 1500.35,
-      "wins": 10
+      "rating": 1512.32,
+      "wins": 11
     },
     "67": {
       "draws": 0,
