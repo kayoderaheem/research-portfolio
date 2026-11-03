@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Treatment-induced single-cell states may be model-specific stress responses or clonal-selection signals rather than reproducible causal precursors of resistance.",
-      "next_test": "Profile matched pretreatment and early on-treatment samples from several independent PDAC donors and test whether a locked transition score predicts later regrowth beyond pretreatment composition and genotype.",
-      "opponent": 7,
-      "outcome": "loss",
-      "reason": "KRAS-state transitions offer a more differentiated mechanistic discovery problem with useful outcomes even if the favored transition fails, and donor-level serial profiling can directly test reproducibility and temporal precedence. The MASLD project has strong clinical framing but is a broad modality-selection exercise with substantial endpoint and harmonization risk.",
-      "target": 76,
-      "timestamp": "2026-10-18T15:56:32.900595+00:00"
-    },
-    {
-      "main_risk": "The MASLD fibrosis endpoint or reference standard may be inconsistent, unavailable without post-outcome information, or too weak to support transportable calibration.",
-      "next_test": "Run the locked multi-site nested comparison of the clinical-laboratory baseline with sequential imaging, genetic, lifestyle, and social additions, evaluating external-cohort calibration and threshold-specific net benefit.",
-      "opponent": 82,
-      "outcome": "win",
-      "reason": "MASLD provides a broader and more feasible multi-site decision problem with a clear routine clinical-laboratory baseline, identifiable acquisition tradeoffs, and an early retrospective test. Alexander disease has high patient value, but rare-disease sample size, developmental outcome reliability, treatment-induced GFAP confounding, and cross-site transportability create a longer high-risk chain.",
-      "target": 76,
-      "timestamp": "2026-10-18T15:56:32.900618+00:00"
-    },
-    {
-      "main_risk": "Spatial FADS1 or arachidonic-acid measurements may not be reproducible or biologically active enough to add information beyond immune composition and clinical covariates.",
-      "next_test": "Use pretreatment HCC tissue to test a prespecified metabolic-proximity feature against clinical and composition-only baselines, with technical replicates and orthogonal T-cell fitness measurements.",
-      "opponent": 10,
-      "outcome": "win",
-      "reason": "The MASLD project has a cheaper, clearer early decision and a direct clinical acquisition question with strong patient-level validation safeguards. The HCC niche project is more novel and mechanistically appealing, but it requires specialized spatial lipid measurements, adequate pretreatment tissue, reliable sampling, and both predictive and orthogonal mechanistic validation before its clinical relevance is established.",
-      "target": 76,
-      "timestamp": "2026-10-18T15:56:32.900625+00:00"
-    },
-    {
-      "main_risk": "Baseline chromatin or isoform measurements may add donor, batch, or cell-composition proxies without making regulatory perturbation effects identifiable.",
-      "next_test": "Collect donor-replicated baseline expression and chromatin data, freeze expression-only and multimodal models, and evaluate predictions on unseen perturbations with orthogonal chromatin, protein, isoform, or functional assays.",
-      "opponent": 37,
-      "outcome": "loss",
-      "reason": "The virtual-cell project has the strongest general scientific leverage and a fixed falsifiable anchor: whether regulatory-state measurements enable prospective, held-out perturbation prediction. It explicitly supports informative negative results and orthogonal validation, whereas the MASLD project is clinically useful but broader, more observational, and more dependent on endpoint and cohort harmonization.",
-      "target": 76,
-      "timestamp": "2026-10-18T15:56:32.900630+00:00"
-    },
-    {
-      "main_risk": "Candidate isoform switches may merely reflect subtype, spliceosome activity, purity, or resistant-clone expansion rather than isoform-specific drug-response mechanisms.",
-      "next_test": "Test recurrent switches in held-out matched sensitive and resistant pairs after adjustment for subtype and total gene expression, then confirm at least one switch with isoform-specific protein or interaction evidence.",
-      "opponent": 52,
-      "outcome": "win",
-      "reason": "MASLD has a clearer fixed decision, stronger immediate validation structure, and a more economical path to an actionable modality-acquisition recommendation. Isoform switching is potentially important and novel, but the proposal spans cancer types and drugs while requiring reproducible patient measurement, separation from subtype and clonal abundance, causal interaction evidence, and an actionable alternative treatment.",
-      "target": 76,
-      "timestamp": "2026-10-18T15:56:32.900636+00:00"
-    },
-    {
       "main_risk": "The BIS below 40 five-minute-ahead endpoint may not represent an actionable clinical decision, making predictive gains clinically irrelevant.",
       "next_test": "Run the prespecified patient-level, site-held-out comparison of BIS-only, BIS-plus-context, and multimodal models with alarm-cost decision analysis and clinician review of false alarms.",
       "opponent": 85,
@@ -2699,6 +2654,51 @@
       "reason": "The ASO problem is more tightly anchored to a measurable pharmacodynamic mechanism and offers broader portability across targets, tissues, and assay platforms. The myeloma project has strong clinical relevance but depends on maintaining patient cells, reproducing complex bone niches across laboratories, and linking ex vivo categories to outcomes.",
       "target": 111,
       "timestamp": "2026-11-03T02:56:48.800709+00:00"
+    },
+    {
+      "main_risk": "Matched minimal-residual-disease samples may be too heterogeneous or sparse to distinguish true transitions from sampling and purity effects.",
+      "next_test": "Build a blinded patient-level transition map from matched pretreatment and residual samples and test resistance prediction in held-out patients.",
+      "opponent": 111,
+      "outcome": "win",
+      "reason": "Patient-level longitudinal reproducibility and resistance prediction offer greater clinical and biological value than a technically demanding niche pharmacodynamic assay whose link to response remains uncertain.",
+      "target": 113,
+      "timestamp": "2026-11-03T10:59:07.219673+00:00"
+    },
+    {
+      "main_risk": "The apparent transition may not recur across patients, sites, or treatment intervals.",
+      "next_test": "Evaluate a locked transition classifier in held-out patients while controlling for site, purity, treatment timing, and baseline composition.",
+      "opponent": 101,
+      "outcome": "win",
+      "reason": "The EGFR project has a clearer early classifier test and a more actionable biological anchor, whereas lymphoma resistance timing requires difficult causal separation of selection, induction, and sampling effects before it can guide salvage therapy.",
+      "target": 113,
+      "timestamp": "2026-11-03T10:59:07.219692+00:00"
+    },
+    {
+      "main_risk": "The EGFR transition may be patient-specific rather than a reproducible cross-patient trajectory.",
+      "next_test": "Test the locked transition signature against clinical-genomic, composition-only, and single-feature baselines in independent patients.",
+      "opponent": 40,
+      "outcome": "win",
+      "reason": "The EGFR project addresses a clinically consequential, biologically grounded longitudinal problem; the virtual-screening proposal carries greater benchmark-to-translation risk and depends on several context and mechanism assumptions.",
+      "target": 113,
+      "timestamp": "2026-11-03T10:59:07.219701+00:00"
+    },
+    {
+      "main_risk": "Sampling and anatomical heterogeneity may overwhelm any shared EGFR resistance transition.",
+      "next_test": "Use matched pretreatment and minimal-residual-disease samples to test reproducibility and later resistance prediction in held-out patients.",
+      "opponent": 18,
+      "outcome": "loss",
+      "reason": "The EGFR proposal has stronger evidence readiness from longitudinal profiling and a more direct patient-level prediction question, while the cholangiocarcinoma project must first establish that cell-line-derived metabolic-inflammatory programs transfer across anatomical sites.",
+      "target": 113,
+      "timestamp": "2026-11-03T10:59:07.219711+00:00"
+    },
+    {
+      "main_risk": "Biochemical engagement may explain little beyond lineage, co-mutations, exposure, or uptake effects.",
+      "next_test": "Measure engagement, pathway suppression, and viability across a blinded mutation-defined panel and compare integrated models with mutation-only and context-only baselines.",
+      "opponent": 55,
+      "outcome": "loss",
+      "reason": "Mutation-specific target engagement is more directly testable with a focused panel, matched isogenic models, and orthogonal assays, providing earlier mechanistic decisions than the large longitudinal cohort required by the EGFR project.",
+      "target": 113,
+      "timestamp": "2026-11-03T10:59:07.219720+00:00"
     }
   ],
   "k_factor": 24,
@@ -2726,9 +2726,9 @@
     },
     "101": {
       "draws": 0,
-      "games": 11,
-      "losses": 6,
-      "rating": 1488.46,
+      "games": 12,
+      "losses": 7,
+      "rating": 1476.86,
       "wins": 5
     },
     "102": {
@@ -2803,9 +2803,9 @@
     },
     "111": {
       "draws": 0,
-      "games": 5,
-      "losses": 3,
-      "rating": 1488.04,
+      "games": 6,
+      "losses": 4,
+      "rating": 1476.04,
       "wins": 2
     },
     "112": {
@@ -2817,10 +2817,10 @@
     },
     "113": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "games": 6,
+      "losses": 3,
+      "rating": 1496.98,
+      "wins": 3
     },
     "12": {
       "draws": 0,
@@ -2852,10 +2852,10 @@
     },
     "18": {
       "draws": 1,
-      "games": 32,
+      "games": 33,
       "losses": 16,
-      "rating": 1489.5,
-      "wins": 15
+      "rating": 1502.65,
+      "wins": 16
     },
     "19": {
       "draws": 0,
@@ -3020,9 +3020,9 @@
     },
     "40": {
       "draws": 1,
-      "games": 34,
-      "losses": 17,
-      "rating": 1488.89,
+      "games": 35,
+      "losses": 18,
+      "rating": 1477.67,
       "wins": 16
     },
     "41": {
@@ -3132,10 +3132,10 @@
     },
     "55": {
       "draws": 0,
-      "games": 19,
+      "games": 20,
       "losses": 10,
-      "rating": 1489.67,
-      "wins": 9
+      "rating": 1502.36,
+      "wins": 10
     },
     "56": {
       "draws": 0,
