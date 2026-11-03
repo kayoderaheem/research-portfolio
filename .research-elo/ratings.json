@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The BIS below 40 five-minute-ahead endpoint may not represent an actionable clinical decision, making predictive gains clinically irrelevant.",
-      "next_test": "Run the prespecified patient-level, site-held-out comparison of BIS-only, BIS-plus-context, and multimodal models with alarm-cost decision analysis and clinician review of false alarms.",
-      "opponent": 85,
-      "outcome": "win",
-      "reason": "Vital-sign and medication signals offer a more tractable, decision-focused question with apparently available longitudinal data, strict patient/site-held-out validation, strong baselines, and an eight-week test. The SECmere project has greater possible biological and clinical impact but depends first on technically reproducible particle isolation, distinct biology, and costly external calibration.",
-      "target": 84,
-      "timestamp": "2026-10-18T20:51:43.959219+00:00"
-    },
-    {
-      "main_risk": "Adjustment may show that testosterone and creatinine add no transportable value beyond age and PSA, especially because creatinine may only reflect kidney dysfunction or referral-spectrum differences.",
-      "next_test": "Fit prespecified age- and renal-function-adjusted nested models on existing data and compare PSA-only, age-plus-PSA, and multimarker decision curves at clinically relevant biopsy thresholds.",
-      "opponent": 86,
-      "outcome": "win",
-      "reason": "The PSA, age, testosterone, and creatinine problem has a cheap early readout using existing measurements and directly tests whether an apparent signal survives age and renal-function adjustment. It addresses an important and potentially equitable biopsy-triage need, whereas the anesthesia project has stronger data readiness but a questionable surrogate endpoint and substantial synchronization and cross-site calibration demands.",
-      "target": 84,
-      "timestamp": "2026-10-18T20:51:43.959242+00:00"
-    },
-    {
-      "main_risk": "The deep-anesthesia warning target may be a surrogate without a credible intervention pathway, so even a calibrated multimodal predictor may not change care.",
-      "next_test": "Use available anesthesia time series for an eight-week patient-level and site-held-out alarm-cost comparison against BIS-only and BIS-plus-context baselines.",
-      "opponent": 62,
-      "outcome": "win",
-      "reason": "The anesthesia project has a clearer early decision, more accessible validation path, and lower experimental risk. The tumor-lung ERK project could yield a more novel mechanistic insight, but it requires independent specimens, reliable longitudinal spatial measurement, proof of induction rather than selection, causal fibroblast-FGFR evidence, and cross-platform replication.",
-      "target": 84,
-      "timestamp": "2026-10-18T20:51:43.959253+00:00"
-    },
-    {
-      "main_risk": "The BIS threshold may not map to a clinically actionable intervention, weakening the claimed precision-medicine value.",
-      "next_test": "Perform the locked eight-week patient/site-held-out evaluation with prespecified warning thresholds, calibration, false-alarm burden, and clinician adjudication of candidate warnings.",
-      "opponent": 53,
-      "outcome": "win",
-      "reason": "The anesthesia question can be tested rapidly with available time-series data and has a concrete modality-ablation and alarm-utility design. The bladder-cancer heterogeneity project has potentially greater clinical impact, but serial sampling, lesion comparability, necrosis and tissue-quality effects, and a sufficiently harmonized treated cohort create more high-risk dependencies before a trustworthy result is possible.",
-      "target": 84,
-      "timestamp": "2026-10-18T20:51:43.959260+00:00"
-    },
-    {
-      "main_risk": "Available anesthesia data may not support genuinely independent site-held-out validation, leaving only a retrospective benchmark gain without clinical credibility.",
-      "next_test": "Verify cohort and site availability, then run the locked BIS-only versus multimodal patient-level analysis with external-site calibration and prespecified net-benefit thresholds.",
-      "opponent": 45,
-      "outcome": "win",
-      "reason": "The anesthesia project is the stronger near-term investment because it has clearer data readiness, simpler assay requirements, and an early independent-site decision test. Functional screening in pediatric brain tumors has exceptional potential impact, but the evidence is exploratory, the assay and treatment-ranking chain is fragile, pediatric cohorts are small, and culture conditions and treatment selection may dominate any apparent signal.",
-      "target": 84,
-      "timestamp": "2026-10-18T20:51:43.959267+00:00"
-    },
-    {
       "main_risk": "For issue 86, adjustment for age, renal function, comorbidity, and referral-spectrum bias may eliminate the apparent incremental value of testosterone and creatinine.",
       "next_test": "Run the prespecified patient-level nested comparison of PSA alone, age plus PSA, and the multimarker model on existing data, with calibration and decision curves at fixed biopsy-referral thresholds.",
       "opponent": 85,
@@ -2699,6 +2654,51 @@
       "reason": "Mutation-specific target engagement is more directly testable with a focused panel, matched isogenic models, and orthogonal assays, providing earlier mechanistic decisions than the large longitudinal cohort required by the EGFR project.",
       "target": 113,
       "timestamp": "2026-11-03T10:59:07.219720+00:00"
+    },
+    {
+      "main_risk": "Reproducible spatial relationships may not exist across patients or may encode site and sampling architecture rather than biology.",
+      "next_test": "Estimate patient-level feature stability and batch predictability in leave-one-patient-out analyses before fitting response models.",
+      "opponent": 66,
+      "outcome": "loss",
+      "reason": "Glioblastoma architecture-aware prediction offers a more reusable technology question with explicit transportability, batch controls, and independent-cohort validation, while remaining flexible about assay and endpoint.",
+      "target": 112,
+      "timestamp": "2026-11-03T19:33:07.405700+00:00"
+    },
+    {
+      "main_risk": "Spatial remodeling may not add information beyond composition, lesion size, or patient-level severity.",
+      "next_test": "Run locked composition-only versus spatial models in held-out patients using baseline and early-treatment lesions.",
+      "opponent": 105,
+      "outcome": "win",
+      "reason": "Electrochemotherapy has a clearer longitudinal patient-level design, matched treated and untreated lesions, and a cheaper incremental-value test; the 3D myeloma project adds substantial cross-laboratory model and clinical-correlation risk.",
+      "target": 112,
+      "timestamp": "2026-11-03T19:33:07.405724+00:00"
+    },
+    {
+      "main_risk": "The apparent spatial signal may be explained by composition, lesion size, or sampling rather than interaction geometry.",
+      "next_test": "Test a prespecified immune-front score against composition and clinical baselines with patient-level held-out validation and spatial permutation controls.",
+      "opponent": 57,
+      "outcome": "win",
+      "reason": "The electrochemotherapy problem has stronger direct longitudinal evidence and a more defined response-prediction anchor, whereas the bispecific-antibody project relies heavily on transferring organoid architecture effects to patient tissue and requires a longer assay-development path.",
+      "target": 112,
+      "timestamp": "2026-11-03T19:33:07.405733+00:00"
+    },
+    {
+      "main_risk": "The spatial association may fail to replicate across animals or represent marker suppression rather than meaningful tissue repair.",
+      "next_test": "Repeat the most informative pretreatment-to-early-treatment time points across independent induction batches with collagen architecture and blinded histology.",
+      "opponent": 65,
+      "outcome": "win",
+      "reason": "Electrochemotherapy addresses a clinically relevant patient-level response question with matched lesion outcomes and an explicit transportability path; the fibrosis project is primarily a mouse mechanistic study whose predictive and clinical relevance remain less established.",
+      "target": 112,
+      "timestamp": "2026-11-03T19:33:07.405745+00:00"
+    },
+    {
+      "main_risk": "CAF–immune spatial features may not provide transportable predictive value beyond tumor-intrinsic state and composition.",
+      "next_test": "Evaluate a locked CAF–immune exclusion score in paired patient samples using patient-level held-out calibration and an independent specimen set.",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "Electrochemotherapy is more tightly anchored to a defined longitudinal clinical setting and has a cheaper discriminating test, while the lung adenocarcinoma project combines uncertain therapy choice, paired biopsies, spatial profiling, and tumoroid validation.",
+      "target": 112,
+      "timestamp": "2026-11-03T19:33:07.405752+00:00"
     }
   ],
   "k_factor": 24,
@@ -2754,9 +2754,9 @@
     },
     "105": {
       "draws": 0,
-      "games": 7,
-      "losses": 3,
-      "rating": 1510.64,
+      "games": 8,
+      "losses": 4,
+      "rating": 1498.29,
       "wins": 4
     },
     "106": {
@@ -2810,10 +2810,10 @@
     },
     "112": {
       "draws": 0,
-      "games": 1,
-      "losses": 0,
-      "rating": 1512.41,
-      "wins": 1
+      "games": 6,
+      "losses": 1,
+      "rating": 1547.81,
+      "wins": 5
     },
     "113": {
       "draws": 0,
@@ -2831,9 +2831,9 @@
     },
     "13": {
       "draws": 0,
-      "games": 37,
-      "losses": 18,
-      "rating": 1520.45,
+      "games": 38,
+      "losses": 19,
+      "rating": 1509.0,
       "wins": 19
     },
     "15": {
@@ -3146,9 +3146,9 @@
     },
     "57": {
       "draws": 0,
-      "games": 24,
-      "losses": 12,
-      "rating": 1505.18,
+      "games": 25,
+      "losses": 13,
+      "rating": 1493.44,
       "wins": 12
     },
     "58": {
@@ -3209,17 +3209,17 @@
     },
     "65": {
       "draws": 0,
-      "games": 18,
-      "losses": 8,
-      "rating": 1520.38,
+      "games": 19,
+      "losses": 9,
+      "rating": 1508.52,
       "wins": 10
     },
     "66": {
       "draws": 0,
-      "games": 21,
+      "games": 22,
       "losses": 10,
-      "rating": 1512.32,
-      "wins": 11
+      "rating": 1524.32,
+      "wins": 12
     },
     "67": {
       "draws": 0,
