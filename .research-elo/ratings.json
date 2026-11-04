@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "For issue 86, adjustment for age, renal function, comorbidity, and referral-spectrum bias may eliminate the apparent incremental value of testosterone and creatinine.",
-      "next_test": "Run the prespecified patient-level nested comparison of PSA alone, age plus PSA, and the multimarker model on existing data, with calibration and decision curves at fixed biopsy-referral thresholds.",
-      "opponent": 85,
-      "outcome": "win",
-      "reason": "Issue 86 has a narrower but clinically concrete question, likely accessible individual-level data, strong baselines, and an inexpensive age- and renal-function-adjusted analysis that can quickly determine whether the biomarkers add decision value. Issue 85 has higher potential impact, but its central particle-fraction distinction, assay reproducibility, biological specificity, and cross-site calibration require several high-risk technical steps before a credible result.",
-      "target": 86,
-      "timestamp": "2026-10-18T23:19:31.559670+00:00"
-    },
-    {
-      "main_risk": "For issue 86, the apparent biomarker associations may be entirely explained by age, renal dysfunction, comorbidity, or referral-spectrum bias.",
-      "next_test": "Analyze the existing cohort with locked age- and renal-function-adjusted patient-level validation, comparing PSA and age baselines against the multimarker model for calibration, sensitivity, and net benefit.",
-      "opponent": 53,
-      "outcome": "win",
-      "reason": "Issue 86 offers a cheap, well-defined early test using established clinical measurements and can produce useful outcomes even if the biomarkers fail. Issue 53 has important potential clinical value, but serial heterogeneity is vulnerable to sampling variation, necrosis, assay reproducibility, and treatment-specific availability, with a longer and more demanding validation chain.",
-      "target": 86,
-      "timestamp": "2026-10-18T23:19:31.559689+00:00"
-    },
-    {
-      "main_risk": "For issue 86, the incremental signal may disappear after rigorous adjustment for age, kidney function, comorbidity, and spectrum differences.",
-      "next_test": "Perform the locked patient-level analysis of existing PSA, testosterone, creatinine, age, and renal-function data against strong PSA-based baselines, using prespecified decision thresholds.",
-      "opponent": 62,
-      "outcome": "win",
-      "reason": "Issue 86 has a clearer clinical anchor, lower technical burden, and an early analysis capable of supporting continue, pivot, or stop decisions within six months. Issue 62 could yield a more mechanistic and generalizable resistance insight, but it depends on scarce matched specimens, reproducible spatial measurements, proof of induction rather than selection, and cross-specimen FGFR causality.",
-      "target": 86,
-      "timestamp": "2026-10-18T23:19:31.559703+00:00"
-    },
-    {
-      "main_risk": "For issue 37, multimodal features may capture donor, batch, or cell-composition proxies without identifying perturbation-specific regulatory effects, leaving apparent prediction gains non-mechanistic.",
-      "next_test": "Run a small donor-replicated perturbation panel and compare frozen expression-only and multimodal models on held-out donors and perturbations using simple baselines before expanding modalities or model complexity.",
-      "opponent": 37,
-      "outcome": "loss",
-      "reason": "Issue 37 addresses a broader and potentially more consequential scientific problem: whether multimodal baseline state measurements make virtual-cell perturbation predictions falsifiable and transferable. Its prospective donor- and perturbation-held-out design, strong baselines, and orthogonal validation create useful branches even if the favored model fails, whereas issue 86 is more immediately tractable but likely offers a narrower incremental biomarker result.",
-      "target": 86,
-      "timestamp": "2026-10-18T23:19:31.559710+00:00"
-    },
-    {
-      "main_risk": "For issue 86, rigorous adjustment and external validation may show that testosterone and creatinine provide no clinically meaningful value beyond age and PSA.",
-      "next_test": "Reanalyze an existing patient-level cohort with locked comparisons of PSA alone, age plus PSA, and the testosterone-creatinine model, preserving assay failures and evaluating calibration, sensitivity, and decision curves.",
-      "opponent": 45,
-      "outcome": "win",
-      "reason": "Issue 86 has a more economical and decision-ready six-month path: the clinical endpoint, baseline comparators, leakage controls, and earliest discriminating analysis are explicit. Issue 45 has greater potential clinical impact, but pediatric sample scarcity, assay failure and culture effects, treatment-selection bias, and the need to show value beyond genomic matching create several high-risk dependencies before functional screening can credibly alter treatment decisions.",
-      "target": 86,
-      "timestamp": "2026-10-18T23:19:31.559717+00:00"
-    },
-    {
       "main_risk": "SECmere measurements may reflect isolation batch effects, unequal RNA yield, or contamination rather than a transportable biological compartment.",
       "next_test": "Run the blinded 10-week paired pilot with patient-level separation, technical replicates, clinical and small-EV baselines, and prespecified calibration and triage-benefit thresholds.",
       "opponent": 50,
@@ -2699,6 +2654,51 @@
       "reason": "Electrochemotherapy is more tightly anchored to a defined longitudinal clinical setting and has a cheaper discriminating test, while the lung adenocarcinoma project combines uncertain therapy choice, paired biopsies, spatial profiling, and tumoroid validation.",
       "target": 112,
       "timestamp": "2026-11-03T19:33:07.405752+00:00"
+    },
+    {
+      "main_risk": "The DOK3 transition may be macrophage abundance, tumor burden, or interferon exposure rather than an independent response determinant.",
+      "next_test": "Profile blinded paired baseline and early on-treatment biopsies from approximately 25 checkpoint-treated patients using a locked DOK3/CARD9 spatial panel.",
+      "opponent": 116,
+      "outcome": "win",
+      "reason": "114 has a clearer, more clinically anchored biological problem, stronger patient-level validation plan, and a feasible early test. 116 depends on scarce multicenter paired samples and a difficult niche-plus-clonotype signal in a heterogeneous disease.",
+      "target": 114,
+      "timestamp": "2026-11-04T01:27:08.432440+00:00"
+    },
+    {
+      "main_risk": "The spatial macrophage transition may not replicate across patients or improve prediction beyond composition and clinical covariates.",
+      "next_test": "Run the prespecified blinded paired-biopsy spatial assay and compare the transition against composition-only baselines.",
+      "opponent": 115,
+      "outcome": "win",
+      "reason": "114 offers a more reproducible and actionable biomarker question with a shorter path to patient-level evidence. 115 adds high-risk assumptions about invasive-front definition, fibroblast-state transfer, MYC dependence, and access to treated PDAC specimens and functional models.",
+      "target": 114,
+      "timestamp": "2026-11-04T01:27:08.432455+00:00"
+    },
+    {
+      "main_risk": "The DOK3/CARD9 state may fail to show independent, reproducible relevance to T-cell access or response.",
+      "next_test": "Test the locked spatial transition score in paired biopsies, explicitly comparing it with macrophage abundance and established response signatures.",
+      "opponent": 105,
+      "outcome": "win",
+      "reason": "114 has a stronger early decision point and a clearer biological anchor, with useful outcomes if the transition is noncausal or nonpredictive. 105 has broad technology potential but requires difficult patient-sample maintenance, cross-laboratory harmonization, and proof that 3D discordance predicts clinical outcomes.",
+      "target": 114,
+      "timestamp": "2026-11-04T01:27:08.432463+00:00"
+    },
+    {
+      "main_risk": "The macrophage program may be only a correlate of disease composition and provide no incremental predictive value.",
+      "next_test": "Evaluate the locked transition score in a blinded patient-level cohort against clinical, composition-only, and established checkpoint-response baselines.",
+      "opponent": 99,
+      "outcome": "win",
+      "reason": "114 addresses a specific, biologically testable resistance state and can generate mechanistic and biomarker value without requiring immediate clinical decision automation. 99 has broad potential but its evaluation is highly confounded by treatment selection, outcome interpretability, distribution shift, and the gap between retrospective recommendation benchmarks and clinical safety.",
+      "target": 114,
+      "timestamp": "2026-11-04T01:27:08.432467+00:00"
+    },
+    {
+      "main_risk": "DOK3/CARD9 expression or spatial transition may not represent a reproducible or functionally relevant determinant of checkpoint response.",
+      "next_test": "Use independent paired biopsies to test whether the transition is reproducible and predicts response beyond macrophage abundance and tumor composition.",
+      "opponent": 93,
+      "outcome": "win",
+      "reason": "114 is more investment-ready because its anchor, patient-level unit, early test, and validation branches are comparatively concrete. 93 could yield major general insight, but causal identifiability requires extensive matched metabolite, translation, rescue, dose, and context data, with several correlated mechanisms capable of explaining the same observations.",
+      "target": 114,
+      "timestamp": "2026-11-04T01:27:08.432472+00:00"
     }
   ],
   "k_factor": 24,
@@ -2754,9 +2754,9 @@
     },
     "105": {
       "draws": 0,
-      "games": 8,
-      "losses": 4,
-      "rating": 1498.29,
+      "games": 9,
+      "losses": 5,
+      "rating": 1487.16,
       "wins": 4
     },
     "106": {
@@ -2821,6 +2821,27 @@
       "losses": 3,
       "rating": 1496.98,
       "wins": 3
+    },
+    "114": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1555.97,
+      "wins": 5
+    },
+    "115": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
+    },
+    "116": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
     },
     "12": {
       "draws": 0,
@@ -3426,9 +3447,9 @@
     },
     "93": {
       "draws": 0,
-      "games": 20,
-      "losses": 10,
-      "rating": 1502.19,
+      "games": 21,
+      "losses": 11,
+      "rating": 1491.68,
       "wins": 10
     },
     "94": {
@@ -3468,9 +3489,9 @@
     },
     "99": {
       "draws": 0,
-      "games": 10,
-      "losses": 5,
-      "rating": 1498.0,
+      "games": 11,
+      "losses": 6,
+      "rating": 1487.26,
       "wins": 5
     }
   },
