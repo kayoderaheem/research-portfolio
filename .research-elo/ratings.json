@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "SECmere measurements may reflect isolation batch effects, unequal RNA yield, or contamination rather than a transportable biological compartment.",
-      "next_test": "Run the blinded 10-week paired pilot with patient-level separation, technical replicates, clinical and small-EV baselines, and prespecified calibration and triage-benefit thresholds.",
-      "opponent": 50,
-      "outcome": "win",
-      "reason": "SECmere RNA has a narrower, more testable incremental-value question with a blinded paired pilot, explicit clinical endpoint, and early technical readout. The tamoxifen project requires integrating longitudinal pharmacokinetics, adherence, germline variation, tumor evolution, ancestry calibration, and outcomes, creating a longer chain of confounding and missing-data assumptions before a useful decision is possible.",
-      "target": 85,
-      "timestamp": "2026-10-19T04:50:21.098340+00:00"
-    },
-    {
-      "main_risk": "The required on-treatment phosphoproteomic and exposure measurements may not be reproducible or temporally interpretable in available clinical specimens.",
-      "next_test": "Collect baseline and first-cycle specimens with matched drug levels and test reproducibility and target-proximal signal suppression before building a resistance classifier.",
-      "opponent": 49,
-      "outcome": "win",
-      "reason": "The Alzheimer’s triage problem offers a clearer early decision, a clinically defined endpoint, strong simple baselines, and a relatively contained validation path. Exposure-adjusted phosphoproteomics could be highly impactful, but it depends on obtaining well-timed paired specimens and drug exposure, interpreting phosphosites despite heterogeneity and stress responses, and functionally validating resistance mechanisms within six months.",
-      "target": 85,
-      "timestamp": "2026-10-19T04:50:21.098362+00:00"
-    },
-    {
-      "main_risk": "The apparent SECmere advantage may disappear after controlling for particle isolation quality, RNA quantity, contamination, and site-specific processing effects.",
-      "next_test": "Perform the blinded paired SECmere versus small-EV pilot with technical replicates and patient-level nested validation, requiring improvement beyond clinical plus small-EV baselines.",
-      "opponent": 64,
-      "outcome": "win",
-      "reason": "SECmere RNA has a more actionable and economical earliest test for incremental clinical decision value, with a defined triage use and explicit calibration safeguards. The STING project has strong discovery potential, but it relies on rare paired osteosarcoma specimens, reproducible spatial neighborhoods, a treatment-induced trajectory, and sufficient temporal linkage to response, making several high-risk assumptions necessary before the biological claim can be established.",
-      "target": 85,
-      "timestamp": "2026-10-19T04:50:21.098372+00:00"
-    },
-    {
-      "main_risk": "SECmere RNA may not represent a biologically distinct, reproducible compartment once preanalytic and site effects are controlled.",
-      "next_test": "Test locked SECmere and small-EV models in a blinded paired cohort with site-stratified calibration, technical replicate concordance, and a prespecified triage decision threshold.",
-      "opponent": 8,
-      "outcome": "win",
-      "reason": "The Alzheimer’s project has a more fixed clinical anchor, a cheaper early discriminating experiment, and a direct incremental-value comparison against established clinical and EV baselines. The ALK niche project could generate broader mechanistic insight, but anatomical site, treatment history, lesion sampling, and assay-platform effects are difficult to disentangle, and transport across metastatic compartments is a major unresolved assumption.",
-      "target": 85,
-      "timestamp": "2026-10-19T04:50:21.098382+00:00"
-    },
-    {
-      "main_risk": "SECmere RNA may show apparent discrimination without independent-site calibration or decision benefit beyond clinical variables and conventional EV RNA.",
-      "next_test": "Use a blinded paired pilot to compare SECmere, small-EV, and clinical models, requiring technical reproducibility and incremental calibrated triage benefit before external validation.",
-      "opponent": 53,
-      "outcome": "win",
-      "reason": "SECmere RNA offers a more generalizable particle-compartment question, an explicit clinical use, and a relatively cheap early branch point. The bladder-cancer heterogeneity project is tightly coupled to a specific treatment and serial tissue protocol, while repeat sampling, necrosis, and spatial heterogeneity may make the measured change an unreliable indicator of residual resistant disease.",
-      "target": 85,
-      "timestamp": "2026-10-19T04:50:21.098392+00:00"
-    },
-    {
       "main_risk": "BIS below 40 may be a clinically weak surrogate, so predictive improvement may not translate into an actionable intervention.",
       "next_test": "Run the preregistered patient-level, site-held-out comparison of BIS-only, BIS-plus-context, and multimodal models with calibration and alarm-cost net benefit.",
       "opponent": 63,
@@ -2699,6 +2654,51 @@
       "reason": "114 is more investment-ready because its anchor, patient-level unit, early test, and validation branches are comparatively concrete. 93 could yield major general insight, but causal identifiability requires extensive matched metabolite, translation, rescue, dose, and context data, with several correlated mechanisms capable of explaining the same observations.",
       "target": 114,
       "timestamp": "2026-11-04T01:27:08.432472+00:00"
+    },
+    {
+      "main_risk": "MYC-treated patient tissue and matched context-preserving functional assays may be unavailable or too heterogeneous for a reliable patient-level interaction.",
+      "next_test": "Run the prespecified 30-specimen localization, CAF-context, target-engagement, and matched short-term explant experiment with patient-level analysis.",
+      "opponent": 116,
+      "outcome": "win",
+      "reason": "The invasive-front problem has broader biological and translational insight, a clearer context-versus-aggressiveness test, and strong orthogonal validation branches; the mastitis project has high clinical value but depends on a smaller, harder-to-standardize cohort and spatial niche reproducibility.",
+      "target": 115,
+      "timestamp": "2026-11-04T11:04:52.366007+00:00"
+    },
+    {
+      "main_risk": "Retrospective treatment outcomes may be too confounded and incomplete to support clinically meaningful recommendation-error evaluation.",
+      "next_test": "Evaluate frozen abstaining and forced systems on an independent-institution and temporal-shift cohort at matched coverage, measuring high-severity errors and calibration.",
+      "opponent": 99,
+      "outcome": "loss",
+      "reason": "Abstention-calibrated recommendations offer broader reusable technology value and a relatively cheap, decisive external benchmark with strong simple and clinical baselines; the pancreatic project requires substantially more specialized tissue, treatment, and functional infrastructure before its central interaction can be tested.",
+      "target": 115,
+      "timestamp": "2026-11-04T11:04:52.366022+00:00"
+    },
+    {
+      "main_risk": "Three-dimensional niche effects may reflect platform variability, drug penetration, or selection rather than clinically relevant microenvironment-mediated resistance.",
+      "next_test": "Perform blinded paired two-dimensional versus bone-mimetic testing across two laboratories using two mechanistically distinct therapies and patient-level replication.",
+      "opponent": 105,
+      "outcome": "loss",
+      "reason": "The bone-niche problem has a clean fixed anchor, a direct paired assay comparison, a short eight-week discriminating experiment, and useful mechanistic outcomes even if prediction fails; the pancreatic study has greater dependence on scarce treated specimens and several linked spatial and organoid assumptions.",
+      "target": 115,
+      "timestamp": "2026-11-04T11:04:52.366027+00:00"
+    },
+    {
+      "main_risk": "Spatial context may only mark aggressive disease, with no reproducible causal or predictive interaction with MYC inhibition.",
+      "next_test": "Measure the spatial interaction and MYC target engagement in pretreatment specimens paired with short-term fibroblast-preserving and fibroblast-disrupted explants.",
+      "opponent": 89,
+      "outcome": "win",
+      "reason": "The pancreatic problem has a clearer clinical endpoint, stronger immediate translational relevance, and an explicit competing explanation that can be tested with matched context-preserving assays; the virtual-cell project requires several high-risk assumptions about latent history, identifiability, extrapolation, and cross-context transfer.",
+      "target": 115,
+      "timestamp": "2026-11-04T11:04:52.366033+00:00"
+    },
+    {
+      "main_risk": "Matrix GTP depletion may not be experimentally separable from ATP, membrane-potential, or nonspecific mitochondrial-stress effects.",
+      "next_test": "Run the preregistered independent-preparation time course with ATP-synthase inhibition, GTP and exchange rescues, matched controls, and orthogonal metabolite and translation assays.",
+      "opponent": 93,
+      "outcome": "loss",
+      "reason": "The bioenergetic virtual-cell problem is more tightly anchored to a falsifiable causal mechanism, has a relatively cheap rescue-based early test, and can yield informative results from either confirmation or refutation; the pancreatic project depends on scarce clinical cohorts and a longer chain from spatial association to treatment prediction.",
+      "target": 115,
+      "timestamp": "2026-11-04T11:04:52.366036+00:00"
     }
   ],
   "k_factor": 24,
@@ -2754,10 +2754,10 @@
     },
     "105": {
       "draws": 0,
-      "games": 9,
+      "games": 10,
       "losses": 5,
-      "rating": 1487.16,
-      "wins": 4
+      "rating": 1499.19,
+      "wins": 5
     },
     "106": {
       "draws": 0,
@@ -2831,16 +2831,16 @@
     },
     "115": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 4,
+      "rating": 1476.4,
+      "wins": 2
     },
     "116": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
+      "games": 2,
+      "losses": 2,
+      "rating": 1476.01,
       "wins": 0
     },
     "12": {
@@ -3412,9 +3412,9 @@
     },
     "89": {
       "draws": 0,
-      "games": 15,
-      "losses": 8,
-      "rating": 1486.27,
+      "games": 16,
+      "losses": 9,
+      "rating": 1473.91,
       "wins": 7
     },
     "9": {
@@ -3447,10 +3447,10 @@
     },
     "93": {
       "draws": 0,
-      "games": 21,
+      "games": 22,
       "losses": 11,
-      "rating": 1491.68,
-      "wins": 10
+      "rating": 1503.56,
+      "wins": 11
     },
     "94": {
       "draws": 0,
@@ -3489,10 +3489,10 @@
     },
     "99": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 6,
-      "rating": 1487.26,
-      "wins": 5
+      "rating": 1499.71,
+      "wins": 6
     }
   },
   "version": 2
