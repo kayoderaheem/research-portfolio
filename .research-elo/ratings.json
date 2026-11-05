@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "H2Aub depletion may produce nonspecific stress or context-specific effects rather than a transferable regulatory hierarchy.",
-      "next_test": "Run a small matched perturbation pilot with early time points, viability and chromatin-integrity controls, and preregistered direct-target predictions in one held-out lineage.",
-      "opponent": 54,
-      "outcome": "win",
-      "reason": "The chromatin project has a clearer causal discovery anchor, a prospective unseen-context falsification test, and informative outcomes even if the hierarchy fails. The T-cell project has greater potential clinical value but depends on difficult, poorly identifiable tumor specificity and cross-assay persistence measurement.",
-      "target": 88,
-      "timestamp": "2026-10-20T08:39:44.342493+00:00"
-    },
-    {
-      "main_risk": "The H2Aub-centered mechanism may not generalize beyond its discovery developmental context.",
-      "next_test": "Measure early transcriptional and chromatin responses to acute H2Aub depletion in an independent lineage without using that lineage for training, including inactive-tag and rescue controls.",
-      "opponent": 62,
-      "outcome": "loss",
-      "reason": "The chromatin project can test a general causal question with controlled perturbation, rescue, temporal resolution, and strong negative controls. The tumor–lung project is narrower and requires several linked assumptions—reproducible spatial induction, true transition rather than selection, fibroblast causality, and cross-specimen generalization—before it supports a useful resistance marker.",
-      "target": 88,
-      "timestamp": "2026-10-20T08:39:44.342514+00:00"
-    },
-    {
-      "main_risk": "Chromatin occupancy and accessibility measurements may be insufficiently quantitative or temporally resolved to identify causality.",
-      "next_test": "Benchmark replicate concordance and detection limits, then test preregistered early direct-target direction changes after acute perturbation in held-out preparations.",
-      "opponent": 11,
-      "outcome": "win",
-      "reason": "The chromatin study offers broader mechanistic insight and a more direct test of causal transferability than the blinatumomab study. The latter's spatial neighborhoods may correlate with response without identifying functional T-cell access, and tissue sampling, assay reproducibility, and treatment-response heterogeneity create substantial readout risk.",
-      "target": 88,
-      "timestamp": "2026-10-20T08:39:44.342521+00:00"
-    },
-    {
-      "main_risk": "Ex vivo drug sensitivity may primarily reflect tissue quality or culture adaptation rather than patient-specific treatment response.",
-      "next_test": "Lock assay processing and drug-ranking rules, preserve failed assays as missingness, and compare genomic-only versus genomic-plus-screening predictions and decision curves in patient-held-out outcomes.",
-      "opponent": 45,
-      "outcome": "loss",
-      "reason": "Functional screening addresses a consequential treatment-selection decision and has a relatively cheap, patient-level retrospective test against genomic matching and clinical baselines. The chromatin project has higher discovery novelty, but its biological hierarchy, perturbation safety, cross-context transfer, and model identifiability require a longer chain of high-risk evidence before practical value is established.",
-      "target": 88,
-      "timestamp": "2026-10-20T08:39:44.342526+00:00"
-    },
-    {
-      "main_risk": "The required fibrosis endpoint may be noisy, inconsistently measured, or partly incorporate information unavailable at decision time.",
-      "next_test": "Lock the fibrosis endpoint and assess its reliability, then run a patient- and site-held-out comparison of the routine clinical-laboratory baseline versus sequential modality additions at a prespecified threshold.",
-      "opponent": 76,
-      "outcome": "win",
-      "reason": "The chromatin project has a stronger fixed scientific anchor and can reveal general causal principles, with clear branches for refining marks, contexts, or endpoints. The MASLD project has credible clinical relevance but its benefit depends on a reliable fibrosis reference standard, adequate cross-site harmonization, and incremental modality value that may be modest after a strong routine-data baseline.",
-      "target": 88,
-      "timestamp": "2026-10-20T08:39:44.342532+00:00"
-    },
-    {
       "main_risk": "The difficult-airway endpoint and ultrasound measurements may be inconsistently defined or reproducible across operators and sites, eliminating incremental decision value.",
       "next_test": "Run the prespecified patient-level pilot comparing clinical predictors with clinical plus ultrasound, using blinded endpoint adjudication, operator/device metadata, calibration, and decision-curve net benefit.",
       "opponent": 78,
@@ -2699,15 +2654,60 @@
       "reason": "The glioma proposal has higher potential clinical impact, stronger evidence readiness, and a more developed validation framework; mastitis currently relies on a small post-treatment dataset and an unestablished pretreatment niche.",
       "target": 119,
       "timestamp": "2026-11-05T11:05:58.066771+00:00"
+    },
+    {
+      "main_risk": "HEV–TLS maturity may proxy immune abundance, tissue quality, or treatment selection rather than add independent information.",
+      "next_test": "Blinded patient-level comparison of prespecified HEV–TLS scores with composition and clinical baselines in pretreatment samples.",
+      "opponent": 117,
+      "outcome": "win",
+      "reason": "The HEV–TLS question has a clearer pretreatment predictive anchor, a cheaper 8-week patient-level test, and fewer alignment assumptions than treatment-induced state transitions.",
+      "target": 118,
+      "timestamp": "2026-11-05T20:02:30.941993+00:00"
+    },
+    {
+      "main_risk": "Spatial features may fail to improve calibrated prediction beyond composition and clinical covariates.",
+      "next_test": "Evaluate locked niche scores against composition-only and clinical models in an independent cohort with calibration and decision-curve analysis.",
+      "opponent": 99,
+      "outcome": "win",
+      "reason": "The spatial niche problem is narrower but more empirically testable and biologically anchored than treatment recommendation technology requiring causal adjustment, uncertainty validation, and credible clinical utility under shifts.",
+      "target": 118,
+      "timestamp": "2026-11-05T20:02:30.942015+00:00"
+    },
+    {
+      "main_risk": "HEV–TLS measurements may not reproduce across spatial platforms or demonstrate independent predictive value.",
+      "next_test": "Test prespecified HEV–TLS maturity scores against composition and clinical baselines in pretreatment samples with an independent-cohort check.",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "The HEV–TLS problem offers a cheaper, cleaner early decision and a more focused transportability question; the CAF–immune project adds functional tumoroids and paired changes but depends on more high-risk tissue, platform, and model assumptions.",
+      "target": 118,
+      "timestamp": "2026-11-05T20:02:30.942025+00:00"
+    },
+    {
+      "main_risk": "Endothelial maturation may reflect inflammation, tumor subtype, or sampling rather than treatment-relevant immune access.",
+      "next_test": "Run a blinded patient-level pretreatment analysis comparing HEV–TLS scores with immune composition and clinical covariates.",
+      "opponent": 65,
+      "outcome": "win",
+      "reason": "The breast cancer problem has stronger patient-level clinical relevance and validation potential, whereas the fibrosis proposal is anchored to a murine model and bazedoxifene with a larger translational gap.",
+      "target": 118,
+      "timestamp": "2026-11-05T20:02:30.942033+00:00"
+    },
+    {
+      "main_risk": "Required paired breast tumor tissue and independent treatment-response cohorts may be unavailable or underpowered.",
+      "next_test": "Test locked HEV–TLS scores in pretreatment specimens against clinical and composition-only baselines, preserving patient-level separation.",
+      "opponent": 1,
+      "outcome": "win",
+      "reason": "The spatial predictor has a more achievable early readout and less dependence on rapid organoid establishment, clinically actionable turnaround, and correlation between ex vivo drug response and patient benefit.",
+      "target": 118,
+      "timestamp": "2026-11-05T20:02:30.942040+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 39,
-      "losses": 19,
-      "rating": 1520.51,
+      "games": 40,
+      "losses": 20,
+      "rating": 1509.79,
       "wins": 20
     },
     "10": {
@@ -2845,17 +2845,17 @@
     },
     "117": {
       "draws": 0,
-      "games": 5,
-      "losses": 2,
-      "rating": 1512.07,
+      "games": 6,
+      "losses": 3,
+      "rating": 1500.08,
       "wins": 3
     },
     "118": {
       "draws": 0,
-      "games": 1,
+      "games": 6,
       "losses": 0,
-      "rating": 1512.41,
-      "wins": 1
+      "rating": 1568.43,
+      "wins": 6
     },
     "119": {
       "draws": 0,
@@ -2873,9 +2873,9 @@
     },
     "13": {
       "draws": 0,
-      "games": 38,
-      "losses": 19,
-      "rating": 1509.0,
+      "games": 39,
+      "losses": 20,
+      "rating": 1497.93,
       "wins": 19
     },
     "15": {
@@ -3251,9 +3251,9 @@
     },
     "65": {
       "draws": 0,
-      "games": 19,
-      "losses": 9,
-      "rating": 1508.52,
+      "games": 20,
+      "losses": 10,
+      "rating": 1497.84,
       "wins": 10
     },
     "66": {
@@ -3510,9 +3510,9 @@
     },
     "99": {
       "draws": 0,
-      "games": 13,
-      "losses": 6,
-      "rating": 1511.71,
+      "games": 14,
+      "losses": 7,
+      "rating": 1500.15,
       "wins": 7
     }
   },
