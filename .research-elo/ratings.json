@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Spatial measurements may not contain enough reproducible information to identify within-cell redistribution beyond abundance and composition.",
-      "next_test": "Use existing paired spatial-perturbation data with replicate-level, perturbation/context-held-out evaluation to compare against count-only, resampling, and transport baselines before generating new data.",
-      "opponent": 88,
-      "outcome": "win",
-      "reason": "Spatial identifiability is a clearer, more flexible technology problem with broader reuse, explicit separation of abundance, composition, and localization, and strong early baselines. The H2Aub proposal is tied to a specific and high-risk causal hierarchy whose generality and perturbation interpretability are uncertain.",
-      "target": 87,
-      "timestamp": "2026-10-19T20:37:32.406245+00:00"
-    },
-    {
-      "main_risk": "Unseen-context spatial prediction may fail because source observations do not identify perturbation-induced localization changes under genuine distribution shift.",
-      "next_test": "Run a locked retrospective holdout by perturbation and cellular context, with independent-control scoring and radial/compartment metrics, before commissioning a new held-out panel.",
-      "opponent": 89,
-      "outcome": "win",
-      "reason": "The spatial proposal has a stronger fixed anchor, broader technology impact, better-specified leakage controls and baselines, and a more direct early falsification path. The stress-history project depends on demonstrating latent memory beyond current state, separating it from viability and generic stress, and transferring across neuronal preparations and schedules.",
-      "target": 87,
-      "timestamp": "2026-10-19T20:37:32.406269+00:00"
-    },
-    {
-      "main_risk": "The diagnostic endpoint or candidate features may be label-derived or otherwise leak the specialist assessment, making apparent incremental value non-actionable.",
-      "next_test": "In an independent multicenter retrospective cohort, preregister the endpoint and fit locked clinical/reproductive, plus-hormone, plus-lifestyle models with patient-level cross-fitting, calibration, and decision-curve analysis.",
-      "opponent": 73,
-      "outcome": "loss",
-      "reason": "PCOS triage offers credible near-term clinical value and a relatively cheap, decision-oriented test of incremental information from hormones and lifestyle features. Its patient-level nested validation and external recalibration plan directly address whether added modalities change referral decisions, whereas the spatial project requires difficult paired imaging data and costly prospective validation.",
-      "target": 87,
-      "timestamp": "2026-10-19T20:37:32.406280+00:00"
-    },
-    {
-      "main_risk": "The spatial virtual-cell model may show no identifiable localization signal after controlling for abundance, composition, imaging geometry, and batch.",
-      "next_test": "Benchmark the proposed spatial score on existing patient-level or replicate-level data against composition-only, target-expression, resampling, and transport baselines using destroyed-adjacency controls.",
-      "opponent": 57,
-      "outcome": "win",
-      "reason": "Spatial virtual-cell identifiability is broader and more differentiated than a narrow bispecific-response application, with a clearer reusable framework and useful outcomes even when prediction fails. The stromal proposal has important clinical relevance but depends on unstable tissue sampling, a likely treatment-specific cohort, a reduced assay, and transfer from architecture to functional drug penetration.",
-      "target": 87,
-      "timestamp": "2026-10-19T20:37:32.406288+00:00"
-    },
-    {
-      "main_risk": "Multimodal regulatory measurements may add only donor, batch, or composition proxies rather than information about intervention responses.",
-      "next_test": "Freeze expression-only and multimodal models on donor-blocked data and test a small replicated perturbation panel with preregistered orthogonal chromatin or localization endpoints.",
-      "opponent": 37,
-      "outcome": "win",
-      "reason": "The spatial proposal has a more stable scientific anchor and a more bounded measurement target than the multimodal regulatory-state project, which spans chromatin, isoforms, translation, function, and multiple perturbation classes. It therefore offers a cheaper and clearer earliest decision while retaining broad methodological value.",
-      "target": 87,
-      "timestamp": "2026-10-19T20:37:32.406298+00:00"
-    },
-    {
       "main_risk": "The apparent history signal may be explained by viability, cell cycle, batch, or calcium differences rather than a latent excitation-memory state.",
       "next_test": "Hold out one complete stimulation and recovery schedule, then test whether history-aware predictions improve preparation-level module and recovery-trajectory error over memoryless baselines in an independent neuronal preparation.",
       "opponent": 88,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 89 poses a general scientific question about whether perturbation history is identifiable, has a flexible model-independent anchor, and offers a relatively cheap decisive schedule-holdout experiment; issue 116 is more clinically valuable but substantially more dependent on scarce samples and complex assays.",
       "target": 116,
       "timestamp": "2026-11-04T19:50:57.177822+00:00"
+    },
+    {
+      "main_risk": "The choice would change if issue 119 already had an accessible, adequately powered independent virotherapy cohort while issue 117 lacked paired gastric samples.",
+      "next_test": "Run a small locked replication of candidate transitions in available paired gastric tumors and compare against pretreatment composition.",
+      "opponent": 119,
+      "outcome": "win",
+      "reason": "Issue 117 offers broader discovery value and a flexible patient-level anchor, whereas issue 119 depends on scarce paired spatial glioma specimens and several high-risk assumptions about early treatment changes and incremental prediction.",
+      "target": 117,
+      "timestamp": "2026-11-05T01:29:51.368944+00:00"
+    },
+    {
+      "main_risk": "The choice would change if HEV-TLS scores fail reproducibility across sections or provide no incremental value beyond immune composition.",
+      "next_test": "Blindly test prespecified HEV-TLS maturity scores in pretreatment breast sections with linked outcomes against composition and clinical baselines.",
+      "opponent": 118,
+      "outcome": "loss",
+      "reason": "Issue 118 has a clearer, more measurable tissue-context anchor, a cheaper pretreatment-first test, and an unusually direct route to cross-resolution validation; issue 117 requires reliable inference of transitions despite survival, proliferation, and batch confounding.",
+      "target": 117,
+      "timestamp": "2026-11-05T01:29:51.368968+00:00"
+    },
+    {
+      "main_risk": "The choice would change if retrospective treatment outcomes cannot support credible indication-aware comparisons or if abstention reduces coverage without reducing severe errors.",
+      "next_test": "Evaluate locked abstention thresholds on an independent institution and temporal treatment-shift cohort against strong clinical and molecular baselines.",
+      "opponent": 99,
+      "outcome": "loss",
+      "reason": "Issue 99 addresses a broadly reusable safety capability and has a concrete retrospective benchmark with selective-risk, calibration, and external-shift readouts; issue 117 is biologically valuable but depends on difficult paired sampling and cross-patient transition identification.",
+      "target": 117,
+      "timestamp": "2026-11-05T01:29:51.368978+00:00"
+    },
+    {
+      "main_risk": "The choice would change if a two-laboratory pilot shows reproducible niche-discordance phenotypes with clear patient-level signal.",
+      "next_test": "Run blinded paired 2D and bone-mimetic 3D responses for two drugs across two laboratories using reference controls.",
+      "opponent": 105,
+      "outcome": "win",
+      "reason": "Issue 117 is less dependent on building and standardizing a variable three-dimensional assay across laboratories, while retaining broad discovery value and useful atlas-level outcomes if universal transitions fail. Issue 105 has several sequential high-risk assumptions before clinical relevance can be established.",
+      "target": 117,
+      "timestamp": "2026-11-05T01:29:51.368986+00:00"
+    },
+    {
+      "main_risk": "The choice would change if tunnel states replicate across donors and predict response beyond tunnel burden and clinical severity in an accessible cohort.",
+      "next_test": "Apply a locked tunnel-state classifier to pretreatment biopsies from patients starting standardized therapy and compare with clinical and composition baselines.",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "Issue 117 has stronger evidence readiness, broader generality, and a more transferable scientific question. Issue 9 depends on reproducible tunnel-state classification, pathway causality, standardized treatment, and clinically informative biopsies in a heterogeneous chronic disease.",
+      "target": 117,
+      "timestamp": "2026-11-05T01:29:51.368993+00:00"
     }
   ],
   "k_factor": 24,
@@ -2754,9 +2754,9 @@
     },
     "105": {
       "draws": 0,
-      "games": 10,
-      "losses": 5,
-      "rating": 1499.19,
+      "games": 11,
+      "losses": 6,
+      "rating": 1486.79,
       "wins": 5
     },
     "106": {
@@ -2842,6 +2842,27 @@
       "losses": 4,
       "rating": 1485.66,
       "wins": 3
+    },
+    "117": {
+      "draws": 0,
+      "games": 5,
+      "losses": 2,
+      "rating": 1512.07,
+      "wins": 3
+    },
+    "118": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1512.41,
+      "wins": 1
+    },
+    "119": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
     },
     "12": {
       "draws": 0,
@@ -3419,9 +3440,9 @@
     },
     "9": {
       "draws": 1,
-      "games": 35,
-      "losses": 17,
-      "rating": 1502.21,
+      "games": 36,
+      "losses": 18,
+      "rating": 1490.13,
       "wins": 17
     },
     "90": {
@@ -3489,10 +3510,10 @@
     },
     "99": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 6,
-      "rating": 1499.71,
-      "wins": 6
+      "rating": 1511.71,
+      "wins": 7
     }
   },
   "version": 2
