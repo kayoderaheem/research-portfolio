@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The apparent history signal may be explained by viability, cell cycle, batch, or calcium differences rather than a latent excitation-memory state.",
-      "next_test": "Hold out one complete stimulation and recovery schedule, then test whether history-aware predictions improve preparation-level module and recovery-trajectory error over memoryless baselines in an independent neuronal preparation.",
-      "opponent": 88,
-      "outcome": "win",
-      "reason": "Issue 89 has a clearer, more flexible anchor and an earlier prospective test of whether stimulation history adds predictive information beyond current state. Issue 88 depends on a narrow H2Aub-centered causal hierarchy, multiple quantitative chromatin assays, rescue experiments, and cross-context transfer before producing a reliable conclusion.",
-      "target": 89,
-      "timestamp": "2026-10-20T00:25:25.249695+00:00"
-    },
-    {
-      "main_risk": "The neuronal history effect may not remain identifiable after controlling for viability, cell cycle, calcium activity, batch, and current expression state.",
-      "next_test": "Run the locked multischedule prediction test with preparation-level splits, comparing history-aware and memoryless models on an unseen recovery schedule and independent preparation.",
-      "opponent": 76,
-      "outcome": "win",
-      "reason": "Issue 89 offers a general discovery question with a defined identifiability criterion, strong controls, flexible experimental choices, and informative outcomes if transfer fails. Issue 76 has greater direct clinical potential but depends on access to a reliable fibrosis endpoint, harmonized multisite measurements, external cohorts, and an acquisition pathway that may make apparent multimodal gains difficult to interpret or deploy.",
-      "target": 89,
-      "timestamp": "2026-10-20T00:25:25.249718+00:00"
-    },
-    {
-      "main_risk": "Spatial architecture may merely proxy tumor burden, target density, immune abundance, treatment exposure, or specimen quality rather than provide independent predictive information.",
-      "next_test": "Evaluate a preregistered stromal-obstruction and target-adjacency score in locked patient-level nested models against target-expression, composition, and clinical baselines, with an untouched external cohort.",
-      "opponent": 57,
-      "outcome": "loss",
-      "reason": "Issue 57 asks a concrete patient-level incremental-value question with clinically interpretable baselines, nested validation, and a cheap retrospective branch that can establish whether spatial architecture contributes anything beyond composition and target expression. Issue 89 is more general but requires substantial prospective time-course experimentation before its latent-history claim is distinguishable from ordinary state and quality effects.",
-      "target": 89,
-      "timestamp": "2026-10-20T00:25:25.249728+00:00"
-    },
-    {
-      "main_risk": "Issue 89's history-aware signal may disappear once current calcium, viability, cell-cycle, batch, and expression state are matched or adjusted.",
-      "next_test": "Prospectively predict an entirely held-out excitation and recovery schedule in an independent neuronal preparation, comparing history-aware models with memoryless and calcium/viability-only baselines.",
-      "opponent": 7,
-      "outcome": "win",
-      "reason": "Issue 89 has a tighter earliest decision and a flexible anchor around identifiability of history-dependent state transitions. Issue 7 combines reproducibility, temporal precedence, spatial localization, and pharmacologic actionability across PDAC donors and models, so several high-risk readouts must succeed before it yields a durable resistance mechanism.",
-      "target": 89,
-      "timestamp": "2026-10-20T00:25:25.249735+00:00"
-    },
-    {
-      "main_risk": "The apparent trajectory benefit may reflect generic toxicity, cell-cycle, batch, or current-state differences rather than a transferable latent stress-history variable.",
-      "next_test": "Freeze memory-aware and memoryless models before data reveal, hold out an intermediate stimulation/recovery schedule and independent preparation, and compare preparation-level trajectory error plus uncertainty calibration.",
-      "opponent": 37,
-      "outcome": "win",
-      "reason": "Issue 89 is narrower and more decision-efficient: it can test whether explicit stress history improves counterfactual trajectory prediction without requiring a large stack of regulatory modalities and functional assays. Issue 37 has broader virtual-cell ambition but its multimodal gains could arise from donor, batch, or composition proxies, and unseen perturbation plus orthogonal functional validation creates a longer high-risk chain.",
-      "target": 89,
-      "timestamp": "2026-10-20T00:25:25.249742+00:00"
-    },
-    {
       "main_risk": "H2Aub depletion may produce nonspecific stress or context-specific effects rather than a transferable regulatory hierarchy.",
       "next_test": "Run a small matched perturbation pilot with early time points, viability and chromatin-integrity controls, and preregistered direct-target predictions in one held-out lineage.",
       "opponent": 54,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 117 has stronger evidence readiness, broader generality, and a more transferable scientific question. Issue 9 depends on reproducible tunnel-state classification, pathway causality, standardized treatment, and clinically informative biopsies in a heterogeneous chronic disease.",
       "target": 117,
       "timestamp": "2026-11-05T01:29:51.368993+00:00"
+    },
+    {
+      "main_risk": "Three-dimensional niche effects may be dominated by platform and batch variability rather than clinically predictive biology.",
+      "next_test": "Run blinded paired 2D/3D testing with two drugs across two laboratories and measure reproducibility and patient-level outcome prediction.",
+      "opponent": 105,
+      "outcome": "loss",
+      "reason": "Bone-niche drug response offers a broader, more replaceable assay capability with a relatively cheap paired, multicenter test, while the virotherapy study depends on scarce longitudinal spatial specimens and external validation.",
+      "target": 119,
+      "timestamp": "2026-11-05T11:05:58.066722+00:00"
+    },
+    {
+      "main_risk": "Spatial features may add no information beyond composition, disease burden, clonality, or sampling effects.",
+      "next_test": "Compare locked spatial features with composition-only and clinical baselines in paired pretreatment and early-treatment specimens.",
+      "opponent": 89,
+      "outcome": "win",
+      "reason": "The glioma study has clearer clinical value, a fixed predictive anchor, strong patient-level safeguards, and an earlier decision point; the virtual-cell project requires several high-risk assumptions about latent history, extrapolation, and context transfer.",
+      "target": 119,
+      "timestamp": "2026-11-05T11:05:58.066744+00:00"
+    },
+    {
+      "main_risk": "The apparent spatial signal may be confounded by tumor burden, purity, necrosis, or sampling location.",
+      "next_test": "Test prespecified spatial features against composition and clinical baselines in a blinded paired window-of-opportunity cohort.",
+      "opponent": 101,
+      "outcome": "win",
+      "reason": "Spatial organization in virotherapy has a shorter, more discriminating readout and useful negative branches, whereas lymphoma resistance timing requires difficult causal separation of treatment selection, induced damage, sampling, and salvage-treatment effects.",
+      "target": 119,
+      "timestamp": "2026-11-05T11:05:58.066757+00:00"
+    },
+    {
+      "main_risk": "The IL-17A/retinoid spatial split may be a chronic tunnel correlate rather than an actionable treatment determinant.",
+      "next_test": "Apply a locked tunnel-state classifier to pretreatment biopsies under standardized therapy and compare calibrated patient-level prediction with clinical and composition baselines.",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "Hidradenitis suppurativa offers a more concrete tissue unit, potentially simpler targeted validation, and a clearer path to mechanism-matched treatment testing than the data-scarce virotherapy setting.",
+      "target": 119,
+      "timestamp": "2026-11-05T11:05:58.066764+00:00"
+    },
+    {
+      "main_risk": "The required paired spatial and immune profiling cohort may be too small or heterogeneous for stable patient-level prediction.",
+      "next_test": "Profile pretreatment and week-2 samples from 20-30 patients with a locked niche score and blinded response assessment.",
+      "opponent": 116,
+      "outcome": "win",
+      "reason": "The glioma proposal has higher potential clinical impact, stronger evidence readiness, and a more developed validation framework; mastitis currently relies on a small post-treatment dataset and an unestablished pretreatment niche.",
+      "target": 119,
+      "timestamp": "2026-11-05T11:05:58.066771+00:00"
     }
   ],
   "k_factor": 24,
@@ -2726,9 +2726,9 @@
     },
     "101": {
       "draws": 0,
-      "games": 13,
-      "losses": 7,
-      "rating": 1489.64,
+      "games": 14,
+      "losses": 8,
+      "rating": 1477.59,
       "wins": 6
     },
     "102": {
@@ -2754,10 +2754,10 @@
     },
     "105": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 6,
-      "rating": 1486.79,
-      "wins": 5
+      "rating": 1498.83,
+      "wins": 6
     },
     "106": {
       "draws": 0,
@@ -2838,9 +2838,9 @@
     },
     "116": {
       "draws": 0,
-      "games": 7,
-      "losses": 4,
-      "rating": 1485.66,
+      "games": 8,
+      "losses": 5,
+      "rating": 1473.74,
       "wins": 3
     },
     "117": {
@@ -2859,10 +2859,10 @@
     },
     "119": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "games": 6,
+      "losses": 3,
+      "rating": 1499.95,
+      "wins": 3
     },
     "12": {
       "draws": 0,
@@ -3433,17 +3433,17 @@
     },
     "89": {
       "draws": 0,
-      "games": 17,
-      "losses": 9,
-      "rating": 1486.76,
+      "games": 18,
+      "losses": 10,
+      "rating": 1474.39,
       "wins": 8
     },
     "9": {
       "draws": 1,
-      "games": 36,
+      "games": 37,
       "losses": 18,
-      "rating": 1490.13,
-      "wins": 17
+      "rating": 1502.48,
+      "wins": 18
     },
     "90": {
       "draws": 1,
