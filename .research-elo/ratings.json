@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Fixed tissue may irreversibly distort perturbation-specific biology, making apparent transfer reflect conserved cell states or marker genes rather than transportable counterfactual effects.",
-      "next_test": "Profile donor-matched fresh, frozen, and fixed aliquots from at least three independent preparations before and after one unseen perturbation, with a targeted orthogonal readout, and compare against simple assay-agnostic baselines.",
-      "opponent": 88,
-      "outcome": "win",
-      "reason": "Assay transportability is a broader, more reusable technology problem with a clear identifiability anchor, flexible experimental choices, and an early paired-aliquot test that can reveal whether fixation preserves perturbation-specific effects. The chromatin project is more mechanistically specific and depends on several high-risk assumptions about H2Aub causality, perturbation specificity, temporal resolution, and cross-context generalization.",
-      "target": 92,
-      "timestamp": "2026-10-20T23:56:46.667895+00:00"
-    },
-    {
-      "main_risk": "The required fresh, frozen, and fixed workflows may not preserve enough shared perturbation signal to identify biological effects independently of assay distortion.",
-      "next_test": "Run the three-workflow, donor-matched aliquot experiment with one unseen perturbation and orthogonal pathway or protein measurements, evaluating donor-level transfer against persistence, cell-type, and simple batch-correction baselines.",
-      "opponent": 62,
-      "outcome": "win",
-      "reason": "Assay-transportable counterfactual prediction has broader technological reach and a more transferable scientific anchor than the osteosarcoma-specific ERK adaptation problem. It offers an earlier, cleaner falsification test and useful outcomes even if only broad state programs, rather than perturbation-specific effects, survive fixation. The ERK project requires reproducibility across rare specimens, separation of induction from selection or injury, causal fibroblast involvement, and a 20-week independent validation.",
-      "target": 92,
-      "timestamp": "2026-10-20T23:56:46.667913+00:00"
-    },
-    {
-      "main_risk": "Spatial architecture may add little reproducible information beyond composition and clinical covariates, leaving the precision-medicine claim dependent on a weak incremental signal.",
-      "next_test": "Fit locked nested patient-level models in an existing development cohort using target expression and composition with and without a prespecified stromal-obstruction/target-adjacency score, then test calibration and decision value on held-out patients.",
-      "opponent": 57,
-      "outcome": "win",
-      "reason": "The assay-transportability problem is more general and less tied to a particular tumor type, drug, spatial niche, and residual-disease endpoint. Its fixed anchor remains valuable across modalities and applications, while the stromal-architecture project must establish that spatial features add patient-level value beyond target expression, composition, burden, and clinical covariates, with substantial tissue and cohort requirements.",
-      "target": 92,
-      "timestamp": "2026-10-20T23:56:46.667922+00:00"
-    },
-    {
-      "main_risk": "Ex vivo drug sensitivity may primarily measure culture quality or assay adaptation and therefore fail to predict patient response despite apparent technical reproducibility.",
-      "next_test": "Perform a locked patient-level comparison of genomic and clinical matching alone versus the addition of functional screening, reporting calibration, decision curves, assay failures, abstention, and performance by actionable-genomic subgroup.",
-      "opponent": 45,
-      "outcome": "loss",
-      "reason": "Functional screening has the strongest near-term decision test because an existing or newly assembled patient cohort and held-out outcomes can directly evaluate incremental value beyond genomic matching. It has clear clinical consequences, strong simple baselines, and an explicit failure mode in which screening should be withheld. The assay-transportability project is more foundational but requires generating paired multi-workflow data before its central question can be tested.",
-      "target": 92,
-      "timestamp": "2026-10-20T23:56:46.667932+00:00"
-    },
-    {
-      "main_risk": "The apparent CAF–immune neighborhood signal may be explained by tumor genotype, baseline proliferation, disease burden, or sampling variation rather than a causal treatment-protective spatial mechanism.",
-      "next_test": "In a paired pretreatment and early on-treatment cohort, test a preregistered CAF–immune exclusion score against composition-only and clinical baselines using patient-level held-out validation and an independent specimen set.",
-      "opponent": 13,
-      "outcome": "loss",
-      "reason": "The CAF–immune spatial problem currently has stronger evidence readiness and a more immediate patient-level test in lung adenocarcinoma, with paired treatment samples, established spatial platforms, explicit negative controls, and direct response relevance. The assay-transportability project is broader, but its success depends on obtaining multiple donor-matched preservation workflows and proving that fixation retains perturbation-specific information rather than only stable state markers.",
-      "target": 92,
-      "timestamp": "2026-10-20T23:56:46.667939+00:00"
-    },
-    {
       "main_risk": "The nascent-RNA and polymerase-occupancy measurements may not contain enough information to distinguish initiation, pause release, and turnover, making the central parameters non-identifiable.",
       "next_test": "Run the prespecified 0–240 minute matched nascent-RNA and polymerase-occupancy time course for one initiation perturbation and one pause-turnover perturbation, with replicate-aware parameter recovery and held-out perturbation prediction.",
       "opponent": 90,
@@ -2699,6 +2654,51 @@
       "reason": "Virotherapy spatial organization has substantially greater potential patient impact and generalizability than a murine bazedoxifene fibrosis dataset, despite higher feasibility risk.",
       "target": 119,
       "timestamp": "2026-11-06T11:02:20.487546+00:00"
+    },
+    {
+      "main_risk": "Spatial architecture may add no information beyond target density, composition, tumor burden, and specimen quality.",
+      "next_test": "Run a patient-level, locked comparison of spatial versus composition, target-expression, and clinical baselines in an independent bispecific-treated cohort.",
+      "opponent": 57,
+      "outcome": "loss",
+      "reason": "Pre-treatment stromal architecture offers a clearer incremental-prediction problem with a cheaper early nested-model test and a path to a deployable assay; the lineage-transition project depends more heavily on scarce, well-matched longitudinal specimens and cross-patient reproducibility.",
+      "target": 113,
+      "timestamp": "2026-11-06T19:29:10.342538+00:00"
+    },
+    {
+      "main_risk": "Lineage and co-mutation context may dominate response, making target engagement insufficiently transferable.",
+      "next_test": "Measure engagement, pathway suppression, and viability across a held-out panel of mutation-defined models and genetic backgrounds.",
+      "opponent": 55,
+      "outcome": "loss",
+      "reason": "Mutation-specific target engagement has broader reusable value and a focused early assay can distinguish whether biochemical engagement tracks pathway suppression and viability before committing to resistance evolution; the lineage project has a more demanding longitudinal sampling chain.",
+      "target": 113,
+      "timestamp": "2026-11-06T19:29:10.342559+00:00"
+    },
+    {
+      "main_risk": "Tunnel IL-17A and retinoid states may reflect disease severity or tunnel burden rather than treatment-relevant biology.",
+      "next_test": "Apply a locked tunnel-state classifier to independent pretreatment biopsies and compare calibrated patient-level prediction against clinical, burden, and composition baselines.",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "The hidradenitis project has a more bounded biological unit, more accessible early reproducibility testing, and useful outcomes even if the universal spatial predictor fails; the EGFR project requires difficult matched residual and progression samples and assumes a shared trajectory across heterogeneous patients.",
+      "target": 113,
+      "timestamp": "2026-11-06T19:29:10.342568+00:00"
+    },
+    {
+      "main_risk": "The apparent EGFR transition may be sampling, purity, treatment-interval, or patient-specific genomic variation rather than a shared trajectory.",
+      "next_test": "Build patient-level transition maps from matched pretreatment and residual samples and test locked prediction of later resistance in held-out patients.",
+      "opponent": 18,
+      "outcome": "win",
+      "reason": "The EGFR project is anchored to a clinically consequential, already observed longitudinal phenomenon and directly tests reproducibility across patients; the cholangiocarcinoma project is more exposed to cell-line adaptation, anatomical-site confounding, and difficult cross-site harmonization.",
+      "target": 113,
+      "timestamp": "2026-11-06T19:29:10.342574+00:00"
+    },
+    {
+      "main_risk": "ATP, GTP, membrane potential, and mitochondrial stress may be too correlated for the proposed causal mechanism to be identifiable.",
+      "next_test": "Run an independent time-resolved perturbation and rescue matrix, withholding rescue conditions from fitting, and test mediator-specific predictions against simple measured-metabolite baselines.",
+      "opponent": 93,
+      "outcome": "loss",
+      "reason": "Mechanism-identifiable virtual cells provide broader technology value and have a relatively cheap, controlled rescue experiment with strong falsifiable branches; the EGFR project requires costly longitudinal clinical specimens before its central claim can be assessed.",
+      "target": 113,
+      "timestamp": "2026-11-06T19:29:10.342580+00:00"
     }
   ],
   "k_factor": 24,
@@ -2817,10 +2817,10 @@
     },
     "113": {
       "draws": 0,
-      "games": 6,
-      "losses": 3,
-      "rating": 1496.98,
-      "wins": 3
+      "games": 11,
+      "losses": 7,
+      "rating": 1464.8,
+      "wins": 4
     },
     "114": {
       "draws": 0,
@@ -2894,9 +2894,9 @@
     },
     "18": {
       "draws": 1,
-      "games": 33,
-      "losses": 16,
-      "rating": 1502.65,
+      "games": 34,
+      "losses": 17,
+      "rating": 1489.27,
       "wins": 16
     },
     "19": {
@@ -3174,10 +3174,10 @@
     },
     "55": {
       "draws": 0,
-      "games": 20,
+      "games": 21,
       "losses": 10,
-      "rating": 1502.36,
-      "wins": 10
+      "rating": 1513.76,
+      "wins": 11
     },
     "56": {
       "draws": 0,
@@ -3188,10 +3188,10 @@
     },
     "57": {
       "draws": 0,
-      "games": 25,
+      "games": 26,
       "losses": 13,
-      "rating": 1493.44,
-      "wins": 12
+      "rating": 1505.56,
+      "wins": 13
     },
     "58": {
       "draws": 0,
@@ -3440,10 +3440,10 @@
     },
     "9": {
       "draws": 1,
-      "games": 37,
+      "games": 38,
       "losses": 18,
-      "rating": 1502.48,
-      "wins": 18
+      "rating": 1513.48,
+      "wins": 19
     },
     "90": {
       "draws": 1,
@@ -3468,10 +3468,10 @@
     },
     "93": {
       "draws": 0,
-      "games": 22,
+      "games": 23,
       "losses": 11,
-      "rating": 1503.56,
-      "wins": 11
+      "rating": 1514.6,
+      "wins": 12
     },
     "94": {
       "draws": 0,
