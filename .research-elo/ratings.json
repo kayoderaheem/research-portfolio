@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The difficult-airway endpoint and ultrasound measurements may be inconsistently defined or reproducible across operators and sites, eliminating incremental decision value.",
-      "next_test": "Run the prespecified patient-level pilot comparing clinical predictors with clinical plus ultrasound, using blinded endpoint adjudication, operator/device metadata, calibration, and decision-curve net benefit.",
-      "opponent": 78,
-      "outcome": "loss",
-      "reason": "Airway risk stratification has clearer near-term patient and workflow value, uses a relatively cheap prospective pilot, and supports an actionable decision endpoint with established clinical baselines. The spatial virtual-cell project has broader technology impact but depends on several difficult identifiability, measurement, and distribution-shift assumptions before producing a reliable capability.",
-      "target": 87,
-      "timestamp": "2026-10-20T14:21:22.203238+00:00"
-    },
-    {
-      "main_risk": "Spatial measurements may not be sufficiently reproducible or informative to identify perturbation-induced localization changes under genuine perturbation and context shift.",
-      "next_test": "Prospectively hold out one perturbation and cellular context, then compare locked spatial predictions against source-resampling, transport, count-only, and oracle-localization baselines using independent controls and replicate-level localization metrics.",
-      "opponent": 85,
-      "outcome": "win",
-      "reason": "Spatial virtual-cell responses offer broader reusable technology value and a clearer scientific anchor around separating abundance, composition, and intracellular localization, with informative outcomes even if extrapolation fails. SECmere Alzheimer triage has important clinical potential but is more vulnerable to particle-isolation reproducibility, contamination, spectrum effects, and long external-calibration requirements.",
-      "target": 87,
-      "timestamp": "2026-10-20T14:21:22.203261+00:00"
-    },
-    {
-      "main_risk": "Temporal gains may disappear after controlling for measurement density, or calibration and decision value may fail across hospitals despite preserved discrimination.",
-      "next_test": "Evaluate static-snapshot and temporal models on patient- and hospital-held-out data with measurement-density features included in both models, reporting net benefit, calibration, and subgroup stability at prespecified thresholds.",
-      "opponent": 27,
-      "outcome": "loss",
-      "reason": "The ICU project has a cheaper earliest test using accessible longitudinal cohorts, a direct clinical decision-value question, strong simple baselines, and an explicit measurement-density confounder. It can quickly distinguish useful temporal physiology from monitoring-frequency artifacts, whereas the spatial project requires demanding paired measurements and new held-out experiments before its identifiability claim can be assessed.",
-      "target": 87,
-      "timestamp": "2026-10-20T14:21:22.203270+00:00"
-    },
-    {
-      "main_risk": "Apparent synergy may reflect assay scale, additive pharmacology, or cell-line identity rather than a transportable apoptosis-specific mechanism.",
-      "next_test": "Generate replicated factorial dose matrices across independent differentiation and p53 contexts, measure viability plus apoptosis and mitochondrial priming, and test locked predictions against Loewe, Bliss, pooled-response, and mechanistic baselines.",
-      "opponent": 40,
-      "outcome": "loss",
-      "reason": "Context-aware apoptosis combinations have a more concrete therapeutic anchor, measurable mechanistic biomarkers, established pharmacologic baselines, and a plausible six-month path from dose matrices to locked testing in donor-derived models. The spatial project is broader but carries greater dependence on difficult paired spatial data, identifiability, and unseen-context extrapolation assumptions.",
-      "target": 87,
-      "timestamp": "2026-10-20T14:21:22.203277+00:00"
-    },
-    {
-      "main_risk": "Localization changes may be too noisy or confounded for the model to identify true perturbation effects, making the apparent spatial signal no better than transport or resampling baselines.",
-      "next_test": "Test a locked model on one unseen perturbation and cellular context using independent control wells, replicate-level spatial metrics, composition and coordinate-shuffle negatives, and targeted imaging validation.",
-      "opponent": 89,
-      "outcome": "win",
-      "reason": "Spatial virtual-cell responses have greater breadth as a reusable technology and a sharper separation between abundance, composition, and localization, with strong negative controls and orthogonal validation. Stress-history modeling is highly novel but depends on latent memory being identifiable beyond calcium, viability, cell cycle, and batch, and on transfer across neuronal preparations and schedules.",
-      "target": 87,
-      "timestamp": "2026-10-20T14:21:22.203285+00:00"
-    },
-    {
       "main_risk": "The apparent history signal may reflect injury burden or composition rather than a transferable latent regenerative state.",
       "next_test": "Run the zero-, one-, and two-challenge experiment with a held-out perturbation and matched functional self-renewal and commitment endpoints in independent preparations.",
       "opponent": 92,
@@ -2699,6 +2654,51 @@
       "reason": "The spatial predictor has a more achievable early readout and less dependence on rapid organoid establishment, clinically actionable turnaround, and correlation between ex vivo drug response and patient benefit.",
       "target": 118,
       "timestamp": "2026-11-05T20:02:30.942040+00:00"
+    },
+    {
+      "main_risk": "The ratiometric signal may not preserve clinically relevant biology across assay platforms or may add no value beyond disease risk and MRD.",
+      "next_test": "Blindly test matched patient samples on both functional platforms and lock predictions of early MRD before outcome review.",
+      "opponent": 114,
+      "outcome": "win",
+      "reason": "Issue 102 has a clearer, clinically relevant anchor, stronger leakage-resistant external validation plan, and a feasible 10-week cross-platform decision test; issue 114 requires several higher-risk mechanistic and cohort-generalization assumptions.",
+      "target": 102,
+      "timestamp": "2026-11-06T01:36:10.050262+00:00"
+    },
+    {
+      "main_risk": "Cross-platform ratiometric metrics may fail to improve calibrated patient-level prediction over clinical risk and simpler viability measures.",
+      "next_test": "Run blinded paired platform testing with locked prediction of MRD and compare against clinical-risk and single-agent baselines.",
+      "opponent": 108,
+      "outcome": "win",
+      "reason": "Issue 102 offers broader and more replaceable knowledge about whether functional biomarkers transport across laboratories, with a defined external-cohort test; issue 108 has greater causal upside but depends on marker specificity, perturbation validity, and model relevance.",
+      "target": 102,
+      "timestamp": "2026-11-06T01:36:10.050282+00:00"
+    },
+    {
+      "main_risk": "The apparent response association may be driven by clinical risk, growth, or assay effects rather than transportable drug sensitivity.",
+      "next_test": "Perform blinded paired microfluidic and orthogonal-assay testing, assessing incremental calibrated value over clinical and simple response baselines.",
+      "opponent": 61,
+      "outcome": "loss",
+      "reason": "Issue 102 is more decision-ready, with existing clinical associations, a direct orthogonal assay test, and a shorter path to an informative validation outcome. Issue 61 relies on technically demanding spatial measurements and an uncertain claim that proximity identifies functional antigen-presentation opportunity.",
+      "target": 102,
+      "timestamp": "2026-11-06T01:36:10.050292+00:00"
+    },
+    {
+      "main_risk": "The ratiometric metric may not replicate across laboratories or retain incremental value beyond clinical risk and MRD.",
+      "next_test": "Blindly evaluate matched samples across platforms and test locked patient-level prediction against clinical-risk and raw viability baselines.",
+      "opponent": 63,
+      "outcome": "win",
+      "reason": "Issue 102 has a tighter scientific problem and a practical external-validation experiment, whereas issue 63 combines spatial measurement, treatment-induced timing, cellular-state replication, and functional causality in a disease- and regimen-specific setting.",
+      "target": 102,
+      "timestamp": "2026-11-06T01:36:10.050299+00:00"
+    },
+    {
+      "main_risk": "The functional signal may reflect disease burden or treatment intensity rather than true combination sensitivity.",
+      "next_test": "Use a locked, blinded cross-platform assay comparison to determine whether ratiometric response adds calibrated value beyond clinical risk and MRD.",
+      "opponent": 90,
+      "outcome": "win",
+      "reason": "Issue 102 has a more mature translational anchor, established outcome framework, and an early test that can directly support continuation or stopping. Issue 90 could yield broader discovery insight but requires history to be identifiable, causally meaningful, and transferable for unseen schedules.",
+      "target": 102,
+      "timestamp": "2026-11-06T01:36:10.050305+00:00"
     }
   ],
   "k_factor": 24,
@@ -2733,10 +2733,10 @@
     },
     "102": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
-      "rating": 1555.97,
-      "wins": 5
+      "games": 10,
+      "losses": 1,
+      "rating": 1589.69,
+      "wins": 9
     },
     "103": {
       "draws": 0,
@@ -2775,9 +2775,9 @@
     },
     "108": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
-      "rating": 1556.05,
+      "games": 6,
+      "losses": 1,
+      "rating": 1544.46,
       "wins": 5
     },
     "109": {
@@ -2824,9 +2824,9 @@
     },
     "114": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
-      "rating": 1555.97,
+      "games": 6,
+      "losses": 1,
+      "rating": 1543.97,
       "wins": 5
     },
     "115": {
@@ -3223,10 +3223,10 @@
     },
     "61": {
       "draws": 0,
-      "games": 15,
+      "games": 16,
       "losses": 5,
-      "rating": 1555.42,
-      "wins": 10
+      "rating": 1568.25,
+      "wins": 11
     },
     "62": {
       "draws": 0,
@@ -3237,9 +3237,9 @@
     },
     "63": {
       "draws": 0,
-      "games": 17,
-      "losses": 6,
-      "rating": 1557.32,
+      "games": 18,
+      "losses": 7,
+      "rating": 1545.64,
       "wins": 11
     },
     "64": {
@@ -3447,9 +3447,9 @@
     },
     "90": {
       "draws": 1,
-      "games": 14,
-      "losses": 4,
-      "rating": 1557.42,
+      "games": 15,
+      "losses": 5,
+      "rating": 1546.14,
       "wins": 9
     },
     "91": {
