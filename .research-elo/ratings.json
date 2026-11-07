@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "For issue 86, the apparent biomarker signal may disappear after age, renal-function, comorbidity, and referral-spectrum adjustment.",
-      "next_test": "Run the prespecified eight-week patient-level analysis comparing PSA alone, age plus PSA, and the multimarker model at biopsy-referral thresholds, ideally using a temporally held-out or external cohort.",
-      "opponent": 1,
-      "outcome": "win",
-      "reason": "Issue 86 has a lower-risk, clinically anchored question, existing measurements, strong leakage-resistant baselines, and an eight-week analysis that can stop or redirect the project. Issue 1 has greater potential impact, but requires rapid organoid establishment, clinically relevant ex vivo response, resistance prediction, and independent validation within a narrow treatment window.",
-      "target": 86,
-      "timestamp": "2026-10-21T17:19:00.559168+00:00"
-    },
-    {
-      "main_risk": "For issue 86, adjustment may eliminate the incremental value of testosterone and creatinine, leaving no clinically useful gain beyond age and PSA.",
-      "next_test": "Use existing patient-level data for nested age- and renal-function-adjusted validation, with calibration and decision-curve comparisons against age plus PSA.",
-      "opponent": 61,
-      "outcome": "win",
-      "reason": "Issue 86 offers a cheaper and earlier decision with readily interpretable clinical baselines and a clear transportability test. Issue 61 could reveal important tumor–immune biology, but its incremental spatial signal, malignant-cell attribution, assay reproducibility, and cross-cohort transport remain several high-risk assumptions with a longer validation path.",
-      "target": 86,
-      "timestamp": "2026-10-21T17:19:00.559188+00:00"
-    },
-    {
-      "main_risk": "For issue 86, the originating case-control differences may be entirely explained by age, kidney dysfunction, disease severity, or referral bias.",
-      "next_test": "Test whether the biomarker combination adds patient-level calibration or net benefit after prespecified age and renal-function adjustment in held-out data.",
-      "opponent": 67,
-      "outcome": "loss",
-      "reason": "Issue 86 has a fixed clinical decision anchor, an inexpensive early test, and useful negative outcomes if the biomarkers fail. Issue 67 has strong discovery potential, but depends on scarce paired longitudinal specimens, reproducible trajectory measurement, genuine niche-mediated transitions, and replication across patients and platforms.",
-      "target": 86,
-      "timestamp": "2026-10-21T17:19:00.559198+00:00"
-    },
-    {
-      "main_risk": "For issue 86, the added biomarkers may provide no net benefit once age, renal function, comorbidity, and prostate-related covariates are handled correctly.",
-      "next_test": "Analyze a held-out pilot or external cohort with locked PSA, age, testosterone, and creatinine models and compare calibration, sensitivity, unnecessary biopsies, and decision curves.",
-      "opponent": 60,
-      "outcome": "win",
-      "reason": "Issue 86 is more ready for a six-month investment because its clinical outcome, baselines, confounders, and eight-week branch point are explicitly defined. Issue 60 has substantial potential clinical impact, but spatial topology, cGAS–STING measurement, fibrosis timing, and cross-platform transport each pose material risks before any clinical value can be established.",
-      "target": 86,
-      "timestamp": "2026-10-21T17:19:00.559205+00:00"
-    },
-    {
-      "main_risk": "For issue 86, the signal may fail to transport beyond the originating hospital or vanish after confounding adjustment.",
-      "next_test": "Perform patient-level nested validation of the multimarker model and, if promising, lock it for testing in a different site or temporally held-out cohort.",
-      "opponent": 66,
-      "outcome": "win",
-      "reason": "Issue 86 provides a concrete, clinically actionable question and a low-cost early test with strong simple baselines and clear stop criteria. Issue 66 is a valuable technology problem, but its benefit depends on finding spatial relationships that are both reproducible across highly heterogeneous glioblastomas and genuinely incremental over composition and clinical covariates.",
-      "target": 86,
-      "timestamp": "2026-10-21T17:19:00.559215+00:00"
-    },
-    {
       "main_risk": "The choice would change if matrix GTP and nucleotide-exchange effects cannot be measured or separated from ATP depletion, membrane-potential changes, or nonspecific mitochondrial stress.",
       "next_test": "Run the preregistered short time course with ATP-synthase inhibition, nucleotide-exchange modulation, matrix-GTP rescue, matched controls, and orthogonal ATP/GTP, membrane-potential, translation, and viability assays in independent preparations.",
       "opponent": 94,
@@ -2699,15 +2654,60 @@
       "reason": "Issue 122 fixes the therapy and biological mechanism more clearly and has a simpler earliest test; issue 13 combines an underspecified therapy class with spatial profiling, longitudinal sampling, and tumoroid fidelity assumptions.",
       "target": 122,
       "timestamp": "2026-11-07T10:22:40.141323+00:00"
+    },
+    {
+      "main_risk": "Issue 121 may find that spatial features add no information beyond composition, ER/AR biology, and clinical covariates.",
+      "next_test": "Run a locked patient-level pilot comparing spatial features against composition-plus-clinical baselines, including section-level reproducibility.",
+      "opponent": 57,
+      "outcome": "win",
+      "reason": "Issue 121 has a tighter patient-level question, clearer treatment and endpoint, stronger stated resource, and a cheaper incremental-value test. Issue 57 depends more heavily on transferring organoid architecture findings to heterogeneous patient tissue and leaves the target and disease context floating.",
+      "target": 121,
+      "timestamp": "2026-11-07T17:45:58.484077+00:00"
+    },
+    {
+      "main_risk": "Issue 121 may lack sufficient independent, high-quality pretreatment tissue and response data for transportable validation.",
+      "next_test": "Test the locked spatial hypothesis in an available patient-level cohort against clinical, molecular, and composition baselines.",
+      "opponent": 76,
+      "outcome": "win",
+      "reason": "Issue 121 is more focused and decision-ready, with a defined therapy, response setting, and early retrospective test. Issue 76 has broader clinical reach but requires a reliable fibrosis endpoint, extensive multimodal harmonization, equitable acquisition, and external site validation.",
+      "target": 121,
+      "timestamp": "2026-11-07T17:45:58.484097+00:00"
+    },
+    {
+      "main_risk": "Issue 121 may be only a non-causal proxy for tumor composition or disease severity and fail external replication.",
+      "next_test": "Measure pretreatment spatial features in a pilot cohort and test held-out patient-level prediction beyond ER/AR, proliferation, immune composition, and clinical covariates.",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "Issue 121 offers a comparatively tractable predictive study with a clear incremental-value question and early stop rule. Issue 15 is more novel but requires several linked assumptions about niche reproducibility, treatment persistence, causality, and selective BCL2/BMP intervention in diffuse gastric cancer.",
+      "target": 121,
+      "timestamp": "2026-11-07T17:45:58.484105+00:00"
+    },
+    {
+      "main_risk": "Issue 121 may show a statistically detectable spatial association without clinically meaningful calibration or decision value.",
+      "next_test": "Perform a retrospective patient-level comparison of spatially augmented and composition-plus-clinical models with locked calibration and decision metrics.",
+      "opponent": 1,
+      "outcome": "win",
+      "reason": "Issue 121 has a cheaper and earlier discriminating test and does not require proving that a complex ex vivo workflow changes treatment decisions. Issue 1 has potentially greater clinical impact, but organoid establishment, turnaround, pharmacologic fidelity, and prospective utility form a long high-risk chain.",
+      "target": 121,
+      "timestamp": "2026-11-07T17:45:58.484110+00:00"
+    },
+    {
+      "main_risk": "Issue 121 may be limited by assay reproducibility and insufficient independent endocrine-treatment cohorts.",
+      "next_test": "Evaluate pretreatment spatial reproducibility and incremental held-out prediction in a patient cohort before pursuing mechanistic experiments.",
+      "opponent": 65,
+      "outcome": "win",
+      "reason": "Issue 121 addresses a clinically relevant patient-level response problem with an explicit external-validation path, whereas Issue 65 is anchored to a murine fibrosis model and must establish that molecular state reversal reflects meaningful tissue repair and generalizes beyond that model.",
+      "target": 121,
+      "timestamp": "2026-11-07T17:45:58.484114+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 40,
-      "losses": 20,
-      "rating": 1509.79,
+      "games": 41,
+      "losses": 21,
+      "rating": 1498.64,
       "wins": 20
     },
     "10": {
@@ -2880,10 +2880,10 @@
     },
     "121": {
       "draws": 0,
-      "games": 2,
+      "games": 7,
       "losses": 1,
-      "rating": 1500.43,
-      "wins": 1
+      "rating": 1556.43,
+      "wins": 6
     },
     "122": {
       "draws": 0,
@@ -2901,9 +2901,9 @@
     },
     "15": {
       "draws": 1,
-      "games": 38,
-      "losses": 19,
-      "rating": 1492.44,
+      "games": 39,
+      "losses": 20,
+      "rating": 1481.51,
       "wins": 18
     },
     "17": {
@@ -3209,9 +3209,9 @@
     },
     "57": {
       "draws": 0,
-      "games": 27,
-      "losses": 14,
-      "rating": 1494.95,
+      "games": 28,
+      "losses": 15,
+      "rating": 1483.14,
       "wins": 13
     },
     "58": {
@@ -3272,9 +3272,9 @@
     },
     "65": {
       "draws": 0,
-      "games": 21,
-      "losses": 10,
-      "rating": 1509.94,
+      "games": 22,
+      "losses": 11,
+      "rating": 1499.17,
       "wins": 11
     },
     "66": {
@@ -3356,9 +3356,9 @@
     },
     "76": {
       "draws": 0,
-      "games": 19,
-      "losses": 10,
-      "rating": 1493.1,
+      "games": 20,
+      "losses": 11,
+      "rating": 1481.76,
       "wins": 9
     },
     "77": {
