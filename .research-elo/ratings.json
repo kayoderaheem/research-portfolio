@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The choice would change if matrix GTP and nucleotide-exchange effects cannot be measured or separated from ATP depletion, membrane-potential changes, or nonspecific mitochondrial stress.",
-      "next_test": "Run the preregistered short time course with ATP-synthase inhibition, nucleotide-exchange modulation, matrix-GTP rescue, matched controls, and orthogonal ATP/GTP, membrane-potential, translation, and viability assays in independent preparations.",
-      "opponent": 94,
-      "outcome": "win",
-      "reason": "Issue 93 is the more focused and experimentally discriminable problem: its causal anchor is narrower, its intervention matrix directly tests competing mechanisms, and its earliest readout is shorter. Issue 94 depends on separating direct, paracrine, contact, target-depletion, survival, and composition effects while also extrapolating to an unseen construct, creating more high-risk dependencies.",
-      "target": 93,
-      "timestamp": "2026-10-21T21:47:51.479609+00:00"
-    },
-    {
-      "main_risk": "The choice would change if early measurements cannot identify matrix-GTP limitation independently of correlated bioenergetic stress signals.",
-      "next_test": "Test whether independent biological preparations show the predicted mediator-specific ordering and rescue responses without fitting the rescue data, using orthogonal metabolite and mitochondrial-translation assays.",
-      "opponent": 95,
-      "outcome": "win",
-      "reason": "Issue 93 has a clearer fixed mechanistic anchor, fewer sequential assumptions, and an earlier test that can distinguish continue, pivot, or stop. Issue 95 requires lineage-aware separation of selection from transition, reproducibility of a specific resistance state, and transfer across an unseen therapy, with the decisive validation potentially taking 20 weeks.",
-      "target": 93,
-      "timestamp": "2026-10-21T21:47:51.479636+00:00"
-    },
-    {
-      "main_risk": "The choice would change if the CAF–immune neighborhood is not reproducible across specimens or adds no calibrated patient-level information beyond tumor composition and clinical covariates.",
-      "next_test": "In a paired patient cohort, test a prespecified neighborhood and early treatment change against composition-only and clinical baselines using patient-level held-out validation and an independent specimen set.",
-      "opponent": 13,
-      "outcome": "loss",
-      "reason": "Issue 13 offers stronger near-term patient and translational value, with patient-level leakage-resistant validation, established clinical and composition baselines, external-cohort testing, and orthogonal spatial and functional validation. Issue 93 is scientifically coherent but is a technically demanding technology project whose causal identifiability and transfer across contexts remain uncertain.",
-      "target": 93,
-      "timestamp": "2026-10-21T21:47:51.479646+00:00"
-    },
-    {
-      "main_risk": "The choice would change if a blinded, clinically independent reference standard for active or progressive tuberculoma can be established with sufficient outcome and microbiological support.",
-      "next_test": "For issue 93, run the independent eight-week perturbation-and-rescue experiment and determine whether mediator-specific predictions outperform measured-metabolite and expression-only baselines.",
-      "opponent": 77,
-      "outcome": "win",
-      "reason": "Issue 93 currently has the stronger research investment profile because it has a narrower mechanistic question, a more direct intervention-based falsification strategy, and a cheaper early decision than the clinically valuable but reference-standard-limited tuberculoma project. Issue 77 depends on adjudicating active disease without circularity, handling paradoxical reactions, and obtaining transportable multicenter validation.",
-      "target": 93,
-      "timestamp": "2026-10-21T21:47:51.479653+00:00"
-    },
-    {
-      "main_risk": "The choice would change if organoids can be established reliably within the treatment-decision window and a locked functional score shows prospective, calibrated benefit over molecular recommendations.",
-      "next_test": "For issue 93, prospectively test mediator-specific predictions and rescue direction in independent preparations before using rescue data for fitting, with simple measured-metabolite and expression-only baselines.",
-      "opponent": 1,
-      "outcome": "win",
-      "reason": "Issue 93 is the stronger current investment because it targets a generalizable technology capability, has a fixed causal anchor, explicit competing mechanisms, and an early test that can yield informative negative results. Issue 1 has greater direct clinical appeal but requires timely organoid establishment, clinically relevant pharmacology, correlation with patient benefit, and resistance prediction across independent cohorts before utility is credible.",
-      "target": 93,
-      "timestamp": "2026-10-21T21:47:51.479660+00:00"
-    },
-    {
       "main_risk": "The observed neighborhood remodeling may be driven by survival, target depletion, or composition rather than paracrine signaling, making direct-versus-paracrine effects poorly identifiable.",
       "next_test": "Run the paired intervention matrix with one engineered construct and prospectively predict a held-out target burden in an independent co-culture preparation, comparing against composition-only and conditioned-medium baselines.",
       "opponent": 94,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 121 addresses a clinically relevant patient-level response problem with an explicit external-validation path, whereas Issue 65 is anchored to a murine fibrosis model and must establish that molecular state reversal reflects meaningful tissue repair and generalizes beyond that model.",
       "target": 121,
       "timestamp": "2026-11-07T17:45:58.484114+00:00"
+    },
+    {
+      "main_risk": "Coherence may be a gene-selection or generic-stress artifact rather than a treatment-specific biological signal.",
+      "next_test": "Apply a locked coherence definition to an independent treated glioma cohort and compare held-out prediction against average-effect and composition baselines.",
+      "opponent": 121,
+      "outcome": "loss",
+      "reason": "Glioma coherence has a clearer patient-level anchor, cheaper independent-cohort test, stronger leakage controls, and more informative stop or pivot branches than the higher-cost, assay-dependent spatial study.",
+      "target": 120,
+      "timestamp": "2026-11-07T21:57:11.033260+00:00"
+    },
+    {
+      "main_risk": "The glioma coherence measure may not predict clinically meaningful benefit despite reproducing response geometry.",
+      "next_test": "Run the locked patient-level glioma replication against treatment-label nulls and strong average-effect baselines.",
+      "opponent": 78,
+      "outcome": "win",
+      "reason": "Glioma coherence is more tractable and has an earlier decisive test, while airway stratification requires difficult endpoint adjudication, operator-dependent ultrasound, prospective workflow feasibility, and multicenter transport validation.",
+      "target": 120,
+      "timestamp": "2026-11-07T21:57:11.033278+00:00"
+    },
+    {
+      "main_risk": "Independent glioma cohorts with matched treatment, controls, state annotations, and outcomes may be insufficient or unavailable.",
+      "next_test": "Test coherence prospectively locked on an independent glioma dataset before investing in broader transport analyses.",
+      "opponent": 73,
+      "outcome": "win",
+      "reason": "The glioma project offers a more differentiated discovery problem, stronger early validation path, and useful negative outcomes; PCOS triage risks label leakage, redundancy with established diagnostic criteria, cohort-specific missingness, and modest novelty.",
+      "target": 120,
+      "timestamp": "2026-11-07T21:57:11.033286+00:00"
+    },
+    {
+      "main_risk": "Coherence may fail to transfer across glioma assays or cohorts.",
+      "next_test": "Perform an independent, locked-gene-space, patient-level glioma replication with treatment-label permutations.",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "Glioma coherence has a simpler scientific and technical chain, faster readout, and clearer exploratory stop criteria; corneal imaging faces circular reference-standard risk, device and reader variability, and lengthy site calibration.",
+      "target": 120,
+      "timestamp": "2026-11-07T21:57:11.033291+00:00"
+    },
+    {
+      "main_risk": "The coherence metric may be descriptive rather than predictive of benefit or escape risk.",
+      "next_test": "Compare locked coherence with average response and composition baselines in an independent glioma cohort using patient-level validation.",
+      "opponent": 71,
+      "outcome": "win",
+      "reason": "Glioma coherence provides a more focused six-month project with an inexpensive early branch point, whereas the dermatomyositis ILD study combines serial sampling, treatment-confounding, molecular assay harmonization, dynamic modeling, and site shift.",
+      "target": 120,
+      "timestamp": "2026-11-07T21:57:11.033296+00:00"
     }
   ],
   "k_factor": 24,
@@ -2873,17 +2873,17 @@
     },
     "120": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
-      "rating": 1556.46,
-      "wins": 5
+      "games": 10,
+      "losses": 1,
+      "rating": 1591.7,
+      "wins": 9
     },
     "121": {
       "draws": 0,
-      "games": 7,
+      "games": 8,
       "losses": 1,
-      "rating": 1556.43,
-      "wins": 6
+      "rating": 1568.43,
+      "wins": 7
     },
     "122": {
       "draws": 0,
@@ -3013,9 +3013,9 @@
     },
     "31": {
       "draws": 0,
-      "games": 30,
-      "losses": 12,
-      "rating": 1559.68,
+      "games": 31,
+      "losses": 13,
+      "rating": 1548.0,
       "wins": 18
     },
     "32": {
@@ -3321,9 +3321,9 @@
     },
     "71": {
       "draws": 0,
-      "games": 13,
-      "losses": 4,
-      "rating": 1552.6,
+      "games": 14,
+      "losses": 5,
+      "rating": 1541.57,
       "wins": 9
     },
     "72": {
@@ -3335,9 +3335,9 @@
     },
     "73": {
       "draws": 0,
-      "games": 15,
-      "losses": 5,
-      "rating": 1559.05,
+      "games": 16,
+      "losses": 6,
+      "rating": 1546.98,
       "wins": 10
     },
     "74": {
@@ -3370,9 +3370,9 @@
     },
     "78": {
       "draws": 0,
-      "games": 15,
-      "losses": 5,
-      "rating": 1557.82,
+      "games": 16,
+      "losses": 6,
+      "rating": 1545.36,
       "wins": 10
     },
     "79": {
