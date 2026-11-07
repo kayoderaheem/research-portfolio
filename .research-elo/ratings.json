@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Issue 90 may measure injury burden, composition shifts, or batch effects rather than a transferable regenerative-memory state.",
-      "next_test": "Run zero-, one-, and two-challenge preparations followed by a held-out CARM1-pathway perturbation, and compare history-aware versus current-state models on independent functional endpoints.",
-      "opponent": 55,
-      "outcome": "win",
-      "reason": "Issue 90 has a clearer discovery anchor, stronger evidence-readiness, an explicit 10-week donor-level test, and useful outcomes even if transferable history is not found. Issue 55 has greater potential clinical impact but depends on several costly links from biochemical engagement to cellular sensitivity and then to resistance mechanisms.",
-      "target": 90,
-      "timestamp": "2026-10-21T11:59:05.017891+00:00"
-    },
-    {
-      "main_risk": "The apparent regenerative-history effect may be explained by measurable injury burden or cell-composition changes rather than a predictive latent memory state.",
-      "next_test": "Test held-out challenge schedules in independent biological preparations using pre-perturbation profiles and functional self-renewal or commitment outcomes, with current-state and simple dose-history baselines.",
-      "opponent": 89,
-      "outcome": "win",
-      "reason": "Issue 90 is more specifically anchored in a documented regenerative-history effect and includes functional self-renewal and commitment readouts, whereas issue 89 requires broader neuronal-context transfer and disentangling excitation history from viability, cell cycle, calcium, and batch effects. Issue 90 therefore offers a more focused and earlier decision despite both being high-risk virtual-cell studies.",
-      "target": 90,
-      "timestamp": "2026-10-21T11:59:05.017910+00:00"
-    },
-    {
-      "main_risk": "Issue 90 may fail to generalize beyond the selected regenerative system or perturbation and thus yield a narrow result.",
-      "next_test": "Generate donor- or preparation-level zero-, one-, and two-challenge data with a held-out perturbation schedule, then test calibrated functional prediction against no-history and additive baselines.",
-      "opponent": 92,
-      "outcome": "win",
-      "reason": "Issue 90 has a better-defined biological anchor, stronger evidence readiness, and a more direct early experiment. Issue 92 has broad technology value, but assay transport requires that fixation preserve perturbation-specific biology and that assay distortion be learned independently; the stated supporting evidence is especially limited.",
-      "target": 90,
-      "timestamp": "2026-10-21T11:59:05.017918+00:00"
-    },
-    {
-      "main_risk": "Issue 90 may produce a technically improved predictor without demonstrating a generalizable biological memory mechanism or meaningful value beyond one regenerative model.",
-      "next_test": "Prospectively hold out a challenge schedule and an independent preparation, requiring improvement in donor-level functional prediction and calibration over strong no-history baselines.",
-      "opponent": 77,
-      "outcome": "win",
-      "reason": "Issue 77 has greater immediate clinical relevance, but its success depends on a difficult non-circular reference standard, adequate longitudinal cohorts, adherence measurement, and cross-site MRI transport. Issue 90 offers a more controllable six-month investment with a concrete early experiment, leakage-resistant validation, and informative stop or pivot outcomes.",
-      "target": 90,
-      "timestamp": "2026-10-21T11:59:05.017924+00:00"
-    },
-    {
-      "main_risk": "The apparent benefit of functional screening may reflect culture quality, treatment-selection bias, or outcome leakage rather than patient-specific predictive information.",
-      "next_test": "Perform a patient- and site-level held-out comparison of genomic matching alone versus genomic matching plus locked functional screening, reporting calibration, decision curves, assay failures, and abstention.",
-      "opponent": 45,
-      "outcome": "loss",
-      "reason": "Issue 45 addresses a directly consequential treatment-decision question and has an unusually cheap early branch through locked reanalysis of an existing cohort. Its incremental value can be tested against genomic, clinical, and simple screening baselines without first committing to a new virtual-cell architecture. Issue 90 is scientifically compelling but has higher uncertainty about biological transfer and functional readout generalization.",
-      "target": 90,
-      "timestamp": "2026-10-21T11:59:05.017931+00:00"
-    },
-    {
       "main_risk": "For issue 86, the apparent biomarker signal may disappear after age, renal-function, comorbidity, and referral-spectrum adjustment.",
       "next_test": "Run the prespecified eight-week patient-level analysis comparing PSA alone, age plus PSA, and the multimarker model at biopsy-referral thresholds, ideally using a temporally held-out or external cohort.",
       "opponent": 1,
@@ -2699,6 +2654,51 @@
       "reason": "State-conditioned coherence is less tied to a particular drug format or tissue assay and has a more immediate transport test; stromal architecture requires reliable spatial measurement, functional correspondence, and reduced-panel harmonization.",
       "target": 120,
       "timestamp": "2026-11-07T00:58:05.348395+00:00"
+    },
+    {
+      "main_risk": "The perivascular transition may not reproduce across chemotherapy regimens, sites, or patients.",
+      "next_test": "Run a blinded pilot multiplex-imaging study of paired baseline and early-treatment breast-cancer biopsies with patient-level held-out validation.",
+      "opponent": 119,
+      "outcome": "win",
+      "reason": "Issue 122 has a clearer mechanistic anchor, a cheaper paired-biopsy test, and more informative outcomes if the universal transition fails; issue 119 depends on scarce, heterogeneous virotherapy cohorts and several spatial modalities.",
+      "target": 122,
+      "timestamp": "2026-11-07T10:22:40.141288+00:00"
+    },
+    {
+      "main_risk": "Spatial relationships may add no predictive information beyond ER/AR activity, proliferation, immune abundance, and clinical covariates.",
+      "next_test": "Test locked pretreatment spatial features in a patient-level held-out aromatase-inhibitor cohort against composition and clinical baselines.",
+      "opponent": 121,
+      "outcome": "loss",
+      "reason": "Issue 121 is better supported by an existing longitudinal endocrine-response resource and offers a lower-cost retrospective test, while issue 122 requires high-risk temporal and mechanistic validation before its value is clear.",
+      "target": 122,
+      "timestamp": "2026-11-07T10:22:40.141305+00:00"
+    },
+    {
+      "main_risk": "Matched human tissue may not establish that the spatial transition is reproducible or clinically predictive.",
+      "next_test": "Evaluate the prespecified transition in paired biopsies from a pilot cohort, using clinical and composition-only models as locked baselines.",
+      "opponent": 99,
+      "outcome": "win",
+      "reason": "Issue 122 offers a focused biological question with an actionable early assay, whereas issue 99 has major causal-confounding, treatment-shift, safety, and clinical-utility assumptions and could produce mainly a benchmark without validated treatment benefit.",
+      "target": 122,
+      "timestamp": "2026-11-07T10:22:40.141313+00:00"
+    },
+    {
+      "main_risk": "The reported perivascular remodeling may be model-specific rather than a reproducible human chemotherapy response.",
+      "next_test": "Profile paired baseline and early-treatment breast-cancer biopsies and test incremental prediction beyond inflammation and composition.",
+      "opponent": 18,
+      "outcome": "win",
+      "reason": "Issue 122 has a more developed translational mechanism and likely broader assay and cohort feasibility; issue 18 extrapolates substantially from resistant cell lines and must disentangle anatomy, culture adaptation, and spatial biology across a difficult disease context.",
+      "target": 122,
+      "timestamp": "2026-11-07T10:22:40.141318+00:00"
+    },
+    {
+      "main_risk": "Perivascular macrophage-CAF-T-cell remodeling may not generalize across patients or chemotherapy regimens.",
+      "next_test": "Use paired human biopsies and blinded multiplex imaging to test whether the locked perivascular signature predicts response beyond composition and clinical covariates.",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "Issue 122 fixes the therapy and biological mechanism more clearly and has a simpler earliest test; issue 13 combines an underspecified therapy class with spatial profiling, longitudinal sampling, and tumoroid fidelity assumptions.",
+      "target": 122,
+      "timestamp": "2026-11-07T10:22:40.141323+00:00"
     }
   ],
   "k_factor": 24,
@@ -2859,9 +2859,9 @@
     },
     "119": {
       "draws": 0,
-      "games": 11,
-      "losses": 6,
-      "rating": 1488.55,
+      "games": 12,
+      "losses": 7,
+      "rating": 1476.55,
       "wins": 5
     },
     "12": {
@@ -2880,23 +2880,23 @@
     },
     "121": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "rating": 1500.43,
+      "wins": 1
     },
     "122": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 2,
+      "rating": 1522.7,
+      "wins": 4
     },
     "13": {
       "draws": 0,
-      "games": 40,
-      "losses": 21,
-      "rating": 1485.6,
+      "games": 41,
+      "losses": 22,
+      "rating": 1474.5,
       "wins": 19
     },
     "15": {
@@ -2915,9 +2915,9 @@
     },
     "18": {
       "draws": 1,
-      "games": 34,
-      "losses": 17,
-      "rating": 1489.27,
+      "games": 35,
+      "losses": 18,
+      "rating": 1477.64,
       "wins": 16
     },
     "19": {
@@ -3531,9 +3531,9 @@
     },
     "99": {
       "draws": 0,
-      "games": 15,
-      "losses": 8,
-      "rating": 1487.73,
+      "games": 16,
+      "losses": 9,
+      "rating": 1475.74,
       "wins": 7
     }
   },
