@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The nascent-RNA and polymerase-occupancy measurements may not contain enough information to distinguish initiation, pause release, and turnover, making the central parameters non-identifiable.",
-      "next_test": "Run the prespecified 0–240 minute matched nascent-RNA and polymerase-occupancy time course for one initiation perturbation and one pause-turnover perturbation, with replicate-aware parameter recovery and held-out perturbation prediction.",
-      "opponent": 90,
-      "outcome": "win",
-      "reason": "Issue 91 has a tighter mechanistic anchor, clearer causal measurements, stronger leakage-resistant validation, and an early dense time-course test that can directly establish whether kinetic states are identifiable. Issue 90 has high potential impact but depends on more difficult history-dependent regenerative experiments, reproducible functional endpoints, and transfer across donors or preparations.",
-      "target": 91,
-      "timestamp": "2026-10-21T04:57:47.807620+00:00"
-    },
-    {
-      "main_risk": "The kinetic modalities may fail to separate the proposed causal steps, so apparent prediction gains could reflect perturbation-specific marker patterns rather than transferable mechanism.",
-      "next_test": "Collect the acute matched time course for two mechanistically distinct perturbations and test frozen, perturbation-held-out predictions against steady-state and simple state-space baselines with calibrated uncertainty.",
-      "opponent": 55,
-      "outcome": "win",
-      "reason": "Issue 91 offers a more general discovery problem with a focused, falsifiable identifiability test and does not require the longer resistance-evolution chain in Issue 55. Issue 55 has credible precision-medicine relevance, but its conclusions depend on comparable engagement assays, causal linkage to viability across contexts, and 16-week resistance classification, while mutation, lineage, exposure, and co-mutation effects create substantial transfer risk.",
-      "target": 91,
-      "timestamp": "2026-10-21T04:57:47.807639+00:00"
-    },
-    {
-      "main_risk": "The PCOS reference standard or candidate predictors may be circular or site-specific, causing apparent hormonal or lifestyle value to reflect label construction, missingness, or spectrum differences rather than actionable incremental information.",
-      "next_test": "Audit predictor provenance and label independence, then run a locked patient-level nested comparison of clinical/reproductive variables with sequential hormone and lifestyle additions, including decision curves and calibration on an untouched site or temporal cohort.",
-      "opponent": 73,
-      "outcome": "loss",
-      "reason": "Issue 73 has the stronger near-term investment case because it addresses a concrete clinical triage decision, supports an inexpensive retrospective first test, and explicitly measures incremental calibration and decision value rather than benchmark accuracy. Issue 91 is scientifically important but requires costly, technically demanding perturbation and orthogonal kinetic assays before its central claim can be assessed.",
-      "target": 91,
-      "timestamp": "2026-10-21T04:57:47.807649+00:00"
-    },
-    {
-      "main_risk": "Kinetic state parameters may be non-identifiable from the proposed modalities even with dense sampling, undermining causal interpretation and prospective extrapolation.",
-      "next_test": "Perform the blinded acute perturbation time course with replicate-aware identifiability analysis and compare the kinetic model against nascent-RNA-only, steady-state, and other simple baselines on a held-out perturbation.",
-      "opponent": 77,
-      "outcome": "win",
-      "reason": "Issue 91 has a clearer scientific anchor, more tractable early readout, and broader mechanistic generality than Issue 77. The tuberculoma problem has high clinical value, but it depends on a difficult non-circular reference standard, adequate longitudinal cohorts for a rare condition, and cross-center MRI harmonization; simple MRI or clinical rules may also explain most of the signal.",
-      "target": 91,
-      "timestamp": "2026-10-21T04:57:47.807656+00:00"
-    },
-    {
-      "main_risk": "The excitation-history signal may be explained by current calcium, viability, cell-cycle, or batch variables rather than a transferable latent memory state.",
-      "next_test": "Use matched current-state cells with different stimulation histories, including viability- and calcium-controlled negative conditions, and test prospective prediction of one held-out intermediate recovery schedule in an independent neuronal preparation.",
-      "opponent": 89,
-      "outcome": "win",
-      "reason": "Issue 91 is the stronger current investment because its causal kinetic question is more sharply defined and its matched measurements provide a more direct route to testing identifiability. Issue 89 carries substantial confounding from viability, cell cycle, calcium activity, batch, stimulation protocol, recovery history, and neuronal-context transfer, so its apparent hysteresis may be difficult to distinguish from generic stress or state effects within six months.",
-      "target": 91,
-      "timestamp": "2026-10-21T04:57:47.807667+00:00"
-    },
-    {
       "main_risk": "Issue 90 may measure injury burden, composition shifts, or batch effects rather than a transferable regenerative-memory state.",
       "next_test": "Run zero-, one-, and two-challenge preparations followed by a held-out CARM1-pathway perturbation, and compare history-aware versus current-state models on independent functional endpoints.",
       "opponent": 55,
@@ -2699,6 +2654,51 @@
       "reason": "Mechanism-identifiable virtual cells provide broader technology value and have a relatively cheap, controlled rescue experiment with strong falsifiable branches; the EGFR project requires costly longitudinal clinical specimens before its central claim can be assessed.",
       "target": 113,
       "timestamp": "2026-11-06T19:29:10.342580+00:00"
+    },
+    {
+      "main_risk": "Coherence may be a gene-selection, dose, or generic-stress artifact rather than treatment biology.",
+      "next_test": "Evaluate locked coherence features in an independent patient-level cohort against permutation nulls and average-effect/composition baselines.",
+      "opponent": 121,
+      "outcome": "win",
+      "reason": "State-conditioned coherence has a clearer transportable anchor, stronger evidence readiness, and a cheaper independent-cohort decision test than the more assay-dependent spatial neighborhood hypothesis.",
+      "target": 120,
+      "timestamp": "2026-11-07T00:58:05.348349+00:00"
+    },
+    {
+      "main_risk": "Coherence may replicate descriptively but fail to predict benefit or transfer across cohorts.",
+      "next_test": "Run the locked independent-cohort coherence test with patient-level validation and treatment-label nulls.",
+      "opponent": 122,
+      "outcome": "win",
+      "reason": "State-conditioned coherence offers a shorter, lower-risk path to an informative result, whereas perivascular remodeling requires paired sampling, cross-site generalization, and causal perturbation evidence.",
+      "target": 120,
+      "timestamp": "2026-11-07T00:58:05.348372+00:00"
+    },
+    {
+      "main_risk": "Coherence may not capture clinically meaningful treatment benefit.",
+      "next_test": "Test locked coherence against average response and composition in an independent glioma cohort.",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "The coherence problem is more tractable and flexible, with a defined early validation path; the gastric-cancer proposal stacks uncertain spatial reproducibility, persistence measurement, and causal niche-targeting assumptions.",
+      "target": 120,
+      "timestamp": "2026-11-07T00:58:05.348382+00:00"
+    },
+    {
+      "main_risk": "The coherence measure may be reproducible without adding predictive value beyond average response and composition.",
+      "next_test": "Compare locked coherence with average-effect and composition baselines in an independent patient-level glioma cohort.",
+      "opponent": 76,
+      "outcome": "win",
+      "reason": "Coherence has a focused eight-week readout, strong leakage-aware validation design, and useful negative branches, while multimodal MASLD triage depends on a difficult fibrosis reference standard, heterogeneous acquisition, and site calibration.",
+      "target": 120,
+      "timestamp": "2026-11-07T00:58:05.348388+00:00"
+    },
+    {
+      "main_risk": "Coherence may be mathematically stable but biologically nonspecific.",
+      "next_test": "Use an independent cohort to test coherence against treatment-label nulls and strong average-effect/composition baselines.",
+      "opponent": 57,
+      "outcome": "win",
+      "reason": "State-conditioned coherence is less tied to a particular drug format or tissue assay and has a more immediate transport test; stromal architecture requires reliable spatial measurement, functional correspondence, and reduced-panel harmonization.",
+      "target": 120,
+      "timestamp": "2026-11-07T00:58:05.348395+00:00"
     }
   ],
   "k_factor": 24,
@@ -2871,6 +2871,27 @@
       "rating": 1367.19,
       "wins": 2
     },
+    "120": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1556.46,
+      "wins": 5
+    },
+    "121": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "122": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
+    },
     "13": {
       "draws": 0,
       "games": 40,
@@ -2880,9 +2901,9 @@
     },
     "15": {
       "draws": 1,
-      "games": 37,
-      "losses": 18,
-      "rating": 1503.76,
+      "games": 38,
+      "losses": 19,
+      "rating": 1492.44,
       "wins": 18
     },
     "17": {
@@ -3188,9 +3209,9 @@
     },
     "57": {
       "draws": 0,
-      "games": 26,
-      "losses": 13,
-      "rating": 1505.56,
+      "games": 27,
+      "losses": 14,
+      "rating": 1494.95,
       "wins": 13
     },
     "58": {
@@ -3335,9 +3356,9 @@
     },
     "76": {
       "draws": 0,
-      "games": 18,
-      "losses": 9,
-      "rating": 1504.04,
+      "games": 19,
+      "losses": 10,
+      "rating": 1493.1,
       "wins": 9
     },
     "77": {
