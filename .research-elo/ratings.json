@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The observed neighborhood remodeling may be driven by survival, target depletion, or composition rather than paracrine signaling, making direct-versus-paracrine effects poorly identifiable.",
-      "next_test": "Run the paired intervention matrix with one engineered construct and prospectively predict a held-out target burden in an independent co-culture preparation, comparing against composition-only and conditioned-medium baselines.",
-      "opponent": 94,
-      "outcome": "loss",
-      "reason": "Paracrine effects have a clearer, cheaper discriminating experiment using paired mono-culture, conditioned-medium, transwell, contact, and target-depletion controls. It can separate direct effects, soluble signaling, composition, and target depletion while supporting useful negative outcomes. The resistance project has broader potential but requires lineage-resolved attribution, multiple therapies, independent contexts, and longer transfer validation.",
-      "target": 95,
-      "timestamp": "2026-10-22T04:58:24.814566+00:00"
-    },
-    {
-      "main_risk": "Target engagement may add little beyond lineage, exposure, co-mutations, and cellular context, so the integrated profile may not generalize across genetic backgrounds.",
-      "next_test": "Measure blinded engagement, pathway suppression, and viability across a focused mutation-defined model panel, then test held-out sensitivity and mechanism classification against mutation-only and context-only baselines.",
-      "opponent": 55,
-      "outcome": "loss",
-      "reason": "Mutation-specific target engagement has stronger near-term feasibility and a more direct precision-medicine contribution. Biochemical engagement, pathway suppression, and viability can be measured in a focused panel within a defined 12-week test, with isogenic and genetic-background splits. The virtual-cell resistance project depends on identifying trajectories, transferring across unseen therapies, and validating long-term resistance mechanisms.",
-      "target": 95,
-      "timestamp": "2026-10-22T04:58:24.814587+00:00"
-    },
-    {
-      "main_risk": "The apparent memory and hysteresis may be generic toxicity, cell-cycle, batch, or viability effects rather than excitation-history biology, and may not transfer across neuronal contexts.",
-      "next_test": "Hold out an intermediate excitation/recovery schedule and an independent neuronal preparation, prospectively comparing a history-aware model with memoryless, trajectory-matching, and calcium/viability baselines using preparation-level errors and interval coverage.",
-      "opponent": 89,
-      "outcome": "loss",
-      "reason": "Stress-history transfer offers a more tractable six-month decision: matched stimulation histories, recovery schedules, and neuronal preparations can directly test whether history predicts future state beyond current calcium, expression, viability, and cell cycle. It has a shorter earliest test and useful branches if hysteresis is absent. The resistance project has greater potential clinical impact but requires difficult separation of induction from selection and credible transfer to unseen therapies and contexts.",
-      "target": 95,
-      "timestamp": "2026-10-22T04:58:24.814596+00:00"
-    },
-    {
-      "main_risk": "Fresh, frozen, and fixed workflows may not preserve enough perturbation-specific regulatory signal for assay correction to recover, leaving only composition or stable marker concordance.",
-      "next_test": "Profile donor-matched fresh, frozen, and fixed aliquots from independent preparations before and after one unseen perturbation, using a targeted orthogonal readout and comparing measurement-aware correction with simple batch and cell-type baselines.",
-      "opponent": 92,
-      "outcome": "loss",
-      "reason": "Assay transport addresses a broad and difficult-to-replace technology need with a concrete transportability question and a relatively direct paired-aliquot test. Donor-level splits, perturbation-held-out evaluation, uncertainty, and orthogonal assays can reveal whether fixed tissue preserves perturbation-specific biology or only broad cell-state markers. The resistance project is biologically important but has more interacting high-risk assumptions and longer readouts.",
-      "target": 95,
-      "timestamp": "2026-10-22T04:58:24.814604+00:00"
-    },
-    {
-      "main_risk": "The spatial association may be noncausal and reflect clonal abundance, proliferation, or disease severity; the proposed niche score may not add information beyond simpler epithelial measurements.",
-      "next_test": "Apply a prespecified BCL2-high epithelial/BMP-low fibroblast proximity score to paired pretreatment and early-treatment patient samples, testing patient-level replication beyond BCL2 abundance, proliferation, and clinical covariates.",
-      "opponent": 15,
-      "outcome": "loss",
-      "reason": "The gastric-cancer project has a clearer patient-level anchor, more credible clinical relevance, and a shorter earliest decision. A locked spatial score can be tested against BCL2 abundance, proliferation, and clinical covariates, with independent-cohort replication and orthogonal imaging. The virtual-cell resistance idea is broader but relies on several high-risk identifiability and cross-therapy extrapolation assumptions that are unlikely to resolve within six months.",
-      "target": 95,
-      "timestamp": "2026-10-22T04:58:24.814615+00:00"
-    },
-    {
       "main_risk": "Target engagement may add little beyond lineage, exposure, co-mutation, and assay context, leaving the integrated profile poorly transferable.",
       "next_test": "Run a focused, blinded panel of mutation-defined models measuring engagement, pathway suppression, and viability across matched concentration-response curves, then test held-out variant-drug pairs against mutation-only and context-only baselines.",
       "opponent": 55,
@@ -2699,6 +2654,51 @@
       "reason": "Glioma coherence provides a more focused six-month project with an inexpensive early branch point, whereas the dermatomyositis ILD study combines serial sampling, treatment-confounding, molecular assay harmonization, dynamic modeling, and site shift.",
       "target": 120,
       "timestamp": "2026-11-07T21:57:11.033296+00:00"
+    },
+    {
+      "main_risk": "The spatial cGAS-STING and fibrosis score may be assay-dependent or merely encode tumor burden and disease severity.",
+      "next_test": "Evaluate a locked topology score in a held-out pilot against clinical, composition-only, and shuffled-topology baselines with calibration and subgroup checks.",
+      "opponent": 60,
+      "outcome": "loss",
+      "reason": "The HCC problem has clearer clinical value, randomized-treatment context, strong patient-level validation, and a relatively direct early test of incremental spatial value beyond composition.",
+      "target": 122,
+      "timestamp": "2026-11-08T06:13:26.373875+00:00"
+    },
+    {
+      "main_risk": "Early recurrent trajectories may be culture-specific stress signals that do not predict patient resistance or actionable salvage responses.",
+      "next_test": "Run independent evolution replicates with early longitudinal sampling and test locked trajectory features in held-out replicates plus functional drug-switch confirmation.",
+      "opponent": 106,
+      "outcome": "loss",
+      "reason": "Replicate-aware resistance trajectories offer an earlier, cheaper, and more actionable test, with informative outcomes whether mechanisms prove recurrent or contingent; the perivascular project requires difficult paired human spatial cohorts and several high-risk mechanistic assumptions.",
+      "target": 122,
+      "timestamp": "2026-11-08T06:13:26.373895+00:00"
+    },
+    {
+      "main_risk": "The apparent perivascular transition may be generic inflammation, exposure, or site-specific biology rather than a reproducible mechanism.",
+      "next_test": "Profile paired baseline and early on-treatment biopsies, testing the prespecified transition beyond composition and inflammation with patient- and site-held-out validation.",
+      "opponent": 66,
+      "outcome": "win",
+      "reason": "The chemotherapy project has a more concrete biological and temporal anchor than the architecture project, which leaves treatment and response endpoints underspecified; paired on-treatment tissue can directly test whether the proposed transition precedes response.",
+      "target": 122,
+      "timestamp": "2026-11-08T06:13:26.373903+00:00"
+    },
+    {
+      "main_risk": "Treatment-interaction estimates may be underpowered or confounded by assay availability, treatment selection, and heterogeneous matching rules across institutions.",
+      "next_test": "Lock a compact baseline-plus-early-response signature and test treatment interaction and calibration in a site-held-out cohort against clinical and molecular-only baselines.",
+      "opponent": 2,
+      "outcome": "loss",
+      "reason": "Molecularly matched therapy has greater credible precision-medicine impact because it targets differential benefit against a standard comparator and uses randomized treatment assignment, whereas the perivascular study is more observational and data-intensive.",
+      "target": 122,
+      "timestamp": "2026-11-08T06:13:26.373908+00:00"
+    },
+    {
+      "main_risk": "Apparent gains may reflect state-label or dataset regularities rather than genuine extrapolation to unseen perturbations and contexts.",
+      "next_test": "Blindly evaluate target- and donor-held-out perturbations against expression-first, compositional, retrieval, and null baselines with calibration and orthogonal imaging or flow validation.",
+      "opponent": 39,
+      "outcome": "loss",
+      "reason": "Composition-aware counterfactuals provide a broader reusable technology with a clear donor- and perturbation-held-out test, strong negative controls, and useful outcomes even if the preferred model or state definitions fail.",
+      "target": 122,
+      "timestamp": "2026-11-08T06:13:26.373913+00:00"
     }
   ],
   "k_factor": 24,
@@ -2761,10 +2761,10 @@
     },
     "106": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 2,
-      "rating": 1523.71,
-      "wins": 4
+      "rating": 1535.26,
+      "wins": 5
     },
     "107": {
       "draws": 0,
@@ -2887,10 +2887,10 @@
     },
     "122": {
       "draws": 0,
-      "games": 6,
-      "losses": 2,
-      "rating": 1522.7,
-      "wins": 4
+      "games": 11,
+      "losses": 6,
+      "rating": 1489.04,
+      "wins": 5
     },
     "13": {
       "draws": 0,
@@ -2929,10 +2929,10 @@
     },
     "2": {
       "draws": 0,
-      "games": 32,
+      "games": 33,
       "losses": 15,
-      "rating": 1521.01,
-      "wins": 17
+      "rating": 1532.7,
+      "wins": 18
     },
     "21": {
       "draws": 0,
@@ -3069,10 +3069,10 @@
     },
     "39": {
       "draws": 0,
-      "games": 26,
+      "games": 27,
       "losses": 12,
-      "rating": 1520.85,
-      "wins": 14
+      "rating": 1532.14,
+      "wins": 15
     },
     "4": {
       "draws": 1,
@@ -3237,10 +3237,10 @@
     },
     "60": {
       "draws": 0,
-      "games": 16,
+      "games": 17,
       "losses": 7,
-      "rating": 1522.61,
-      "wins": 9
+      "rating": 1534.61,
+      "wins": 10
     },
     "61": {
       "draws": 0,
@@ -3279,9 +3279,9 @@
     },
     "66": {
       "draws": 0,
-      "games": 22,
-      "losses": 10,
-      "rating": 1524.32,
+      "games": 23,
+      "losses": 11,
+      "rating": 1511.45,
       "wins": 12
     },
     "67": {
