@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Target engagement may add little beyond lineage, exposure, co-mutation, and assay context, leaving the integrated profile poorly transferable.",
-      "next_test": "Run a focused, blinded panel of mutation-defined models measuring engagement, pathway suppression, and viability across matched concentration-response curves, then test held-out variant-drug pairs against mutation-only and context-only baselines.",
-      "opponent": 55,
-      "outcome": "loss",
-      "reason": "Mutation-specific target engagement has clearer precision-medicine value, stronger causal readouts, and a more bounded path from biochemical engagement to pathway suppression and cellular response. Its validation can be performed with matched models and leakage-resistant held-out genetic backgrounds, whereas the virtual-cell proposal depends on disentangling several paracrine, compositional, and target-depletion effects simultaneously.",
-      "target": 94,
-      "timestamp": "2026-10-22T12:01:38.716885+00:00"
-    },
-    {
-      "main_risk": "Apparent hysteresis may be caused by viability, cell-cycle, calcium, or batch effects rather than a persistent excitation-history state.",
-      "next_test": "Withhold one intermediate recovery schedule and prospectively predict module trajectories in an independent neuronal preparation, comparing the history-aware model with memoryless and calcium/viability baselines.",
-      "opponent": 89,
-      "outcome": "loss",
-      "reason": "The stress-history problem has a cleaner scientific anchor and cheaper discriminating experiment: matched stimulation histories, recovery schedules, and neuronal preparations can directly test whether history predicts future state beyond current measurements. The paracrine project has potentially broad impact but requires simultaneous identification of direct effects, soluble signaling, target depletion, composition, and construct transfer, creating a longer and riskier readout chain.",
-      "target": 94,
-      "timestamp": "2026-10-22T12:01:38.716908+00:00"
-    },
-    {
-      "main_risk": "Organoid establishment and ex vivo response may not be timely or biologically representative enough to predict patient benefit.",
-      "next_test": "Prospectively track every eligible metastatic case through organoid establishment, assay readiness, treatment-decision deadlines, and blinded outcome prediction using a locked short-term-plus-regrowth score.",
-      "opponent": 1,
-      "outcome": "loss",
-      "reason": "Time-constrained organoid profiling addresses an explicit clinical decision and can produce useful outcomes even if organoid response is only informative for selected treatment classes or features. It has patient-level validation, clear molecular and clinical baselines, and an operational feasibility test; the paracrine virtual-cell proposal has more mechanistic ambition but substantially greater identifiability and assay burden.",
-      "target": 94,
-      "timestamp": "2026-10-22T12:01:38.716918+00:00"
-    },
-    {
-      "main_risk": "Fixation may destroy or distort perturbation-specific regulatory effects, leaving only stable cell-state markers that cannot support the claimed transfer.",
-      "next_test": "Profile donor-matched fresh, frozen, and fixed aliquots from at least three independent preparations before and after one held-out perturbation, using a targeted orthogonal functional or protein endpoint and comparing against simple persistence and batch-correction baselines.",
-      "opponent": 92,
-      "outcome": "loss",
-      "reason": "Assay transportability is a more sharply testable technology problem with broad downstream utility and a direct paired-aliquot design. Donor-level fresh, frozen, and fixed comparisons can establish whether perturbation signals survive measurement distortion before committing to complex modeling. The paracrine proposal requires multiple intervention types and extensive multicellular data before its counterfactual claims become identifiable.",
-      "target": 94,
-      "timestamp": "2026-10-22T12:01:38.716925+00:00"
-    },
-    {
-      "main_risk": "The BCL2-high spatial pattern may merely mark tumor abundance, proliferation, or advanced clone state rather than a causal niche-supported resistance mechanism.",
-      "next_test": "Apply a locked spatial neighborhood score to paired pretreatment and early-treatment specimens, testing whether it predicts patient-level persistence beyond BCL2 abundance, proliferation, and clinical covariates in an independent cohort.",
-      "opponent": 15,
-      "outcome": "loss",
-      "reason": "The gastric-cancer project has a focused patient-level biomarker anchor, a plausible orthogonal mechanistic follow-up, and an early replication test that can stop or refine the project before extensive modeling. It directly addresses treatment persistence and clinical stratification. The paracrine virtual-cell project is broader but relies on high-risk identifiability of direct versus indirect effects and extensive assay integration.",
-      "target": 94,
-      "timestamp": "2026-10-22T12:01:38.716931+00:00"
-    },
-    {
       "main_risk": "Matrix GTP may not be sufficiently observable or separable from ATP depletion, membrane-potential changes, and nonspecific mitochondrial stress.",
       "next_test": "Run the preregistered short time course with ATP synthase inhibition, nucleotide-exchange rescue, matrix-GTP rescue, matched controls, and orthogonal metabolite and translation assays.",
       "opponent": 67,
@@ -2699,6 +2654,51 @@
       "reason": "Composition-aware counterfactuals provide a broader reusable technology with a clear donor- and perturbation-held-out test, strong negative controls, and useful outcomes even if the preferred model or state definitions fail.",
       "target": 122,
       "timestamp": "2026-11-08T06:13:26.373913+00:00"
+    },
+    {
+      "main_risk": "Apparent sex-specific effects may disappear after adjustment for clinical composition, treatment selection, and assay/site confounding.",
+      "next_test": "Run the locked feature evaluation in two independent checkpoint-treated cohorts with patient- and site-held-out calibration and decision-curve analysis.",
+      "opponent": 104,
+      "outcome": "loss",
+      "reason": "Sex-stratified transportability has broader immediate value, a clearer six-month retrospective path, and an early external-cohort test; DOK3 requires several high-risk biological, spatial, and longitudinal assumptions.",
+      "target": 114,
+      "timestamp": "2026-11-08T13:36:51.167144+00:00"
+    },
+    {
+      "main_risk": "CD44v9 may mark broadly drug-tolerant surviving cells without being specifically causal or therapeutically targetable.",
+      "next_test": "Test CD44v9 perturbation plus treatment across at least six independent PDO donors, measuring both viability and post-treatment regrowth with matched controls.",
+      "opponent": 108,
+      "outcome": "loss",
+      "reason": "CD44v9 offers a focused causal question with a relatively cheap donor-level perturbation test, and informative outcomes remain possible if it proves only a marker; DOK3 requires reproducible patient transitions, spatial independence, external replication, and perturbation evidence.",
+      "target": 114,
+      "timestamp": "2026-11-08T13:36:51.167160+00:00"
+    },
+    {
+      "main_risk": "BIS below 40 may be an insufficiently actionable surrogate rather than a warning target that changes clinical decisions.",
+      "next_test": "Reanalyze cases with strict patient- and site-held-out splits, modality ablation, calibration, alarm burden, and a prespecified clinical utility analysis.",
+      "opponent": 84,
+      "outcome": "loss",
+      "reason": "The anesthesia project has a more tractable decision-oriented readout, available retrospective data, and a rapid site-held-out test of incremental value; DOK3 combines uncertain human biology, paired sampling, spatial measurement, and mechanistic validation.",
+      "target": 114,
+      "timestamp": "2026-11-08T13:36:51.167167+00:00"
+    },
+    {
+      "main_risk": "Lymphocyte dynamics may reflect infection, corticosteroids, adherence, drug exposure, or timing rather than antibody status.",
+      "next_test": "Evaluate the prespecified trajectory rule against clinical and treatment-history baselines using blinded antibody outcomes, confounder adjustment, and testing-burden decision curves.",
+      "opponent": 83,
+      "outcome": "loss",
+      "reason": "The lymphocyte trajectory problem has a low-burden measurement, a concrete confirmatory-testing action, and a relatively cheap early retrospective branch, whereas DOK3 has multiple long-readout biological dependencies.",
+      "target": 114,
+      "timestamp": "2026-11-08T13:36:51.167171+00:00"
+    },
+    {
+      "main_risk": "Ultrasound may add no robust patient-level decision value beyond standardized clinical assessment, especially across operators and devices.",
+      "next_test": "Run a blinded clinical-versus-clinical-plus-ultrasound pilot with patient/site-held-out calibration and decision-curve net benefit at a clinically defined preparation threshold.",
+      "opponent": 78,
+      "outcome": "loss",
+      "reason": "Ultrasound-enhanced airway stratification addresses a broad, clinically consequential decision and can be tested through nested models with early patient-level validation; DOK3 is more novel but substantially riskier and slower to establish.",
+      "target": 114,
+      "timestamp": "2026-11-08T13:36:51.167175+00:00"
     }
   ],
   "k_factor": 24,
@@ -2747,10 +2747,10 @@
     },
     "104": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 1,
-      "rating": 1544.18,
-      "wins": 5
+      "rating": 1556.17,
+      "wins": 6
     },
     "105": {
       "draws": 0,
@@ -2775,10 +2775,10 @@
     },
     "108": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 1,
-      "rating": 1544.46,
-      "wins": 5
+      "rating": 1556.03,
+      "wins": 6
     },
     "109": {
       "draws": 0,
@@ -2824,9 +2824,9 @@
     },
     "114": {
       "draws": 0,
-      "games": 6,
-      "losses": 1,
-      "rating": 1543.97,
+      "games": 11,
+      "losses": 6,
+      "rating": 1487.95,
       "wins": 5
     },
     "115": {
@@ -3370,10 +3370,10 @@
     },
     "78": {
       "draws": 0,
-      "games": 16,
+      "games": 17,
       "losses": 6,
-      "rating": 1545.36,
-      "wins": 10
+      "rating": 1555.75,
+      "wins": 11
     },
     "79": {
       "draws": 0,
@@ -3412,17 +3412,17 @@
     },
     "83": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 5,
-      "rating": 1542.7,
-      "wins": 9
+      "rating": 1553.55,
+      "wins": 10
     },
     "84": {
       "draws": 0,
-      "games": 16,
+      "games": 17,
       "losses": 6,
-      "rating": 1542.88,
-      "wins": 10
+      "rating": 1554.1,
+      "wins": 11
     },
     "85": {
       "draws": 0,
