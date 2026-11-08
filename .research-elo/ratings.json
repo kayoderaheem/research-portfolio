@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Matrix GTP may not be sufficiently observable or separable from ATP depletion, membrane-potential changes, and nonspecific mitochondrial stress.",
-      "next_test": "Run the preregistered short time course with ATP synthase inhibition, nucleotide-exchange rescue, matrix-GTP rescue, matched controls, and orthogonal metabolite and translation assays.",
-      "opponent": 67,
-      "outcome": "win",
-      "reason": "Issue 93 has a clearer mechanistic anchor, broader reusable technology value, and a falsifiable early rescue experiment, whereas issue 67 depends on scarce longitudinal spatial specimens and reproducibility across patients.",
-      "target": 93,
-      "timestamp": "2026-10-22T17:16:39.313948+00:00"
-    },
-    {
-      "main_risk": "The apparent history effect may be explained by injury burden or cell-composition changes rather than a transferable regenerative state.",
-      "next_test": "Compare zero-, one-, and two-challenge preparations followed by a held-out CARM1-pathway perturbation, using pre-perturbation profiles and independent functional assays.",
-      "opponent": 90,
-      "outcome": "loss",
-      "reason": "Issue 90 has a more direct experimental test of history dependence, functional endpoints, and useful outcomes even if the favored latent-memory explanation fails; issue 93 requires several difficult intermediate measurements to establish identifiability.",
-      "target": 93,
-      "timestamp": "2026-10-22T17:16:39.313968+00:00"
-    },
-    {
-      "main_risk": "The proposed GTP-mediated mechanism may be unidentifiable because correlated bioenergetic perturbations produce indistinguishable observations.",
-      "next_test": "Test whether matched ATP, GTP, membrane-potential, exchange, and mitochondrial-translation measurements distinguish competing causal models under rescue perturbations.",
-      "opponent": 40,
-      "outcome": "win",
-      "reason": "Issue 93 targets a general causal-identifiability problem with orthogonal validation and informative failure branches, while issue 40 risks becoming a benchmark of context-specific synergy and has a difficult transfer step into donor-derived or three-dimensional models.",
-      "target": 93,
-      "timestamp": "2026-10-22T17:16:39.313977+00:00"
-    },
-    {
-      "main_risk": "Temporal features may add no genuine physiological information once measurement density and a tuned static baseline are controlled.",
-      "next_test": "Evaluate locked static versus temporal models on patient- and site-held-out data, including measurement-density controls, calibration, and decision-curve net benefit.",
-      "opponent": 27,
-      "outcome": "loss",
-      "reason": "Issue 27 offers the cheapest and most decision-relevant early test, with accessible retrospective data, patient-disjoint validation, strong baselines, and explicit control of measurement-density confounding; issue 93 requires a bespoke, high-risk multimodal experimental system.",
-      "target": 93,
-      "timestamp": "2026-10-22T17:16:39.313988+00:00"
-    },
-    {
-      "main_risk": "Hormonal and lifestyle gains may reflect label leakage, missingness, or population spectrum differences rather than complementary diagnostic information.",
-      "next_test": "Run the locked clinical/reproductive, plus-hormone, plus-lifestyle sequence with independent label adjudication, patient-level cross-fitting, calibration, and decision-curve analysis.",
-      "opponent": 73,
-      "outcome": "loss",
-      "reason": "Issue 73 has a clearer near-term clinical decision question, established simple baselines, and a feasible multicohort nested-model test of incremental value, whereas issue 93 carries substantially greater assay and causal-identification risk.",
-      "target": 93,
-      "timestamp": "2026-10-22T17:16:39.313995+00:00"
-    },
-    {
       "main_risk": "For 83, lymphocyte trajectories may add no information beyond confounding factors such as infection, steroids, adherence, or timing.",
       "next_test": "Test the prespecified lymphocyte rule against a clinical-monitoring baseline for antibody positivity in a patient-level retrospective cohort.",
       "opponent": 67,
@@ -2699,6 +2654,51 @@
       "reason": "Ultrasound-enhanced airway stratification addresses a broad, clinically consequential decision and can be tested through nested models with early patient-level validation; DOK3 is more novel but substantially riskier and slower to establish.",
       "target": 114,
       "timestamp": "2026-11-08T13:36:51.167175+00:00"
+    },
+    {
+      "main_risk": "The pediatric cohort may be too small and heterogeneous to establish transportable functional-outcome prediction.",
+      "next_test": "Run the prespecified patient-level retrospective comparison of clinical, GFAP-only, MRI-only, genotype-only, and multimodal models with calibration and decision curves.",
+      "opponent": 82,
+      "outcome": "loss",
+      "reason": "Alexander disease has a clearer clinical anchor and a more direct decision-use case: distinguishing target engagement from meaningful functional benefit. Its retrospective multimodal test can assess incremental value before committing to broader development, whereas flux estimation in 107 depends on difficult tracer identifiability and extensive cross-site data.",
+      "target": 107,
+      "timestamp": "2026-11-08T19:44:28.870824+00:00"
+    },
+    {
+      "main_risk": "The proposed necrosis-to-adaptive-response trajectory may not reproducibly occur across patients or may be explained by tumor burden and exposure.",
+      "next_test": "Analyze paired pretreatment and early-treatment specimens, using patient-level models to compare spatial organization against myeloid abundance and tumor-burden baselines.",
+      "opponent": 64,
+      "outcome": "loss",
+      "reason": "The STING project offers a tighter mechanistic chain and a relatively cheap paired-tissue test: whether baseline myeloid spatial organization predicts an early treatment trajectory beyond abundance. It also has clear orthogonal validation and useful negative outcomes. Flux signatures in 107 face more fundamental identifiability and sampling-context risks before biological interpretation is secure.",
+      "target": 107,
+      "timestamp": "2026-11-08T19:44:28.870851+00:00"
+    },
+    {
+      "main_risk": "Flux parameters may be non-identifiable or add no information beyond abundance, exposure, and clinical covariates.",
+      "next_test": "Blindly compare exposure-normalized flux, abundance, and clinical models in paired patient-derived samples, with technical identifiability and external-site checks.",
+      "opponent": 59,
+      "outcome": "win",
+      "reason": "Flux-constrained signatures provide a more disciplined early comparison against static abundance and exposure-adjusted clinical baselines, with a broadly reusable transportability question. The spatial-access idea in 59 requires reliable identification of therapeutic cells, boundary crossing, and biologically meaningful access from limited tissue, creating a longer chain of high-risk measurements.",
+      "target": 107,
+      "timestamp": "2026-11-08T19:44:28.870862+00:00"
+    },
+    {
+      "main_risk": "Measured heterogeneity change may primarily reflect sampling variation, necrosis, purity, or assay quality rather than resistant disease.",
+      "next_test": "Test a locked early heterogeneity-change measure against repeat-resection residual disease beyond baseline HER2, stage, and tumor burden in a retrospective serial cohort.",
+      "opponent": 53,
+      "outcome": "loss",
+      "reason": "The bladder-cancer project has the strongest near-term decision relevance: an early within-patient change could alter assessment intensity during bladder-preserving therapy. Its endpoint and serial sampling are comparatively concrete, while 107 requires clinically feasible tracer measurements and generalization across institutions, regions, and platforms.",
+      "target": 107,
+      "timestamp": "2026-11-08T19:44:28.870871+00:00"
+    },
+    {
+      "main_risk": "The biomarker may reflect nonspecific treatment injury or exposure rather than a causal, inhibitor-sensitive resistance state.",
+      "next_test": "In independent donor-derived models, lock an early biomarker threshold and test prediction of regrowth plus selective benefit from DNA-damage-tolerance inhibition.",
+      "opponent": 3,
+      "outcome": "loss",
+      "reason": "DNA-damage-tolerance escape has a direct mechanistic intervention and an early functional branch: biomarker-high models should show later regrowth and selective benefit from add-on inhibition. This is feasible within six months and can distinguish biomarker failure from combination failure. Flux study 107 has broader discovery potential but depends on costly, clinically complex tracer modeling and cross-context validation.",
+      "target": 107,
+      "timestamp": "2026-11-08T19:44:28.870878+00:00"
     }
   ],
   "k_factor": 24,
@@ -2768,10 +2768,10 @@
     },
     "107": {
       "draws": 0,
-      "games": 6,
-      "losses": 5,
-      "rating": 1452.99,
-      "wins": 1
+      "games": 11,
+      "losses": 9,
+      "rating": 1419.38,
+      "wins": 2
     },
     "108": {
       "draws": 0,
@@ -2999,10 +2999,10 @@
     },
     "3": {
       "draws": 0,
-      "games": 26,
+      "games": 27,
       "losses": 15,
-      "rating": 1450.95,
-      "wins": 11
+      "rating": 1462.25,
+      "wins": 12
     },
     "30": {
       "draws": 0,
@@ -3181,10 +3181,10 @@
     },
     "53": {
       "draws": 0,
-      "games": 20,
+      "games": 21,
       "losses": 12,
-      "rating": 1454.31,
-      "wins": 8
+      "rating": 1465.89,
+      "wins": 9
     },
     "54": {
       "draws": 0,
@@ -3223,9 +3223,9 @@
     },
     "59": {
       "draws": 0,
-      "games": 14,
-      "losses": 9,
-      "rating": 1454.06,
+      "games": 15,
+      "losses": 10,
+      "rating": 1441.21,
       "wins": 5
     },
     "6": {
@@ -3265,10 +3265,10 @@
     },
     "64": {
       "draws": 0,
-      "games": 16,
+      "games": 17,
       "losses": 10,
-      "rating": 1453.12,
-      "wins": 6
+      "rating": 1464.7,
+      "wins": 7
     },
     "65": {
       "draws": 0,
@@ -3405,10 +3405,10 @@
     },
     "82": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 8,
-      "rating": 1453.12,
-      "wins": 4
+      "rating": 1465.12,
+      "wins": 5
     },
     "83": {
       "draws": 0,
