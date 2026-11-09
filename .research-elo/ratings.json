@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "For 83, lymphocyte trajectories may add no information beyond confounding factors such as infection, steroids, adherence, or timing.",
-      "next_test": "Test the prespecified lymphocyte rule against a clinical-monitoring baseline for antibody positivity in a patient-level retrospective cohort.",
-      "opponent": 67,
-      "outcome": "win",
-      "reason": "83 offers a narrower but actionable clinical decision, patient-level validation, and a relatively cheap retrospective test; 67 depends on difficult paired spatial specimens and reproducible niche-transition biology.",
-      "target": 83,
-      "timestamp": "2026-10-22T21:42:28.331609+00:00"
-    },
-    {
-      "main_risk": "For 83, antibody positivity and testing decisions may be too sparse or inconsistently measured for reliable calibration.",
-      "next_test": "Run the 7-week patient-level retrospective incremental-value analysis before committing to multimodal prospective development.",
-      "opponent": 87,
-      "outcome": "win",
-      "reason": "83 has a clearer near-term decision endpoint and lower experimental burden, whereas 87 requires demonstrating that unseen spatial localization effects are identifiable under substantial distribution shift.",
-      "target": 83,
-      "timestamp": "2026-10-22T21:42:28.331632+00:00"
-    },
-    {
-      "main_risk": "83 may fail if lymphocyte dynamics are a nonspecific exposure or illness marker rather than a useful antibody-testing trigger.",
-      "next_test": "Evaluate the locked lymphocyte-change rule against clinical and treatment-history baselines in existing longitudinal data.",
-      "opponent": 93,
-      "outcome": "win",
-      "reason": "83 is more clinically actionable and experimentally tractable than 93, whose central GTP-mediated mechanism requires costly matched metabolite, membrane-potential, translation, and rescue measurements with difficult causal separation.",
-      "target": 83,
-      "timestamp": "2026-10-22T21:42:28.331642+00:00"
-    },
-    {
-      "main_risk": "83 may not achieve transportable calibration across laboratories and patient populations.",
-      "next_test": "Perform site-held-out retrospective validation of antibody positivity and net benefit using only measurements available before testing.",
-      "opponent": 2,
-      "outcome": "win",
-      "reason": "83 supports an early, bounded decision using routine longitudinal measurements, while 2 depends on adequate randomized treatment-interaction power, heterogeneous molecular workflows, and independent institutional cohorts that are not assured.",
-      "target": 83,
-      "timestamp": "2026-10-22T21:42:28.331649+00:00"
-    },
-    {
-      "main_risk": "83 may show an apparent signal that is explained entirely by treatment timing, infection, concomitant medication, or adherence.",
-      "next_test": "Compare the prespecified lymphocyte trigger with clinical, treatment-history, and baseline-count baselines in a leakage-resistant patient-level cohort.",
-      "opponent": 39,
-      "outcome": "win",
-      "reason": "83 has a specific clinical action, inexpensive measurements, and a fast falsification path; 39 has broader technology impact but substantial uncertainty around state definitions, true extrapolation, and prospective compositional identifiability.",
-      "target": 83,
-      "timestamp": "2026-10-22T21:42:28.331658+00:00"
-    },
-    {
       "main_risk": "Kinetic states may remain non-identifiable from the proposed nascent-RNA and polymerase-occupancy measurements.",
       "next_test": "Run the dense two-factor acute time course with replicate-aware parameter recovery and held-out perturbation prediction.",
       "opponent": 63,
@@ -2699,6 +2654,51 @@
       "reason": "DNA-damage-tolerance escape has a direct mechanistic intervention and an early functional branch: biomarker-high models should show later regrowth and selective benefit from add-on inhibition. This is feasible within six months and can distinguish biomarker failure from combination failure. Flux study 107 has broader discovery potential but depends on costly, clinically complex tracer modeling and cross-context validation.",
       "target": 107,
       "timestamp": "2026-11-08T19:44:28.870878+00:00"
+    },
+    {
+      "main_risk": "The reference standard may be heterogeneous or circular, making apparent imaging value unreliable.",
+      "next_test": "Run the predefined site-held-out comparison of clinical, neurophysiological, and imaging-enhanced models with blinded image-quality assessment.",
+      "opponent": 31,
+      "outcome": "loss",
+      "reason": "Corneal imaging has a clearer clinical decision target, broader patient relevance, and a feasible site-held-out test with calibration and reproducibility readouts; the spatial electrochemotherapy idea faces greater assay, cohort, and transportability risk.",
+      "target": 112,
+      "timestamp": "2026-11-09T00:58:20.199304+00:00"
+    },
+    {
+      "main_risk": "Spatial features may fail to add value after lesion size, composition, and patient effects are controlled.",
+      "next_test": "Evaluate baseline and early spatial features in held-out patients against composition-only and clinical baselines with permutation controls.",
+      "opponent": 73,
+      "outcome": "win",
+      "reason": "The electrochemotherapy problem has a sharper differentiated biological anchor and a stronger opportunity to establish whether spatial context adds information beyond composition, whereas PCOS modality gains may be redundant, label-adjacent, and cohort-specific.",
+      "target": 112,
+      "timestamp": "2026-11-09T00:58:20.199322+00:00"
+    },
+    {
+      "main_risk": "The apparent spatial signal may be driven by lesion or patient severity rather than treatment-relevant organization.",
+      "next_test": "Test locked spatial features against composition and permuted-neighborhood controls in held-out patients.",
+      "opponent": 90,
+      "outcome": "win",
+      "reason": "The electrochemotherapy study has more immediate evidence readiness and a cheaper, direct incremental-prediction decision, while history-aware virtual-cell extrapolation requires several difficult assumptions about identifiable memory states, functional reproducibility, and donor transfer.",
+      "target": 112,
+      "timestamp": "2026-11-09T00:58:20.199330+00:00"
+    },
+    {
+      "main_risk": "The UCHL1–mregDC–Treg neighborhood may be a proxy for disease severity or hypoxia rather than a resistance mechanism.",
+      "next_test": "Use pretreatment and early-treatment multiplex imaging to compare the spatial model with plasma UCHL1, composition, and clinical baselines in held-out patients.",
+      "opponent": 63,
+      "outcome": "loss",
+      "reason": "The HCC problem offers greater near-term clinical value and stronger disease-specific evidence readiness, with a concrete biomarker comparator and an actionable resistance mechanism; electrochemotherapy spatial prediction is similarly risky but less clinically consequential and more niche.",
+      "target": 112,
+      "timestamp": "2026-11-09T00:58:20.199337+00:00"
+    },
+    {
+      "main_risk": "The project may yield only a benchmark result without a generalizable biological or translational contribution.",
+      "next_test": "Run the preregistered center-held-out nested benchmark and determine whether spatial context adds calibrated value beyond clinical, composition, imaging, and molecular baselines.",
+      "opponent": 17,
+      "outcome": "loss",
+      "reason": "The lymphoma benchmark has broader technological utility, multicenter relevance, strong established baselines, and a credible center-held-out validation design; electrochemotherapy is more biologically distinctive but narrower and more dependent on specialized longitudinal tissue access.",
+      "target": 112,
+      "timestamp": "2026-11-09T00:58:20.199342+00:00"
     }
   ],
   "k_factor": 24,
@@ -2810,10 +2810,10 @@
     },
     "112": {
       "draws": 0,
-      "games": 6,
-      "losses": 1,
-      "rating": 1547.81,
-      "wins": 5
+      "games": 11,
+      "losses": 4,
+      "rating": 1535.72,
+      "wins": 7
     },
     "113": {
       "draws": 0,
@@ -2908,10 +2908,10 @@
     },
     "17": {
       "draws": 0,
-      "games": 25,
+      "games": 26,
       "losses": 10,
-      "rating": 1550.03,
-      "wins": 15
+      "rating": 1561.95,
+      "wins": 16
     },
     "18": {
       "draws": 1,
@@ -3013,10 +3013,10 @@
     },
     "31": {
       "draws": 0,
-      "games": 31,
+      "games": 32,
       "losses": 13,
-      "rating": 1548.0,
-      "wins": 18
+      "rating": 1559.99,
+      "wins": 19
     },
     "32": {
       "draws": 0,
@@ -3258,10 +3258,10 @@
     },
     "63": {
       "draws": 0,
-      "games": 18,
+      "games": 19,
       "losses": 7,
-      "rating": 1545.64,
-      "wins": 11
+      "rating": 1558.14,
+      "wins": 12
     },
     "64": {
       "draws": 0,
@@ -3335,9 +3335,9 @@
     },
     "73": {
       "draws": 0,
-      "games": 16,
-      "losses": 6,
-      "rating": 1546.98,
+      "games": 17,
+      "losses": 7,
+      "rating": 1534.59,
       "wins": 10
     },
     "74": {
@@ -3468,9 +3468,9 @@
     },
     "90": {
       "draws": 1,
-      "games": 15,
-      "losses": 5,
-      "rating": 1546.14,
+      "games": 16,
+      "losses": 6,
+      "rating": 1534.21,
       "wins": 9
     },
     "91": {
