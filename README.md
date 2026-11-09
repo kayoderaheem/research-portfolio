@@ -147,14 +147,14 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | 42 | [#39 — [Idea] Composition-aware counterfactuals for unseen perturbations across tissue neighborhoods](https://github.com/kayoderaheem/research-portfolio/issues/39) | **1532** | 27 | 15W / 0D / 12L |
 | 43 | [#85 — [Idea] Particle-fraction-specific blood RNA value for clinically defined Alzheimer’s disease triage](https://github.com/kayoderaheem/research-portfolio/issues/85) | **1528** | 19 | 11W / 0D / 8L |
 | 44 | [#91 — [Idea] Kinetic identifiability of acute transcriptional perturbations in virtual cells](https://github.com/kayoderaheem/research-portfolio/issues/91) | **1528** | 20 | 11W / 0D / 9L |
-| 45 | [#93 — [Idea] Mechanism-identifiable virtual cells for bioenergetic perturbations](https://github.com/kayoderaheem/research-portfolio/issues/93) | **1515** | 23 | 12W / 0D / 11L |
-| 46 | [#55 — [Idea] Mutation-specific target engagement as a separator of intrinsic sensitivity and resistance](https://github.com/kayoderaheem/research-portfolio/issues/55) | **1514** | 21 | 11W / 0D / 10L |
-| 47 | [#9 — [Idea] Spatially resolved IL-17 and retinoid states predicting tunnel-directed therapy response in hidradenitis suppurativa](https://github.com/kayoderaheem/research-portfolio/issues/9) | **1513** | 38 | 19W / 1D / 18L |
-| 48 | [#117 — [Idea] Reproducible treatment-induced state transitions after epigenetic therapy in gastric cancer](https://github.com/kayoderaheem/research-portfolio/issues/117) | **1512** | 7 | 4W / 0D / 3L |
-| 49 | [#66 — [Idea] Architecture-aware prediction of treatment response in glioblastoma beyond cellular composition](https://github.com/kayoderaheem/research-portfolio/issues/66) | **1511** | 23 | 12W / 0D / 11L |
-| 50 | [#105 — [Idea] Bone-niche dependence of functional drug response in multiple myeloma](https://github.com/kayoderaheem/research-portfolio/issues/105) | **1511** | 13 | 7W / 0D / 6L |
-| 51 | [#65 — [Idea] Spatial fibroblast-state transitions as predictors of bazedoxifene response in cutaneous fibrosis](https://github.com/kayoderaheem/research-portfolio/issues/65) | **1499** | 22 | 11W / 0D / 11L |
-| 52 | [#1 — [Idea] Time-to-decision functional profiling for resistance-aware combination therapy](https://github.com/kayoderaheem/research-portfolio/issues/1) | **1499** | 41 | 20W / 0D / 21L |
+| 45 | [#93 — [Idea] Mechanism-identifiable virtual cells for bioenergetic perturbations](https://github.com/kayoderaheem/research-portfolio/issues/93) | **1527** | 24 | 13W / 0D / 11L |
+| 46 | [#66 — [Idea] Architecture-aware prediction of treatment response in glioblastoma beyond cellular composition](https://github.com/kayoderaheem/research-portfolio/issues/66) | **1523** | 24 | 13W / 0D / 11L |
+| 47 | [#117 — [Idea] Reproducible treatment-induced state transitions after epigenetic therapy in gastric cancer](https://github.com/kayoderaheem/research-portfolio/issues/117) | **1523** | 12 | 7W / 0D / 5L |
+| 48 | [#55 — [Idea] Mutation-specific target engagement as a separator of intrinsic sensitivity and resistance](https://github.com/kayoderaheem/research-portfolio/issues/55) | **1502** | 22 | 11W / 0D / 11L |
+| 49 | [#9 — [Idea] Spatially resolved IL-17 and retinoid states predicting tunnel-directed therapy response in hidradenitis suppurativa](https://github.com/kayoderaheem/research-portfolio/issues/9) | **1501** | 39 | 19W / 1D / 19L |
+| 50 | [#65 — [Idea] Spatial fibroblast-state transitions as predictors of bazedoxifene response in cutaneous fibrosis](https://github.com/kayoderaheem/research-portfolio/issues/65) | **1499** | 22 | 11W / 0D / 11L |
+| 51 | [#1 — [Idea] Time-to-decision functional profiling for resistance-aware combination therapy](https://github.com/kayoderaheem/research-portfolio/issues/1) | **1499** | 41 | 20W / 0D / 21L |
+| 52 | [#105 — [Idea] Bone-niche dependence of functional drug response in multiple myeloma](https://github.com/kayoderaheem/research-portfolio/issues/105) | **1499** | 14 | 7W / 0D / 7L |
 | 53 | [#122 — [Idea] Perivascular immune-state transitions during chemotherapy response](https://github.com/kayoderaheem/research-portfolio/issues/122) | **1489** | 11 | 5W / 0D / 6L |
 | 54 | [#114 — [Idea] DOK3-CARD9 macrophage-state transitions as reproducible determinants of PD-1 blockade response](https://github.com/kayoderaheem/research-portfolio/issues/114) | **1488** | 11 | 5W / 0D / 6L |
 | 55 | [#57 — [Idea] Pre-existing stromal architecture as an incremental predictor of bispecific-antibody response](https://github.com/kayoderaheem/research-portfolio/issues/57) | **1483** | 28 | 13W / 0D / 15L |
@@ -223,7 +223,7 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | 118 | [#12 — [Idea] Antigen-presentation escape neighborhoods predicting checkpoint response in melanoma with HIV](https://github.com/kayoderaheem/research-portfolio/issues/12) | **1367** | 16 | 2W / 0D / 14L |
 | 119 | [#95 — [Idea] Evolution-aware virtual cells for unseen therapy resistance states](https://github.com/kayoderaheem/research-portfolio/issues/95) | **1365** | 12 | 0W / 0D / 12L |
 
-_Last synchronized: 2026-11-09 11:44 UTC._
+_Last synchronized: 2026-11-09 22:28 UTC._
 <!-- RESEARCH_ELO_END -->
 
 ## Add ideas manually

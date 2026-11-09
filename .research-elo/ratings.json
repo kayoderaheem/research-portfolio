@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Therapeutic T cells may not be identifiable or spatially measured reproducibly enough across patient samples.",
-      "next_test": "Analyze paired pretreatment and early on-treatment tissues with orthogonal imaging to test whether predefined access features predict patient-level early T-cell movement or tumor proximity beyond composition.",
-      "opponent": 59,
-      "outcome": "loss",
-      "reason": "The spatial-access problem has a clearer mechanistic anchor, broader relevance across adoptive T-cell settings, and an early paired-tissue test that can distinguish access failure from abundance or treatment effects. The maternal-placental-fetal study requires difficult endpoint definition, multimodal sampling, and transportable calibration before its clinical value is knowable.",
-      "target": 74,
-      "timestamp": "2026-10-23T11:47:17.362841+00:00"
-    },
-    {
-      "main_risk": "The proposed IL-17A/retinoid tunnel states may not replicate across patients or may add nothing beyond tunnel burden and inflammation.",
-      "next_test": "Apply a locked spatial-state classifier to pretreatment tunnel biopsies from patients starting standardized therapy and compare calibrated patient-level prediction with clinical and composition baselines.",
-      "opponent": 9,
-      "outcome": "loss",
-      "reason": "The hidradenitis problem is more focused and tractable, with a defined tissue unit, clinically relevant response, and a relatively cheap locked-classifier test. The maternal-placental-fetal proposal depends on assembling paired multimodal specimens, defining an actionable neonatal endpoint, and demonstrating transportability and decision value.",
-      "target": 74,
-      "timestamp": "2026-10-23T11:47:17.362863+00:00"
-    },
-    {
-      "main_risk": "Early DNA-damage-tolerance biomarker changes may reflect nonspecific treatment injury or exposure rather than future resistance.",
-      "next_test": "In independent donor-derived models, test whether an early locked biomarker predicts later regrowth and selectively identifies benefit from add-on DNA-damage-tolerance inhibition.",
-      "opponent": 3,
-      "outcome": "win",
-      "reason": "DNA-damage-tolerance escape has a strong mechanism-linked anchor and a functional early test using longitudinal models, with informative outcomes even if the favored biomarker fails. The maternal-placental-fetal project has greater cohort, endpoint, and cross-site logistics and a longer path to a credible decision value estimate.",
-      "target": 74,
-      "timestamp": "2026-10-23T11:47:17.362872+00:00"
-    },
-    {
-      "main_risk": "The neonatal immune-metabolic endpoint may be too heterogeneous or weakly linked to a changeable follow-up decision.",
-      "next_test": "Use paired maternal, placental, and cord samples to test reproducibility and incremental value over BMI and clinical baselines for a prespecified blinded neonatal endpoint.",
-      "opponent": 68,
-      "outcome": "win",
-      "reason": "The maternal-placental-fetal problem is less tied to a narrowly specified therapy and could establish a broadly reusable framework for transportable developmental biomarkers. The IL-15 project is compelling mechanistically but depends on access to rare, therapy-exposed brain-metastasis tissue and assumes that a specific cytokine-access state is actionable.",
-      "target": 74,
-      "timestamp": "2026-10-23T11:47:17.362880+00:00"
-    },
-    {
-      "main_risk": "The glycolytic-inflammatory spatial program may be a cell-line or site-specific artifact and fail to generalize across patients.",
-      "next_test": "Profile pretreatment and early on-treatment biopsies across intrahepatic and extrahepatic disease and test a locked neighborhood score against clinical, site, and composition baselines.",
-      "opponent": 18,
-      "outcome": "loss",
-      "reason": "The cholangiocarcinoma problem has a direct treatment-resistance anchor, an early measurable outcome, explicit cross-anatomical-site testing, and useful functional follow-up through ex vivo assays. The maternal-placental-fetal study faces a more difficult endpoint and larger multimodal transportability burden before demonstrating clinical utility.",
-      "target": 74,
-      "timestamp": "2026-10-23T11:47:17.362892+00:00"
-    },
-    {
       "main_risk": "The multimodal signal may reflect prognosis, severity, treatment timing, or site-specific assay behavior rather than treatment benefit.",
       "next_test": "Run the locked 12-week repeated-measurement pilot with nested models against clinical-severity and single-modality baselines, evaluating calibration and decision value on held-out patients.",
       "opponent": 79,
@@ -2699,6 +2654,51 @@
       "reason": "Ex vivo transport is closer to a patient treatment decision and has a stronger translational validation route, while kinase-state prediction depends on cross-platform phosphoproteomic comparability and drug-response labels that may be dominated by lineage or dose.",
       "target": 100,
       "timestamp": "2026-11-09T11:44:25.704773+00:00"
+    },
+    {
+      "main_risk": "Patient-level spatial relationships may not be transportable beyond cohort, site, or sampling geometry.",
+      "next_test": "Estimate feature reproducibility across patients and compare locked architecture features with composition and clinical baselines before outcome modeling.",
+      "opponent": 66,
+      "outcome": "loss",
+      "reason": "Architecture-aware prediction has a clearer technology anchor, a cheap early stability test, and reusable value even if spatial features fail to improve response prediction. The gastric transition project depends more heavily on scarce paired treatment samples and reproducible transition definitions.",
+      "target": 117,
+      "timestamp": "2026-11-09T22:28:13.575017+00:00"
+    },
+    {
+      "main_risk": "Apparent treatment-induced transitions may reflect differential survival, proliferation, batch effects, or mapping artifacts rather than adaptation.",
+      "next_test": "Apply a preregistered transition panel to paired patient tumors and test patient-level replication after cell-cycle, viability, and batch controls.",
+      "opponent": 105,
+      "outcome": "win",
+      "reason": "The gastric project has a more flexible anchor and stronger early branching: transitions can yield biological insight even if they are therapy- or subtype-specific. The myeloma project requires simultaneous patient-derived model maintenance, niche fidelity, cross-laboratory reproducibility, and clinical prediction.",
+      "target": 117,
+      "timestamp": "2026-11-09T22:28:13.575038+00:00"
+    },
+    {
+      "main_risk": "The gastric transition signal may not replicate across patients or may add no value beyond pretreatment composition and clinical covariates.",
+      "next_test": "Test locked transition scores in paired gastric tumors for replication and incremental residual-disease prediction against strong patient-level baselines.",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "The gastric problem offers broader discovery impact and a more transferable question than the forced IL-17/retinoid treatment pairing. The hidradenitis project has meaningful clinical relevance but must establish that tunnel states are reproducible, predictive beyond burden and inflammation, and biologically actionable.",
+      "target": 117,
+      "timestamp": "2026-11-09T22:28:13.575048+00:00"
+    },
+    {
+      "main_risk": "Mutation-specific engagement may not explain response once lineage, co-mutations, uptake, and exposure are controlled.",
+      "next_test": "Measure engagement, pathway suppression, and viability in a focused held-out mutation/model panel before undertaking resistance evolution.",
+      "opponent": 55,
+      "outcome": "win",
+      "reason": "The gastric project has a shorter, more decisive validation path and clearer useful branches. Mutation-specific target engagement requires coordinated biochemical, cellular, contextual, and resistance-evolution evidence, with several long-readout assumptions and weaker evidence readiness.",
+      "target": 117,
+      "timestamp": "2026-11-09T22:28:13.575055+00:00"
+    },
+    {
+      "main_risk": "Matrix GTP availability may be unidentifiable from correlated ATP, membrane-potential, stress, and translation measurements.",
+      "next_test": "Run independent time courses with ATP-synthase inhibition, GTP and exchange rescue, orthogonal metabolite assays, and prospective prediction of held-out rescue effects.",
+      "opponent": 93,
+      "outcome": "loss",
+      "reason": "The virtual-cell problem has a tightly defined causal anchor, an inexpensive early rescue experiment, and informative outcomes even if the proposed GTP route fails. The gastric project is more clinically grounded but depends on difficult paired cohorts, patient-level replication, and residual-disease endpoints.",
+      "target": 117,
+      "timestamp": "2026-11-09T22:28:13.575061+00:00"
     }
   ],
   "k_factor": 24,
@@ -2754,9 +2754,9 @@
     },
     "105": {
       "draws": 0,
-      "games": 13,
-      "losses": 6,
-      "rating": 1510.88,
+      "games": 14,
+      "losses": 7,
+      "rating": 1498.51,
       "wins": 7
     },
     "106": {
@@ -2845,10 +2845,10 @@
     },
     "117": {
       "draws": 0,
-      "games": 7,
-      "losses": 3,
-      "rating": 1512.08,
-      "wins": 4
+      "games": 12,
+      "losses": 5,
+      "rating": 1523.36,
+      "wins": 7
     },
     "118": {
       "draws": 0,
@@ -3195,9 +3195,9 @@
     },
     "55": {
       "draws": 0,
-      "games": 21,
-      "losses": 10,
-      "rating": 1513.76,
+      "games": 22,
+      "losses": 11,
+      "rating": 1502.13,
       "wins": 11
     },
     "56": {
@@ -3279,10 +3279,10 @@
     },
     "66": {
       "draws": 0,
-      "games": 23,
+      "games": 24,
       "losses": 11,
-      "rating": 1511.45,
-      "wins": 12
+      "rating": 1523.47,
+      "wins": 13
     },
     "67": {
       "draws": 0,
@@ -3461,9 +3461,9 @@
     },
     "9": {
       "draws": 1,
-      "games": 38,
-      "losses": 18,
-      "rating": 1513.48,
+      "games": 39,
+      "losses": 19,
+      "rating": 1501.44,
       "wins": 19
     },
     "90": {
@@ -3489,10 +3489,10 @@
     },
     "93": {
       "draws": 0,
-      "games": 23,
+      "games": 24,
       "losses": 11,
-      "rating": 1514.6,
-      "wins": 12
+      "rating": 1527.34,
+      "wins": 13
     },
     "94": {
       "draws": 0,
