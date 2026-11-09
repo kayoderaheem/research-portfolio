@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Kinetic states may remain non-identifiable from the proposed nascent-RNA and polymerase-occupancy measurements.",
-      "next_test": "Run the dense two-factor acute time course with replicate-aware parameter recovery and held-out perturbation prediction.",
-      "opponent": 63,
-      "outcome": "win",
-      "reason": "Issue 91 has a clearer mechanistic anchor, broader discovery value, and an early perturbation experiment that can test identifiability before major scaling. Issue 63 has strong clinical potential but depends on difficult spatial reproducibility, patient-level external validation, and functional causality.",
-      "target": 91,
-      "timestamp": "2026-10-23T05:00:12.488203+00:00"
-    },
-    {
-      "main_risk": "The measured kinetic modalities may not distinguish initiation, pause release, and turnover without marker-specific or assay-timing artifacts.",
-      "next_test": "Compare kinetic and steady-state models on the prespecified acute time course using perturbation-held-out, leakage-resistant validation.",
-      "opponent": 78,
-      "outcome": "loss",
-      "reason": "Issue 91 offers a more focused and transferable scientific question with direct early measurements and useful outcomes even if the favored model fails. Issue 78 has substantial clinical impact, but endpoint definition, operator/device variation, acquisition feasibility, and subgroup transport create a longer risk chain.",
-      "target": 91,
-      "timestamp": "2026-10-23T05:00:12.488225+00:00"
-    },
-    {
-      "main_risk": "Acute initiation and post-initiation effects may not be separable in the available time window.",
-      "next_test": "Profile initiation-associated and pause-turnover perturbations at dense early time points and test held-out prediction against simple baselines.",
-      "opponent": 90,
-      "outcome": "loss",
-      "reason": "Issue 91 is more immediately testable and measures the proposed causal dynamics directly, whereas Issue 90 requires history to be represented, transferred across donors, and linked to reproducible functional outcomes. The kinetic project also has a simpler early branch point.",
-      "target": 91,
-      "timestamp": "2026-10-23T05:00:12.488234+00:00"
-    },
-    {
-      "main_risk": "The apparent kinetic-model gain may disappear under perturbation- and replicate-held-out evaluation.",
-      "next_test": "Conduct the preregistered acute time-course benchmark with steady-state, linear state-space, and regularized baselines.",
-      "opponent": 17,
-      "outcome": "loss",
-      "reason": "Issue 91 has greater mechanistic discovery value and a concrete eight-week identifiability test. Issue 17 is a valuable rigorously designed benchmark, but its contribution is more incremental and depends heavily on access to harmonized multicenter data and an independent validation cohort.",
-      "target": 91,
-      "timestamp": "2026-10-23T05:00:12.488241+00:00"
-    },
-    {
-      "main_risk": "The observations may not support reliable patient- or perturbation-level kinetic identification.",
-      "next_test": "Use matched acute perturbations and orthogonal pause-duration or polymerase-residence measurements to test identifiability and prospective prediction.",
-      "opponent": 31,
-      "outcome": "win",
-      "reason": "Issue 91 has a stronger discovery anchor and a shorter, more decisive experimental path. Issue 31 has credible clinical value, but reference-standard circularity, cross-site imaging reproducibility, missingness, and calibration transport make success dependent on several difficult validation steps.",
-      "target": 91,
-      "timestamp": "2026-10-23T05:00:12.488247+00:00"
-    },
-    {
       "main_risk": "Therapeutic T cells may not be identifiable or spatially measured reproducibly enough across patient samples.",
       "next_test": "Analyze paired pretreatment and early on-treatment tissues with orthogonal imaging to test whether predefined access features predict patient-level early T-cell movement or tumor proximity beyond composition.",
       "opponent": 59,
@@ -2699,6 +2654,51 @@
       "reason": "The lymphoma benchmark has broader technological utility, multicenter relevance, strong established baselines, and a credible center-held-out validation design; electrochemotherapy is more biologically distinctive but narrower and more dependent on specialized longitudinal tissue access.",
       "target": 112,
       "timestamp": "2026-11-09T00:58:20.199342+00:00"
+    },
+    {
+      "main_risk": "Ex vivo response may not retain information about in-patient treatment benefit after tissue removal.",
+      "next_test": "Run the blinded two-laboratory replicate pilot and measure cross-site treatment-ranking concordance before outcome analysis.",
+      "opponent": 61,
+      "outcome": "win",
+      "reason": "Decision-preserving ex vivo transport has clearer clinical impact, stronger patient-level grounding, and a direct cross-site test than an incremental spatial biomarker whose value may collapse to immune abundance or tissue quality.",
+      "target": 100,
+      "timestamp": "2026-11-09T11:44:25.704738+00:00"
+    },
+    {
+      "main_risk": "The assay may show reproducible ex vivo sensitivity but fail to predict patient treatment benefit.",
+      "next_test": "Compare blinded cross-site assay rankings on replicate patient specimens using locked preprocessing and QC thresholds.",
+      "opponent": 118,
+      "outcome": "win",
+      "reason": "Ex vivo assay transport is the more actionable problem, with a defined treatment-selection anchor and a near-term cross-institution decision test; endothelial niche prediction is more dependent on retrospective associations and atlas-to-clinic translation.",
+      "target": 100,
+      "timestamp": "2026-11-09T11:44:25.704755+00:00"
+    },
+    {
+      "main_risk": "Cross-site assay reproducibility may not translate into clinically valid treatment ordering.",
+      "next_test": "Conduct the locked two-site pilot to test patient-level rank concordance and specimen failure rates.",
+      "opponent": 121,
+      "outcome": "win",
+      "reason": "Ex vivo transport offers a more clinically consequential and falsifiable decision problem, whereas endocrine spatial coupling adds a speculative layer beyond established composition and clinical predictors.",
+      "target": 100,
+      "timestamp": "2026-11-09T11:44:25.704763+00:00"
+    },
+    {
+      "main_risk": "The external cohort may be unavailable or insufficiently comparable in treatment, endpoint, and specimen handling.",
+      "next_test": "Audit endpoint and treatment comparability, then blind a locked simple MRI-plus-restricted-proteomics model on the external cohort.",
+      "opponent": 75,
+      "outcome": "win",
+      "reason": "Ex vivo testing has a clearer clinical-use anchor and stronger prospective decision pathway; MRI-proteomic prediction risks reproducing cohort, protocol, missingness, and treatment-selection artifacts even with external validation.",
+      "target": 100,
+      "timestamp": "2026-11-09T11:44:25.704768+00:00"
+    },
+    {
+      "main_risk": "Ex vivo measurements may be biologically informative yet fail to preserve in-patient treatment benefit.",
+      "next_test": "Perform blinded cross-site technical replicates and test whether locked assay rankings agree before committing to clinical outcome validation.",
+      "opponent": 51,
+      "outcome": "win",
+      "reason": "Ex vivo transport is closer to a patient treatment decision and has a stronger translational validation route, while kinase-state prediction depends on cross-platform phosphoproteomic comparability and drug-response labels that may be dominated by lineage or dose.",
+      "target": 100,
+      "timestamp": "2026-11-09T11:44:25.704773+00:00"
     }
   ],
   "k_factor": 24,
@@ -2719,10 +2719,10 @@
     },
     "100": {
       "draws": 0,
-      "games": 6,
+      "games": 11,
       "losses": 0,
-      "rating": 1568.21,
-      "wins": 6
+      "rating": 1624.19,
+      "wins": 11
     },
     "101": {
       "draws": 0,
@@ -2852,9 +2852,9 @@
     },
     "118": {
       "draws": 0,
-      "games": 6,
-      "losses": 0,
-      "rating": 1568.43,
+      "games": 7,
+      "losses": 1,
+      "rating": 1556.84,
       "wins": 6
     },
     "119": {
@@ -2880,9 +2880,9 @@
     },
     "121": {
       "draws": 0,
-      "games": 8,
-      "losses": 1,
-      "rating": 1568.43,
+      "games": 9,
+      "losses": 2,
+      "rating": 1557.24,
       "wins": 7
     },
     "122": {
@@ -3167,9 +3167,9 @@
     },
     "51": {
       "draws": 0,
-      "games": 14,
-      "losses": 4,
-      "rating": 1567.36,
+      "games": 15,
+      "losses": 5,
+      "rating": 1556.95,
       "wins": 10
     },
     "52": {
@@ -3244,9 +3244,9 @@
     },
     "61": {
       "draws": 0,
-      "games": 16,
-      "losses": 5,
-      "rating": 1568.25,
+      "games": 17,
+      "losses": 6,
+      "rating": 1556.25,
       "wins": 11
     },
     "62": {
@@ -3349,9 +3349,9 @@
     },
     "75": {
       "draws": 0,
-      "games": 12,
-      "losses": 3,
-      "rating": 1567.84,
+      "games": 13,
+      "losses": 4,
+      "rating": 1557.05,
       "wins": 9
     },
     "76": {

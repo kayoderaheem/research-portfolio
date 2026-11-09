@@ -106,29 +106,29 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | 1 | [#33 — [Idea] Identifiability limits of conserved and context-specific drug responses](https://github.com/kayoderaheem/research-portfolio/issues/33) | **1641** | 15 | 14W / 0D / 1L |
 | 2 | [#30 — [Idea] Population-calibrated multimodal prediction of thiopurine toxicity](https://github.com/kayoderaheem/research-portfolio/issues/30) | **1638** | 15 | 14W / 0D / 1L |
 | 3 | [#70 — [Idea] Site-transportable decision value of CTA phenotype beyond clinical risk for prolonged EVAR hospitalization](https://github.com/kayoderaheem/research-portfolio/issues/70) | **1629** | 13 | 12W / 0D / 1L |
-| 4 | [#80 — [Idea] External validation of a multimodal cerebral venous thrombosis rule-out pathway](https://github.com/kayoderaheem/research-portfolio/issues/80) | **1615** | 12 | 11W / 0D / 1L |
-| 5 | [#69 — [Idea] Decision-value thresholds for RNA-proteomic HER2 treatment selection across tumor types](https://github.com/kayoderaheem/research-portfolio/issues/69) | **1613** | 16 | 13W / 0D / 3L |
-| 6 | [#28 — [Idea] Incremental decision value and cross-registry calibration of blood-based T2 biomarkers for asthma exacerbation risk](https://github.com/kayoderaheem/research-portfolio/issues/28) | **1611** | 20 | 15W / 0D / 5L |
-| 7 | [#24 — [Idea] External calibration of multimodal HCC surveillance triage](https://github.com/kayoderaheem/research-portfolio/issues/24) | **1606** | 22 | 15W / 1D / 6L |
-| 8 | [#86 — [Idea] Age-calibrated incremental value of testosterone and creatinine beyond PSA for prostate biopsy triage](https://github.com/kayoderaheem/research-portfolio/issues/86) | **1600** | 16 | 12W / 1D / 3L |
-| 9 | [#48 — [Idea] Cross-assay reproducibility of functional drug-sensitivity rankings from clinical tumor samples](https://github.com/kayoderaheem/research-portfolio/issues/48) | **1593** | 12 | 10W / 0D / 2L |
-| 10 | [#120 — [Idea] State-conditioned coherence as a transportable measure of single-cell treatment response](https://github.com/kayoderaheem/research-portfolio/issues/120) | **1592** | 10 | 9W / 0D / 1L |
-| 11 | [#102 — [Idea] External validation of ratiometric combination-response signals in pediatric leukemia](https://github.com/kayoderaheem/research-portfolio/issues/102) | **1590** | 10 | 9W / 0D / 1L |
-| 12 | [#36 — [Idea] Reference-invariant identification of direct perturbation effects in single-cell models](https://github.com/kayoderaheem/research-portfolio/issues/36) | **1589** | 14 | 11W / 0D / 3L |
-| 13 | [#25 — [Idea] Treatment-specific multimodal validation of lupus nephritis response programs](https://github.com/kayoderaheem/research-portfolio/issues/25) | **1586** | 24 | 15W / 1D / 8L |
-| 14 | [#56 — [Idea] Exposure-normalized mechanisms of HER2 antibody-drug-conjugate sensitivity and resistance](https://github.com/kayoderaheem/research-portfolio/issues/56) | **1584** | 13 | 10W / 0D / 3L |
-| 15 | [#42 — [Idea] Longitudinal MRD-state signatures that distinguish response from refractory escape in multiple myeloma](https://github.com/kayoderaheem/research-portfolio/issues/42) | **1582** | 17 | 12W / 0D / 5L |
-| 16 | [#81 — [Idea] Incremental methylation decision value beyond IPSS-M for myelodysplastic neoplasm progression](https://github.com/kayoderaheem/research-portfolio/issues/81) | **1569** | 14 | 10W / 0D / 4L |
-| 17 | [#118 — [Idea] Endothelial maturation niches as a tissue-context predictor of breast cancer treatment response](https://github.com/kayoderaheem/research-portfolio/issues/118) | **1568** | 6 | 6W / 0D / 0L |
-| 18 | [#121 — [Idea] Spatially anchored endocrine-response states in ER-positive breast cancer](https://github.com/kayoderaheem/research-portfolio/issues/121) | **1568** | 8 | 7W / 0D / 1L |
-| 19 | [#61 — [Idea] Spatially resolved IGF2BP3–MHC-I competence as an incremental checkpoint-response predictor in triple-negative breast cancer](https://github.com/kayoderaheem/research-portfolio/issues/61) | **1568** | 16 | 11W / 0D / 5L |
-| 20 | [#100 — [Idea] Decision-preserving transport of ex vivo endocrine sensitivity across institutions](https://github.com/kayoderaheem/research-portfolio/issues/100) | **1568** | 6 | 6W / 0D / 0L |
-| 21 | [#75 — [Idea] External clinical-use validation of MRI-proteomic response prediction in rectal cancer](https://github.com/kayoderaheem/research-portfolio/issues/75) | **1568** | 12 | 9W / 0D / 3L |
-| 22 | [#51 — [Idea] Transportable kinase-activity states for predicting drug response across tumor cohorts](https://github.com/kayoderaheem/research-portfolio/issues/51) | **1567** | 14 | 10W / 0D / 4L |
-| 23 | [#43 — [Idea] Transportability limits of multimodal drug-response prediction under unseen-drug and unseen-tumor shifts](https://github.com/kayoderaheem/research-portfolio/issues/43) | **1565** | 24 | 15W / 0D / 9L |
-| 24 | [#17 — [Idea] Patient-level tissue-context gain over composition for multimodal lymphoma treatment-response prediction](https://github.com/kayoderaheem/research-portfolio/issues/17) | **1562** | 26 | 16W / 0D / 10L |
-| 25 | [#31 — [Idea] Site-transportable multimodal validation of corneal nerve imaging for small-fiber neuropathy](https://github.com/kayoderaheem/research-portfolio/issues/31) | **1560** | 32 | 19W / 0D / 13L |
-| 26 | [#63 — [Idea] UCHL1-defined dendritic-cell–Treg neighborhoods as a resistance mechanism to Atezo/Bev in hepatocellular carcinoma](https://github.com/kayoderaheem/research-portfolio/issues/63) | **1558** | 19 | 12W / 0D / 7L |
+| 4 | [#100 — [Idea] Decision-preserving transport of ex vivo endocrine sensitivity across institutions](https://github.com/kayoderaheem/research-portfolio/issues/100) | **1624** | 11 | 11W / 0D / 0L |
+| 5 | [#80 — [Idea] External validation of a multimodal cerebral venous thrombosis rule-out pathway](https://github.com/kayoderaheem/research-portfolio/issues/80) | **1615** | 12 | 11W / 0D / 1L |
+| 6 | [#69 — [Idea] Decision-value thresholds for RNA-proteomic HER2 treatment selection across tumor types](https://github.com/kayoderaheem/research-portfolio/issues/69) | **1613** | 16 | 13W / 0D / 3L |
+| 7 | [#28 — [Idea] Incremental decision value and cross-registry calibration of blood-based T2 biomarkers for asthma exacerbation risk](https://github.com/kayoderaheem/research-portfolio/issues/28) | **1611** | 20 | 15W / 0D / 5L |
+| 8 | [#24 — [Idea] External calibration of multimodal HCC surveillance triage](https://github.com/kayoderaheem/research-portfolio/issues/24) | **1606** | 22 | 15W / 1D / 6L |
+| 9 | [#86 — [Idea] Age-calibrated incremental value of testosterone and creatinine beyond PSA for prostate biopsy triage](https://github.com/kayoderaheem/research-portfolio/issues/86) | **1600** | 16 | 12W / 1D / 3L |
+| 10 | [#48 — [Idea] Cross-assay reproducibility of functional drug-sensitivity rankings from clinical tumor samples](https://github.com/kayoderaheem/research-portfolio/issues/48) | **1593** | 12 | 10W / 0D / 2L |
+| 11 | [#120 — [Idea] State-conditioned coherence as a transportable measure of single-cell treatment response](https://github.com/kayoderaheem/research-portfolio/issues/120) | **1592** | 10 | 9W / 0D / 1L |
+| 12 | [#102 — [Idea] External validation of ratiometric combination-response signals in pediatric leukemia](https://github.com/kayoderaheem/research-portfolio/issues/102) | **1590** | 10 | 9W / 0D / 1L |
+| 13 | [#36 — [Idea] Reference-invariant identification of direct perturbation effects in single-cell models](https://github.com/kayoderaheem/research-portfolio/issues/36) | **1589** | 14 | 11W / 0D / 3L |
+| 14 | [#25 — [Idea] Treatment-specific multimodal validation of lupus nephritis response programs](https://github.com/kayoderaheem/research-portfolio/issues/25) | **1586** | 24 | 15W / 1D / 8L |
+| 15 | [#56 — [Idea] Exposure-normalized mechanisms of HER2 antibody-drug-conjugate sensitivity and resistance](https://github.com/kayoderaheem/research-portfolio/issues/56) | **1584** | 13 | 10W / 0D / 3L |
+| 16 | [#42 — [Idea] Longitudinal MRD-state signatures that distinguish response from refractory escape in multiple myeloma](https://github.com/kayoderaheem/research-portfolio/issues/42) | **1582** | 17 | 12W / 0D / 5L |
+| 17 | [#81 — [Idea] Incremental methylation decision value beyond IPSS-M for myelodysplastic neoplasm progression](https://github.com/kayoderaheem/research-portfolio/issues/81) | **1569** | 14 | 10W / 0D / 4L |
+| 18 | [#43 — [Idea] Transportability limits of multimodal drug-response prediction under unseen-drug and unseen-tumor shifts](https://github.com/kayoderaheem/research-portfolio/issues/43) | **1565** | 24 | 15W / 0D / 9L |
+| 19 | [#17 — [Idea] Patient-level tissue-context gain over composition for multimodal lymphoma treatment-response prediction](https://github.com/kayoderaheem/research-portfolio/issues/17) | **1562** | 26 | 16W / 0D / 10L |
+| 20 | [#31 — [Idea] Site-transportable multimodal validation of corneal nerve imaging for small-fiber neuropathy](https://github.com/kayoderaheem/research-portfolio/issues/31) | **1560** | 32 | 19W / 0D / 13L |
+| 21 | [#63 — [Idea] UCHL1-defined dendritic-cell–Treg neighborhoods as a resistance mechanism to Atezo/Bev in hepatocellular carcinoma](https://github.com/kayoderaheem/research-portfolio/issues/63) | **1558** | 19 | 12W / 0D / 7L |
+| 22 | [#121 — [Idea] Spatially anchored endocrine-response states in ER-positive breast cancer](https://github.com/kayoderaheem/research-portfolio/issues/121) | **1557** | 9 | 7W / 0D / 2L |
+| 23 | [#75 — [Idea] External clinical-use validation of MRI-proteomic response prediction in rectal cancer](https://github.com/kayoderaheem/research-portfolio/issues/75) | **1557** | 13 | 9W / 0D / 4L |
+| 24 | [#51 — [Idea] Transportable kinase-activity states for predicting drug response across tumor cohorts](https://github.com/kayoderaheem/research-portfolio/issues/51) | **1557** | 15 | 10W / 0D / 5L |
+| 25 | [#118 — [Idea] Endothelial maturation niches as a tissue-context predictor of breast cancer treatment response](https://github.com/kayoderaheem/research-portfolio/issues/118) | **1557** | 7 | 6W / 0D / 1L |
+| 26 | [#61 — [Idea] Spatially resolved IGF2BP3–MHC-I competence as an incremental checkpoint-response predictor in triple-negative breast cancer](https://github.com/kayoderaheem/research-portfolio/issues/61) | **1556** | 17 | 11W / 0D / 6L |
 | 27 | [#104 — [Idea] Sex-stratified transportability of immune-response signals under checkpoint therapy](https://github.com/kayoderaheem/research-portfolio/issues/104) | **1556** | 7 | 6W / 0D / 1L |
 | 28 | [#108 — [Idea] Causal testing of CD44v9 persistence as a reversible driver of pancreatic cancer drug resistance](https://github.com/kayoderaheem/research-portfolio/issues/108) | **1556** | 7 | 6W / 0D / 1L |
 | 29 | [#78 — [Idea] Incremental decision value of ultrasound-enhanced airway risk stratification across clinical populations](https://github.com/kayoderaheem/research-portfolio/issues/78) | **1556** | 17 | 11W / 0D / 6L |
@@ -223,7 +223,7 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | 118 | [#12 — [Idea] Antigen-presentation escape neighborhoods predicting checkpoint response in melanoma with HIV](https://github.com/kayoderaheem/research-portfolio/issues/12) | **1367** | 16 | 2W / 0D / 14L |
 | 119 | [#95 — [Idea] Evolution-aware virtual cells for unseen therapy resistance states](https://github.com/kayoderaheem/research-portfolio/issues/95) | **1365** | 12 | 0W / 0D / 12L |
 
-_Last synchronized: 2026-11-09 00:58 UTC._
+_Last synchronized: 2026-11-09 11:44 UTC._
 <!-- RESEARCH_ELO_END -->
 
 ## Add ideas manually
