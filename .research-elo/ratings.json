@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Alexander cohorts may be too small or heterogeneous to estimate transportable multimodal benefit.",
-      "next_test": "Run patient-level nested validation comparing clinical, GFAP-only, MRI-only, and multimodal prediction of 12-month functional change.",
-      "opponent": 59,
-      "outcome": "win",
-      "reason": "Alexander disease offers a clearer clinical anchor and a more feasible early retrospective test; the spatial T-cell project depends on scarce paired tissues, reliable product-cell identification, and generalization across products and tumors.",
-      "target": 82,
-      "timestamp": "2026-10-23T21:29:09.801655+00:00"
-    },
-    {
-      "main_risk": "The proposed IL-17/retinoid spatial states may be descriptive consequences of chronic tunnels rather than treatment-relevant predictors.",
-      "next_test": "Apply the locked tunnel-state classifier in an independent pretreatment cohort and compare calibrated prediction against clinical, burden, and composition baselines.",
-      "opponent": 9,
-      "outcome": "loss",
-      "reason": "Hidradenitis suppurativa has a broader, more accessible patient base and a comparatively tractable locked-state replication test, while Alexander disease faces rare-disease sample limitations and difficult developmental outcome modeling.",
-      "target": 82,
-      "timestamp": "2026-10-23T21:29:09.801680+00:00"
-    },
-    {
-      "main_risk": "GFAP suppression and developmental heterogeneity may prevent reliable separation of target engagement from functional outcome.",
-      "next_test": "Use a retrospective serial cohort to test incremental patient-level net benefit of multimodal prediction over clinical and GFAP-only baselines.",
-      "opponent": 64,
-      "outcome": "win",
-      "reason": "Alexander monitoring has a clearer validated biomarker context and a more direct clinical decision, whereas the STING project requires scarce longitudinal specimens and several unproven links from myeloid spatial state to necrosis, adaptive immunity, and benefit.",
-      "target": 82,
-      "timestamp": "2026-10-23T21:29:09.801689+00:00"
-    },
-    {
-      "main_risk": "A reliable fibrosis reference standard may be unavailable or introduce verification and spectrum bias.",
-      "next_test": "Perform locked leave-one-site-out comparisons of the clinical-laboratory baseline with sequential imaging, genetic, lifestyle, and social additions.",
-      "opponent": 76,
-      "outcome": "loss",
-      "reason": "Pediatric MASLD offers broader potential data access, a practical modality-acquisition question, and strong transportability-focused validation; Alexander disease is clinically important but constrained by rarity, heterogeneous outcomes, and treatment-confounded GFAP.",
-      "target": 82,
-      "timestamp": "2026-10-23T21:29:09.801698+00:00"
-    },
-    {
-      "main_risk": "The 12-month functional endpoint may be too noisy or age-dependent for calibrated prediction in a rare cohort.",
-      "next_test": "Evaluate patient-level nested validation of multimodal Alexander disease models against clinical, GFAP-only, MRI-only, and genotype baselines.",
-      "opponent": 53,
-      "outcome": "loss",
-      "reason": "Alexander disease provides a more coherent biomarker-to-clinical-outcome problem and a cleaner early decision test than bladder heterogeneity, where serial sampling may not measure the same tumor and heterogeneity changes may mainly reflect necrosis or sampling.",
-      "target": 82,
-      "timestamp": "2026-10-23T21:29:09.801732+00:00"
-    },
-    {
       "main_risk": "Direct and paracrine effects may remain unidentifiable because composition, survival, target depletion, and stress responses mimic signaling.",
       "next_test": "Run paired mono-culture, conditioned-medium, transwell, contact, and target-depletion experiments, then prospectively predict a held-out burden in independent co-cultures.",
       "opponent": 94,
@@ -2699,15 +2654,60 @@
       "reason": "Genome-derived resistance markers offer broader potential use and a simpler early validation path; the STING project depends on scarce paired serial biopsies, reproducible spatial trajectories, and a highly treatment-specific osteosarcoma mechanism.",
       "target": 109,
       "timestamp": "2026-11-10T07:26:55.189346+00:00"
+    },
+    {
+      "main_risk": "The required multisite cohort may not exist with sufficiently complete, standardized imaging, EBV, treatment, and outcome data.",
+      "next_test": "Run a site-held-out comparison of the clinical baseline against each added modality using one prespecified radiotherapy decision.",
+      "opponent": 124,
+      "outcome": "win",
+      "reason": "Radiotherapy decision value has a clearer anchor, simpler modality-ablation design, and more tractable early validation than the high-dimensional host-pathogen-drug model.",
+      "target": 123,
+      "timestamp": "2026-11-10T23:28:30.961295+00:00"
+    },
+    {
+      "main_risk": "Radiomics or EBV measurements may fail to add transportable net benefit beyond clinical and stage variables.",
+      "next_test": "Perform nested, patient- and site-separated modality ablations with calibration and decision curves for one radiotherapy decision.",
+      "opponent": 125,
+      "outcome": "win",
+      "reason": "The radiotherapy project offers broader clinical relevance and a more immediately testable decision framework; osteoarthritis additionally depends on reproducible mechanics, relevant tissue sampling, adherence, and intervention response heterogeneity.",
+      "target": 123,
+      "timestamp": "2026-11-10T23:28:30.961315+00:00"
+    },
+    {
+      "main_risk": "Spatial fibroblast niches may not predict treatment response beyond baseline severity and cell-state abundance, or may be specific to the murine bleomycin model.",
+      "next_test": "Use animal-level held-out validation in the supplied data and replicate the top pretreatment spatial score with blinded histology and collagen imaging.",
+      "opponent": 65,
+      "outcome": "loss",
+      "reason": "The spatial-fibrosis project has an actual supplied dataset, a cheap reanalysis followed by focused replication, and a potentially informative mechanistic result even if bazedoxifene response is not predicted; the radiotherapy project requires substantial multisite data access.",
+      "target": 123,
+      "timestamp": "2026-11-10T23:28:30.961324+00:00"
+    },
+    {
+      "main_risk": "Genome-derived structural signals may reflect specimen quality, treatment selection, or reporting opportunity rather than reproducible treatment-response biology.",
+      "next_test": "Freeze a small structural-feature set and test it in patient-level nested validation against exome, panel, clinical, and guideline-biomarker baselines.",
+      "opponent": 109,
+      "outcome": "loss",
+      "reason": "Matched FFPE genome and exome data and prior tumor-board observations provide a concrete competitive advantage, while a compact structural-feature test can directly assess incremental treatment relevance; the radiotherapy proposal has greater data and implementation dependence.",
+      "target": 123,
+      "timestamp": "2026-11-10T23:28:30.961331+00:00"
+    },
+    {
+      "main_risk": "Organoid functional responses may be reproducible ex vivo but fail to predict patient benefit within the treatment-decision window.",
+      "next_test": "Prospectively record every eligible case and test whether a locked organoid score is available before decisions and adds calibrated value beyond molecular recommendations.",
+      "opponent": 1,
+      "outcome": "win",
+      "reason": "Radiotherapy modality ablation has a more direct decision-value endpoint and fewer sequential operational dependencies; organoid testing must achieve timely culture success, predictive validity, and clinical-actionable turnaround while lacking microenvironmental components.",
+      "target": 123,
+      "timestamp": "2026-11-10T23:28:30.961337+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 41,
-      "losses": 21,
-      "rating": 1498.64,
+      "games": 42,
+      "losses": 22,
+      "rating": 1486.63,
       "wins": 20
     },
     "10": {
@@ -2782,10 +2782,10 @@
     },
     "109": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 6,
-      "rating": 1498.71,
-      "wins": 6
+      "rating": 1511.13,
+      "wins": 7
     },
     "11": {
       "draws": 1,
@@ -2891,6 +2891,27 @@
       "losses": 6,
       "rating": 1489.04,
       "wins": 5
+    },
+    "123": {
+      "draws": 0,
+      "games": 5,
+      "losses": 2,
+      "rating": 1510.34,
+      "wins": 3
+    },
+    "124": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "125": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
     },
     "13": {
       "draws": 0,
@@ -3272,10 +3293,10 @@
     },
     "65": {
       "draws": 0,
-      "games": 22,
+      "games": 23,
       "losses": 11,
-      "rating": 1499.17,
-      "wins": 11
+      "rating": 1512.01,
+      "wins": 12
     },
     "66": {
       "draws": 0,
