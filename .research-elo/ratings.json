@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The multimodal signal may reflect prognosis, severity, treatment timing, or site-specific assay behavior rather than treatment benefit.",
-      "next_test": "Run the locked 12-week repeated-measurement pilot with nested models against clinical-severity and single-modality baselines, evaluating calibration and decision value on held-out patients.",
-      "opponent": 79,
-      "outcome": "loss",
-      "reason": "Pulmonary sepsis has broader credible clinical value and a defined treatment-decision endpoint, with patient-level validation, external transport testing, and an early pilot that can assess incremental decision value. The virtual-cell proposal has greater discovery leverage but depends on several high-risk assumptions about identifying transitions and transferring across unseen therapies.",
-      "target": 95,
-      "timestamp": "2026-10-23T17:14:35.335409+00:00"
-    },
-    {
-      "main_risk": "The management label may be inconsistently defined or circular with the candidate modalities, undermining clinical-use validation.",
-      "next_test": "Establish blinded treatment and monitoring adjudication rules, then test locked clinical, clinical-plus-MRI, and clinical-plus-molecular models in a patient- and site-separated pilot.",
-      "opponent": 32,
-      "outcome": "loss",
-      "reason": "Myocarditis offers a clearer near-term clinical-use question and a relatively cheap retrospective discriminating test comparing modality increments against strong clinical baselines. The virtual-cell project has substantial scientific upside but requires multiple difficult longitudinal, lineage, assay, and cross-therapy transfer assumptions before its central claim can be evaluated.",
-      "target": 95,
-      "timestamp": "2026-10-23T17:14:35.335427+00:00"
-    },
-    {
-      "main_risk": "ZNF423 restoration and its spatial associations may not reproduce across patients or may merely track residual tumor, genomic background, or treatment-related assay stress.",
-      "next_test": "Use the 12-week longitudinal pilot to test whether baseline ZNF423 and spatial features predict early restoration and later escape beyond clinical and composition baselines, with orthogonal protein confirmation.",
-      "opponent": 19,
-      "outcome": "loss",
-      "reason": "The ZNF423 project has a more focused biological anchor, a bounded spatial-transition hypothesis, and an early test that can distinguish reproducible transition biology from composition-only association. The virtual-cell proposal is broader but compounds identifiability, reproducibility, and unseen-therapy transfer risks, with longer readouts and weaker competitive positioning.",
-      "target": 95,
-      "timestamp": "2026-10-23T17:14:35.335434+00:00"
-    },
-    {
-      "main_risk": "An external prostate-SBRT cohort with matched urine sampling, dosimetry, and standardized toxicity grading may be unavailable or too small for credible validation.",
-      "next_test": "First verify assay reproducibility, DVH/IPSS completeness, and attainable external-cohort size; then run nested-model tests of incremental value over dosimetric and clinical predictors.",
-      "opponent": 29,
-      "outcome": "loss",
-      "reason": "The urine microRNA project is less impactful but substantially more bounded and tractable: it specifies a decision, strong dosimetric and clinical comparators, leakage-resistant patient-level validation, and inexpensive early technical and incremental-value checks. The virtual-cell project has higher potential impact but too many high-risk assumptions for a six-month investment.",
-      "target": 95,
-      "timestamp": "2026-10-23T17:14:35.335439+00:00"
-    },
-    {
-      "main_risk": "The biomarker may measure generic drug injury, exposure, or cell-cycle suppression rather than a specific causal DNA-damage-tolerance escape state.",
-      "next_test": "In independent donor-derived models, lock an early biomarker threshold and test prediction of regrowth plus selective benefit from add-on inhibition against viability and static replication-stress baselines.",
-      "opponent": 3,
-      "outcome": "loss",
-      "reason": "DNA-damage-tolerance escape has a tighter mechanism-to-intervention chain, functional perturbation tests, a 10-week early readout, and useful outcomes even if the preferred biomarker fails. The virtual-cell proposal relies on identifying therapy-induced transitions and extrapolating them to unseen therapies, making success less likely within six months.",
-      "target": 95,
-      "timestamp": "2026-10-23T17:14:35.335444+00:00"
-    },
-    {
       "main_risk": "Alexander cohorts may be too small or heterogeneous to estimate transportable multimodal benefit.",
       "next_test": "Run patient-level nested validation comparing clinical, GFAP-only, MRI-only, and multimodal prediction of 12-month functional change.",
       "opponent": 59,
@@ -2699,6 +2654,51 @@
       "reason": "The virtual-cell problem has a tightly defined causal anchor, an inexpensive early rescue experiment, and informative outcomes even if the proposed GTP route fails. The gastric project is more clinically grounded but depends on difficult paired cohorts, patient-level replication, and residual-disease endpoints.",
       "target": 117,
       "timestamp": "2026-11-09T22:28:13.575061+00:00"
+    },
+    {
+      "main_risk": "The structural features may not add biologically meaningful treatment-response information beyond clinical and exome baselines.",
+      "next_test": "Run the locked low-dimensional structural-feature classifier with nested patient-level validation in matched FFPE samples.",
+      "opponent": 82,
+      "outcome": "win",
+      "reason": "Genome-derived structural features offer broader precision-medicine value, a clearer incremental-data question, and a cheaper 12-week patient-level test than the rare-disease multimodal validation project.",
+      "target": 109,
+      "timestamp": "2026-11-10T07:26:55.189300+00:00"
+    },
+    {
+      "main_risk": "FFPE genome features may fail to improve calibrated treatment decisions after specimen quality and treatment selection are controlled.",
+      "next_test": "Evaluate incremental response prediction from a preregistered structural-feature set against exome, panel, and clinical baselines.",
+      "opponent": 115,
+      "outcome": "win",
+      "reason": "The FFPE genome project has broader applicability and a more accessible validation path; the PDAC project requires scarce treated specimens, reproducible spatial assays, functional cultures, and a high-risk context-specific MYC interaction.",
+      "target": 109,
+      "timestamp": "2026-11-10T07:26:55.189325+00:00"
+    },
+    {
+      "main_risk": "Apparent genome-derived signal may reflect annotation or clinical interpretation rather than causal or predictive biology.",
+      "next_test": "Test the locked structural-feature classifier in matched FFPE patients using patient-level nested validation and treatment-quality covariate adjustment.",
+      "opponent": 113,
+      "outcome": "loss",
+      "reason": "Genome-derived resistance markers provide a broader, more tractable investment with an earlier decision point, whereas lineage-transition reproducibility requires difficult matched residual-disease and progression sampling and several high-risk biological assumptions.",
+      "target": 109,
+      "timestamp": "2026-11-10T07:26:55.189334+00:00"
+    },
+    {
+      "main_risk": "Genome sequencing may not yield reproducible clinically usable structural calls from variable FFPE specimens.",
+      "next_test": "Measure duplicate-library concordance and orthogonally confirm a prespecified structural-feature subset across FFPE quality strata.",
+      "opponent": 62,
+      "outcome": "win",
+      "reason": "The FFPE genome question has wider cancer and treatment applicability and a more feasible clinical-data route; the tumor-lung interface project is narrow and depends on rare specimens, ex vivo preservation, spatial induction, and fibroblast causality.",
+      "target": 109,
+      "timestamp": "2026-11-10T07:26:55.189340+00:00"
+    },
+    {
+      "main_risk": "The added structural information may not outperform established clinical, panel, or exome biomarkers in held-out patients.",
+      "next_test": "Compare the locked structural-feature model with clinical, panel, exome, and guideline-biomarker baselines in patient-level nested validation.",
+      "opponent": 64,
+      "outcome": "win",
+      "reason": "Genome-derived resistance markers offer broader potential use and a simpler early validation path; the STING project depends on scarce paired serial biopsies, reproducible spatial trajectories, and a highly treatment-specific osteosarcoma mechanism.",
+      "target": 109,
+      "timestamp": "2026-11-10T07:26:55.189346+00:00"
     }
   ],
   "k_factor": 24,
@@ -2782,10 +2782,10 @@
     },
     "109": {
       "draws": 0,
-      "games": 7,
-      "losses": 5,
-      "rating": 1465.13,
-      "wins": 2
+      "games": 12,
+      "losses": 6,
+      "rating": 1498.71,
+      "wins": 6
     },
     "11": {
       "draws": 1,
@@ -2817,10 +2817,10 @@
     },
     "113": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 7,
-      "rating": 1464.8,
-      "wins": 4
+      "rating": 1477.62,
+      "wins": 5
     },
     "114": {
       "draws": 0,
@@ -2831,9 +2831,9 @@
     },
     "115": {
       "draws": 0,
-      "games": 7,
-      "losses": 5,
-      "rating": 1464.8,
+      "games": 8,
+      "losses": 6,
+      "rating": 1453.23,
       "wins": 2
     },
     "116": {
@@ -3251,9 +3251,9 @@
     },
     "62": {
       "draws": 0,
-      "games": 27,
-      "losses": 15,
-      "rating": 1464.74,
+      "games": 28,
+      "losses": 16,
+      "rating": 1453.12,
       "wins": 12
     },
     "63": {
@@ -3265,9 +3265,9 @@
     },
     "64": {
       "draws": 0,
-      "games": 17,
-      "losses": 10,
-      "rating": 1464.7,
+      "games": 18,
+      "losses": 11,
+      "rating": 1453.49,
       "wins": 7
     },
     "65": {
@@ -3405,9 +3405,9 @@
     },
     "82": {
       "draws": 0,
-      "games": 13,
-      "losses": 8,
-      "rating": 1465.12,
+      "games": 14,
+      "losses": 9,
+      "rating": 1453.12,
       "wins": 5
     },
     "83": {
