@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Direct and paracrine effects may remain unidentifiable because composition, survival, target depletion, and stress responses mimic signaling.",
-      "next_test": "Run paired mono-culture, conditioned-medium, transwell, contact, and target-depletion experiments, then prospectively predict a held-out burden in independent co-cultures.",
-      "opponent": 94,
-      "outcome": "loss",
-      "reason": "The astrocyte project has a clearer mechanistic anchor, controlled perturbation branches, and a credible 10-week falsification test; sepsis requires costly longitudinal, multimodal, and causal-treatment assumptions before its value is readable.",
-      "target": 79,
-      "timestamp": "2026-10-24T04:45:01.066439+00:00"
-    },
-    {
-      "main_risk": "Molecular modalities may not identify treatment benefit beyond severity and standard care, making the apparent multimodal gain non-actionable.",
-      "next_test": "Lock treatment pathways, utility thresholds, and eligibility with clinicians, then test nested clinical, pathogen, host-response, and multimodal models in a patient/site-held-out pilot.",
-      "opponent": 74,
-      "outcome": "win",
-      "reason": "Sepsis has greater immediate clinical decision relevance and a more actionable treatment-selection anchor, whereas the maternal-placental-fetal project leaves the follow-up endpoint and action threshold insufficiently defined and may mainly capture site or delivery confounding.",
-      "target": 79,
-      "timestamp": "2026-10-24T04:45:01.066459+00:00"
-    },
-    {
-      "main_risk": "Multimodal signals may encode severity, timing, or deterioration rather than a reproducible treatment-relevant biological state.",
-      "next_test": "Conduct a locked patient-level pilot comparing clinical and microbiology baselines with pathogen, host-response, and repeated multimodal models using held-out patients and orthogonal assays.",
-      "opponent": 44,
-      "outcome": "win",
-      "reason": "Sepsis offers broader clinical impact and a defined incremental-value question, while hypoxia imaging depends on tracer specificity, spatial tissue alignment, cross-scanner transport, and tumor-type generalization, creating a longer high-risk validation chain.",
-      "target": 79,
-      "timestamp": "2026-10-24T04:45:01.066473+00:00"
-    },
-    {
-      "main_risk": "Recovery may reflect selective survival or generic stress adaptation rather than reversible chromatin-state dynamics.",
-      "next_test": "Prospectively predict unseen restoration pulse durations and timings using live-cell lineage tracking, cohesin imaging, and re-entry assays against static and expression-only baselines.",
-      "opponent": 41,
-      "outcome": "loss",
-      "reason": "The yeast project has a more tractable, falsifiable six-month path: controlled perturbation schedules, lineage-level validation, and useful outcomes even if the dynamic model fails. Sepsis has higher translational stakes but requires several expensive causal and transport assumptions.",
-      "target": 79,
-      "timestamp": "2026-10-24T04:45:01.066480+00:00"
-    },
-    {
-      "main_risk": "Pretreatment IL-15 access measurements may be technically unreliable or therapy-specific and fail to add value beyond innate-cell abundance, tumor burden, or delivery.",
-      "next_test": "Measure IL-15/IL-15Rα access and perivascular localization pretreatment and test patient-level prediction of an early on-treatment cytotoxicity or residency endpoint.",
-      "opponent": 68,
-      "outcome": "loss",
-      "reason": "The IL-15 project has a tighter predictive anchor and an inexpensive eight-week early-function test, with explicit composition baselines and spatial negative controls; sepsis is more broadly impactful but substantially harder to execute and interpret within six months.",
-      "target": 79,
-      "timestamp": "2026-10-24T04:45:01.066489+00:00"
-    },
-    {
       "main_risk": "CVT reference-standard completeness and verification bias may make apparently strong rule-out performance unreliable.",
       "next_test": "Audit a consecutive multicenter CVT cohort for complete blinded imaging adjudication, then compare D-dimer-only, clinical, and multimodal models with patient- and site-held-out validation.",
       "opponent": 81,
@@ -2699,16 +2654,61 @@
       "reason": "Radiotherapy modality ablation has a more direct decision-value endpoint and fewer sequential operational dependencies; organoid testing must achieve timely culture success, predictive validity, and clinical-actionable turnaround while lacking microenvironmental components.",
       "target": 123,
       "timestamp": "2026-11-10T23:28:30.961337+00:00"
+    },
+    {
+      "main_risk": "Molecular signals may fail to transport across populations and sites beyond clinical risk factors.",
+      "next_test": "Run a patient- and site-held-out benchmark against clinical and early liver-test baselines, including calibration and decision curves.",
+      "opponent": 124,
+      "outcome": "loss",
+      "reason": "The tuberculosis liver-injury problem has a clearer actionable endpoint, stronger cross-site validation logic, and broader immediate clinical value than the heterogeneous osteoarthritis intervention-response problem.",
+      "target": 125,
+      "timestamp": "2026-11-11T06:37:56.613930+00:00"
+    },
+    {
+      "main_risk": "The apparent DOK3 transition may only reflect macrophage abundance, tumor burden, or treatment-associated inflammation.",
+      "next_test": "Blindly profile paired baseline and early on-treatment samples with a locked marker panel and test transition reproducibility beyond composition.",
+      "opponent": 114,
+      "outcome": "loss",
+      "reason": "The macrophage-state problem has a sharper biological anchor, a differentiated mechanism, and a relatively direct paired-biopsy test, whereas osteoarthritis depends more heavily on uncertain tissue correspondence and intervention heterogeneity.",
+      "target": 125,
+      "timestamp": "2026-11-11T06:37:56.613948+00:00"
+    },
+    {
+      "main_risk": "The perivascular transition may be regimen-, site-, or model-specific rather than reproducible in patients.",
+      "next_test": "Analyze paired baseline and early-treatment biopsies from multiple sites or regimens using a locked spatial panel and patient-level validation.",
+      "opponent": 122,
+      "outcome": "loss",
+      "reason": "The perivascular remodeling problem offers a more specific, mechanistically testable spatial hypothesis and useful negative outcomes, while osteoarthritis requires several uncertain links from accessible molecular measurements to joint-specific mechanical response.",
+      "target": 125,
+      "timestamp": "2026-11-11T06:37:56.613956+00:00"
+    },
+    {
+      "main_risk": "Organoids may not be established quickly or frequently enough to influence real treatment decisions.",
+      "next_test": "Prospectively measure establishment success, assay turnaround, and decision deadlines for every eligible patient before evaluating response prediction.",
+      "opponent": 1,
+      "outcome": "loss",
+      "reason": "Time-constrained organoid profiling could directly change treatment selection and address a difficult-to-replace precision-medicine capability, with clear comparison to molecular recommendations; osteoarthritis has less certain molecular decision value.",
+      "target": 125,
+      "timestamp": "2026-11-11T06:37:56.613962+00:00"
+    },
+    {
+      "main_risk": "Spatial architecture may add no information beyond target expression, composition, tumor burden, or specimen quality.",
+      "next_test": "Fit nested patient-level models comparing clinical, target/composition, and spatial features with held-out calibration and decision-curve analysis.",
+      "opponent": 57,
+      "outcome": "loss",
+      "reason": "The stromal-architecture problem has a focused incremental-prediction question, established clinical baselines, and a feasible path to reduced pathology-compatible assays, whereas osteoarthritis combines multiple high-risk measurement and biological-transport assumptions.",
+      "target": 125,
+      "timestamp": "2026-11-11T06:37:56.613967+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 42,
+      "games": 43,
       "losses": 22,
-      "rating": 1486.63,
-      "wins": 20
+      "rating": 1497.49,
+      "wins": 21
     },
     "10": {
       "draws": 0,
@@ -2824,10 +2824,10 @@
     },
     "114": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 6,
-      "rating": 1487.95,
-      "wins": 5
+      "rating": 1499.55,
+      "wins": 6
     },
     "115": {
       "draws": 0,
@@ -2887,10 +2887,10 @@
     },
     "122": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 6,
-      "rating": 1489.04,
-      "wins": 5
+      "rating": 1500.2,
+      "wins": 6
     },
     "123": {
       "draws": 0,
@@ -2901,16 +2901,16 @@
     },
     "124": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "rating": 1500.01,
+      "wins": 1
     },
     "125": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
+      "games": 6,
+      "losses": 6,
+      "rating": 1432.17,
       "wins": 0
     },
     "13": {
@@ -3230,10 +3230,10 @@
     },
     "57": {
       "draws": 0,
-      "games": 28,
+      "games": 29,
       "losses": 15,
-      "rating": 1483.14,
-      "wins": 13
+      "rating": 1493.75,
+      "wins": 14
     },
     "58": {
       "draws": 0,
