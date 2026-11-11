@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "CVT reference-standard completeness and verification bias may make apparently strong rule-out performance unreliable.",
-      "next_test": "Audit a consecutive multicenter CVT cohort for complete blinded imaging adjudication, then compare D-dimer-only, clinical, and multimodal models with patient- and site-held-out validation.",
-      "opponent": 81,
-      "outcome": "win",
-      "reason": "External validation of a multimodal CVT pathway has a clearer near-term clinical decision and an earlier, genuinely discriminating multicenter test; the methylation project depends more heavily on assay, cell-composition, and long-horizon calibration transportability.",
-      "target": 80,
-      "timestamp": "2026-10-24T11:11:52.846774+00:00"
-    },
-    {
-      "main_risk": "The multimodal CVT gain may disappear after accounting for symptom duration, referral spectrum, and verification bias.",
-      "next_test": "Run the prespecified multicenter, patient-level held-out comparison of D-dimer and clinical baselines against the multimodal pathway, reporting sensitivity, calibration, and net benefit.",
-      "opponent": 70,
-      "outcome": "loss",
-      "reason": "The CVT problem addresses a higher-consequence diagnostic decision and has a more direct safety-oriented endpoint, while the EVAR imaging proposal has narrower impact and substantial risk that CTA features add little beyond robust clinical predictors.",
-      "target": 80,
-      "timestamp": "2026-10-24T11:11:52.846791+00:00"
-    },
-    {
-      "main_risk": "The CVT cohort may be too small or selectively verified to estimate missed-case risk with adequate precision.",
-      "next_test": "Test a simple symptom-duration-plus-clinical model against D-dimer alone in an independent consecutive cohort before adding richer imaging features.",
-      "opponent": 51,
-      "outcome": "win",
-      "reason": "CVT external validation is more clinically anchored, replaceable only with reliable diagnostic evidence, and has a clearer success criterion; the kinase project requires cross-platform biological measurement stability, comparable drug-response labels, and lineage-independent transportability.",
-      "target": 80,
-      "timestamp": "2026-10-24T11:11:52.846799+00:00"
-    },
-    {
-      "main_risk": "CVT biomarker and imaging inputs may not support a safe threshold across sites and important subgroups.",
-      "next_test": "Perform blinded multicenter validation of D-dimer plus symptom duration and standardized clinical variables, including subgroup sensitivity and calibration.",
-      "opponent": 56,
-      "outcome": "win",
-      "reason": "The CVT pathway offers a nearer-term, clinically consequential decision with a direct external-validation branch, whereas the HER2 project requires several linked exposure, trafficking, payload, and pharmacodynamic assumptions before its mechanistic score can be useful.",
-      "target": 80,
-      "timestamp": "2026-10-24T11:11:52.846808+00:00"
-    },
-    {
-      "main_risk": "Lymphocyte trajectories may be too confounded by timing, infection, steroids, adherence, or laboratory variation to improve antibody-testing decisions.",
-      "next_test": "Compare the prespecified lymphocyte-change rule with clinical and treatment-history baselines in a temporally defined, independently validated cohort, measuring calibration, testing burden, and net benefit.",
-      "opponent": 83,
-      "outcome": "win",
-      "reason": "CVT rule-out has greater potential consequence and broader diagnostic relevance, with an explicit external-validation and silent-implementation path; the natalizumab trigger is inexpensive and tractable but its actionable antibody-testing endpoint and confounding are less secure.",
-      "target": 80,
-      "timestamp": "2026-10-24T11:11:52.846815+00:00"
-    },
-    {
       "main_risk": "Molecular measurements may add no actionable information beyond clinical trajectory and imaging across sites.",
       "next_test": "Run a blinded paired pilot testing whether a prespecified molecular module adds calibrated decision value to a locked clinical-imaging landmark model.",
       "opponent": 85,
@@ -2699,6 +2654,51 @@
       "reason": "The stromal-architecture problem has a focused incremental-prediction question, established clinical baselines, and a feasible path to reduced pathology-compatible assays, whereas osteoarthritis combines multiple high-risk measurement and biological-transport assumptions.",
       "target": 125,
       "timestamp": "2026-11-11T06:37:56.613967+00:00"
+    },
+    {
+      "main_risk": "The perivascular transition may be model-, regimen-, or site-specific rather than reproducible in patients.",
+      "next_test": "Blindly profile paired baseline and early-treatment biopsies and test whether the locked spatial transition replicates and predicts response beyond composition and inflammation.",
+      "opponent": 122,
+      "outcome": "loss",
+      "reason": "Perivascular remodeling offers a differentiated mechanistic discovery question with a focused early tissue test and useful outcomes even if prediction fails; the multimodal toxicity project depends on unusually broad, harmonized longitudinal data and transportability.",
+      "target": 124,
+      "timestamp": "2026-11-11T17:15:05.003499+00:00"
+    },
+    {
+      "main_risk": "DOK3 may only mark macrophage abundance, tumor burden, or interferon exposure rather than a causal, predictive state.",
+      "next_test": "In a small blinded paired-biopsy cohort, test whether the locked DOK3 spatial transition adds patient-level response information beyond macrophage abundance and T-cell composition.",
+      "opponent": 114,
+      "outcome": "loss",
+      "reason": "The DOK3-CARD9 project has a tighter biological anchor, a plausible perturbation path, and a more replaceable assay strategy than the highly data-intensive host-pathogen-drug multimodal model.",
+      "target": 124,
+      "timestamp": "2026-11-11T17:15:05.003520+00:00"
+    },
+    {
+      "main_risk": "Tunnel IL-17/retinoid states may reflect severity, chronicity, or tunnel burden rather than treatment-relevant biology.",
+      "next_test": "Apply a locked tunnel-state classifier to pretreatment biopsies and compare calibrated response prediction against clinical, burden, composition-only, and pathway-score baselines.",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "The hidradenitis project has stronger evidence readiness, a clearer targeted assay, and a tractable early branch between spatial biology and simpler clinical or composition baselines; the tuberculosis project requires much broader data integration and external calibration.",
+      "target": 124,
+      "timestamp": "2026-11-11T17:15:05.003529+00:00"
+    },
+    {
+      "main_risk": "Three-dimensional niche discordance may reflect platform stress or batch effects rather than clinically meaningful microenvironment-mediated resistance.",
+      "next_test": "Run blinded paired isolated-cell and bone-mimetic drug-response assays across two laboratories using two drug classes and estimate biological versus laboratory variance.",
+      "opponent": 105,
+      "outcome": "loss",
+      "reason": "The bone-niche project has a cheap, concrete two-laboratory reproducibility test and can produce valuable assay-variance or mechanism results even without clinical prediction; the tuberculosis model has greater clinical ambition but substantially more data and transportability risk.",
+      "target": 124,
+      "timestamp": "2026-11-11T17:15:05.003536+00:00"
+    },
+    {
+      "main_risk": "Target engagement may add little beyond lineage, co-mutations, exposure, and cellular context in predicting viability or resistance.",
+      "next_test": "Measure engagement, pathway suppression, and viability across a focused held-out mutation-defined panel and compare the integrated model with mutation-only and context-only baselines.",
+      "opponent": 55,
+      "outcome": "loss",
+      "reason": "Mutation-specific target engagement is a sharper mechanistic problem with a focused assay panel, orthogonal readouts, and useful branches distinguishing target failure from downstream resistance; the tuberculosis proposal is more clinically consequential but much harder to execute and validate.",
+      "target": 124,
+      "timestamp": "2026-11-11T17:15:05.003542+00:00"
     }
   ],
   "k_factor": 24,
@@ -2754,10 +2754,10 @@
     },
     "105": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 7,
-      "rating": 1498.51,
-      "wins": 7
+      "rating": 1509.37,
+      "wins": 8
     },
     "106": {
       "draws": 0,
@@ -2824,10 +2824,10 @@
     },
     "114": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 6,
-      "rating": 1499.55,
-      "wins": 6
+      "rating": 1511.15,
+      "wins": 7
     },
     "115": {
       "draws": 0,
@@ -2887,10 +2887,10 @@
     },
     "122": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 6,
-      "rating": 1500.2,
-      "wins": 6
+      "rating": 1512.19,
+      "wins": 7
     },
     "123": {
       "draws": 0,
@@ -2901,9 +2901,9 @@
     },
     "124": {
       "draws": 0,
-      "games": 2,
-      "losses": 1,
-      "rating": 1500.01,
+      "games": 7,
+      "losses": 6,
+      "rating": 1444.06,
       "wins": 1
     },
     "125": {
@@ -3216,10 +3216,10 @@
     },
     "55": {
       "draws": 0,
-      "games": 22,
+      "games": 23,
       "losses": 11,
-      "rating": 1502.13,
-      "wins": 11
+      "rating": 1512.49,
+      "wins": 12
     },
     "56": {
       "draws": 0,
@@ -3482,10 +3482,10 @@
     },
     "9": {
       "draws": 1,
-      "games": 39,
+      "games": 40,
       "losses": 19,
-      "rating": 1501.44,
-      "wins": 19
+      "rating": 1512.58,
+      "wins": 20
     },
     "90": {
       "draws": 1,
