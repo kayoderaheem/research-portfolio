@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Molecular measurements may add no actionable information beyond clinical trajectory and imaging across sites.",
-      "next_test": "Run a blinded paired pilot testing whether a prespecified molecular module adds calibrated decision value to a locked clinical-imaging landmark model.",
-      "opponent": 85,
-      "outcome": "win",
-      "reason": "The anti-MDA5 ILD problem has a clearer treatment-timed clinical use, stronger transportability safeguards, and a more informative calibration-focused decision framework than the highly assay-sensitive SECmere comparison.",
-      "target": 71,
-      "timestamp": "2026-10-24T16:02:28.915507+00:00"
-    },
-    {
-      "main_risk": "Adequate serial, harmonized, multi-site ILD data may not be available within six months.",
-      "next_test": "Fit the locked clinical-only and clinical-imaging landmark baselines, then test incremental molecular value in an existing patient-level pilot cohort.",
-      "opponent": 65,
-      "outcome": "win",
-      "reason": "The anti-MDA5 ILD problem offers greater credible patient impact and a clearer independent-site validation path, whereas the fibrosis proposal is anchored to a murine model and faces substantial uncertainty about whether spatial states predict meaningful repair.",
-      "target": 71,
-      "timestamp": "2026-10-24T16:02:28.915530+00:00"
-    },
-    {
-      "main_risk": "CAF-immune neighborhood signals may not replicate beyond tumor composition, genotype, or baseline proliferation.",
-      "next_test": "In a patient-held-out paired cohort, compare a prespecified spatial model against composition-only and clinical baselines with calibration and negative spatial controls.",
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "The lung adenocarcinoma problem has broader biological and translational scope, stronger stated access to paired spatial and functional data, and useful mechanistic branches even if spatial features fail to improve prediction.",
-      "target": 71,
-      "timestamp": "2026-10-24T16:02:28.915539+00:00"
-    },
-    {
-      "main_risk": "Ex vivo sensitivity may reflect culture viability or assay conditions rather than patient-specific treatment response.",
-      "next_test": "Use a locked patient-level held-out analysis to compare genomic matching alone with genomic matching plus functional screening, preserving assay failures and uncertainty.",
-      "opponent": 45,
-      "outcome": "loss",
-      "reason": "Functional screening has a direct treatment-decision endpoint, strong genomic and clinical comparators, an existing-data reanalysis route, and a valuable negative result if it does not improve calibrated decisions.",
-      "target": 71,
-      "timestamp": "2026-10-24T16:02:28.915546+00:00"
-    },
-    {
-      "main_risk": "The molecular module may be redundant or confounded by treatment timing and disease severity.",
-      "next_test": "Perform a landmark clinical-imaging baseline analysis and blinded incremental-value test using a small prespecified molecular panel.",
-      "opponent": 40,
-      "outcome": "win",
-      "reason": "The anti-MDA5 ILD problem addresses a defined clinical decision with credible patient value and transportability testing, while the virtual-screening proposal risks producing benchmark gains or context-specific synergy predictions that do not transfer to donor-derived models.",
-      "target": 71,
-      "timestamp": "2026-10-24T16:02:28.915553+00:00"
-    },
-    {
       "main_risk": "FGF signatures may reflect generic stress or selective survival rather than a reversible state.",
       "next_test": "Train on FGF1/FGF2 trajectories and predict a held-out dose and washout course in an independent preparation.",
       "opponent": 98,
@@ -2699,15 +2654,60 @@
       "reason": "Mutation-specific target engagement is a sharper mechanistic problem with a focused assay panel, orthogonal readouts, and useful branches distinguishing target failure from downstream resistance; the tuberculosis proposal is more clinically consequential but much harder to execute and validate.",
       "target": 124,
       "timestamp": "2026-11-11T17:15:05.003542+00:00"
+    },
+    {
+      "main_risk": "The occlusion reference standard may be too dependent on angiography, treatment decisions, or adjudication practices to provide an independent transferable label.",
+      "next_test": "Run the blinded 10-week, patient-level comparison of clinician baseline, AI-ECG augmentation, and combined models across sites and artifact-prone subgroups.",
+      "opponent": 127,
+      "outcome": "win",
+      "reason": "AI-ECG has a tighter clinical decision anchor, a cheaper retrospective test, explicit workflow utility, and clearer near-term transportability assessment than a three-compartment urine program requiring difficult assay harmonization and longitudinal endpoint validation.",
+      "target": 126,
+      "timestamp": "2026-11-12T00:48:44.764138+00:00"
+    },
+    {
+      "main_risk": "AI-ECG may provide no incremental decision value beyond clinician interpretation and routine clinical data once site and artifact effects are controlled.",
+      "next_test": "Perform the prespecified retrospective head-to-head decision-value analysis against clinician ECG interpretation plus clinical variables, including held-out site calibration.",
+      "opponent": 128,
+      "outcome": "win",
+      "reason": "AI-ECG addresses an immediate high-stakes triage decision with measurable activation and missed-occlusion utilities, whereas metabolomic autism triage must overcome strong behavioral baselines, developmental and environmental confounding, and substantial cross-site calibration risk.",
+      "target": 126,
+      "timestamp": "2026-11-12T00:48:44.764154+00:00"
+    },
+    {
+      "main_risk": "A locked AI-ECG pipeline may fail to transport across acquisition systems and site-specific prevalence or labeling practices.",
+      "next_test": "Evaluate locked AI-ECG augmentation against clinician baseline in an independent site, focusing on calibration, false activation, missed occlusion, and workflow-relevant thresholds.",
+      "opponent": 1,
+      "outcome": "win",
+      "reason": "AI-ECG can reach a meaningful early decision using retrospective data and has a clearly defined clinical comparator, while organoid testing depends on rapid culture success, clinically relevant ex vivo pharmacology, treatment-decision timing, and sufficient outcome-linked patients.",
+      "target": 126,
+      "timestamp": "2026-11-12T00:48:44.764161+00:00"
+    },
+    {
+      "main_risk": "Spatial architecture may be a genuine predictive determinant, but the available tissue and response cohorts may be too limited or heterogeneous for a credible incremental-value estimate within six months.",
+      "next_test": "Run nested patient-level composition-only versus spatially augmented models on a pre-held-out bispecific-antibody cohort, with calibration and region-reliability checks.",
+      "opponent": 57,
+      "outcome": "win",
+      "reason": "AI-ECG offers a more immediate and replaceable-data-light test of a concrete clinical decision. Stromal architecture has important biological potential but requires scarce treatment-linked tissue, reliable spatial measurements, patient-level validation, and proof that architecture adds beyond composition and target expression.",
+      "target": 126,
+      "timestamp": "2026-11-12T00:48:44.764165+00:00"
+    },
+    {
+      "main_risk": "The ECG label and transport assumptions may fail, especially if occlusion adjudication or acquisition artifacts create apparent rather than transferable signal.",
+      "next_test": "Complete the blinded multi-site AI-ECG decision-value test before investing in prospective workflow evaluation.",
+      "opponent": 105,
+      "outcome": "win",
+      "reason": "AI-ECG is the stronger six-month investment because it has a direct clinical decision, established baselines, a low-cost early retrospective branch, and explicit cross-site validation. Bone-mimetic myeloma testing requires reproducible patient-model establishment, cross-laboratory control of platform variance, and evidence that ex vivo niche effects predict outcomes.",
+      "target": 126,
+      "timestamp": "2026-11-12T00:48:44.764169+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 43,
-      "losses": 22,
-      "rating": 1497.49,
+      "games": 44,
+      "losses": 23,
+      "rating": 1486.39,
       "wins": 21
     },
     "10": {
@@ -2754,9 +2754,9 @@
     },
     "105": {
       "draws": 0,
-      "games": 15,
-      "losses": 7,
-      "rating": 1509.37,
+      "games": 16,
+      "losses": 8,
+      "rating": 1498.61,
       "wins": 8
     },
     "106": {
@@ -2911,6 +2911,27 @@
       "games": 6,
       "losses": 6,
       "rating": 1432.17,
+      "wins": 0
+    },
+    "126": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1556.04,
+      "wins": 5
+    },
+    "127": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "128": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
       "wins": 0
     },
     "13": {
@@ -3230,9 +3251,9 @@
     },
     "57": {
       "draws": 0,
-      "games": 29,
-      "losses": 15,
-      "rating": 1493.75,
+      "games": 30,
+      "losses": 16,
+      "rating": 1483.16,
       "wins": 14
     },
     "58": {
