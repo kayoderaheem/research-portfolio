@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "FGF signatures may reflect generic stress or selective survival rather than a reversible state.",
-      "next_test": "Train on FGF1/FGF2 trajectories and predict a held-out dose and washout course in an independent preparation.",
-      "opponent": 98,
-      "outcome": "win",
-      "reason": "FGF state reversibility has a clearer biological anchor, an earlier prospective test, and useful conclusions even if prediction fails; the chromatin project requires more assays and stronger identifiability assumptions before interaction claims are credible.",
-      "target": 96,
-      "timestamp": "2026-10-24T20:56:16.137182+00:00"
-    },
-    {
-      "main_risk": "Morphology and molecular measurements may not add information beyond pathway activity or transcriptomics.",
-      "next_test": "Prospectively predict held-out FGF dose and washout trajectories, including recovery, in an independent donor-derived preparation.",
-      "opponent": 97,
-      "outcome": "win",
-      "reason": "The FGF project is more tractable and its multimodal causal and reversibility tests can quickly distinguish a real state transition from stress or selection. The mechanical-memory project depends more heavily on quantitative force control, injury separation, and reproducibility across preparations.",
-      "target": 96,
-      "timestamp": "2026-10-24T20:56:16.137206+00:00"
-    },
-    {
-      "main_risk": "FGF-associated profiles may be non-specific stress or cell-selection effects.",
-      "next_test": "Test pathway inhibition and lineage-resolved exposure/washout trajectories to establish necessity and true reversibility.",
-      "opponent": 15,
-      "outcome": "win",
-      "reason": "FGF oligodendrocyte biology offers a broader discovery problem with a cheaper early decision and strong residual value. The gastric project has greater potential clinical value but requires scarce patient-level spatial cohorts, reproducible niche scoring, and a causal intervention chain.",
-      "target": 96,
-      "timestamp": "2026-10-24T20:56:16.137215+00:00"
-    },
-    {
-      "main_risk": "The proposed CAF–immune neighborhood may not replicate across specimens, platforms, or treatment classes.",
-      "next_test": "In a paired patient cohort, test whether a prespecified neighborhood and its early treatment change predict response beyond composition and clinical covariates.",
-      "opponent": 13,
-      "outcome": "loss",
-      "reason": "The lung project is the stronger current investment because it combines substantial patient relevance with comparatively ready data, explicit patient-level validation, strong baselines, and orthogonal functional testing. The FGF project is more mechanistically focused but its virtual-cell extrapolation remains less established.",
-      "target": 96,
-      "timestamp": "2026-10-24T20:56:16.137222+00:00"
-    },
-    {
-      "main_risk": "SECmere RNA performance may be a batch or RNA-yield artifact rather than a distinct transportable biological signal.",
-      "next_test": "Run a blinded paired technical-replicate pilot with locked patient-level validation comparing SECmere, small-EV, clinical, and fused baselines.",
-      "opponent": 85,
-      "outcome": "win",
-      "reason": "The FGF project has a clearer discovery anchor, shorter and more informative readout, and useful outcomes if generalization fails. The SECmere project could have clinical value but is exposed to substantial particle-isolation, contamination, spectrum, calibration, and multi-site validation risks.",
-      "target": 96,
-      "timestamp": "2026-10-24T20:56:16.137231+00:00"
-    },
-    {
       "main_risk": "The measured chromatin features may not uniquely identify direct COMPASS cooperation rather than feedback or assay effects.",
       "next_test": "Predict one prespecified held-out perturbation pair from single and partial-pair data, then test direction with matched chromatin and RNA assays.",
       "opponent": 98,
@@ -2699,15 +2654,60 @@
       "reason": "AI-ECG is the stronger six-month investment because it has a direct clinical decision, established baselines, a low-cost early retrospective branch, and explicit cross-site validation. Bone-mimetic myeloma testing requires reproducible patient-model establishment, cross-laboratory control of platform variance, and evidence that ex vivo niche effects predict outcomes.",
       "target": 126,
       "timestamp": "2026-11-12T00:48:44.764169+00:00"
+    },
+    {
+      "main_risk": "No urine compartment may add calibrated decision value after specimen-quality, medication, and site effects are controlled.",
+      "next_test": "Run frozen patient-level models for each compartment against albuminuria, eGFR, and clinical covariates in a held-out pilot site.",
+      "opponent": 127,
+      "outcome": "loss",
+      "reason": "Diabetic kidney disease has a clearer established clinical baseline, progression endpoint, and actionable staging use; the urine modalities can be tested incrementally rather than assuming a multimodal panel is necessary.",
+      "target": 128,
+      "timestamp": "2026-11-12T11:26:13.872435+00:00"
+    },
+    {
+      "main_risk": "Metabolite associations may disappear after adjustment for developmental, dietary, medication, comorbidity, and collection effects.",
+      "next_test": "Compare a prespecified blood–urine panel with developmental and behavioral baselines using locked preprocessing and patient-level validation at a second site.",
+      "opponent": 1,
+      "outcome": "win",
+      "reason": "The organoid project has greater potential impact but depends on rapid culture success, clinically meaningful ex vivo response, and prospective treatment decisions, creating a long high-risk validation chain. The metabolite project has a more bounded triage question and a nearer-term external calibration test.",
+      "target": 128,
+      "timestamp": "2026-11-12T11:26:13.872457+00:00"
+    },
+    {
+      "main_risk": "Spatial features may merely proxy target density, tumor burden, immune composition, or tissue quality rather than provide independent predictive value.",
+      "next_test": "Test a locked obstruction-and-adjacency score against target-expression, composition, and clinical baselines in an independent patient cohort.",
+      "opponent": 57,
+      "outcome": "loss",
+      "reason": "Stromal architecture has a tighter mechanistic anchor, a direct patient-level predictive question, and useful negative controls that can distinguish spatial biology from composition or specimen quality. The autism panel faces broader confounding and weaker biological specificity.",
+      "target": 128,
+      "timestamp": "2026-11-12T11:26:13.872464+00:00"
+    },
+    {
+      "main_risk": "Fibrosis reference standards and cross-site measurement processes may be too inconsistent to support reliable external calibration.",
+      "next_test": "Use nested patient-level splits and a held-out site to compare sequential addition of imaging, genetic, lifestyle, and social modalities against the clinical-laboratory baseline.",
+      "opponent": 76,
+      "outcome": "loss",
+      "reason": "Pediatric MASLD offers a clearer fibrosis-risk endpoint and established clinical-laboratory baseline, allowing modality ablation and transportability testing to identify a parsimonious acquisition strategy. The autism proposal has substantial uncertainty that metabolic signal is autism-specific or clinically additive.",
+      "target": 128,
+      "timestamp": "2026-11-12T11:26:13.872468+00:00"
+    },
+    {
+      "main_risk": "Fixation may erase perturbation-specific regulatory effects, leaving only generic cell-state or composition signals that cannot support the claimed transfer.",
+      "next_test": "Profile donor-matched fresh, frozen, and fixed aliquots under an unseen perturbation with an orthogonal targeted readout, then compare the measurement-aware model with simple batch-correction and persistence baselines.",
+      "opponent": 92,
+      "outcome": "loss",
+      "reason": "Assay-transportable perturbation prediction addresses a general technology bottleneck with a fixed identifiability question, explicit leave-donor and leave-perturbation tests, and informative failure branches. The autism proposal has greater immediate clinical framing but a higher risk of non-specific confounding and weak incremental value.",
+      "target": 128,
+      "timestamp": "2026-11-12T11:26:13.872474+00:00"
     }
   ],
   "k_factor": 24,
   "ratings": {
     "1": {
       "draws": 0,
-      "games": 44,
-      "losses": 23,
-      "rating": 1486.39,
+      "games": 45,
+      "losses": 24,
+      "rating": 1474.05,
       "wins": 21
     },
     "10": {
@@ -2922,17 +2922,17 @@
     },
     "127": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "rating": 1500.01,
+      "wins": 1
     },
     "128": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 5,
+      "rating": 1453.32,
+      "wins": 1
     },
     "13": {
       "draws": 0,
@@ -3251,10 +3251,10 @@
     },
     "57": {
       "draws": 0,
-      "games": 30,
+      "games": 31,
       "losses": 16,
-      "rating": 1483.16,
-      "wins": 14
+      "rating": 1495.35,
+      "wins": 15
     },
     "58": {
       "draws": 0,
@@ -3398,10 +3398,10 @@
     },
     "76": {
       "draws": 0,
-      "games": 20,
+      "games": 21,
       "losses": 11,
-      "rating": 1481.76,
-      "wins": 9
+      "rating": 1493.58,
+      "wins": 10
     },
     "77": {
       "draws": 0,
@@ -3524,10 +3524,10 @@
     },
     "92": {
       "draws": 0,
-      "games": 15,
+      "games": 16,
       "losses": 8,
-      "rating": 1481.72,
-      "wins": 7
+      "rating": 1493.13,
+      "wins": 8
     },
     "93": {
       "draws": 0,
