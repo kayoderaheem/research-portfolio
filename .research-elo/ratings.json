@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The measured chromatin features may not uniquely identify direct COMPASS cooperation rather than feedback or assay effects.",
-      "next_test": "Predict one prespecified held-out perturbation pair from single and partial-pair data, then test direction with matched chromatin and RNA assays.",
-      "opponent": 98,
-      "outcome": "loss",
-      "reason": "Histone perturbation cooperation has a tighter mechanistic anchor, explicit biochemical validation, and an earlier eight-week test than the broader tissue-level mechanical-memory problem.",
-      "target": 97,
-      "timestamp": "2026-10-24T23:20:36.444032+00:00"
-    },
-    {
-      "main_risk": "Spatial BCL2-high niche associations may add no information beyond epithelial abundance, proliferation, disease stage, and clonal evolution.",
-      "next_test": "In paired pretreatment and early-treatment specimens, test whether the locked neighborhood score predicts persistence beyond BCL2 abundance and proliferation.",
-      "opponent": 15,
-      "outcome": "loss",
-      "reason": "The gastric-cancer problem offers stronger direct patient and treatment relevance, a clear patient-level spatial endpoint, and useful biomarker-versus-mechanism branches despite greater cohort demands.",
-      "target": 97,
-      "timestamp": "2026-10-24T23:20:36.444049+00:00"
-    },
-    {
-      "main_risk": "AT1 mechanosignaling may be only a correlate of injury rather than the cause of persistent endothelial state.",
-      "next_test": "Prospectively predict one unseen restriction-recovery schedule with and without AT1 mechanosignaling perturbation across independent preparations.",
-      "opponent": 77,
-      "outcome": "win",
-      "reason": "The mechanical-recovery problem has a more tractable eight-week prospective test and a clearer experimental perturbation framework; the tuberculoma project depends on a difficult, independent reference standard and multicenter transportability.",
-      "target": 97,
-      "timestamp": "2026-10-24T23:20:36.444056+00:00"
-    },
-    {
-      "main_risk": "SECmere RNA may contain a reproducible, clinically incremental signal that the mechanical project cannot match in translational value.",
-      "next_test": "Run the blinded eight-week mechanical perturbation test while comparing against persistence-only, dose-only, and composition-adjusted baselines.",
-      "opponent": 85,
-      "outcome": "win",
-      "reason": "Mechanical-state prediction has a clearer causal perturbation and earlier decision point, whereas SECmere performance is highly exposed to particle-isolation artifacts, site calibration, and a lengthy external validation requirement.",
-      "target": 97,
-      "timestamp": "2026-10-24T23:20:36.444062+00:00"
-    },
-    {
-      "main_risk": "Baseline regulatory-state measurements may provide substantial predictive information beyond expression and make the broader framework more generalizable.",
-      "next_test": "Use a small donor-replicated perturbation panel to compare frozen expression-only and multimodal models on one held-out perturbation and orthogonal endpoint.",
-      "opponent": 37,
-      "outcome": "win",
-      "reason": "The mechanical project has a narrower anchor, fewer required modalities, and an earlier falsifiable experiment; the multimodal virtual-cell framework risks becoming an expensive modality-combination benchmark without demonstrated intervention identifiability.",
-      "target": 97,
-      "timestamp": "2026-10-24T23:20:36.444068+00:00"
-    },
-    {
       "main_risk": "The measured chromatin layers may not identify direct cooperation rather than correlated downstream state.",
       "next_test": "Fit additive and interaction models on single perturbations plus a subset of pairs, then prospectively test one held-out pair with matched chromatin and RNA readouts.",
       "opponent": 97,
@@ -2699,6 +2654,51 @@
       "reason": "Assay-transportable perturbation prediction addresses a general technology bottleneck with a fixed identifiability question, explicit leave-donor and leave-perturbation tests, and informative failure branches. The autism proposal has greater immediate clinical framing but a higher risk of non-specific confounding and weak incremental value.",
       "target": 128,
       "timestamp": "2026-11-12T11:26:13.872474+00:00"
+    },
+    {
+      "main_risk": "Urine molecular measurements may lose reproducible renal information after accounting for concentration, storage, site, and specimen-quality effects.",
+      "next_test": "Run blinded technical replicates, dilution and storage perturbations, and cross-site concordance testing before outcome modeling.",
+      "opponent": 105,
+      "outcome": "win",
+      "reason": "Urine compartment staging has a clearer clinical anchor, stronger leakage-resistant validation plan, and an early pilot that can distinguish technical unreliability from genuine incremental decision value. The myeloma project offers deeper mechanistic insight but depends on difficult cross-laboratory 3D model reproducibility and outcome linkage.",
+      "target": 127,
+      "timestamp": "2026-11-12T20:02:03.423628+00:00"
+    },
+    {
+      "main_risk": "No urine modality may add calibrated net benefit beyond routine clinical measures once specimen quality and site effects are controlled.",
+      "next_test": "Compare locked clinical-baseline and single-compartment urine models in a patient-level, held-out-site pilot.",
+      "opponent": 57,
+      "outcome": "win",
+      "reason": "The urine project is more maturely specified around incremental clinical prediction and has clearer baselines, endpoints, and early stopping rules. The stromal-architecture proposal relies on a less established transfer from organoid systems to patient tissue and leaves the tumor setting and assay insufficiently fixed.",
+      "target": 127,
+      "timestamp": "2026-11-12T20:02:03.423649+00:00"
+    },
+    {
+      "main_risk": "The fibrosis reference standard may be inconsistent or unavailable without incorporating biased or post-outcome information.",
+      "next_test": "Audit endpoint reliability and compare routine clinical-laboratory prediction with one prespecified added modality using held-out-site net benefit.",
+      "opponent": 76,
+      "outcome": "win",
+      "reason": "The urine project has a more focused biological measurement problem and a clearer progression endpoint, whereas pediatric MASLD requires resolving fibrosis reference standards, population shift, missingness, access burden, and a large modality space. The MASLD concept is valuable but its branching decisions are slower and more dependent on cohort and endpoint quality.",
+      "target": 127,
+      "timestamp": "2026-11-12T20:02:03.423659+00:00"
+    },
+    {
+      "main_risk": "Fixation may erase perturbation-specific regulatory effects, leaving only generic cell-state or composition signals that cannot support counterfactual prediction.",
+      "next_test": "Profile donor-matched fresh, frozen, and fixed aliquots under one unseen perturbation with a targeted orthogonal readout and compare against persistence and simple batch-correction baselines.",
+      "opponent": 92,
+      "outcome": "win",
+      "reason": "Urine-based risk staging offers a nearer-term, clinically testable decision with established patient-level validation safeguards. Assay-transportable virtual-cell prediction is potentially important technology, but the stated evidence is extremely sparse and the central perturbation-identifiability problem requires costly paired donor, workflow, and orthogonal experiments.",
+      "target": 127,
+      "timestamp": "2026-11-12T20:02:03.423666+00:00"
+    },
+    {
+      "main_risk": "Radiomics and EBV DNA may provide redundant or site-specific proxies for disease burden rather than transportable treatment decision value.",
+      "next_test": "Run the prespecified clinical, EBV-DNA, radiomics, and multimodal ablation analysis with site-held-out validation and threshold-specific net benefit.",
+      "opponent": 123,
+      "outcome": "loss",
+      "reason": "Radiomics and EBV DNA are tied directly to a prespecified adaptive-radiotherapy decision, with lower assumption risk, clear modality-ablation comparisons, and a strong early decision test. The urine project is clinically relevant but requires assay reproducibility across several compartments and substantial specimen-quality and transportability work before clinical value is credible.",
+      "target": 127,
+      "timestamp": "2026-11-12T20:02:03.423675+00:00"
     }
   ],
   "k_factor": 24,
@@ -2754,9 +2754,9 @@
     },
     "105": {
       "draws": 0,
-      "games": 16,
-      "losses": 8,
-      "rating": 1498.61,
+      "games": 17,
+      "losses": 9,
+      "rating": 1486.66,
       "wins": 8
     },
     "106": {
@@ -2894,10 +2894,10 @@
     },
     "123": {
       "draws": 0,
-      "games": 5,
+      "games": 6,
       "losses": 2,
-      "rating": 1510.34,
-      "wins": 3
+      "rating": 1523.53,
+      "wins": 4
     },
     "124": {
       "draws": 0,
@@ -2922,10 +2922,10 @@
     },
     "127": {
       "draws": 0,
-      "games": 2,
-      "losses": 1,
-      "rating": 1500.01,
-      "wins": 1
+      "games": 7,
+      "losses": 2,
+      "rating": 1531.75,
+      "wins": 5
     },
     "128": {
       "draws": 0,
@@ -3251,9 +3251,9 @@
     },
     "57": {
       "draws": 0,
-      "games": 31,
-      "losses": 16,
-      "rating": 1495.35,
+      "games": 32,
+      "losses": 17,
+      "rating": 1483.92,
       "wins": 15
     },
     "58": {
@@ -3398,9 +3398,9 @@
     },
     "76": {
       "draws": 0,
-      "games": 21,
-      "losses": 11,
-      "rating": 1493.58,
+      "games": 22,
+      "losses": 12,
+      "rating": 1482.61,
       "wins": 10
     },
     "77": {
@@ -3524,9 +3524,9 @@
     },
     "92": {
       "draws": 0,
-      "games": 16,
-      "losses": 8,
-      "rating": 1493.13,
+      "games": 17,
+      "losses": 9,
+      "rating": 1482.55,
       "wins": 8
     },
     "93": {

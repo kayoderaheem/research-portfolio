@@ -146,23 +146,23 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | 41 | [#87 — [Idea] Spatially identifiable virtual-cell responses to unseen intracellular perturbations](https://github.com/kayoderaheem/research-portfolio/issues/87) | **1533** | 17 | 10W / 0D / 7L |
 | 42 | [#2 — [Idea] Transportable response signatures for molecularly matched therapy in advanced pancreatic cancer](https://github.com/kayoderaheem/research-portfolio/issues/2) | **1533** | 33 | 18W / 0D / 15L |
 | 43 | [#39 — [Idea] Composition-aware counterfactuals for unseen perturbations across tissue neighborhoods](https://github.com/kayoderaheem/research-portfolio/issues/39) | **1532** | 27 | 15W / 0D / 12L |
-| 44 | [#85 — [Idea] Particle-fraction-specific blood RNA value for clinically defined Alzheimer’s disease triage](https://github.com/kayoderaheem/research-portfolio/issues/85) | **1528** | 19 | 11W / 0D / 8L |
-| 45 | [#91 — [Idea] Kinetic identifiability of acute transcriptional perturbations in virtual cells](https://github.com/kayoderaheem/research-portfolio/issues/91) | **1528** | 20 | 11W / 0D / 9L |
-| 46 | [#93 — [Idea] Mechanism-identifiable virtual cells for bioenergetic perturbations](https://github.com/kayoderaheem/research-portfolio/issues/93) | **1527** | 24 | 13W / 0D / 11L |
-| 47 | [#66 — [Idea] Architecture-aware prediction of treatment response in glioblastoma beyond cellular composition](https://github.com/kayoderaheem/research-portfolio/issues/66) | **1523** | 24 | 13W / 0D / 11L |
-| 48 | [#117 — [Idea] Reproducible treatment-induced state transitions after epigenetic therapy in gastric cancer](https://github.com/kayoderaheem/research-portfolio/issues/117) | **1523** | 12 | 7W / 0D / 5L |
-| 49 | [#9 — [Idea] Spatially resolved IL-17 and retinoid states predicting tunnel-directed therapy response in hidradenitis suppurativa](https://github.com/kayoderaheem/research-portfolio/issues/9) | **1513** | 40 | 20W / 1D / 19L |
-| 50 | [#55 — [Idea] Mutation-specific target engagement as a separator of intrinsic sensitivity and resistance](https://github.com/kayoderaheem/research-portfolio/issues/55) | **1512** | 23 | 12W / 0D / 11L |
-| 51 | [#122 — [Idea] Perivascular immune-state transitions during chemotherapy response](https://github.com/kayoderaheem/research-portfolio/issues/122) | **1512** | 13 | 7W / 0D / 6L |
-| 52 | [#65 — [Idea] Spatial fibroblast-state transitions as predictors of bazedoxifene response in cutaneous fibrosis](https://github.com/kayoderaheem/research-portfolio/issues/65) | **1512** | 23 | 12W / 0D / 11L |
-| 53 | [#114 — [Idea] DOK3-CARD9 macrophage-state transitions as reproducible determinants of PD-1 blockade response](https://github.com/kayoderaheem/research-portfolio/issues/114) | **1511** | 13 | 7W / 0D / 6L |
-| 54 | [#109 — [Idea] Genome-derived structural resistance markers from FFPE tumors beyond exome sequencing](https://github.com/kayoderaheem/research-portfolio/issues/109) | **1511** | 13 | 7W / 0D / 6L |
-| 55 | [#123 — [Idea] Decision-value decomposition of radiomics and EBV DNA for adaptive nasopharyngeal radiotherapy](https://github.com/kayoderaheem/research-portfolio/issues/123) | **1510** | 5 | 3W / 0D / 2L |
-| 56 | [#127 — [Idea] Incremental decision value of atlas-anchored urine compartments for early diabetic kidney disease staging](https://github.com/kayoderaheem/research-portfolio/issues/127) | **1500** | 2 | 1W / 0D / 1L |
-| 57 | [#105 — [Idea] Bone-niche dependence of functional drug response in multiple myeloma](https://github.com/kayoderaheem/research-portfolio/issues/105) | **1499** | 16 | 8W / 0D / 8L |
-| 58 | [#57 — [Idea] Pre-existing stromal architecture as an incremental predictor of bispecific-antibody response](https://github.com/kayoderaheem/research-portfolio/issues/57) | **1495** | 31 | 15W / 0D / 16L |
-| 59 | [#76 — [Idea] Population- and site-calibrated multimodal fibrosis triage in pediatric MASLD](https://github.com/kayoderaheem/research-portfolio/issues/76) | **1494** | 21 | 10W / 0D / 11L |
-| 60 | [#92 — [Idea] Assay-transportable virtual-cell predictions from fresh to fixed tissue](https://github.com/kayoderaheem/research-portfolio/issues/92) | **1493** | 16 | 8W / 0D / 8L |
+| 44 | [#127 — [Idea] Incremental decision value of atlas-anchored urine compartments for early diabetic kidney disease staging](https://github.com/kayoderaheem/research-portfolio/issues/127) | **1532** | 7 | 5W / 0D / 2L |
+| 45 | [#85 — [Idea] Particle-fraction-specific blood RNA value for clinically defined Alzheimer’s disease triage](https://github.com/kayoderaheem/research-portfolio/issues/85) | **1528** | 19 | 11W / 0D / 8L |
+| 46 | [#91 — [Idea] Kinetic identifiability of acute transcriptional perturbations in virtual cells](https://github.com/kayoderaheem/research-portfolio/issues/91) | **1528** | 20 | 11W / 0D / 9L |
+| 47 | [#93 — [Idea] Mechanism-identifiable virtual cells for bioenergetic perturbations](https://github.com/kayoderaheem/research-portfolio/issues/93) | **1527** | 24 | 13W / 0D / 11L |
+| 48 | [#123 — [Idea] Decision-value decomposition of radiomics and EBV DNA for adaptive nasopharyngeal radiotherapy](https://github.com/kayoderaheem/research-portfolio/issues/123) | **1524** | 6 | 4W / 0D / 2L |
+| 49 | [#66 — [Idea] Architecture-aware prediction of treatment response in glioblastoma beyond cellular composition](https://github.com/kayoderaheem/research-portfolio/issues/66) | **1523** | 24 | 13W / 0D / 11L |
+| 50 | [#117 — [Idea] Reproducible treatment-induced state transitions after epigenetic therapy in gastric cancer](https://github.com/kayoderaheem/research-portfolio/issues/117) | **1523** | 12 | 7W / 0D / 5L |
+| 51 | [#9 — [Idea] Spatially resolved IL-17 and retinoid states predicting tunnel-directed therapy response in hidradenitis suppurativa](https://github.com/kayoderaheem/research-portfolio/issues/9) | **1513** | 40 | 20W / 1D / 19L |
+| 52 | [#55 — [Idea] Mutation-specific target engagement as a separator of intrinsic sensitivity and resistance](https://github.com/kayoderaheem/research-portfolio/issues/55) | **1512** | 23 | 12W / 0D / 11L |
+| 53 | [#122 — [Idea] Perivascular immune-state transitions during chemotherapy response](https://github.com/kayoderaheem/research-portfolio/issues/122) | **1512** | 13 | 7W / 0D / 6L |
+| 54 | [#65 — [Idea] Spatial fibroblast-state transitions as predictors of bazedoxifene response in cutaneous fibrosis](https://github.com/kayoderaheem/research-portfolio/issues/65) | **1512** | 23 | 12W / 0D / 11L |
+| 55 | [#114 — [Idea] DOK3-CARD9 macrophage-state transitions as reproducible determinants of PD-1 blockade response](https://github.com/kayoderaheem/research-portfolio/issues/114) | **1511** | 13 | 7W / 0D / 6L |
+| 56 | [#109 — [Idea] Genome-derived structural resistance markers from FFPE tumors beyond exome sequencing](https://github.com/kayoderaheem/research-portfolio/issues/109) | **1511** | 13 | 7W / 0D / 6L |
+| 57 | [#105 — [Idea] Bone-niche dependence of functional drug response in multiple myeloma](https://github.com/kayoderaheem/research-portfolio/issues/105) | **1487** | 17 | 8W / 0D / 9L |
+| 58 | [#57 — [Idea] Pre-existing stromal architecture as an incremental predictor of bispecific-antibody response](https://github.com/kayoderaheem/research-portfolio/issues/57) | **1484** | 32 | 15W / 0D / 17L |
+| 59 | [#76 — [Idea] Population- and site-calibrated multimodal fibrosis triage in pediatric MASLD](https://github.com/kayoderaheem/research-portfolio/issues/76) | **1483** | 22 | 10W / 0D / 12L |
+| 60 | [#92 — [Idea] Assay-transportable virtual-cell predictions from fresh to fixed tissue](https://github.com/kayoderaheem/research-portfolio/issues/92) | **1483** | 17 | 8W / 0D / 9L |
 | 61 | [#15 — [Idea] BMP-restraint failure and BCL2-high niches as predictors of diffuse gastric cancer treatment response](https://github.com/kayoderaheem/research-portfolio/issues/15) | **1482** | 39 | 18W / 1D / 20L |
 | 62 | [#98 — [Idea] Virtual-cell identifiability of cooperative histone-code perturbations](https://github.com/kayoderaheem/research-portfolio/issues/98) | **1479** | 16 | 7W / 0D / 9L |
 | 63 | [#7 — [Idea] Reproducible adaptive cell-state transitions after KRAS pathway blockade](https://github.com/kayoderaheem/research-portfolio/issues/7) | **1479** | 42 | 20W / 0D / 22L |
@@ -229,7 +229,7 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | 124 | [#12 — [Idea] Antigen-presentation escape neighborhoods predicting checkpoint response in melanoma with HIV](https://github.com/kayoderaheem/research-portfolio/issues/12) | **1367** | 16 | 2W / 0D / 14L |
 | 125 | [#95 — [Idea] Evolution-aware virtual cells for unseen therapy resistance states](https://github.com/kayoderaheem/research-portfolio/issues/95) | **1365** | 12 | 0W / 0D / 12L |
 
-_Last synchronized: 2026-11-12 11:26 UTC._
+_Last synchronized: 2026-11-12 20:02 UTC._
 <!-- RESEARCH_ELO_END -->
 
 ## Add ideas manually
