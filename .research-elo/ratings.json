@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Histone and occupancy measurements may not identify direct cooperation rather than feedback or assay-scaling effects.",
-      "next_test": "Predict a prespecified held-out histone-mark perturbation pair from single and limited paired perturbations, using matched chromatin and RNA readouts.",
-      "opponent": 98,
-      "outcome": "loss",
-      "reason": "The histone-code problem has a tighter mechanistic anchor, a more direct early perturbation test, and useful outcomes even if cooperative prediction fails; the lung project depends more heavily on proving a causal tissue-level memory mechanism.",
-      "target": 97,
-      "timestamp": "2026-10-25T16:30:44.898293+00:00"
-    },
-    {
-      "main_risk": "Fixation may destroy perturbation-specific biological information, making transfer fundamentally non-identifiable.",
-      "next_test": "Profile donor-matched fresh, frozen, and fixed aliquots before and after one unseen perturbation with an orthogonal targeted readout.",
-      "opponent": 92,
-      "outcome": "loss",
-      "reason": "Assay transportability is a clearer technology problem with a general use case and a direct donor-matched aliquot experiment, whereas the mechanical-recovery project requires several difficult causal and cross-preparation assumptions before its virtual-cell claims are credible.",
-      "target": 97,
-      "timestamp": "2026-10-25T16:30:44.898315+00:00"
-    },
-    {
-      "main_risk": "The persistent endothelial signal may be injury, inflammation, or composition rather than AT1 mechanotransduction memory.",
-      "next_test": "Prospectively test an unseen restriction-recovery schedule with and without AT1-directed mechanosignaling perturbation in independent preparations.",
-      "opponent": 85,
-      "outcome": "win",
-      "reason": "The mechanical-recovery project offers a more coherent discovery anchor and better-defined pivot paths, while the SECmere project has substantial unresolved risks in fraction identity, technical reproducibility, spectrum bias, and external calibration before clinical value can be assessed.",
-      "target": 97,
-      "timestamp": "2026-10-25T16:30:44.898329+00:00"
-    },
-    {
-      "main_risk": "Spatial architecture may only proxy target density, tumor burden, immune abundance, or specimen quality.",
-      "next_test": "Evaluate a locked stromal-obstruction and target-adjacency score in patient-level nested models against response beyond target expression, composition, and clinical covariates.",
-      "opponent": 57,
-      "outcome": "loss",
-      "reason": "Patient-level spatial architecture has credible clinical relevance and can be tested incrementally against strong composition and clinical baselines, while the mechanical virtual-cell project carries higher causal and transferability risk and a less immediate translational endpoint.",
-      "target": 97,
-      "timestamp": "2026-10-25T16:30:44.898336+00:00"
-    },
-    {
-      "main_risk": "The fibrosis endpoint or reference standard may be unreliable or contaminated by post-outcome information.",
-      "next_test": "Run the locked multi-site benchmark comparing the clinical-laboratory baseline with sequential modality additions using patient-level splits and a predefined threshold.",
-      "opponent": 76,
-      "outcome": "loss",
-      "reason": "The pediatric MASLD problem directly addresses modality acquisition, transportability, calibration, and clinical decision value, with a practical sequential-modality test; the mechanical project is more speculative and depends on validating a difficult causal memory mechanism.",
-      "target": 97,
-      "timestamp": "2026-10-25T16:30:44.898345+00:00"
-    },
-    {
       "main_risk": "The required multi-omic measurements may not identify direct cooperation rather than feedback or assay-scaling artifacts.",
       "next_test": "Fit interaction and additive models on single perturbations plus one held-out pair with matched chromatin and RNA readouts.",
       "opponent": 92,
@@ -2699,6 +2654,51 @@
       "reason": "The congestion project has a clearer clinical decision and earlier branch point, while assay-transportable virtual-cell prediction requires several high-risk identifiability assumptions and strong paired multi-workflow data.",
       "target": 130,
       "timestamp": "2026-11-13T11:09:39.423792+00:00"
+    },
+    {
+      "main_risk": "The tarsal-tunnel reference standard may be insufficiently reproducible or circular without a pathognomonic diagnostic test.",
+      "next_test": "Run the 10-week blinded consecutive-patient pilot measuring ultrasound reproducibility and incremental decision value in nerve-conduction-negative or equivocal cases.",
+      "opponent": 114,
+      "outcome": "win",
+      "reason": "External tarsal-tunnel validation has a clearer clinical anchor, stronger established baselines, and a cheap prospective pilot that can directly determine whether ultrasound changes calibrated decisions. The DOK3-CARD9 project has higher upside but depends on several costly, high-risk assumptions about reproducible human state transitions and mechanism.",
+      "target": 131,
+      "timestamp": "2026-11-13T19:49:46.223172+00:00"
+    },
+    {
+      "main_risk": "The tarsal-tunnel pathway may not improve management-relevant calibration beyond clinical assessment and nerve conduction studies.",
+      "next_test": "Complete the blinded 10-week pilot and compare prespecified nested models against clinical and electrodiagnostic baselines.",
+      "opponent": 109,
+      "outcome": "win",
+      "reason": "Tarsal-tunnel validation is more tractable and clinically bounded, with a defined early readout and actionable pathway. Genome-derived resistance markers could have broader impact, but assay quality, sparse treatment outcomes, feature overfitting, and uncertain treatment relevance create a longer chain of assumptions before a credible result.",
+      "target": 131,
+      "timestamp": "2026-11-13T19:49:46.223190+00:00"
+    },
+    {
+      "main_risk": "Ultrasound may be operator- or device-dependent and fail to add reliable information across referral settings.",
+      "next_test": "Test repeat-scan reliability and incremental value in a prospective blinded cohort before expanding to external validation.",
+      "opponent": 65,
+      "outcome": "win",
+      "reason": "The tarsal-tunnel problem offers a nearer-term patient-level validation study with external clinical relevance and clear stop criteria. The fibroblast project is currently anchored to a murine model and a single treatment, and its spatial signal may reflect severity, batch, or marker changes rather than meaningful tissue repair.",
+      "target": 131,
+      "timestamp": "2026-11-13T19:49:46.223215+00:00"
+    },
+    {
+      "main_risk": "The diagnostic reference standard may remain subjective and vulnerable to incorporation or treatment-response bias.",
+      "next_test": "Enroll consecutive suspected cases for blinded clinical, electrodiagnostic, and ultrasound assessment, then estimate reliability and net benefit in the prespecified subgroup.",
+      "opponent": 105,
+      "outcome": "win",
+      "reason": "External multimodal tarsal-tunnel validation has fewer platform and specimen-maintenance dependencies and can reach a management-relevant decision quickly. The myeloma 3D project requires reproducible patient-derived models, cross-laboratory harmonization, and proof that ex vivo niche discordance predicts clinical outcomes.",
+      "target": 131,
+      "timestamp": "2026-11-13T19:49:46.223220+00:00"
+    },
+    {
+      "main_risk": "Ultrasound may capture nonspecific anatomy or referral-spectrum effects rather than disease-specific compression.",
+      "next_test": "Run the prospective blinded pilot with patient-level validation and test whether ultrasound improves calibrated decisions specifically when nerve conduction studies are negative or equivocal.",
+      "opponent": 57,
+      "outcome": "win",
+      "reason": "Tarsal-tunnel validation has a more specific disease and decision anchor, clearer baseline comparisons, and a lower-cost early test. Stromal architecture for bispecific response has broader potential but depends on heterogeneous drugs and cohorts, stable spatial measurements, and transfer from tissue architecture to functional drug access.",
+      "target": 131,
+      "timestamp": "2026-11-13T19:49:46.223224+00:00"
     }
   ],
   "k_factor": 24,
@@ -2754,9 +2754,9 @@
     },
     "105": {
       "draws": 0,
-      "games": 18,
-      "losses": 9,
-      "rating": 1498.31,
+      "games": 19,
+      "losses": 10,
+      "rating": 1487.57,
       "wins": 9
     },
     "106": {
@@ -2782,9 +2782,9 @@
     },
     "109": {
       "draws": 0,
-      "games": 14,
-      "losses": 7,
-      "rating": 1499.56,
+      "games": 15,
+      "losses": 8,
+      "rating": 1487.99,
       "wins": 7
     },
     "11": {
@@ -2824,9 +2824,9 @@
     },
     "114": {
       "draws": 0,
-      "games": 14,
-      "losses": 7,
-      "rating": 1499.98,
+      "games": 15,
+      "losses": 8,
+      "rating": 1487.98,
       "wins": 7
     },
     "115": {
@@ -2957,10 +2957,10 @@
     },
     "131": {
       "draws": 0,
-      "games": 2,
+      "games": 7,
       "losses": 1,
-      "rating": 1500.01,
-      "wins": 1
+      "rating": 1555.83,
+      "wins": 6
     },
     "15": {
       "draws": 1,
@@ -3272,9 +3272,9 @@
     },
     "57": {
       "draws": 0,
-      "games": 33,
-      "losses": 17,
-      "rating": 1495.26,
+      "games": 34,
+      "losses": 18,
+      "rating": 1484.98,
       "wins": 16
     },
     "58": {
@@ -3335,9 +3335,9 @@
     },
     "65": {
       "draws": 0,
-      "games": 24,
-      "losses": 12,
-      "rating": 1501.19,
+      "games": 25,
+      "losses": 13,
+      "rating": 1489.96,
       "wins": 12
     },
     "66": {
