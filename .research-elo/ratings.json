@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The measured chromatin layers may not identify direct cooperation rather than correlated downstream state.",
-      "next_test": "Fit additive and interaction models on single perturbations plus a subset of pairs, then prospectively test one held-out pair with matched chromatin and RNA readouts.",
-      "opponent": 97,
-      "outcome": "win",
-      "reason": "Issue 98 has a tighter mechanistic anchor, an explicit competing explanation, and an earlier held-out perturbation test; issue 97 depends on reproducing a complex AT1-endothelial memory across preparations and separating it from injury.",
-      "target": 98,
-      "timestamp": "2026-10-25T04:51:58.691998+00:00"
-    },
-    {
-      "main_risk": "Issue 98 may require too many costly multiomic measurements to estimate interaction effects reliably.",
-      "next_test": "Measure a preselected held-out perturbation pair with the minimum chromatin and transcriptional layers needed to compare interaction-aware and additive models.",
-      "opponent": 15,
-      "outcome": "loss",
-      "reason": "Issue 98 offers a clearer early causal-identifiability decision and useful atlas value if prediction fails. Issue 15 has greater clinical upside but requires reproducible spatial biomarker performance, patient-level cohorts, and causal niche perturbation, creating a longer high-risk chain.",
-      "target": 98,
-      "timestamp": "2026-10-25T04:51:58.692017+00:00"
-    },
-    {
-      "main_risk": "Issue 98's apparent interaction may be assay scaling, feedback, or cell-state composition rather than cooperation.",
-      "next_test": "Use donor- or clone-separated single and paired perturbations to test one held-out combination against additive, regularized, and mechanistic baselines.",
-      "opponent": 92,
-      "outcome": "win",
-      "reason": "Issue 98 addresses a concrete biological mechanism with nearer-term perturbation validation. Issue 92 is broadly useful but starts from very limited assay evidence and must establish paired donor-level biological signal, assay mappings, and transportability before model gains are credible.",
-      "target": 98,
-      "timestamp": "2026-10-25T04:51:58.692027+00:00"
-    },
-    {
-      "main_risk": "Spatial fibroblast niches may add no predictive information beyond baseline fibrosis, treatment exposure, or fibroblast abundance.",
-      "next_test": "Perform animal-level pseudobulk and spatial-neighborhood analysis, then prospectively replicate the strongest pretreatment score with blinded histology and collagen architecture.",
-      "opponent": 65,
-      "outcome": "loss",
-      "reason": "Issue 65 is better positioned for six months: it has an existing preclinical spatial dataset, a tractable reanalysis-to-replication path, and a focused endpoint. Issue 98 is more general but requires a large, technically demanding multiomic perturbation program with several high-risk identifiability assumptions.",
-      "target": 98,
-      "timestamp": "2026-10-25T04:51:58.692034+00:00"
-    },
-    {
-      "main_risk": "Issue 98 may show model performance only in the measured contexts and fail to transfer to unseen perturbations or cell states.",
-      "next_test": "Run the preregistered held-out-pair experiment and compare interaction-aware prediction with additive, mechanistic, and nearest-context baselines using donor-level calibration.",
-      "opponent": 1,
-      "outcome": "loss",
-      "reason": "Issue 98 has a cheaper and earlier scientific decision with strong discovery value and useful negative branches. Issue 1 has greater potential clinical impact, but turnaround, organoid establishment, culture fidelity, treatment assignment, and prospective outcome validation make success dependent on a longer chain of assumptions.",
-      "target": 98,
-      "timestamp": "2026-10-25T04:51:58.692041+00:00"
-    },
-    {
       "main_risk": "The spatial UCHL1–mregDC–Treg association may be confounded by disease severity or add no value beyond plasma UCHL1 and cell composition.",
       "next_test": "Run the prespecified patient-level multiplex-imaging comparison of spatial versus nonspatial models in pretreatment and early-treatment samples.",
       "opponent": 63,
@@ -2699,6 +2654,51 @@
       "reason": "Radiomics and EBV DNA are tied directly to a prespecified adaptive-radiotherapy decision, with lower assumption risk, clear modality-ablation comparisons, and a strong early decision test. The urine project is clinically relevant but requires assay reproducibility across several compartments and substantial specimen-quality and transportability work before clinical value is credible.",
       "target": 127,
       "timestamp": "2026-11-12T20:02:03.423675+00:00"
+    },
+    {
+      "main_risk": "Functional measurements may add no independent information beyond genotype and ECG phenotype.",
+      "next_test": "Blind established controls and selected variants, then compare nested functional-plus-ECG models with genotype-plus-ECG baselines for reproducibility and calibration.",
+      "opponent": 131,
+      "outcome": "win",
+      "reason": "KCNH2 has a clearer actionable clinical endpoint, stronger evidence-readiness, and a more direct path from functional assays to calibrated variant decisions. Tarsal tunnel diagnosis depends on a difficult, potentially circular reference standard and heterogeneous referral populations.",
+      "target": 129,
+      "timestamp": "2026-11-13T01:54:12.648811+00:00"
+    },
+    {
+      "main_risk": "Functional evidence may be redundant with genotype and clinical phenotype.",
+      "next_test": "Run a blinded small variant panel with replicate functional assays and test whether functional features improve held-out calibration over genotype-plus-ECG evidence.",
+      "opponent": 130,
+      "outcome": "win",
+      "reason": "KCNH2 offers a more defined clinical classification problem and validation framework. Congestion-aware drug prediction requires first selecting a drug, proving a measurable exposure-response relationship, and separating congestion from illness severity and treatment intensity.",
+      "target": 129,
+      "timestamp": "2026-11-13T01:54:12.648832+00:00"
+    },
+    {
+      "main_risk": "Genome-derived structural features may not improve response prediction after adjustment for tumor quality, treatment selection, and strong molecular baselines.",
+      "next_test": "Test a preregistered low-dimensional structural feature set in patient-level nested validation against exome, panel, clinical, and guideline-biomarker baselines.",
+      "opponent": 109,
+      "outcome": "win",
+      "reason": "KCNH2 is more tightly anchored to a specific clinical decision and has clearer independent validation requirements. The genome-resistance project spans cancers, treatments, assays, and endpoints, creating substantial overfitting, specimen-quality, and treatment-selection risks before a generalizable benefit is established.",
+      "target": 129,
+      "timestamp": "2026-11-13T01:54:12.648842+00:00"
+    },
+    {
+      "main_risk": "Functional evidence may fail to provide independent calibrated value beyond genotype and ECG phenotype.",
+      "next_test": "Use blinded replicate functional and trafficking measurements on selected variants and compare them with ECG and genotype in prespecified nested models.",
+      "opponent": 114,
+      "outcome": "win",
+      "reason": "KCNH2 has a more immediately actionable endpoint and a less assumption-heavy path to clinical utility. The macrophage project requires reproducible spatial states, paired on-treatment biopsies, cross-patient transportability, and evidence that DOK3-CARD9 is causal rather than a marker of composition or inflammation.",
+      "target": 129,
+      "timestamp": "2026-11-13T01:54:12.648848+00:00"
+    },
+    {
+      "main_risk": "The spatial fibroblast score may not predict meaningful tissue repair beyond baseline fibrosis severity and fibroblast abundance.",
+      "next_test": "Perform animal-level, lesion-segregated validation of the spatial score in independent induction batches, followed by blinded collagen and tissue-function measurements.",
+      "opponent": 65,
+      "outcome": "win",
+      "reason": "KCNH2 has greater credible patient value, a clearer clinical anchor, and stronger requirements for external calibration and patient-level validation. The fibrosis project is promising discovery science but is centered on a murine model and faces uncertain reversibility, spatial reproducibility, and translation to human disease.",
+      "target": 129,
+      "timestamp": "2026-11-13T01:54:12.648855+00:00"
     }
   ],
   "k_factor": 24,
@@ -2782,9 +2782,9 @@
     },
     "109": {
       "draws": 0,
-      "games": 13,
-      "losses": 6,
-      "rating": 1511.13,
+      "games": 14,
+      "losses": 7,
+      "rating": 1499.56,
       "wins": 7
     },
     "11": {
@@ -2824,9 +2824,9 @@
     },
     "114": {
       "draws": 0,
-      "games": 13,
-      "losses": 6,
-      "rating": 1511.15,
+      "games": 14,
+      "losses": 7,
+      "rating": 1499.98,
       "wins": 7
     },
     "115": {
@@ -2934,12 +2934,33 @@
       "rating": 1453.32,
       "wins": 1
     },
+    "129": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1557.15,
+      "wins": 5
+    },
     "13": {
       "draws": 0,
       "games": 41,
       "losses": 22,
       "rating": 1474.5,
       "wins": 19
+    },
+    "130": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
+    },
+    "131": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
     },
     "15": {
       "draws": 1,
@@ -3314,9 +3335,9 @@
     },
     "65": {
       "draws": 0,
-      "games": 23,
-      "losses": 11,
-      "rating": 1512.01,
+      "games": 24,
+      "losses": 12,
+      "rating": 1501.19,
       "wins": 12
     },
     "66": {
