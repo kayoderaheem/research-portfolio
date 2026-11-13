@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The spatial UCHL1–mregDC–Treg association may be confounded by disease severity or add no value beyond plasma UCHL1 and cell composition.",
-      "next_test": "Run the prespecified patient-level multiplex-imaging comparison of spatial versus nonspatial models in pretreatment and early-treatment samples.",
-      "opponent": 63,
-      "outcome": "loss",
-      "reason": "The HCC project has clearer near-term patient-level decision value, stronger evidence readiness, and a direct incremental-value test against clinical and plasma baselines. The oligodendrocyte project is more mechanistically ambitious but couples several high-risk assumptions across state identity, reversibility, multimodal benefit, and tissue transfer.",
-      "target": 96,
-      "timestamp": "2026-10-25T11:41:42.246242+00:00"
-    },
-    {
-      "main_risk": "Nascent RNA and polymerase occupancy may not identify transferable initiation versus pause-turnover states even with dense sampling.",
-      "next_test": "Collect the 0–240-minute matched time course for one initiation and one pause-turnover perturbation and test perturbation-held-out prediction against the steady-state baseline.",
-      "opponent": 91,
-      "outcome": "loss",
-      "reason": "Kinetic identifiability is the tighter scientific problem, with a cheaper dense time-course test, clearer causal perturbations, simpler baselines, and an orthogonal mechanistic readout. The FGF project requires broader multimodal integration and transfer across contexts before its central claim can be assessed.",
-      "target": 96,
-      "timestamp": "2026-10-25T11:41:42.246266+00:00"
-    },
-    {
-      "main_risk": "Ex vivo sensitivity may primarily reflect tissue quality or culture adaptation rather than patient-specific treatment response.",
-      "next_test": "Perform the locked retrospective comparison of genomic matching alone versus genomic plus functional screening on held-out patient outcomes, retaining failed assays.",
-      "opponent": 45,
-      "outcome": "loss",
-      "reason": "Functional screening addresses a consequential treatment-selection question and can initially be evaluated through a locked patient-level reanalysis with decision curves, calibration, assay failures, and genomic baselines. The virtual-cell proposal has greater discovery breadth but more sequential biological and technical risks before producing actionable evidence.",
-      "target": 96,
-      "timestamp": "2026-10-25T11:41:42.246278+00:00"
-    },
-    {
-      "main_risk": "The diagnostic label or missingness patterns may leak information and make apparent modality gains cohort-specific rather than biologically or clinically incremental.",
-      "next_test": "Run the locked multicenter nested comparison of clinical/reproductive, hormone-added, and lifestyle-added models with patient-level separation, calibration, and decision-curve analysis.",
-      "opponent": 73,
-      "outcome": "loss",
-      "reason": "PCOS triage has a clear clinical decision anchor, relatively inexpensive nested-model tests, and useful negative outcomes if hormones or lifestyle data add no decision value. The FGF project is a higher-risk discovery program with multiple difficult-to-validate assumptions and expensive context transfer.",
-      "target": 96,
-      "timestamp": "2026-10-25T11:41:42.246285+00:00"
-    },
-    {
-      "main_risk": "A non-circular reference standard and cross-site acquisition may be insufficiently reliable, making apparent imaging value an artifact of site, reader, or disease-spectrum differences.",
-      "next_test": "Run the blinded site-held-out pilot comparing clinical, neurophysiology-enhanced, and imaging-enhanced models with locked image-quality and reference-standard rules.",
-      "opponent": 31,
-      "outcome": "loss",
-      "reason": "Corneal nerve imaging has a concrete, difficult-to-replace clinical technology question and an early site-held-out test that directly measures incremental value, reproducibility, calibration, and transportability. The FGF proposal offers broader discovery potential but depends on several unproven multimodal and tissue-context assumptions.",
-      "target": 96,
-      "timestamp": "2026-10-25T11:41:42.246292+00:00"
-    },
-    {
       "main_risk": "Histone and occupancy measurements may not identify direct cooperation rather than feedback or assay-scaling effects.",
       "next_test": "Predict a prespecified held-out histone-mark perturbation pair from single and limited paired perturbations, using matched chromatin and RNA readouts.",
       "opponent": 98,
@@ -2699,6 +2654,51 @@
       "reason": "KCNH2 has greater credible patient value, a clearer clinical anchor, and stronger requirements for external calibration and patient-level validation. The fibrosis project is promising discovery science but is centered on a murine model and faces uncertain reversibility, spatial reproducibility, and translation to human disease.",
       "target": 129,
       "timestamp": "2026-11-13T01:54:12.648855+00:00"
+    },
+    {
+      "main_risk": "An independent, reproducible reference standard may be impossible without circular adjudication.",
+      "next_test": "Run a blinded consecutive-patient pilot measuring ultrasound reproducibility and incremental decision value in nerve-conduction-negative or equivocal cases.",
+      "opponent": 131,
+      "outcome": "loss",
+      "reason": "Tarsal tunnel validation has a clearer clinical decision, more tractable prospective design, and earlier management-relevant readout than the drug-specific pharmacokinetic project.",
+      "target": 130,
+      "timestamp": "2026-11-13T11:09:39.423744+00:00"
+    },
+    {
+      "main_risk": "Patient-derived 3D models may be too variable or selective to yield reproducible patient-level signals.",
+      "next_test": "Run blinded paired isolated-cell and 3D drug-response assays across two laboratories using two therapies.",
+      "opponent": 105,
+      "outcome": "loss",
+      "reason": "The myeloma project has a stronger mechanistic anchor, useful outcomes if the favored hypothesis fails, and an early paired cross-laboratory experiment that can separate niche biology from assay noise.",
+      "target": 130,
+      "timestamp": "2026-11-13T11:09:39.423766+00:00"
+    },
+    {
+      "main_risk": "Spatial obstruction may merely proxy tumor burden, target density, specimen quality, or immune composition.",
+      "next_test": "Fit locked nested patient-level composition-only versus spatial models and assess calibration and decision benefit.",
+      "opponent": 57,
+      "outcome": "loss",
+      "reason": "Pre-treatment spatial architecture offers a focused, clinically relevant incremental-prediction question with strong baselines and a relatively direct patient-level validation path.",
+      "target": 130,
+      "timestamp": "2026-11-13T11:09:39.423775+00:00"
+    },
+    {
+      "main_risk": "Congestion measurements may not reproducibly change drug exposure or pharmacodynamic response beyond illness severity and dosing history.",
+      "next_test": "Conduct a one-drug prospective pilot with serial congestion measures and timed concentrations during decongestion.",
+      "opponent": 76,
+      "outcome": "win",
+      "reason": "The congestion project is more scientifically focused and differentiated, whereas the pediatric MASLD proposal spans many modalities and depends heavily on endpoint, access, and site-shift assumptions.",
+      "target": 130,
+      "timestamp": "2026-11-13T11:09:39.423782+00:00"
+    },
+    {
+      "main_risk": "Congestion phenotypes may add no reproducible exposure or response information after accounting for severity, fluid balance, and treatment intensity.",
+      "next_test": "Run the one-drug serial congestion and pharmacokinetic pilot with prespecified incremental-value criteria.",
+      "opponent": 92,
+      "outcome": "win",
+      "reason": "The congestion project has a clearer clinical decision and earlier branch point, while assay-transportable virtual-cell prediction requires several high-risk identifiability assumptions and strong paired multi-workflow data.",
+      "target": 130,
+      "timestamp": "2026-11-13T11:09:39.423792+00:00"
     }
   ],
   "k_factor": 24,
@@ -2754,10 +2754,10 @@
     },
     "105": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 9,
-      "rating": 1486.66,
-      "wins": 8
+      "rating": 1498.31,
+      "wins": 9
     },
     "106": {
       "draws": 0,
@@ -2950,17 +2950,17 @@
     },
     "130": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 4,
+      "rating": 1478.98,
+      "wins": 2
     },
     "131": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "rating": 1500.01,
+      "wins": 1
     },
     "15": {
       "draws": 1,
@@ -3272,10 +3272,10 @@
     },
     "57": {
       "draws": 0,
-      "games": 32,
+      "games": 33,
       "losses": 17,
-      "rating": 1483.92,
-      "wins": 15
+      "rating": 1495.26,
+      "wins": 16
     },
     "58": {
       "draws": 0,
@@ -3419,9 +3419,9 @@
     },
     "76": {
       "draws": 0,
-      "games": 22,
-      "losses": 12,
-      "rating": 1482.61,
+      "games": 23,
+      "losses": 13,
+      "rating": 1469.6,
       "wins": 10
     },
     "77": {
@@ -3545,9 +3545,9 @@
     },
     "92": {
       "draws": 0,
-      "games": 17,
-      "losses": 9,
-      "rating": 1482.55,
+      "games": 18,
+      "losses": 10,
+      "rating": 1469.99,
       "wins": 8
     },
     "93": {
