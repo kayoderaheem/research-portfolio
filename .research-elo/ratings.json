@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The required multi-omic measurements may not identify direct cooperation rather than feedback or assay-scaling artifacts.",
-      "next_test": "Fit interaction and additive models on single perturbations plus one held-out pair with matched chromatin and RNA readouts.",
-      "opponent": 92,
-      "outcome": "win",
-      "reason": "It has a sharper mechanistic anchor and an earlier perturbation-based decision test, whereas assay transport across fresh, frozen, and fixed tissue requires more difficult paired data and validation.",
-      "target": 98,
-      "timestamp": "2026-10-25T20:56:33.170939+00:00"
-    },
-    {
-      "main_risk": "Spatial features may add no information beyond target expression, composition, tumor burden, or specimen quality.",
-      "next_test": "Evaluate a locked stromal-obstruction and target-adjacency score in nested patient-level models against an external or held-out cohort.",
-      "opponent": 57,
-      "outcome": "loss",
-      "reason": "Patient-level spatial architecture has direct treatment-selection relevance and can be tested incrementally against strong composition and clinical baselines, while the chromatin project carries a larger multi-assay mechanistic burden.",
-      "target": 98,
-      "timestamp": "2026-10-25T20:56:33.170959+00:00"
-    },
-    {
-      "main_risk": "Sample size, treatment mixtures, and optional biomarker availability may be insufficient for stable treatment-interaction estimation.",
-      "next_test": "Lock a compact baseline-plus-early-response signature and perform site-held-out interaction, calibration, and learning-curve analyses.",
-      "opponent": 2,
-      "outcome": "loss",
-      "reason": "The randomized treatment comparison offers greater potential clinical value and a stronger causal anchor for transportable differential-benefit signatures than the highly demanding mechanistic virtual-cell study.",
-      "target": 98,
-      "timestamp": "2026-10-25T20:56:33.170968+00:00"
-    },
-    {
-      "main_risk": "Cell-state definitions and apparent composition gains may reflect dataset-specific annotation or batch structure.",
-      "next_test": "Blindly test target- and donor-held-out perturbations against compositional regression, expression-first, retrieval, and null baselines.",
-      "opponent": 39,
-      "outcome": "loss",
-      "reason": "Directly predicting compositional shifts is a broader and more testable technology problem with useful outcomes even when expression reconstruction fails, whereas the chromatin project depends on extensive coordinated assays and transfer across contexts.",
-      "target": 98,
-      "timestamp": "2026-10-25T20:56:33.170978+00:00"
-    },
-    {
-      "main_risk": "The proposed Schwann-cell-associated transition may be patient-specific or confounded by changing tumor composition and sampling.",
-      "next_test": "Use leave-one-patient-out analysis of pretreatment niche proximity versus a preregistered post-treatment transition score before investing in expanded spatial validation.",
-      "opponent": 67,
-      "outcome": "win",
-      "reason": "The chromatin project has a clearer early perturbational readout and more controllable experimental anchor; the neuroblastoma niche hypothesis depends on scarce longitudinal patient specimens and reproducibility of rare transitions.",
-      "target": 98,
-      "timestamp": "2026-10-25T20:56:33.170988+00:00"
-    },
-    {
       "main_risk": "The spatial tunnel states may not predict response beyond disease burden, clinical covariates, and sampling variation.",
       "next_test": "Apply a locked spatial classifier to pretreatment biopsies and compare calibrated patient-level prediction against clinical and composition-only baselines.",
       "opponent": 9,
@@ -2699,6 +2654,51 @@
       "reason": "Tarsal-tunnel validation has a more specific disease and decision anchor, clearer baseline comparisons, and a lower-cost early test. Stromal architecture for bispecific response has broader potential but depends on heterogeneous drugs and cohorts, stable spatial measurements, and transfer from tissue architecture to functional drug access.",
       "target": 131,
       "timestamp": "2026-11-13T19:49:46.223224+00:00"
+    },
+    {
+      "main_risk": "Comparable, adjudicated arrhythmic outcomes and sufficiently complete multimodal data may not exist across independent sites.",
+      "next_test": "Run the locked site-held-out ablation study comparing clinical-LVEF, CMR, genotype, and multimodal models at prespecified ICD thresholds.",
+      "opponent": 133,
+      "outcome": "win",
+      "reason": "The ICD-risk problem has clearer patient-level clinical value, stronger established baselines, and a more direct calibrated decision endpoint than photon-counting CT, whose incremental benefit may disappear after protocol matching or fail to change treatment decisions.",
+      "target": 132,
+      "timestamp": "2026-11-14T01:28:46.862762+00:00"
+    },
+    {
+      "main_risk": "Genotype and CMR may add no reproducible net benefit beyond clinical severity and LVEF after site and treatment adjustment.",
+      "next_test": "Evaluate the locked multimodal ablation models in at least two held-out sites with calibration and decision-curve analysis.",
+      "opponent": 134,
+      "outcome": "win",
+      "reason": "The ICD problem is better anchored to a consequential clinical decision and relies on more directly interpretable measurements, whereas gut-brain biomarkers face substantial exposure, assay, missingness, and cross-site confounding before any transportable value can be established.",
+      "target": 132,
+      "timestamp": "2026-11-14T01:28:46.862779+00:00"
+    },
+    {
+      "main_risk": "Cross-site outcome heterogeneity or missingness may make the ICD model impossible to transport reliably.",
+      "next_test": "Perform the prespecified retrospective, patient-level held-out ablation study and test incremental net benefit over the clinical-LVEF baseline.",
+      "opponent": 65,
+      "outcome": "win",
+      "reason": "The ICD project offers more credible near-term translational value, patient-level validation, and an actionable decision endpoint; the fibroblast project depends on a preclinical spatial transition being real, reversible, reproducible, and meaningful beyond marker changes.",
+      "target": 132,
+      "timestamp": "2026-11-14T01:28:46.862786+00:00"
+    },
+    {
+      "main_risk": "The apparent multimodal ICD signal may be driven by referral, ascertainment, or treatment-selection differences rather than biology.",
+      "next_test": "Run locked site-held-out clinical, CMR-only, genotype-only, and full-model comparisons with prespecified calibration and net-benefit thresholds.",
+      "opponent": 109,
+      "outcome": "win",
+      "reason": "The ICD problem has a narrower scientific anchor and clearer clinical use case, while genome-derived resistance markers span heterogeneous cancers, treatments, specimens, and endpoints and require several high-risk links from FFPE structural calls to treatment benefit.",
+      "target": 132,
+      "timestamp": "2026-11-14T01:28:46.862790+00:00"
+    },
+    {
+      "main_risk": "The required paired, adjudicated, multi-site DCM cohort with harmonized CMR, genotype, and arrhythmic follow-up may be unavailable or underpowered.",
+      "next_test": "Conduct the 10-week locked multimodal ablation study on independent sites before committing to prospective evaluation.",
+      "opponent": 114,
+      "outcome": "loss",
+      "reason": "The ICD project is more likely to produce a useful answer within six months through disciplined external validation; DOK3-CARD9 requires reliable human state measurement, therapy-induced transition, spatial independence from abundance, external replication, and functional perturbation.",
+      "target": 132,
+      "timestamp": "2026-11-14T01:28:46.862794+00:00"
     }
   ],
   "k_factor": 24,
@@ -2782,9 +2782,9 @@
     },
     "109": {
       "draws": 0,
-      "games": 15,
-      "losses": 8,
-      "rating": 1487.99,
+      "games": 16,
+      "losses": 9,
+      "rating": 1477.58,
       "wins": 7
     },
     "11": {
@@ -2824,10 +2824,10 @@
     },
     "114": {
       "draws": 0,
-      "games": 15,
+      "games": 16,
       "losses": 8,
-      "rating": 1487.98,
-      "wins": 7
+      "rating": 1501.93,
+      "wins": 8
     },
     "115": {
       "draws": 0,
@@ -2961,6 +2961,27 @@
       "losses": 1,
       "rating": 1555.83,
       "wins": 6
+    },
+    "132": {
+      "draws": 0,
+      "games": 5,
+      "losses": 1,
+      "rating": 1530.89,
+      "wins": 4
+    },
+    "133": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "134": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
     },
     "15": {
       "draws": 1,
@@ -3335,9 +3356,9 @@
     },
     "65": {
       "draws": 0,
-      "games": 25,
-      "losses": 13,
-      "rating": 1489.96,
+      "games": 26,
+      "losses": 14,
+      "rating": 1479.12,
       "wins": 12
     },
     "66": {
