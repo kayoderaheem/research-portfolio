@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "FAM230F may be assay-sensitive or mainly reflect tumor burden, making its apparent gain non-transportable.",
-      "next_test": "Run blinded multi-site replicate testing and evaluate the locked marker against ultrasound-plus-AFP at a prespecified threshold.",
-      "opponent": 24,
-      "outcome": "loss",
-      "reason": "HCC triage has greater potential clinical impact and a clear external-validation path, while preserving useful negative outcomes if cfDNA adds no value.",
-      "target": 70,
-      "timestamp": "2026-10-26T13:13:56.814958+00:00"
-    },
-    {
-      "main_risk": "CTA features may encode site-specific acquisition or preprocessing artifacts rather than portable biological information.",
-      "next_test": "Evaluate locked clinical-only and CTA-augmented models on an independent hospital cohort with patient-level leakage control and calibration analysis.",
-      "opponent": 42,
-      "outcome": "win",
-      "reason": "EVAR offers a bounded, decision-relevant transportability question with an early external-site test; the myeloma project depends on a longer chain from engineered-model signals to clinically transferable resistance biology.",
-      "target": 70,
-      "timestamp": "2026-10-26T13:13:56.814977+00:00"
-    },
-    {
-      "main_risk": "Imaging-derived incremental value may disappear after robust external calibration and simple imaging baselines.",
-      "next_test": "Compare locked CTA augmentation with clinical and conventional radiologic baselines in an independent hospital cohort using decision-curve net benefit.",
-      "opponent": 48,
-      "outcome": "win",
-      "reason": "EVAR has a clearer clinical decision, stronger near-term data structure, and a more credible six-month endpoint; cross-assay drug ranking requires difficult harmonization and convincing links to treatment outcomes.",
-      "target": 70,
-      "timestamp": "2026-10-26T13:13:56.814985+00:00"
-    },
-    {
-      "main_risk": "The EVAR problem may yield only a modest, site-specific gain with limited broader scientific generality.",
-      "next_test": "Lock preprocessing and thresholds, then test CTA incremental value against clinical and simple imaging baselines in an external cohort.",
-      "opponent": 75,
-      "outcome": "win",
-      "reason": "EVAR is more ready for a decisive external validation, whereas MRI-proteomic validation faces reconstruction, treatment-selection, endpoint, and assay-transfer risks that could consume the project before establishing a reliable signal.",
-      "target": 70,
-      "timestamp": "2026-10-26T13:13:56.814992+00:00"
-    },
-    {
-      "main_risk": "CTA-derived value may not change management even if statistical performance improves.",
-      "next_test": "Measure external net benefit and calibration across prespecified hospitalization thresholds and sex strata against a locked clinical baseline.",
-      "opponent": 69,
-      "outcome": "win",
-      "reason": "EVAR is narrower but has a fixed decision anchor, compatible outcome definition, and cheaper early branch. The pan-tumor HER2 proposal combines heterogeneous diseases, assays, regimens, and treatment-selection biases, weakening causal and transportable interpretation.",
-      "target": 70,
-      "timestamp": "2026-10-26T13:13:56.814999+00:00"
-    },
-    {
       "main_risk": "Issue 61 may not add information beyond IGF2BP3, MHC-I, CD8 abundance, and inflamed-tumor composition.",
       "next_test": "Run the preregistered multiplex-imaging pilot with patient-level held-out validation against the strongest non-spatial baselines.",
       "opponent": 89,
@@ -2699,6 +2654,51 @@
       "reason": "The fibrosis project is less clinically impactful but has an accessible dataset, an eight-week animal-level test, controlled follow-up, and informative outcomes even if the spatial hypothesis fails; photon-counting CT requires substantially broader clinical infrastructure.",
       "target": 133,
       "timestamp": "2026-11-14T18:13:40.619890+00:00"
+    },
+    {
+      "main_risk": "The protrusion measurement may not be reliable or transportable across imaging protocols.",
+      "next_test": "Blind duplicate protrusion measurements and apply the locked score to an independent patient-level cohort against laboratory-only and established-score baselines.",
+      "opponent": 136,
+      "outcome": "win",
+      "reason": "External validation of a focused morphology-laboratory score has a clearer clinical anchor, stronger evidence readiness, and a cheaper decisive test than retinal imaging, which depends on heterogeneous modalities, incident-outcome follow-up, and uncertain incremental value over established risk models.",
+      "target": 135,
+      "timestamp": "2026-11-14T22:32:31.088924+00:00"
+    },
+    {
+      "main_risk": "The morphology signal may fail calibration or add no decision value beyond simple laboratory and severity scores.",
+      "next_test": "Run blinded measurement reliability testing and locked external validation with calibration and decision-curve comparisons.",
+      "opponent": 137,
+      "outcome": "win",
+      "reason": "The ruptured-hepatocellular-carcinoma problem offers a direct external-validation path with near-term clinical relevance and clearer endpoints, whereas autonomic monitoring requires reliable postoperative measurements, extensive confounding control, and a less established rehabilitation decision pathway.",
+      "target": 135,
+      "timestamp": "2026-11-14T22:32:31.088976+00:00"
+    },
+    {
+      "main_risk": "The target-engagement profile may not generalize across lineage and co-mutation contexts or explain viability response.",
+      "next_test": "Measure engagement, pathway suppression, and viability in a small blinded panel of mutation-defined models before undertaking resistance evolution.",
+      "opponent": 55,
+      "outcome": "win",
+      "reason": "Mutation-specific target engagement could have broad mechanistic impact, but it requires several linked assays, causal interpretation across genetic backgrounds, and lengthy resistance experiments. The HCC project has a more bounded question, available clinical endpoint, and earlier stop-or-pivot evidence.",
+      "target": 135,
+      "timestamp": "2026-11-14T22:32:31.088986+00:00"
+    },
+    {
+      "main_risk": "The spatial tunnel classifier may add no calibrated predictive value beyond tunnel burden, histology, and clinical covariates.",
+      "next_test": "Apply a locked spatial classifier to a patient-level pretreatment cohort receiving standardized therapy and compare it with clinical and composition-only baselines.",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "External validation of the HCC score is more immediately testable and clinically actionable. The hidradenitis project has promising biological specificity but depends on reproducible spatial states, adequate pretreatment cohorts, response heterogeneity, and evidence that inferred pathway states are actionable rather than correlational.",
+      "target": 135,
+      "timestamp": "2026-11-14T22:32:31.088998+00:00"
+    },
+    {
+      "main_risk": "The HCC morphology measurement or score may not transport across institutions and imaging workflows.",
+      "next_test": "Perform blinded duplicate readings followed by locked external validation against laboratory-only, MELD, and Child-Pugh baselines.",
+      "opponent": 65,
+      "outcome": "win",
+      "reason": "The HCC problem addresses a credible emergency precision-medicine need and can be resolved through independent patient-cohort validation. The fibrosis project is dependent on animal-level replication, spatial-niche reproducibility, and uncertain translation from bazedoxifene-treated murine lesions to human disease.",
+      "target": 135,
+      "timestamp": "2026-11-14T22:32:31.089005+00:00"
     }
   ],
   "k_factor": 24,
@@ -2982,6 +2982,27 @@
       "losses": 2,
       "rating": 1522.87,
       "wins": 4
+    },
+    "135": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1555.79,
+      "wins": 5
+    },
+    "136": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "137": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
     },
     "15": {
       "draws": 1,
@@ -3279,9 +3300,9 @@
     },
     "55": {
       "draws": 0,
-      "games": 24,
-      "losses": 12,
-      "rating": 1500.06,
+      "games": 25,
+      "losses": 13,
+      "rating": 1488.87,
       "wins": 12
     },
     "56": {
@@ -3356,9 +3377,9 @@
     },
     "65": {
       "draws": 0,
-      "games": 27,
-      "losses": 14,
-      "rating": 1492.68,
+      "games": 28,
+      "losses": 15,
+      "rating": 1482.49,
       "wins": 13
     },
     "66": {
@@ -3545,9 +3566,9 @@
     },
     "9": {
       "draws": 1,
-      "games": 41,
-      "losses": 20,
-      "rating": 1500.58,
+      "games": 42,
+      "losses": 21,
+      "rating": 1489.76,
       "wins": 20
     },
     "90": {
