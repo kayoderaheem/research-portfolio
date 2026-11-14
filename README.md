@@ -153,16 +153,16 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | 48 | [#85 — [Idea] Particle-fraction-specific blood RNA value for clinically defined Alzheimer’s disease triage](https://github.com/kayoderaheem/research-portfolio/issues/85) | **1528** | 19 | 11W / 0D / 8L |
 | 49 | [#91 — [Idea] Kinetic identifiability of acute transcriptional perturbations in virtual cells](https://github.com/kayoderaheem/research-portfolio/issues/91) | **1528** | 20 | 11W / 0D / 9L |
 | 50 | [#93 — [Idea] Mechanism-identifiable virtual cells for bioenergetic perturbations](https://github.com/kayoderaheem/research-portfolio/issues/93) | **1527** | 24 | 13W / 0D / 11L |
-| 51 | [#123 — [Idea] Decision-value decomposition of radiomics and EBV DNA for adaptive nasopharyngeal radiotherapy](https://github.com/kayoderaheem/research-portfolio/issues/123) | **1524** | 6 | 4W / 0D / 2L |
-| 52 | [#66 — [Idea] Architecture-aware prediction of treatment response in glioblastoma beyond cellular composition](https://github.com/kayoderaheem/research-portfolio/issues/66) | **1523** | 24 | 13W / 0D / 11L |
-| 53 | [#117 — [Idea] Reproducible treatment-induced state transitions after epigenetic therapy in gastric cancer](https://github.com/kayoderaheem/research-portfolio/issues/117) | **1523** | 12 | 7W / 0D / 5L |
-| 54 | [#134 — [Idea] External decision validation of gut-brain multimodal biomarkers for post-stroke cognitive impairment](https://github.com/kayoderaheem/research-portfolio/issues/134) | **1523** | 6 | 4W / 0D / 2L |
-| 55 | [#9 — [Idea] Spatially resolved IL-17 and retinoid states predicting tunnel-directed therapy response in hidradenitis suppurativa](https://github.com/kayoderaheem/research-portfolio/issues/9) | **1513** | 40 | 20W / 1D / 19L |
-| 56 | [#55 — [Idea] Mutation-specific target engagement as a separator of intrinsic sensitivity and resistance](https://github.com/kayoderaheem/research-portfolio/issues/55) | **1512** | 23 | 12W / 0D / 11L |
-| 57 | [#122 — [Idea] Perivascular immune-state transitions during chemotherapy response](https://github.com/kayoderaheem/research-portfolio/issues/122) | **1512** | 13 | 7W / 0D / 6L |
-| 58 | [#114 — [Idea] DOK3-CARD9 macrophage-state transitions as reproducible determinants of PD-1 blockade response](https://github.com/kayoderaheem/research-portfolio/issues/114) | **1502** | 16 | 8W / 0D / 8L |
-| 59 | [#133 — [Idea] Decision-value decomposition of photon-counting CT and MRI for molecularly informed colorectal liver metastasis management](https://github.com/kayoderaheem/research-portfolio/issues/133) | **1500** | 2 | 1W / 0D / 1L |
-| 60 | [#65 — [Idea] Spatial fibroblast-state transitions as predictors of bazedoxifene response in cutaneous fibrosis](https://github.com/kayoderaheem/research-portfolio/issues/65) | **1479** | 26 | 12W / 0D / 14L |
+| 51 | [#122 — [Idea] Perivascular immune-state transitions during chemotherapy response](https://github.com/kayoderaheem/research-portfolio/issues/122) | **1524** | 14 | 8W / 0D / 6L |
+| 52 | [#123 — [Idea] Decision-value decomposition of radiomics and EBV DNA for adaptive nasopharyngeal radiotherapy](https://github.com/kayoderaheem/research-portfolio/issues/123) | **1524** | 6 | 4W / 0D / 2L |
+| 53 | [#66 — [Idea] Architecture-aware prediction of treatment response in glioblastoma beyond cellular composition](https://github.com/kayoderaheem/research-portfolio/issues/66) | **1523** | 24 | 13W / 0D / 11L |
+| 54 | [#117 — [Idea] Reproducible treatment-induced state transitions after epigenetic therapy in gastric cancer](https://github.com/kayoderaheem/research-portfolio/issues/117) | **1523** | 12 | 7W / 0D / 5L |
+| 55 | [#134 — [Idea] External decision validation of gut-brain multimodal biomarkers for post-stroke cognitive impairment](https://github.com/kayoderaheem/research-portfolio/issues/134) | **1523** | 6 | 4W / 0D / 2L |
+| 56 | [#133 — [Idea] Decision-value decomposition of photon-counting CT and MRI for molecularly informed colorectal liver metastasis management](https://github.com/kayoderaheem/research-portfolio/issues/133) | **1511** | 7 | 4W / 0D / 3L |
+| 57 | [#9 — [Idea] Spatially resolved IL-17 and retinoid states predicting tunnel-directed therapy response in hidradenitis suppurativa](https://github.com/kayoderaheem/research-portfolio/issues/9) | **1501** | 41 | 20W / 1D / 20L |
+| 58 | [#55 — [Idea] Mutation-specific target engagement as a separator of intrinsic sensitivity and resistance](https://github.com/kayoderaheem/research-portfolio/issues/55) | **1500** | 24 | 12W / 0D / 12L |
+| 59 | [#65 — [Idea] Spatial fibroblast-state transitions as predictors of bazedoxifene response in cutaneous fibrosis](https://github.com/kayoderaheem/research-portfolio/issues/65) | **1493** | 27 | 13W / 0D / 14L |
+| 60 | [#114 — [Idea] DOK3-CARD9 macrophage-state transitions as reproducible determinants of PD-1 blockade response](https://github.com/kayoderaheem/research-portfolio/issues/114) | **1490** | 17 | 8W / 0D / 9L |
 | 61 | [#7 — [Idea] Reproducible adaptive cell-state transitions after KRAS pathway blockade](https://github.com/kayoderaheem/research-portfolio/issues/7) | **1479** | 42 | 20W / 0D / 22L |
 | 62 | [#130 — [Idea] Congestion-aware multimodal prediction of cardiovascular drug exposure and response](https://github.com/kayoderaheem/research-portfolio/issues/130) | **1479** | 6 | 2W / 0D / 4L |
 | 63 | [#18 — [Idea] Spatially resolved metabolic-inflammatory routes to gemcitabine resistance in cholangiocarcinoma](https://github.com/kayoderaheem/research-portfolio/issues/18) | **1478** | 35 | 16W / 1D / 18L |
@@ -235,7 +235,7 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | 130 | [#12 — [Idea] Antigen-presentation escape neighborhoods predicting checkpoint response in melanoma with HIV](https://github.com/kayoderaheem/research-portfolio/issues/12) | **1367** | 16 | 2W / 0D / 14L |
 | 131 | [#95 — [Idea] Evolution-aware virtual cells for unseen therapy resistance states](https://github.com/kayoderaheem/research-portfolio/issues/95) | **1365** | 12 | 0W / 0D / 12L |
 
-_Last synchronized: 2026-11-14 10:36 UTC._
+_Last synchronized: 2026-11-14 18:13 UTC._
 <!-- RESEARCH_ELO_END -->
 
 ## Add ideas manually

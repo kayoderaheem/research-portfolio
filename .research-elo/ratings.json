@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The measurements may not identify paracrine effects separately from survival, target depletion, stress, and composition changes.",
-      "next_test": "Run paired mono-culture, conditioned-medium, transwell, contact, and target-depletion experiments with one engineered design and a held-out target burden.",
-      "opponent": 72,
-      "outcome": "win",
-      "reason": "Astrocyte co-culture interventions offer a more direct, controlled test of causal identifiability with informative outcomes even if the virtual-cell model fails; the clinical biomarker requires scarce treatment-linked specimens, assay reproducibility, incremental value, and external calibration.",
-      "target": 94,
-      "timestamp": "2026-10-26T04:56:00.571286+00:00"
-    },
-    {
-      "main_risk": "Recovery may reflect selective survival or nonspecific stress adaptation rather than reversible chromatin history.",
-      "next_test": "Prospectively predict unseen perturbation and restoration schedules using live-cell lineage tracking, cohesin imaging, and re-entry assays.",
-      "opponent": 41,
-      "outcome": "loss",
-      "reason": "The quiescent-yeast problem has a clearer dynamic scientific anchor, more tractable lineage-resolved experiments, and a cheaper falsification path than the highly multimodal mammalian co-culture project.",
-      "target": 94,
-      "timestamp": "2026-10-26T04:56:00.571309+00:00"
-    },
-    {
-      "main_risk": "Persistent endothelial states may be driven by injury or composition rather than AT1 mechanosignaling.",
-      "next_test": "Perturb AT1 mechanosensing during restriction and test endothelial persistence, injury, viability, and recovery across independent preparations.",
-      "opponent": 97,
-      "outcome": "loss",
-      "reason": "The alveolar project has a focused two-cell causal mechanism and an eight-week test that can separate mechanotransduction from injury, while the astrocyte project requires more interventions, modalities, and extrapolation assumptions.",
-      "target": 94,
-      "timestamp": "2026-10-26T04:56:00.571321+00:00"
-    },
-    {
-      "main_risk": "Spatial IL-15 access may add no predictive information beyond abundance, tumor burden, delivery, or lesion differences.",
-      "next_test": "Measure pretreatment IL-15/IL-15Rα access and test patient-level prediction of an early functional response beyond composition and clinical covariates.",
-      "opponent": 68,
-      "outcome": "win",
-      "reason": "The astrocyte problem is experimentally controllable and can yield mechanistic insight without requiring rare treated-patient cohorts; the IL-15 biomarker depends on difficult spatial measurement, therapy-linked tissue, and patient-level validation.",
-      "target": 94,
-      "timestamp": "2026-10-26T04:56:00.571328+00:00"
-    },
-    {
-      "main_risk": "Direct, paracrine, target-depletion, and composition effects may remain non-identifiable even with paired co-culture conditions.",
-      "next_test": "Prospectively predict a held-out target burden after matched mono-culture, conditioned-medium, transwell, contact, and target-depletion experiments.",
-      "opponent": 59,
-      "outcome": "loss",
-      "reason": "The astrocyte project has a tighter causal intervention design and a more affordable early branch than the T-cell access project, which requires paired clinical tissues, reliable product-cell identification, spatial registration, and external panel transportability.",
-      "target": 94,
-      "timestamp": "2026-10-26T04:56:00.571339+00:00"
-    },
-    {
       "main_risk": "FAM230F may be assay-sensitive or mainly reflect tumor burden, making its apparent gain non-transportable.",
       "next_test": "Run blinded multi-site replicate testing and evaluate the locked marker against ultrasound-plus-AFP at a prespecified threshold.",
       "opponent": 24,
@@ -2699,6 +2654,51 @@
       "reason": "External validation directly tests whether a biomarker changes a clinically relevant decision and has informative failure branches. Virtual-cell identifiability requires unusually complete perturbation measurements, reliable causal separation from feedback and cell state, and successful extrapolation to unseen combinations.",
       "target": 134,
       "timestamp": "2026-11-14T10:36:47.209645+00:00"
+    },
+    {
+      "main_risk": "Its apparent benefit may disappear after protocol matching and MRI-independent adjudication.",
+      "next_test": "Run the matched multi-reader treatment-planning study comparing CT, MRI, photon-counting CT, and combinations.",
+      "opponent": 114,
+      "outcome": "win",
+      "reason": "Photon-counting CT has a clearer patient-level decision endpoint, stronger immediate clinical relevance, and a comparatively decisive blinded reader study.",
+      "target": 133,
+      "timestamp": "2026-11-14T18:13:40.619839+00:00"
+    },
+    {
+      "main_risk": "Photon-counting CT may improve lesion detection without improving treatment decisions.",
+      "next_test": "Conduct the blinded patient-level reader study with matched protocols and predefined management scenarios.",
+      "opponent": 122,
+      "outcome": "loss",
+      "reason": "The imaging problem has a more established clinical pathway and an earlier, directly interpretable decision test, whereas the chemotherapy spatial mechanism is largely extrapolated from a model.",
+      "target": 133,
+      "timestamp": "2026-11-14T18:13:40.619858+00:00"
+    },
+    {
+      "main_risk": "Target engagement may not explain response once lineage, exposure, and co-mutation context are controlled.",
+      "next_test": "Measure matched target engagement, pathway suppression, and viability across a focused mutation-defined model panel.",
+      "opponent": 55,
+      "outcome": "win",
+      "reason": "Photon-counting CT offers a focused clinical question with a near-term decision readout; the target-engagement project requires coordinated biochemical, cellular, resistance, and transfer-validity evidence with longer feedback cycles.",
+      "target": 133,
+      "timestamp": "2026-11-14T18:13:40.619868+00:00"
+    },
+    {
+      "main_risk": "The photon-counting advantage may be protocol- or reader-dependent and clinically redundant with MRI.",
+      "next_test": "Compare modalities in a blinded, matched-acquisition patient-level treatment-planning study.",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "The imaging project has a concrete treatment-selection endpoint, stronger validation structure, and a cheaper discriminating study than the speculative tunnel-state response framework.",
+      "target": 133,
+      "timestamp": "2026-11-14T18:13:40.619880+00:00"
+    },
+    {
+      "main_risk": "The murine bazedoxifene spatial response may be model-specific and not translate beyond the preclinical setting.",
+      "next_test": "Perform animal-level reanalysis and prospective replication of the strongest pretreatment spatial score with collagen architecture and blinded histology.",
+      "opponent": 65,
+      "outcome": "loss",
+      "reason": "The fibrosis project is less clinically impactful but has an accessible dataset, an eight-week animal-level test, controlled follow-up, and informative outcomes even if the spatial hypothesis fails; photon-counting CT requires substantially broader clinical infrastructure.",
+      "target": 133,
+      "timestamp": "2026-11-14T18:13:40.619890+00:00"
     }
   ],
   "k_factor": 24,
@@ -2824,9 +2824,9 @@
     },
     "114": {
       "draws": 0,
-      "games": 16,
-      "losses": 8,
-      "rating": 1501.93,
+      "games": 17,
+      "losses": 9,
+      "rating": 1489.86,
       "wins": 8
     },
     "115": {
@@ -2887,10 +2887,10 @@
     },
     "122": {
       "draws": 0,
-      "games": 13,
+      "games": 14,
       "losses": 6,
-      "rating": 1512.19,
-      "wins": 7
+      "rating": 1524.19,
+      "wins": 8
     },
     "123": {
       "draws": 0,
@@ -2971,10 +2971,10 @@
     },
     "133": {
       "draws": 0,
-      "games": 2,
-      "losses": 1,
-      "rating": 1500.01,
-      "wins": 1
+      "games": 7,
+      "losses": 3,
+      "rating": 1510.95,
+      "wins": 4
     },
     "134": {
       "draws": 0,
@@ -3279,9 +3279,9 @@
     },
     "55": {
       "draws": 0,
-      "games": 23,
-      "losses": 11,
-      "rating": 1512.49,
+      "games": 24,
+      "losses": 12,
+      "rating": 1500.06,
       "wins": 12
     },
     "56": {
@@ -3356,10 +3356,10 @@
     },
     "65": {
       "draws": 0,
-      "games": 26,
+      "games": 27,
       "losses": 14,
-      "rating": 1479.12,
-      "wins": 12
+      "rating": 1492.68,
+      "wins": 13
     },
     "66": {
       "draws": 0,
@@ -3545,9 +3545,9 @@
     },
     "9": {
       "draws": 1,
-      "games": 40,
-      "losses": 19,
-      "rating": 1512.58,
+      "games": 41,
+      "losses": 20,
+      "rating": 1500.58,
       "wins": 20
     },
     "90": {
