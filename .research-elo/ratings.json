@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The spatial tunnel states may not predict response beyond disease burden, clinical covariates, and sampling variation.",
-      "next_test": "Apply a locked spatial classifier to pretreatment biopsies and compare calibrated patient-level prediction against clinical and composition-only baselines.",
-      "opponent": 9,
-      "outcome": "loss",
-      "reason": "The hidradenitis problem has clearer near-term clinical value, a more focused biomarker question, and a cheaper patient-level validation path than the multi-assay causal chromatin program.",
-      "target": 88,
-      "timestamp": "2026-10-25T23:19:40.952173+00:00"
-    },
-    {
-      "main_risk": "Apparent reversibility may reflect selection or generic stress rather than a causal FGF-induced state transition.",
-      "next_test": "Train on FGF1/FGF2 trajectories and prospectively predict a held-out dose and washout trajectory in an independent preparation.",
-      "opponent": 96,
-      "outcome": "loss",
-      "reason": "The oligodendrocyte problem has a tighter biological anchor, measurable reversible phenotypes, and a feasible early test with useful outcomes even if multimodal modeling fails.",
-      "target": 88,
-      "timestamp": "2026-10-25T23:19:40.952194+00:00"
-    },
-    {
-      "main_risk": "The ERK/Fra-1 state may be generic treatment injury or selection rather than a conserved fibroblast-mediated spatial transition.",
-      "next_test": "Run a small matched longitudinal ex vivo study with untreated controls, spatial distance annotation, live ERK/Fra-1 imaging, and residual-viability measurement.",
-      "opponent": 62,
-      "outcome": "loss",
-      "reason": "The tumor–lung interface problem offers a rapid, mechanistically informative reproducibility test with direct resistance relevance, whereas the chromatin project requires more linked high-risk assumptions and longer readouts.",
-      "target": 88,
-      "timestamp": "2026-10-25T23:19:40.952204+00:00"
-    },
-    {
-      "main_risk": "Acute H2Aub depletion may cause nonspecific toxicity or context-specific chromatin collapse rather than a transferable regulatory hierarchy.",
-      "next_test": "Hold out H2Aub depletion in one lineage and test early direct-target direction and timing against expression-only and additive-mark baselines with rescue controls.",
-      "opponent": 38,
-      "outcome": "win",
-      "reason": "The chromatin problem has a more specific causal anchor and a direct prospective perturbation test; the cross-species project depends on difficult decomposition, orthology, baseline alignment, and broad context coverage before its claims are identifiable.",
-      "target": 88,
-      "timestamp": "2026-10-25T23:19:40.952214+00:00"
-    },
-    {
-      "main_risk": "The chromatin hierarchy may fail to generalize beyond its discovery developmental context or may be non-identifiable from the proposed measurements.",
-      "next_test": "Prospectively test an unseen developmental lineage after acute H2Aub depletion, using preregistered direct targets, early time points, and matched rescue and stress controls.",
-      "opponent": 53,
-      "outcome": "win",
-      "reason": "The chromatin problem is more scientifically anchored and mechanistically informative, while the bladder heterogeneity project faces major sampling, assay reproducibility, cohort availability, and decision-action uncertainties before clinical value can be established.",
-      "target": 88,
-      "timestamp": "2026-10-25T23:19:40.952223+00:00"
-    },
-    {
       "main_risk": "The measurements may not identify paracrine effects separately from survival, target depletion, stress, and composition changes.",
       "next_test": "Run paired mono-culture, conditioned-medium, transwell, contact, and target-depletion experiments with one engineered design and a held-out target burden.",
       "opponent": 72,
@@ -2699,6 +2654,51 @@
       "reason": "The ICD project is more likely to produce a useful answer within six months through disciplined external validation; DOK3-CARD9 requires reliable human state measurement, therapy-induced transition, spatial independence from abundance, external replication, and functional perturbation.",
       "target": 132,
       "timestamp": "2026-11-14T01:28:46.862794+00:00"
+    },
+    {
+      "main_risk": "The apparent imaging benefit may disappear after acquisition protocols are matched and specificity is assessed against an independent reference.",
+      "next_test": "Run a blinded multi-reader patient-level study comparing CT, MRI, photon-counting CT, and combinations under matched protocols.",
+      "opponent": 133,
+      "outcome": "loss",
+      "reason": "Photon-counting CT has a clearer patient-level decision endpoint and a more direct near-term test of whether improved detection changes management; it also has useful negative value if redundant with MRI.",
+      "target": 134,
+      "timestamp": "2026-11-14T10:36:47.209601+00:00"
+    },
+    {
+      "main_risk": "The molecular panel may fail to add transportable value beyond stroke severity and routine clinical variables.",
+      "next_test": "Evaluate a locked compact panel against the clinical baseline in an independent site-held-out stroke cohort with calibration and net-benefit analysis.",
+      "opponent": 105,
+      "outcome": "win",
+      "reason": "External validation of gut-brain biomarkers offers a defined clinical decision question, strong baselines, an independent-cohort readout, and a credible path to stopping or narrowing the assay. The 3D myeloma project depends on difficult model construction, cross-laboratory reproducibility, and uncertain clinical correspondence.",
+      "target": 134,
+      "timestamp": "2026-11-14T10:36:47.209618+00:00"
+    },
+    {
+      "main_risk": "Spatial measurements may be unstable within patients or merely proxy for target density, tumor burden, or specimen quality.",
+      "next_test": "Fit locked composition-only and spatially augmented models in patient-level splits and test incremental calibration and decision value in an independent cohort.",
+      "opponent": 57,
+      "outcome": "win",
+      "reason": "The gut-brain project is better anchored to a prespecified patient-level decision and can separate useful prediction from exposure-confounded biology through external validation. Stromal architecture has substantial sampling, assay, and treatment-specific uncertainty before incremental value is established.",
+      "target": 134,
+      "timestamp": "2026-11-14T10:36:47.209628+00:00"
+    },
+    {
+      "main_risk": "The gut-brain signal may be driven by acute-care exposures, diet, antibiotics, or site-specific processing rather than transportable biology.",
+      "next_test": "Perform locked external-site evaluation with exposure covariates, clinical and modality-specific baselines, calibration, and net-benefit comparisons.",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "The gut-brain proposal has a more falsifiable validation problem and earlier clinical decision readout, whereas the gastric-cancer idea requires linked spatial association, persistence measurement, and causal niche perturbation, each with substantial biological and technical uncertainty.",
+      "target": 134,
+      "timestamp": "2026-11-14T10:36:47.209638+00:00"
+    },
+    {
+      "main_risk": "The required independent, harmonized multi-site molecular cohorts may not exist or may be too incomplete for a decisive validation.",
+      "next_test": "Use a locked panel in an independent cohort to test incremental net benefit and calibration over clinical variables before expanding multimodal data collection.",
+      "opponent": 98,
+      "outcome": "win",
+      "reason": "External validation directly tests whether a biomarker changes a clinically relevant decision and has informative failure branches. Virtual-cell identifiability requires unusually complete perturbation measurements, reliable causal separation from feedback and cell state, and successful extrapolation to unseen combinations.",
+      "target": 134,
+      "timestamp": "2026-11-14T10:36:47.209645+00:00"
     }
   ],
   "k_factor": 24,
@@ -2754,9 +2754,9 @@
     },
     "105": {
       "draws": 0,
-      "games": 19,
-      "losses": 10,
-      "rating": 1487.57,
+      "games": 20,
+      "losses": 11,
+      "rating": 1475.18,
       "wins": 9
     },
     "106": {
@@ -2971,23 +2971,23 @@
     },
     "133": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "rating": 1500.01,
+      "wins": 1
     },
     "134": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 2,
+      "rating": 1522.87,
+      "wins": 4
     },
     "15": {
       "draws": 1,
-      "games": 39,
-      "losses": 20,
-      "rating": 1481.51,
+      "games": 40,
+      "losses": 21,
+      "rating": 1470.17,
       "wins": 18
     },
     "17": {
@@ -3293,9 +3293,9 @@
     },
     "57": {
       "draws": 0,
-      "games": 34,
-      "losses": 18,
-      "rating": 1484.98,
+      "games": 35,
+      "losses": 19,
+      "rating": 1473.11,
       "wins": 16
     },
     "58": {
@@ -3608,9 +3608,9 @@
     },
     "98": {
       "draws": 0,
-      "games": 16,
-      "losses": 9,
-      "rating": 1479.3,
+      "games": 17,
+      "losses": 10,
+      "rating": 1468.43,
       "wins": 7
     },
     "99": {
