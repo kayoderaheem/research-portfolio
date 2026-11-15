@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Issue 61 may not add information beyond IGF2BP3, MHC-I, CD8 abundance, and inflamed-tumor composition.",
-      "next_test": "Run the preregistered multiplex-imaging pilot with patient-level held-out validation against the strongest non-spatial baselines.",
-      "opponent": 89,
-      "outcome": "win",
-      "reason": "Issue 61 has a clearer patient-level anchor, a plausible incremental biomarker question, and an early assay-and-prediction test that can produce a decision within six months. Issue 89 has broader technology potential but depends on identifying latent history beyond current state and transferring across schedules and neuronal contexts.",
-      "target": 61,
-      "timestamp": "2026-10-26T20:34:07.902737+00:00"
-    },
-    {
-      "main_risk": "The apparent cGAS–STING/fibrosis spatial signal may be confounded by tumor burden, liver disease, etiology, or tissue quality rather than treatment-relevant topology.",
-      "next_test": "Analyze a locked held-out pilot of pretreatment HCC specimens, comparing topology against clinical, composition-only, and randomized-topology baselines with calibration assessment.",
-      "opponent": 60,
-      "outcome": "loss",
-      "reason": "Issue 60 has a stronger stated competitive position because it is anchored to a prospective HCC treatment setting and directly tests a clinically consequential TACE–checkpoint response problem. Its mechanism also supports useful outcomes even if topology is not predictive, whereas Issue 61 depends more heavily on transportability of a specific IGF2BP3-centered biomarker.",
-      "target": 61,
-      "timestamp": "2026-10-26T20:34:07.902758+00:00"
-    },
-    {
-      "main_risk": "Issue 61's spatial interface may be incidental adjacency or a surrogate for general immune inflammation rather than effective antigen-presentation opportunity.",
-      "next_test": "Test reproducibility and incremental patient-level prediction in a small multiplex-imaging cohort before investing in external validation.",
-      "opponent": 93,
-      "outcome": "win",
-      "reason": "Issue 61 offers a more tractable, clinically interpretable six-month decision with a concrete early assay test and flexible measurement choices. Issue 93 has potentially reusable mechanistic value but requires several difficult causal-identification assumptions and matched metabolite, membrane, translation, rescue, and cross-context data.",
-      "target": 61,
-      "timestamp": "2026-10-26T20:34:07.902766+00:00"
-    },
-    {
-      "main_risk": "The IGF2BP3/NLRC5/MHC-I spatial feature may fail to transport across TNBC cohorts or assay platforms.",
-      "next_test": "Lock the spatial feature in a pilot and compare it with expression, CD8 composition, bulk signatures, and randomized spatial-label controls using patient-level held-out prediction.",
-      "opponent": 66,
-      "outcome": "win",
-      "reason": "Issue 61 is more scientifically anchored by a specific tumor-intrinsic immune-competence program and a clinically meaningful checkpoint-response endpoint, while retaining flexibility in assay and definition. Issue 66 is a valuable transportability framework but is broader, more method-led, and faces substantial endpoint, site, and architecture instability risks.",
-      "target": 61,
-      "timestamp": "2026-10-26T20:34:07.902774+00:00"
-    },
-    {
-      "main_risk": "Issue 61 may show no reproducible predictive value beyond tumor-intrinsic expression and immune-cell abundance.",
-      "next_test": "Perform a preregistered multiplex-imaging pilot with replicate-section reproducibility and held-out incremental prediction over non-spatial baselines.",
-      "opponent": 87,
-      "outcome": "win",
-      "reason": "Issue 61 has a clearer biological anchor, credible precision-medicine relevance, and a cheaper early branch point. Issue 87 could yield a broadly useful spatial virtual-cell capability, but separating localization from abundance and composition under unseen perturbations and contexts is a high-risk identifiability problem requiring substantial new data.",
-      "target": 61,
-      "timestamp": "2026-10-26T20:34:07.902780+00:00"
-    },
-    {
       "main_risk": "Spatial IL-15 measurements may not reflect functional cytokine access or predict response beyond innate-cell abundance.",
       "next_test": "Test pretreatment IL-15/IL-15Rα spatial features against early on-treatment innate-cell function using patient-level validation.",
       "opponent": 68,
@@ -2699,6 +2654,51 @@
       "reason": "The HCC problem addresses a credible emergency precision-medicine need and can be resolved through independent patient-cohort validation. The fibrosis project is dependent on animal-level replication, spatial-niche reproducibility, and uncertain translation from bazedoxifene-treated murine lesions to human disease.",
       "target": 135,
       "timestamp": "2026-11-14T22:32:31.089005+00:00"
+    },
+    {
+      "main_risk": "Incident cardiovascular outcomes may be too sparse or confounded by site, imaging quality, and population differences to demonstrate reproducible incremental value.",
+      "next_test": "Compare locked clinical-only, fundus-only, OCT/OCTA-only, and combined models in an independent patient-level held-out cohort, emphasizing calibration and net benefit.",
+      "opponent": 136,
+      "outcome": "loss",
+      "reason": "Retinal imaging has broader potential prevention impact and a strong clinical baseline, with patient-level external validation and decision-curve testing explicitly defined.",
+      "target": 137,
+      "timestamp": "2026-11-15T06:44:08.714919+00:00"
+    },
+    {
+      "main_risk": "Target engagement may not explain response once lineage, exposure, co-mutations, and downstream bypass are accounted for, while resistance mechanisms require a long readout.",
+      "next_test": "Run a focused, blinded panel of mutation-defined models measuring engagement, pathway suppression, and viability under matched exposure, with genetic-background-held-out evaluation.",
+      "opponent": 55,
+      "outcome": "loss",
+      "reason": "Mutation-specific target engagement offers a more generalizable mechanistic and precision-medicine contribution, with orthogonal biochemical, pathway, viability, and resistance readouts and useful outcomes if the favored mechanism fails.",
+      "target": 137,
+      "timestamp": "2026-11-15T06:44:08.714937+00:00"
+    },
+    {
+      "main_risk": "Autonomic measurements may be poorly repeatable or primarily encode medication, rhythm, surgery, pain, or care-intensity confounding.",
+      "next_test": "Assess repeatability, missingness, and incremental held-out calibration and net benefit beyond standard postoperative clinical and functional variables.",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "Autonomic monitoring has a clearer decision-oriented anchor, more direct clinical relevance, and a cheaper early test; the hidradenitis proposal depends on reproducible spatial states, heterogeneous treatment, and mechanistic actionability.",
+      "target": 137,
+      "timestamp": "2026-11-15T06:44:08.714946+00:00"
+    },
+    {
+      "main_risk": "The apparent transition may simply reflect macrophage abundance, tumor burden, interferon exposure, or sampling rather than an independent causal state.",
+      "next_test": "Profile paired baseline and early on-treatment biopsies in a blinded patient cohort and test whether a locked transition score predicts response beyond composition and clinical baselines.",
+      "opponent": 114,
+      "outcome": "win",
+      "reason": "DOK3-CARD9 macrophage transitions could reveal a reversible, treatment-linked resistance mechanism with substantial therapeutic leverage and orthogonal spatial, longitudinal, and perturbation validation.",
+      "target": 137,
+      "timestamp": "2026-11-15T06:44:08.714953+00:00"
+    },
+    {
+      "main_risk": "Autonomic signal may fail reliability or add no decision value beyond standard postoperative assessment.",
+      "next_test": "Measure repeatability and incremental patient-level decision value of autonomic indices in a held-out postoperative cohort using prespecified rehabilitation thresholds.",
+      "opponent": 65,
+      "outcome": "win",
+      "reason": "Autonomic recovery monitoring offers a more clinically consequential and transferable decision problem, whereas the fibrosis proposal is anchored to a murine model and a single drug with uncertain human relevance.",
+      "target": 137,
+      "timestamp": "2026-11-15T06:44:08.714962+00:00"
     }
   ],
   "k_factor": 24,
@@ -2824,9 +2824,9 @@
     },
     "114": {
       "draws": 0,
-      "games": 17,
-      "losses": 9,
-      "rating": 1489.86,
+      "games": 18,
+      "losses": 10,
+      "rating": 1477.44,
       "wins": 8
     },
     "115": {
@@ -2992,17 +2992,17 @@
     },
     "136": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "rating": 1500.01,
+      "wins": 1
     },
     "137": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 3,
+      "rating": 1501.85,
+      "wins": 3
     },
     "15": {
       "draws": 1,
@@ -3300,10 +3300,10 @@
     },
     "55": {
       "draws": 0,
-      "games": 25,
+      "games": 26,
       "losses": 13,
-      "rating": 1488.87,
-      "wins": 12
+      "rating": 1500.44,
+      "wins": 13
     },
     "56": {
       "draws": 0,
@@ -3377,9 +3377,9 @@
     },
     "65": {
       "draws": 0,
-      "games": 28,
-      "losses": 15,
-      "rating": 1482.49,
+      "games": 29,
+      "losses": 16,
+      "rating": 1470.75,
       "wins": 13
     },
     "66": {
@@ -3566,9 +3566,9 @@
     },
     "9": {
       "draws": 1,
-      "games": 42,
-      "losses": 21,
-      "rating": 1489.76,
+      "games": 43,
+      "losses": 22,
+      "rating": 1476.9,
       "wins": 20
     },
     "90": {
