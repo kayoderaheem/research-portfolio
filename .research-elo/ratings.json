@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "BIS below 40 may not be sufficiently actionable to justify an early-warning intervention.",
-      "next_test": "Run the prespecified patient- and site-held-out comparison of BIS-only versus multimodal models with calibration and alarm-cost utility.",
-      "opponent": 83,
-      "outcome": "win",
-      "reason": "Anesthesia has a clearer near-term decision test, stronger leakage-resistant validation plan, and more immediate potential to establish whether added signals reduce clinically relevant alarm error beyond BIS.",
-      "target": 84,
-      "timestamp": "2026-10-27T09:07:14.230349+00:00"
-    },
-    {
-      "main_risk": "Cross-platform kinase scores may primarily encode assay, lineage, or batch effects rather than transferable biology.",
-      "next_test": "Lock a simple pathway-level score in one cohort and test it without refitting on an independent platform and matched drug class.",
-      "opponent": 51,
-      "outcome": "loss",
-      "reason": "Transportable kinase states offer broader discovery and technology value, with a fixed biological anchor and a decisive external-cohort test; the proposal also supports useful outcomes if individual phosphosites or platforms fail.",
-      "target": 84,
-      "timestamp": "2026-10-27T09:07:14.230372+00:00"
-    },
-    {
-      "main_risk": "The BIS threshold may be a surrogate without a validated intervention or meaningful clinical utility.",
-      "next_test": "Perform the strict patient- and site-held-out incremental-value and alarm-utility analysis beyond BIS trajectory alone.",
-      "opponent": 81,
-      "outcome": "loss",
-      "reason": "Anesthesia is more immediately testable with available time-series structure, strong baselines, and an eight-week branch point, whereas methylation requires longer external validation and has substantial platform, cell-composition, and clinical-use uncertainty.",
-      "target": 84,
-      "timestamp": "2026-10-27T09:07:14.230381+00:00"
-    },
-    {
-      "main_risk": "A sufficiently large, harmonized, independent multicenter cohort with reproducible spatial measurements may not exist.",
-      "next_test": "Verify cohort access and run the locked 12-week center-held-out benchmark against clinical and composition baselines.",
-      "opponent": 17,
-      "outcome": "win",
-      "reason": "The lymphoma project addresses a general and important question about whether spatial context adds biology beyond composition, with strong negative controls and external center validation; anesthesia is more tractable but its endpoint and intervention value are less secure.",
-      "target": 84,
-      "timestamp": "2026-10-27T09:07:14.230389+00:00"
-    },
-    {
-      "main_risk": "Intracellular payload exposure may not be measured cleanly enough to distinguish delivery failure from payload resistance.",
-      "next_test": "Compare HER2-high, HER2-low, and resistant models with matched conjugates, free payload, and nonbinding controls while measuring uptake, intracellular payload, and early pharmacodynamic response.",
-      "opponent": 56,
-      "outcome": "loss",
-      "reason": "Exposure-normalized HER2 conjugate mechanisms can produce actionable biological explanations and informative branches through matched controls and orthogonal assays, rather than relying on nominal potency or retrospective prediction alone.",
-      "target": 84,
-      "timestamp": "2026-10-27T09:07:14.230396+00:00"
-    },
-    {
       "main_risk": "FGF-associated profiles may reflect generic stress, maturation, or selective survival rather than a reversible state transition.",
       "next_test": "Train on FGF1/FGF2 trajectories and prospectively predict a held-out dose and washout trajectory in an independent preparation.",
       "opponent": 62,
@@ -2699,6 +2654,51 @@
       "reason": "Retinal imaging has a clearer clinical baseline, simpler early decision test, and broader potential use. Congestion-aware drug exposure modeling is highly drug-specific and depends on intensive sampling, causal separation from illness severity, measurement feasibility, and external transportability.",
       "target": 136,
       "timestamp": "2026-11-15T16:25:21.077485+00:00"
+    },
+    {
+      "main_risk": "A suitable multi-site DCM cohort with adjudicated arrhythmic outcomes and reliable genotype/CMR data may not be available.",
+      "next_test": "Run the locked 10-week site-held-out ablation study comparing clinical-LVEF, CMR, genotype, and multimodal models.",
+      "opponent": 127,
+      "outcome": "win",
+      "reason": "DCM offers clearer near-term clinical value, a defined decision threshold, and a cheaper retrospective test with strong patient-level validation. The urine project depends on several unvalidated assays and cross-site technical stability.",
+      "target": 132,
+      "timestamp": "2026-11-15T22:55:34.814332+00:00"
+    },
+    {
+      "main_risk": "CMR fibrosis and genotype may add no reproducible decision value beyond clinical severity and LVEF.",
+      "next_test": "Perform the prespecified patient-level, site-held-out ablation study with calibration and ICD-threshold net benefit.",
+      "opponent": 136,
+      "outcome": "loss",
+      "reason": "The DCM problem has a more specific intervention decision, stronger evidence readiness, and a clearer incremental-value test. Retinal prediction faces greater uncertainty about incident outcomes, imaging transportability, and actionable utility.",
+      "target": 132,
+      "timestamp": "2026-11-15T22:55:34.814352+00:00"
+    },
+    {
+      "main_risk": "The available DCM data may be too heterogeneous or treatment-selected to support transportable outcome modeling.",
+      "next_test": "Evaluate incremental net benefit and calibration of CMR and genotype in held-out sites before pursuing prospective work.",
+      "opponent": 39,
+      "outcome": "win",
+      "reason": "DCM provides credible patient value and a relatively inexpensive early validation path. The perturbation project is broader but requires several high-risk assumptions about state identifiability, extrapolation, and prospective assay generation.",
+      "target": 132,
+      "timestamp": "2026-11-15T22:55:34.814361+00:00"
+    },
+    {
+      "main_risk": "The pancreatic trial may provide uniquely randomized, clinically relevant data that make its treatment-effect question more decision-relevant than the DCM cohort.",
+      "next_test": "First verify sample size and subgroup power for treatment-interaction estimation, then compare a locked signature against clinical and molecular baselines.",
+      "opponent": 2,
+      "outcome": "loss",
+      "reason": "DCM has a clearer scientific anchor and earlier readout, while the pancreatic project requires adequately powered treatment-interaction estimates, harmonized multimodal data, and independent institutional validation.",
+      "target": 132,
+      "timestamp": "2026-11-15T22:55:34.814368+00:00"
+    },
+    {
+      "main_risk": "The DCM cohort may lack sufficient independent sites or standardized measurements for credible transportability testing.",
+      "next_test": "Run the locked multimodal DCM ablation analysis with site-held-out calibration and decision curves.",
+      "opponent": 87,
+      "outcome": "loss",
+      "reason": "DCM combines clearer clinical impact with a cheaper, actionable early test. Spatial virtual-cell work has broad technological upside but depends on difficult identifiability, context extrapolation, and prospective perturbation validation.",
+      "target": 132,
+      "timestamp": "2026-11-15T22:55:34.814377+00:00"
     }
   ],
   "k_factor": 24,
@@ -2922,9 +2922,9 @@
     },
     "127": {
       "draws": 0,
-      "games": 7,
-      "losses": 2,
-      "rating": 1531.75,
+      "games": 8,
+      "losses": 3,
+      "rating": 1519.72,
       "wins": 5
     },
     "128": {
@@ -2964,10 +2964,10 @@
     },
     "132": {
       "draws": 0,
-      "games": 5,
-      "losses": 1,
-      "rating": 1530.89,
-      "wins": 4
+      "games": 10,
+      "losses": 4,
+      "rating": 1518.36,
+      "wins": 6
     },
     "133": {
       "draws": 0,
@@ -2992,10 +2992,10 @@
     },
     "136": {
       "draws": 0,
-      "games": 7,
+      "games": 8,
       "losses": 2,
-      "rating": 1531.86,
-      "wins": 5
+      "rating": 1544.24,
+      "wins": 6
     },
     "137": {
       "draws": 0,
@@ -3034,10 +3034,10 @@
     },
     "2": {
       "draws": 0,
-      "games": 33,
+      "games": 34,
       "losses": 15,
-      "rating": 1532.7,
-      "wins": 18
+      "rating": 1545.04,
+      "wins": 19
     },
     "21": {
       "draws": 0,
@@ -3174,9 +3174,9 @@
     },
     "39": {
       "draws": 0,
-      "games": 27,
-      "losses": 12,
-      "rating": 1532.14,
+      "games": 28,
+      "losses": 13,
+      "rating": 1520.08,
       "wins": 15
     },
     "4": {
@@ -3545,10 +3545,10 @@
     },
     "87": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 7,
-      "rating": 1533.12,
-      "wins": 10
+      "rating": 1545.02,
+      "wins": 11
     },
     "88": {
       "draws": 0,
