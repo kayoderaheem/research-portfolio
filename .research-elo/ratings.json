@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "FGF-associated profiles may reflect generic stress, maturation, or selective survival rather than a reversible state transition.",
-      "next_test": "Train on FGF1/FGF2 trajectories and prospectively predict a held-out dose and washout trajectory in an independent preparation.",
-      "opponent": 62,
-      "outcome": "win",
-      "reason": "96 has a clearer reversible-state scientific anchor, broader discovery value, and a cheaper 10-week prospective test with useful outcomes even if prediction fails. 62 has strong translational relevance but depends on scarce specimens, spatial sampling, and reproducibility across patients.",
-      "target": 96,
-      "timestamp": "2026-10-27T15:24:53.346098+00:00"
-    },
-    {
-      "main_risk": "The multimodal oligodendrocyte measurements may not identify a true reversible transition or may not transfer beyond culture.",
-      "next_test": "Test held-out FGF dose and washout prediction in an independent oligodendrocyte preparation, including viability and orthogonal myelin readouts.",
-      "opponent": 9,
-      "outcome": "win",
-      "reason": "96 offers broader mechanistic insight and flexible model/context choices, with an early test that can distinguish pathway-state identifiability from assay failure. 9 has greater immediate clinical relevance but depends on heterogeneous treatment response, biopsy sampling, and proving spatial states add value beyond disease burden and clinical covariates.",
-      "target": 96,
-      "timestamp": "2026-10-27T15:24:53.346121+00:00"
-    },
-    {
-      "main_risk": "Observed interaction effects may be compositional, feedback-driven, or assay-scaling artifacts rather than cooperative histone-code biology.",
-      "next_test": "Predict a prespecified held-out histone-mark or Bre2-interface perturbation from single and selected paired perturbations, then test direction with orthogonal COMPASS assays.",
-      "opponent": 98,
-      "outcome": "loss",
-      "reason": "98 has the tighter biochemical anchor, a more interpretable causal hypothesis, an earlier eight-week held-out-combination test, and strong residual value as a context-specific chromatin response atlas. 96 requires more modalities and contexts before its counterfactual claims become identifiable.",
-      "target": 96,
-      "timestamp": "2026-10-27T15:24:53.346132+00:00"
-    },
-    {
-      "main_risk": "The multimodal model may add no transportable decision value beyond routine clinical and laboratory variables.",
-      "next_test": "Run the locked sequential-modality comparison with patient-level nested validation and held-out-site calibration against the clinical-laboratory baseline.",
-      "opponent": 76,
-      "outcome": "loss",
-      "reason": "96 is more tractable within six months, has a focused discovery anchor, and permits early continuation, refinement, or stopping before committing to broad clinical data infrastructure. 76 has higher potential patient value but depends on a reliable fibrosis endpoint, multi-site harmonization, access-sensitive missingness, and external calibration.",
-      "target": 96,
-      "timestamp": "2026-10-27T15:24:53.346138+00:00"
-    },
-    {
-      "main_risk": "Morphology and molecular profiles may not transfer across preparations or distinguish FGF biology from generic injury and selection.",
-      "next_test": "Train on FGF1/FGF2 exposure-washout trajectories and predict an unseen perturbation in an independent preparation with orthogonal myelin validation.",
-      "opponent": 92,
-      "outcome": "loss",
-      "reason": "96 is anchored to a specific biological transition and pathology output, while 92 faces a difficult assay-transport problem with limited evidence that fixation preserves perturbation-specific effects. 96 also has a cheaper early readout and informative failure branches.",
-      "target": 96,
-      "timestamp": "2026-10-27T15:24:53.346147+00:00"
-    },
-    {
       "main_risk": "Issue 86 may lose its apparent biomarker value after age, renal-function, and referral-spectrum adjustment.",
       "next_test": "Run patient-level nested validation of PSA-only, age-plus-PSA, and multimarker models with prespecified calibration and biopsy-referral decision curves.",
       "opponent": 83,
@@ -2699,6 +2654,51 @@
       "reason": "DCM combines clearer clinical impact with a cheaper, actionable early test. Spatial virtual-cell work has broad technological upside but depends on difficult identifiability, context extrapolation, and prospective perturbation validation.",
       "target": 132,
       "timestamp": "2026-11-15T22:55:34.814377+00:00"
+    },
+    {
+      "main_risk": "An independent HCC cohort with reliable pretreatment imaging and complete 30-day follow-up may be unavailable or too selected.",
+      "next_test": "Apply the frozen score and protrusion measurement to an independent cohort, first checking measurement reliability and calibration against laboratory-only and established severity baselines.",
+      "opponent": 131,
+      "outcome": "win",
+      "reason": "HCC validation has a clearer locked anchor, objective outcome, strong comparators, and a cheaper decisive external test; tarsal tunnel depends on a difficult non-circular reference standard and operator/site transportability.",
+      "target": 135,
+      "timestamp": "2026-11-16T06:42:55.544589+00:00"
+    },
+    {
+      "main_risk": "Tumor protrusion may not be reproducible across imaging protocols and institutions.",
+      "next_test": "Run blinded duplicate protrusion measurements and locked external validation against laboratory-only, MELD, and Child-Pugh baselines.",
+      "opponent": 78,
+      "outcome": "loss",
+      "reason": "HCC offers a focused, clinically relevant transportability question with a direct early readout, whereas airway assessment bundles several high-risk modalities, an operationally difficult endpoint, and substantial subgroup and workflow uncertainty.",
+      "target": 135,
+      "timestamp": "2026-11-16T06:42:55.544626+00:00"
+    },
+    {
+      "main_risk": "CD44v9 perturbation may reveal a genuinely reversible resistance mechanism across donors, making the higher-upside project more valuable than the validation study.",
+      "next_test": "Before committing to extensive co-culture work, test orthogonal CD44v9 perturbation, rescue, and treatment interaction across at least six independent donor models.",
+      "opponent": 108,
+      "outcome": "win",
+      "reason": "The CD44v9 project has higher discovery upside but requires several linked assumptions about marker causality, perturbation specificity, model fidelity, and donor replication. HCC is more likely to produce a decisive six-month result with meaningful clinical calibration information.",
+      "target": 135,
+      "timestamp": "2026-11-16T06:42:55.544638+00:00"
+    },
+    {
+      "main_risk": "AI-ECG may provide substantial incremental value specifically in clinically discordant or artifact-prone cases, which aggregate validation could miss.",
+      "next_test": "Perform a blinded, patient- and encounter-level comparison in discordant and artifact-prone cases, using net benefit and missed-occlusion rates rather than AUC alone.",
+      "opponent": 126,
+      "outcome": "win",
+      "reason": "AI-ECG could have broad utility, but its proposal carries high risks in endpoint adjudication, artifact robustness, transportability, and workflow consequences. HCC has a narrower but better-specified problem and a more credible early decision.",
+      "target": 135,
+      "timestamp": "2026-11-16T06:42:55.544647+00:00"
+    },
+    {
+      "main_risk": "The HCC score may fail transportability because protrusion measurement or case mix is center-specific.",
+      "next_test": "Lock the measurement and score, then evaluate reliability, calibration, and net benefit in an independent cohort against laboratory-only and established severity baselines.",
+      "opponent": 104,
+      "outcome": "win",
+      "reason": "The HCC project is the stronger current investment because it has a concrete external-validation target, objective outcome, and straightforward stop rule. The sex-stratified project is broader but underspecified across tumor types, regimens, assays, and cohorts, with likely subgroup-power and confounding problems.",
+      "target": 135,
+      "timestamp": "2026-11-16T06:42:55.544655+00:00"
     }
   ],
   "k_factor": 24,
@@ -2747,9 +2747,9 @@
     },
     "104": {
       "draws": 0,
-      "games": 7,
-      "losses": 1,
-      "rating": 1556.17,
+      "games": 8,
+      "losses": 2,
+      "rating": 1544.96,
       "wins": 6
     },
     "105": {
@@ -2775,9 +2775,9 @@
     },
     "108": {
       "draws": 0,
-      "games": 7,
-      "losses": 1,
-      "rating": 1556.03,
+      "games": 8,
+      "losses": 2,
+      "rating": 1544.01,
       "wins": 6
     },
     "109": {
@@ -2915,9 +2915,9 @@
     },
     "126": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
-      "rating": 1556.04,
+      "games": 6,
+      "losses": 1,
+      "rating": 1544.43,
       "wins": 5
     },
     "127": {
@@ -2957,9 +2957,9 @@
     },
     "131": {
       "draws": 0,
-      "games": 7,
-      "losses": 1,
-      "rating": 1555.83,
+      "games": 8,
+      "losses": 2,
+      "rating": 1543.83,
       "wins": 6
     },
     "132": {
@@ -2985,10 +2985,10 @@
     },
     "135": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
-      "rating": 1555.79,
-      "wins": 5
+      "games": 10,
+      "losses": 1,
+      "rating": 1590.21,
+      "wins": 9
     },
     "136": {
       "draws": 0,
@@ -3475,10 +3475,10 @@
     },
     "78": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 6,
-      "rating": 1555.75,
-      "wins": 11
+      "rating": 1568.17,
+      "wins": 12
     },
     "79": {
       "draws": 0,
