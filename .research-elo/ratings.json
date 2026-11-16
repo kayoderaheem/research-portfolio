@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Issue 86 may lose its apparent biomarker value after age, renal-function, and referral-spectrum adjustment.",
-      "next_test": "Run patient-level nested validation of PSA-only, age-plus-PSA, and multimarker models with prespecified calibration and biopsy-referral decision curves.",
-      "opponent": 83,
-      "outcome": "win",
-      "reason": "Issue 86 has a clearer, cheaper early test using existing biomarkers and a clinically direct triage endpoint; issue 83 depends on variable longitudinal sampling, antibody ascertainment, and transportable lymphocyte thresholds.",
-      "target": 86,
-      "timestamp": "2026-10-27T22:21:16.668379+00:00"
-    },
-    {
-      "main_risk": "The BIS<40 warning may not represent an actionable clinical outcome, making issue 84's apparent predictive gains non-meaningful.",
-      "next_test": "For issue 86, test incremental calibration and net benefit after age and renal-function adjustment in a patient- and site-held-out cohort.",
-      "opponent": 84,
-      "outcome": "win",
-      "reason": "Issue 86 targets a clinically interpretable biopsy decision with inexpensive measurements and explicit confounding controls, whereas issue 84 relies on BIS below 40 as an uncertain surrogate and faces substantial synchronization, alarm-burden, and site-shift risks.",
-      "target": 86,
-      "timestamp": "2026-10-27T22:21:16.668399+00:00"
-    },
-    {
-      "main_risk": "The missing description of proposal B could materially change impact, feasibility, or competitive position.",
-      "next_test": "Provide the complete proposal content for issue 86 before making an investment choice.",
-      "opponent": 90,
-      "outcome": "draw",
-      "reason": "Issue 86 is fully specified and has a practical early validation path, but issue 86 is the only proposal identified for B, so there is insufficient evidence to compare distinct scientific problems.",
-      "target": 86,
-      "timestamp": "2026-10-27T22:21:16.668408+00:00"
-    },
-    {
-      "main_risk": "Issue 86's incremental biomarkers may disappear after adjustment for age, renal function, comorbidity, and referral bias.",
-      "next_test": "Run the prespecified age- and renal-function-adjusted multimarker comparison with patient-level validation and decision curves.",
-      "opponent": 27,
-      "outcome": "win",
-      "reason": "Issue 86 offers a focused precision-medicine question with inexpensive measurements, strong confounding checks, and an early stop rule; issue 27 carries higher data-access, cross-database harmonization, measurement-density, and third-cohort risks while its temporal gain may be benchmark-level rather than decision-changing.",
-      "target": 86,
-      "timestamp": "2026-10-27T22:21:16.668412+00:00"
-    },
-    {
-      "main_risk": "Issue 86 may not transport beyond the originating hospital or may show no incremental value over age plus PSA.",
-      "next_test": "Evaluate PSA-only, age-plus-PSA, and biomarker-augmented models on held-out patients and an independent site, including calibration and net benefit.",
-      "opponent": 78,
-      "outcome": "win",
-      "reason": "Issue 86 has a more bounded and operationally feasible study using routine serum data and an identifiable decision endpoint; issue 78 has high potential impact but substantial endpoint-adjudication, ultrasound-operator, acquisition, subgroup, and multimodal feasibility risks.",
-      "target": 86,
-      "timestamp": "2026-10-27T22:21:16.668418+00:00"
-    },
-    {
       "main_risk": "Treatment response and assay behavior may not be comparable across tumor types, regimens, and sites.",
       "next_test": "Lock amplification/IHC and clinical baselines, then test RNA and spatial additions in an independent treated cohort with calibration and decision-curve analysis.",
       "opponent": 51,
@@ -2699,6 +2654,51 @@
       "reason": "The HCC project is the stronger current investment because it has a concrete external-validation target, objective outcome, and straightforward stop rule. The sex-stratified project is broader but underspecified across tumor types, regimens, assays, and cohorts, with likely subgroup-power and confounding problems.",
       "target": 135,
       "timestamp": "2026-11-16T06:42:55.544655+00:00"
+    },
+    {
+      "main_risk": "Functional measurements may add no independent, transportable information beyond genotype and ECG phenotype.",
+      "next_test": "Blind established controls and selected variants, then compare nested functional-plus-ECG models with genotype-plus-ECG baselines for reproducibility and calibration.",
+      "opponent": 121,
+      "outcome": "win",
+      "reason": "KCNH2 classification has a clearer actionable clinical endpoint, established control framework, and an earlier assay-reproducibility decision than the more platform- and cohort-dependent spatial endocrine hypothesis.",
+      "target": 129,
+      "timestamp": "2026-11-16T19:40:33.749315+00:00"
+    },
+    {
+      "main_risk": "The original workflow, response endpoint, and preprocessing may not be reconstructable or comparable across cohorts.",
+      "next_test": "Freeze and independently audit the reconstruction, then test it blind on an external cohort against clinical, MRI-only, proteomics-only, and simple fusion baselines.",
+      "opponent": 75,
+      "outcome": "loss",
+      "reason": "External validation of an existing MRI-proteomic model offers a relatively direct, high-value test of transportability with strong clinical and modality-ablation baselines; a negative result would still resolve whether the published claim is actionable.",
+      "target": 129,
+      "timestamp": "2026-11-16T19:40:33.749334+00:00"
+    },
+    {
+      "main_risk": "The functional signal may be redundant with genotype and ECG phenotype or fail external calibration.",
+      "next_test": "Run blinded replicate functional assays and prespecified nested classification models against genotype-plus-ECG baselines.",
+      "opponent": 51,
+      "outcome": "win",
+      "reason": "KCNH2 has a more bounded clinical decision, clearer biological controls, and a more interpretable path to patient-level evidence than cross-lineage kinase-state transportability, which depends heavily on assay and drug-response harmonization.",
+      "target": 129,
+      "timestamp": "2026-11-16T19:40:33.749340+00:00"
+    },
+    {
+      "main_risk": "Assay-derived functional effects may not translate to incomplete-penetrance human clinical risk.",
+      "next_test": "Test reproducibility and incremental calibrated value of functional measurements over genotype and ECG phenotype using blinded controls and a small variant panel.",
+      "opponent": 118,
+      "outcome": "win",
+      "reason": "KCNH2 classification is anchored to a specific actionable management problem with defined variant-level evidence consequences, whereas HEV-TLS spatial maturity faces greater heterogeneity in tissue platform, subtype, regimen, and endpoint.",
+      "target": 129,
+      "timestamp": "2026-11-16T19:40:33.749344+00:00"
+    },
+    {
+      "main_risk": "Functional assays may not measure the clinically relevant repolarization effect independently of phenotype.",
+      "next_test": "Compare locked genotype-plus-ECG and functional-plus-ECG models in a blinded pilot, including replicate reliability and prespecified calibration endpoints.",
+      "opponent": 61,
+      "outcome": "win",
+      "reason": "KCNH2 offers a more mature and clinically specified classification problem with stronger orthogonal functional controls; the TNBC spatial-interface hypothesis adds several unverified assumptions about malignant-cell assignment, meaningful contact, and checkpoint-response transportability.",
+      "target": 129,
+      "timestamp": "2026-11-16T19:40:33.749350+00:00"
     }
   ],
   "k_factor": 24,
@@ -2852,9 +2852,9 @@
     },
     "118": {
       "draws": 0,
-      "games": 7,
-      "losses": 1,
-      "rating": 1556.84,
+      "games": 8,
+      "losses": 2,
+      "rating": 1545.25,
       "wins": 6
     },
     "119": {
@@ -2880,9 +2880,9 @@
     },
     "121": {
       "draws": 0,
-      "games": 9,
-      "losses": 2,
-      "rating": 1557.24,
+      "games": 10,
+      "losses": 3,
+      "rating": 1545.24,
       "wins": 7
     },
     "122": {
@@ -2936,10 +2936,10 @@
     },
     "129": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
-      "rating": 1557.15,
-      "wins": 5
+      "games": 10,
+      "losses": 1,
+      "rating": 1591.5,
+      "wins": 9
     },
     "13": {
       "draws": 0,
@@ -3272,9 +3272,9 @@
     },
     "51": {
       "draws": 0,
-      "games": 15,
-      "losses": 5,
-      "rating": 1556.95,
+      "games": 16,
+      "losses": 6,
+      "rating": 1544.94,
       "wins": 10
     },
     "52": {
@@ -3349,9 +3349,9 @@
     },
     "61": {
       "draws": 0,
-      "games": 17,
-      "losses": 6,
-      "rating": 1556.25,
+      "games": 18,
+      "losses": 7,
+      "rating": 1545.08,
       "wins": 11
     },
     "62": {
@@ -3454,10 +3454,10 @@
     },
     "75": {
       "draws": 0,
-      "games": 13,
+      "games": 14,
       "losses": 4,
-      "rating": 1557.05,
-      "wins": 9
+      "rating": 1569.47,
+      "wins": 10
     },
     "76": {
       "draws": 0,
