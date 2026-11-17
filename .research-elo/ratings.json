@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The apparent trajectories may primarily reflect treatment timing, tissue injury, infection, or sampling rather than immune execution or escape.",
-      "next_test": "Apply preregistered trajectory features to an independent patient-level cohort with infection, steroid, injury, and exposure covariates, testing reproducibility before outcome modeling.",
-      "opponent": 6,
-      "outcome": "win",
-      "reason": "IFN trajectories address a broader and more generalizable biological problem, with a clearer patient-level anchor and informative outcomes even if the favored execution-versus-escape model fails.",
-      "target": 58,
-      "timestamp": "2026-10-28T13:07:00.523673+00:00"
-    },
-    {
-      "main_risk": "The immune state may be a treatment- or severity-associated correlate that does not retain calibrated clinical value across sites and compartments.",
-      "next_test": "Lock one assay, prediction horizon, and outcome, then evaluate analytical repeatability and external-cohort calibration against clinical and single-modality baselines.",
-      "opponent": 22,
-      "outcome": "loss",
-      "reason": "The multiple-sclerosis project has a more bounded clinical use, stronger evidence readiness, and a direct transportability decision, while the IFN project requires a broader and more expensive multimodal discovery program.",
-      "target": 58,
-      "timestamp": "2026-10-28T13:07:00.523694+00:00"
-    },
-    {
-      "main_risk": "IFN trajectory classes may be noncausal mixtures of inflammation, injury, infection, and sampling effects.",
-      "next_test": "Test trajectory reproducibility and patient-level outcome association in a held-out cohort before adding spatial and clonotype integration.",
-      "opponent": 47,
-      "outcome": "win",
-      "reason": "IFN trajectories have a stronger fixed scientific anchor and broader biological insight potential; the lactate project combines cross-cancer generalization with difficult activity measurement and an additional intervention claim.",
-      "target": 58,
-      "timestamp": "2026-10-28T13:07:00.523703+00:00"
-    },
-    {
-      "main_risk": "The observed IFN patterns may not distinguish productive immune engagement from generic inflammatory or injury responses.",
-      "next_test": "Run a cohort-held-out replication of a locked, low-dimensional IFN trajectory classifier with strong clinical and static biomarker baselines.",
-      "opponent": 95,
-      "outcome": "win",
-      "reason": "The IFN problem is more empirically grounded and offers earlier, useful branches, whereas virtual-cell prediction for unseen therapies depends on difficult identification of transition versus selection and extrapolation across therapies.",
-      "target": 58,
-      "timestamp": "2026-10-28T13:07:00.523708+00:00"
-    },
-    {
-      "main_risk": "No added modality may provide reliable treatment-effect information beyond a strong clinical baseline under real-world site and population shift.",
-      "next_test": "Predefine one treatment decision and outcome, then perform a multi-site patient-level nested comparison of the clinical baseline versus each added modality, including missingness, calibration, and decision-curve net benefit.",
-      "opponent": 21,
-      "outcome": "loss",
-      "reason": "The opioid-use-disorder project targets a concrete patient-important decision and explicitly tests incremental net benefit, calibration, equity, and implementation rather than benchmark performance; it is therefore the stronger six-month investment despite multimodal complexity.",
-      "target": 58,
-      "timestamp": "2026-10-28T13:07:00.523715+00:00"
-    },
-    {
       "main_risk": "Idea 87 may be unable to identify true within-cell localization changes under distribution shift.",
       "next_test": "Prospectively test one unseen perturbation and cellular context against count-only, transport, and source-resampling baselines using independent control wells.",
       "opponent": 66,
@@ -2699,6 +2654,51 @@
       "reason": "It has greater technical breadth, clearer reusable outputs, and a stronger early validation path; autonomic monitoring faces substantial repeatability, missingness, confounding, and site-transport risks before clinical decision value can be shown.",
       "target": 138,
       "timestamp": "2026-11-17T03:57:52.116576+00:00"
+    },
+    {
+      "main_risk": "Cytosolic-access measurements may not validly predict target engagement or downstream response across contexts.",
+      "next_test": "Blind a small peptide-cargo panel and compare delivery-aware predictions with exposure-only and sequence baselines using orthogonal integrity and target-engagement assays.",
+      "opponent": 55,
+      "outcome": "win",
+      "reason": "Clearer observability problem, broader reusable value, leakage-resistant design, and an earlier decision test than the longer biochemical-to-resistance chain in B.",
+      "target": 140,
+      "timestamp": "2026-11-17T16:10:20.550082+00:00"
+    },
+    {
+      "main_risk": "Delivery-aware gains may reflect assay or sequence covariates rather than biologically meaningful intracellular accessibility.",
+      "next_test": "Run the prespecified matched delivery-response experiment with membrane-damage controls and held-out peptide-cargo pairs.",
+      "opponent": 133,
+      "outcome": "win",
+      "reason": "A has a cheaper, earlier, and more decisive test of a general modeling bottleneck, whereas B requires protocol harmonization, reference adjudication, treatment-board effects, and multi-site transport.",
+      "target": 140,
+      "timestamp": "2026-11-17T16:10:20.550099+00:00"
+    },
+    {
+      "main_risk": "The stem-cell panel may not capture regulatory variation general enough for transfer beyond nearby genotypes or states.",
+      "next_test": "Hold out complete lines and cadmium-by-state combinations, then compare interaction-aware models against nearest-neighbor and state-only baselines.",
+      "opponent": 139,
+      "outcome": "loss",
+      "reason": "B is better anchored to an existing matched genetic and state-transition resource and can directly test extrapolation with line-level holdouts; A requires more new measurements and has more linked causal assumptions.",
+      "target": 140,
+      "timestamp": "2026-11-17T16:10:20.550107+00:00"
+    },
+    {
+      "main_risk": "Cytosolic arrival may improve exposure characterization without identifying or predicting the relevant perturbation response.",
+      "next_test": "Measure CHAMP, membrane integrity, target engagement, and downstream response in a blinded small panel before expanding the model.",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "A offers a more concrete and controllable early test; B combines reproducibility, temporal prediction, spatial value, and pharmacologic actionability, creating several high-risk assumptions with long readouts.",
+      "target": 140,
+      "timestamp": "2026-11-17T16:10:20.550114+00:00"
+    },
+    {
+      "main_risk": "CHAMP may not be sufficiently comparable or predictive across cell types and delivery systems.",
+      "next_test": "Perform the blinded matched delivery, integrity, target-engagement, and response experiment and compare against exposure-only baselines.",
+      "opponent": 137,
+      "outcome": "win",
+      "reason": "A has a more specific biological bottleneck, stronger immediate assay leverage, and a clearer early branch point; B faces substantial repeatability, confounding, endpoint, and clinical decision-value uncertainty.",
+      "target": 140,
+      "timestamp": "2026-11-17T16:10:20.550119+00:00"
     }
   ],
   "k_factor": 24,
@@ -2971,9 +2971,9 @@
     },
     "133": {
       "draws": 0,
-      "games": 9,
-      "losses": 5,
-      "rating": 1488.22,
+      "games": 10,
+      "losses": 6,
+      "rating": 1476.64,
       "wins": 4
     },
     "134": {
@@ -2999,9 +2999,9 @@
     },
     "137": {
       "draws": 0,
-      "games": 8,
-      "losses": 5,
-      "rating": 1480.09,
+      "games": 9,
+      "losses": 6,
+      "rating": 1469.14,
       "wins": 3
     },
     "138": {
@@ -3013,17 +3013,17 @@
     },
     "139": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "rating": 1500.83,
+      "wins": 1
     },
     "140": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 2,
+      "rating": 1521.53,
+      "wins": 4
     },
     "15": {
       "draws": 1,
@@ -3321,9 +3321,9 @@
     },
     "55": {
       "draws": 0,
-      "games": 27,
-      "losses": 14,
-      "rating": 1488.43,
+      "games": 28,
+      "losses": 15,
+      "rating": 1476.43,
       "wins": 13
     },
     "56": {
@@ -3433,9 +3433,9 @@
     },
     "7": {
       "draws": 0,
-      "games": 44,
-      "losses": 23,
-      "rating": 1482.41,
+      "games": 45,
+      "losses": 24,
+      "rating": 1470.99,
       "wins": 21
     },
     "70": {
