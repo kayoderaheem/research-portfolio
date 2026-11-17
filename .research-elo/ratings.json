@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Treatment response and assay behavior may not be comparable across tumor types, regimens, and sites.",
-      "next_test": "Lock amplification/IHC and clinical baselines, then test RNA and spatial additions in an independent treated cohort with calibration and decision-curve analysis.",
-      "opponent": 51,
-      "outcome": "win",
-      "reason": "HER2 assessment has clearer patient-level treatment-decision value, stronger clinical anchoring, and a more actionable modality-escalation pathway than a high-risk cross-platform kinase-state prediction program.",
-      "target": 69,
-      "timestamp": "2026-10-28T05:51:51.515383+00:00"
-    },
-    {
-      "main_risk": "The apparent HER2 modality gains may reflect tumor type, tissue quality, treatment selection, or assay-specific confounding.",
-      "next_test": "Evaluate locked standard, RNA-augmented, and spatial-augmented HER2 models in an independent treated cohort before investing in broad multimodal integration.",
-      "opponent": 75,
-      "outcome": "win",
-      "reason": "HER2 offers broader potential clinical impact and a clearer generalizable discordance problem, whereas the MRI-proteomic project depends on reconstructing a narrowly situated workflow and obtaining a closely matched external rectal-cancer cohort.",
-      "target": 69,
-      "timestamp": "2026-10-28T05:51:51.515404+00:00"
-    },
-    {
-      "main_risk": "Agreement between functional assays may not translate into clinically meaningful treatment-response prediction.",
-      "next_test": "Run the same blinded patient-derived models and drug panel in two laboratories and measure patient-level ranking concordance, quality failure, and baseline-adjusted performance.",
-      "opponent": 48,
-      "outcome": "loss",
-      "reason": "Cross-assay drug-sensitivity reproducibility addresses a foundational technology bottleneck with a direct, relatively cheap multisite pilot and useful assay-specific outcomes even if universal rankings fail; HER2 requires more consequential but difficult cross-tumor clinical harmonization.",
-      "target": 69,
-      "timestamp": "2026-10-28T05:51:51.515420+00:00"
-    },
-    {
-      "main_risk": "HER2 signals may not transport across tumor types, regimens, sites, and assay platforms.",
-      "next_test": "Conduct an independent treated-cohort comparison of standard HER2 assessment versus RNA and spatial additions, focusing on calibration and net benefit.",
-      "opponent": 81,
-      "outcome": "win",
-      "reason": "HER2 has greater potential breadth and immediate treatment-selection relevance, while the methylation project is constrained to incremental value over a strong existing score and requires long external calibration and endpoint validation.",
-      "target": 69,
-      "timestamp": "2026-10-28T05:51:51.515427+00:00"
-    },
-    {
-      "main_risk": "RNA or spatial HER2 measurements may add complexity without improving calibrated treatment decisions beyond amplification and IHC.",
-      "next_test": "Test locked incremental HER2 models in discordant and heterogeneous cases from an independent treated cohort, using prespecified decision thresholds and external calibration.",
-      "opponent": 43,
-      "outcome": "win",
-      "reason": "HER2 provides a more clinically anchored and decision-oriented problem with a credible early validation path; the unseen-drug/unseen-tumor project combines substantial distribution-shift, uncertainty, assay, and prospective-combination assumptions and risks becoming benchmark-driven.",
-      "target": 69,
-      "timestamp": "2026-10-28T05:51:51.515436+00:00"
-    },
-    {
       "main_risk": "The apparent trajectories may primarily reflect treatment timing, tissue injury, infection, or sampling rather than immune execution or escape.",
       "next_test": "Apply preregistered trajectory features to an independent patient-level cohort with infection, steroid, injury, and exposure covariates, testing reproducibility before outcome modeling.",
       "opponent": 6,
@@ -2699,6 +2654,51 @@
       "reason": "KCNH2 offers a more mature and clinically specified classification problem with stronger orthogonal functional controls; the TNBC spatial-interface hypothesis adds several unverified assumptions about malignant-cell assignment, meaningful contact, and checkpoint-response transportability.",
       "target": 129,
       "timestamp": "2026-11-16T19:40:33.749350+00:00"
+    },
+    {
+      "main_risk": "Support scores may detect distributional or batch similarity rather than prediction reliability under biological shifts.",
+      "next_test": "Run the preregistered 30-condition panel with unseen combinations, doses, and compounds, comparing confidence-ranked selective error against unfiltered baselines.",
+      "opponent": 139,
+      "outcome": "win",
+      "reason": "It has a broader reusable technology payoff, explicit leakage-resistant stress tests, and a relatively cheap prospective abstention test; the competing biological-transfer project is narrower and depends on difficult genotype-by-state extrapolation.",
+      "target": 138,
+      "timestamp": "2026-11-17T03:57:52.116535+00:00"
+    },
+    {
+      "main_risk": "Confidence may identify assay or distributional distance without identifying counterfactual biological error.",
+      "next_test": "Evaluate frozen support scores prospectively on held-out perturbation families and contexts, including independent-cohort calibration and negative controls.",
+      "opponent": 140,
+      "outcome": "win",
+      "reason": "It offers a clearer, more general reliability problem with fewer assay and causal-identification dependencies; the cytosolic-access project requires delivery, target engagement, response, and membrane-damage effects to separate cleanly.",
+      "target": 138,
+      "timestamp": "2026-11-17T03:57:52.116555+00:00"
+    },
+    {
+      "main_risk": "Abstention could improve apparent error only by conservatively rejecting difficult cases without useful coverage.",
+      "next_test": "Conduct the preregistered prospective panel and measure selective risk, coverage, calibration, subgroup stability, and independent-cohort performance.",
+      "opponent": 133,
+      "outcome": "win",
+      "reason": "The virtual-cell reliability question has broader applicability, stronger early stopping criteria, and fewer clinical workflow and scanner-transport dependencies than photon-counting CT, whose lesion gains may not change treatment decisions.",
+      "target": 138,
+      "timestamp": "2026-11-17T03:57:52.116563+00:00"
+    },
+    {
+      "main_risk": "Confidence may fail specifically on biologically novel perturbations despite good aggregate calibration.",
+      "next_test": "Test preregistered confidence and abstention on held-out combinations, compounds, doses, and contexts with patient- or experiment-level splits.",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "It is more tractable within six months and has a direct early decision test, whereas the KRAS project requires reproducible serial states, temporal precedence, spatial value, and pharmacologic actionability across donors.",
+      "target": 138,
+      "timestamp": "2026-11-17T03:57:52.116569+00:00"
+    },
+    {
+      "main_risk": "The support signal may be driven by batch or assay similarity rather than true counterfactual reliability.",
+      "next_test": "Compare frozen confidence-ranked predictions with prospective held-out responses and calibrated coverage at prespecified abstention levels.",
+      "opponent": 137,
+      "outcome": "win",
+      "reason": "It has greater technical breadth, clearer reusable outputs, and a stronger early validation path; autonomic monitoring faces substantial repeatability, missingness, confounding, and site-transport risks before clinical decision value can be shown.",
+      "target": 138,
+      "timestamp": "2026-11-17T03:57:52.116576+00:00"
     }
   ],
   "k_factor": 24,
@@ -2971,9 +2971,9 @@
     },
     "133": {
       "draws": 0,
-      "games": 8,
-      "losses": 4,
-      "rating": 1499.39,
+      "games": 9,
+      "losses": 5,
+      "rating": 1488.22,
       "wins": 4
     },
     "134": {
@@ -2999,10 +2999,31 @@
     },
     "137": {
       "draws": 0,
-      "games": 7,
-      "losses": 4,
-      "rating": 1490.2,
+      "games": 8,
+      "losses": 5,
+      "rating": 1480.09,
       "wins": 3
+    },
+    "138": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1555.43,
+      "wins": 5
+    },
+    "139": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "140": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
     },
     "15": {
       "draws": 1,
@@ -3412,9 +3433,9 @@
     },
     "7": {
       "draws": 0,
-      "games": 43,
-      "losses": 22,
-      "rating": 1492.97,
+      "games": 44,
+      "losses": 23,
+      "rating": 1482.41,
       "wins": 21
     },
     "70": {
