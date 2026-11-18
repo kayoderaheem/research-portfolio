@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "SECmere measurements may reflect batch, yield, or contamination differences rather than a distinct transportable biological signal.",
-      "next_test": "Run a blinded paired-sample pilot with technical replicates comparing SECmere, small-EV, clinical, and combined models under patient-level validation.",
-      "opponent": 5,
-      "outcome": "win",
-      "reason": "SECmere triage has a clearer clinical decision anchor, broader validation framework, and an earlier test of incremental value than the substantially more demanding serial spatial-tissue study.",
-      "target": 85,
-      "timestamp": "2026-10-29T01:01:38.901874+00:00"
-    },
-    {
-      "main_risk": "Baseline multimodal measurements may not identify perturbation responses beyond donor, batch, or cell-composition proxies.",
-      "next_test": "Use a small donor-replicated perturbation panel to compare frozen expression-only and multimodal models on held-out donors and perturbations.",
-      "opponent": 37,
-      "outcome": "loss",
-      "reason": "Prospective multimodal virtual-cell falsification offers broader general scientific insight, explicit mechanistic failure modes, and useful outcomes even if added modalities do not improve prediction.",
-      "target": 85,
-      "timestamp": "2026-10-29T01:01:38.901895+00:00"
-    },
-    {
-      "main_risk": "The SECmere signal may fail to remain calibrated across collection sites and clinical spectra.",
-      "next_test": "Conduct the blinded paired-sample pilot with prespecified calibration and technical-reproducibility thresholds before external validation.",
-      "opponent": 77,
-      "outcome": "win",
-      "reason": "SECmere RNA addresses a broader, reusable liquid-biopsy validation problem with a defined triage endpoint, whereas tuberculoma discrimination faces a particularly difficult reference standard and limited transportability across sites.",
-      "target": 85,
-      "timestamp": "2026-10-29T01:01:38.901903+00:00"
-    },
-    {
-      "main_risk": "SECmere fraction differences may be technical artifacts rather than biologically distinct signals.",
-      "next_test": "Test blinded technical and biological reproducibility of paired SECmere and small-EV samples before outcome modeling.",
-      "opponent": 41,
-      "outcome": "win",
-      "reason": "SECmere triage has more immediate clinical relevance, clearer decision criteria, and a lower-risk early branch than the yeast virtual-cell project, which requires dense lineage, chromatin, cohesin, and recovery measurements to establish reversibility.",
-      "target": 85,
-      "timestamp": "2026-10-29T01:01:38.901909+00:00"
-    },
-    {
-      "main_risk": "FADS1 or arachidonic-acid measurements may not represent biologically active local signaling or add value beyond immune composition and clinical covariates.",
-      "next_test": "Profile pretreatment HCC tissue with orthogonal FADS1/lipid and T-cell fitness measurements, then test the prespecified proximity feature against composition-only baselines.",
-      "opponent": 10,
-      "outcome": "win",
-      "reason": "SECmere offers a more clinically defined and broadly reusable validation question, while the HCC niche project depends on difficult spatial lipid measurements, a specific mechanistic chain, and transport across treatment contexts.",
-      "target": 85,
-      "timestamp": "2026-10-29T01:01:38.901914+00:00"
-    },
-    {
       "main_risk": "The dynamic model may capture selection or generic stress rather than causal reversible chromatin trajectories.",
       "next_test": "Prospectively predict unseen perturbation and restoration schedules using lineage tracking, cohesin imaging, and re-entry assays.",
       "opponent": 41,
@@ -2699,6 +2654,51 @@
       "reason": "The airway proposal has a shorter and more concrete mechanistic test and a clearer fixed matched perturbation design. The urine-compartment project carries more preclinical assay, collection, batch, specimen-quality, and multi-compartment assumptions before a meaningful clinical endpoint can be read out.",
       "target": 141,
       "timestamp": "2026-11-18T01:00:10.632520+00:00"
+    },
+    {
+      "main_risk": "The apparent regulatory effects may be cell-identity or donor confounding rather than transferable causal responses.",
+      "next_test": "Hold out one epithelial cell type and donor set, then prospectively test a STAT or receptor perturbation against shared-program and transcript-only baselines.",
+      "opponent": 141,
+      "outcome": "loss",
+      "reason": "Airway interferon effects offer broader biological insight and a more generalizable donor-level problem than a single Caco-2 resistance system, with orthogonal perturbation validation and an early discriminating test.",
+      "target": 142,
+      "timestamp": "2026-11-18T11:52:36.564297+00:00"
+    },
+    {
+      "main_risk": "Urine molecular measurements may not add reproducible, transportable information beyond albuminuria, eGFR, and clinical covariates.",
+      "next_test": "Run a frozen, patient-level, multi-site pilot comparing each compartment and the clinical baseline for calibrated net benefit.",
+      "opponent": 127,
+      "outcome": "loss",
+      "reason": "Atlas-anchored urine compartments address a clinically consequential decision with patient-level validation, flexible modality choice, and a direct test of incremental net benefit beyond routine measures; the Caco-2 project is more tractable but substantially narrower and vulnerable to clonal-history confounding.",
+      "target": 142,
+      "timestamp": "2026-11-18T11:52:36.564318+00:00"
+    },
+    {
+      "main_risk": "State definitions and apparent compositional gains may be dataset or annotation artifacts rather than genuine perturbation extrapolation.",
+      "next_test": "Blindly evaluate target- and donor-held-out perturbations using independently defined states and compare calibrated composition predictions with expression-first and compositional-regression baselines.",
+      "opponent": 39,
+      "outcome": "loss",
+      "reason": "Composition-aware counterfactuals have broader technological utility and a clearer generalization target across perturbations and tissue contexts, with strong composition, retrieval, and null baselines plus orthogonal validation; the Caco-2 problem is narrower and less transferable.",
+      "target": 142,
+      "timestamp": "2026-11-18T11:52:36.564329+00:00"
+    },
+    {
+      "main_risk": "CHAMP signal may not reliably represent productive cytosolic delivery or target engagement across contexts.",
+      "next_test": "Measure CHAMP, membrane integrity, target engagement, and downstream response for a blinded peptide-cargo panel with orthogonal delivery assays.",
+      "opponent": 140,
+      "outcome": "loss",
+      "reason": "Cytosolic access targets a concrete observability bottleneck that can affect many perturbation systems and supports abstention on unattainable interventions; it is more broadly reusable than the single-line resistance setting.",
+      "target": 142,
+      "timestamp": "2026-11-18T11:52:36.564335+00:00"
+    },
+    {
+      "main_risk": "The molecular signal may be driven by site, antibiotic, diet, acute-care, or assay effects rather than transportable biology.",
+      "next_test": "Evaluate a locked compact panel at an independent site with patient-level splitting, blinded outcomes, calibration, and decision-curve comparison against the clinical baseline.",
+      "opponent": 134,
+      "outcome": "loss",
+      "reason": "External validation of gut-brain biomarkers could establish clinically meaningful incremental decision value beyond routine stroke variables, whereas the Caco-2 project has limited clinical or cross-system reach despite better tractability.",
+      "target": 142,
+      "timestamp": "2026-11-18T11:52:36.564340+00:00"
     }
   ],
   "k_factor": 24,
@@ -2922,10 +2922,10 @@
     },
     "127": {
       "draws": 0,
-      "games": 9,
+      "games": 10,
       "losses": 4,
-      "rating": 1507.06,
-      "wins": 5
+      "rating": 1518.82,
+      "wins": 6
     },
     "128": {
       "draws": 0,
@@ -2978,10 +2978,10 @@
     },
     "134": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 2,
-      "rating": 1522.87,
-      "wins": 4
+      "rating": 1532.95,
+      "wins": 5
     },
     "135": {
       "draws": 0,
@@ -3020,23 +3020,23 @@
     },
     "140": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 2,
-      "rating": 1521.53,
-      "wins": 4
+      "rating": 1532.01,
+      "wins": 5
     },
     "141": {
       "draws": 0,
-      "games": 5,
+      "games": 6,
       "losses": 2,
-      "rating": 1513.29,
-      "wins": 3
+      "rating": 1525.25,
+      "wins": 4
     },
     "142": {
       "draws": 0,
-      "games": 1,
-      "losses": 0,
-      "rating": 1512.0,
+      "games": 6,
+      "losses": 5,
+      "rating": 1456.82,
       "wins": 1
     },
     "143": {
@@ -3216,10 +3216,10 @@
     },
     "39": {
       "draws": 0,
-      "games": 28,
+      "games": 29,
       "losses": 13,
-      "rating": 1520.08,
-      "wins": 15
+      "rating": 1530.98,
+      "wins": 16
     },
     "4": {
       "draws": 1,
