@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The dynamic model may capture selection or generic stress rather than causal reversible chromatin trajectories.",
-      "next_test": "Prospectively predict unseen perturbation and restoration schedules using lineage tracking, cohesin imaging, and re-entry assays.",
-      "opponent": 41,
-      "outcome": "loss",
-      "reason": "The resettable-chromatin problem has a clearer discovery anchor, schedule-held-out falsification test, and informative outcomes even if the favored dynamic model fails; the biomarker project depends on a difficult clinical assay and scarce treatment-linked specimens.",
-      "target": 72,
-      "timestamp": "2026-10-29T10:07:42.625240+00:00"
-    },
-    {
-      "main_risk": "The reference standard for active disease may be circular or too uncertain to support valid model evaluation.",
-      "next_test": "Build a blinded first post-treatment MRI landmark cohort and compare MRI persistence with prespecified clinical-plus-trajectory models against adjudicated outcomes.",
-      "opponent": 77,
-      "outcome": "loss",
-      "reason": "Intracranial tuberculoma has a direct clinical decision, comparatively accessible longitudinal measurements, strong simple baselines, and an early test that can assess calibrated treatment-extension decisions; the condensate project requires a scarce, highly specialized assay and externally treated cohort.",
-      "target": 72,
-      "timestamp": "2026-10-29T10:07:42.625264+00:00"
-    },
-    {
-      "main_risk": "Spatial FADS1 or arachidonic-acid measurements may reflect nonspecific lipid accumulation rather than active T-cell-suppressive signaling.",
-      "next_test": "Profile pretreatment tissue and test whether spatial metabolic proximity predicts T-cell fitness beyond abundance, with orthogonal lipid and functional assays.",
-      "opponent": 10,
-      "outcome": "loss",
-      "reason": "The HCC niche problem has a tighter mechanistic anchor, feasible early spatial and orthogonal functional tests, and useful branches distinguishing composition, metabolism, and spatial proximity; the YTHDC1 project has greater clinical ambition but substantially higher assay, cohort, and transportability risk.",
-      "target": 72,
-      "timestamp": "2026-10-29T10:07:42.625273+00:00"
-    },
-    {
-      "main_risk": "Serial inflammation may only track postoperative severity or timing without changing rehabilitation decisions.",
-      "next_test": "Run a prespecified landmark analysis comparing clinical and early-function baselines with serial inflammatory trajectories for delayed recovery and decision-curve benefit.",
-      "opponent": 23,
-      "outcome": "loss",
-      "reason": "Dynamic rehabilitation monitoring offers a more tractable prospective cohort, a concrete decision target, established clinical baselines, and a plausible early incremental-value analysis; the YTHDC1 project is more novel but relies on several high-risk clinical-assay and external-validation assumptions.",
-      "target": 72,
-      "timestamp": "2026-10-29T10:07:42.625280+00:00"
-    },
-    {
-      "main_risk": "Pretreatment IL-15/IL-15Rα spatial measurements may not represent functional cytokine access or predict response independently of abundance and delivery.",
-      "next_test": "Measure pretreatment access and perivascular localization, then test patient-level prediction of early on-treatment innate-cell function with orthogonal validation.",
-      "opponent": 68,
-      "outcome": "loss",
-      "reason": "The IL-15 access problem is tightly coupled to a defined therapy, has an early functional readout, and can distinguish delivery/access failure from intrinsic cellular dysfunction; the YTHDC1 project requires a harder-to-standardize condensate assay and broader clinical transportability.",
-      "target": 72,
-      "timestamp": "2026-10-29T10:07:42.625288+00:00"
-    },
-    {
       "main_risk": "PCOS labels or hormonal measurements may encode the diagnostic assessment or fail to transport across sites.",
       "next_test": "Run locked nested patient-level models on an external cohort, measuring incremental calibration and decision-curve net benefit beyond clinical and reproductive variables.",
       "opponent": 73,
@@ -2699,6 +2654,51 @@
       "reason": "External validation of gut-brain biomarkers could establish clinically meaningful incremental decision value beyond routine stroke variables, whereas the Caco-2 project has limited clinical or cross-system reach despite better tractability.",
       "target": 142,
       "timestamp": "2026-11-18T11:52:36.564340+00:00"
+    },
+    {
+      "main_risk": "The held-out genotype-by-state combinations may still be too confounded by batch or broad stress signatures.",
+      "next_test": "A preregistered holdout of complete DO lines and cadmium-by-differentiation combinations, evaluated against interaction-free and nearest-neighbor baselines.",
+      "opponent": 139,
+      "outcome": "loss",
+      "reason": "Issue 139 has a stronger fixed anchor, a clearer 8-week discriminating experiment, and more informative negative outcomes through a transferability map. It directly separates conserved from context-specific effects with defined baselines and patient-level-style whole-line separation.",
+      "target": 143,
+      "timestamp": "2026-11-18T20:39:25.446429+00:00"
+    },
+    {
+      "main_risk": "Pretreatment and early on-treatment human spatial measurements may be unavailable or insufficiently reproducible.",
+      "next_test": "A patient-level prospective or retrospective 12-week biopsy pilot comparing a predefined spatial score with clinical and composition-only models.",
+      "opponent": 18,
+      "outcome": "loss",
+      "reason": "Issue 18 has a clearer precision-medicine anchor and direct credible patient value: spatial neighborhoods are tested against clinical and composition baselines for gemcitabine response. Its patient-level controls and site-held-out design make a negative or ambiguous result informative.",
+      "target": 143,
+      "timestamp": "2026-11-18T20:39:25.446447+00:00"
+    },
+    {
+      "main_risk": "Sampling composition and anatomical site may explain apparent transitions more than a reproducible resistance trajectory.",
+      "next_test": "A 10-week patient-level matched pre-MRD-to-progression transition test with held-out patients and orthogonal lineage/MAPK validation.",
+      "opponent": 113,
+      "outcome": "loss",
+      "reason": "Issue 113 directly addresses a clinically important minimal-residual-disease prediction problem and has a concrete longitudinal anchor. It may yield a reproducible monitoring or treatment-rule advance, unlike a virtual-cell protocol whose primary scientific identifiability assumptions remain further upstream.",
+      "target": 143,
+      "timestamp": "2026-11-18T20:39:25.446456+00:00"
+    },
+    {
+      "main_risk": "Longitudinal changes may remain indistinguishable from sampling differences, tumor purity, or treatment-induced DNA damage.",
+      "next_test": "A 12-week blinded paired baseline-relapse analysis using a locked model and orthogonal clonality confirmation.",
+      "opponent": 101,
+      "outcome": "loss",
+      "reason": "Issue 101 has the clearest causal timing question and the strongest potential translational consequence: determining pre-existing versus therapy-selected resistance could alter salvage strategy. The paired longitudinal design provides an unusually informative fixed anchor despite data and confounding risks.",
+      "target": 143,
+      "timestamp": "2026-11-18T20:39:25.446461+00:00"
+    },
+    {
+      "main_risk": "Chromatin memory may be nonidentifiable from steady-state measurements or dominated by locus sequence and transcription-factor effects.",
+      "next_test": "Prospectively predict one unseen reader or reactivation combination using held-out loci and compare against initial-state and additive models.",
+      "opponent": 109,
+      "outcome": "win",
+      "reason": "Issue 143 is the stronger general investment because it tests causal counterfactual portability across regulatory contexts rather than incremental annotation of heterogeneous FFPE specimens. Its matched baseline-perturbation anchor and holdout design provide a clearer falsification route.",
+      "target": 143,
+      "timestamp": "2026-11-18T20:39:25.446467+00:00"
     }
   ],
   "k_factor": 24,
@@ -2726,10 +2726,10 @@
     },
     "101": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 8,
-      "rating": 1477.59,
-      "wins": 6
+      "rating": 1488.71,
+      "wins": 7
     },
     "102": {
       "draws": 0,
@@ -2782,9 +2782,9 @@
     },
     "109": {
       "draws": 0,
-      "games": 16,
-      "losses": 9,
-      "rating": 1477.58,
+      "games": 17,
+      "losses": 10,
+      "rating": 1464.32,
       "wins": 7
     },
     "11": {
@@ -2817,10 +2817,10 @@
     },
     "113": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 7,
-      "rating": 1477.62,
-      "wins": 5
+      "rating": 1489.14,
+      "wins": 6
     },
     "114": {
       "draws": 0,
@@ -3013,10 +3013,10 @@
     },
     "139": {
       "draws": 0,
-      "games": 3,
+      "games": 4,
       "losses": 2,
-      "rating": 1488.82,
-      "wins": 1
+      "rating": 1500.78,
+      "wins": 2
     },
     "140": {
       "draws": 0,
@@ -3041,10 +3041,10 @@
     },
     "143": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1487.59,
-      "wins": 0
+      "games": 6,
+      "losses": 5,
+      "rating": 1454.32,
+      "wins": 1
     },
     "15": {
       "draws": 1,
@@ -3062,10 +3062,10 @@
     },
     "18": {
       "draws": 1,
-      "games": 35,
+      "games": 36,
       "losses": 18,
-      "rating": 1477.64,
-      "wins": 16
+      "rating": 1489.57,
+      "wins": 17
     },
     "19": {
       "draws": 0,
