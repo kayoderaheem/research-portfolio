@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Idea 87 may be unable to identify true within-cell localization changes under distribution shift.",
-      "next_test": "Prospectively test one unseen perturbation and cellular context against count-only, transport, and source-resampling baselines using independent control wells.",
-      "opponent": 66,
-      "outcome": "win",
-      "reason": "Idea 87 has a clearer technology anchor, broader reusable insight, stronger leakage-resistant evaluation, and an early prospective test. Idea 66 has greater clinical relevance but depends more heavily on scarce aligned cohorts and transportable treatment endpoints.",
-      "target": 87,
-      "timestamp": "2026-10-28T20:20:35.817037+00:00"
-    },
-    {
-      "main_risk": "Spatial measurements may not contain enough information to separate localization effects from abundance and composition.",
-      "next_test": "Evaluate localization and abundance separately on one held-out perturbation-context combination with matched source states and independent controls.",
-      "opponent": 89,
-      "outcome": "win",
-      "reason": "Idea 87 offers a broader identifiability problem with clearer spatial controls and useful outcomes even if prediction fails. Idea 89 requires several high-risk assumptions about latent excitation memory, hysteresis, and transfer across neuronal contexts.",
-      "target": 87,
-      "timestamp": "2026-10-28T20:20:35.817060+00:00"
-    },
-    {
-      "main_risk": "Matrix GTP effects may remain confounded with ATP depletion, membrane potential, or nonspecific mitochondrial stress.",
-      "next_test": "Run the preregistered short time course with ATP-synthase inhibition, GTP and exchange rescues, matched controls, and mediator-specific assays.",
-      "opponent": 93,
-      "outcome": "loss",
-      "reason": "Idea 93 has the strongest fixed mechanistic anchor, a focused eight-week rescue experiment, orthogonal measurements, and informative outcomes across competing causal explanations. Idea 87 is broader but requires more complex spatial data and extrapolation assumptions before establishing identifiability.",
-      "target": 87,
-      "timestamp": "2026-10-28T20:20:35.817094+00:00"
-    },
-    {
-      "main_risk": "Idea 87's spatial predictions may not generalize across perturbations, contexts, or imaging batches.",
-      "next_test": "Test one unseen perturbation and cell context prospectively, reporting replicate-level localization error, calibration, and composition-controlled baselines.",
-      "opponent": 67,
-      "outcome": "win",
-      "reason": "Idea 87 provides a more general, flexible technology question with a shorter and cleaner earliest decision. Idea 67 has important relapse relevance but depends on scarce longitudinal patient specimens, reproducible cross-patient trajectories, and a niche mechanism that may be difficult to transport.",
-      "target": 87,
-      "timestamp": "2026-10-28T20:20:35.817102+00:00"
-    },
-    {
-      "main_risk": "Idea 87 may show benchmark gains driven by imaging geometry or conserved composition rather than biological localization mechanisms.",
-      "next_test": "Use independent controls and negative spatial controls to test whether a held-out localization prediction survives composition matching and coordinate shuffling.",
-      "opponent": 98,
-      "outcome": "win",
-      "reason": "Idea 87 has broader methodological impact, a clearer identifiability framework, and more flexible modality and context choices. Idea 98 requires a costly multi-layer chromatin experiment and assumes cooperative effects can be distinguished from feedback, composition, and assay scaling.",
-      "target": 87,
-      "timestamp": "2026-10-28T20:20:35.817111+00:00"
-    },
-    {
       "main_risk": "SECmere measurements may reflect batch, yield, or contamination differences rather than a distinct transportable biological signal.",
       "next_test": "Run a blinded paired-sample pilot with technical replicates comparing SECmere, small-EV, clinical, and combined models under patient-level validation.",
       "opponent": 5,
@@ -2699,6 +2654,51 @@
       "reason": "A has a more specific biological bottleneck, stronger immediate assay leverage, and a clearer early branch point; B faces substantial repeatability, confounding, endpoint, and clinical decision-value uncertainty.",
       "target": 140,
       "timestamp": "2026-11-17T16:10:20.550119+00:00"
+    },
+    {
+      "main_risk": "Resistance states may reflect clonal drift or culture adaptation rather than transferable biology.",
+      "next_test": "Run the 8-arm prospective factorial with renewed-drug, vehicle, and passage controls, splitting by independently derived line and culture replicate.",
+      "opponent": 142,
+      "outcome": "loss",
+      "reason": "The Caco-2 factorial has a clearer 10-week discriminator, stronger branching across dose, drug, and differentiation contexts, and simpler established baselines; the airway proposal depends more heavily on acquiring matched multiomic perturbation data.",
+      "target": 141,
+      "timestamp": "2026-11-18T01:00:10.632480+00:00"
+    },
+    {
+      "main_risk": "A direct prospective perturbation may not distinguish interferon regulatory effects from stable cell identity or chromatin state.",
+      "next_test": "Perturb the held-out STAT or receptor target and compare predicted versus measured transcription and accessibility in an omitted epithelial cell type.",
+      "opponent": 143,
+      "outcome": "win",
+      "reason": "The airway proposal has a tighter matched baseline-and-perturbation anchor, donor-level validation, and a direct STAT or receptor test. The chromatin-memory proposal combines higher-risk sequence, locus, timing, and cross-context assumptions.",
+      "target": 141,
+      "timestamp": "2026-11-18T01:00:10.632499+00:00"
+    },
+    {
+      "main_risk": "Matched airway stimulation may provide associations that do not survive direct regulatory-node perturbation.",
+      "next_test": "Prospectively perturb an interferon receptor or STAT target in an omitted cell type and measure transcription and chromatin response.",
+      "opponent": 139,
+      "outcome": "win",
+      "reason": "Both are fixed-anchor extrapolation tests, but the airway study gives a direct prospective causal readout and concrete omitted-cell-type threshold. The genotype-state proposal offers a strong transferable-map branch but has weaker biological measurability and a higher risk of broad stress signatures.",
+      "target": 141,
+      "timestamp": "2026-11-18T01:00:10.632509+00:00"
+    },
+    {
+      "main_risk": "Reproducible incremental net benefit may be erased by referral, treatment-selection, outcome-ascertainment, or site effects.",
+      "next_test": "Perform the locked, patient-level multimodal ablation with external-site net-benefit and calibration thresholds.",
+      "opponent": 132,
+      "outcome": "loss",
+      "reason": "The DCM problem has substantially greater and more credible patient value: it could change implantation decisions. Its prespecified retrospective ablation is a cheap early test, and the main failure outcome is still useful for defining when CMR and genotype add nothing.",
+      "target": 141,
+      "timestamp": "2026-11-18T01:00:10.632514+00:00"
+    },
+    {
+      "main_risk": "Airway counterfactual gains may be confounded by cell identity or chromatin state rather than transferable direct effects.",
+      "next_test": "Prospectively perturb a held-out STAT or receptor target and test predicted sign and magnitude against matched transcription and chromatin measurements.",
+      "opponent": 127,
+      "outcome": "win",
+      "reason": "The airway proposal has a shorter and more concrete mechanistic test and a clearer fixed matched perturbation design. The urine-compartment project carries more preclinical assay, collection, batch, specimen-quality, and multi-compartment assumptions before a meaningful clinical endpoint can be read out.",
+      "target": 141,
+      "timestamp": "2026-11-18T01:00:10.632520+00:00"
     }
   ],
   "k_factor": 24,
@@ -2922,9 +2922,9 @@
     },
     "127": {
       "draws": 0,
-      "games": 8,
-      "losses": 3,
-      "rating": 1519.72,
+      "games": 9,
+      "losses": 4,
+      "rating": 1507.06,
       "wins": 5
     },
     "128": {
@@ -2964,10 +2964,10 @@
     },
     "132": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 4,
-      "rating": 1518.36,
-      "wins": 6
+      "rating": 1530.15,
+      "wins": 7
     },
     "133": {
       "draws": 0,
@@ -3013,9 +3013,9 @@
     },
     "139": {
       "draws": 0,
-      "games": 2,
-      "losses": 1,
-      "rating": 1500.83,
+      "games": 3,
+      "losses": 2,
+      "rating": 1488.82,
       "wins": 1
     },
     "140": {
@@ -3024,6 +3024,27 @@
       "losses": 2,
       "rating": 1521.53,
       "wins": 4
+    },
+    "141": {
+      "draws": 0,
+      "games": 5,
+      "losses": 2,
+      "rating": 1513.29,
+      "wins": 3
+    },
+    "142": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1512.0,
+      "wins": 1
+    },
+    "143": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1487.59,
+      "wins": 0
     },
     "15": {
       "draws": 1,
