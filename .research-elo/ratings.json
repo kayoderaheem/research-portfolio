@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Cross-site assay concordance may not predict actual patient treatment benefit.",
-      "next_test": "Run the locked two-laboratory blinded pilot with replicate specimens and compare patient-level treatment rankings.",
-      "opponent": 55,
-      "outcome": "win",
-      "reason": "Decision-preserving assay transport has clearer clinical value, a defined cross-institution validation anchor, and a cheap early reproducibility test; the mutation-engagement project requires several linked mechanistic and resistance assumptions.",
-      "target": 100,
-      "timestamp": "2026-10-30T10:09:36.972616+00:00"
-    },
-    {
-      "main_risk": "Ex vivo response may fail to preserve in-patient treatment benefit after tissue removal.",
-      "next_test": "Measure blinded cross-site rank concordance and calibration before using outcomes for treatment-selection claims.",
-      "opponent": 40,
-      "outcome": "win",
-      "reason": "The transportability problem is more clinically actionable and has stronger decision-focused validation than virtual combination screening, whose predictions depend on difficult context transfer and may yield benchmark-only gains.",
-      "target": 100,
-      "timestamp": "2026-10-30T10:09:36.972638+00:00"
-    },
-    {
-      "main_risk": "Biological response may be confounded by specimen quality, treatment context, or culture artifacts.",
-      "next_test": "Perform the locked two-site pilot and test whether treatment rankings remain concordant across implementations.",
-      "opponent": 93,
-      "outcome": "win",
-      "reason": "The assay-transport problem offers a direct clinical decision endpoint, independent-site validation, and informative failure modes, whereas the virtual-cell proposal depends on difficult causal identifiability of tightly correlated bioenergetic intermediates.",
-      "target": 100,
-      "timestamp": "2026-10-30T10:09:36.972648+00:00"
-    },
-    {
-      "main_risk": "The fibrosis reference standard and added modalities may not provide reliable incremental value under site and population shift.",
-      "next_test": "Compare the locked clinical-laboratory baseline with sequential modality additions on a held-out site, reporting calibration and threshold-specific net benefit.",
-      "opponent": 76,
-      "outcome": "win",
-      "reason": "Functional assay transport addresses a concrete treatment-selection decision with a differentiated cross-institution test and useful negative outcomes; multimodal fibrosis triage has clinical promise but depends on endpoint quality, heterogeneous access, and costly modality integration.",
-      "target": 100,
-      "timestamp": "2026-10-30T10:09:36.972655+00:00"
-    },
-    {
-      "main_risk": "Spatial architecture may be a noncausal proxy for tumor burden, target density, or specimen quality, while ex vivo results may also fail clinically.",
-      "next_test": "Run the locked cross-site functional assay pilot and quantify whether treatment ordering is reproducible before pursuing clinical utility.",
-      "opponent": 57,
-      "outcome": "win",
-      "reason": "Transportable functional treatment ranking has greater immediate translational leverage and a stronger external-validation framework than spatial architecture prediction, whose incremental value over composition and target expression remains uncertain.",
-      "target": 100,
-      "timestamp": "2026-10-30T10:09:36.972664+00:00"
-    },
-    {
       "main_risk": "Spatial features may be patient-, site-, or sampling-specific and add no transportable information beyond composition and clinical covariates.",
       "next_test": "Before outcome modeling, test leave-one-patient-out reproducibility and batch predictability of the locked spatial feature set.",
       "opponent": 66,
@@ -2699,6 +2654,51 @@
       "reason": "The virtual-cell project addresses a broad and difficult-to-replace reliability gap with informative branches across many perturbation settings. The lymphoma study is rigorous but mainly benchmarks a modest incremental value claim whose external cohort and spatial reproducibility may be limiting.",
       "target": 138,
       "timestamp": "2026-11-19T11:50:04.642467+00:00"
+    },
+    {
+      "main_risk": "The radiotherapy modalities may add no transportable value beyond stage and clinical variables.",
+      "next_test": "Run the prespecified patient- and site-held-out modality-ablation analysis for one locked treatment decision.",
+      "opponent": 66,
+      "outcome": "win",
+      "reason": "Radiotherapy decision value has a clearer clinical anchor, stronger baselines, an explicit net-benefit endpoint, and an informative multisite validation path; the glioblastoma architecture problem depends more heavily on unstable spatial features and external assay transportability.",
+      "target": 123,
+      "timestamp": "2026-11-19T20:44:46.446868+00:00"
+    },
+    {
+      "main_risk": "The required longitudinal multisite radiotherapy cohort and consistent treatment-decision labels may not be available.",
+      "next_test": "Audit availability and harmonization of a multisite cohort, then evaluate one prespecified decision using locked patient-level splits.",
+      "opponent": 122,
+      "outcome": "win",
+      "reason": "The radiotherapy problem offers higher near-term tractability and credible clinical utility with a defined early decision test, whereas the perivascular mechanism requires paired biopsies, cross-regimen reproducibility, and causal perturbation before its value is established.",
+      "target": 123,
+      "timestamp": "2026-11-19T20:44:46.446886+00:00"
+    },
+    {
+      "main_risk": "Additional radiomics, EBV DNA, or longitudinal imaging may fail to improve calibrated net benefit over clinical staging.",
+      "next_test": "Compare the clinical baseline with each modality addition in a frozen, patient- and site-held-out cohort.",
+      "opponent": 141,
+      "outcome": "win",
+      "reason": "Radiotherapy decision value is closer to an actionable, clinically relevant endpoint and has stronger validation safeguards; the virtual-cell proposal has substantial causal-identifiability and prospective perturbation risk despite its scientific potential.",
+      "target": 123,
+      "timestamp": "2026-11-19T20:44:46.446892+00:00"
+    },
+    {
+      "main_risk": "The multimodal radiotherapy signal may be redundant or nontransportable across institutions.",
+      "next_test": "Perform the locked external modality-ablation and calibration analysis for one radiotherapy decision.",
+      "opponent": 93,
+      "outcome": "win",
+      "reason": "Radiotherapy provides a broader, clinically consequential problem with flexible modality selection and an early decision-value readout; the bioenergetic virtual-cell problem is narrower and requires several difficult measurements to distinguish correlated causal intermediates.",
+      "target": 123,
+      "timestamp": "2026-11-19T20:44:46.446898+00:00"
+    },
+    {
+      "main_risk": "Clinical treatment thresholds and endpoint definitions may not be sufficiently standardized for a valid decision-value test.",
+      "next_test": "Predefine one treatment decision and assess whether any added modality improves external net benefit and calibration over the clinical baseline.",
+      "opponent": 91,
+      "outcome": "win",
+      "reason": "Radiotherapy has a clearer translational anchor, stronger simple baselines, and an explicit utility-based stop rule; kinetic virtual-cell modeling remains dependent on high-risk identifiability of latent transcriptional states and reliable transfer to unseen perturbations.",
+      "target": 123,
+      "timestamp": "2026-11-19T20:44:46.446902+00:00"
     }
   ],
   "k_factor": 24,
@@ -2887,17 +2887,17 @@
     },
     "122": {
       "draws": 0,
-      "games": 14,
-      "losses": 6,
-      "rating": 1524.19,
+      "games": 15,
+      "losses": 7,
+      "rating": 1512.58,
       "wins": 8
     },
     "123": {
       "draws": 0,
-      "games": 6,
+      "games": 11,
       "losses": 2,
-      "rating": 1523.53,
-      "wins": 4
+      "rating": 1579.89,
+      "wins": 9
     },
     "124": {
       "draws": 0,
@@ -3027,9 +3027,9 @@
     },
     "141": {
       "draws": 0,
-      "games": 6,
-      "losses": 2,
-      "rating": 1525.25,
+      "games": 7,
+      "losses": 3,
+      "rating": 1514.01,
       "wins": 4
     },
     "142": {
@@ -3426,9 +3426,9 @@
     },
     "66": {
       "draws": 0,
-      "games": 24,
-      "losses": 11,
-      "rating": 1523.47,
+      "games": 25,
+      "losses": 12,
+      "rating": 1511.47,
       "wins": 13
     },
     "67": {
@@ -3622,9 +3622,9 @@
     },
     "91": {
       "draws": 0,
-      "games": 20,
-      "losses": 9,
-      "rating": 1527.96,
+      "games": 21,
+      "losses": 10,
+      "rating": 1517.38,
       "wins": 11
     },
     "92": {
@@ -3636,9 +3636,9 @@
     },
     "93": {
       "draws": 0,
-      "games": 24,
-      "losses": 11,
-      "rating": 1527.34,
+      "games": 25,
+      "losses": 12,
+      "rating": 1516.41,
       "wins": 13
     },
     "94": {
