@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Ex vivo response may not preserve in-patient treatment benefit despite cross-site assay agreement.",
-      "next_test": "Run the locked two-laboratory blinded replicate and patient-level rank-concordance pilot before reading clinical outcomes.",
-      "opponent": 100,
-      "outcome": "loss",
-      "reason": "Decision-preserving assay transportability is a clearer, more testable problem with a concrete two-site reproducibility test and useful failure outcomes, whereas treatment recommendations require difficult causal adjustment and several high-risk assumptions.",
-      "target": 99,
-      "timestamp": "2026-10-30T01:07:06.264141+00:00"
-    },
-    {
-      "main_risk": "Observed treatment outcomes may be too confounded to evaluate recommendation quality or treatment benefit credibly.",
-      "next_test": "Evaluate locked abstaining and forced models on an independent institution and temporal treatment-shift cohort with selective-risk and calibration metrics.",
-      "opponent": 101,
-      "outcome": "win",
-      "reason": "Abstention-calibrated recommendations have a shorter, decision-relevant benchmark and can yield actionable safety, calibration, or failure results; longitudinal resistance timing requires costly paired samples and difficult separation of treatment-induced damage from selection.",
-      "target": 99,
-      "timestamp": "2026-10-30T01:07:06.264161+00:00"
-    },
-    {
-      "main_risk": "The fibrosis reference standard may be unreliable, inconsistently available, or partly entangled with post-outcome information.",
-      "next_test": "Run the locked multi-site nested benchmark comparing the clinical-laboratory baseline with sequential modality additions at a prespecified threshold.",
-      "opponent": 76,
-      "outcome": "loss",
-      "reason": "Population- and site-calibrated fibrosis triage has a stable clinical anchor, strong simple baselines, explicit modality-ablation logic, and a credible external-validation pathway without forcing a fully autonomous treatment recommendation.",
-      "target": 99,
-      "timestamp": "2026-10-30T01:07:06.264171+00:00"
-    },
-    {
-      "main_risk": "Spatial features may merely proxy target density, tumor burden, immune composition, or specimen quality rather than provide independent predictive information.",
-      "next_test": "Test a prespecified stromal-obstruction and target-adjacency score against composition and clinical baselines in a locked patient-level development and held-out cohort analysis.",
-      "opponent": 57,
-      "outcome": "loss",
-      "reason": "Spatial architecture offers a focused incremental biological question with patient-level validation, strong composition-only baselines, negative controls, and orthogonal functional tests; it is less operationally and causally overextended than automated treatment recommendation.",
-      "target": 99,
-      "timestamp": "2026-10-30T01:07:06.264178+00:00"
-    },
-    {
-      "main_risk": "SECmere performance may reflect isolation batch effects, unequal RNA yield, contamination, or case-control spectrum rather than a transportable biological signal.",
-      "next_test": "Run the blinded paired-sample pilot with technical replicates comparing SECmere, small-EV, clinical, and fused models before external validation.",
-      "opponent": 85,
-      "outcome": "loss",
-      "reason": "SECmere triage has a sharply defined incremental-value question, paired particle-fraction controls, a cheap blinded pilot, and informative technical or clinical failure branches; the recommendation project carries greater causal and safety-validation burden.",
-      "target": 99,
-      "timestamp": "2026-10-30T01:07:06.264185+00:00"
-    },
-    {
       "main_risk": "Cross-site assay concordance may not predict actual patient treatment benefit.",
       "next_test": "Run the locked two-laboratory blinded pilot with replicate specimens and compare patient-level treatment rankings.",
       "opponent": 55,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 139 has a sharper anchor, an existing genetically diverse matched resource, and an earlier falsifiable test. Issue 117 is important but requires patient-level replication of treatment-induced transitions across therapies and platforms, with substantial risk that survival, cell cycle, or batch artifacts explain the signal.",
       "target": 139,
       "timestamp": "2026-11-19T02:37:48.102749+00:00"
+    },
+    {
+      "main_risk": "Confidence may detect assay or distributional similarity rather than biological prediction error.",
+      "next_test": "Run the preregistered 30-condition prospective panel with confidence-ranked and abstained predictions against held-out single-cell responses.",
+      "opponent": 84,
+      "outcome": "win",
+      "reason": "Abstention for unsupported virtual-cell extrapolation has broader technological impact, a clear reliability anchor, and useful negative outcomes across multiple perturbation shifts; anesthesia prediction faces a less established clinical endpoint and difficult site transportability.",
+      "target": 138,
+      "timestamp": "2026-11-19T11:50:04.642420+00:00"
+    },
+    {
+      "main_risk": "The required perturbation and context datasets may not support genuinely independent stress tests or prospective validation.",
+      "next_test": "Evaluate locked support scores on patient- and experiment-separated unseen combinations, compounds, doses, and contexts before funding prospective assays.",
+      "opponent": 83,
+      "outcome": "win",
+      "reason": "The virtual-cell problem offers substantially broader reusable insight and stronger competitive leverage, with a direct early test; the natalizumab idea is clinically focused but depends on confounded lymphocyte trajectories, antibody-testing utility, and external calibration.",
+      "target": 138,
+      "timestamp": "2026-11-19T11:50:04.642446+00:00"
+    },
+    {
+      "main_risk": "The support score may be generic distribution-shift detection rather than evidence of counterfactual biological reliability.",
+      "next_test": "Compare confidence-ranked selective risk across strictly separated perturbation families and contexts using existing datasets before prospective experiments.",
+      "opponent": 63,
+      "outcome": "loss",
+      "reason": "The UCHL1 neighborhood hypothesis is biologically differentiated and clinically meaningful, but requires several linked spatial, temporal, causal, and cohort assumptions. Abstention reliability has broader applicability and can produce a useful benchmark even if the hypothesis fails.",
+      "target": 138,
+      "timestamp": "2026-11-19T11:50:04.642455+00:00"
+    },
+    {
+      "main_risk": "No non-circular, transportable reference standard may be sufficiently reliable for small-fiber neuropathy classification.",
+      "next_test": "Run the site-held-out pilot with blinded image-quality adjudication and compare imaging against the strongest clinical and neurophysiological baseline.",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "Corneal imaging has a concrete clinical decision, an established measurement modality, strong simple baselines, and a feasible site-held-out test. The virtual-cell proposal is broader but depends on multiple difficult extrapolation regimes and a costly prospective panel.",
+      "target": 138,
+      "timestamp": "2026-11-19T11:50:04.642461+00:00"
+    },
+    {
+      "main_risk": "Independent cohorts may be insufficient to separate biological extrapolation failure from dataset and assay shift.",
+      "next_test": "Perform a preregistered, patient- and experiment-separated selective-prediction benchmark across unseen perturbation families, including strong non-abstaining baselines.",
+      "opponent": 17,
+      "outcome": "loss",
+      "reason": "The virtual-cell project addresses a broad and difficult-to-replace reliability gap with informative branches across many perturbation settings. The lymphoma study is rigorous but mainly benchmarks a modest incremental value claim whose external cohort and spatial reproducibility may be limiting.",
+      "target": 138,
+      "timestamp": "2026-11-19T11:50:04.642467+00:00"
     }
   ],
   "k_factor": 24,
@@ -3006,10 +3006,10 @@
     },
     "138": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
-      "rating": 1555.43,
-      "wins": 5
+      "games": 10,
+      "losses": 2,
+      "rating": 1565.42,
+      "wins": 8
     },
     "139": {
       "draws": 0,
@@ -3055,10 +3055,10 @@
     },
     "17": {
       "draws": 0,
-      "games": 26,
+      "games": 27,
       "losses": 10,
-      "rating": 1561.95,
-      "wins": 16
+      "rating": 1574.5,
+      "wins": 17
     },
     "18": {
       "draws": 1,
@@ -3160,9 +3160,9 @@
     },
     "31": {
       "draws": 0,
-      "games": 32,
-      "losses": 13,
-      "rating": 1559.99,
+      "games": 33,
+      "losses": 14,
+      "rating": 1548.2,
       "wins": 19
     },
     "32": {
@@ -3405,10 +3405,10 @@
     },
     "63": {
       "draws": 0,
-      "games": 19,
+      "games": 20,
       "losses": 7,
-      "rating": 1558.14,
-      "wins": 12
+      "rating": 1570.86,
+      "wins": 13
     },
     "64": {
       "draws": 0,
@@ -3559,16 +3559,16 @@
     },
     "83": {
       "draws": 0,
-      "games": 15,
-      "losses": 5,
-      "rating": 1553.55,
+      "games": 16,
+      "losses": 6,
+      "rating": 1542.03,
       "wins": 10
     },
     "84": {
       "draws": 0,
-      "games": 17,
-      "losses": 6,
-      "rating": 1554.1,
+      "games": 18,
+      "losses": 7,
+      "rating": 1542.15,
       "wins": 11
     },
     "85": {
