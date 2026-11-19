@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "PCOS labels or hormonal measurements may encode the diagnostic assessment or fail to transport across sites.",
-      "next_test": "Run locked nested patient-level models on an external cohort, measuring incremental calibration and decision-curve net benefit beyond clinical and reproductive variables.",
-      "opponent": 73,
-      "outcome": "loss",
-      "reason": "PCOS triage has clearer near-term clinical decision value, patient-level validation, strong baselines, and a relatively cheap multicenter retrospective test; the virtual-cell project depends on costly, technically fragile kinetic identifiability.",
-      "target": 91,
-      "timestamp": "2026-10-29T18:31:56.209461+00:00"
-    },
-    {
-      "main_risk": "Ultrasound measurements may not be reproducible across operators and devices, eliminating incremental value.",
-      "next_test": "Conduct a site-held-out pilot comparing standardized clinical assessment with clinical plus ultrasound using a blinded, independently adjudicated difficult-airway endpoint.",
-      "opponent": 78,
-      "outcome": "loss",
-      "reason": "Airway risk stratification has a clearer pre-induction use case, established clinical baselines, and an early patient-level pilot that can test calibration and net benefit; the virtual-cell project has multiple high-risk assay and latent-state assumptions.",
-      "target": 91,
-      "timestamp": "2026-10-29T18:31:56.209486+00:00"
-    },
-    {
-      "main_risk": "The UCHL1 spatial neighborhood may reflect disease severity or correlated immune composition rather than a transferable resistance mechanism.",
-      "next_test": "Profile pretreatment and early-treatment biopsies with locked multiplex imaging and test patient-level incremental prediction over plasma UCHL1, composition, and clinical covariates.",
-      "opponent": 63,
-      "outcome": "loss",
-      "reason": "The HCC project has a more specific biomarker anchor, stronger evidence readiness, a clinically relevant resistance endpoint, and an early spatial assay test with orthogonal validation branches; the virtual-cell project is broader but substantially more technically uncertain.",
-      "target": 91,
-      "timestamp": "2026-10-29T18:31:56.209496+00:00"
-    },
-    {
-      "main_risk": "Spatial co-localization may add no information beyond tumor-intrinsic immune competence and CD8 abundance, or fail across assay platforms.",
-      "next_test": "Run a preregistered pilot with replicate-section imaging and patient-level held-out response prediction against IGF2BP3, MHC-I, CD8, and bulk immune baselines.",
-      "opponent": 61,
-      "outcome": "loss",
-      "reason": "The TNBC project offers a concrete patient-level predictive question, strong non-spatial baselines, randomized spatial controls, and a defined pilot reproducibility test; it is a more focused investment than the virtual-cell program's broad identifiability challenge.",
-      "target": 91,
-      "timestamp": "2026-10-29T18:31:56.209503+00:00"
-    },
-    {
-      "main_risk": "The reference standard may be circular or corneal imaging may be irreproducible across devices and sites.",
-      "next_test": "Perform a site-held-out pilot with blinded reference-standard adjudication, duplicate imaging, and comparison against clinical plus neurophysiological baselines.",
-      "opponent": 31,
-      "outcome": "loss",
-      "reason": "Corneal nerve imaging has a defined clinical pathway, established comparators, site-held-out validation, and an early test of reproducibility plus decision value; the virtual-cell study requires several expensive experiments before its causal states are identifiable.",
-      "target": 91,
-      "timestamp": "2026-10-29T18:31:56.209510+00:00"
-    },
-    {
       "main_risk": "Ex vivo response may not preserve in-patient treatment benefit despite cross-site assay agreement.",
       "next_test": "Run the locked two-laboratory blinded replicate and patient-level rank-concordance pilot before reading clinical outcomes.",
       "opponent": 100,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 143 is the stronger general investment because it tests causal counterfactual portability across regulatory contexts rather than incremental annotation of heterogeneous FFPE specimens. Its matched baseline-perturbation anchor and holdout design provide a clearer falsification route.",
       "target": 143,
       "timestamp": "2026-11-18T20:39:25.446467+00:00"
+    },
+    {
+      "main_risk": "The stem-cell/cadmium panel may not generalize to human disease or broader perturbations.",
+      "next_test": "Perform preregistered leave-one-line and leave-one-state-by-perturbation-out tests against interaction-free and nearest-neighbor baselines, including calibration.",
+      "opponent": 18,
+      "outcome": "win",
+      "reason": "Issue 139 has a clearer, cheaper early test using an existing matched genetic and state-transition resource, with useful transferability results even if model gains fail. Issue 18 has greater clinical upside but requires difficult multi-site spatial sampling, treatment timing, and external validation.",
+      "target": 139,
+      "timestamp": "2026-11-19T02:37:48.102701+00:00"
+    },
+    {
+      "main_risk": "Held-out genotype-state combinations may test interpolation or baseline similarity rather than true biological extrapolation.",
+      "next_test": "Evaluate interaction-aware transfer on complete held-out lines and state-perturbation combinations, then compare effect ranking and uncertainty with simple baselines.",
+      "opponent": 113,
+      "outcome": "win",
+      "reason": "Issue 139 offers a more tractable six-month discovery study with defined donor-level leakage controls, strong baselines, and an eight-week discriminating test. Issue 113 has higher potential clinical value but depends on scarce matched longitudinal samples, reproducible cross-patient transitions, and external prediction of resistance modes.",
+      "target": 139,
+      "timestamp": "2026-11-19T02:37:48.102724+00:00"
+    },
+    {
+      "main_risk": "Genetic diversity in the embryonic-stem-cell panel may not capture regulatory variation relevant to general transferability.",
+      "next_test": "Estimate genotype-by-perturbation interactions with whole-line holdouts and replicate selected conserved and context-specific effects in independent lines.",
+      "opponent": 101,
+      "outcome": "win",
+      "reason": "Issue 139 has a lower-risk and earlier decision path based on an existing diversity panel. Issue 101 requires paired baseline-relapse material, causal separation of treatment selection from damage and sampling effects, and proof that timing changes salvage decisions—several long-readout assumptions.",
+      "target": 139,
+      "timestamp": "2026-11-19T02:37:48.102737+00:00"
+    },
+    {
+      "main_risk": "The virtual-cell transfer question may yield limited biological insight if genotype and state effects are dominated by baseline expression or batch.",
+      "next_test": "Run the eight-week held-out-line/state experiment with genotype-only, state-only, nearest-neighbor, and interaction-aware models, using calibration and distance-stratified performance.",
+      "opponent": 127,
+      "outcome": "loss",
+      "reason": "Issue 139 is better suited to six months because the core data and validation structure are comparatively accessible and a result remains useful as a transferability map. Issue 127 has substantial clinical value but depends on reproducible multi-compartment urine assays, consistent endpoints, multi-site transportability, and incremental decision benefit.",
+      "target": 139,
+      "timestamp": "2026-11-19T02:37:48.102743+00:00"
+    },
+    {
+      "main_risk": "The proposed interaction model may not recover conserved regulatory effects beyond broad stress or baseline-state signatures.",
+      "next_test": "Predefine transition and perturbation splits, compare interaction-aware predictions with state-only and nearest-neighbor baselines, and assess whether uncertainty tracks transfer failure.",
+      "opponent": 117,
+      "outcome": "win",
+      "reason": "Issue 139 has a sharper anchor, an existing genetically diverse matched resource, and an earlier falsifiable test. Issue 117 is important but requires patient-level replication of treatment-induced transitions across therapies and platforms, with substantial risk that survival, cell cycle, or batch artifacts explain the signal.",
+      "target": 139,
+      "timestamp": "2026-11-19T02:37:48.102749+00:00"
     }
   ],
   "k_factor": 24,
@@ -2726,9 +2726,9 @@
     },
     "101": {
       "draws": 0,
-      "games": 15,
-      "losses": 8,
-      "rating": 1488.71,
+      "games": 16,
+      "losses": 9,
+      "rating": 1477.91,
       "wins": 7
     },
     "102": {
@@ -2817,9 +2817,9 @@
     },
     "113": {
       "draws": 0,
-      "games": 13,
-      "losses": 7,
-      "rating": 1489.14,
+      "games": 14,
+      "losses": 8,
+      "rating": 1477.94,
       "wins": 6
     },
     "114": {
@@ -2845,9 +2845,9 @@
     },
     "117": {
       "draws": 0,
-      "games": 12,
-      "losses": 5,
-      "rating": 1523.36,
+      "games": 13,
+      "losses": 6,
+      "rating": 1511.31,
       "wins": 7
     },
     "118": {
@@ -2922,10 +2922,10 @@
     },
     "127": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 4,
-      "rating": 1518.82,
-      "wins": 6
+      "rating": 1531.36,
+      "wins": 7
     },
     "128": {
       "draws": 0,
@@ -3013,10 +3013,10 @@
     },
     "139": {
       "draws": 0,
-      "games": 4,
-      "losses": 2,
-      "rating": 1500.78,
-      "wins": 2
+      "games": 9,
+      "losses": 3,
+      "rating": 1533.9,
+      "wins": 6
     },
     "140": {
       "draws": 0,
@@ -3062,9 +3062,9 @@
     },
     "18": {
       "draws": 1,
-      "games": 36,
-      "losses": 18,
-      "rating": 1489.57,
+      "games": 37,
+      "losses": 19,
+      "rating": 1477.96,
       "wins": 17
     },
     "19": {
