@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The ratiometric signal may not preserve patient-level biology across platforms or add value beyond clinical risk and MRD.",
-      "next_test": "Blindly test matched diagnostic samples on both assays and evaluate locked prediction of early MRD against prespecified clinical baselines.",
-      "opponent": 103,
-      "outcome": "win",
-      "reason": "Issue 102 has a narrower, clinically anchored question, strong patient-level validation safeguards, and a relatively cheap paired external-assay test. Issue 103 depends on accurate exposure measurement, causal attribution, and successful exposure correction before its clinical value can be read out.",
-      "target": 102,
-      "timestamp": "2026-10-30T22:26:49.803269+00:00"
-    },
-    {
-      "main_risk": "Cross-platform assay concordance and incremental value may fail despite associations in the original setting.",
-      "next_test": "Run locked paired-assay evaluation in an independent cohort, with patient-level splitting, calibration, and comparison against clinical-risk baselines.",
-      "opponent": 104,
-      "outcome": "win",
-      "reason": "Issue 102 offers a clearer transportability problem, stronger immediate assay-validation design, and less dependence on adequate sex-stratified sample sizes and disentangling biological effects from treatment and cohort confounding.",
-      "target": 102,
-      "timestamp": "2026-10-30T22:26:49.803289+00:00"
-    },
-    {
-      "main_risk": "The functional response metric may not transport or improve on clinical risk and MRD.",
-      "next_test": "Blindly evaluate the locked ratiometric metric on paired samples using an independent assay and external MRD outcomes.",
-      "opponent": 101,
-      "outcome": "win",
-      "reason": "Issue 102 has a shorter, more decisive external-validation path and a tractable fixed anchor. Issue 101 has greater potential causal and clinical impact but requires scarce paired longitudinal specimens, separation of treatment-induced damage from selection, and treatment-specific salvage-effect evidence.",
-      "target": 102,
-      "timestamp": "2026-10-30T22:26:49.803298+00:00"
-    },
-    {
-      "main_risk": "The proposed ratiometric signal may be assay-specific rather than a reproducible patient-level sensitivity measure.",
-      "next_test": "Perform the prespecified 10-week paired microfluidic and orthogonal-assay test with locked MRD prediction.",
-      "opponent": 93,
-      "outcome": "win",
-      "reason": "Issue 102 is closer to an actionable, testable validation question with established baselines and an external cohort. Issue 93 could yield a broadly useful technology, but mechanism identifiability depends on difficult measurement of correlated bioenergetic intermediates and successful prediction of unseen rescues.",
-      "target": 102,
-      "timestamp": "2026-10-30T22:26:49.803305+00:00"
-    },
-    {
-      "main_risk": "The external cohort may show no calibrated incremental value beyond clinical risk, MRD, or simpler response summaries.",
-      "next_test": "Blindly evaluate the locked ratiometric metric on an independent patient cohort and orthogonal assay against prespecified single-agent, clinical-risk, and MRD baselines.",
-      "opponent": 55,
-      "outcome": "win",
-      "reason": "Issue 102 provides a more immediate and falsifiable investment through external clinical and orthogonal-assay validation. Issue 55 is mechanistically compelling, but requires biochemical engagement to translate into cellular response and then into reliable resistance-mechanism prediction across genetic backgrounds.",
-      "target": 102,
-      "timestamp": "2026-10-30T22:26:49.803316+00:00"
-    },
-    {
       "main_risk": "Adequately sized, genuinely independent checkpoint-treated cohorts may not support stable sex-specific calibration.",
       "next_test": "Run the locked feature set on two independent cohorts, reporting patient- and site-held-out calibration and decision benefit by sex.",
       "opponent": 101,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 144 is better anchored by a likely available Perturb-seq benchmark and has broader reuse than the highly assumption-heavy, multi-cohort spatial mechanism in 122.",
       "target": 144,
       "timestamp": "2026-11-20T02:23:26.636016+00:00"
+    },
+    {
+      "main_risk": "Pharmacologic inhibition, supplementation, and knockout may differ because of off-target or downstream effects rather than ARG2-specific biology.",
+      "next_test": "Run the prespecified matched-donor oxygen-by-intervention factorial experiment with orthogonal ARG2 activity and functional readouts.",
+      "opponent": 145,
+      "outcome": "loss",
+      "reason": "ARG2 offers broader translational impact and directly tests whether distinct interventions have separable, actionable effects across donor and hypoxia contexts.",
+      "target": 146,
+      "timestamp": "2026-11-20T11:51:01.370042+00:00"
+    },
+    {
+      "main_risk": "The genotype-by-stress interaction may not generalize beyond the mouse conjunctival model or may fail orthogonal validation.",
+      "next_test": "Measure the held-out intermediate stress response in matched knockout and control animals with transcriptomic plus protein or morphology readouts.",
+      "opponent": 18,
+      "outcome": "loss",
+      "reason": "SPDEF has a clearer causal anchor, controlled factorial design, stronger early stopping criteria, and a substantially cheaper route to distinguishing biology from injury and batch effects.",
+      "target": 146,
+      "timestamp": "2026-11-20T11:51:01.370065+00:00"
+    },
+    {
+      "main_risk": "The proposed virtual-cell interpolation may be an unidentifiable endpoint effect rather than a transportable genotype-by-stress program.",
+      "next_test": "Run the factorial intermediate-dose holdout and test prediction against additive and nearest-stress baselines using an orthogonal assay.",
+      "opponent": 113,
+      "outcome": "loss",
+      "reason": "SPDEF permits an early, well-controlled test of interaction identifiability, whereas the EGFR project depends on difficult longitudinal sampling, state alignment, recurrence across patients, and later resistance readouts.",
+      "target": 146,
+      "timestamp": "2026-11-20T11:51:01.370071+00:00"
+    },
+    {
+      "main_risk": "Paired baseline and relapse profiles may not distinguish therapy selection from sampling, purity, and treatment-exposure confounding.",
+      "next_test": "Blind a locked longitudinal classifier on an independent paired cohort and validate selected clonal timing events with targeted deep sequencing.",
+      "opponent": 101,
+      "outcome": "loss",
+      "reason": "SPDEF has a more tractable causal experiment and earlier decision point; lymphoma resistance timing has high clinical value but requires reliable lineage matching and treatment-effect evidence from sparse paired longitudinal cohorts.",
+      "target": 146,
+      "timestamp": "2026-11-20T11:51:01.370076+00:00"
+    },
+    {
+      "main_risk": "DOK3 may only reflect macrophage abundance or interferon exposure rather than an independent reversible resistance state.",
+      "next_test": "In blinded paired biopsies, test whether DOK3 neighborhood features add patient-level predictive value beyond macrophage abundance and T-cell composition.",
+      "opponent": 114,
+      "outcome": "loss",
+      "reason": "SPDEF is better anchored and easier to falsify prospectively, while DOK3-CARD9 requires reproducible patient-level spatial transitions, response prediction, and functional perturbation in heterogeneous tumors.",
+      "target": 146,
+      "timestamp": "2026-11-20T11:51:01.370080+00:00"
     }
   ],
   "k_factor": 24,
@@ -2726,10 +2726,10 @@
     },
     "101": {
       "draws": 0,
-      "games": 16,
+      "games": 17,
       "losses": 9,
-      "rating": 1477.91,
-      "wins": 7
+      "rating": 1489.05,
+      "wins": 8
     },
     "102": {
       "draws": 0,
@@ -2817,17 +2817,17 @@
     },
     "113": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 8,
-      "rating": 1477.94,
-      "wins": 6
+      "rating": 1489.47,
+      "wins": 7
     },
     "114": {
       "draws": 0,
-      "games": 18,
+      "games": 19,
       "losses": 10,
-      "rating": 1477.44,
-      "wins": 8
+      "rating": 1488.21,
+      "wins": 9
     },
     "115": {
       "draws": 0,
@@ -3055,16 +3055,16 @@
     },
     "145": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "rating": 1500.01,
+      "wins": 1
     },
     "146": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
+      "games": 6,
+      "losses": 6,
+      "rating": 1431.01,
       "wins": 0
     },
     "15": {
@@ -3083,10 +3083,10 @@
     },
     "18": {
       "draws": 1,
-      "games": 37,
+      "games": 38,
       "losses": 19,
-      "rating": 1477.96,
-      "wins": 17
+      "rating": 1489.91,
+      "wins": 18
     },
     "19": {
       "draws": 0,
