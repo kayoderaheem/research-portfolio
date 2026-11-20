@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Spatial features may be patient-, site-, or sampling-specific and add no transportable information beyond composition and clinical covariates.",
-      "next_test": "Before outcome modeling, test leave-one-patient-out reproducibility and batch predictability of the locked spatial feature set.",
-      "opponent": 66,
-      "outcome": "loss",
-      "reason": "Architecture-aware prediction has a clearer technology anchor, an early patient-level stability test, and informative negative outcomes, while the lymphoma study requires several difficult causal and treatment-effect assumptions before clinical value is established.",
-      "target": 101,
-      "timestamp": "2026-10-30T18:04:03.926074+00:00"
-    },
-    {
-      "main_risk": "Longitudinal molecular differences may reflect sampling, purity, lineage, or treatment exposure rather than causal resistance timing.",
-      "next_test": "Run a blinded paired baseline-relapse analysis with lineage and clonality confirmation, then test whether timing features add value over relapse-only and clinical baselines.",
-      "opponent": 89,
-      "outcome": "win",
-      "reason": "Separating pre-existing from therapy-selected resistance addresses a more immediate clinical decision and can exploit paired retrospective samples for an early branch, with useful descriptive value even if treatment prediction fails.",
-      "target": 101,
-      "timestamp": "2026-10-30T18:04:03.926099+00:00"
-    },
-    {
-      "main_risk": "Paired samples may not distinguish therapy selection from sampling and disease-composition changes well enough to support treatment decisions.",
-      "next_test": "Use paired specimens to test whether longitudinal resistance timing is reproducible and predictive beyond relapse-only profiling before pursuing mechanistic niche claims.",
-      "opponent": 67,
-      "outcome": "win",
-      "reason": "The lymphoma problem is broader and less dependent on a specific niche mechanism; it retains value for resistance chronology and sampling-confounding analysis, whereas the neuroblastoma study requires a rare, reproducible Schwann-cell spatial transition and transportable clinical signal.",
-      "target": 101,
-      "timestamp": "2026-10-30T18:04:03.926118+00:00"
-    },
-    {
-      "main_risk": "Nascent RNA and polymerase occupancy may not uniquely identify initiation, pause release, and turnover states.",
-      "next_test": "Collect the dense acute perturbation time course and perform replicate-aware parameter-recovery and held-out perturbation tests against simple state-space baselines.",
-      "opponent": 91,
-      "outcome": "loss",
-      "reason": "Kinetic identifiability offers a strong mechanistic anchor, a relatively cheap dense time-course test, and clear orthogonal validation, with useful outcomes even if virtual-cell transfer fails; the lymphoma project needs larger cohorts and high-risk treatment-effect interaction evidence.",
-      "target": 101,
-      "timestamp": "2026-10-30T18:04:03.926129+00:00"
-    },
-    {
-      "main_risk": "The apparent timing signal may be confounded by sampling and treatment exposure, undermining causal interpretation and salvage selection.",
-      "next_test": "Evaluate a locked longitudinal model in held-out paired patients with orthogonal clonality confirmation and comparison against relapse-only baselines.",
-      "opponent": 98,
-      "outcome": "win",
-      "reason": "Separating resistance timing has greater near-term clinical relevance and broader biological applicability than a narrowly specified cooperative histone-code model requiring many coordinated assays and context transfer.",
-      "target": 101,
-      "timestamp": "2026-10-30T18:04:03.926143+00:00"
-    },
-    {
       "main_risk": "The ratiometric signal may not preserve patient-level biology across platforms or add value beyond clinical risk and MRD.",
       "next_test": "Blindly test matched diagnostic samples on both assays and evaluate locked prediction of early MRD against prespecified clinical baselines.",
       "opponent": 103,
@@ -2699,6 +2654,51 @@
       "reason": "Radiotherapy has a clearer translational anchor, stronger simple baselines, and an explicit utility-based stop rule; kinetic virtual-cell modeling remains dependent on high-risk identifiability of latent transcriptional states and reliable transfer to unseen perturbations.",
       "target": 123,
       "timestamp": "2026-11-19T20:44:46.446902+00:00"
+    },
+    {
+      "main_risk": "Perturbation embeddings may not capture enough functional similarity to explain observed error.",
+      "next_test": "A sealed target-held-out Perturb-seq benchmark stratified by perturbation-neighborhood coverage and calibrated against fixed and nearest-neighbor baselines.",
+      "opponent": 145,
+      "outcome": "win",
+      "reason": "Issue 144 offers a reusable out-of-distribution gate for virtual-cell predictions with a faster, more general benchmark than the donor-dependent, dose-context-specific CAR-T experiment.",
+      "target": 144,
+      "timestamp": "2026-11-20T02:23:26.635983+00:00"
+    },
+    {
+      "main_risk": "Coverage associations may be dataset- or perturbation-family-specific rather than a transferable identifiability signal.",
+      "next_test": "A prospectively locked 8-week target-held-out or mouse-factory external benchmark that measures coverage-error association and calibration before any threshold tuning.",
+      "opponent": 146,
+      "outcome": "win",
+      "reason": "Issue 144 has broader technology leverage and a cleaner observable benchmark; issue 146 is valuable discovery research but is narrower to conjunctival SPDEF biology and more vulnerable to assay and injury confounding.",
+      "target": 144,
+      "timestamp": "2026-11-20T02:23:26.636001+00:00"
+    },
+    {
+      "main_risk": "A coverage signal could reflect perturbation difficulty or assay effects rather than representation identifiability.",
+      "next_test": "A preregistered independent-library replication of coverage-stratified error and fixed-versus-adaptive predictor calibration.",
+      "opponent": 117,
+      "outcome": "win",
+      "reason": "Both are strong reusable discovery investments, but 144 can test a general abstention or selection principle directly without waiting for scarce paired patient residual-disease outcomes.",
+      "target": 144,
+      "timestamp": "2026-11-20T02:23:26.636008+00:00"
+    },
+    {
+      "main_risk": "Held-out perturbations may lack stable coverage strata or sufficient neighborhood diversity.",
+      "next_test": "Audit prospective perturbation-neighborhood coverage and test one sealed held-out library for calibration and error separation.",
+      "opponent": 66,
+      "outcome": "win",
+      "reason": "Issue 144 tests a general and directly measurable virtual-cell failure mode, whereas 66 depends on patient-specific spatial architecture, external cohort access, and incremental response prediction, with substantial batch and geometry risks.",
+      "target": 144,
+      "timestamp": "2026-11-20T02:23:26.636012+00:00"
+    },
+    {
+      "main_risk": "Embeddings could encode target difficulty, batch, or library structure rather than identifiable response information.",
+      "next_test": "An 8-week target-held-out benchmark with coverage thresholds locked before outcome evaluation and an independent perturbation library for replication.",
+      "opponent": 122,
+      "outcome": "win",
+      "reason": "Issue 144 is better anchored by a likely available Perturb-seq benchmark and has broader reuse than the highly assumption-heavy, multi-cohort spatial mechanism in 122.",
+      "target": 144,
+      "timestamp": "2026-11-20T02:23:26.636016+00:00"
     }
   ],
   "k_factor": 24,
@@ -2845,9 +2845,9 @@
     },
     "117": {
       "draws": 0,
-      "games": 13,
-      "losses": 6,
-      "rating": 1511.31,
+      "games": 14,
+      "losses": 7,
+      "rating": 1499.73,
       "wins": 7
     },
     "118": {
@@ -2887,9 +2887,9 @@
     },
     "122": {
       "draws": 0,
-      "games": 15,
-      "losses": 7,
-      "rating": 1512.58,
+      "games": 16,
+      "losses": 8,
+      "rating": 1501.74,
       "wins": 8
     },
     "123": {
@@ -3045,6 +3045,27 @@
       "losses": 5,
       "rating": 1454.32,
       "wins": 1
+    },
+    "144": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1557.19,
+      "wins": 5
+    },
+    "145": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "146": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
     },
     "15": {
       "draws": 1,
@@ -3426,9 +3447,9 @@
     },
     "66": {
       "draws": 0,
-      "games": 25,
-      "losses": 12,
-      "rating": 1511.47,
+      "games": 26,
+      "losses": 13,
+      "rating": 1500.29,
       "wins": 13
     },
     "67": {
