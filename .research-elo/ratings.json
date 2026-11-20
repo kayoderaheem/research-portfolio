@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Adequately sized, genuinely independent checkpoint-treated cohorts may not support stable sex-specific calibration.",
-      "next_test": "Run the locked feature set on two independent cohorts, reporting patient- and site-held-out calibration and decision benefit by sex.",
-      "opponent": 101,
-      "outcome": "win",
-      "reason": "Sex-stratified transportability has a clearer six-month retrospective test, stronger leakage-resistant validation plan, and a more credible early decision point than the paired longitudinal resistance project, whose causal timing and treatment-effect claims require several difficult assumptions.",
-      "target": 104,
-      "timestamp": "2026-10-31T05:53:31.848127+00:00"
-    },
-    {
-      "main_risk": "Observed sex effects may disappear after adjustment for clinical composition, treatment exposure, and assay batch.",
-      "next_test": "Perform the prespecified external-cohort evaluation with subgroup calibration against clinical, established-biomarker, and bulk-signature baselines.",
-      "opponent": 93,
-      "outcome": "win",
-      "reason": "The transportability problem is more investable now: its measurements and baselines are established, and external validation can quickly distinguish biological heterogeneity from confounding. The virtual-cell project has broader technological upside but depends on difficult mediator identifiability and bespoke matched assays.",
-      "target": 104,
-      "timestamp": "2026-10-31T05:53:31.848147+00:00"
-    },
-    {
-      "main_risk": "Sex-specific performance differences may be unstable or attributable to cohort composition rather than biology.",
-      "next_test": "Evaluate the locked immune-response features externally with prespecified adjustment, calibration, and net-benefit analyses by sex.",
-      "opponent": 103,
-      "outcome": "win",
-      "reason": "Sex-stratified transportability offers a clearer evidence-ready path, including independent cohorts, strong baselines, and an early retrospective decision. Pharmacogenomic phenoconversion could have high clinical value but requires prospective pharmacokinetics, accurate active-exposure measurement, and a difficult within-patient response correction test.",
-      "target": 104,
-      "timestamp": "2026-10-31T05:53:31.848157+00:00"
-    },
-    {
-      "main_risk": "Spatial or morphology-derived signals may not add robust information beyond clinical and established biomarker baselines.",
-      "next_test": "Run a locked two-cohort evaluation comparing pooled, interaction, and sex-stratified models against clinical, PD-L1, bulk, and morphology baselines.",
-      "opponent": 55,
-      "outcome": "win",
-      "reason": "Transportability across sex and cohorts is a more immediately testable clinical problem with clearer data requirements and earlier readout. Mutation-specific target engagement is potentially more mechanistically powerful, but biochemical comparability, lineage context, and resistance classification create a longer chain of high-risk assumptions.",
-      "target": 104,
-      "timestamp": "2026-10-31T05:53:31.848164+00:00"
-    },
-    {
-      "main_risk": "Available external cohorts may be too small or imbalanced for reliable subgroup calibration and interaction estimates.",
-      "next_test": "Conduct the locked external-cohort test with patient- and institution-aware splits, subgroup calibration, and decision-curve comparison to established baselines.",
-      "opponent": 37,
-      "outcome": "win",
-      "reason": "Sex-stratified transportability has a concrete external-validation experiment and useful outcomes even if the sex hypothesis fails. The virtual-cell regulatory-state project has greater technology ambition, but multimodal alignment, unseen perturbation generalization, and functional falsification require more costly and uncertain prospective work.",
-      "target": 104,
-      "timestamp": "2026-10-31T05:53:31.848175+00:00"
-    },
-    {
       "main_risk": "Therapy-selected evolution may remain inseparable from treatment-induced damage, sampling variation, or disease burden.",
       "next_test": "Run a blinded paired baseline-relapse analysis with locked signatures, held-out patients, and orthogonal clonality confirmation.",
       "opponent": 101,
@@ -2699,6 +2654,51 @@
       "reason": "SPDEF is better anchored and easier to falsify prospectively, while DOK3-CARD9 requires reproducible patient-level spatial transitions, response prediction, and functional perturbation in heterogeneous tumors.",
       "target": 146,
       "timestamp": "2026-11-20T11:51:01.370080+00:00"
+    },
+    {
+      "main_risk": "Spatial architecture may be reproducible only within sites or patients.",
+      "next_test": "Construct the locked architecture feature set and test incremental prediction against composition and clinical baselines in an external patient cohort.",
+      "opponent": 66,
+      "outcome": "loss",
+      "reason": "Issue 66 has a clearer fixed anchor: incremental transportable spatial information beyond composition. It offers cheaper negative controls and patient-level external validation, whereas 145 requires a large donor factorial and risks correlated mechanisms.",
+      "target": 145,
+      "timestamp": "2026-11-20T20:29:12.592412+00:00"
+    },
+    {
+      "main_risk": "ARG2 perturbation signatures may remain highly correlated or donor-specific.",
+      "next_test": "Run the matched-donor factorial and test whether held-out dose-context predictions improve over the prespecified simple baselines.",
+      "opponent": 117,
+      "outcome": "win",
+      "reason": "Issue 145 provides a faster, more controlled discriminating experiment with knockout, supplementation, inhibition, oxygen, and donor controls. Issue 117 faces longer and harder state-mapping, survival, and cross-cohort reproducibility assumptions.",
+      "target": 145,
+      "timestamp": "2026-11-20T20:29:12.592430+00:00"
+    },
+    {
+      "main_risk": "The human perivascular transition may be neither longitudinally stable nor independently predictive.",
+      "next_test": "In a single multiplex-imaging pilot, test whether the prespecified perivascular transition adds patient-level prediction beyond composition and chemotherapy exposure.",
+      "opponent": 122,
+      "outcome": "win",
+      "reason": "Issue 145 has stronger experimental identifiability and a six-week factorial test. Issue 122 depends on obtaining matched human biopsies across cohorts and resolving exposure, inflammation, site, regimen, and recruitment effects.",
+      "target": 145,
+      "timestamp": "2026-11-20T20:29:12.592437+00:00"
+    },
+    {
+      "main_risk": "A spatial glycolytic-inflammatory program may only be detectable after composition and site effects are accounted for.",
+      "next_test": "Test the predefined spatial neighborhood score in pretreatment biopsies against composition-only and anatomical-site baselines.",
+      "opponent": 18,
+      "outcome": "win",
+      "reason": "Issue 145 offers a controlled mechanistic falsification with genetic and pharmacologic perturbations. Issue 18 has compelling biological framing but depends on rare, cross-site human spatial data and anatomical confounding.",
+      "target": 145,
+      "timestamp": "2026-11-20T20:29:12.592441+00:00"
+    },
+    {
+      "main_risk": "A lineage-MAPK transition may be distinguishable only retrospectively or in patient-specific genomic contexts.",
+      "next_test": "Build the locked minimal-residual-disease transition map and test it on later resistance modes in held-out patients.",
+      "opponent": 113,
+      "outcome": "win",
+      "reason": "Issue 145 has the more immediate, controlled, and mutually informative outcome test. Issue 113 has substantial clinical value but stronger longitudinal alignment and independent-cohort reproducibility risks.",
+      "target": 145,
+      "timestamp": "2026-11-20T20:29:12.592446+00:00"
     }
   ],
   "k_factor": 24,
@@ -2817,9 +2817,9 @@
     },
     "113": {
       "draws": 0,
-      "games": 15,
-      "losses": 8,
-      "rating": 1489.47,
+      "games": 16,
+      "losses": 9,
+      "rating": 1478.65,
       "wins": 7
     },
     "114": {
@@ -2845,9 +2845,9 @@
     },
     "117": {
       "draws": 0,
-      "games": 14,
-      "losses": 7,
-      "rating": 1499.73,
+      "games": 15,
+      "losses": 8,
+      "rating": 1487.33,
       "wins": 7
     },
     "118": {
@@ -2887,9 +2887,9 @@
     },
     "122": {
       "draws": 0,
-      "games": 16,
-      "losses": 8,
-      "rating": 1501.74,
+      "games": 17,
+      "losses": 9,
+      "rating": 1489.69,
       "wins": 8
     },
     "123": {
@@ -3055,10 +3055,10 @@
     },
     "145": {
       "draws": 0,
-      "games": 2,
-      "losses": 1,
-      "rating": 1500.01,
-      "wins": 1
+      "games": 7,
+      "losses": 2,
+      "rating": 1534.51,
+      "wins": 5
     },
     "146": {
       "draws": 0,
@@ -3083,9 +3083,9 @@
     },
     "18": {
       "draws": 1,
-      "games": 38,
-      "losses": 19,
-      "rating": 1489.91,
+      "games": 39,
+      "losses": 20,
+      "rating": 1478.69,
       "wins": 18
     },
     "19": {
@@ -3447,10 +3447,10 @@
     },
     "66": {
       "draws": 0,
-      "games": 26,
+      "games": 27,
       "losses": 13,
-      "rating": 1500.29,
-      "wins": 13
+      "rating": 1512.28,
+      "wins": 14
     },
     "67": {
       "draws": 0,
