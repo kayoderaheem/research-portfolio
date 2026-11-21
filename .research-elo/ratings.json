@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Flux parameters may be non-identifiable or add no information beyond abundance, exposure, and clinical covariates.",
-      "next_test": "Blindly compare nested flux, abundance, exposure, and clinical models in paired patient samples with an external-cohort holdout.",
-      "opponent": 101,
-      "outcome": "win",
-      "reason": "Flux signatures offer broader biological insight, a clearer early transportability test, and informative outcomes even if flux adds no value; the lymphoma project requires difficult longitudinal specimens and treatment-effect evidence.",
-      "target": 107,
-      "timestamp": "2026-11-01T00:11:08.604873+00:00"
-    },
-    {
-      "main_risk": "ATP, GTP, membrane potential, and translation effects may be too correlated to identify a specific causal route.",
-      "next_test": "Run an independent short time course with ATP-synthase inhibition, GTP and exchange rescues, matched controls, and orthogonal mediator assays.",
-      "opponent": 93,
-      "outcome": "loss",
-      "reason": "The virtual-cell problem has a cheaper eight-week perturbation-and-rescue test, a fixed mechanistic anchor, and reusable technology value, whereas flux analysis depends on complex tracer measurements and clinically heterogeneous samples.",
-      "target": 107,
-      "timestamp": "2026-11-01T00:11:08.604893+00:00"
-    },
-    {
-      "main_risk": "Spatial features may encode site, sampling geometry, or patient identity rather than transportable treatment biology.",
-      "next_test": "Estimate patient-level feature stability and incremental external-cohort performance against composition and clinical baselines using a locked feature set.",
-      "opponent": 66,
-      "outcome": "loss",
-      "reason": "Architecture-aware prediction has a more direct early stability test, strong patient-level validation structure, and a clear technology question about incremental information beyond composition; flux requires more specialized and potentially non-identifiable measurements.",
-      "target": 107,
-      "timestamp": "2026-11-01T00:11:08.604920+00:00"
-    },
-    {
-      "main_risk": "Predicted synergy may not transfer beyond related cell lines or may reflect additivity and assay scale rather than apoptosis mechanism.",
-      "next_test": "Blindly test locked combinations and dose ranges in unseen differentiation and p53 contexts using viability, apoptosis, and mitochondrial readouts.",
-      "opponent": 40,
-      "outcome": "loss",
-      "reason": "Context-aware combination screening can be tested prospectively with established pharmacologic baselines and orthogonal apoptosis assays, while flux signatures require harder-to-access tracer, exposure, and clinical sampling infrastructure.",
-      "target": 107,
-      "timestamp": "2026-11-01T00:11:08.604928+00:00"
-    },
-    {
-      "main_risk": "Tunnel IL-17/retinoid states may be inconsistent across patients or add no value beyond tunnel burden, inflammation, and clinical covariates.",
-      "next_test": "Apply a locked spatial classifier to pretreatment biopsies from patients starting standardized therapy and compare calibrated prediction with clinical and composition baselines.",
-      "opponent": 9,
-      "outcome": "loss",
-      "reason": "The hidradenitis problem has credible patient value, a focused spatial anchor, and a relatively cheap ten-week patient-level prediction test; flux has broader scope but substantially greater measurement and identifiability risk.",
-      "target": 107,
-      "timestamp": "2026-11-01T00:11:08.604939+00:00"
-    },
-    {
       "main_risk": "In-vitro recurrence may reflect shared culture or assay artifacts and fail to predict patient resistance.",
       "next_test": "Run six independent evolution replicates with early timepoints and blinded held-out prediction plus functional testing of recurrent mechanisms.",
       "opponent": 105,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 142 has a concrete existing line system and a cheap factorial falsification. Issue 38 is broad, with orthology, baseline alignment, species transfer, and uncertainty all as major simultaneous risks.",
       "target": 142,
       "timestamp": "2026-11-21T11:17:55.561625+00:00"
+    },
+    {
+      "main_risk": "Independent adjudication of occlusion status and calibration across acquisition sites.",
+      "next_test": "Run the locked clinician-versus-AI-ECG head-to-head comparison on artifact-prone, clinically discordant encounters.",
+      "opponent": 136,
+      "outcome": "win",
+      "reason": "Issue 126 has a clearer clinical anchor, stronger established baselines, and a direct external-site decision test, whereas 136 depends on incident-outcome follow-up and may mostly duplicate existing risk scores.",
+      "target": 126,
+      "timestamp": "2026-11-21T19:24:12.860346+00:00"
+    },
+    {
+      "main_risk": "The occlusion reference standard may remain confounded or poorly identifiable despite blinded adjudication.",
+      "next_test": "Complete blinded adjudication and a patient-level external comparison of clinician, AI-ECG, and combined decision strategies.",
+      "opponent": 108,
+      "outcome": "win",
+      "reason": "Issue 126 has a more direct, actionable clinical readout and cleaner continue/stop thresholds; 108 is a scientifically important causal test but requires stronger in vivo and immune-context validation to establish dependency.",
+      "target": 126,
+      "timestamp": "2026-11-21T19:24:12.860367+00:00"
+    },
+    {
+      "main_risk": "AI-ECG benefit may disappear when compared with strong clinician and troponin baselines.",
+      "next_test": "Test a frozen AI-ECG pipeline and threshold on an independent hospital system before recalibration.",
+      "opponent": 51,
+      "outcome": "win",
+      "reason": "Issue 126 offers a fixed clinical decision problem with external transport and calibration as decisive outcomes, while 51 is more assay-transport-oriented and may yield only platform-dependent correlations.",
+      "target": 126,
+      "timestamp": "2026-11-21T19:24:12.860376+00:00"
+    },
+    {
+      "main_risk": "Site- and population-specific prevalence or treatment pathways may dominate apparent AI-ECG decision benefit.",
+      "next_test": "Measure missed-occlusion and false-activation rates alongside calibration at prespecified thresholds across major sites and subgroups.",
+      "opponent": 104,
+      "outcome": "win",
+      "reason": "Issue 126 has a more definite clinical endpoint and stronger comparative baselines; 104 is vulnerable to sex-subgroup imbalance, confounding, and assay-batch effects that require substantially better-balanced cohorts.",
+      "target": 126,
+      "timestamp": "2026-11-21T19:24:12.860382+00:00"
+    },
+    {
+      "main_risk": "A virtual spatial response may be fundamentally unidentifiable from source observations in the unseen perturbation-context setting.",
+      "next_test": "Select one unseen perturbation-context pair and compare preregistered localization and abundance predictions with source resampling and spatial transport baselines.",
+      "opponent": 87,
+      "outcome": "win",
+      "reason": "Issue 126 is the stronger near-term investment because its scientific and clinical value is directly measurable and the baseline is explicit; 87's broader virtual-cell framework carries a higher fundamental identifiability risk and may produce benchmark gains without biological falsification.",
+      "target": 126,
+      "timestamp": "2026-11-21T19:24:12.860388+00:00"
     }
   ],
   "k_factor": 24,
@@ -2747,9 +2747,9 @@
     },
     "104": {
       "draws": 0,
-      "games": 8,
-      "losses": 2,
-      "rating": 1544.96,
+      "games": 9,
+      "losses": 3,
+      "rating": 1534.14,
       "wins": 6
     },
     "105": {
@@ -2775,9 +2775,9 @@
     },
     "108": {
       "draws": 0,
-      "games": 8,
-      "losses": 2,
-      "rating": 1544.01,
+      "games": 9,
+      "losses": 3,
+      "rating": 1532.44,
       "wins": 6
     },
     "109": {
@@ -2915,10 +2915,10 @@
     },
     "126": {
       "draws": 0,
-      "games": 6,
+      "games": 11,
       "losses": 1,
-      "rating": 1544.43,
-      "wins": 5
+      "rating": 1600.47,
+      "wins": 10
     },
     "127": {
       "draws": 0,
@@ -2992,9 +2992,9 @@
     },
     "136": {
       "draws": 0,
-      "games": 8,
-      "losses": 2,
-      "rating": 1544.24,
+      "games": 9,
+      "losses": 3,
+      "rating": 1532.25,
       "wins": 6
     },
     "137": {
@@ -3335,9 +3335,9 @@
     },
     "51": {
       "draws": 0,
-      "games": 16,
-      "losses": 6,
-      "rating": 1544.94,
+      "games": 17,
+      "losses": 7,
+      "rating": 1533.73,
       "wins": 10
     },
     "52": {
@@ -3608,9 +3608,9 @@
     },
     "87": {
       "draws": 0,
-      "games": 18,
-      "losses": 7,
-      "rating": 1545.02,
+      "games": 19,
+      "losses": 8,
+      "rating": 1534.57,
       "wins": 11
     },
     "88": {
