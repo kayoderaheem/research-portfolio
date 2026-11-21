@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Therapy-selected evolution may remain inseparable from treatment-induced damage, sampling variation, or disease burden.",
-      "next_test": "Run a blinded paired baseline-relapse analysis with locked signatures, held-out patients, and orthogonal clonality confirmation.",
-      "opponent": 101,
-      "outcome": "loss",
-      "reason": "Paired longitudinal lymphoma profiling addresses a broader and more general causal problem than the narrow FGFR exposure setting, with reusable insight even if treatment-selection claims fail.",
-      "target": 103,
-      "timestamp": "2026-10-31T12:43:16.388237+00:00"
-    },
-    {
-      "main_risk": "ATP, GTP, membrane potential, and translation changes may be too correlated to identify a unique causal mediator.",
-      "next_test": "Test preregistered predictions in independent preparations with ATP-synthase inhibition, GTP and exchange rescues, orthogonal metabolite assays, and held-out rescue data.",
-      "opponent": 93,
-      "outcome": "loss",
-      "reason": "The virtual-cell problem offers broader technological leverage, an explicit mechanistic anchor, and an inexpensive rescue-based falsification test with useful outcomes even if GTP is not causal.",
-      "target": 103,
-      "timestamp": "2026-10-31T12:43:16.388258+00:00"
-    },
-    {
-      "main_risk": "Correcting measured exposure may not improve tumor response, making exposure association clinically non-actionable.",
-      "next_test": "Prospectively pair pharmacokinetics, interaction review, genotype, serial molecular response, and pharmacodynamic markers before treatment changes.",
-      "opponent": 62,
-      "outcome": "win",
-      "reason": "Pharmacologic misclassification of resistance has clearer near-term clinical value and a defined patient-level decision, whereas the spatial osteosarcoma mechanism requires costly reproducibility, causality, and cross-platform validation.",
-      "target": 103,
-      "timestamp": "2026-10-31T12:43:16.388267+00:00"
-    },
-    {
-      "main_risk": "Observed low exposure or molecular response may reflect adherence, disease burden, or treatment selection rather than phenoconversion.",
-      "next_test": "Conduct the prespecified 12-week exposure-correction study with genotype, pharmacokinetics, interaction review, serial ctDNA, and orthogonal pharmacodynamics.",
-      "opponent": 96,
-      "outcome": "win",
-      "reason": "The FGFR project has a more concrete precision-medicine decision and earlier clinical readout; the virtual-cell project depends on difficult state identifiability, true reversibility, and transfer across tissue contexts.",
-      "target": 103,
-      "timestamp": "2026-10-31T12:43:16.388273+00:00"
-    },
-    {
-      "main_risk": "Exposure correction may not produce a measurable response improvement or may be unsafe.",
-      "next_test": "Perform the prospective pharmacokinetic, medication-interaction, genotype, and early-response study with prespecified correction and safety thresholds.",
-      "opponent": 9,
-      "outcome": "loss",
-      "reason": "Exposure-mediated treatment failure is tied to an actionable patient-level intervention and has a clearer early branch than a spatial hidradenitis biomarker whose pathway states may be correlational and biopsy-sensitive.",
-      "target": 103,
-      "timestamp": "2026-10-31T12:43:16.388284+00:00"
-    },
-    {
       "main_risk": "The 3D niche effect may be dominated by batch variability or generic stress rather than clinically relevant resistance.",
       "next_test": "Run blinded paired isolated-cell and bone-mimetic drug-response assays across two laboratories.",
       "opponent": 107,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 145 has the more immediate, controlled, and mutually informative outcome test. Issue 113 has substantial clinical value but stronger longitudinal alignment and independent-cohort reproducibility risks.",
       "target": 145,
       "timestamp": "2026-11-20T20:29:12.592446+00:00"
+    },
+    {
+      "main_risk": "Cross-cohort response relationships may not transport beyond assay- and composition-specific signals.",
+      "next_test": "Run the locked drug-disjoint and double-disjoint analysis on an external cohort and orthogonal viability assay before experimental expansion.",
+      "opponent": 43,
+      "outcome": "loss",
+      "reason": "Issue 43 has broader precision-medicine and discovery impact, stronger evidence readiness, and a fixed anchor spanning transportability, while its primary failure modes are explicit and testable.",
+      "target": 144,
+      "timestamp": "2026-11-21T02:25:21.167041+00:00"
+    },
+    {
+      "main_risk": "Perturbation embeddings may merely proxy difficult perturbations or dataset artifacts rather than identifiable support.",
+      "next_test": "Evaluate a pre-registered, sealed target-held-out split against fixed and neighbor baselines, with a second independent perturbation library.",
+      "opponent": 138,
+      "outcome": "win",
+      "reason": "Issue 144 has the narrower, cheaper scientific anchor and can test a reusable coverage signal across perturbation families; issue 138 spreads risk across combinations, doses, compounds, contexts, and prospective assays.",
+      "target": 144,
+      "timestamp": "2026-11-21T02:25:21.167056+00:00"
+    },
+    {
+      "main_risk": "A corneal imaging signal could be confounded by diabetes severity, tissue quality, site, or reader effects.",
+      "next_test": "Compare the frozen imaging and clinical nested models in one patient-held-out independent site with blinded adjudication.",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "Issue 144 offers a direct 8-week discriminating test and reusable virtual-cell safeguard, whereas issue 31 must solve reference-standard circularity, device harmonization, incremental value, and site recalibration for patient-level benefit.",
+      "target": 144,
+      "timestamp": "2026-11-21T02:25:21.167071+00:00"
+    },
+    {
+      "main_risk": "The difficult-airway endpoint may not be reproducible or may leak procedure-derived information.",
+      "next_test": "Run a pre-registered patient-level nested comparison of clinical versus clinical-plus-ultrasound at the fixed preparation threshold.",
+      "opponent": 78,
+      "outcome": "win",
+      "reason": "Issue 144 has fewer operational and validation dependencies and can yield a transferable abstention benchmark. Issue 78 has credible clinical impact but substantial endpoint, operator, consent, missingness, and subgroup-calibration risks.",
+      "target": 144,
+      "timestamp": "2026-11-21T02:25:21.167075+00:00"
+    },
+    {
+      "main_risk": "HEV-TLS maturity may be only a proxy for lymphocyte composition or pretreatment inflammation.",
+      "next_test": "Compare blinded patient-level HEV-TLS niche scores against composition and clinical baselines in pretreatment response-linked sections.",
+      "opponent": 118,
+      "outcome": "win",
+      "reason": "Issue 144 provides a cheaper and more general test of representation-based extrapolation, while issue 118 must establish that spatial maturity adds independent value beyond immune abundance, subtype, tissue quality, and treatment selection.",
+      "target": 144,
+      "timestamp": "2026-11-21T02:25:21.167078+00:00"
     }
   ],
   "k_factor": 24,
@@ -2852,9 +2852,9 @@
     },
     "118": {
       "draws": 0,
-      "games": 8,
-      "losses": 2,
-      "rating": 1545.25,
+      "games": 9,
+      "losses": 3,
+      "rating": 1534.51,
       "wins": 6
     },
     "119": {
@@ -3006,9 +3006,9 @@
     },
     "138": {
       "draws": 0,
-      "games": 10,
-      "losses": 2,
-      "rating": 1565.42,
+      "games": 11,
+      "losses": 3,
+      "rating": 1552.73,
       "wins": 8
     },
     "139": {
@@ -3048,10 +3048,10 @@
     },
     "144": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
-      "rating": 1557.19,
-      "wins": 5
+      "games": 10,
+      "losses": 1,
+      "rating": 1592.5,
+      "wins": 9
     },
     "145": {
       "draws": 0,
@@ -3181,9 +3181,9 @@
     },
     "31": {
       "draws": 0,
-      "games": 33,
-      "losses": 14,
-      "rating": 1548.2,
+      "games": 34,
+      "losses": 15,
+      "rating": 1536.54,
       "wins": 19
     },
     "32": {
@@ -3272,10 +3272,10 @@
     },
     "43": {
       "draws": 0,
-      "games": 24,
+      "games": 25,
       "losses": 9,
-      "rating": 1565.29,
-      "wins": 15
+      "rating": 1577.01,
+      "wins": 16
     },
     "44": {
       "draws": 0,
@@ -3538,9 +3538,9 @@
     },
     "78": {
       "draws": 0,
-      "games": 18,
-      "losses": 6,
-      "rating": 1568.17,
+      "games": 19,
+      "losses": 7,
+      "rating": 1556.23,
       "wins": 12
     },
     "79": {
