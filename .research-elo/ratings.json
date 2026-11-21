@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The 3D niche effect may be dominated by batch variability or generic stress rather than clinically relevant resistance.",
-      "next_test": "Run blinded paired isolated-cell and bone-mimetic drug-response assays across two laboratories.",
-      "opponent": 107,
-      "outcome": "win",
-      "reason": "Bone-niche testing has a clearer patient-level biological anchor and an earlier paired, cross-laboratory decision test; the flux project depends more heavily on technically identifiable and clinically feasible flux estimates.",
-      "target": 105,
-      "timestamp": "2026-10-31T19:21:24.651938+00:00"
-    },
-    {
-      "main_risk": "Early recurrent trajectories may be culture or treatment-stress artifacts that do not transport to patients.",
-      "next_test": "Generate six independent evolution replicates with three early sampling points and test a locked recurrence score in held-out replicates.",
-      "opponent": 106,
-      "outcome": "loss",
-      "reason": "Replicate-aware resistance trajectories offer broader mechanistic and actionable discovery, with a relatively direct early test of recurrence, lead time, and functional resistance before committing to patient validation.",
-      "target": 105,
-      "timestamp": "2026-10-31T19:21:24.651957+00:00"
-    },
-    {
-      "main_risk": "Niche discordance may not improve patient-level prediction beyond simpler isolated-cell or clinical baselines.",
-      "next_test": "Test prespecified niche-discordance features in blinded paired assays across two laboratories and compare them with isolated-cell response.",
-      "opponent": 66,
-      "outcome": "win",
-      "reason": "Bone-niche dependence addresses a more direct precision-medicine problem and has a concrete paired assay to distinguish intrinsic from microenvironment-mediated response; the architecture project faces greater cross-cohort and spatial-feature transport risk.",
-      "target": 105,
-      "timestamp": "2026-10-31T19:21:24.651967+00:00"
-    },
-    {
-      "main_risk": "The 3D niche system may add variability without identifying clinically useful resistance biology.",
-      "next_test": "Perform the two-laboratory blinded paired assay using one established and one mechanistically distinct therapy.",
-      "opponent": 40,
-      "outcome": "win",
-      "reason": "Bone-niche response is anchored to a clinically meaningful resistance mechanism and retains value if the predictive hypothesis fails, whereas virtual screening risks becoming a benchmark-specific model of synergy with uncertain transfer beyond related models.",
-      "target": 105,
-      "timestamp": "2026-10-31T19:21:24.651978+00:00"
-    },
-    {
-      "main_risk": "Nascent-RNA and occupancy measurements may not uniquely identify initiation, pause-release, and turnover states.",
-      "next_test": "Collect the dense six-timepoint matched nascent-RNA and polymerase-occupancy time course for initiation and pause-turnover perturbations.",
-      "opponent": 91,
-      "outcome": "loss",
-      "reason": "Kinetic identifiability has a compact, mechanistically focused experiment with an early readout and broad relevance to causal virtual-cell modeling; the bone project requires more costly model, cohort, and laboratory coordination before its clinical value is clear.",
-      "target": 105,
-      "timestamp": "2026-10-31T19:21:24.651987+00:00"
-    },
-    {
       "main_risk": "Flux parameters may be non-identifiable or add no information beyond abundance, exposure, and clinical covariates.",
       "next_test": "Blindly compare nested flux, abundance, exposure, and clinical models in paired patient samples with an external-cohort holdout.",
       "opponent": 101,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 144 provides a cheaper and more general test of representation-based extrapolation, while issue 118 must establish that spatial maturity adds independent value beyond immune abundance, subtype, tissue quality, and treatment selection.",
       "target": 144,
       "timestamp": "2026-11-21T02:25:21.167078+00:00"
+    },
+    {
+      "main_risk": "Matched resistance states may be confounded by clonal drift or culture history.",
+      "next_test": "Run the prospective factorial parent/resistant-line experiment with replicate-clustered held-out prediction and strong additive baselines.",
+      "opponent": 32,
+      "outcome": "win",
+      "reason": "Issue 142 has a stronger controlled scientific anchor, cheaper prospective falsification, and clearer discovery value. Issue 32's high clinical impact is offset by substantial adjudication, site, treatment-label, and calibration risks.",
+      "target": 142,
+      "timestamp": "2026-11-21T11:17:55.561587+00:00"
+    },
+    {
+      "main_risk": "H2Aub depletion and differentiation results may instead reflect nonspecific stress or state composition.",
+      "next_test": "Run the 8-arm held-out dose and context experiment and compare against additive and nearest-neighbor baselines.",
+      "opponent": 88,
+      "outcome": "loss",
+      "reason": "Both address chromatin-like causal transfer, but 142 is better anchored in a matched Caco-2 system and has a shorter, more interpretable factorial test. Issue 88 has greater assay and developmental-context complexity.",
+      "target": 142,
+      "timestamp": "2026-11-21T11:17:55.561606+00:00"
+    },
+    {
+      "main_risk": "The sarcoma model has several high-risk accessibility and genotype-transfer assumptions, while issue 142's culture history remains the key confounder.",
+      "next_test": "Prospectively measure matched resistant-line responses across held-out dose and differentiation-context combinations.",
+      "opponent": 35,
+      "outcome": "loss",
+      "reason": "Issue 142 has a clearer fixed system and stronger evidence readiness, whereas issue 35 depends on multiple unverified sarcoma transfer assumptions and multimodal measurement integration.",
+      "target": 142,
+      "timestamp": "2026-11-21T11:17:55.561614+00:00"
+    },
+    {
+      "main_risk": "Drug exposure may not be measurable or controllable enough to mediate clinical treatment response.",
+      "next_test": "Test whether held-out resistance-state predictions improve at least 20% over established additive and nearest-neighbor baselines.",
+      "opponent": 103,
+      "outcome": "loss",
+      "reason": "Issue 142 offers faster controlled readout and less dependence on clinical recruitment, PK sampling, and exposure correction. Issue 103 has meaningful patient impact but substantially higher practical and confounding burden.",
+      "target": 142,
+      "timestamp": "2026-11-21T11:17:55.561620+00:00"
+    },
+    {
+      "main_risk": "Cross-species conservation may be identifiable only as generic stress or shared cell-state structure.",
+      "next_test": "Run the matched held-out drug-dose-differentiation factorial test with replicate-level splits.",
+      "opponent": 38,
+      "outcome": "win",
+      "reason": "Issue 142 has a concrete existing line system and a cheap factorial falsification. Issue 38 is broad, with orthology, baseline alignment, species transfer, and uncertainty all as major simultaneous risks.",
+      "target": 142,
+      "timestamp": "2026-11-21T11:17:55.561625+00:00"
     }
   ],
   "k_factor": 24,
@@ -2740,10 +2740,10 @@
     },
     "103": {
       "draws": 0,
-      "games": 8,
+      "games": 9,
       "losses": 6,
-      "rating": 1455.22,
-      "wins": 2
+      "rating": 1466.85,
+      "wins": 3
     },
     "104": {
       "draws": 0,
@@ -3034,10 +3034,10 @@
     },
     "142": {
       "draws": 0,
-      "games": 6,
-      "losses": 5,
-      "rating": 1456.82,
-      "wins": 1
+      "games": 11,
+      "losses": 8,
+      "rating": 1445.73,
+      "wins": 3
     },
     "143": {
       "draws": 0,
@@ -3188,9 +3188,9 @@
     },
     "32": {
       "draws": 0,
-      "games": 24,
-      "losses": 14,
-      "rating": 1457.62,
+      "games": 25,
+      "losses": 15,
+      "rating": 1445.59,
       "wins": 10
     },
     "33": {
@@ -3209,10 +3209,10 @@
     },
     "35": {
       "draws": 0,
-      "games": 18,
+      "games": 19,
       "losses": 11,
-      "rating": 1457.78,
-      "wins": 7
+      "rating": 1469.73,
+      "wins": 8
     },
     "36": {
       "draws": 0,
@@ -3230,9 +3230,9 @@
     },
     "38": {
       "draws": 0,
-      "games": 16,
-      "losses": 10,
-      "rating": 1459.01,
+      "games": 17,
+      "losses": 11,
+      "rating": 1446.11,
       "wins": 6
     },
     "39": {
@@ -3615,10 +3615,10 @@
     },
     "88": {
       "draws": 0,
-      "games": 14,
+      "games": 15,
       "losses": 9,
-      "rating": 1455.97,
-      "wins": 5
+      "rating": 1468.41,
+      "wins": 6
     },
     "89": {
       "draws": 0,
