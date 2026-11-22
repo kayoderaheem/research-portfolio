@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "CD44v9 perturbation may cause nonspecific toxicity or fail to reproduce across independent PDAC donors.",
-      "next_test": "In at least six independent PDO donors, test CD44v9 perturbation plus treatment versus treatment alone using both viability and post-washout regrowth.",
-      "opponent": 110,
-      "outcome": "win",
-      "reason": "CD44v9 causality has a clearer, faster donor-level perturbation test with informative positive, negative, and marker-only outcomes, whereas the osteosarcoma project depends on ctDNA detectability, multicenter harmonization, and later relapse readouts.",
-      "target": 108,
-      "timestamp": "2026-11-01T22:08:13.562459+00:00"
-    },
-    {
-      "main_risk": "Genome features may add only annotation or treatment-reporting opportunities rather than reproducible response information.",
-      "next_test": "Run the locked CD44v9 perturbation interaction test across independent PDO donors with orthogonal perturbation controls.",
-      "opponent": 109,
-      "outcome": "win",
-      "reason": "The CD44v9 project has a more focused causal anchor, nearer-term functional readout, and stronger useful branches. Genome-derived structural markers offer broad potential but face high overfitting, specimen-quality, treatment-confounding, and uncertain mechanistic-value risks.",
-      "target": 108,
-      "timestamp": "2026-11-01T22:08:13.562482+00:00"
-    },
-    {
-      "main_risk": "The CD44v9 effect may be context-specific or reflect stromal and immune remodeling rather than tumor-cell dependence.",
-      "next_test": "Measure treatment interaction after CD44v9 perturbation across independent donors and tumor-only, CAF, and immune-containing contexts.",
-      "opponent": 66,
-      "outcome": "win",
-      "reason": "CD44v9 offers a direct causal intervention and a defined early decision threshold, while architecture-aware glioblastoma prediction requires spatial features to transport across patients and sites beyond composition and clinical baselines.",
-      "target": 108,
-      "timestamp": "2026-11-01T22:08:13.562488+00:00"
-    },
-    {
-      "main_risk": "CD44v9 may be a marker of tolerant lineage rather than a therapeutically necessary state.",
-      "next_test": "Perform the prespecified six-donor perturbation-plus-treatment experiment and require concordance in viability and regrowth.",
-      "opponent": 9,
-      "outcome": "win",
-      "reason": "CD44v9 has the stronger current investment case because it tests a causal resistance mechanism with an early functional assay and clear pivot options. The hidradenitis project is clinically relevant but more dependent on reproducible tunnel-state classification, treatment heterogeneity, and observational prediction.",
-      "target": 108,
-      "timestamp": "2026-11-01T22:08:13.562493+00:00"
-    },
-    {
-      "main_risk": "The proposed GTP-mediated route may not be identifiable from the available perturbations and measurements, even if predictions fit expression data.",
-      "next_test": "Run the short time-course with ATP-synthase inhibition, GTP and exchange rescues, orthogonal metabolite and translation assays, and held-out rescue prediction.",
-      "opponent": 93,
-      "outcome": "win",
-      "reason": "CD44v9 is more tractable and decision-ready: its causal claim can be tested directly in patient-derived models. The virtual-cell project has broad technology upside but requires several difficult measurements and assumes causal intermediates are identifiable despite correlated metabolic and stress effects.",
-      "target": 108,
-      "timestamp": "2026-11-01T22:08:13.562499+00:00"
-    },
-    {
       "main_risk": "Structural features may not add reproducible treatment-response information after adjustment for specimen quality, treatment selection, and established biomarkers.",
       "next_test": "Run the locked low-dimensional feature classifier with patient-level nested validation in matched FFPE genome/exome samples.",
       "opponent": 110,
@@ -2699,6 +2654,51 @@
       "reason": "Osteoarthritis load management has a more direct, clinically accessible fixed anchor and stronger decision utility than engineering predictions in a mixed neural co-culture.",
       "target": 125,
       "timestamp": "2026-11-22T11:37:02.579163+00:00"
+    },
+    {
+      "main_risk": "Accessibility and expression associations may only reflect stable cell identity rather than direct interferon effects.",
+      "next_test": "Perturb a held-out STAT or receptor target in an omitted epithelial cell type and compare counterfactual error with shared and transcript-only baselines.",
+      "opponent": 66,
+      "outcome": "win",
+      "reason": "Issue 141 has a clearer scientific anchor and an 8-week prospective causal test, whereas issue 66 depends on reproducible spatial structure and external patient-level transfer across many high-risk assumptions.",
+      "target": 141,
+      "timestamp": "2026-11-22T19:47:52.107506+00:00"
+    },
+    {
+      "main_risk": "Matrix GTP or nucleotide-exchange states may remain unobservable and insufficiently separated from ATP and membrane-potential changes.",
+      "next_test": "Run a matched time course with ATP synthase inhibition, GTP rescue, exchange rescue, and controls; test whether rescue predictions improve on state and expression baselines.",
+      "opponent": 93,
+      "outcome": "win",
+      "reason": "Issue 141 combines general regulatory discovery with matched multiomic readouts and prospective validation, while issue 93 requires several individually difficult mediator measurements and cross-condition mechanistic identifiability.",
+      "target": 141,
+      "timestamp": "2026-11-22T19:47:52.107529+00:00"
+    },
+    {
+      "main_risk": "For 141, stable cell identity may substitute for a mechanistic mechanism; for 91, initiation and pause-turnover parameters may remain statistically non-identifiable.",
+      "next_test": "Compare replicate-aware held-out predictions from dense early time courses against the best steady-state baseline under one initiation and one pause-turnover perturbation.",
+      "opponent": 91,
+      "outcome": "draw",
+      "reason": "Both address fundamental kinetic or counterfactual identifiability with genuinely causal, time-resolved tests. Issue 91 has a slightly more established readout chain, while issue 141 offers broader regulatory transfer but greater cell-state confounding.",
+      "target": 141,
+      "timestamp": "2026-11-22T19:47:52.107541+00:00"
+    },
+    {
+      "main_risk": "SECmere RNA could represent yield, isolation batch, or contamination rather than a distinct biological compartment.",
+      "next_test": "Run blinded paired particle-fraction technical replicates and compare incremental triage benefit to clinical and small-EV baselines.",
+      "opponent": 85,
+      "outcome": "win",
+      "reason": "Issue 141 has stronger mechanistic clarity, cheaper discrimination, and residual value in identifying direct versus confounded effects. Issue 85 faces substantial assay reproducibility, cohort calibration, and competing-fraction risks before a credible clinical decision claim.",
+      "target": 141,
+      "timestamp": "2026-11-22T19:47:52.107549+00:00"
+    },
+    {
+      "main_risk": "A multimodal gain may disappear after accounting for site, treatment selection, disease severity, and competing clinical risk.",
+      "next_test": "Perform a locked patient-level ablation with site-held-out evaluation and measure incremental net benefit and calibration at a prespecified ICD threshold.",
+      "opponent": 132,
+      "outcome": "loss",
+      "reason": "Issue 141 offers a faster mechanistic discriminator and reusable scientific insight across epithelial perturbations. Issue 132 has greater immediate clinical value, but it requires multi-site outcome adjudication and may lose decision benefit after calibration and ascertainment controls.",
+      "target": 141,
+      "timestamp": "2026-11-22T19:47:52.107558+00:00"
     }
   ],
   "k_factor": 24,
@@ -2964,10 +2964,10 @@
     },
     "132": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 4,
-      "rating": 1530.15,
-      "wins": 7
+      "rating": 1542.79,
+      "wins": 8
     },
     "133": {
       "draws": 0,
@@ -3026,11 +3026,11 @@
       "wins": 5
     },
     "141": {
-      "draws": 0,
-      "games": 7,
-      "losses": 3,
-      "rating": 1514.01,
-      "wins": 4
+      "draws": 1,
+      "games": 12,
+      "losses": 4,
+      "rating": 1535.98,
+      "wins": 7
     },
     "142": {
       "draws": 0,
@@ -3447,9 +3447,9 @@
     },
     "66": {
       "draws": 0,
-      "games": 27,
-      "losses": 13,
-      "rating": 1512.28,
+      "games": 28,
+      "losses": 14,
+      "rating": 1500.34,
       "wins": 14
     },
     "67": {
@@ -3594,9 +3594,9 @@
     },
     "85": {
       "draws": 0,
-      "games": 19,
-      "losses": 8,
-      "rating": 1528.31,
+      "games": 20,
+      "losses": 9,
+      "rating": 1516.61,
       "wins": 11
     },
     "86": {
@@ -3642,10 +3642,10 @@
       "wins": 9
     },
     "91": {
-      "draws": 0,
-      "games": 21,
+      "draws": 1,
+      "games": 22,
       "losses": 10,
-      "rating": 1517.38,
+      "rating": 1518.08,
       "wins": 11
     },
     "92": {
@@ -3657,9 +3657,9 @@
     },
     "93": {
       "draws": 0,
-      "games": 25,
-      "losses": 12,
-      "rating": 1516.41,
+      "games": 26,
+      "losses": 13,
+      "rating": 1504.74,
       "wins": 13
     },
     "94": {
