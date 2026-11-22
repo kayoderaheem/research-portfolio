@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "In-vitro recurrence may reflect shared culture or assay artifacts and fail to predict patient resistance.",
-      "next_test": "Run six independent evolution replicates with early timepoints and blinded held-out prediction plus functional testing of recurrent mechanisms.",
-      "opponent": 105,
-      "outcome": "win",
-      "reason": "Replicate-aware resistance trajectories offer a clearer early decision and broader mechanistic value than a cross-laboratory 3D myeloma platform whose biological and clinical transportability are both uncertain.",
-      "target": 106,
-      "timestamp": "2026-11-01T06:18:12.395887+00:00"
-    },
-    {
-      "main_risk": "Nascent-RNA and occupancy measurements may not uniquely identify initiation versus pause-turnover effects.",
-      "next_test": "Collect the dense acute-perturbation time course and test held-out perturbation prediction against state-space and steady-state baselines.",
-      "opponent": 91,
-      "outcome": "loss",
-      "reason": "Kinetic identifiability has a tighter scientific anchor, a shorter discriminating experiment, and a more direct test of whether the measurements support causal interpretation than the longer chain from evolution replicates to clinical treatment decisions.",
-      "target": 106,
-      "timestamp": "2026-11-01T06:18:12.395910+00:00"
-    },
-    {
-      "main_risk": "Recurrent experimental mechanisms may not transport to patient cohorts or map to effective salvage therapies.",
-      "next_test": "Test whether early recurrent trajectories predict resistance in held-out replicates and confirm at least two candidates functionally.",
-      "opponent": 15,
-      "outcome": "win",
-      "reason": "Replicate-aware resistance mechanisms provide broader, more flexible discovery value and a less forced disease-specific pairing than the gastric-cancer spatial niche hypothesis, which requires reproducible spatial association and causal BCL2/BMP effects.",
-      "target": 106,
-      "timestamp": "2026-11-01T06:18:12.395919+00:00"
-    },
-    {
-      "main_risk": "Particle isolation and RNA-yield batch effects may create a non-transportable signal despite apparent case-control discrimination.",
-      "next_test": "Run a blinded paired pilot with technical replicates, patient-level nested validation, calibration, and prespecified triage decision benefit.",
-      "opponent": 85,
-      "outcome": "loss",
-      "reason": "SECmere RNA has a defined clinical triage use, paired modality comparison, and an early incremental-value test against strong baselines, whereas resistance trajectories require several additional steps before clinical usefulness is credible.",
-      "target": 106,
-      "timestamp": "2026-11-01T06:18:12.395925+00:00"
-    },
-    {
-      "main_risk": "The model may identify only stable cell-state or marker differences rather than transportable perturbation-specific biology.",
-      "next_test": "Use donor-matched fresh, frozen, and fixed aliquots with one unseen perturbation and an orthogonal readout, evaluated donor-wise against simple baselines.",
-      "opponent": 92,
-      "outcome": "win",
-      "reason": "Replicate-aware resistance evolution is more directly testable and biologically anchored than cross-assay virtual-cell transport, which depends on preserving perturbation effects through fixation and estimating assay distortion without target-assay training data.",
-      "target": 106,
-      "timestamp": "2026-11-01T06:18:12.395930+00:00"
-    },
-    {
       "main_risk": "Observed treatment outcomes may be too confounded to serve as a valid reference for recommendation quality.",
       "next_test": "Run the locked retrospective benchmark on an independent institution and temporal treatment-shift cohort, comparing selective risk and high-severity errors at matched coverage.",
       "opponent": 59,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 126 is the stronger near-term investment because its scientific and clinical value is directly measurable and the baseline is explicit; 87's broader virtual-cell framework carries a higher fundamental identifiability risk and may produce benchmark gains without biological falsification.",
       "target": 126,
       "timestamp": "2026-11-21T19:24:12.860388+00:00"
+    },
+    {
+      "main_risk": "The pretreatment myeloid niche may not predict a reproducible necrosis-to-adaptive trajectory.",
+      "next_test": "In paired pretreatment and early-on-treatment specimens, test whether spatial inflammatory niches outperform myeloid abundance under patient-level validation.",
+      "opponent": 64,
+      "outcome": "loss",
+      "reason": "The osteosarcoma STING problem has a clearer patient-level anchor, credible clinical value, and stronger spatial mechanism test. The virtual-cell project has broader discovery value but depends on multiple difficult identifiability and transfer assumptions.",
+      "target": 143,
+      "timestamp": "2026-11-22T01:24:01.437872+00:00"
+    },
+    {
+      "main_risk": "Metabolic signals may add no decision value beyond developmental history and behavioral assessment.",
+      "next_test": "Compare incremental net benefit and calibration of the locked multimodal panel against the strongest clinical triage baseline in an external diagnostic site.",
+      "opponent": 128,
+      "outcome": "loss",
+      "reason": "Issue 143 provides a more general, falsifiable perturbation framework and clearer matched causal tests. The autism panel is exposed to substantial diagnostic, confounding, collection, and referral-bias risks that could produce site-specific rather than biological value.",
+      "target": 143,
+      "timestamp": "2026-11-22T01:24:01.437891+00:00"
+    },
+    {
+      "main_risk": "Fibroblast context may mark aggressiveness or burden rather than causally modify MYC-inhibitor response.",
+      "next_test": "Measure the spatial interaction and MYC target engagement in 30 specimens, then compare matched fibroblast-preserving and fibroblast-disrupted explants.",
+      "opponent": 115,
+      "outcome": "loss",
+      "reason": "Issue 115 has a more concrete precision-medicine anchor and a relatively cheap 12-week spatial explant test. Issue 143 has broader reusable value but more assumptions about counterfactual identifiability and transferable chromatin state.",
+      "target": 143,
+      "timestamp": "2026-11-22T01:24:01.437901+00:00"
+    },
+    {
+      "main_risk": "The ERK/Fra-1 persistence may be a generic stress or pre-existing-state effect rather than a treatment-induced niche transition.",
+      "next_test": "Use matched untreated and MCL1-inhibited specimens with live ERK/Fra-1 imaging, cell tracking, and fibroblast-distance annotations.",
+      "opponent": 62,
+      "outcome": "win",
+      "reason": "Issue 62 has a tighter eight-week readout, strong matched longitudinal controls, and an explicit causal fibroblast-FGFR branch test. Issue 143 asks for broader model transfer across loci and contexts before a similarly clear mechanism is established.",
+      "target": 143,
+      "timestamp": "2026-11-22T01:24:01.437908+00:00"
+    },
+    {
+      "main_risk": "A rare-disease cohort may not support stable calibration or external transport after patient-level partitioning.",
+      "next_test": "Compare GFAP-only, MRI-only, genotype-only, clinical, and multimodal models in nested patient-level validation for 12-month functional change.",
+      "opponent": 82,
+      "outcome": "win",
+      "reason": "Issue 143 has a shorter, more directly falsifiable perturbation test and can produce informative negative, timing, and transfer outcomes. Issue 82 is clinically important but depends on rare-cohort access, 12-month outcomes, scanner portability, and disentangling treatment-modified GFAP.",
+      "target": 143,
+      "timestamp": "2026-11-22T01:24:01.437915+00:00"
     }
   ],
   "k_factor": 24,
@@ -2831,10 +2831,10 @@
     },
     "115": {
       "draws": 0,
-      "games": 8,
+      "games": 9,
       "losses": 6,
-      "rating": 1453.23,
-      "wins": 2
+      "rating": 1464.45,
+      "wins": 3
     },
     "116": {
       "draws": 0,
@@ -2929,10 +2929,10 @@
     },
     "128": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 5,
-      "rating": 1453.32,
-      "wins": 1
+      "rating": 1464.94,
+      "wins": 2
     },
     "129": {
       "draws": 0,
@@ -3041,10 +3041,10 @@
     },
     "143": {
       "draws": 0,
-      "games": 6,
-      "losses": 5,
-      "rating": 1454.32,
-      "wins": 1
+      "games": 11,
+      "losses": 8,
+      "rating": 1445.32,
+      "wins": 3
     },
     "144": {
       "draws": 0,
@@ -3419,9 +3419,9 @@
     },
     "62": {
       "draws": 0,
-      "games": 28,
-      "losses": 16,
-      "rating": 1453.12,
+      "games": 29,
+      "losses": 17,
+      "rating": 1439.96,
       "wins": 12
     },
     "63": {
@@ -3433,10 +3433,10 @@
     },
     "64": {
       "draws": 0,
-      "games": 18,
+      "games": 19,
       "losses": 11,
-      "rating": 1453.49,
-      "wins": 7
+      "rating": 1465.52,
+      "wins": 8
     },
     "65": {
       "draws": 0,
@@ -3573,9 +3573,9 @@
     },
     "82": {
       "draws": 0,
-      "games": 14,
-      "losses": 9,
-      "rating": 1453.12,
+      "games": 15,
+      "losses": 10,
+      "rating": 1440.41,
       "wins": 5
     },
     "83": {

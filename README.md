@@ -201,35 +201,35 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | 96 | [#103 — [Idea] Pharmacogenomic phenoconversion as a reversible source of apparent targeted-therapy resistance](https://github.com/kayoderaheem/research-portfolio/issues/103) | **1467** | 9 | 3W / 0D / 6L |
 | 97 | [#40 — [Idea] Context-aware virtual screening of apoptosis combinations in germ cell tumors](https://github.com/kayoderaheem/research-portfolio/issues/40) | **1466** | 36 | 16W / 1D / 19L |
 | 98 | [#53 — [Idea] Early treatment-decision value of heterogeneity trajectories in HER2-targeted bladder cancer](https://github.com/kayoderaheem/research-portfolio/issues/53) | **1466** | 21 | 9W / 0D / 12L |
-| 99 | [#49 — [Idea] Exposure-adjusted phosphoproteomic signatures of pharmacologic failure versus biological resistance](https://github.com/kayoderaheem/research-portfolio/issues/49) | **1465** | 17 | 7W / 0D / 10L |
-| 100 | [#8 — [Idea] Metastatic-site spatial niches that modify ALK-inhibitor response](https://github.com/kayoderaheem/research-portfolio/issues/8) | **1464** | 25 | 11W / 0D / 14L |
-| 101 | [#52 — [Idea] Isoform-switching mechanisms that separate intrinsic from acquired drug resistance](https://github.com/kayoderaheem/research-portfolio/issues/52) | **1464** | 15 | 6W / 0D / 9L |
-| 102 | [#109 — [Idea] Genome-derived structural resistance markers from FFPE tumors beyond exome sequencing](https://github.com/kayoderaheem/research-portfolio/issues/109) | **1464** | 17 | 7W / 0D / 10L |
-| 103 | [#68 — [Idea] Local IL-15 access states as predictors of innate-cell therapy response in brain metastases](https://github.com/kayoderaheem/research-portfolio/issues/68) | **1464** | 17 | 7W / 0D / 10L |
-| 104 | [#111 — [Idea] Cell-resolved pharmacodynamic niches predict antisense oligonucleotide treatment response](https://github.com/kayoderaheem/research-portfolio/issues/111) | **1464** | 7 | 2W / 0D / 5L |
-| 105 | [#50 — [Idea] Population-calibrated pharmacogenomic prediction of tamoxifen benefit and endocrine resistance](https://github.com/kayoderaheem/research-portfolio/issues/50) | **1464** | 19 | 8W / 0D / 11L |
-| 106 | [#96 — [Idea] Counterfactual virtual cells for FGF-driven oligodendrocyte state transitions](https://github.com/kayoderaheem/research-portfolio/issues/96) | **1464** | 17 | 7W / 0D / 10L |
-| 107 | [#54 — [Idea] Persistence and specificity of treatment-induced T-cell clones as a response discriminator in checkpoint therapy](https://github.com/kayoderaheem/research-portfolio/issues/54) | **1463** | 17 | 7W / 0D / 10L |
-| 108 | [#3 — [Idea] Early detection of DNA-damage-tolerance escape during genotoxic therapy](https://github.com/kayoderaheem/research-portfolio/issues/3) | **1462** | 27 | 12W / 0D / 15L |
-| 109 | [#11 — [Idea] Spatially constrained T-cell fitness states predicting blinatumomab response in B-cell leukemia](https://github.com/kayoderaheem/research-portfolio/issues/11) | **1461** | 29 | 12W / 1D / 16L |
-| 110 | [#5 — [Idea] Spatially resolved immune-priming trajectories during cervical chemoradiotherapy](https://github.com/kayoderaheem/research-portfolio/issues/5) | **1460** | 22 | 8W / 3D / 11L |
-| 111 | [#143 — [Idea] Falsifiable virtual-cell test of enhancer-memory counterfactuals](https://github.com/kayoderaheem/research-portfolio/issues/143) | **1454** | 6 | 1W / 0D / 5L |
-| 112 | [#64 — [Idea] Myeloid-primed necrosis trajectories predict STING-agonist response in osteosarcoma](https://github.com/kayoderaheem/research-portfolio/issues/64) | **1453** | 18 | 7W / 0D / 11L |
-| 113 | [#128 — [Idea] External clinical-use validation of blood–urine metabolite panels for autism diagnostic triage](https://github.com/kayoderaheem/research-portfolio/issues/128) | **1453** | 6 | 1W / 0D / 5L |
-| 114 | [#115 — [Idea] Invasive-front hybrid states and tissue context as predictors of MYC-inhibitor response in pancreatic cancer](https://github.com/kayoderaheem/research-portfolio/issues/115) | **1453** | 8 | 2W / 0D / 6L |
-| 115 | [#62 — [Idea] Reproducible tumor–lung interface ERK adaptation after MCL1 inhibition](https://github.com/kayoderaheem/research-portfolio/issues/62) | **1453** | 28 | 12W / 0D / 16L |
-| 116 | [#82 — [Idea] Clinical-use validation of multimodal GFAP trajectory monitoring in pediatric Alexander disease](https://github.com/kayoderaheem/research-portfolio/issues/82) | **1453** | 14 | 5W / 0D / 9L |
-| 117 | [#19 — [Idea] Spatially gated ZNF423-stress transitions predicting therapy escape in NF1-associated MPNST](https://github.com/kayoderaheem/research-portfolio/issues/19) | **1450** | 22 | 9W / 0D / 13L |
-| 118 | [#4 — [Idea] Reproducible myeloid-niche remodeling as a determinant of metastatic immunotherapy response](https://github.com/kayoderaheem/research-portfolio/issues/4) | **1450** | 27 | 11W / 1D / 15L |
-| 119 | [#34 — [Idea] Prospective falsification of a dynamic proteomic virtual cell across unseen therapies and organoid contexts](https://github.com/kayoderaheem/research-portfolio/issues/34) | **1450** | 18 | 7W / 0D / 11L |
-| 120 | [#26 — [Idea] Site-robust multimodal risk stratification for fetal growth restriction management](https://github.com/kayoderaheem/research-portfolio/issues/26) | **1450** | 24 | 10W / 0D / 14L |
-| 121 | [#46 — [Idea] TET2-mutant clonal-hematopoiesis macrophages as a reversible cause of BRAF/MEK resistance in anaplastic thyroid cancer](https://github.com/kayoderaheem/research-portfolio/issues/46) | **1447** | 12 | 3W / 1D / 8L |
-| 122 | [#38 — [Idea] Cross-species identifiability of conserved versus context-specific perturbation responses](https://github.com/kayoderaheem/research-portfolio/issues/38) | **1446** | 17 | 6W / 0D / 11L |
-| 123 | [#142 — [Idea] Identifiable resistance-state transfer across differentiation and drug shifts](https://github.com/kayoderaheem/research-portfolio/issues/142) | **1446** | 11 | 3W / 0D / 8L |
-| 124 | [#32 — [Idea] Clinical-use validation of multimodal myocarditis triage for immunotherapy and intensive monitoring](https://github.com/kayoderaheem/research-portfolio/issues/32) | **1446** | 25 | 10W / 0D / 15L |
-| 125 | [#124 — [Idea] Population- and site-calibrated multimodal prediction of anti-tuberculosis drug-induced liver injury](https://github.com/kayoderaheem/research-portfolio/issues/124) | **1444** | 7 | 1W / 0D / 6L |
-| 126 | [#110 — [Idea] Endpoint concordance of histologic, imaging, and circulating response signals in osteosarcoma neoadjuvant therapy](https://github.com/kayoderaheem/research-portfolio/issues/110) | **1442** | 7 | 1W / 0D / 6L |
-| 127 | [#59 — [Idea] Spatial access states that determine engineered T-cell treatment response](https://github.com/kayoderaheem/research-portfolio/issues/59) | **1441** | 15 | 5W / 0D / 10L |
+| 99 | [#64 — [Idea] Myeloid-primed necrosis trajectories predict STING-agonist response in osteosarcoma](https://github.com/kayoderaheem/research-portfolio/issues/64) | **1466** | 19 | 8W / 0D / 11L |
+| 100 | [#128 — [Idea] External clinical-use validation of blood–urine metabolite panels for autism diagnostic triage](https://github.com/kayoderaheem/research-portfolio/issues/128) | **1465** | 7 | 2W / 0D / 5L |
+| 101 | [#49 — [Idea] Exposure-adjusted phosphoproteomic signatures of pharmacologic failure versus biological resistance](https://github.com/kayoderaheem/research-portfolio/issues/49) | **1465** | 17 | 7W / 0D / 10L |
+| 102 | [#8 — [Idea] Metastatic-site spatial niches that modify ALK-inhibitor response](https://github.com/kayoderaheem/research-portfolio/issues/8) | **1464** | 25 | 11W / 0D / 14L |
+| 103 | [#52 — [Idea] Isoform-switching mechanisms that separate intrinsic from acquired drug resistance](https://github.com/kayoderaheem/research-portfolio/issues/52) | **1464** | 15 | 6W / 0D / 9L |
+| 104 | [#115 — [Idea] Invasive-front hybrid states and tissue context as predictors of MYC-inhibitor response in pancreatic cancer](https://github.com/kayoderaheem/research-portfolio/issues/115) | **1464** | 9 | 3W / 0D / 6L |
+| 105 | [#109 — [Idea] Genome-derived structural resistance markers from FFPE tumors beyond exome sequencing](https://github.com/kayoderaheem/research-portfolio/issues/109) | **1464** | 17 | 7W / 0D / 10L |
+| 106 | [#68 — [Idea] Local IL-15 access states as predictors of innate-cell therapy response in brain metastases](https://github.com/kayoderaheem/research-portfolio/issues/68) | **1464** | 17 | 7W / 0D / 10L |
+| 107 | [#111 — [Idea] Cell-resolved pharmacodynamic niches predict antisense oligonucleotide treatment response](https://github.com/kayoderaheem/research-portfolio/issues/111) | **1464** | 7 | 2W / 0D / 5L |
+| 108 | [#50 — [Idea] Population-calibrated pharmacogenomic prediction of tamoxifen benefit and endocrine resistance](https://github.com/kayoderaheem/research-portfolio/issues/50) | **1464** | 19 | 8W / 0D / 11L |
+| 109 | [#96 — [Idea] Counterfactual virtual cells for FGF-driven oligodendrocyte state transitions](https://github.com/kayoderaheem/research-portfolio/issues/96) | **1464** | 17 | 7W / 0D / 10L |
+| 110 | [#54 — [Idea] Persistence and specificity of treatment-induced T-cell clones as a response discriminator in checkpoint therapy](https://github.com/kayoderaheem/research-portfolio/issues/54) | **1463** | 17 | 7W / 0D / 10L |
+| 111 | [#3 — [Idea] Early detection of DNA-damage-tolerance escape during genotoxic therapy](https://github.com/kayoderaheem/research-portfolio/issues/3) | **1462** | 27 | 12W / 0D / 15L |
+| 112 | [#11 — [Idea] Spatially constrained T-cell fitness states predicting blinatumomab response in B-cell leukemia](https://github.com/kayoderaheem/research-portfolio/issues/11) | **1461** | 29 | 12W / 1D / 16L |
+| 113 | [#5 — [Idea] Spatially resolved immune-priming trajectories during cervical chemoradiotherapy](https://github.com/kayoderaheem/research-portfolio/issues/5) | **1460** | 22 | 8W / 3D / 11L |
+| 114 | [#19 — [Idea] Spatially gated ZNF423-stress transitions predicting therapy escape in NF1-associated MPNST](https://github.com/kayoderaheem/research-portfolio/issues/19) | **1450** | 22 | 9W / 0D / 13L |
+| 115 | [#4 — [Idea] Reproducible myeloid-niche remodeling as a determinant of metastatic immunotherapy response](https://github.com/kayoderaheem/research-portfolio/issues/4) | **1450** | 27 | 11W / 1D / 15L |
+| 116 | [#34 — [Idea] Prospective falsification of a dynamic proteomic virtual cell across unseen therapies and organoid contexts](https://github.com/kayoderaheem/research-portfolio/issues/34) | **1450** | 18 | 7W / 0D / 11L |
+| 117 | [#26 — [Idea] Site-robust multimodal risk stratification for fetal growth restriction management](https://github.com/kayoderaheem/research-portfolio/issues/26) | **1450** | 24 | 10W / 0D / 14L |
+| 118 | [#46 — [Idea] TET2-mutant clonal-hematopoiesis macrophages as a reversible cause of BRAF/MEK resistance in anaplastic thyroid cancer](https://github.com/kayoderaheem/research-portfolio/issues/46) | **1447** | 12 | 3W / 1D / 8L |
+| 119 | [#38 — [Idea] Cross-species identifiability of conserved versus context-specific perturbation responses](https://github.com/kayoderaheem/research-portfolio/issues/38) | **1446** | 17 | 6W / 0D / 11L |
+| 120 | [#142 — [Idea] Identifiable resistance-state transfer across differentiation and drug shifts](https://github.com/kayoderaheem/research-portfolio/issues/142) | **1446** | 11 | 3W / 0D / 8L |
+| 121 | [#32 — [Idea] Clinical-use validation of multimodal myocarditis triage for immunotherapy and intensive monitoring](https://github.com/kayoderaheem/research-portfolio/issues/32) | **1446** | 25 | 10W / 0D / 15L |
+| 122 | [#143 — [Idea] Falsifiable virtual-cell test of enhancer-memory counterfactuals](https://github.com/kayoderaheem/research-portfolio/issues/143) | **1445** | 11 | 3W / 0D / 8L |
+| 123 | [#124 — [Idea] Population- and site-calibrated multimodal prediction of anti-tuberculosis drug-induced liver injury](https://github.com/kayoderaheem/research-portfolio/issues/124) | **1444** | 7 | 1W / 0D / 6L |
+| 124 | [#110 — [Idea] Endpoint concordance of histologic, imaging, and circulating response signals in osteosarcoma neoadjuvant therapy](https://github.com/kayoderaheem/research-portfolio/issues/110) | **1442** | 7 | 1W / 0D / 6L |
+| 125 | [#59 — [Idea] Spatial access states that determine engineered T-cell treatment response](https://github.com/kayoderaheem/research-portfolio/issues/59) | **1441** | 15 | 5W / 0D / 10L |
+| 126 | [#82 — [Idea] Clinical-use validation of multimodal GFAP trajectory monitoring in pediatric Alexander disease](https://github.com/kayoderaheem/research-portfolio/issues/82) | **1440** | 15 | 5W / 0D / 10L |
+| 127 | [#62 — [Idea] Reproducible tumor–lung interface ERK adaptation after MCL1 inhibition](https://github.com/kayoderaheem/research-portfolio/issues/62) | **1440** | 29 | 12W / 0D / 17L |
 | 128 | [#29 — [Idea] Defining a clinical-use pathway for urine microRNA as an incremental toxicity biomarker in prostate SBRT](https://github.com/kayoderaheem/research-portfolio/issues/29) | **1434** | 22 | 8W / 0D / 14L |
 | 129 | [#125 — [Idea] Mechanically calibrated multimodal phenotyping for personalized osteoarthritis load management](https://github.com/kayoderaheem/research-portfolio/issues/125) | **1432** | 6 | 0W / 0D / 6L |
 | 130 | [#79 — [Idea] Pathogen-aware multimodal calibration for pulmonary sepsis treatment selection](https://github.com/kayoderaheem/research-portfolio/issues/79) | **1431** | 12 | 3W / 0D / 9L |
@@ -247,7 +247,7 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | 142 | [#12 — [Idea] Antigen-presentation escape neighborhoods predicting checkpoint response in melanoma with HIV](https://github.com/kayoderaheem/research-portfolio/issues/12) | **1367** | 16 | 2W / 0D / 14L |
 | 143 | [#95 — [Idea] Evolution-aware virtual cells for unseen therapy resistance states](https://github.com/kayoderaheem/research-portfolio/issues/95) | **1365** | 12 | 0W / 0D / 12L |
 
-_Last synchronized: 2026-11-21 19:24 UTC._
+_Last synchronized: 2026-11-22 01:24 UTC._
 <!-- RESEARCH_ELO_END -->
 
 ## Add ideas manually
