@@ -226,18 +226,18 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | 121 | [#32 — [Idea] Clinical-use validation of multimodal myocarditis triage for immunotherapy and intensive monitoring](https://github.com/kayoderaheem/research-portfolio/issues/32) | **1446** | 25 | 10W / 0D / 15L |
 | 122 | [#143 — [Idea] Falsifiable virtual-cell test of enhancer-memory counterfactuals](https://github.com/kayoderaheem/research-portfolio/issues/143) | **1445** | 11 | 3W / 0D / 8L |
 | 123 | [#124 — [Idea] Population- and site-calibrated multimodal prediction of anti-tuberculosis drug-induced liver injury](https://github.com/kayoderaheem/research-portfolio/issues/124) | **1444** | 7 | 1W / 0D / 6L |
-| 124 | [#110 — [Idea] Endpoint concordance of histologic, imaging, and circulating response signals in osteosarcoma neoadjuvant therapy](https://github.com/kayoderaheem/research-portfolio/issues/110) | **1442** | 7 | 1W / 0D / 6L |
-| 125 | [#59 — [Idea] Spatial access states that determine engineered T-cell treatment response](https://github.com/kayoderaheem/research-portfolio/issues/59) | **1441** | 15 | 5W / 0D / 10L |
-| 126 | [#82 — [Idea] Clinical-use validation of multimodal GFAP trajectory monitoring in pediatric Alexander disease](https://github.com/kayoderaheem/research-portfolio/issues/82) | **1440** | 15 | 5W / 0D / 10L |
-| 127 | [#62 — [Idea] Reproducible tumor–lung interface ERK adaptation after MCL1 inhibition](https://github.com/kayoderaheem/research-portfolio/issues/62) | **1440** | 29 | 12W / 0D / 17L |
-| 128 | [#29 — [Idea] Defining a clinical-use pathway for urine microRNA as an incremental toxicity biomarker in prostate SBRT](https://github.com/kayoderaheem/research-portfolio/issues/29) | **1434** | 22 | 8W / 0D / 14L |
-| 129 | [#125 — [Idea] Mechanically calibrated multimodal phenotyping for personalized osteoarthritis load management](https://github.com/kayoderaheem/research-portfolio/issues/125) | **1432** | 6 | 0W / 0D / 6L |
-| 130 | [#79 — [Idea] Pathogen-aware multimodal calibration for pulmonary sepsis treatment selection](https://github.com/kayoderaheem/research-portfolio/issues/79) | **1431** | 12 | 3W / 0D / 9L |
-| 131 | [#44 — [Idea] Early functional detection of hypoxia-mediated resistance before radiographic treatment failure](https://github.com/kayoderaheem/research-portfolio/issues/44) | **1431** | 22 | 8W / 0D / 14L |
-| 132 | [#74 — [Idea] Site-calibrated maternal-placental-fetal multimodal risk stratification for neonatal immune-metabolic follow-up](https://github.com/kayoderaheem/research-portfolio/issues/74) | **1431** | 12 | 3W / 0D / 9L |
-| 133 | [#146 — [Idea] Prospectively falsifiable SPDEF genotype-by-stress virtual cells](https://github.com/kayoderaheem/research-portfolio/issues/146) | **1431** | 6 | 0W / 0D / 6L |
-| 134 | [#94 — [Idea] Paracrine-aware virtual cells for engineered astrocyte perturbations](https://github.com/kayoderaheem/research-portfolio/issues/94) | **1431** | 14 | 4W / 0D / 10L |
-| 135 | [#107 — [Idea] Flux-constrained metabolic response signatures across tumor sampling contexts](https://github.com/kayoderaheem/research-portfolio/issues/107) | **1419** | 11 | 2W / 0D / 9L |
+| 124 | [#79 — [Idea] Pathogen-aware multimodal calibration for pulmonary sepsis treatment selection](https://github.com/kayoderaheem/research-portfolio/issues/79) | **1444** | 13 | 4W / 0D / 9L |
+| 125 | [#146 — [Idea] Prospectively falsifiable SPDEF genotype-by-stress virtual cells](https://github.com/kayoderaheem/research-portfolio/issues/146) | **1443** | 7 | 1W / 0D / 6L |
+| 126 | [#74 — [Idea] Site-calibrated maternal-placental-fetal multimodal risk stratification for neonatal immune-metabolic follow-up](https://github.com/kayoderaheem/research-portfolio/issues/74) | **1443** | 13 | 4W / 0D / 9L |
+| 127 | [#110 — [Idea] Endpoint concordance of histologic, imaging, and circulating response signals in osteosarcoma neoadjuvant therapy](https://github.com/kayoderaheem/research-portfolio/issues/110) | **1442** | 7 | 1W / 0D / 6L |
+| 128 | [#59 — [Idea] Spatial access states that determine engineered T-cell treatment response](https://github.com/kayoderaheem/research-portfolio/issues/59) | **1441** | 15 | 5W / 0D / 10L |
+| 129 | [#82 — [Idea] Clinical-use validation of multimodal GFAP trajectory monitoring in pediatric Alexander disease](https://github.com/kayoderaheem/research-portfolio/issues/82) | **1440** | 15 | 5W / 0D / 10L |
+| 130 | [#62 — [Idea] Reproducible tumor–lung interface ERK adaptation after MCL1 inhibition](https://github.com/kayoderaheem/research-portfolio/issues/62) | **1440** | 29 | 12W / 0D / 17L |
+| 131 | [#29 — [Idea] Defining a clinical-use pathway for urine microRNA as an incremental toxicity biomarker in prostate SBRT](https://github.com/kayoderaheem/research-portfolio/issues/29) | **1434** | 22 | 8W / 0D / 14L |
+| 132 | [#125 — [Idea] Mechanically calibrated multimodal phenotyping for personalized osteoarthritis load management](https://github.com/kayoderaheem/research-portfolio/issues/125) | **1422** | 11 | 2W / 0D / 9L |
+| 133 | [#107 — [Idea] Flux-constrained metabolic response signatures across tumor sampling contexts](https://github.com/kayoderaheem/research-portfolio/issues/107) | **1419** | 11 | 2W / 0D / 9L |
+| 134 | [#44 — [Idea] Early functional detection of hypoxia-mediated resistance before radiographic treatment failure](https://github.com/kayoderaheem/research-portfolio/issues/44) | **1419** | 23 | 8W / 0D / 15L |
+| 135 | [#94 — [Idea] Paracrine-aware virtual cells for engineered astrocyte perturbations](https://github.com/kayoderaheem/research-portfolio/issues/94) | **1418** | 15 | 4W / 0D / 11L |
 | 136 | [#22 — [Idea] Transportable validation of a therapy-responsive pathogenic immune state in multiple sclerosis](https://github.com/kayoderaheem/research-portfolio/issues/22) | **1413** | 19 | 6W / 0D / 13L |
 | 137 | [#58 — [Idea] Reproducible IFN-response trajectories that separate immune execution from adaptive escape](https://github.com/kayoderaheem/research-portfolio/issues/58) | **1407** | 16 | 4W / 0D / 12L |
 | 138 | [#72 — [Idea] Clinical-use validation of YTHDC1 condensate state as a treatment-selection biomarker for METTL3 inhibition](https://github.com/kayoderaheem/research-portfolio/issues/72) | **1400** | 17 | 4W / 0D / 13L |
@@ -247,7 +247,7 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | 142 | [#12 — [Idea] Antigen-presentation escape neighborhoods predicting checkpoint response in melanoma with HIV](https://github.com/kayoderaheem/research-portfolio/issues/12) | **1367** | 16 | 2W / 0D / 14L |
 | 143 | [#95 — [Idea] Evolution-aware virtual cells for unseen therapy resistance states](https://github.com/kayoderaheem/research-portfolio/issues/95) | **1365** | 12 | 0W / 0D / 12L |
 
-_Last synchronized: 2026-11-22 01:24 UTC._
+_Last synchronized: 2026-11-22 11:37 UTC._
 <!-- RESEARCH_ELO_END -->
 
 ## Add ideas manually

@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Observed treatment outcomes may be too confounded to serve as a valid reference for recommendation quality.",
-      "next_test": "Run the locked retrospective benchmark on an independent institution and temporal treatment-shift cohort, comparing selective risk and high-severity errors at matched coverage.",
-      "opponent": 59,
-      "outcome": "win",
-      "reason": "Abstention-calibrated recommendations offer broader reusable technology, stronger leakage-resistant validation, and a relatively cheap external-shift benchmark with explicit safety thresholds. The spatial project has greater assay, tissue, and therapeutic-cell attribution risk before its biological claim can be tested.",
-      "target": 99,
-      "timestamp": "2026-11-01T16:05:58.010781+00:00"
-    },
-    {
-      "main_risk": "Improved calibration or abstention may not translate into better treatment decisions because retrospective outcomes do not identify counterfactual treatment benefit.",
-      "next_test": "Evaluate locked treatment rankings and abstention on an independent cohort with indication-aware adjustment, matched coverage, calibration, and clinically weighted errors.",
-      "opponent": 53,
-      "outcome": "win",
-      "reason": "The recommendation problem has greater breadth, clearer generalizable safety value, and a stronger early decision framework than the highly protocol- and cohort-dependent bladder heterogeneity study. It also explicitly tests whether added complexity beats clinician, rule-based, and simple statistical baselines.",
-      "target": 99,
-      "timestamp": "2026-11-01T16:05:58.010801+00:00"
-    },
-    {
-      "main_risk": "Exposure correction may not improve tumor response, making pharmacokinetic variation a correlate rather than an actionable cause of resistance.",
-      "next_test": "Prospectively pair early pharmacokinetics, interaction review, genotype, pharmacodynamic inhibition, and serial ctDNA before any treatment change, then test response after prespecified exposure correction.",
-      "opponent": 103,
-      "outcome": "win",
-      "reason": "Phenoconversion addresses a specific, potentially reversible and clinically consequential failure mode with a clear mechanistic anchor and an early prospective test combining exposure, interactions, genotype, pharmacodynamics, and response. The recommendation project is broader but depends more heavily on confounded observational treatment comparisons and uncertain clinical utility.",
-      "target": 99,
-      "timestamp": "2026-11-01T16:05:58.010811+00:00"
-    },
-    {
-      "main_risk": "The recommendation benchmark may measure predictive association rather than causal treatment benefit under treatment and patient shifts.",
-      "next_test": "Run the prespecified independent-shift benchmark and determine whether abstention reduces severe errors at useful coverage while maintaining calibration.",
-      "opponent": 88,
-      "outcome": "win",
-      "reason": "Abstention-calibrated recommendations have a more attainable near-term validation path and broader technology utility. The chromatin counterfactual project has high discovery upside but requires several difficult assumptions about perturbation specificity, quantitative chromatin measurement, temporal identifiability, and transfer to unseen contexts.",
-      "target": 99,
-      "timestamp": "2026-11-01T16:05:58.010818+00:00"
-    },
-    {
-      "main_risk": "The glycolytic-inflammatory spatial program may be a cell-line or anatomical-site artifact that adds nothing beyond composition, tumor burden, or clinical covariates.",
-      "next_test": "Profile paired pretreatment and early on-treatment biopsies and test a locked spatial neighborhood score against clinical, anatomical-site, and composition-only baselines in both disease sites.",
-      "opponent": 18,
-      "outcome": "loss",
-      "reason": "The cholangiocarcinoma project has a tighter biological anchor, a coherent mechanism-to-measurement path, and useful outcomes even if the shared program fails, including separation of conserved from site-specific resistance biology. The recommendation project is broader, but its decision target is more vulnerable to confounding and uncertain counterfactual validity.",
-      "target": 99,
-      "timestamp": "2026-11-01T16:05:58.010825+00:00"
-    },
-    {
       "main_risk": "CD44v9 perturbation may cause nonspecific toxicity or fail to reproduce across independent PDAC donors.",
       "next_test": "In at least six independent PDO donors, test CD44v9 perturbation plus treatment versus treatment alone using both viability and post-washout regrowth.",
       "opponent": 110,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 143 has a shorter, more directly falsifiable perturbation test and can produce informative negative, timing, and transfer outcomes. Issue 82 is clinically important but depends on rare-cohort access, 12-month outcomes, scanner portability, and disentangling treatment-modified GFAP.",
       "target": 143,
       "timestamp": "2026-11-22T01:24:01.437915+00:00"
+    },
+    {
+      "main_risk": "Whether pathogen and host-response states reflect treatment benefit rather than prognosis or timing.",
+      "next_test": "Lock the treatment pathway and utility threshold, then run a short repeated-measurement pilot against severity and pathogen baselines.",
+      "opponent": 79,
+      "outcome": "loss",
+      "reason": "Pulmonary sepsis has greater treatment-stakes impact and a clear action-theory anchor, while the osteoarthritis project may improve prediction but not necessarily change load-management decisions.",
+      "target": 125,
+      "timestamp": "2026-11-22T11:37:02.579125+00:00"
+    },
+    {
+      "main_risk": "CAIX imaging may measure tracer delivery, perfusion, necrosis, or tumor burden rather than treatment-relevant hypoxia.",
+      "next_test": "Pair serial CAIX PET with spatially matched tissue hypoxia, perfusion, and necrosis measurements in a 10-week landmark cohort.",
+      "opponent": 44,
+      "outcome": "win",
+      "reason": "Early hypoxia readouts could change resistance-management timing across multiple cancers, whereas osteoarthritis load management is more clinically narrow and may rest on invasive molecular tissue.",
+      "target": 125,
+      "timestamp": "2026-11-22T11:37:02.579147+00:00"
+    },
+    {
+      "main_risk": "Intermediate stress response may reflect nonspecific injury rather than a reproducible SPDEF-dependent program.",
+      "next_test": "Run the preregistered wild-type/SPDEF knockout by control/intermediate/severe stress experiment and reserve intermediate dose and recovery readouts.",
+      "opponent": 146,
+      "outcome": "loss",
+      "reason": "The SPDEF factorial experiment has a sharper causal anchor and an inexpensive, rapid falsifiable test, with useful genotype-by-stress insight even if extrapolation fails.",
+      "target": 125,
+      "timestamp": "2026-11-22T11:37:02.579154+00:00"
+    },
+    {
+      "main_risk": "Placental or cord-blood signals may be confounded by delivery, batch, cell composition, or maternal BMI rather than fetal risk.",
+      "next_test": "Run a paired maternal-placental-cord pilot with an independently adjudicated neonatal endpoint and test decision net benefit over routine clinical variables.",
+      "opponent": 74,
+      "outcome": "loss",
+      "reason": "Maternal-placental-cord stratification can guide actionable newborn follow-up and leverage specimens often already collected, with stronger potential public-health and precision-medicine breadth.",
+      "target": 125,
+      "timestamp": "2026-11-22T11:37:02.579159+00:00"
+    },
+    {
+      "main_risk": "Accessible tissue molecular states may not reflect the mechanically treated joint compartment.",
+      "next_test": "Prospectively test 12-week wearable mechanical reproducibility and incremental decision value over clinical-imaging baselines.",
+      "opponent": 94,
+      "outcome": "win",
+      "reason": "Osteoarthritis load management has a more direct, clinically accessible fixed anchor and stronger decision utility than engineering predictions in a mixed neural co-culture.",
+      "target": 125,
+      "timestamp": "2026-11-22T11:37:02.579163+00:00"
     }
   ],
   "k_factor": 24,
@@ -2908,10 +2908,10 @@
     },
     "125": {
       "draws": 0,
-      "games": 6,
-      "losses": 6,
-      "rating": 1432.17,
-      "wins": 0
+      "games": 11,
+      "losses": 9,
+      "rating": 1421.6,
+      "wins": 2
     },
     "126": {
       "draws": 0,
@@ -3062,10 +3062,10 @@
     },
     "146": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 6,
-      "rating": 1431.01,
-      "wins": 0
+      "rating": 1443.06,
+      "wins": 1
     },
     "15": {
       "draws": 1,
@@ -3279,9 +3279,9 @@
     },
     "44": {
       "draws": 0,
-      "games": 22,
-      "losses": 14,
-      "rating": 1431.29,
+      "games": 23,
+      "losses": 15,
+      "rating": 1418.91,
       "wins": 8
     },
     "45": {
@@ -3510,10 +3510,10 @@
     },
     "74": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 9,
-      "rating": 1431.01,
-      "wins": 3
+      "rating": 1442.65,
+      "wins": 4
     },
     "75": {
       "draws": 0,
@@ -3545,10 +3545,10 @@
     },
     "79": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 9,
-      "rating": 1431.49,
-      "wins": 3
+      "rating": 1443.51,
+      "wins": 4
     },
     "8": {
       "draws": 0,
@@ -3664,9 +3664,9 @@
     },
     "94": {
       "draws": 0,
-      "games": 14,
-      "losses": 10,
-      "rating": 1430.94,
+      "games": 15,
+      "losses": 11,
+      "rating": 1418.18,
       "wins": 4
     },
     "95": {
