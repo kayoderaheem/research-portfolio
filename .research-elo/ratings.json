@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Structural features may not add reproducible treatment-response information after adjustment for specimen quality, treatment selection, and established biomarkers.",
-      "next_test": "Run the locked low-dimensional feature classifier with patient-level nested validation in matched FFPE genome/exome samples.",
-      "opponent": 110,
-      "outcome": "win",
-      "reason": "Genome-derived structural features offer broader potential clinical value and a clearer incremental-value test than the rare, measurement-intensive osteosarcoma multimodal endpoint problem.",
-      "target": 109,
-      "timestamp": "2026-11-02T06:19:41.620348+00:00"
-    },
-    {
-      "main_risk": "Genome-derived structural signals may be technically reproducible but biologically noninformative for response prediction.",
-      "next_test": "Test a preregistered compact structural-feature set against clinical, panel, and exome baselines in an independent patient-level cohort.",
-      "opponent": 66,
-      "outcome": "loss",
-      "reason": "The FFPE genome problem has a more direct precision-medicine endpoint, stronger established baselines, and a clearer path to clinically interpretable incremental value than architecture features whose transportability is explicitly uncertain.",
-      "target": 109,
-      "timestamp": "2026-11-02T06:19:41.620369+00:00"
-    },
-    {
-      "main_risk": "The apparent genome advantage may reflect annotation or interpretation opportunities rather than predictive biological information.",
-      "next_test": "Measure external reproducibility and treatment-response gain of locked structural features after controlling for FFPE quality and clinical covariates.",
-      "opponent": 9,
-      "outcome": "loss",
-      "reason": "Genome-derived resistance markers address a broader treatment-selection problem with clearer external validation and decision relevance, whereas the hidradenitis proposal depends on a less established spatial state and forced pathway-treatment pairing.",
-      "target": 109,
-      "timestamp": "2026-11-02T06:19:41.620379+00:00"
-    },
-    {
-      "main_risk": "ATP, GTP, membrane potential, and mitochondrial translation may remain too correlated or insufficiently observable to identify a unique causal route.",
-      "next_test": "Run the preregistered short time course with ATP-synthase inhibition, GTP and exchange rescues, orthogonal mediator assays, and independent biological preparations.",
-      "opponent": 93,
-      "outcome": "loss",
-      "reason": "Mechanism-identifiable virtual cells provide a more general technology contribution and a cheaper, highly discriminating causal test with useful outcomes even if the proposed GTP mechanism fails; the FFPE project requires harder-to-secure matched clinical cohorts and delayed outcome readouts.",
-      "target": 109,
-      "timestamp": "2026-11-02T06:19:41.620387+00:00"
-    },
-    {
-      "main_risk": "Structural and copy-number calls from FFPE genome sequencing may not be sufficiently reproducible or incremental for response prediction.",
-      "next_test": "Evaluate a locked compact feature set in patient-level held-out matched samples, including orthogonal structural-call confirmation and calibration.",
-      "opponent": 92,
-      "outcome": "win",
-      "reason": "The FFPE genome problem has clearer treatment relevance, more mature clinical baselines, and a more actionable validation path, while fresh-to-fixed virtual-cell transport requires several high-risk assumptions about preserved perturbation biology and assay distortion.",
-      "target": 109,
-      "timestamp": "2026-11-02T06:19:41.620394+00:00"
-    },
-    {
       "main_risk": "Baseline and relapse changes may reflect sampling, purity, lineage, or treatment exposure rather than therapy-selected resistance.",
       "next_test": "Blind and lock analysis of paired baseline-relapse samples, then test salvage-response prediction in an independent patient-held-out cohort.",
       "opponent": 101,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 141 offers a faster mechanistic discriminator and reusable scientific insight across epithelial perturbations. Issue 132 has greater immediate clinical value, but it requires multi-site outcome adjudication and may lose decision benefit after calibration and ascertainment controls.",
       "target": 141,
       "timestamp": "2026-11-22T19:47:52.107558+00:00"
+    },
+    {
+      "main_risk": "Training-only reliability may fail to calibrate or generalize to wholly withheld constituents and contexts.",
+      "next_test": "Cross-fitted calibration and matched-coverage additive-versus-residual comparison across constituents held completely out of development.",
+      "opponent": 148,
+      "outcome": "win",
+      "reason": "Issue 147 has broader reusable value across perturbation modalities and contexts, with a clearer eight-week factorial test and more informative abstention rules. Issue 148 is compelling but depends on separating NGLY1-specific biology from generic developmental and inflammatory effects in a rarer model system.",
+      "target": 147,
+      "timestamp": "2026-11-23T01:48:09.372753+00:00"
+    },
+    {
+      "main_risk": "Reliability or uncertainty may track measurement noise rather than genuine interaction identifiability.",
+      "next_test": "An eight-week factorial screen comparing abstention error and calibration against additive baselines for combinations sharing and withholding constituents.",
+      "opponent": 149,
+      "outcome": "win",
+      "reason": "Issue 147 offers more general and reusable scientific value for combination perturbation modeling, while issue 149 has similar modeling risk but narrower melanoma-context applicability and a slower discriminating experiment.",
+      "target": 147,
+      "timestamp": "2026-11-23T01:48:09.372774+00:00"
+    },
+    {
+      "main_risk": "Architecture features may encode patient, site, composition, or sampling geometry rather than transportable treatment-response biology.",
+      "next_test": "Locked leave-one-patient-out stability test for architecture features after exact composition and clinical-covariate adjustment.",
+      "opponent": 66,
+      "outcome": "win",
+      "reason": "Issue 147 has a more tractable fixed anchor and clearer null branch. Issue 66 could have stronger direct clinical value, but spatial reproducibility, batch effects, endpoint harmonization, and incremental gain across patients create several simultaneous high-risk assumptions.",
+      "target": 147,
+      "timestamp": "2026-11-23T01:48:09.372781+00:00"
+    },
+    {
+      "main_risk": "GTP depletion may be correlated with and non-identifiable from ATP or membrane-potential stress, preventing causal ranking.",
+      "next_test": "A short time course measuring ATP synthase inhibition, exchange rescue, GTP rescue, membrane potential, and translation in matched preparations.",
+      "opponent": 93,
+      "outcome": "win",
+      "reason": "Issue 147 is better positioned: it has a broader application, a shorter discriminating experiment, and can be falsified by a single additive baseline. Issue 93 has potentially deeper mechanistic value, but matrix GTP observability and unique mechanism identification are both high-risk and hard to read out.",
+      "target": 147,
+      "timestamp": "2026-11-23T01:48:09.372785+00:00"
+    },
+    {
+      "main_risk": "Combinatorial reliability gains may only reflect memorized additive effects or calibration rather than identifiable interactions.",
+      "next_test": "A factorial pair screen that withholds entire constituents and estimates matched-coverage improvement and calibration over a strong additive model.",
+      "opponent": 122,
+      "outcome": "win",
+      "reason": "Issue 147 has wider utility and an earlier, more direct stop-or-pivot test. Issue 122 has a credible patient-level endpoint but substantial barriers from multicohort timing, regimen heterogeneity, site effects, tissue annotation, and expensive mechanistic validation.",
+      "target": 147,
+      "timestamp": "2026-11-23T01:48:09.372790+00:00"
     }
   ],
   "k_factor": 24,
@@ -2887,9 +2887,9 @@
     },
     "122": {
       "draws": 0,
-      "games": 17,
-      "losses": 9,
-      "rating": 1489.69,
+      "games": 18,
+      "losses": 10,
+      "rating": 1479.61,
       "wins": 8
     },
     "123": {
@@ -3066,6 +3066,27 @@
       "losses": 6,
       "rating": 1443.06,
       "wins": 1
+    },
+    "147": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1555.83,
+      "wins": 5
+    },
+    "148": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
+    },
+    "149": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.41,
+      "wins": 0
     },
     "15": {
       "draws": 1,
@@ -3447,9 +3468,9 @@
     },
     "66": {
       "draws": 0,
-      "games": 28,
-      "losses": 14,
-      "rating": 1500.34,
+      "games": 29,
+      "losses": 15,
+      "rating": 1489.14,
       "wins": 14
     },
     "67": {
@@ -3657,9 +3678,9 @@
     },
     "93": {
       "draws": 0,
-      "games": 26,
-      "losses": 13,
-      "rating": 1504.74,
+      "games": 27,
+      "losses": 14,
+      "rating": 1493.78,
       "wins": 13
     },
     "94": {
