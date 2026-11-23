@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Baseline and relapse changes may reflect sampling, purity, lineage, or treatment exposure rather than therapy-selected resistance.",
-      "next_test": "Blind and lock analysis of paired baseline-relapse samples, then test salvage-response prediction in an independent patient-held-out cohort.",
-      "opponent": 101,
-      "outcome": "loss",
-      "reason": "Paired longitudinal lymphoma profiling has broader mechanistic and clinical value, stronger competitive differentiation, and a feasible retrospective held-out test before treatment-adaptation claims.",
-      "target": 110,
-      "timestamp": "2026-11-02T19:33:44.052766+00:00"
-    },
-    {
-      "main_risk": "ctDNA may be undetectable or unreliable in a substantial fraction of patients.",
-      "next_test": "Prospectively measure ctDNA detectability and early imaging changes against resection histology in a small multicenter cohort.",
-      "opponent": 109,
-      "outcome": "win",
-      "reason": "Osteosarcoma response concordance is more tightly anchored to a defined clinical decision and has a clearer disease-specific endpoint than the heterogeneous, assay-heavy genome-versus-exome proposal.",
-      "target": 110,
-      "timestamp": "2026-11-02T19:33:44.052780+00:00"
-    },
-    {
-      "main_risk": "Apparent excitation memory may actually reflect viability, cell cycle, batch, or current-state differences.",
-      "next_test": "Hold out an entire stimulation-recovery schedule and independent preparation, testing preparation-level trajectory error and uncertainty coverage against memoryless baselines.",
-      "opponent": 89,
-      "outcome": "loss",
-      "reason": "The virtual-cell problem offers more general discovery value, a direct identifiability test, and useful outcomes even if transfer fails, whereas the osteosarcoma study depends on several scarce multimodal measurements.",
-      "target": 110,
-      "timestamp": "2026-11-02T19:33:44.052789+00:00"
-    },
-    {
-      "main_risk": "Target engagement may not explain viability because lineage, co-mutations, exposure, or downstream bypass dominate response.",
-      "next_test": "Measure engagement, pathway suppression, and viability across matched isogenic mutation-defined models under controlled exposure.",
-      "opponent": 55,
-      "outcome": "loss",
-      "reason": "Mutation-specific target engagement links biochemical mechanism to cellular response and resistance, with focused causal experiments and broad reuse across mutation-directed therapies.",
-      "target": 110,
-      "timestamp": "2026-11-02T19:33:44.052793+00:00"
-    },
-    {
-      "main_risk": "The glycolytic-inflammatory spatial program may be an artifact of cell composition, anatomical site, or prolonged culture adaptation rather than conserved resistance biology.",
-      "next_test": "Test a prespecified spatial neighborhood score in pretreatment and early on-treatment patient biopsies with site-held-out validation.",
-      "opponent": 18,
-      "outcome": "loss",
-      "reason": "Spatial cholangiocarcinoma profiling addresses a potentially transferable tumor–microenvironment mechanism across anatomical sites and includes orthogonal functional validation, offering broader impact than the rare-disease endpoint study.",
-      "target": 110,
-      "timestamp": "2026-11-02T19:33:44.052797+00:00"
-    },
-    {
       "main_risk": "Cell-specific ASO measurements may reflect recovery, exposure, or composition artifacts rather than true niche-dependent engagement.",
       "next_test": "Run the small matched pretreatment/on-treatment cohort with recovery controls and patient-level replication before building a predictive signature.",
       "opponent": 113,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 147 has wider utility and an earlier, more direct stop-or-pivot test. Issue 122 has a credible patient-level endpoint but substantial barriers from multicohort timing, regimen heterogeneity, site effects, tissue annotation, and expensive mechanistic validation.",
       "target": 147,
       "timestamp": "2026-11-23T01:48:09.372790+00:00"
+    },
+    {
+      "main_risk": "The DOK3 transition may be fully explained by macrophage abundance or tumor burden.",
+      "next_test": "Run the locked paired-baseline/on-treatment imaging panel in 25 patients, blinded to outcome, and compare against composition-only models.",
+      "opponent": 114,
+      "outcome": "loss",
+      "reason": "The patient-level macrophage transition directly tests a potentially reversible checkpoint-resistance state and has stronger clinical utility than controlled virtual-cell extrapolation.",
+      "target": 149,
+      "timestamp": "2026-11-23T13:03:50.195891+00:00"
+    },
+    {
+      "main_risk": "Generic developmental, inflammatory, or lineage effects may reproduce the NGLY1 perturbation signature.",
+      "next_test": "Test matched loss/correction and RUNX1 perturbations across basal and inflammatory 2D microglial conditions in an isogenic donor pair.",
+      "opponent": 148,
+      "outcome": "loss",
+      "reason": "The isogenic NGLY1 anchor provides a cleaner causal counterfactual and faster four-context readout than melanoma resistance-context virtual-cell extrapolation.",
+      "target": 149,
+      "timestamp": "2026-11-23T13:03:50.195916+00:00"
+    },
+    {
+      "main_risk": "Acute and chronic effects may not generalize across melanoma resistance contexts.",
+      "next_test": "Run the prospective acute/chronic factorial assay and reserve one dose and exposure schedule as a counterfactual held-out prediction.",
+      "opponent": 101,
+      "outcome": "win",
+      "reason": "The melanoma experiment has a clearer in vitro causal anchor, shorter readout, and explicit branch thresholds, whereas longitudinal resistance timing is more confounded and expensive.",
+      "target": 149,
+      "timestamp": "2026-11-23T13:03:50.195926+00:00"
+    },
+    {
+      "main_risk": "The dynamic model may only capture culture adaptation or shared transcriptional signatures.",
+      "next_test": "Complete the prospective held-out dose-duration and resistant-lineage prediction with matched viability and cell-death endpoints.",
+      "opponent": 66,
+      "outcome": "win",
+      "reason": "Melanoma dose-duration and resistance-context dynamics offer a reproducible controlled readout, while glioblastoma spatial architecture requires larger, harder-to-standardize cohorts and may remain patient-specific.",
+      "target": 149,
+      "timestamp": "2026-11-23T13:03:50.195934+00:00"
+    },
+    {
+      "main_risk": "Resistance-state responses may be conserved only within individual melanoma lineages.",
+      "next_test": "Measure unseen doses and continuous exposure histories in one held-out melanoma resistance lineage against trajectory and mixed-effect baselines.",
+      "opponent": 117,
+      "outcome": "win",
+      "reason": "The melanoma proposal has a stronger fixed perturbation anchor and shorter controlled falsification test; gastric transition claims are more vulnerable to survival, cell-cycle, and mapping artifacts.",
+      "target": 149,
+      "timestamp": "2026-11-23T13:03:50.195941+00:00"
     }
   ],
   "k_factor": 24,
@@ -2726,9 +2726,9 @@
     },
     "101": {
       "draws": 0,
-      "games": 17,
-      "losses": 9,
-      "rating": 1489.05,
+      "games": 18,
+      "losses": 10,
+      "rating": 1476.21,
       "wins": 8
     },
     "102": {
@@ -2824,10 +2824,10 @@
     },
     "114": {
       "draws": 0,
-      "games": 19,
+      "games": 20,
       "losses": 10,
-      "rating": 1488.21,
-      "wins": 9
+      "rating": 1500.22,
+      "wins": 10
     },
     "115": {
       "draws": 0,
@@ -2845,9 +2845,9 @@
     },
     "117": {
       "draws": 0,
-      "games": 15,
-      "losses": 8,
-      "rating": 1487.33,
+      "games": 16,
+      "losses": 9,
+      "rating": 1475.42,
       "wins": 7
     },
     "118": {
@@ -3076,17 +3076,17 @@
     },
     "148": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "rating": 1499.6,
+      "wins": 1
     },
     "149": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
-      "rating": 1488.41,
-      "wins": 0
+      "games": 6,
+      "losses": 3,
+      "rating": 1501.95,
+      "wins": 3
     },
     "15": {
       "draws": 1,
@@ -3468,9 +3468,9 @@
     },
     "66": {
       "draws": 0,
-      "games": 29,
-      "losses": 15,
-      "rating": 1489.14,
+      "games": 30,
+      "losses": 16,
+      "rating": 1476.74,
       "wins": 14
     },
     "67": {
