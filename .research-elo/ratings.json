@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Reproducible spatial relationships may not exist across patients or may encode site and sampling architecture rather than biology.",
-      "next_test": "Estimate patient-level feature stability and batch predictability in leave-one-patient-out analyses before fitting response models.",
-      "opponent": 66,
-      "outcome": "loss",
-      "reason": "Glioblastoma architecture-aware prediction offers a more reusable technology question with explicit transportability, batch controls, and independent-cohort validation, while remaining flexible about assay and endpoint.",
-      "target": 112,
-      "timestamp": "2026-11-03T19:33:07.405700+00:00"
-    },
-    {
-      "main_risk": "Spatial remodeling may not add information beyond composition, lesion size, or patient-level severity.",
-      "next_test": "Run locked composition-only versus spatial models in held-out patients using baseline and early-treatment lesions.",
-      "opponent": 105,
-      "outcome": "win",
-      "reason": "Electrochemotherapy has a clearer longitudinal patient-level design, matched treated and untreated lesions, and a cheaper incremental-value test; the 3D myeloma project adds substantial cross-laboratory model and clinical-correlation risk.",
-      "target": 112,
-      "timestamp": "2026-11-03T19:33:07.405724+00:00"
-    },
-    {
-      "main_risk": "The apparent spatial signal may be explained by composition, lesion size, or sampling rather than interaction geometry.",
-      "next_test": "Test a prespecified immune-front score against composition and clinical baselines with patient-level held-out validation and spatial permutation controls.",
-      "opponent": 57,
-      "outcome": "win",
-      "reason": "The electrochemotherapy problem has stronger direct longitudinal evidence and a more defined response-prediction anchor, whereas the bispecific-antibody project relies heavily on transferring organoid architecture effects to patient tissue and requires a longer assay-development path.",
-      "target": 112,
-      "timestamp": "2026-11-03T19:33:07.405733+00:00"
-    },
-    {
-      "main_risk": "The spatial association may fail to replicate across animals or represent marker suppression rather than meaningful tissue repair.",
-      "next_test": "Repeat the most informative pretreatment-to-early-treatment time points across independent induction batches with collagen architecture and blinded histology.",
-      "opponent": 65,
-      "outcome": "win",
-      "reason": "Electrochemotherapy addresses a clinically relevant patient-level response question with matched lesion outcomes and an explicit transportability path; the fibrosis project is primarily a mouse mechanistic study whose predictive and clinical relevance remain less established.",
-      "target": 112,
-      "timestamp": "2026-11-03T19:33:07.405745+00:00"
-    },
-    {
-      "main_risk": "CAF–immune spatial features may not provide transportable predictive value beyond tumor-intrinsic state and composition.",
-      "next_test": "Evaluate a locked CAF–immune exclusion score in paired patient samples using patient-level held-out calibration and an independent specimen set.",
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "Electrochemotherapy is more tightly anchored to a defined longitudinal clinical setting and has a cheaper discriminating test, while the lung adenocarcinoma project combines uncertain therapy choice, paired biopsies, spatial profiling, and tumoroid validation.",
-      "target": 112,
-      "timestamp": "2026-11-03T19:33:07.405752+00:00"
-    },
-    {
       "main_risk": "The DOK3 transition may be macrophage abundance, tumor burden, or interferon exposure rather than an independent response determinant.",
       "next_test": "Profile blinded paired baseline and early on-treatment biopsies from approximately 25 checkpoint-treated patients using a locked DOK3/CARD9 spatial panel.",
       "opponent": 116,
@@ -2699,6 +2654,51 @@
       "reason": "The pancreatic proposal targets high clinical value, but credible treatment-benefit prediction depends on access to sufficiently powered randomized and independent cohorts, plus transportable multimodal measurements. The perturbation question has broader potential use and a more direct near-term falsification path.",
       "target": 147,
       "timestamp": "2026-11-24T13:52:55.153900+00:00"
+    },
+    {
+      "main_risk": "Matrix GTP effects may not be separable from ATP depletion or membrane-potential changes.",
+      "next_test": "Run a small, replicated ATP-synthase inhibition and rescue time course measuring ATP, GTP, membrane potential, and mitochondrial translation; check whether the interventions distinguish the proposed mechanisms.",
+      "opponent": 93,
+      "outcome": "loss",
+      "reason": "The bioenergetic project tests a specific causal mechanism with rescue interventions and orthogonal readouts; even a negative result could distinguish competing explanations. The melanoma project’s value depends more heavily on demonstrating model gains across several dimensions of generalization.",
+      "target": 149,
+      "timestamp": "2026-11-24T23:56:06.141340+00:00"
+    },
+    {
+      "main_risk": "Independent melanoma models may not share response dynamics, limiting transfer beyond the tested lineages.",
+      "next_test": "First verify assay repeatability and acute-versus-chronic response separation in a small set of matched naive and resistant melanoma models.",
+      "opponent": 122,
+      "outcome": "win",
+      "reason": "The melanoma project offers a more controlled, near-term test in cell models. The breast-cancer project needs paired patient biopsies, reproducible early spatial transitions, and incremental response prediction across sites or cohorts, making its six-month outcome more dependent on data access and several linked assumptions.",
+      "target": 149,
+      "timestamp": "2026-11-24T23:56:06.141362+00:00"
+    },
+    {
+      "main_risk": "The dynamic model may not outperform simple dose-time baselines on held-out resistant contexts or phenotypic outcomes.",
+      "next_test": "In a few independent melanoma models, test whether a held-out dose-duration schedule produces reproducible transcriptional and viability responses beyond an additive baseline.",
+      "opponent": 18,
+      "outcome": "win",
+      "reason": "The melanoma study can prospectively test response dynamics in controlled models. The cholangiocarcinoma proposal depends on scarce paired human biopsies and on spatial features adding predictive information beyond clinical factors, site, and cell composition; its supporting resistance observation is from cell lines.",
+      "target": 149,
+      "timestamp": "2026-11-24T23:56:06.141370+00:00"
+    },
+    {
+      "main_risk": "The observed melanoma response may be lineage-specific rather than transferable across independent models.",
+      "next_test": "Test the prespecified acute/chronic response contrast in independent naive and resistant melanoma models before fitting a transfer model.",
+      "opponent": 113,
+      "outcome": "win",
+      "reason": "The melanoma project has a more tractable prospective readout. The lung-cancer project requires matched pretreatment, residual-disease, and progression samples, then patient-level validation of a reproducible transition; cohort availability and sampling alignment could consume the investment before the core claim is tested.",
+      "target": 149,
+      "timestamp": "2026-11-24T23:56:06.141376+00:00"
+    },
+    {
+      "main_risk": "Measured melanoma cell-state changes may not predict viability or other relevant phenotypic outcomes.",
+      "next_test": "Run a small dose-duration pilot with matched transcriptional and viability readouts to check repeatability and whether the two outcomes move together.",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "The melanoma project has a contained experimental anchor and a direct early test. The hidradenitis proposal requires a standardized treatment-response cohort and assumes both that tunnel states replicate across patients and that spatial features add value beyond tunnel burden, inflammation, and clinical covariates.",
+      "target": 149,
+      "timestamp": "2026-11-24T23:56:06.141381+00:00"
     }
   ],
   "k_factor": 24,
@@ -2817,9 +2817,9 @@
     },
     "113": {
       "draws": 0,
-      "games": 16,
-      "losses": 9,
-      "rating": 1478.65,
+      "games": 17,
+      "losses": 10,
+      "rating": 1467.42,
       "wins": 7
     },
     "114": {
@@ -2887,9 +2887,9 @@
     },
     "122": {
       "draws": 0,
-      "games": 18,
-      "losses": 10,
-      "rating": 1479.61,
+      "games": 19,
+      "losses": 11,
+      "rating": 1467.53,
       "wins": 8
     },
     "123": {
@@ -3083,10 +3083,10 @@
     },
     "149": {
       "draws": 0,
-      "games": 7,
-      "losses": 4,
-      "rating": 1489.46,
-      "wins": 3
+      "games": 12,
+      "losses": 5,
+      "rating": 1522.93,
+      "wins": 7
     },
     "15": {
       "draws": 1,
@@ -3104,9 +3104,9 @@
     },
     "18": {
       "draws": 1,
-      "games": 39,
-      "losses": 20,
-      "rating": 1478.69,
+      "games": 40,
+      "losses": 21,
+      "rating": 1467.06,
       "wins": 18
     },
     "19": {
@@ -3650,9 +3650,9 @@
     },
     "9": {
       "draws": 1,
-      "games": 43,
-      "losses": 22,
-      "rating": 1476.9,
+      "games": 44,
+      "losses": 23,
+      "rating": 1466.11,
       "wins": 20
     },
     "90": {
@@ -3678,10 +3678,10 @@
     },
     "93": {
       "draws": 0,
-      "games": 28,
+      "games": 29,
       "losses": 15,
-      "rating": 1482.0,
-      "wins": 13
+      "rating": 1494.26,
+      "wins": 14
     },
     "94": {
       "draws": 0,
