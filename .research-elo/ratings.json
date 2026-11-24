@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Cell-specific ASO measurements may reflect recovery, exposure, or composition artifacts rather than true niche-dependent engagement.",
-      "next_test": "Run the small matched pretreatment/on-treatment cohort with recovery controls and patient-level replication before building a predictive signature.",
-      "opponent": 113,
-      "outcome": "win",
-      "reason": "Cell-resolved ASO engagement has a clearer mechanistic anchor, a shorter discriminating experiment, and useful outcomes even if prediction fails. The lineage-transition project depends on difficult longitudinal sampling and several high-risk cross-patient reproducibility assumptions.",
-      "target": 111,
-      "timestamp": "2026-11-03T02:56:48.800665+00:00"
-    },
-    {
-      "main_risk": "The apparent cell-specific signal may disappear after correcting for target abundance, exposure, recovery, and tissue composition.",
-      "next_test": "Measure baseline state, spatial location, intracellular ASO, and target knockdown in a small matched cohort, then test reproducibility across treatment cohorts.",
-      "opponent": 112,
-      "outcome": "loss",
-      "reason": "The ASO problem more directly links a measurable mechanistic intermediate—cell-specific target engagement—to response and toxicity, with greater flexibility across targets and tissues. The electrochemotherapy project requires reproducible spatial geometry, early remodeling, and regional response prediction, with substantial lesion and patient heterogeneity.",
-      "target": 111,
-      "timestamp": "2026-11-03T02:56:48.800688+00:00"
-    },
-    {
-      "main_risk": "Cell-resolved engagement may be technically measurable but not reproducible or incrementally informative beyond bulk pharmacodynamics.",
-      "next_test": "Compare cell-resolved versus bulk engagement and composition in an independent matched treatment cohort using locked technical controls.",
-      "opponent": 66,
-      "outcome": "loss",
-      "reason": "Cell-resolved pharmacodynamics offers a more concrete biological readout and an earlier decision than architecture-aware glioblastoma prediction, whose transportability across institutions and cohorts is a central unresolved risk. The ASO study can still produce mechanistic value without a successful clinical predictor.",
-      "target": 111,
-      "timestamp": "2026-11-03T02:56:48.800696+00:00"
-    },
-    {
-      "main_risk": "Niche-associated ASO differences may not explain response or safety after technical and exposure confounding is removed.",
-      "next_test": "Test whether cell-specific uptake and target knockdown reproducibly explain response variance beyond bulk exposure and knockdown.",
-      "opponent": 40,
-      "outcome": "win",
-      "reason": "The ASO project has a more focused causal measurement and clearer early branch points. Virtual screening requires reliable synergy measurement, mechanistic biomarkers, context transfer beyond cell lines, and prospective validation in donor-derived or three-dimensional models, creating a longer chain of high-risk assumptions.",
-      "target": 111,
-      "timestamp": "2026-11-03T02:56:48.800704+00:00"
-    },
-    {
-      "main_risk": "Cell-resolved ASO activity may not add information beyond bulk exposure, target abundance, or tissue composition.",
-      "next_test": "Perform the prespecified matched cell-resolved engagement experiment with independent animal or donor-level replication and orthogonal target-engagement validation.",
-      "opponent": 105,
-      "outcome": "loss",
-      "reason": "The ASO problem is more tightly anchored to a measurable pharmacodynamic mechanism and offers broader portability across targets, tissues, and assay platforms. The myeloma project has strong clinical relevance but depends on maintaining patient cells, reproducing complex bone niches across laboratories, and linking ex vivo categories to outcomes.",
-      "target": 111,
-      "timestamp": "2026-11-03T02:56:48.800709+00:00"
-    },
-    {
       "main_risk": "Matched minimal-residual-disease samples may be too heterogeneous or sparse to distinguish true transitions from sampling and purity effects.",
       "next_test": "Build a blinded patient-level transition map from matched pretreatment and residual samples and test resistance prediction in held-out patients.",
       "opponent": 111,
@@ -2699,6 +2654,51 @@
       "reason": "The melanoma proposal has a stronger fixed perturbation anchor and shorter controlled falsification test; gastric transition claims are more vulnerable to survival, cell-cycle, and mapping artifacts.",
       "target": 149,
       "timestamp": "2026-11-23T13:03:50.195941+00:00"
+    },
+    {
+      "main_risk": "The DOK3-associated transition may merely reflect tumor burden or macrophage abundance rather than an independent treatment-response state.",
+      "next_test": "Profile 25 paired biopsies blinded to outcome and test whether the locked transition score predicts response beyond macrophage abundance and clinical baselines.",
+      "opponent": 114,
+      "outcome": "loss",
+      "reason": "Issue 114 has greater and more credible clinical impact through a patient-level response biomarker, while retaining a clear spatial-state anchor and prespecified negative controls.",
+      "target": 148,
+      "timestamp": "2026-11-24T02:16:55.959486+00:00"
+    },
+    {
+      "main_risk": "Generic inflammatory and lineage signatures may make the NGLY1-specific effect impossible to isolate from batch and developmental history.",
+      "next_test": "Run the matched isogenic loss/correction and RUNX1 panel across basal and inflammatory conditions, reserving an independent donor pair for prediction.",
+      "opponent": 149,
+      "outcome": "win",
+      "reason": "Issue 148 has a clearer genetic counterfactual and stronger context-generalization objective, whereas 149 mainly extrapolates from melanoma culture histories that may be line-specific.",
+      "target": 148,
+      "timestamp": "2026-11-24T02:16:55.959508+00:00"
+    },
+    {
+      "main_risk": "Matrix GTP, membrane potential, and mitochondrial translation may be insufficiently separable in 93, making the proposed causal mechanism non-identifiable.",
+      "next_test": "Measure the ATP-synthase inhibition and both rescue interventions in independent preparations before fitting 93's mechanistic model.",
+      "opponent": 93,
+      "outcome": "win",
+      "reason": "Issue 148 offers a more accessible 8-week falsification and a concrete rare-disease biological anchor, with sufficient flexibility across assay and 2D/3D contexts.",
+      "target": 148,
+      "timestamp": "2026-11-24T02:16:55.959517+00:00"
+    },
+    {
+      "main_risk": "SECmere RNA could still establish major triage value, and issue 85 would deserve priority if it passes paired technical reproducibility and external calibration.",
+      "next_test": "Complete the blinded isogenic 2D panel and held-out donor test, including shuffled perturbation controls.",
+      "opponent": 85,
+      "outcome": "win",
+      "reason": "Issue 148 has a cheaper, better-controlled isogenic test and fewer collection-dependent assumptions, while 85 requires a calibrated multicenter clinical validation and faces major pre-analytic and spectrum risks.",
+      "target": 148,
+      "timestamp": "2026-11-24T02:16:55.959524+00:00"
+    },
+    {
+      "main_risk": "Confounding developmental and inflammatory states could erase the apparent NGLY1 transfer signal in 148.",
+      "next_test": "Measure isogenic correction and RUNX1 perturbation in basal and stimulated contexts, reserving one complete donor pair for frozen validation.",
+      "opponent": 91,
+      "outcome": "win",
+      "reason": "Issue 148 has a stronger fixed biological perturbation anchor and more prospective validation branches than 91, whose kinetic states may remain weakly identifiable despite favorable time resolution.",
+      "target": 148,
+      "timestamp": "2026-11-24T02:16:55.959531+00:00"
     }
   ],
   "k_factor": 24,
@@ -2824,10 +2824,10 @@
     },
     "114": {
       "draws": 0,
-      "games": 20,
+      "games": 21,
       "losses": 10,
-      "rating": 1500.22,
-      "wins": 10
+      "rating": 1512.2,
+      "wins": 11
     },
     "115": {
       "draws": 0,
@@ -3076,16 +3076,16 @@
     },
     "148": {
       "draws": 0,
-      "games": 2,
-      "losses": 1,
-      "rating": 1499.6,
-      "wins": 1
+      "games": 7,
+      "losses": 2,
+      "rating": 1535.84,
+      "wins": 5
     },
     "149": {
       "draws": 0,
-      "games": 6,
-      "losses": 3,
-      "rating": 1501.95,
+      "games": 7,
+      "losses": 4,
+      "rating": 1489.46,
       "wins": 3
     },
     "15": {
@@ -3615,9 +3615,9 @@
     },
     "85": {
       "draws": 0,
-      "games": 20,
-      "losses": 9,
-      "rating": 1516.61,
+      "games": 21,
+      "losses": 10,
+      "rating": 1504.45,
       "wins": 11
     },
     "86": {
@@ -3664,9 +3664,9 @@
     },
     "91": {
       "draws": 1,
-      "games": 22,
-      "losses": 10,
-      "rating": 1518.08,
+      "games": 23,
+      "losses": 11,
+      "rating": 1506.29,
       "wins": 11
     },
     "92": {
@@ -3678,9 +3678,9 @@
     },
     "93": {
       "draws": 0,
-      "games": 27,
-      "losses": 14,
-      "rating": 1493.78,
+      "games": 28,
+      "losses": 15,
+      "rating": 1482.0,
       "wins": 13
     },
     "94": {
