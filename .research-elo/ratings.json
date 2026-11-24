@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Matched minimal-residual-disease samples may be too heterogeneous or sparse to distinguish true transitions from sampling and purity effects.",
-      "next_test": "Build a blinded patient-level transition map from matched pretreatment and residual samples and test resistance prediction in held-out patients.",
-      "opponent": 111,
-      "outcome": "win",
-      "reason": "Patient-level longitudinal reproducibility and resistance prediction offer greater clinical and biological value than a technically demanding niche pharmacodynamic assay whose link to response remains uncertain.",
-      "target": 113,
-      "timestamp": "2026-11-03T10:59:07.219673+00:00"
-    },
-    {
-      "main_risk": "The apparent transition may not recur across patients, sites, or treatment intervals.",
-      "next_test": "Evaluate a locked transition classifier in held-out patients while controlling for site, purity, treatment timing, and baseline composition.",
-      "opponent": 101,
-      "outcome": "win",
-      "reason": "The EGFR project has a clearer early classifier test and a more actionable biological anchor, whereas lymphoma resistance timing requires difficult causal separation of selection, induction, and sampling effects before it can guide salvage therapy.",
-      "target": 113,
-      "timestamp": "2026-11-03T10:59:07.219692+00:00"
-    },
-    {
-      "main_risk": "The EGFR transition may be patient-specific rather than a reproducible cross-patient trajectory.",
-      "next_test": "Test the locked transition signature against clinical-genomic, composition-only, and single-feature baselines in independent patients.",
-      "opponent": 40,
-      "outcome": "win",
-      "reason": "The EGFR project addresses a clinically consequential, biologically grounded longitudinal problem; the virtual-screening proposal carries greater benchmark-to-translation risk and depends on several context and mechanism assumptions.",
-      "target": 113,
-      "timestamp": "2026-11-03T10:59:07.219701+00:00"
-    },
-    {
-      "main_risk": "Sampling and anatomical heterogeneity may overwhelm any shared EGFR resistance transition.",
-      "next_test": "Use matched pretreatment and minimal-residual-disease samples to test reproducibility and later resistance prediction in held-out patients.",
-      "opponent": 18,
-      "outcome": "loss",
-      "reason": "The EGFR proposal has stronger evidence readiness from longitudinal profiling and a more direct patient-level prediction question, while the cholangiocarcinoma project must first establish that cell-line-derived metabolic-inflammatory programs transfer across anatomical sites.",
-      "target": 113,
-      "timestamp": "2026-11-03T10:59:07.219711+00:00"
-    },
-    {
-      "main_risk": "Biochemical engagement may explain little beyond lineage, co-mutations, exposure, or uptake effects.",
-      "next_test": "Measure engagement, pathway suppression, and viability across a blinded mutation-defined panel and compare integrated models with mutation-only and context-only baselines.",
-      "opponent": 55,
-      "outcome": "loss",
-      "reason": "Mutation-specific target engagement is more directly testable with a focused panel, matched isogenic models, and orthogonal assays, providing earlier mechanistic decisions than the large longitudinal cohort required by the EGFR project.",
-      "target": 113,
-      "timestamp": "2026-11-03T10:59:07.219720+00:00"
-    },
-    {
       "main_risk": "Reproducible spatial relationships may not exist across patients or may encode site and sampling architecture rather than biology.",
       "next_test": "Estimate patient-level feature stability and batch predictability in leave-one-patient-out analyses before fitting response models.",
       "opponent": 66,
@@ -2699,6 +2654,51 @@
       "reason": "Issue 148 has a stronger fixed biological perturbation anchor and more prospective validation branches than 91, whose kinetic states may remain weakly identifiable despite favorable time resolution.",
       "target": 148,
       "timestamp": "2026-11-24T02:16:55.959531+00:00"
+    },
+    {
+      "main_risk": "The prospective perturbation results may not generalize to combinations with wholly unseen constituents.",
+      "next_test": "On an existing dataset, test train-only reliability estimates on patient- or experiment-level held-out constituents, against additive and interaction-aware baselines, before committing to a prospective screen.",
+      "opponent": 78,
+      "outcome": "win",
+      "reason": "Reliability-gated combination prediction has a focused, broadly useful question and a direct test against additive baselines. The airway proposal has meaningful clinical potential, but depends on reproducible endpoint adjudication, ultrasound acquisition, and multi-site patient data across several modalities.",
+      "target": 147,
+      "timestamp": "2026-11-24T13:52:55.153859+00:00"
+    },
+    {
+      "main_risk": "Unseen interactions may be too novel to predict from constituent reliability or training-distribution structure.",
+      "next_test": "Compare reliability-gated and additive predictions on a leakage-resistant held-out-constituent split, checking whether reliability separates accurate from inaccurate predictions at matched coverage.",
+      "opponent": 138,
+      "outcome": "win",
+      "reason": "The constituent-reliability question ties abstention to a specific failure mode in combinatorial predictions and preserves useful residual-interaction analyses. The broader support-score proposal risks becoming a benchmark of generic confidence signals without establishing what makes combinations identifiable.",
+      "target": 147,
+      "timestamp": "2026-11-24T13:52:55.153878+00:00"
+    },
+    {
+      "main_risk": "The perturbation data may not support reliable extrapolation to combinations without observed constituents.",
+      "next_test": "First test constituent-level reproducibility and held-out-constituent calibration in an existing perturbation dataset; proceed only if reliability separates errors beyond simple additive baselines.",
+      "opponent": 121,
+      "outcome": "loss",
+      "reason": "The perturbation proposal offers a more bounded route to a decision and broader reusable value. The endocrine project could yield clinically relevant biology, but its central claim requires spatial measurements to add patient-level predictive value beyond composition and clinical factors, with suitable pretreatment cohorts and external validation.",
+      "target": 147,
+      "timestamp": "2026-11-24T13:52:55.153887+00:00"
+    },
+    {
+      "main_risk": "Reliability estimates may track batch or measurement noise rather than biological prediction error.",
+      "next_test": "Use a held-out perturbation dataset to test whether reliability predicts error after controlling for replicate uncertainty and batch, with additive and fixed-weight baselines.",
+      "opponent": 61,
+      "outcome": "loss",
+      "reason": "The reliability-gating problem is broader and has a clearer staged test than the TNBC biomarker proposal, which requires a spatial assay, adequate patient-level outcomes, orthogonal validation, and eventual cross-platform transport. The TNBC question has greater direct clinical specificity but more linked feasibility risks for a six-month investment.",
+      "target": 147,
+      "timestamp": "2026-11-24T13:52:55.153894+00:00"
+    },
+    {
+      "main_risk": "A factorial perturbation test may show that reliability gating does not help on genuinely withheld constituents.",
+      "next_test": "Before a new screen, run a preregistered held-out-constituent analysis with training-only calibration and compare matched-coverage error and calibration against additive baselines.",
+      "opponent": 2,
+      "outcome": "win",
+      "reason": "The pancreatic proposal targets high clinical value, but credible treatment-benefit prediction depends on access to sufficiently powered randomized and independent cohorts, plus transportable multimodal measurements. The perturbation question has broader potential use and a more direct near-term falsification path.",
+      "target": 147,
+      "timestamp": "2026-11-24T13:52:55.153900+00:00"
     }
   ],
   "k_factor": 24,
@@ -2880,10 +2880,10 @@
     },
     "121": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 3,
-      "rating": 1545.24,
-      "wins": 7
+      "rating": 1558.41,
+      "wins": 8
     },
     "122": {
       "draws": 0,
@@ -3006,9 +3006,9 @@
     },
     "138": {
       "draws": 0,
-      "games": 11,
-      "losses": 3,
-      "rating": 1552.73,
+      "games": 12,
+      "losses": 4,
+      "rating": 1541.25,
       "wins": 8
     },
     "139": {
@@ -3069,10 +3069,10 @@
     },
     "147": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
-      "rating": 1555.83,
-      "wins": 5
+      "games": 10,
+      "losses": 2,
+      "rating": 1565.13,
+      "wins": 8
     },
     "148": {
       "draws": 0,
@@ -3118,9 +3118,9 @@
     },
     "2": {
       "draws": 0,
-      "games": 34,
-      "losses": 15,
-      "rating": 1545.04,
+      "games": 35,
+      "losses": 16,
+      "rating": 1533.33,
       "wins": 19
     },
     "21": {
@@ -3433,10 +3433,10 @@
     },
     "61": {
       "draws": 0,
-      "games": 18,
+      "games": 19,
       "losses": 7,
-      "rating": 1545.08,
-      "wins": 11
+      "rating": 1557.81,
+      "wins": 12
     },
     "62": {
       "draws": 0,
@@ -3559,9 +3559,9 @@
     },
     "78": {
       "draws": 0,
-      "games": 19,
-      "losses": 7,
-      "rating": 1556.23,
+      "games": 20,
+      "losses": 8,
+      "rating": 1544.22,
       "wins": 12
     },
     "79": {
