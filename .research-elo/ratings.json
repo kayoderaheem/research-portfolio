@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The DOK3 transition may be macrophage abundance, tumor burden, or interferon exposure rather than an independent response determinant.",
-      "next_test": "Profile blinded paired baseline and early on-treatment biopsies from approximately 25 checkpoint-treated patients using a locked DOK3/CARD9 spatial panel.",
-      "opponent": 116,
-      "outcome": "win",
-      "reason": "114 has a clearer, more clinically anchored biological problem, stronger patient-level validation plan, and a feasible early test. 116 depends on scarce multicenter paired samples and a difficult niche-plus-clonotype signal in a heterogeneous disease.",
-      "target": 114,
-      "timestamp": "2026-11-04T01:27:08.432440+00:00"
-    },
-    {
-      "main_risk": "The spatial macrophage transition may not replicate across patients or improve prediction beyond composition and clinical covariates.",
-      "next_test": "Run the prespecified blinded paired-biopsy spatial assay and compare the transition against composition-only baselines.",
-      "opponent": 115,
-      "outcome": "win",
-      "reason": "114 offers a more reproducible and actionable biomarker question with a shorter path to patient-level evidence. 115 adds high-risk assumptions about invasive-front definition, fibroblast-state transfer, MYC dependence, and access to treated PDAC specimens and functional models.",
-      "target": 114,
-      "timestamp": "2026-11-04T01:27:08.432455+00:00"
-    },
-    {
-      "main_risk": "The DOK3/CARD9 state may fail to show independent, reproducible relevance to T-cell access or response.",
-      "next_test": "Test the locked spatial transition score in paired biopsies, explicitly comparing it with macrophage abundance and established response signatures.",
-      "opponent": 105,
-      "outcome": "win",
-      "reason": "114 has a stronger early decision point and a clearer biological anchor, with useful outcomes if the transition is noncausal or nonpredictive. 105 has broad technology potential but requires difficult patient-sample maintenance, cross-laboratory harmonization, and proof that 3D discordance predicts clinical outcomes.",
-      "target": 114,
-      "timestamp": "2026-11-04T01:27:08.432463+00:00"
-    },
-    {
-      "main_risk": "The macrophage program may be only a correlate of disease composition and provide no incremental predictive value.",
-      "next_test": "Evaluate the locked transition score in a blinded patient-level cohort against clinical, composition-only, and established checkpoint-response baselines.",
-      "opponent": 99,
-      "outcome": "win",
-      "reason": "114 addresses a specific, biologically testable resistance state and can generate mechanistic and biomarker value without requiring immediate clinical decision automation. 99 has broad potential but its evaluation is highly confounded by treatment selection, outcome interpretability, distribution shift, and the gap between retrospective recommendation benchmarks and clinical safety.",
-      "target": 114,
-      "timestamp": "2026-11-04T01:27:08.432467+00:00"
-    },
-    {
-      "main_risk": "DOK3/CARD9 expression or spatial transition may not represent a reproducible or functionally relevant determinant of checkpoint response.",
-      "next_test": "Use independent paired biopsies to test whether the transition is reproducible and predicts response beyond macrophage abundance and tumor composition.",
-      "opponent": 93,
-      "outcome": "win",
-      "reason": "114 is more investment-ready because its anchor, patient-level unit, early test, and validation branches are comparatively concrete. 93 could yield major general insight, but causal identifiability requires extensive matched metabolite, translation, rescue, dose, and context data, with several correlated mechanisms capable of explaining the same observations.",
-      "target": 114,
-      "timestamp": "2026-11-04T01:27:08.432472+00:00"
-    },
-    {
       "main_risk": "MYC-treated patient tissue and matched context-preserving functional assays may be unavailable or too heterogeneous for a reliable patient-level interaction.",
       "next_test": "Run the prespecified 30-specimen localization, CAF-context, target-engagement, and matched short-term explant experiment with patient-level analysis.",
       "opponent": 116,
@@ -2699,6 +2654,51 @@
       "reason": "The melanoma project has a contained experimental anchor and a direct early test. The hidradenitis proposal requires a standardized treatment-response cohort and assumes both that tunnel states replicate across patients and that spatial features add value beyond tunnel burden, inflammation, and clinical covariates.",
       "target": 149,
       "timestamp": "2026-11-24T23:56:06.141381+00:00"
+    },
+    {
+      "main_risk": "The available perturbation data may not identify a real interaction separately from cell-state or assay effects.",
+      "next_test": "Test one prespecified held-out perturbation pair against an additive baseline using independent biological replicates and matched chromatin and expression measurements.",
+      "opponent": 98,
+      "outcome": "loss",
+      "reason": "The cooperative histone-perturbation question has a clearer mechanistic anchor and could yield useful evidence about causal identifiability even if predictive generalization fails. The drug-exposure proposal lacks a selected drug and decision target, making its clinical value harder to establish at the outset.",
+      "target": 130,
+      "timestamp": "2026-11-25T08:45:34.458134+00:00"
+    },
+    {
+      "main_risk": "Congestion may not measurably alter exposure or pharmacodynamic response for a drug with a usable clinical target.",
+      "next_test": "Run a one-drug pilot with timed concentrations and serial congestion measurements during decongestion, comparing against routine clinical and laboratory variables.",
+      "opponent": 88,
+      "outcome": "win",
+      "reason": "The drug-specific exposure question has a narrower early readout than predicting causal chromatin effects across both an unseen perturbation and an unseen developmental context. A focused pilot could establish whether there is a reproducible signal worth pursuing.",
+      "target": 130,
+      "timestamp": "2026-11-25T08:45:34.458152+00:00"
+    },
+    {
+      "main_risk": "Observed exposure changes may reflect illness severity, treatment intensity, or sampling time rather than congestion.",
+      "next_test": "Use a focused one-drug pilot with prespecified sampling times and congestion strata to test for a reproducible exposure association beyond routine variables.",
+      "opponent": 41,
+      "outcome": "win",
+      "reason": "The proposed yeast project depends on resolving temporal causality, lineage selection, and reversibility across unseen schedules; several difficult assumptions must hold before the model can be informative. The drug-exposure project offers a more bounded first test and a clearer stop-or-pivot readout.",
+      "target": 130,
+      "timestamp": "2026-11-25T08:45:34.458160+00:00"
+    },
+    {
+      "main_risk": "Active or progressive disease may not be adjudicable independently of the MRI findings being evaluated.",
+      "next_test": "Check whether an existing consecutive cohort can support blinded outcome adjudication using longitudinal outcomes and microbiology or pathology where available, without relying on residual MRI alone.",
+      "opponent": 77,
+      "outcome": "loss",
+      "reason": "The tuberculoma question targets a direct clinical decision—whether persistent MRI lesions warrant treatment extension—and compares against a clear MRI-only baseline. That patient-facing value makes it a stronger investment, provided a credible outcome standard and cohort can be secured.",
+      "target": 130,
+      "timestamp": "2026-11-25T08:45:34.458167+00:00"
+    },
+    {
+      "main_risk": "The selected cardiovascular drug may lack a meaningful, congestion-sensitive exposure-response target.",
+      "next_test": "Validate assay performance and target definition for one candidate drug, then test incremental exposure prediction in a small serial-sampling pilot.",
+      "opponent": 23,
+      "outcome": "win",
+      "reason": "The drug-exposure proposal has a more direct early discriminating experiment. The knee-rehabilitation proposal additionally needs to specify a deliverable recovery decision and show that predicted risk identifies differential benefit from a rehabilitation strategy, not just delayed recovery.",
+      "target": 130,
+      "timestamp": "2026-11-25T08:45:34.458172+00:00"
     }
   ],
   "k_factor": 24,
@@ -2950,10 +2950,10 @@
     },
     "130": {
       "draws": 0,
-      "games": 7,
-      "losses": 5,
-      "rating": 1468.43,
-      "wins": 2
+      "games": 12,
+      "losses": 7,
+      "rating": 1480.37,
+      "wins": 5
     },
     "131": {
       "draws": 0,
@@ -3139,9 +3139,9 @@
     },
     "23": {
       "draws": 0,
-      "games": 31,
-      "losses": 17,
-      "rating": 1467.97,
+      "games": 32,
+      "losses": 18,
+      "rating": 1455.98,
       "wins": 14
     },
     "24": {
@@ -3279,9 +3279,9 @@
     },
     "41": {
       "draws": 0,
-      "games": 29,
-      "losses": 16,
-      "rating": 1468.24,
+      "games": 30,
+      "losses": 17,
+      "rating": 1456.26,
       "wins": 13
     },
     "42": {
@@ -3552,10 +3552,10 @@
     },
     "77": {
       "draws": 0,
-      "games": 15,
+      "games": 16,
       "losses": 9,
-      "rating": 1467.98,
-      "wins": 6
+      "rating": 1480.42,
+      "wins": 7
     },
     "78": {
       "draws": 0,
@@ -3636,9 +3636,9 @@
     },
     "88": {
       "draws": 0,
-      "games": 15,
-      "losses": 9,
-      "rating": 1468.41,
+      "games": 16,
+      "losses": 10,
+      "rating": 1456.0,
       "wins": 6
     },
     "89": {
@@ -3713,10 +3713,10 @@
     },
     "98": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 10,
-      "rating": 1468.43,
-      "wins": 7
+      "rating": 1480.43,
+      "wins": 8
     },
     "99": {
       "draws": 0,
