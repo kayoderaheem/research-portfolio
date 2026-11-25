@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "MYC-treated patient tissue and matched context-preserving functional assays may be unavailable or too heterogeneous for a reliable patient-level interaction.",
-      "next_test": "Run the prespecified 30-specimen localization, CAF-context, target-engagement, and matched short-term explant experiment with patient-level analysis.",
-      "opponent": 116,
-      "outcome": "win",
-      "reason": "The invasive-front problem has broader biological and translational insight, a clearer context-versus-aggressiveness test, and strong orthogonal validation branches; the mastitis project has high clinical value but depends on a smaller, harder-to-standardize cohort and spatial niche reproducibility.",
-      "target": 115,
-      "timestamp": "2026-11-04T11:04:52.366007+00:00"
-    },
-    {
-      "main_risk": "Retrospective treatment outcomes may be too confounded and incomplete to support clinically meaningful recommendation-error evaluation.",
-      "next_test": "Evaluate frozen abstaining and forced systems on an independent-institution and temporal-shift cohort at matched coverage, measuring high-severity errors and calibration.",
-      "opponent": 99,
-      "outcome": "loss",
-      "reason": "Abstention-calibrated recommendations offer broader reusable technology value and a relatively cheap, decisive external benchmark with strong simple and clinical baselines; the pancreatic project requires substantially more specialized tissue, treatment, and functional infrastructure before its central interaction can be tested.",
-      "target": 115,
-      "timestamp": "2026-11-04T11:04:52.366022+00:00"
-    },
-    {
-      "main_risk": "Three-dimensional niche effects may reflect platform variability, drug penetration, or selection rather than clinically relevant microenvironment-mediated resistance.",
-      "next_test": "Perform blinded paired two-dimensional versus bone-mimetic testing across two laboratories using two mechanistically distinct therapies and patient-level replication.",
-      "opponent": 105,
-      "outcome": "loss",
-      "reason": "The bone-niche problem has a clean fixed anchor, a direct paired assay comparison, a short eight-week discriminating experiment, and useful mechanistic outcomes even if prediction fails; the pancreatic study has greater dependence on scarce treated specimens and several linked spatial and organoid assumptions.",
-      "target": 115,
-      "timestamp": "2026-11-04T11:04:52.366027+00:00"
-    },
-    {
-      "main_risk": "Spatial context may only mark aggressive disease, with no reproducible causal or predictive interaction with MYC inhibition.",
-      "next_test": "Measure the spatial interaction and MYC target engagement in pretreatment specimens paired with short-term fibroblast-preserving and fibroblast-disrupted explants.",
-      "opponent": 89,
-      "outcome": "win",
-      "reason": "The pancreatic problem has a clearer clinical endpoint, stronger immediate translational relevance, and an explicit competing explanation that can be tested with matched context-preserving assays; the virtual-cell project requires several high-risk assumptions about latent history, identifiability, extrapolation, and cross-context transfer.",
-      "target": 115,
-      "timestamp": "2026-11-04T11:04:52.366033+00:00"
-    },
-    {
-      "main_risk": "Matrix GTP depletion may not be experimentally separable from ATP, membrane-potential, or nonspecific mitochondrial-stress effects.",
-      "next_test": "Run the preregistered independent-preparation time course with ATP-synthase inhibition, GTP and exchange rescues, matched controls, and orthogonal metabolite and translation assays.",
-      "opponent": 93,
-      "outcome": "loss",
-      "reason": "The bioenergetic virtual-cell problem is more tightly anchored to a falsifiable causal mechanism, has a relatively cheap rescue-based early test, and can yield informative results from either confirmation or refutation; the pancreatic project depends on scarce clinical cohorts and a longer chain from spatial association to treatment prediction.",
-      "target": 115,
-      "timestamp": "2026-11-04T11:04:52.366036+00:00"
-    },
-    {
       "main_risk": "A sufficiently large, independent multicenter biopsy cohort may not be obtainable.",
       "next_test": "Blindly analyze 20–30 paired pretreatment and week-2 biopsies with a prespecified niche score and compare it with clinical-plus-composition baselines.",
       "opponent": 111,
@@ -2699,6 +2654,51 @@
       "reason": "The drug-exposure proposal has a more direct early discriminating experiment. The knee-rehabilitation proposal additionally needs to specify a deliverable recovery decision and show that predicted risk identifies differential benefit from a rehabilitation strategy, not just delayed recovery.",
       "target": 130,
       "timestamp": "2026-11-25T08:45:34.458172+00:00"
+    },
+    {
+      "main_risk": "The retinal signal may not add reproducible net benefit beyond the clinical baseline in independent populations or sites.",
+      "next_test": "Check that a patient-level, external-site cohort has sufficient incident events and linked retinal images; then compare a locked clinical baseline with retinal models at prespecified treatment thresholds.",
+      "opponent": 136,
+      "outcome": "loss",
+      "reason": "Retinal imaging targets a defined clinical decision and explicitly tests calibrated, external decision value beyond established risk factors. The cytosolic-access idea has broader discovery potential, but depends on delivery measurements predicting target engagement and response across varied contexts.",
+      "target": 140,
+      "timestamp": "2026-11-25T19:22:49.828433+00:00"
+    },
+    {
+      "main_risk": "CD44v9 may mark persistent cells without being a functional driver of resistance.",
+      "next_test": "In independent PDO donors, test CD44v9 perturbation plus treatment against treatment-only and non-targeting controls, measuring viability and post-washout regrowth.",
+      "opponent": 108,
+      "outcome": "loss",
+      "reason": "The CD44v9 proposal tests a focused causal resistance hypothesis with perturbation, treatment interaction, and donor-level readouts; results could redirect mechanism or therapeutic work even if negative. The cytosolic-access proposal requires several links from assay signal to target engagement to response.",
+      "target": 140,
+      "timestamp": "2026-11-25T19:22:49.828451+00:00"
+    },
+    {
+      "main_risk": "Cytosolic arrival may not predict target engagement or downstream response, even when measured accurately.",
+      "next_test": "Blind a small CPP–cargo panel and measure cytosolic arrival, membrane integrity, target engagement, and response; test whether delivery adds value over sequence and exposure baselines.",
+      "opponent": 127,
+      "outcome": "win",
+      "reason": "The cytosolic-access proposal has a relatively compact early test and could clarify a general measurement prerequisite for interpreting perturbation effects. The urine proposal depends on technically reproducible assays, multi-site longitudinal outcomes, and incremental clinical value, making its early decision more resource- and data-dependent.",
+      "target": 140,
+      "timestamp": "2026-11-25T19:22:49.828457+00:00"
+    },
+    {
+      "main_risk": "A CHAMP signal may not establish that the perturbing cargo engaged its target or caused the measured response.",
+      "next_test": "Use a blinded CPP–cargo panel with orthogonal delivery and target-engagement measurements, membrane-damage controls, and a prespecified downstream response.",
+      "opponent": 134,
+      "outcome": "win",
+      "reason": "The cytosolic-access question targets a foundational observability problem and proposes an early assay-level test with negative-control failure criteria. The stroke proposal has plausible clinical relevance, but requires transportable molecular signals across cohorts despite substantial exposure, site, and assay confounding.",
+      "target": 140,
+      "timestamp": "2026-11-25T19:22:49.828462+00:00"
+    },
+    {
+      "main_risk": "Apparent gains may reflect unstable state definitions or dataset-specific abundance patterns rather than generalizable perturbation effects.",
+      "next_test": "Blindly hold out perturbation targets and donors, compare against the specified baselines, and verify predicted large state shifts with targeted imaging or flow cytometry.",
+      "opponent": 39,
+      "outcome": "loss",
+      "reason": "Composition-aware counterfactuals directly address whether perturbations change which cell states are present, and the proposal specifies strong compositional, expression-first, retrieval, and null baselines plus orthogonal validation. This is a more directly testable scientific objective than the broader claim that cytosolic-access measurements improve predictions across diverse contexts.",
+      "target": 140,
+      "timestamp": "2026-11-25T19:22:49.828466+00:00"
     }
   ],
   "k_factor": 24,
@@ -2775,10 +2775,10 @@
     },
     "108": {
       "draws": 0,
-      "games": 9,
+      "games": 10,
       "losses": 3,
-      "rating": 1532.44,
-      "wins": 6
+      "rating": 1544.01,
+      "wins": 7
     },
     "109": {
       "draws": 0,
@@ -2922,9 +2922,9 @@
     },
     "127": {
       "draws": 0,
-      "games": 11,
-      "losses": 4,
-      "rating": 1531.36,
+      "games": 12,
+      "losses": 5,
+      "rating": 1518.57,
       "wins": 7
     },
     "128": {
@@ -2978,9 +2978,9 @@
     },
     "134": {
       "draws": 0,
-      "games": 7,
-      "losses": 2,
-      "rating": 1532.95,
+      "games": 8,
+      "losses": 3,
+      "rating": 1520.55,
       "wins": 5
     },
     "135": {
@@ -2992,10 +2992,10 @@
     },
     "136": {
       "draws": 0,
-      "games": 9,
+      "games": 10,
       "losses": 3,
-      "rating": 1532.25,
-      "wins": 6
+      "rating": 1544.24,
+      "wins": 7
     },
     "137": {
       "draws": 0,
@@ -3020,10 +3020,10 @@
     },
     "140": {
       "draws": 0,
-      "games": 7,
-      "losses": 2,
-      "rating": 1532.01,
-      "wins": 5
+      "games": 12,
+      "losses": 5,
+      "rating": 1521.55,
+      "wins": 7
     },
     "141": {
       "draws": 1,
@@ -3258,10 +3258,10 @@
     },
     "39": {
       "draws": 0,
-      "games": 29,
+      "games": 30,
       "losses": 13,
-      "rating": 1530.98,
-      "wins": 16
+      "rating": 1543.07,
+      "wins": 17
     },
     "4": {
       "draws": 1,
