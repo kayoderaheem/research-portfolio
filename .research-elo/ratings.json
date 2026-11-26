@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "A sufficiently large, independent multicenter biopsy cohort may not be obtainable.",
-      "next_test": "Blindly analyze 20–30 paired pretreatment and week-2 biopsies with a prespecified niche score and compare it with clinical-plus-composition baselines.",
-      "opponent": 111,
-      "outcome": "win",
-      "reason": "Issue 116 has a clearer patient-level clinical problem, defined response endpoint, and stronger translational value than the broader but less disease-anchored ASO platform proposal.",
-      "target": 116,
-      "timestamp": "2026-11-04T19:50:57.177776+00:00"
-    },
-    {
-      "main_risk": "The immune niche may add no predictive value beyond disease severity, composition, site, and batch.",
-      "next_test": "Test the locked pretreatment niche score in a small paired cohort using patient-level, site-controlled validation and orthogonal imaging.",
-      "opponent": 115,
-      "outcome": "win",
-      "reason": "Issue 116 has a more credible clinical anchor and earlier discriminating test; issue 115 depends on an unproven MYC-response interaction, spatial context, and functional fibroblast models.",
-      "target": 116,
-      "timestamp": "2026-11-04T19:50:57.177799+00:00"
-    },
-    {
-      "main_risk": "Longitudinal molecular changes may reflect sampling, purity, treatment exposure, or lineage shifts rather than therapy-selected resistance.",
-      "next_test": "Blindly evaluate a locked longitudinal model in paired baseline-relapse samples with orthogonal clonality confirmation and a held-out cohort.",
-      "opponent": 101,
-      "outcome": "loss",
-      "reason": "Issue 101 offers broader reusable insight into resistance timing and appears more likely to leverage existing paired longitudinal material, whereas issue 116 requires difficult prospective multicenter tissue collection in a rare disease.",
-      "target": 116,
-      "timestamp": "2026-11-04T19:50:57.177807+00:00"
-    },
-    {
-      "main_risk": "The proposed niche signal may not improve prediction beyond composition and clinical covariates.",
-      "next_test": "Measure the prespecified niche in 20–30 paired biopsies and compare it against clinical-plus-composition baselines with calibration and site controls.",
-      "opponent": 40,
-      "outcome": "win",
-      "reason": "Issue 116 is anchored to a concrete unmet clinical need and patient-level outcome, while issue 40 risks becoming a benchmark-driven virtual-screening project with uncertain transfer from cell models to patients.",
-      "target": 116,
-      "timestamp": "2026-11-04T19:50:57.177816+00:00"
-    },
-    {
-      "main_risk": "Apparent hysteresis may be explained by viability, cell cycle, calcium state, or batch rather than latent excitation history.",
-      "next_test": "Hold out an intermediate excitation/recovery schedule and test prospective trajectory prediction in an independent neuronal preparation with viability and calcium controls.",
-      "opponent": 89,
-      "outcome": "loss",
-      "reason": "Issue 89 poses a general scientific question about whether perturbation history is identifiable, has a flexible model-independent anchor, and offers a relatively cheap decisive schedule-holdout experiment; issue 116 is more clinically valuable but substantially more dependent on scarce samples and complex assays.",
-      "target": 116,
-      "timestamp": "2026-11-04T19:50:57.177822+00:00"
-    },
-    {
       "main_risk": "The choice would change if issue 119 already had an accessible, adequately powered independent virotherapy cohort while issue 117 lacked paired gastric samples.",
       "next_test": "Run a small locked replication of candidate transitions in available paired gastric tumors and compare against pretreatment composition.",
       "opponent": 119,
@@ -2699,6 +2654,51 @@
       "reason": "Composition-aware counterfactuals directly address whether perturbations change which cell states are present, and the proposal specifies strong compositional, expression-first, retrieval, and null baselines plus orthogonal validation. This is a more directly testable scientific objective than the broader claim that cytosolic-access measurements improve predictions across diverse contexts.",
       "target": 140,
       "timestamp": "2026-11-25T19:22:49.828466+00:00"
+    },
+    {
+      "main_risk": "The CAR-T intervention signatures may not be separable from donor variation or drug off-target effects.",
+      "next_test": "Run a small matched-donor oxygen-by-intervention pilot with ARG2 activity, viability, and serial-killing readouts before building the virtual-cell model.",
+      "opponent": 118,
+      "outcome": "win",
+      "reason": "The ARG2 question has a controlled, donor-matched perturbation test that can distinguish direct intervention effects; the HEV–TLS proposal depends on having treatment-linked spatial samples and establishing added value beyond composition.",
+      "target": 145,
+      "timestamp": "2026-11-26T03:38:03.024003+00:00"
+    },
+    {
+      "main_risk": "The interventions may produce no reproducible, distinguishable effects across donors and oxygen conditions.",
+      "next_test": "Use a small matched-donor factorial pilot to test whether inhibition and supplementation yield distinct, reproducible responses under hypoxia.",
+      "opponent": 87,
+      "outcome": "win",
+      "reason": "The ARG2 project has a nearer biological anchor and can test its central claim with direct perturbations. Predicting an unseen perturbation in an unseen context is a demanding simultaneous extrapolation, and the broader platform value depends on that working.",
+      "target": 145,
+      "timestamp": "2026-11-26T03:38:03.024022+00:00"
+    },
+    {
+      "main_risk": "The available PCOS cohort may lack an independent, predictor-independent diagnostic label and sufficient site or population diversity.",
+      "next_test": "Audit the 541-patient data for label provenance, patient-level independence, modality completeness, and a clinically defensible referral threshold before fitting models.",
+      "opponent": 73,
+      "outcome": "win",
+      "reason": "PCOS triage has a direct potential clinical use and a relatively cheap first test of whether added modalities improve decisions over routine variables. The ARG2 project has a stronger mechanistic experiment but a more indirect and uncertain path to patient benefit.",
+      "target": 145,
+      "timestamp": "2026-11-26T03:38:03.024032+00:00"
+    },
+    {
+      "main_risk": "ARG2 inhibition effects may reflect off-target pharmacology or donor-specific responses rather than a direct pathway effect.",
+      "next_test": "In a small matched-donor hypoxia experiment, compare inhibitor, supplementation, and knockout with an orthogonal ARG2 activity readout and serial killing.",
+      "opponent": 60,
+      "outcome": "loss",
+      "reason": "ARG2 permits controlled causal comparisons and a quick test of whether interventions are distinguishable. The HCC proposal has substantial clinical relevance, but its spatial signal could be confounded by disease severity or tissue quality and needs independent transport validation.",
+      "target": 145,
+      "timestamp": "2026-11-26T03:38:03.024039+00:00"
+    },
+    {
+      "main_risk": "History-aware prediction may rely on injury burden or composition shifts rather than a transferable pre-perturbation state.",
+      "next_test": "Compare zero- and repeated-challenge preparations under the same held-out CARM1 perturbation, measuring pre-intervention state and replicate-level functional outcomes.",
+      "opponent": 90,
+      "outcome": "loss",
+      "reason": "The regenerative-history question is anchored in an observed challenge-dependent CARM1 effect and tests a general biological issue—whether prior history changes later perturbation response. The ARG2 proposal is more tightly tied to one engineered-cell intervention setting and has several interacting perturbations to resolve.",
+      "target": 145,
+      "timestamp": "2026-11-26T03:38:03.024046+00:00"
     }
   ],
   "k_factor": 24,
@@ -2852,9 +2852,9 @@
     },
     "118": {
       "draws": 0,
-      "games": 9,
-      "losses": 3,
-      "rating": 1534.51,
+      "games": 10,
+      "losses": 4,
+      "rating": 1522.51,
       "wins": 6
     },
     "119": {
@@ -3055,10 +3055,10 @@
     },
     "145": {
       "draws": 0,
-      "games": 7,
-      "losses": 2,
-      "rating": 1534.51,
-      "wins": 5
+      "games": 12,
+      "losses": 4,
+      "rating": 1543.34,
+      "wins": 8
     },
     "146": {
       "draws": 0,
@@ -3426,10 +3426,10 @@
     },
     "60": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 7,
-      "rating": 1534.61,
-      "wins": 10
+      "rating": 1547.8,
+      "wins": 11
     },
     "61": {
       "draws": 0,
@@ -3524,9 +3524,9 @@
     },
     "73": {
       "draws": 0,
-      "games": 17,
-      "losses": 7,
-      "rating": 1534.59,
+      "games": 18,
+      "losses": 8,
+      "rating": 1523.4,
       "wins": 10
     },
     "74": {
@@ -3629,9 +3629,9 @@
     },
     "87": {
       "draws": 0,
-      "games": 19,
-      "losses": 8,
-      "rating": 1534.57,
+      "games": 20,
+      "losses": 9,
+      "rating": 1522.98,
       "wins": 11
     },
     "88": {
@@ -3657,10 +3657,10 @@
     },
     "90": {
       "draws": 1,
-      "games": 16,
+      "games": 17,
       "losses": 6,
-      "rating": 1534.21,
-      "wins": 9
+      "rating": 1546.97,
+      "wins": 10
     },
     "91": {
       "draws": 1,
