@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The choice would change if issue 119 already had an accessible, adequately powered independent virotherapy cohort while issue 117 lacked paired gastric samples.",
-      "next_test": "Run a small locked replication of candidate transitions in available paired gastric tumors and compare against pretreatment composition.",
-      "opponent": 119,
-      "outcome": "win",
-      "reason": "Issue 117 offers broader discovery value and a flexible patient-level anchor, whereas issue 119 depends on scarce paired spatial glioma specimens and several high-risk assumptions about early treatment changes and incremental prediction.",
-      "target": 117,
-      "timestamp": "2026-11-05T01:29:51.368944+00:00"
-    },
-    {
-      "main_risk": "The choice would change if HEV-TLS scores fail reproducibility across sections or provide no incremental value beyond immune composition.",
-      "next_test": "Blindly test prespecified HEV-TLS maturity scores in pretreatment breast sections with linked outcomes against composition and clinical baselines.",
-      "opponent": 118,
-      "outcome": "loss",
-      "reason": "Issue 118 has a clearer, more measurable tissue-context anchor, a cheaper pretreatment-first test, and an unusually direct route to cross-resolution validation; issue 117 requires reliable inference of transitions despite survival, proliferation, and batch confounding.",
-      "target": 117,
-      "timestamp": "2026-11-05T01:29:51.368968+00:00"
-    },
-    {
-      "main_risk": "The choice would change if retrospective treatment outcomes cannot support credible indication-aware comparisons or if abstention reduces coverage without reducing severe errors.",
-      "next_test": "Evaluate locked abstention thresholds on an independent institution and temporal treatment-shift cohort against strong clinical and molecular baselines.",
-      "opponent": 99,
-      "outcome": "loss",
-      "reason": "Issue 99 addresses a broadly reusable safety capability and has a concrete retrospective benchmark with selective-risk, calibration, and external-shift readouts; issue 117 is biologically valuable but depends on difficult paired sampling and cross-patient transition identification.",
-      "target": 117,
-      "timestamp": "2026-11-05T01:29:51.368978+00:00"
-    },
-    {
-      "main_risk": "The choice would change if a two-laboratory pilot shows reproducible niche-discordance phenotypes with clear patient-level signal.",
-      "next_test": "Run blinded paired 2D and bone-mimetic 3D responses for two drugs across two laboratories using reference controls.",
-      "opponent": 105,
-      "outcome": "win",
-      "reason": "Issue 117 is less dependent on building and standardizing a variable three-dimensional assay across laboratories, while retaining broad discovery value and useful atlas-level outcomes if universal transitions fail. Issue 105 has several sequential high-risk assumptions before clinical relevance can be established.",
-      "target": 117,
-      "timestamp": "2026-11-05T01:29:51.368986+00:00"
-    },
-    {
-      "main_risk": "The choice would change if tunnel states replicate across donors and predict response beyond tunnel burden and clinical severity in an accessible cohort.",
-      "next_test": "Apply a locked tunnel-state classifier to pretreatment biopsies from patients starting standardized therapy and compare with clinical and composition baselines.",
-      "opponent": 9,
-      "outcome": "win",
-      "reason": "Issue 117 has stronger evidence readiness, broader generality, and a more transferable scientific question. Issue 9 depends on reproducible tunnel-state classification, pathway causality, standardized treatment, and clinically informative biopsies in a heterogeneous chronic disease.",
-      "target": 117,
-      "timestamp": "2026-11-05T01:29:51.368993+00:00"
-    },
-    {
       "main_risk": "Three-dimensional niche effects may be dominated by platform and batch variability rather than clinically predictive biology.",
       "next_test": "Run blinded paired 2D/3D testing with two drugs across two laboratories and measure reproducibility and patient-level outcome prediction.",
       "opponent": 105,
@@ -2699,6 +2654,51 @@
       "reason": "The regenerative-history question is anchored in an observed challenge-dependent CARM1 effect and tests a general biological issue—whether prior history changes later perturbation response. The ARG2 proposal is more tightly tied to one engineered-cell intervention setting and has several interacting perturbations to resolve.",
       "target": 145,
       "timestamp": "2026-11-26T03:38:03.024046+00:00"
+    },
+    {
+      "main_risk": "Matched drug exposure and timed phosphoproteomic measurements may not reliably represent target engagement in the tumor.",
+      "next_test": "Check whether a single treatment cohort has paired early samples, usable drug-level measurements, and later response outcomes; if so, test a prespecified target-proximal signal against exposure-only and clinical baselines.",
+      "opponent": 49,
+      "outcome": "loss",
+      "reason": "Exposure-adjusted target engagement could distinguish actionable pharmacologic failure from biological resistance and yield mechanistic insight; the attribution is more informative than a metabolite panel whose value depends on improving clinical triage beyond established assessment.",
+      "target": 128,
+      "timestamp": "2026-11-26T17:01:31.940662+00:00"
+    },
+    {
+      "main_risk": "Metabolite measurements may add no calibrated referral value beyond developmental history and standardized behavioral assessment.",
+      "next_test": "In a small paired-sample pilot, compare prespecified blood-only, urine-only, and combined models with the clinical baseline using child-level splits and realistic assay-failure rules.",
+      "opponent": 8,
+      "outcome": "win",
+      "reason": "The autism proposal has a clearer patient-facing decision and explicitly tests added value over clinical assessment. The ALK proposal has a focused discovery question, but its central claim requires spatial features to predict response beyond site and composition, not merely distinguish metastatic tissues.",
+      "target": 128,
+      "timestamp": "2026-11-26T17:01:31.940677+00:00"
+    },
+    {
+      "main_risk": "The metabolite panel may reflect diet, medication, comorbidity, or referral patterns rather than add autism-specific decision value.",
+      "next_test": "Test a prespecified panel against the clinical baseline in paired specimens with patient-level separation, focusing first on calibration and referral net benefit.",
+      "opponent": 52,
+      "outcome": "win",
+      "reason": "The autism proposal defines a specific triage decision, strong clinical baselines, and an independent-site test. The isoform proposal spans cancers, drugs, and resistance states without specifying a candidate switch, making its causal and predictive assumptions difficult to resolve within six months.",
+      "target": 128,
+      "timestamp": "2026-11-26T17:01:31.940683+00:00"
+    },
+    {
+      "main_risk": "Spatial context may mark aggressive or proliferative disease rather than modify MYC-inhibitor response.",
+      "next_test": "Compare MYC inhibition with proliferation-matched controls in patient-derived explants, testing whether response tracks the hybrid state and fibroblast context.",
+      "opponent": 115,
+      "outcome": "loss",
+      "reason": "The PDAC proposal is anchored to a specific malignant state and a testable spatial-context hypothesis, with matched explants offering a useful early mechanistic branch. The autism panel has greater potential breadth but depends on difficult transportability and incremental-value claims before it can affect triage.",
+      "target": 128,
+      "timestamp": "2026-11-26T17:01:31.940687+00:00"
+    },
+    {
+      "main_risk": "Suitable paired pretreatment and early-treatment osteosarcoma specimens may be unavailable or too few to distinguish spatial organization from myeloid abundance.",
+      "next_test": "First establish whether paired specimens and patient-level outcomes exist; if they do, test a prespecified early-response signal against abundance-only and clinical baselines.",
+      "opponent": 64,
+      "outcome": "win",
+      "reason": "The STING proposal links a stated response-associated myeloid observation to a temporally ordered, testable necrosis-to-adaptive-response mechanism. The autism proposal has a clearer clinical endpoint but a long chain from metabolite association to calibrated, transportable triage benefit.",
+      "target": 128,
+      "timestamp": "2026-11-26T17:01:31.940690+00:00"
     }
   ],
   "k_factor": 24,
@@ -2831,10 +2831,10 @@
     },
     "115": {
       "draws": 0,
-      "games": 9,
+      "games": 10,
       "losses": 6,
-      "rating": 1464.45,
-      "wins": 3
+      "rating": 1476.89,
+      "wins": 4
     },
     "116": {
       "draws": 0,
@@ -2929,10 +2929,10 @@
     },
     "128": {
       "draws": 0,
-      "games": 7,
-      "losses": 5,
-      "rating": 1464.94,
-      "wins": 2
+      "games": 12,
+      "losses": 7,
+      "rating": 1476.88,
+      "wins": 5
     },
     "129": {
       "draws": 0,
@@ -3335,10 +3335,10 @@
     },
     "49": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 10,
-      "rating": 1464.57,
-      "wins": 7
+      "rating": 1476.58,
+      "wins": 8
     },
     "5": {
       "draws": 3,
@@ -3363,9 +3363,9 @@
     },
     "52": {
       "draws": 0,
-      "games": 15,
-      "losses": 9,
-      "rating": 1464.49,
+      "games": 16,
+      "losses": 10,
+      "rating": 1452.52,
       "wins": 6
     },
     "53": {
@@ -3454,9 +3454,9 @@
     },
     "64": {
       "draws": 0,
-      "games": 19,
-      "losses": 11,
-      "rating": 1465.52,
+      "games": 20,
+      "losses": 12,
+      "rating": 1453.5,
       "wins": 8
     },
     "65": {
@@ -3573,9 +3573,9 @@
     },
     "8": {
       "draws": 0,
-      "games": 25,
-      "losses": 14,
-      "rating": 1464.5,
+      "games": 26,
+      "losses": 15,
+      "rating": 1452.1,
       "wins": 11
     },
     "80": {
