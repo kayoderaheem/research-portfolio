@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "HEV–TLS maturity may proxy immune abundance, tissue quality, or treatment selection rather than add independent information.",
-      "next_test": "Blinded patient-level comparison of prespecified HEV–TLS scores with composition and clinical baselines in pretreatment samples.",
-      "opponent": 117,
-      "outcome": "win",
-      "reason": "The HEV–TLS question has a clearer pretreatment predictive anchor, a cheaper 8-week patient-level test, and fewer alignment assumptions than treatment-induced state transitions.",
-      "target": 118,
-      "timestamp": "2026-11-05T20:02:30.941993+00:00"
-    },
-    {
-      "main_risk": "Spatial features may fail to improve calibrated prediction beyond composition and clinical covariates.",
-      "next_test": "Evaluate locked niche scores against composition-only and clinical models in an independent cohort with calibration and decision-curve analysis.",
-      "opponent": 99,
-      "outcome": "win",
-      "reason": "The spatial niche problem is narrower but more empirically testable and biologically anchored than treatment recommendation technology requiring causal adjustment, uncertainty validation, and credible clinical utility under shifts.",
-      "target": 118,
-      "timestamp": "2026-11-05T20:02:30.942015+00:00"
-    },
-    {
-      "main_risk": "HEV–TLS measurements may not reproduce across spatial platforms or demonstrate independent predictive value.",
-      "next_test": "Test prespecified HEV–TLS maturity scores against composition and clinical baselines in pretreatment samples with an independent-cohort check.",
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "The HEV–TLS problem offers a cheaper, cleaner early decision and a more focused transportability question; the CAF–immune project adds functional tumoroids and paired changes but depends on more high-risk tissue, platform, and model assumptions.",
-      "target": 118,
-      "timestamp": "2026-11-05T20:02:30.942025+00:00"
-    },
-    {
-      "main_risk": "Endothelial maturation may reflect inflammation, tumor subtype, or sampling rather than treatment-relevant immune access.",
-      "next_test": "Run a blinded patient-level pretreatment analysis comparing HEV–TLS scores with immune composition and clinical covariates.",
-      "opponent": 65,
-      "outcome": "win",
-      "reason": "The breast cancer problem has stronger patient-level clinical relevance and validation potential, whereas the fibrosis proposal is anchored to a murine model and bazedoxifene with a larger translational gap.",
-      "target": 118,
-      "timestamp": "2026-11-05T20:02:30.942033+00:00"
-    },
-    {
-      "main_risk": "Required paired breast tumor tissue and independent treatment-response cohorts may be unavailable or underpowered.",
-      "next_test": "Test locked HEV–TLS scores in pretreatment specimens against clinical and composition-only baselines, preserving patient-level separation.",
-      "opponent": 1,
-      "outcome": "win",
-      "reason": "The spatial predictor has a more achievable early readout and less dependence on rapid organoid establishment, clinically actionable turnaround, and correlation between ex vivo drug response and patient benefit.",
-      "target": 118,
-      "timestamp": "2026-11-05T20:02:30.942040+00:00"
-    },
-    {
       "main_risk": "The ratiometric signal may not preserve clinically relevant biology across assay platforms or may add no value beyond disease risk and MRD.",
       "next_test": "Blindly test matched patient samples on both functional platforms and lock predictions of early MRD before outcome review.",
       "opponent": 114,
@@ -2699,6 +2654,51 @@
       "reason": "The RAS project has a narrower, faster-to-test preclinical claim. The macrophage project has stronger potential patient relevance, but requires paired biopsies, reliable spatial state measurement, and response associations beyond tumor composition before its proposed transition is established.",
       "target": 150,
       "timestamp": "2026-11-27T01:47:01.636391+00:00"
+    },
+    {
+      "main_risk": "PAK1’s apparent resistance effect may be explained by baseline growth impairment or fail to reproduce across independent models.",
+      "next_test": "Compare pre-treatment versus during-treatment PAK1 perturbation in a small set of independent models, with target-engagement, untreated-growth, and drug-only controls.",
+      "opponent": 85,
+      "outcome": "win",
+      "reason": "PAK1 has a narrower, faster-to-test question with a six-week experiment that can separate drug-specific effects from baseline fitness. The Alzheimer’s triage question has greater potential clinical impact, but depends on reproducible particle assays and independent, clinically representative cohorts that may be difficult to establish within six months.",
+      "target": 151,
+      "timestamp": "2026-11-27T12:39:02.258845+00:00"
+    },
+    {
+      "main_risk": "PAK1 loss may not produce a treatment-specific effect beyond its impact on untreated growth.",
+      "next_test": "Run the proposed timing comparison with confirmed target engagement and matched untreated and drug-only controls in independent models.",
+      "opponent": 93,
+      "outcome": "win",
+      "reason": "The PAK1 question is more bounded and has a relatively direct early experimental readout. The virtual-cell proposal depends on measuring or inferring correlated mitochondrial intermediates, obtaining matched multi-assay perturbation data, and predicting an unseen rescue—several linked risks before its central claim can be tested.",
+      "target": 151,
+      "timestamp": "2026-11-27T12:39:02.258866+00:00"
+    },
+    {
+      "main_risk": "The PAK1 treatment-by-timing effect may not replicate across models or separate from general fitness effects.",
+      "next_test": "Test pre-treatment versus during-treatment PAK1 loss, with untreated growth controls and confirmed target engagement, in a small independent model set.",
+      "opponent": 91,
+      "outcome": "win",
+      "reason": "PAK1 offers a focused biological question and a short decision path. The transcriptional kinetics proposal could yield broader methods insight, but requires dense matched time courses, identifiable kinetic states, and predictive transfer to held-out perturbations; its early performance threshold does not itself establish a transferable mechanism.",
+      "target": 151,
+      "timestamp": "2026-11-27T12:39:02.258873+00:00"
+    },
+    {
+      "main_risk": "The PAK1 effect may be context-specific or fully explained by impaired untreated growth.",
+      "next_test": "Measure the prespecified treatment-by-timing contrast for PAK1 perturbation in independent models, alongside untreated, drug-only, and target-engagement controls.",
+      "opponent": 98,
+      "outcome": "win",
+      "reason": "The PAK1 study is more focused and experimentally economical for a six-month investment. The histone-code proposal requires multiple perturbation combinations, several chromatin and RNA assays, and enough independent biological variation to distinguish biochemical cooperation from cell-state or assay effects.",
+      "target": 151,
+      "timestamp": "2026-11-27T12:39:02.258877+00:00"
+    },
+    {
+      "main_risk": "The PAK1 treatment-specific effect may not reproduce across independent models.",
+      "next_test": "Compare pre-treatment and during-treatment PAK1 perturbation in a small independent model set, separating drug response from untreated growth and confirming target engagement.",
+      "opponent": 77,
+      "outcome": "win",
+      "reason": "The tuberculoma question addresses an important clinical decision, but depends on longitudinal patient cohorts, a defensible activity reference standard, and center-held-out validation; no access to those resources is established. PAK1 has a clearer, cheaper early test and more informative stop-or-refine branches within six months.",
+      "target": 151,
+      "timestamp": "2026-11-27T12:39:02.258881+00:00"
     }
   ],
   "k_factor": 24,
@@ -3104,10 +3104,10 @@
     },
     "151": {
       "draws": 0,
-      "games": 1,
+      "games": 6,
       "losses": 1,
-      "rating": 1488.0,
-      "wins": 0
+      "rating": 1543.74,
+      "wins": 5
     },
     "17": {
       "draws": 0,
@@ -3566,9 +3566,9 @@
     },
     "77": {
       "draws": 0,
-      "games": 16,
-      "losses": 9,
-      "rating": 1480.42,
+      "games": 17,
+      "losses": 10,
+      "rating": 1470.24,
       "wins": 7
     },
     "78": {
@@ -3629,9 +3629,9 @@
     },
     "85": {
       "draws": 0,
-      "games": 22,
-      "losses": 11,
-      "rating": 1492.71,
+      "games": 23,
+      "losses": 12,
+      "rating": 1480.55,
       "wins": 11
     },
     "86": {
@@ -3678,9 +3678,9 @@
     },
     "91": {
       "draws": 1,
-      "games": 24,
-      "losses": 12,
-      "rating": 1495.27,
+      "games": 25,
+      "losses": 13,
+      "rating": 1483.83,
       "wins": 11
     },
     "92": {
@@ -3692,9 +3692,9 @@
     },
     "93": {
       "draws": 0,
-      "games": 30,
-      "losses": 16,
-      "rating": 1483.28,
+      "games": 31,
+      "losses": 17,
+      "rating": 1471.86,
       "wins": 14
     },
     "94": {
@@ -3727,9 +3727,9 @@
     },
     "98": {
       "draws": 0,
-      "games": 18,
-      "losses": 10,
-      "rating": 1480.43,
+      "games": 19,
+      "losses": 11,
+      "rating": 1469.89,
       "wins": 8
     },
     "99": {
