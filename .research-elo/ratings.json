@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "The ratiometric signal may not preserve clinically relevant biology across assay platforms or may add no value beyond disease risk and MRD.",
-      "next_test": "Blindly test matched patient samples on both functional platforms and lock predictions of early MRD before outcome review.",
-      "opponent": 114,
-      "outcome": "win",
-      "reason": "Issue 102 has a clearer, clinically relevant anchor, stronger leakage-resistant external validation plan, and a feasible 10-week cross-platform decision test; issue 114 requires several higher-risk mechanistic and cohort-generalization assumptions.",
-      "target": 102,
-      "timestamp": "2026-11-06T01:36:10.050262+00:00"
-    },
-    {
-      "main_risk": "Cross-platform ratiometric metrics may fail to improve calibrated patient-level prediction over clinical risk and simpler viability measures.",
-      "next_test": "Run blinded paired platform testing with locked prediction of MRD and compare against clinical-risk and single-agent baselines.",
-      "opponent": 108,
-      "outcome": "win",
-      "reason": "Issue 102 offers broader and more replaceable knowledge about whether functional biomarkers transport across laboratories, with a defined external-cohort test; issue 108 has greater causal upside but depends on marker specificity, perturbation validity, and model relevance.",
-      "target": 102,
-      "timestamp": "2026-11-06T01:36:10.050282+00:00"
-    },
-    {
-      "main_risk": "The apparent response association may be driven by clinical risk, growth, or assay effects rather than transportable drug sensitivity.",
-      "next_test": "Perform blinded paired microfluidic and orthogonal-assay testing, assessing incremental calibrated value over clinical and simple response baselines.",
-      "opponent": 61,
-      "outcome": "loss",
-      "reason": "Issue 102 is more decision-ready, with existing clinical associations, a direct orthogonal assay test, and a shorter path to an informative validation outcome. Issue 61 relies on technically demanding spatial measurements and an uncertain claim that proximity identifies functional antigen-presentation opportunity.",
-      "target": 102,
-      "timestamp": "2026-11-06T01:36:10.050292+00:00"
-    },
-    {
-      "main_risk": "The ratiometric metric may not replicate across laboratories or retain incremental value beyond clinical risk and MRD.",
-      "next_test": "Blindly evaluate matched samples across platforms and test locked patient-level prediction against clinical-risk and raw viability baselines.",
-      "opponent": 63,
-      "outcome": "win",
-      "reason": "Issue 102 has a tighter scientific problem and a practical external-validation experiment, whereas issue 63 combines spatial measurement, treatment-induced timing, cellular-state replication, and functional causality in a disease- and regimen-specific setting.",
-      "target": 102,
-      "timestamp": "2026-11-06T01:36:10.050299+00:00"
-    },
-    {
-      "main_risk": "The functional signal may reflect disease burden or treatment intensity rather than true combination sensitivity.",
-      "next_test": "Use a locked, blinded cross-platform assay comparison to determine whether ratiometric response adds calibrated value beyond clinical risk and MRD.",
-      "opponent": 90,
-      "outcome": "win",
-      "reason": "Issue 102 has a more mature translational anchor, established outcome framework, and an early test that can directly support continuation or stopping. Issue 90 could yield broader discovery insight but requires history to be identifiable, causally meaningful, and transferable for unseen schedules.",
-      "target": 102,
-      "timestamp": "2026-11-06T01:36:10.050305+00:00"
-    },
-    {
       "main_risk": "Transitions may reflect differential survival, cell-cycle shifts, or batch artifacts rather than reproducible adaptation.",
       "next_test": "Test a preregistered transition panel in paired patient tumors with patient-level replication and residual-disease prediction.",
       "opponent": 117,
@@ -2699,6 +2654,51 @@
       "reason": "The tuberculoma question addresses an important clinical decision, but depends on longitudinal patient cohorts, a defensible activity reference standard, and center-held-out validation; no access to those resources is established. PAK1 has a clearer, cheaper early test and more informative stop-or-refine branches within six months.",
       "target": 151,
       "timestamp": "2026-11-27T12:39:02.258881+00:00"
+    },
+    {
+      "main_risk": "There may not be enough independent PDX models or studies for leakage-resistant external validation.",
+      "next_test": "Audit measurement schedules, paired controls, eligible independent models, and studies before fitting a model.",
+      "opponent": 153,
+      "outcome": "loss",
+      "reason": "The PDX trajectory question has a fast, low-cost data audit and a direct test of whether early measurements add value beyond simple baselines. Its result could guide model prioritization even if the added prediction value is absent; the AURKA–condensate project depends on several linked biological and assay assumptions.",
+      "target": 152,
+      "timestamp": "2026-11-27T23:30:44.655588+00:00"
+    },
+    {
+      "main_risk": "The PDX resource may lack enough independent studies or consistent longitudinal measurements for external validation.",
+      "next_test": "Audit a subset of PDX experiments and test a prespecified early-trajectory feature against baseline-growth and drug/tumor-type baselines in a model-grouped split.",
+      "opponent": 114,
+      "outcome": "win",
+      "reason": "The macrophage-state question has greater potential patient impact, but the proposed small paired-biopsy pilot is unlikely to establish reliable response prediction, and tissue availability and spatial measurements add dependencies. The PDX trajectory question offers a more contained early test and a useful answer about whether trajectory data add predictive value at all.",
+      "target": 152,
+      "timestamp": "2026-11-27T23:30:44.655607+00:00"
+    },
+    {
+      "main_risk": "Nascent-RNA and polymerase-occupancy measurements may not uniquely identify transferable kinetic states.",
+      "next_test": "Run a small replicate-aware time course with two mechanistically distinct acute perturbations and check parameter recovery and held-out perturbation prediction against a simple baseline.",
+      "opponent": 91,
+      "outcome": "loss",
+      "reason": "Kinetic identifiability addresses a broader mechanistic question than the tumor-specific AURKA–condensate marker, and its anchor can be tested across perturbations without committing to a single application. A short time-course can reveal whether the measurements distinguish kinetic effects, while the tumor project requires several biological and pharmacological controls before a marker-response claim is credible.",
+      "target": 152,
+      "timestamp": "2026-11-27T23:30:44.655616+00:00"
+    },
+    {
+      "main_risk": "The chosen fusion-positive models may not show a measurable, causal AURKA–condensate dependency.",
+      "next_test": "Confirm the axis in a small model panel, then compare matched single-agent and combination treatments with early marker measurements and target-engagement controls.",
+      "opponent": 127,
+      "outcome": "win",
+      "reason": "The urine-compartment project has substantial clinical upside, but it requires multi-site longitudinal data, multiple assays, and evidence of decision benefit beyond routine measures. The AURKA–condensate question is narrower but has a more direct controlled-model test within six months and can produce an interpretable negative result about the proposed mechanism.",
+      "target": 152,
+      "timestamp": "2026-11-27T23:30:44.655623+00:00"
+    },
+    {
+      "main_risk": "SECmere RNA may reflect isolation, yield, or contamination differences rather than a transportable disease signal.",
+      "next_test": "For the chosen tumor-model project, first verify measurable AURKA activity and condensate features, then test whether early changes precede viability loss under matched treatment conditions.",
+      "opponent": 85,
+      "outcome": "win",
+      "reason": "SECmere triage has potentially meaningful clinical value, but its advantage depends on reproducible fraction-specific signal, well-characterized patient samples, and external site calibration. The AURKA–condensate project has a more immediate, falsifiable mechanistic test and does not require making a clinical biomarker claim from a pilot cohort.",
+      "target": 152,
+      "timestamp": "2026-11-27T23:30:44.655629+00:00"
     }
   ],
   "k_factor": 24,
@@ -2824,9 +2824,9 @@
     },
     "114": {
       "draws": 0,
-      "games": 22,
-      "losses": 11,
-      "rating": 1501.35,
+      "games": 23,
+      "losses": 12,
+      "rating": 1488.89,
       "wins": 11
     },
     "115": {
@@ -2922,9 +2922,9 @@
     },
     "127": {
       "draws": 0,
-      "games": 12,
-      "losses": 5,
-      "rating": 1518.57,
+      "games": 13,
+      "losses": 6,
+      "rating": 1505.51,
       "wins": 7
     },
     "128": {
@@ -3108,6 +3108,20 @@
       "losses": 1,
       "rating": 1543.74,
       "wins": 5
+    },
+    "152": {
+      "draws": 0,
+      "games": 5,
+      "losses": 2,
+      "rating": 1512.25,
+      "wins": 3
+    },
+    "153": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "rating": 1512.0,
+      "wins": 1
     },
     "17": {
       "draws": 0,
@@ -3629,9 +3643,9 @@
     },
     "85": {
       "draws": 0,
-      "games": 23,
-      "losses": 12,
-      "rating": 1480.55,
+      "games": 24,
+      "losses": 13,
+      "rating": 1469.25,
       "wins": 11
     },
     "86": {
@@ -3678,10 +3692,10 @@
     },
     "91": {
       "draws": 1,
-      "games": 25,
+      "games": 26,
       "losses": 13,
-      "rating": 1483.83,
-      "wins": 11
+      "rating": 1496.4,
+      "wins": 12
     },
     "92": {
       "draws": 0,
