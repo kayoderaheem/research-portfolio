@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Three-dimensional niche effects may be dominated by platform and batch variability rather than clinically predictive biology.",
-      "next_test": "Run blinded paired 2D/3D testing with two drugs across two laboratories and measure reproducibility and patient-level outcome prediction.",
-      "opponent": 105,
-      "outcome": "loss",
-      "reason": "Bone-niche drug response offers a broader, more replaceable assay capability with a relatively cheap paired, multicenter test, while the virotherapy study depends on scarce longitudinal spatial specimens and external validation.",
-      "target": 119,
-      "timestamp": "2026-11-05T11:05:58.066722+00:00"
-    },
-    {
-      "main_risk": "Spatial features may add no information beyond composition, disease burden, clonality, or sampling effects.",
-      "next_test": "Compare locked spatial features with composition-only and clinical baselines in paired pretreatment and early-treatment specimens.",
-      "opponent": 89,
-      "outcome": "win",
-      "reason": "The glioma study has clearer clinical value, a fixed predictive anchor, strong patient-level safeguards, and an earlier decision point; the virtual-cell project requires several high-risk assumptions about latent history, extrapolation, and context transfer.",
-      "target": 119,
-      "timestamp": "2026-11-05T11:05:58.066744+00:00"
-    },
-    {
-      "main_risk": "The apparent spatial signal may be confounded by tumor burden, purity, necrosis, or sampling location.",
-      "next_test": "Test prespecified spatial features against composition and clinical baselines in a blinded paired window-of-opportunity cohort.",
-      "opponent": 101,
-      "outcome": "win",
-      "reason": "Spatial organization in virotherapy has a shorter, more discriminating readout and useful negative branches, whereas lymphoma resistance timing requires difficult causal separation of treatment selection, induced damage, sampling, and salvage-treatment effects.",
-      "target": 119,
-      "timestamp": "2026-11-05T11:05:58.066757+00:00"
-    },
-    {
-      "main_risk": "The IL-17A/retinoid spatial split may be a chronic tunnel correlate rather than an actionable treatment determinant.",
-      "next_test": "Apply a locked tunnel-state classifier to pretreatment biopsies under standardized therapy and compare calibrated patient-level prediction with clinical and composition baselines.",
-      "opponent": 9,
-      "outcome": "loss",
-      "reason": "Hidradenitis suppurativa offers a more concrete tissue unit, potentially simpler targeted validation, and a clearer path to mechanism-matched treatment testing than the data-scarce virotherapy setting.",
-      "target": 119,
-      "timestamp": "2026-11-05T11:05:58.066764+00:00"
-    },
-    {
-      "main_risk": "The required paired spatial and immune profiling cohort may be too small or heterogeneous for stable patient-level prediction.",
-      "next_test": "Profile pretreatment and week-2 samples from 20-30 patients with a locked niche score and blinded response assessment.",
-      "opponent": 116,
-      "outcome": "win",
-      "reason": "The glioma proposal has higher potential clinical impact, stronger evidence readiness, and a more developed validation framework; mastitis currently relies on a small post-treatment dataset and an unestablished pretreatment niche.",
-      "target": 119,
-      "timestamp": "2026-11-05T11:05:58.066771+00:00"
-    },
-    {
       "main_risk": "HEV–TLS maturity may proxy immune abundance, tissue quality, or treatment selection rather than add independent information.",
       "next_test": "Blinded patient-level comparison of prespecified HEV–TLS scores with composition and clinical baselines in pretreatment samples.",
       "opponent": 117,
@@ -2699,6 +2654,51 @@
       "reason": "The STING proposal links a stated response-associated myeloid observation to a temporally ordered, testable necrosis-to-adaptive-response mechanism. The autism proposal has a clearer clinical endpoint but a long chain from metabolite association to calibrated, transportable triage benefit.",
       "target": 128,
       "timestamp": "2026-11-26T17:01:31.940690+00:00"
+    },
+    {
+      "main_risk": "RAS alteration may not predict a treatment-specific benefit across independent resistant models.",
+      "next_test": "Run a blinded dose-response comparison of BRAF inhibition versus the combination in independent RAS-altered and RAS-wild-type resistant models, with ERK pharmacodynamics.",
+      "opponent": 151,
+      "outcome": "win",
+      "reason": "The RAS project tests a more clearly specified, treatment-linked vulnerability with a direct response readout; the PAK1 project first has to establish a timing-specific effect distinct from general fitness.",
+      "target": 150,
+      "timestamp": "2026-11-27T01:47:01.636352+00:00"
+    },
+    {
+      "main_risk": "The combination benefit may be restricted to particular models or unrelated to acquired RAS status.",
+      "next_test": "Test the prespecified treatment contrast in independent resistant models stratified by acquired RAS status, with matched baseline controls and ERK measurements.",
+      "opponent": 85,
+      "outcome": "win",
+      "reason": "The RAS project has a focused, relatively early preclinical test. The Alzheimer’s project could have greater clinical impact, but depends on technically reproducible particle measurements, an independently adjudicated endpoint, and transportable site-level calibration.",
+      "target": 150,
+      "timestamp": "2026-11-27T01:47:01.636372+00:00"
+    },
+    {
+      "main_risk": "Acquired RAS status may fail to identify models with a reproducible, specific combination benefit.",
+      "next_test": "Compare combination response in independent RAS-altered and RAS-wild-type resistant models, confirming pathway suppression.",
+      "opponent": 93,
+      "outcome": "win",
+      "reason": "The RAS question is a bounded intervention-and-response test, while the virtual-cell proposal depends on distinguishing correlated bioenergetic mediators and predicting an unseen rescue from measurements that may not identify those mechanisms.",
+      "target": 150,
+      "timestamp": "2026-11-27T01:47:01.636380+00:00"
+    },
+    {
+      "main_risk": "The RAS-associated response difference may not reproduce across independent models.",
+      "next_test": "Run a blinded, model-level dose-response pilot with the combination and comparator treatments, measuring ERK suppression.",
+      "opponent": 91,
+      "outcome": "win",
+      "reason": "The RAS project offers a more direct and tractable six-month decision. The kinetic virtual-cell project has broad potential, but requires time-resolved multimodal data to identify latent states and demonstrate transfer to unseen perturbations.",
+      "target": 150,
+      "timestamp": "2026-11-27T01:47:01.636386+00:00"
+    },
+    {
+      "main_risk": "Acquired RAS status may not distinguish combination-sensitive from other resistant models.",
+      "next_test": "Test the RAS-stratified treatment effect across independent acquired-resistant models with pathway and baseline-growth controls.",
+      "opponent": 114,
+      "outcome": "win",
+      "reason": "The RAS project has a narrower, faster-to-test preclinical claim. The macrophage project has stronger potential patient relevance, but requires paired biopsies, reliable spatial state measurement, and response associations beyond tumor composition before its proposed transition is established.",
+      "target": 150,
+      "timestamp": "2026-11-27T01:47:01.636391+00:00"
     }
   ],
   "k_factor": 24,
@@ -2824,9 +2824,9 @@
     },
     "114": {
       "draws": 0,
-      "games": 21,
-      "losses": 10,
-      "rating": 1512.2,
+      "games": 22,
+      "losses": 11,
+      "rating": 1501.35,
       "wins": 11
     },
     "115": {
@@ -3094,6 +3094,20 @@
       "losses": 21,
       "rating": 1470.17,
       "wins": 18
+    },
+    "150": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1556.59,
+      "wins": 5
+    },
+    "151": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "rating": 1488.0,
+      "wins": 0
     },
     "17": {
       "draws": 0,
@@ -3615,9 +3629,9 @@
     },
     "85": {
       "draws": 0,
-      "games": 21,
-      "losses": 10,
-      "rating": 1504.45,
+      "games": 22,
+      "losses": 11,
+      "rating": 1492.71,
       "wins": 11
     },
     "86": {
@@ -3664,9 +3678,9 @@
     },
     "91": {
       "draws": 1,
-      "games": 23,
-      "losses": 11,
-      "rating": 1506.29,
+      "games": 24,
+      "losses": 12,
+      "rating": 1495.27,
       "wins": 11
     },
     "92": {
@@ -3678,9 +3692,9 @@
     },
     "93": {
       "draws": 0,
-      "games": 29,
-      "losses": 15,
-      "rating": 1494.26,
+      "games": 30,
+      "losses": 16,
+      "rating": 1483.28,
       "wins": 14
     },
     "94": {
