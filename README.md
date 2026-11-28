@@ -135,39 +135,39 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | 30 | [#150 — [Idea] Test whether acquired RAS reactivation selects BRAF–RAS co-inhibition in colorectal cancer](https://github.com/kayoderaheem/research-portfolio/issues/150) | **1557** | 5 | 5W / 0D / 0L |
 | 31 | [#60 — [Idea] Spatial cGAS–STING–fibrosis boundaries that determine combined TACE–checkpoint response](https://github.com/kayoderaheem/research-portfolio/issues/60) | **1548** | 18 | 11W / 0D / 7L |
 | 32 | [#90 — [Idea] Prospective limits of virtual-cell extrapolation across regenerative history](https://github.com/kayoderaheem/research-portfolio/issues/90) | **1547** | 17 | 10W / 1D / 6L |
-| 33 | [#136 — [Idea] Incremental decision value of retinal imaging beyond clinical cardiovascular risk assessment](https://github.com/kayoderaheem/research-portfolio/issues/136) | **1544** | 10 | 7W / 0D / 3L |
-| 34 | [#78 — [Idea] Incremental decision value of ultrasound-enhanced airway risk stratification across clinical populations](https://github.com/kayoderaheem/research-portfolio/issues/78) | **1544** | 20 | 12W / 0D / 8L |
-| 35 | [#108 — [Idea] Causal testing of CD44v9 persistence as a reversible driver of pancreatic cancer drug resistance](https://github.com/kayoderaheem/research-portfolio/issues/108) | **1544** | 10 | 7W / 0D / 3L |
-| 36 | [#131 — [Idea] External clinical-use validation of multimodal tarsal tunnel diagnosis](https://github.com/kayoderaheem/research-portfolio/issues/131) | **1544** | 8 | 6W / 0D / 2L |
-| 37 | [#151 — [Idea] Test whether time-gated PAK1 perturbation separates squamous cancer resistance from growth effects](https://github.com/kayoderaheem/research-portfolio/issues/151) | **1544** | 6 | 5W / 0D / 1L |
-| 38 | [#145 — [Idea] Falsifying hypoxia-aware ARG2 counterfactuals in engineered T cells](https://github.com/kayoderaheem/research-portfolio/issues/145) | **1543** | 12 | 8W / 0D / 4L |
-| 39 | [#39 — [Idea] Composition-aware counterfactuals for unseen perturbations across tissue neighborhoods](https://github.com/kayoderaheem/research-portfolio/issues/39) | **1543** | 30 | 17W / 0D / 13L |
-| 40 | [#132 — [Idea] Incremental multimodal arrhythmic-risk value for genotype-informed ICD decisions in dilated cardiomyopathy](https://github.com/kayoderaheem/research-portfolio/issues/132) | **1543** | 12 | 8W / 0D / 4L |
-| 41 | [#84 — [Idea] Decision value of vital-sign and medication signals beyond BIS for early deep-anesthesia warnings](https://github.com/kayoderaheem/research-portfolio/issues/84) | **1542** | 18 | 11W / 0D / 7L |
-| 42 | [#27 — [Idea] Decision-value and site-transportable calibration of temporal multimodal deterioration risk in ICU care](https://github.com/kayoderaheem/research-portfolio/issues/27) | **1542** | 33 | 18W / 0D / 15L |
-| 43 | [#45 — [Idea] Incremental treatment-decision value of functional drug screening beyond genomic matching in pediatric brain tumors](https://github.com/kayoderaheem/research-portfolio/issues/45) | **1542** | 19 | 11W / 0D / 8L |
-| 44 | [#83 — [Idea] Decision value of lymphocyte trajectories for early anti-drug-antibody testing during natalizumab therapy](https://github.com/kayoderaheem/research-portfolio/issues/83) | **1542** | 16 | 10W / 0D / 6L |
-| 45 | [#71 — [Idea] Dynamic clinical-imaging-molecular calibration for treatment-aware risk in anti-MDA5 dermatomyositis-associated ILD](https://github.com/kayoderaheem/research-portfolio/issues/71) | **1542** | 14 | 9W / 0D / 5L |
-| 46 | [#138 — [Idea] Abstention-calibrated virtual cells for unseen combinations and doses](https://github.com/kayoderaheem/research-portfolio/issues/138) | **1541** | 12 | 8W / 0D / 4L |
-| 47 | [#31 — [Idea] Site-transportable multimodal validation of corneal nerve imaging for small-fiber neuropathy](https://github.com/kayoderaheem/research-portfolio/issues/31) | **1537** | 34 | 19W / 0D / 15L |
-| 48 | [#141 — [Idea] Counterfactual identifiability of airway interferon cell-type effects](https://github.com/kayoderaheem/research-portfolio/issues/141) | **1536** | 12 | 7W / 1D / 4L |
-| 49 | [#148 — [Idea] Falsifiable context transfer for NGLY1 microglial perturbations](https://github.com/kayoderaheem/research-portfolio/issues/148) | **1536** | 7 | 5W / 0D / 2L |
-| 50 | [#112 — [Idea] Incremental predictive value of spatial immune fronts during electrochemotherapy](https://github.com/kayoderaheem/research-portfolio/issues/112) | **1536** | 11 | 7W / 0D / 4L |
-| 51 | [#106 — [Idea] Replicate-aware prediction of actionable resistance trajectories under targeted therapy](https://github.com/kayoderaheem/research-portfolio/issues/106) | **1535** | 7 | 5W / 0D / 2L |
-| 52 | [#104 — [Idea] Sex-stratified transportability of immune-response signals under checkpoint therapy](https://github.com/kayoderaheem/research-portfolio/issues/104) | **1534** | 9 | 6W / 0D / 3L |
-| 53 | [#139 — [Idea] Genotype-by-environment limits of virtual-cell extrapolation during state transitions](https://github.com/kayoderaheem/research-portfolio/issues/139) | **1534** | 9 | 6W / 0D / 3L |
-| 54 | [#51 — [Idea] Transportable kinase-activity states for predicting drug response across tumor cohorts](https://github.com/kayoderaheem/research-portfolio/issues/51) | **1534** | 17 | 10W / 0D / 7L |
-| 55 | [#2 — [Idea] Transportable response signatures for molecularly matched therapy in advanced pancreatic cancer](https://github.com/kayoderaheem/research-portfolio/issues/2) | **1533** | 35 | 19W / 0D / 16L |
-| 56 | [#73 — [Idea] Incremental decision value of hormonal and lifestyle signals for PCOS diagnostic triage](https://github.com/kayoderaheem/research-portfolio/issues/73) | **1523** | 18 | 10W / 0D / 8L |
-| 57 | [#87 — [Idea] Spatially identifiable virtual-cell responses to unseen intracellular perturbations](https://github.com/kayoderaheem/research-portfolio/issues/87) | **1523** | 20 | 11W / 0D / 9L |
-| 58 | [#149 — [Idea] Prospective falsification of melanoma IFN-gamma virtual-cell dynamics](https://github.com/kayoderaheem/research-portfolio/issues/149) | **1523** | 12 | 7W / 0D / 5L |
-| 59 | [#118 — [Idea] Endothelial maturation niches as a tissue-context predictor of breast cancer treatment response](https://github.com/kayoderaheem/research-portfolio/issues/118) | **1523** | 10 | 6W / 0D / 4L |
-| 60 | [#140 — [Idea] Identifying cytosolic-access effects in perturbation-response models](https://github.com/kayoderaheem/research-portfolio/issues/140) | **1522** | 12 | 7W / 0D / 5L |
-| 61 | [#134 — [Idea] External decision validation of gut-brain multimodal biomarkers for post-stroke cognitive impairment](https://github.com/kayoderaheem/research-portfolio/issues/134) | **1521** | 8 | 5W / 0D / 3L |
-| 62 | [#152 — [Idea] Test whether AURKA–condensate response predicts benefit from dual inhibition in FGFR3–TACC3 tumors](https://github.com/kayoderaheem/research-portfolio/issues/152) | **1512** | 5 | 3W / 0D / 2L |
-| 63 | [#153 — [Idea] Test whether early PDX growth trajectories improve drug-response prediction beyond terminal tumor inhibition](https://github.com/kayoderaheem/research-portfolio/issues/153) | **1512** | 1 | 1W / 0D / 0L |
-| 64 | [#127 — [Idea] Incremental decision value of atlas-anchored urine compartments for early diabetic kidney disease staging](https://github.com/kayoderaheem/research-portfolio/issues/127) | **1506** | 13 | 7W / 0D / 6L |
-| 65 | [#91 — [Idea] Kinetic identifiability of acute transcriptional perturbations in virtual cells](https://github.com/kayoderaheem/research-portfolio/issues/91) | **1496** | 26 | 12W / 1D / 13L |
+| 33 | [#153 — [Idea] Test whether early PDX growth trajectories improve drug-response prediction beyond terminal tumor inhibition](https://github.com/kayoderaheem/research-portfolio/issues/153) | **1545** | 6 | 5W / 0D / 1L |
+| 34 | [#136 — [Idea] Incremental decision value of retinal imaging beyond clinical cardiovascular risk assessment](https://github.com/kayoderaheem/research-portfolio/issues/136) | **1544** | 10 | 7W / 0D / 3L |
+| 35 | [#78 — [Idea] Incremental decision value of ultrasound-enhanced airway risk stratification across clinical populations](https://github.com/kayoderaheem/research-portfolio/issues/78) | **1544** | 20 | 12W / 0D / 8L |
+| 36 | [#108 — [Idea] Causal testing of CD44v9 persistence as a reversible driver of pancreatic cancer drug resistance](https://github.com/kayoderaheem/research-portfolio/issues/108) | **1544** | 10 | 7W / 0D / 3L |
+| 37 | [#131 — [Idea] External clinical-use validation of multimodal tarsal tunnel diagnosis](https://github.com/kayoderaheem/research-portfolio/issues/131) | **1544** | 8 | 6W / 0D / 2L |
+| 38 | [#151 — [Idea] Test whether time-gated PAK1 perturbation separates squamous cancer resistance from growth effects](https://github.com/kayoderaheem/research-portfolio/issues/151) | **1544** | 6 | 5W / 0D / 1L |
+| 39 | [#145 — [Idea] Falsifying hypoxia-aware ARG2 counterfactuals in engineered T cells](https://github.com/kayoderaheem/research-portfolio/issues/145) | **1543** | 12 | 8W / 0D / 4L |
+| 40 | [#39 — [Idea] Composition-aware counterfactuals for unseen perturbations across tissue neighborhoods](https://github.com/kayoderaheem/research-portfolio/issues/39) | **1543** | 30 | 17W / 0D / 13L |
+| 41 | [#132 — [Idea] Incremental multimodal arrhythmic-risk value for genotype-informed ICD decisions in dilated cardiomyopathy](https://github.com/kayoderaheem/research-portfolio/issues/132) | **1543** | 12 | 8W / 0D / 4L |
+| 42 | [#84 — [Idea] Decision value of vital-sign and medication signals beyond BIS for early deep-anesthesia warnings](https://github.com/kayoderaheem/research-portfolio/issues/84) | **1542** | 18 | 11W / 0D / 7L |
+| 43 | [#27 — [Idea] Decision-value and site-transportable calibration of temporal multimodal deterioration risk in ICU care](https://github.com/kayoderaheem/research-portfolio/issues/27) | **1542** | 33 | 18W / 0D / 15L |
+| 44 | [#45 — [Idea] Incremental treatment-decision value of functional drug screening beyond genomic matching in pediatric brain tumors](https://github.com/kayoderaheem/research-portfolio/issues/45) | **1542** | 19 | 11W / 0D / 8L |
+| 45 | [#83 — [Idea] Decision value of lymphocyte trajectories for early anti-drug-antibody testing during natalizumab therapy](https://github.com/kayoderaheem/research-portfolio/issues/83) | **1542** | 16 | 10W / 0D / 6L |
+| 46 | [#71 — [Idea] Dynamic clinical-imaging-molecular calibration for treatment-aware risk in anti-MDA5 dermatomyositis-associated ILD](https://github.com/kayoderaheem/research-portfolio/issues/71) | **1542** | 14 | 9W / 0D / 5L |
+| 47 | [#138 — [Idea] Abstention-calibrated virtual cells for unseen combinations and doses](https://github.com/kayoderaheem/research-portfolio/issues/138) | **1541** | 12 | 8W / 0D / 4L |
+| 48 | [#31 — [Idea] Site-transportable multimodal validation of corneal nerve imaging for small-fiber neuropathy](https://github.com/kayoderaheem/research-portfolio/issues/31) | **1537** | 34 | 19W / 0D / 15L |
+| 49 | [#141 — [Idea] Counterfactual identifiability of airway interferon cell-type effects](https://github.com/kayoderaheem/research-portfolio/issues/141) | **1536** | 12 | 7W / 1D / 4L |
+| 50 | [#148 — [Idea] Falsifiable context transfer for NGLY1 microglial perturbations](https://github.com/kayoderaheem/research-portfolio/issues/148) | **1536** | 7 | 5W / 0D / 2L |
+| 51 | [#118 — [Idea] Endothelial maturation niches as a tissue-context predictor of breast cancer treatment response](https://github.com/kayoderaheem/research-portfolio/issues/118) | **1536** | 11 | 7W / 0D / 4L |
+| 52 | [#112 — [Idea] Incremental predictive value of spatial immune fronts during electrochemotherapy](https://github.com/kayoderaheem/research-portfolio/issues/112) | **1536** | 11 | 7W / 0D / 4L |
+| 53 | [#106 — [Idea] Replicate-aware prediction of actionable resistance trajectories under targeted therapy](https://github.com/kayoderaheem/research-portfolio/issues/106) | **1535** | 7 | 5W / 0D / 2L |
+| 54 | [#104 — [Idea] Sex-stratified transportability of immune-response signals under checkpoint therapy](https://github.com/kayoderaheem/research-portfolio/issues/104) | **1534** | 9 | 6W / 0D / 3L |
+| 55 | [#139 — [Idea] Genotype-by-environment limits of virtual-cell extrapolation during state transitions](https://github.com/kayoderaheem/research-portfolio/issues/139) | **1534** | 9 | 6W / 0D / 3L |
+| 56 | [#51 — [Idea] Transportable kinase-activity states for predicting drug response across tumor cohorts](https://github.com/kayoderaheem/research-portfolio/issues/51) | **1534** | 17 | 10W / 0D / 7L |
+| 57 | [#2 — [Idea] Transportable response signatures for molecularly matched therapy in advanced pancreatic cancer](https://github.com/kayoderaheem/research-portfolio/issues/2) | **1533** | 35 | 19W / 0D / 16L |
+| 58 | [#73 — [Idea] Incremental decision value of hormonal and lifestyle signals for PCOS diagnostic triage](https://github.com/kayoderaheem/research-portfolio/issues/73) | **1523** | 18 | 10W / 0D / 8L |
+| 59 | [#87 — [Idea] Spatially identifiable virtual-cell responses to unseen intracellular perturbations](https://github.com/kayoderaheem/research-portfolio/issues/87) | **1523** | 20 | 11W / 0D / 9L |
+| 60 | [#149 — [Idea] Prospective falsification of melanoma IFN-gamma virtual-cell dynamics](https://github.com/kayoderaheem/research-portfolio/issues/149) | **1523** | 12 | 7W / 0D / 5L |
+| 61 | [#140 — [Idea] Identifying cytosolic-access effects in perturbation-response models](https://github.com/kayoderaheem/research-portfolio/issues/140) | **1510** | 13 | 7W / 0D / 6L |
+| 62 | [#134 — [Idea] External decision validation of gut-brain multimodal biomarkers for post-stroke cognitive impairment](https://github.com/kayoderaheem/research-portfolio/issues/134) | **1509** | 9 | 5W / 0D / 4L |
+| 63 | [#152 — [Idea] Test whether AURKA–condensate response predicts benefit from dual inhibition in FGFR3–TACC3 tumors](https://github.com/kayoderaheem/research-portfolio/issues/152) | **1500** | 6 | 3W / 0D / 3L |
+| 64 | [#91 — [Idea] Kinetic identifiability of acute transcriptional perturbations in virtual cells](https://github.com/kayoderaheem/research-portfolio/issues/91) | **1496** | 26 | 12W / 1D / 13L |
+| 65 | [#127 — [Idea] Incremental decision value of atlas-anchored urine compartments for early diabetic kidney disease staging](https://github.com/kayoderaheem/research-portfolio/issues/127) | **1494** | 14 | 7W / 0D / 7L |
 | 66 | [#114 — [Idea] DOK3-CARD9 macrophage-state transitions as reproducible determinants of PD-1 blockade response](https://github.com/kayoderaheem/research-portfolio/issues/114) | **1489** | 23 | 11W / 0D / 12L |
 | 67 | [#130 — [Idea] Congestion-aware multimodal prediction of cardiovascular drug exposure and response](https://github.com/kayoderaheem/research-portfolio/issues/130) | **1480** | 12 | 5W / 0D / 7L |
 | 68 | [#115 — [Idea] Invasive-front hybrid states and tissue context as predictors of MYC-inhibitor response in pancreatic cancer](https://github.com/kayoderaheem/research-portfolio/issues/115) | **1477** | 10 | 4W / 0D / 6L |
@@ -254,7 +254,7 @@ Ratings organize attention; the scientific reasoning and earliest decision-chang
 | 149 | [#12 — [Idea] Antigen-presentation escape neighborhoods predicting checkpoint response in melanoma with HIV](https://github.com/kayoderaheem/research-portfolio/issues/12) | **1367** | 16 | 2W / 0D / 14L |
 | 150 | [#95 — [Idea] Evolution-aware virtual cells for unseen therapy resistance states](https://github.com/kayoderaheem/research-portfolio/issues/95) | **1365** | 12 | 0W / 0D / 12L |
 
-_Last synchronized: 2026-11-27 23:30 UTC._
+_Last synchronized: 2026-11-28 07:58 UTC._
 <!-- RESEARCH_ELO_END -->
 
 ## Add ideas manually

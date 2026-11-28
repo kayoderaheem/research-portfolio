@@ -1,51 +1,6 @@
 {
   "history": [
     {
-      "main_risk": "Transitions may reflect differential survival, cell-cycle shifts, or batch artifacts rather than reproducible adaptation.",
-      "next_test": "Test a preregistered transition panel in paired patient tumors with patient-level replication and residual-disease prediction.",
-      "opponent": 117,
-      "outcome": "loss",
-      "reason": "Treatment-induced transitions offer a clearer discovery anchor, stronger starting evidence, and simpler focused validation than the multi-assay, scarce-cohort virotherapy project.",
-      "target": 119,
-      "timestamp": "2026-11-06T11:02:20.487500+00:00"
-    },
-    {
-      "main_risk": "The needed paired, externally validated virotherapy tissue cohort may be unavailable or underpowered.",
-      "next_test": "Compare prespecified spatial features against composition and clinical baselines in a small paired window-of-opportunity cohort.",
-      "opponent": 99,
-      "outcome": "win",
-      "reason": "Spatial virotherapy biology has a more concrete biological measurement and falsifiable mechanism, whereas treatment recommendations require difficult causal adjustment, clinical utility assumptions, and reliable uncertainty under shifts.",
-      "target": 119,
-      "timestamp": "2026-11-06T11:02:20.487523+00:00"
-    },
-    {
-      "main_risk": "Patient-derived 3D models may be too variable or selective to yield reproducible patient-level predictions.",
-      "next_test": "Run blinded paired 2D and bone-mimetic responses for two drugs across two laboratories using patient-level inference.",
-      "opponent": 105,
-      "outcome": "loss",
-      "reason": "Bone-niche assays directly test a clinically meaningful distinction between intrinsic sensitivity and microenvironmental protection, with a relatively cheap paired cross-laboratory decision test and informative failure branches.",
-      "target": 119,
-      "timestamp": "2026-11-06T11:02:20.487532+00:00"
-    },
-    {
-      "main_risk": "Spatial signal may be explained by composition, tumor burden, or sampling rather than tissue organization.",
-      "next_test": "Test a locked immune–tumor/vascular neighborhood against composition-only and clinical baselines in paired samples.",
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "The virotherapy project has a more specific treatment context, clearer endpoint, and tighter scientific anchor; the lung project adds tumoroid and therapy-class breadth that increases scope and biological uncertainty.",
-      "target": 119,
-      "timestamp": "2026-11-06T11:02:20.487539+00:00"
-    },
-    {
-      "main_risk": "The required paired patient tissue and reproducible spatial measurements may not be obtainable within six months.",
-      "next_test": "Perform a rapid feasibility and replication analysis of prespecified spatial features using available paired or independent virotherapy specimens.",
-      "opponent": 65,
-      "outcome": "loss",
-      "reason": "Virotherapy spatial organization has substantially greater potential patient impact and generalizability than a murine bazedoxifene fibrosis dataset, despite higher feasibility risk.",
-      "target": 119,
-      "timestamp": "2026-11-06T11:02:20.487546+00:00"
-    },
-    {
       "main_risk": "Spatial architecture may add no information beyond target density, composition, tumor burden, and specimen quality.",
       "next_test": "Run a patient-level, locked comparison of spatial versus composition, target-expression, and clinical baselines in an independent bispecific-treated cohort.",
       "opponent": 57,
@@ -2699,6 +2654,51 @@
       "reason": "SECmere triage has potentially meaningful clinical value, but its advantage depends on reproducible fraction-specific signal, well-characterized patient samples, and external site calibration. The AURKA–condensate project has a more immediate, falsifiable mechanistic test and does not require making a clinical biomarker claim from a pilot cohort.",
       "target": 152,
       "timestamp": "2026-11-27T23:30:44.655629+00:00"
+    },
+    {
+      "main_risk": "There may be too few independent PDX models or studies for meaningful external validation.",
+      "next_test": "Audit eligible PDX models, studies, measurement schedules, and response labels, then confirm a complete study or cohort can be held out before modeling.",
+      "opponent": 152,
+      "outcome": "win",
+      "reason": "The PDX question has a concrete, low-cost route to a leakage-resistant test using reportedly harmonized longitudinal data; the AURKA–condensate project has greater mechanistic upside but depends on several costly experimental links before an independent marker claim is credible.",
+      "target": 153,
+      "timestamp": "2026-11-28T07:58:20.049815+00:00"
+    },
+    {
+      "main_risk": "The PDX data may not support independent study-level validation after accounting for repeated models and experiments.",
+      "next_test": "Count eligible PDX models and studies and verify that treatment-control curves and terminal labels can be reconstructed consistently.",
+      "opponent": 127,
+      "outcome": "win",
+      "reason": "The kidney project could have greater clinical value, but it requires a large multi-site cohort with several urine assays and adjudicated outcomes. The PDX proposal describes an existing data resource and has a faster, clearer early decision test.",
+      "target": 153,
+      "timestamp": "2026-11-28T07:58:20.049836+00:00"
+    },
+    {
+      "main_risk": "Study-specific effects or inconsistent PDX response definitions may overwhelm any transportable trajectory signal.",
+      "next_test": "Audit PDX study coverage and label consistency, then run a prespecified model-grouped comparison with one entire study held out if feasible.",
+      "opponent": 134,
+      "outcome": "win",
+      "reason": "The stroke project needs independent cohorts, standardized cognitive follow-up, and reproducible multi-assay measurements; those dependencies make a six-month decision uncertain. The PDX proposal offers a cheaper initial test of a focused question against strong baselines.",
+      "target": 153,
+      "timestamp": "2026-11-28T07:58:20.049843+00:00"
+    },
+    {
+      "main_risk": "Cytosolic-arrival measurements may not establish target engagement or distinguish causal delivery from membrane damage and other exposure effects.",
+      "next_test": "Blind a small CPP–cargo panel and compare cytosolic-arrival measurements with orthogonal delivery, membrane-integrity, target-engagement, and response assays.",
+      "opponent": 140,
+      "outcome": "win",
+      "reason": "The cytosolic-access question targets a general interpretability problem: whether a perturbation reaches the compartment needed to produce its claimed effect. The PDX question is more immediately testable, but its likely contribution is narrower and predictive rather than mechanistic.",
+      "target": 153,
+      "timestamp": "2026-11-28T07:58:20.049848+00:00"
+    },
+    {
+      "main_risk": "There may be insufficient independent PDX studies for transport assessment, making apparent trajectory value study-specific.",
+      "next_test": "Verify the number of eligible independent PDX studies and whether a whole study can be reserved for external evaluation.",
+      "opponent": 118,
+      "outcome": "loss",
+      "reason": "The HEV–TLS proposal has potentially important tissue biology, but its predictive claim depends on linked treatment-response cohorts and reproducible spatial measurements across platforms. The PDX proposal has a more direct early test against established endpoints using a reportedly available resource.",
+      "target": 153,
+      "timestamp": "2026-11-28T07:58:20.049852+00:00"
     }
   ],
   "k_factor": 24,
@@ -2852,10 +2852,10 @@
     },
     "118": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 4,
-      "rating": 1522.51,
-      "wins": 6
+      "rating": 1535.73,
+      "wins": 7
     },
     "119": {
       "draws": 0,
@@ -2922,9 +2922,9 @@
     },
     "127": {
       "draws": 0,
-      "games": 13,
-      "losses": 6,
-      "rating": 1505.51,
+      "games": 14,
+      "losses": 7,
+      "rating": 1494.15,
       "wins": 7
     },
     "128": {
@@ -2978,9 +2978,9 @@
     },
     "134": {
       "draws": 0,
-      "games": 8,
-      "losses": 3,
-      "rating": 1520.55,
+      "games": 9,
+      "losses": 4,
+      "rating": 1509.06,
       "wins": 5
     },
     "135": {
@@ -3020,9 +3020,9 @@
     },
     "140": {
       "draws": 0,
-      "games": 12,
-      "losses": 5,
-      "rating": 1521.55,
+      "games": 13,
+      "losses": 6,
+      "rating": 1510.42,
       "wins": 7
     },
     "141": {
@@ -3111,17 +3111,17 @@
     },
     "152": {
       "draws": 0,
-      "games": 5,
-      "losses": 2,
-      "rating": 1512.25,
+      "games": 6,
+      "losses": 3,
+      "rating": 1500.24,
       "wins": 3
     },
     "153": {
       "draws": 0,
-      "games": 1,
-      "losses": 0,
-      "rating": 1512.0,
-      "wins": 1
+      "games": 6,
+      "losses": 1,
+      "rating": 1544.77,
+      "wins": 5
     },
     "17": {
       "draws": 0,
